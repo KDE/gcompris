@@ -13,6 +13,7 @@ include:
       - /gitlab-templates/json-validation.yml
       - /gitlab-templates/cppcheck.yml
       - /gitlab-templates/snap-snapcraft-lxd.yml
+      - /gitlab-templates/android-qt6.yml
 
 flatpak_for_teachers:
   extends: flatpak-amd64
