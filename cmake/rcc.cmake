@@ -39,6 +39,8 @@ function(GCOMPRIS_ADD_RCC resource_path)
 
   if(WIN32)
     set(_RCC_COMMAND ${QT_MAJOR}::rcc "--format-version" 2 "-binary" -o ${CREATED_RCC} ${CREATED_QRC})
+  elseif(ANDROID)
+    set(_RCC_COMMAND ${QT_MAJOR}::rcc "--format-version" 2 --no-zstd "-binary" -o ${CREATED_RCC} - < ${CREATED_QRC})
   else()
     set(_RCC_COMMAND ${QT_MAJOR}::rcc "--format-version" 2 "-binary" -o ${CREATED_RCC} - < ${CREATED_QRC})
   endif()
