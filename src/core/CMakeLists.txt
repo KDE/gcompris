@@ -79,7 +79,7 @@ if(TARGET ${QT_MAJOR}::QuickControls2Basic)
   # This should not be needed! But for some reason, on windows it does not find
   # automatically the library so we need to install it manually
   get_target_property(QuickControls2BasicLibrary ${QT_MAJOR}::QuickControls2Basic IMPORTED_LOCATION)
-  install(FILES ${QuickControls2BasicLibrary} DESTINATION bin)
+  install(FILES ${QuickControls2BasicLibrary} DESTINATION ${CMAKE_INSTALL_BINDIR})
 endif()
 
 if(ANDROID)
@@ -149,9 +149,9 @@ endif()
 # ============
 
 install(TARGETS ${GCOMPRIS_EXECUTABLE_NAME}
-  ARCHIVE DESTINATION bin
-  RUNTIME DESTINATION bin
-  LIBRARY DESTINATION lib
+  ARCHIVE DESTINATION ${CMAKE_INSTALL_BINDIR}
+  RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
+  LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
   BUNDLE DESTINATION .)
 
 if(BUILD_STANDALONE)
@@ -328,7 +328,7 @@ if(BUILD_STANDALONE AND NOT ANDROID)
 
   # install a startup script for linux bundle
   if(UNIX AND NOT APPLE AND NOT UBUNTUTOUCH)
-    install(PROGRAMS ../../tools/gcompris-qt.sh DESTINATION bin)
+    install(PROGRAMS ../../tools/gcompris-qt.sh DESTINATION ${CMAKE_INSTALL_BINDIR})
   endif()
 endif()
 
