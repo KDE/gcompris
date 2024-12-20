@@ -82,6 +82,10 @@ if(TARGET ${QT_MAJOR}::QuickControls2Basic)
   install(FILES ${QuickControls2BasicLibrary} DESTINATION bin)
 endif()
 
+if(TARGET ${QT_MAJOR}::WaylandClient)
+    set(used_qt_modules ${used_qt_modules} ${QT_MAJOR}::WaylandClient ${QT_MAJOR}::WaylandClientPrivate)
+endif()
+
 if(ANDROID)
   add_library(${GCOMPRIS_EXECUTABLE_NAME} SHARED ${gcompris_SRCS})
 elseif(CMAKE_HOST_APPLE)
@@ -161,7 +165,7 @@ if(BUILD_STANDALONE)
   # First plugins should be used on all platforms
   foreach(_plugin ${QT_MAJOR}::QSvgPlugin ${QT_MAJOR}::QWebpPlugin ${QT_MAJOR}::QICOPlugin ${QT_MAJOR}::QICNSPlugin ${QT_MAJOR}::QGifPlugin ${QT_MAJOR}::QJpegPlugin ${QT_MAJOR}::QWbmpPlugin ${QT_MAJOR}::genericSensorPlugin ${QT_MAJOR}::QtSensorGesturePlugin ${QT_MAJOR}::QShakeSensorGesturePlugin
       # Should be specific plugins used on Linux
-      ${QT_MAJOR}::QComposePlatformInputContextPlugin ${QT_MAJOR}::QXcbIntegrationPlugin ${QT_MAJOR}::QXcbEglIntegrationPlugin ${QT_MAJOR}::QXcbGlxIntegrationPlugin ${QT_MAJOR}::QAlsaPlugin ${QT_MAJOR}::QPulseAudioPlugin
+      ${QT_MAJOR}::QComposePlatformInputContextPlugin ${QT_MAJOR}::QXcbIntegrationPlugin ${QT_MAJOR}::QXcbEglIntegrationPlugin ${QT_MAJOR}::QXcbGlxIntegrationPlugin ${QT_MAJOR}::QAlsaPlugin ${QT_MAJOR}::QPulseAudioPlugin ${QT_MAJOR}::QWaylandIntegrationPlugin ${QT_MAJOR}::QWaylandEglPlatformIntegrationPlugin
       # Should be specific plugins used on MacOS
       ${QT_MAJOR}::QTgaPlugin ${QT_MAJOR}::QTiffPlugin ${QT_MAJOR}::QCocoaIntegrationPlugin
       # Should be specific plugins used on Windows
