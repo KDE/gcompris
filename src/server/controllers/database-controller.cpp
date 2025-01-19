@@ -11,6 +11,10 @@
 
 #include "database-controller.h"
 
+#include <openssl/evp.h>
+#include <openssl/aes.h>
+#include <openssl/err.h>
+
 #include <QDebug>
 #include <QCryptographicHash>
 #include <QJsonDocument>
@@ -29,9 +33,8 @@
 #define VIEWS_SQL ":/gcompris/src/server/database/create_views.sql"
 #define PATCH_SQL ":/gcompris/src/server/database/patch_%1.sql"
 
-static const char *AES_ALGORITHM = "aes128";
-static const char *AES_ENCRYPTION = "aes128-cbc-pkcs7";
-static const char *INITIALIZATION_VECTOR = "gcomprisInitialisationVector";
+static const char *AES_ENCRYPTION = "AES-128-CBC-CTS";
+static const unsigned char INITIALIZATION_VECTOR[] = "gcomprisInitialisationVector";
 
 #include <iostream>
 
@@ -164,14 +167,127 @@ namespace controllers {
         return QString::number(-1);
     }
 
+    
+    void handleErrors(const char *where)
+    {
+        qDebug() << "An error occurred in" << where;
+        while(unsigned long errCode = ERR_get_error()) {
+            char *err = ERR_error_string(errCode, NULL);
+            qDebug() << "OpenSSL error:" << err << errCode;
+        }
+    }
+    
     QString DatabaseController::decryptText(const QString &value)
     {
-        return value; // TODO Implement
+        if(value.isEmpty()) {
+            return value;
+        }
+        QByteArray cipherData = value.toLatin1();
+        int cipherTextLength = cipherData.size();
+        unsigned char* cipherText = (unsigned char*)cipherData.data();
+        unsigned char* plainText = (unsigned char*) malloc(cipherTextLength + AES_BLOCK_SIZE);
+
+        EVP_CIPHER_CTX *ctx = NULL;
+        int len = 0, plaintext_len = 0;
+
+        /* Create and initialise the context */
+        if(!(ctx = EVP_CIPHER_CTX_new())) {
+            handleErrors("EVP_CIPHER_CTX_new");
+        }
+
+        EVP_CIPHER *cipher = EVP_CIPHER_fetch(NULL, AES_ENCRYPTION, NULL);
+        /* Initialise the decryption operation. */
+        if(!EVP_DecryptInit_ex2(ctx, cipher, teacherPasswordKeyAsSha, INITIALIZATION_VECTOR, NULL)) {
+            handleErrors("EVP_DecryptInit_ex2");
+        }
+
+        /* Provide the message to be decrypted, and obtain the plaintext output.
+         * EVP_DecryptUpdate can be called multiple times if necessary
+         */
+        if(cipherText) {
+            if(!EVP_DecryptUpdate(ctx, plainText, &len, cipherText, cipherTextLength)) {
+                handleErrors("EVP_DecryptUpdate");
+            }
+
+            plaintext_len = len;
+        }
+
+        /* Finalise the decryption. A positive return value indicates success,
+         * anything else is a failure - the plaintext is not trustworthy.
+         */
+        EVP_DecryptFinal_ex(ctx, plainText + len, &len);
+
+        plaintext_len += len;
+
+        QByteArray out((char *) plainText, plaintext_len);
+        out.replace("+++++++++++++++++", "");
+        QByteArray base64 = QByteArray::fromBase64(out);
+        QString ret = QString::fromUtf8(base64);
+
+        /* Clean up */
+        EVP_CIPHER_free(cipher);
+        EVP_CIPHER_CTX_free(ctx);
+        free(plainText);
+
+        qDebug() << "DECRYPT:" << value << "=>" << ret;
+        return ret;
     }
 
     QString DatabaseController::encryptText(const QString &value)
     {
-        return value; // TODO Implement
+        if(value.isEmpty()) {
+            return value;
+        }
+        QByteArray plainData = value.toUtf8().toBase64();
+        plainData.append("+++++++++++++++++");
+
+        int plainTextLength = plainData.size();
+        int cipherLength = plainTextLength;
+        unsigned char* cipherText = (unsigned char*) malloc(cipherLength);
+        unsigned char* plainText = (unsigned char*)plainData.data();
+
+        EVP_CIPHER_CTX *ctx = NULL;
+        int len = 0, ciphertext_len = 0;
+
+        /* Create and initialise the context */
+        if(!(ctx = EVP_CIPHER_CTX_new())) {
+            handleErrors("EVP_CIPHER_CTX_new");
+        }
+
+        EVP_CIPHER *cipher = EVP_CIPHER_fetch(NULL, AES_ENCRYPTION, NULL);
+
+        /* Initialise the encryption operation. */
+        if(1 != EVP_EncryptInit_ex2(ctx, cipher, teacherPasswordKeyAsSha, INITIALIZATION_VECTOR, NULL)) {
+            handleErrors("EVP_EncryptInit_ex2");
+        }
+
+        /* Provide the message to be encrypted, and obtain the encrypted output.
+         * EVP_EncryptUpdate can be called multiple times if necessary
+         */
+        if(plainText) {
+            if(1 != EVP_EncryptUpdate(ctx, cipherText, &len, plainText, plainTextLength)) {
+                handleErrors("EVP_EncryptUpdate");
+            }
+            ciphertext_len = len;
+        }
+
+        /* Finalise the encryption. Normally ciphertext bytes may be written at
+         * this stage, but this does not occur in GCM mode
+         */
+        if(1 != EVP_EncryptFinal_ex(ctx, cipherText + len, &len)) {
+            handleErrors("EVP_EncryptFinal_ex");
+        }
+        ciphertext_len += len;
+
+        QByteArray out((char *) cipherText, ciphertext_len);
+    
+        /* Clean up */
+        EVP_CIPHER_free(cipher);
+        EVP_CIPHER_CTX_free(ctx);
+        free(cipherText);
+
+        qDebug() << "ENCRYPT:" << value << "(" << plainData << ") =>" << QString::fromLatin1(out);
+        return QString::fromLatin1(out);
     }
 
     bool DatabaseController::isDatabaseLoaded()
@@ -191,6 +307,8 @@ namespace controllers {
     void DatabaseController::setKey(const QString &teacherKey)
     {
         teacherPasswordKey = teacherKey;
+        QByteArray base64 = teacherPasswordKey.toUtf8().toBase64();
+        SHA256((unsigned char*)base64.data(), base64.size(), teacherPasswordKeyAsSha);
     }
 
     bool DatabaseController::isDatabaseLocked()
@@ -752,13 +870,12 @@ namespace controllers {
                     if (dbEncrypted) {
                         if (cryptedFields.contains(field)) { // decrypt single field
                             value = QVariant::fromValue(decryptText(value.toString()));
+                            qDebug() << "JJ1-" << field << req << value;
                         }
                         else if (cryptedLists.contains(field)) { // decrypt merged fields
-                            QString str = value.toString();
+                            QString str = decryptText(value.toString());
+                            qDebug() << "JJ2-" << field << req << str;
                             QStringList names = str.split(",");
-                            for (int i = 0; i < names.size(); ++i) {
-                                names[i] = decryptText(names[i]);
-                            }
                             str = names.join(",");
                             value = QVariant::fromValue(str);
                         }

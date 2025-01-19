@@ -122,10 +122,8 @@ add_definitions(
     -DQT_NO_FOREACH
 )
 
-if((UNIX AND NOT APPLE AND NOT ANDROID) OR WIN32)
-    find_package(OpenSSL)
-    set_package_properties(OpenSSL PROPERTIES TYPE REQUIRED)
-endif()
+find_package(OpenSSL)
+set_package_properties(OpenSSL PROPERTIES TYPE REQUIRED)
 
 option(COMPILE_DOC "Enable compilation of GCompris docbook" OFF)
 if(COMPILE_DOC)
