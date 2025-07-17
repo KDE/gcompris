@@ -16,6 +16,7 @@ import "../../singletons"
 InformationLine {
     id: lineItem
     required property var jsonData
+    required property bool resultSuccess
     property string proposal: (jsonData.proposal !== "") ? jsonData.proposal : qsTr("timeout")
 
     //: %1 is an operation, %2 the result. Example: "2 x 5 = 10"
