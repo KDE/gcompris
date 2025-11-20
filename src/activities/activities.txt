@@ -43,6 +43,7 @@ color_mix
 color_mix_light
 colors
 comparator
+compass
 crane
 details
 digital_electricity

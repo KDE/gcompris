@@ -1666,6 +1666,12 @@ SPDX-FileCopyrightText = "2022 Timothée Giet"
 SPDX-License-Identifier = "CC-BY-SA-4.0"
 
 [[annotations]]
+path = "src/activities/compass/**.svg"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 Timothée Giet"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+[[annotations]]
 path = "src/activities/crane/**.svg"
 precedence = "aggregate"
 SPDX-FileCopyrightText = "2015-2020 Timothée Giet"
