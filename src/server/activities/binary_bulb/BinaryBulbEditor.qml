@@ -21,7 +21,7 @@ DatasetEditorBase {
     id: editor
     required property string textActivityData               // Json array stringified as stored in database (dataset_/dataset_content)
     property ListModel mainModel: ({})                      // The main ListModel, declared as a property for dynamic creation
-    readonly property var prototypeStack: [ editor.mainPrototype, editor.subPrototype ]   // A stack of two prototypes
+    readonly property var prototypeStack: [ editor.mainPrototype ]
 
     property ListModel mainPrototype: ListModel {
         property bool multiple: true
