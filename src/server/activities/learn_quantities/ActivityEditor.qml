@@ -14,7 +14,6 @@ import QtQuick
 
 LearnDecimalsEditor {
     textActivityData: textActivityData_
-    teacherInstructions: qsTr("learn_quantity instructions")
 
     subPrototype: ListModel {
         property bool multiple: true
