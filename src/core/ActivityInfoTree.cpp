@@ -445,6 +445,39 @@ QVariantList ActivityInfoTree::allCharacters()
     return keyboardCharacters;
 }
 
+void ActivityInfoTree::initializeSequence(const QByteArray &jsonContent) {
+    m_sessionSequence.loadFromJson(jsonContent);
+}
+
+QString ActivityInfoTree::nextActivityInSequence() {
+    QString nextActivity = "";
+    if (m_currentActivityInSequence < m_sessionSequence.size()) {
+        const auto &[activityName, datasets] = m_sessionSequence.getNextActivity();
+        // Initialize the datasets to only have the needed ones!
+        for (auto *activity: m_menuTreeFull) {
+            if (activity->shortName() == activityName) {
+                activity->setCurrentLevels(datasets);
+                nextActivity = activity->name();
+                break;
+            }
+        }
+    }
+    return nextActivity;
+}
+
+void ActivityInfoTree::resetAfterSequence() {
+    for(const auto &[activityName, datasets] : m_sessionSequence) {
+        for (auto *activity: m_menuTreeFull) {
+            if (activity->shortName() == activityName) {
+                activity->restoreInitialLevels();
+                break;
+            }
+        }
+    }
+    m_sessionSequence.clear();
+    Q_EMIT isInSequenceChanged();
+}
+
 void ActivityInfoTree::createDataset(const QJsonObject &dataset)
 {
     const QString datasetName(dataset["internal_name"].toString());

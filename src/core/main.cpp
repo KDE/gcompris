@@ -145,6 +145,10 @@ int main(int argc, char *argv[])
                                       QObject::tr("Specify on which level to start the activity. Only used when --launch option is used."), "startLevel");
     parser.addOption(clStartOnLevel);
 
+    QCommandLineOption clWithSequence("with-sequence",
+                                      QObject::tr("Start the sequence of activities passed in the json file."), "jsonSequence");
+    parser.addOption(clWithSequence);
+
     QCommandLineOption clLocale("locale",
                               QObject::tr("Specify the locale when starting GCompris."), "locale");
     parser.addOption(clLocale);
@@ -236,6 +240,17 @@ int main(int argc, char *argv[])
         }
         else {
             ApplicationSettings::getInstance()->setLocale(locale);
+        }
+    }
+    if (parser.isSet(clWithSequence)) {
+        QString sequenceFilename = parser.value(clWithSequence);
+        QFile sequenceFile(sequenceFilename);
+        if(!sequenceFile.open(QIODevice::ReadOnly | QIODevice::Text)) {
+            qWarning() << QString("Error: Unable to open the sequence file %1.").arg(sequenceFilename);
+        }
+        else {
+            QByteArray jsonContent = sequenceFile.readAll();
+            ActivityInfoTree::getInstance()->initializeSequence(jsonContent);
         }
     }
     // This will be removed later, for now, it is ignored if --renderer option is set

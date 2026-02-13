@@ -37,6 +37,7 @@ import "qrc:/gcompris/src/core/core.js" as Core
  */
 Item {
     id: bar
+
     /**
       * type: real
       * Keeps track of the number of buttons that are displayed
@@ -180,17 +181,17 @@ Item {
         {
             'bid': previous,
             'contentId': content.level,
-            'allowed': true
+            'allowed': !ActivityInfoTree.isInSequence
         },
         {
             'bid': levelText,
             'contentId': content.level,
-            'allowed': true
+            'allowed': !ActivityInfoTree.isInSequence
         },
         {
             'bid': next,
             'contentId': content.level,
-            'allowed': true
+            'allowed': !ActivityInfoTree.isInSequence
         },
         {
             'bid': repeat,
@@ -205,7 +206,7 @@ Item {
         {
             'bid': config,
             'contentId': content.config,
-            'allowed': !ApplicationSettings.isKioskMode
+            'allowed': !ApplicationSettings.isKioskMode && !ActivityInfoTree.isInSequence
         },
         {
             'bid': hint,
@@ -215,7 +216,7 @@ Item {
         {
             'bid': activityConfigImage,
             'contentId': content.activityConfig,
-            'allowed': !ApplicationSettings.isKioskMode
+            'allowed': !ApplicationSettings.isKioskMode && !ActivityInfoTree.isInSequence
         },
         {
             'bid': downloadImage,
@@ -290,6 +291,12 @@ Item {
         buttonModel = newButtonModel;
     }
 
+    Connections {
+        target: ActivityInfoTree
+        function onIsInSequenceChanged() {
+            bar.updateContent();
+        }
+    }
     Connections {
         target: bar.content
         function onValueChanged() {

@@ -209,14 +209,48 @@ Item {
     }
 
     onBack: (to) => menu ? menu.back(to) : ""
-    onHome: menu ? menu.home() : ""
+    onHome: {
+        // if we are in a sequence and in an activity (not inside a dialog)
+        // and not in the menu (the menu activity is the only one where 'menu'
+        // is undefined, we display the dialog to confirm leaving the sequence
+        if(ActivityInfoTree.isInSequence && pageView.depth === 2 && menu) {
+            Core.showMessageDialog(activity.item,
+                qsTr("You are currently in a sequence, going back to the menu will cancel it, do you confirm?"),
+                qsTr("Yes"), function() {
+                    // yes -> leave sequence and go back to menu
+                    ActivityInfoTree.resetAfterSequence();
+                    menu.home();
+                },
+                qsTr("No"), null,
+                function() { pageView.focus = true }
+            );
+        }
+        else {
+            if(menu) menu.home()
+        }
+    }
     onDisplayDialog: (dialog) => menu ? menu.displayDialog(dialog) : ""
     onDisplayDialogs: (dialogs) => menu ? menu.displayDialogs(dialogs) : ""
 
     signal activityNextLevel
     signal nextLevel
+
     onNextLevel: {
-        activityNextLevel();
+        if(ActivityInfoTree.isInSequence) {
+            print(activityInfo.name, "in sequence");
+            if(currentLevel+1 >= numberOfLevel) {
+                menu.startNextActivityInSequence();
+            }
+            else {
+                activityNextLevel();
+            }
+            // check if last level of sequence
+            // if yes, menu.loadNext()
+            // if no, go to next level. Maybe only load the datasets in the sequence, and ignore the other. To know if we are the last one, check the next level number and if 0, then change activity. We may need to move the number of levels in the ActivityBase instead of js
+        }
+        else {
+            activityNextLevel();
+        }
     }
 
     Keys.forwardTo: activity.children
