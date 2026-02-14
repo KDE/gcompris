@@ -101,6 +101,7 @@ Q_SIGNALS:
     void startingLevelChanged();
     void activitiesWithoutDatasets(QList<ActivityInfo *> activitiesWithoutActiveDatasets);
     void isInSequenceChanged();
+    void startSequence();
 
 private:
     explicit ActivityInfoTree(QObject *parent = nullptr);

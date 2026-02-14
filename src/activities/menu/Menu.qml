@@ -812,6 +812,13 @@ ActivityBase {
                 }
             }
 
+            Connections {
+                target: ActivityInfoTree
+                function onStartSequence() {
+                    activity.startNextActivityInSequence();
+                }
+            }
+
             TextField {
                 id: searchTextField
                 width: parent.width
