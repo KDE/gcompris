@@ -1,12 +1,9 @@
 /* GCompris - RemoveDatasetDialog.qml
  *
- * SPDX-FileCopyrightText: 2021 Emmanuel Charruau <echarruau@gmail.com>
+ * SPDX-FileCopyrightText: 2026 Johnny Jazeix <jazeix@gmail.com>
  *
  * Authors:
- *   Emmanuel Charruau <echarruau@gmail.com>
- *   Bruno Anselme <be.root@free.fr>
  *   Johnny Jazeix <jazeix@gmail.com>
- *   Timothée Giet <animtim@gmail.com>
  *
  *   SPDX-License-Identifier: GPL-3.0-or-later
  */
@@ -17,11 +14,10 @@ import "../singletons"
 import "../components"
 
 Popup {
-    id: removeDatasetDialog
+    id: removeSequenceDialog
 
-    property string datasetName
-    property int datasetId
-    property int activityId
+    property string sequenceName
+    property int sequenceId
 
     anchors.centerIn: Overlay.overlay
     width: 600
@@ -30,7 +26,7 @@ Popup {
     focus: true
     closePolicy: Popup.CloseOnEscape | Popup.CloseOnPressOutsideParent
 
-    signal datasetRemoved()
+    signal sequenceRemoved()
 
     background: Rectangle {
         color: Style.selectedPalette.base
@@ -39,21 +35,19 @@ Popup {
         border.width: Style.defaultBorderWidth
     }
 
-    function validateDialog() {
-        Master.deleteDataset(removeDatasetDialog.datasetId)
-        Master.filterDatasets(activityId, Master.userCreatedDatasetModel, false, false)
-        datasetRemoved()
-    }
-
     onAboutToShow: {
-        for(var i = 0 ; i < Master.filteredDatasetModel.count ; i ++) {
-            var dataset = Master.filteredDatasetModel.get(i)
-            if (dataset.dataset_checked === true) {
-                datasetId = dataset.dataset_id
-                datasetName = dataset.dataset_name
-                activityId = dataset.activity_id
+        for(var i = 0 ; i < Master.sequenceModel.count ; i ++) {
+            var sequence = Master.sequenceModel.get(i)
+            if (sequence.sequence_checked === true) {
+                sequenceId = sequence.sequence_id
+                sequenceName = sequence.sequence_name
             }
         }
+    }
+
+    function validateDialog() {
+        Master.deleteSequence(removeSequenceDialog.sequenceId)
+        sequenceRemoved()
     }
 
     Item {
@@ -67,11 +61,11 @@ Popup {
             font.pixelSize: Style.textSize
             font.bold: true
             wrapMode: Text.WordWrap
-            text: qsTr("Are you sure you want to delete the following dataset from the database?")
+            text: qsTr("Are you sure you want to delete the following sequence from the database?")
         }
 
         Rectangle {
-            id: datasetNameBgq
+            id: sequenceNameBgq
             width: parent.width
             anchors.top: titleText.bottom
             anchors.bottom: bottomButtons.top
@@ -84,7 +78,7 @@ Popup {
                 font.pixelSize: Style.textSize
                 wrapMode: Text.WordWrap
                 anchors.centerIn: parent
-                text: removeDatasetDialog.datasetName
+                text: removeSequenceDialog.sequenceName
             }
         }
 
@@ -92,10 +86,10 @@ Popup {
             id: bottomButtons
             anchors.bottom: parent.bottom
             anchors.horizontalCenter: parent.horizontalCenter
-            onCancelled: removeDatasetDialog.close();
+            onCancelled: removeSequenceDialog.close();
             onValidated: {
-                removeDatasetDialog.validateDialog();
-                removeDatasetDialog.close();
+                removeSequenceDialog.validateDialog();
+                removeSequenceDialog.close();
             }
         }
 

@@ -24,8 +24,10 @@ Item {
     property alias allActivitiesModel: allActivitiesModel
     property alias activityWithDataModel: activityWithDataModel
     property alias userCreatedDatasetModel: userCreatedDatasetModel
-    property alias allDatasetModel: allDatasetModel
     property alias filteredDatasetModel: filteredDatasetModel
+    property alias allDatasetModel: allDatasetModel
+    property alias filteredAllDatasetModel: filteredAllDatasetModel
+    property alias sequenceModel: sequenceModel
     property bool trace: false
     property int groupFilterId: -1     // contains selected group id
 
@@ -108,7 +110,9 @@ Item {
     ListModel { id: userCreatedDatasetModel } // TODO Use SortFilterProxyModel when Qt6.10?
     ListModel { id: allDatasetModel }
     ListModel { id: filteredDatasetModel }  // For checkBoxes lists (multiselection -> works on userCreatedDatasetModel only)
+    ListModel { id: filteredAllDatasetModel }  // For checkBoxes lists (multiselection -> works on allDatasetModel only)
     ListModel { id: tmpModel }              // Used for temporary requests inside functions
+    ListModel { id: sequenceModel }
 
 //// Groups functions
 
@@ -585,33 +589,41 @@ Item {
         if (trace) console.warn(groupModel.count, "Datasets loaded")
     }
 
-    function filterDatasets(activityId, keepSelection) {   // bool - dataset filtering should keep selection now
+    function filterDatasets(activityId, inputModel, keepSelection, emptyFilterAll) {   // bool - dataset filtering should keep selection now
+        var outputModel = inputModel == allDatasetModel ? filteredAllDatasetModel : filteredDatasetModel
         if (trace) console.warn("Datasets filtered")
         var selectedIds = []                // array of checked ids to be restored
         if (keepSelection) {
-            for (var j = 0; j < userCreatedDatasetModel.count; j++) {
-                var userSel = userCreatedDatasetModel.get(j)
+            for (var j = 0; j < inputModel.count; j++) {
+                var userSel = inputModel.get(j)
                 if (userSel.user_checked)
                     selectedIds.push(userSel.user_id)
             }
         }
-        filteredDatasetModel.clear()
+        outputModel.clear()
         var empty = (activityId === -1)
-        for (var i = 0; i < userCreatedDatasetModel.count; i++) {
-            var dataset = JSON.parse(JSON.stringify(userCreatedDatasetModel.get(i)))     // Make a deep copy
+
+        if(empty && emptyFilterAll) {
+            return;
+        }
+
+        var newItems = []
+        for (var i = 0; i < inputModel.count; i++) {
+            var dataset = JSON.parse(JSON.stringify(inputModel.get(i)))     // Make a deep copy
             if (keepSelection)
                 if (selectedIds.includes(dataset.dataset_id))                 // Check if it was already checked
                     dataset.dataset_checked = true
             if (empty) {
-                filteredDatasetModel.append(dataset)
+                newItems.push(dataset)
                 continue
             }
             var datasetActivityId = dataset.activity_id
             var show = datasetActivityId == activityId             // check if user belongs to selected groups
             if (show) {
-                filteredDatasetModel.append(dataset)
+                newItems.push(dataset)
             }
         }
+        outputModel.append(newItems);
     }
 
     function createDataset(datasetName, activityId, objective, difficulty, content) {     // string, string, int, string
@@ -635,7 +647,7 @@ Item {
             if (trace) console.warn("Dataset created:", datasetName, objective)
         }
         // If we are in the "create datasets" view, we want the view to be refreshed
-        filterDatasets(activityId, true)
+        filterDatasets(activityId, Master.userCreatedDatasetModel, true, false)
         return datasetId
     }
 
@@ -697,6 +709,14 @@ Item {
         return json[0]["dataset_id"]
     }
 
+    function getDatasetFromActivityDatasetName(activityName, datasetName) {
+        var json = JSON.parse(databaseController.selectToJson(`SELECT * FROM _dataset_activity WHERE activity_name='${activityName}' AND internal_name='${datasetName}'`))
+        if(!json || !json[0]) {
+            return -1;
+        }
+        return json[0]
+    }
+
     function updateDataset(datasetId, datasetName, objective, difficulty, content) {   // int, string, string, int, string
         var datasetModelId = getDatasetModelId(allDatasetModel, datasetId)
         if (databaseController.updateDataset(datasetId, datasetName, objective, difficulty, content) !== -1) {
@@ -751,6 +771,114 @@ Item {
         }
     }
 
+//// Sequences functions
+
+    function getSequenceModelId(sequenceId) {       // int
+        // find the index in the model
+        for (var j = 0; j < sequenceModel.count; j++) {
+            var dataSel = sequenceModel.get(j)
+            if (dataSel.sequence_id == sequenceId) {
+                return j
+            }
+        }
+    }
+    function loadSequences() {
+        modelFromRequest(tmpModel, "SELECT * FROM sequence_activity_")
+        var allSequenceData = {};
+        for (var id = 0 ; id < tmpModel.count; ++ id) {
+            var currentData = tmpModel.get(id);
+            if (currentData.sequence_id in allSequenceData) {
+                allSequenceData[currentData.sequence_id]["sequenceList"].push({
+                    "activity_id": currentData.activity_id,
+                    "activity_name": currentData.activity_name,
+                    "dataset_id": currentData.dataset_id,
+                    "dataset_name": currentData.dataset_name,
+                    "internal_name": currentData.internal_name
+                })
+            }
+            else {
+                allSequenceData[currentData.sequence_id] = {
+                    "sequence_id": currentData.sequence_id,
+                    "sequence_name": currentData.sequence_name,
+                    "sequence_objective": currentData.sequence_objective,
+                    "sequenceList": [{
+                        "activity_id": currentData.activity_id,
+                        "activity_name": currentData.activity_name,
+                        "dataset_id": currentData.dataset_id,
+                        "dataset_name": currentData.dataset_name,
+                        "internal_name": currentData.internal_name
+                    }],
+                    "sequence_checked":false
+                }
+            }
+        }
+        for (var id in allSequenceData) {
+            sequenceModel.append(allSequenceData[id]);
+        }
+        listModelSort(sequenceModel, (a, b) => (a.sequence_name.localeCompare(b.sequence_name)));
+        if (trace) console.warn(groupModel.count, "Sequences loaded")
+    }
+
+    function createSequence(name, objective, sequence) {
+        var sequenceId = databaseController.addSequence(name, objective, sequence)
+        if (sequenceId !== -1) {
+            sequenceModel.append({ "sequence_id": sequenceId,
+                "sequence_name": name,
+                "sequence_objective": objective,
+                "sequenceList": sequence.slice(0),
+                "sequence_checked": true
+            })
+            if (trace) console.warn("Sequence created:", name, objective)
+        }
+        return sequenceId
+    }
+
+    function updateSequence(sequenceId, name, objective, sequence) {
+        var modelId = getSequenceModelId(sequenceId);
+        if (databaseController.updateSequence(sequenceId, name, objective, sequence) !== -1) {
+            sequenceModel.setProperty(modelId, "sequence_name", name)
+            sequenceModel.setProperty(modelId, "sequence_objective", objective)
+            var currentItem = sequenceModel.get(modelId)
+            currentItem.sequenceList.clear();
+            for (var f = 0 ; f < sequence.length ; ++ f) {
+                currentItem.sequenceList.append(sequence[f]);
+            }
+            if (trace) console.warn("Sequence updated:", name, objective)
+        }
+        return sequenceId
+    }
+
+    function deleteSequence(sequenceId) {       // int
+        var sequence
+        var index = -1;
+        // find the index in the model
+        for (var j = 0; j < sequenceModel.count; j++) {
+            var dataSel = sequenceModel.get(j)
+            if (dataSel.sequence_id == sequenceId) {
+                sequence = dataSel
+                index = j
+                break;
+            }
+        }
+
+        if (databaseController.deleteSequence(sequence.sequence_id)) {
+            sequenceModel.remove(index)
+            if (trace) console.warn("Sequence deleted:", sequence.sequence_id ," - ", sequence.sequence_name)
+            return true
+        }
+        return false
+    }
+
+    function getSequence(sequenceId) {       // int
+        // find the index in the model
+        for (var j = 0; j < sequenceModel.count; j++) {
+            var sequenceSelected = sequenceModel.get(j)
+            if (sequenceSelected.sequence_id == sequenceId) {
+                return sequenceSelected
+            }
+        }
+    }
+
     function initialize() {
         if (trace) console.warn("Initialize Master component")
         loadGroups()
@@ -762,14 +890,15 @@ Item {
         loadAllActivities(allActivitiesModel)
         loadActivitiesWithData(activityWithDataModel)
         loadDatasets()
-        filterDatasets(-1, false)
+        filterDatasets(-1, Master.userCreatedDatasetModel, false, false)
+        loadSequences()
     }
 
     Component.onCompleted: {
         var activities = ActivityInfoTree.menuTreeFull
         if (trace) console.warn("Starting Master component")
         for (var key in Object.keys(activities)) {  // Convert numeric keys to short activity name keys
-            var newKey = activities[key]['name'].slice(0,activities[key]['name'].lastIndexOf('/'))
+            var newKey = activities[key].shortName()
             allActivities[newKey] = activities[key]
         }
     }
