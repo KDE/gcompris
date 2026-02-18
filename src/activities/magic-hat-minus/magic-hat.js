@@ -29,6 +29,19 @@ var maxStarSlots = 30
 var answerCoefficients = []
 var coefficientsNeeded = false
 
+// stored values for Client data
+var questionContent = {
+    "questionCoefficients": [1, 1, 1],
+    "firstOperandRows": [0, 0, 0],
+    "secondOperandRows": [0, 0, 0],
+    "answerCoefficients": [1, 1, 1],
+    "answerRows": [
+        [false, false, false, false, false, false, false, false, false, false],
+        [false, false, false, false, false, false, false, false, false, false],
+        [false, false, false, false, false, false, false, false, false, false]
+        ]
+}
+
 function start(items_, mode_) {
     items = items_
     mode = mode_
@@ -210,7 +223,20 @@ function initLevel() {
             items.repeatersList[1].itemAt(i).nbStarsOn = nbStarsToAddOrRemove[i];
         }
     }
+
+    // store fixed Client data
+    questionContent.questionCoefficients = questionCoefficients;
+    questionContent.firstOperandRows = numberOfStars;
+    questionContent.secondOperandRows = nbStarsToAddOrRemove;
+    questionContent.answerCoefficients = answerCoefficients;
+    questionContent.answerRows = [
+        [false, false, false, false, false, false, false, false, false, false],
+        [false, false, false, false, false, false, false, false, false, false],
+        [false, false, false, false, false, false, false, false, false, false]
+    ];
+
     items.inputBlocked = false;
+    items.client.startTiming();
 }
 
 function setCoefficientVisibility(visibility) {
@@ -225,13 +251,31 @@ function userClickedAStar(barIndex,state) {
 }
 
 function verifyAnswer() {
+    // store answer content for Client data
+    var answerRepeater = items.repeatersList[2];
+    for(var i = 0; i < 3; i++) {
+        var answerRow = answerRepeater.itemAt(i);
+        for(var starId = 0; starId < 10; starId++) {
+            // store each star state for each row
+            if(answerRow.repeaterStars.itemAt(starId) &&
+                answerRow.repeaterStars.itemAt(starId).starFixed.selected) {
+                questionContent.answerRows[i][starId] = true;
+            } else {
+                questionContent.answerRows[i][starId] = false;
+            }
+        }
+    }
+
+    var goodAnswer = true;
+
     if(items.useDifferentStars) {
         if(numberOfUserStars[0] === nbStarsToCount[0] &&
             numberOfUserStars[1] === nbStarsToCount[1] &&
             numberOfUserStars[2] === nbStarsToCount[2]) {
-            items.bonus.good("flower")
+            items.bonus.good("flower");
         } else {
-            items.bonus.bad("flower")
+            goodAnswer = false;
+            items.bonus.bad("flower");
         }
     } else {
         var starsCalculatedByUser = numberOfUserStars[0] * answerCoefficients[0] +
@@ -240,11 +284,15 @@ function verifyAnswer() {
         var actualNumberOfStars = nbStarsToCount[0] * questionCoefficients[0] +
                                   nbStarsToCount[1] * questionCoefficients[1] +
                                   nbStarsToCount[2] * questionCoefficients[2];
-        if(starsCalculatedByUser == actualNumberOfStars)
-            items.bonus.good("flower")
-        else
-            items.bonus.bad("flower")
+        if(starsCalculatedByUser == actualNumberOfStars) {
+            items.bonus.good("flower");
+
+        } else {
+            goodAnswer = false;
+            items.bonus.bad("flower");
+        }
     }
+    items.client.sendToServer(goodAnswer);
 }
 
 function nextLevel() {
