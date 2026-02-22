@@ -24,7 +24,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-02-18 08:41+0200\n"
+"PO-Revision-Date: 2026-02-21 14:06+0200\n"
 "Last-Translator: Alexander Yavorskiy <kekcuha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
@@ -17991,12 +17991,11 @@ msgid "Calculate remaining stars up to 10000 with coefficients."
 msgstr "Сосчитать оставшиеся звёздочки вплоть до 10000 с коэффициентами."
 
 #: activities/magic-hat-minus/resource/9/Data.qml:13
-#, fuzzy
-#| msgctxt "Data|"
-#| msgid "Calculate remaining stars up to 100 with coefficients."
 msgctxt "Data|"
 msgid "Calculate remaining stars up to 10, with 2 or 3 different star sets."
-msgstr "Сосчитать оставшиеся звёздочки вплоть до 100 с коэффициентами."
+msgstr ""
+"Сосчитать оставшиеся звёзды вплоть до 10, используя 2 или 3 разных набора "
+"звёзд."
 
 #. text displaying coefficient with which the set of stars is to be multiplied along with multiplication symbol.
 #: activities/magic-hat-minus/StarsBar.qml:36
@@ -18087,12 +18086,10 @@ msgid "Add stars up to 10000 with coefficients."
 msgstr "Добавить звёздочки вплоть до 10000 с коэффициентами."
 
 #: activities/magic-hat-plus/resource/9/Data.qml:13
-#, fuzzy
-#| msgctxt "Data|"
-#| msgid "Add stars up to 100 with coefficients."
 msgctxt "Data|"
 msgid "Add stars up to 10, with 2 or 3 different star sets."
-msgstr "Добавить звёздочки вплоть до 100 с коэффициентами."
+msgstr ""
+"Добавить звёздочки вплоть до 10, используя 2 или 3 различных набора звёзд."
 
 #. Activity title
 #: activities/maze/ActivityInfo.qml:15

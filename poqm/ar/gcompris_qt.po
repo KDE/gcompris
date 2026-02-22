@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-02-18 17:45+0400\n"
+"PO-Revision-Date: 2026-02-21 17:47+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -17496,12 +17496,9 @@ msgid "Calculate remaining stars up to 10000 with coefficients."
 msgstr "احسب النجوم الباقية حتى 10000 بمعاملات."
 
 #: activities/magic-hat-minus/resource/9/Data.qml:13
-#, fuzzy
-#| msgctxt "Data|"
-#| msgid "Calculate remaining stars up to 100 with coefficients."
 msgctxt "Data|"
 msgid "Calculate remaining stars up to 10, with 2 or 3 different star sets."
-msgstr "احسب النجوم الباقية حتى 100 بمعاملات."
+msgstr "احسب النجوم المتبقية حتى 10، مع 2 أو 3 مجموعات نجوم مختلفة."
 
 #. text displaying coefficient with which the set of stars is to be multiplied along with multiplication symbol.
 #: activities/magic-hat-minus/StarsBar.qml:36
@@ -17591,12 +17588,9 @@ msgid "Add stars up to 10000 with coefficients."
 msgstr "أضف النجوم حتى 10000 بمعاملات."
 
 #: activities/magic-hat-plus/resource/9/Data.qml:13
-#, fuzzy
-#| msgctxt "Data|"
-#| msgid "Add stars up to 100 with coefficients."
 msgctxt "Data|"
 msgid "Add stars up to 10, with 2 or 3 different star sets."
-msgstr "أضف النجوم حتى 100 بمعاملات."
+msgstr "أضف نجومًا تصل إلى 10، مع 2 أو 3 مجموعات نجوم مختلفة."
 
 #. Activity title
 #: activities/maze/ActivityInfo.qml:15
