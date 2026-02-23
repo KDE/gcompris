@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gcompris_qt\n"
-"PO-Revision-Date: 2026-01-06 09:59+0100\n"
+"PO-Revision-Date: 2026-02-20 11:55+0100\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 25.12.0\n"
+"X-Generator: Lokalize 25.12.2\n"
 "X-Qt-Contexts: true\n"
 
 #: activities/adjacent_numbers/ActivityConfig.qml:19
@@ -18166,12 +18166,10 @@ msgid "Calculate remaining stars up to 10000 with coefficients."
 msgstr "Calcola le stelle rimanenti fino a 10000 con i coefficienti."
 
 #: activities/magic-hat-minus/resource/9/Data.qml:13
-#, fuzzy
-#| msgctxt "Data|"
-#| msgid "Calculate remaining stars up to 100 with coefficients."
 msgctxt "Data|"
 msgid "Calculate remaining stars up to 10, with 2 or 3 different star sets."
-msgstr "Calcola le stelle rimanenti fino a 100 con i coefficienti."
+msgstr ""
+"Calcola le stelle rimanenti fino a 10, con 2 o 3 insiemi diversi di stelle."
 
 #. text displaying coefficient with which the set of stars is to be multiplied along with multiplication symbol.
 #: activities/magic-hat-minus/StarsBar.qml:36
@@ -18262,12 +18260,9 @@ msgid "Add stars up to 10000 with coefficients."
 msgstr "Aggiungi stelle fino a 10000 con i coefficienti."
 
 #: activities/magic-hat-plus/resource/9/Data.qml:13
-#, fuzzy
-#| msgctxt "Data|"
-#| msgid "Add stars up to 100 with coefficients."
 msgctxt "Data|"
 msgid "Add stars up to 10, with 2 or 3 different star sets."
-msgstr "Aggiungi stelle fino a 100 con i coefficienti."
+msgstr "Aggiungi stelle fino a 10, con 2 o 3 insiemi diversi di stelle."
 
 #. Activity title
 #: activities/maze/ActivityInfo.qml:15
@@ -20135,16 +20130,14 @@ msgstr ""
 "l'utente selezionato è errata."
 
 #: activities/menu/Menu.qml:213
-#, fuzzy, qt-format
-#| msgctxt "Menu|"
-#| msgid ""
-#| "GCompris is connected to teacher's server, and the user is authenticated."
+#, qt-format
 msgctxt "Menu|"
 msgid ""
 "GCompris is connected to teacher's server, and the user is authenticated as "
 "%1."
 msgstr ""
-"GCompris è connesso al server dell'insegnante e l'utente è autenticato."
+"GCompris è connesso al server dell'insegnante e l'utente è autenticato come "
+"%1."
 
 #: activities/menu/Menu.qml:214
 msgctxt "Menu|"
