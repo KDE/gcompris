@@ -63,7 +63,7 @@ public:
     void initialize(QQmlEngine *engine);
 
     void createDataset(const QJsonObject &dataset);
-    void removeDataset(const QJsonObject &dataset);
+    void removeDataset(const QJsonObject &dataset, bool clearCache = true);
     void removeAllLocalDatasets();
 
 protected:

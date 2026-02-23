@@ -164,13 +164,13 @@ void ActivityInfoTree::filterByTag(const QString &tag, const QString &category, 
         Q_EMIT menuTreeChanged();
 }
 
-bool ActivityInfoTree::launchedActivityMissGivenDifficulty() const{
+bool ActivityInfoTree::launchedActivityMissGivenDifficulty() const
+{
     bool activityMissDifficulty = true;
     const auto constMenuTreeFull = m_menuTreeFull;
     for (const auto *activity: constMenuTreeFull) {
         if (activity->name() == m_startingActivity) {
-            if (activity->maximalDifficulty() >= ApplicationSettings::getInstance()->filterLevelMin() &&
-                activity->minimalDifficulty() <= ApplicationSettings::getInstance()->filterLevelMax()) {
+            if (activity->maximalDifficulty() >= ApplicationSettings::getInstance()->filterLevelMin() && activity->minimalDifficulty() <= ApplicationSettings::getInstance()->filterLevelMax()) {
                 activityMissDifficulty = false;
             }
             break;
@@ -441,6 +441,9 @@ void ActivityInfoTree::createDataset(const QJsonObject &dataset)
     const QString datasetName("c-" + dataset["dataset_name"].toString());
     const QString activityName(dataset["activity_name"].toString());
     const QString datasetFolder(QStandardPaths::writableLocation(QStandardPaths::AppDataLocation) + "/" + activityName + '/' + datasetName);
+
+    removeDataset(dataset);
+
     QDir datasetDir(datasetFolder);
     if (!datasetDir.exists()) {
         datasetDir.mkpath(datasetFolder);
@@ -468,7 +471,7 @@ void ActivityInfoTree::createDataset(const QJsonObject &dataset)
     }
 }
 
-void ActivityInfoTree::removeDataset(const QJsonObject &dataset)
+void ActivityInfoTree::removeDataset(const QJsonObject &dataset, bool clearCache)
 {
     qDebug() << "ActivityInfoTree::removeDataset" << dataset;
     const QString datasetName("c-" + dataset["dataset_name"].toString());
@@ -494,21 +497,26 @@ void ActivityInfoTree::removeDataset(const QJsonObject &dataset)
             break;
         }
     }
+    if (clearCache) {
+        engine->clearComponentCache();
+    }
 }
 
 void ActivityInfoTree::removeAllLocalDatasets()
 {
     const QString datasetRootFolder(QStandardPaths::writableLocation(QStandardPaths::AppDataLocation));
     QDir datasetsDir(datasetRootFolder);
-    for (const QFileInfo &activityFolder: datasetsDir.entryInfoList(QDir::AllDirs| QDir::NoDotAndDotDot)) {
+    for (const QFileInfo &activityFolder: datasetsDir.entryInfoList(QDir::AllDirs | QDir::NoDotAndDotDot)) {
         QJsonObject dataset;
         dataset["activity_name"] = activityFolder.fileName();
         QDir activityDir(activityFolder.absoluteFilePath());
         for (const QFileInfo &datasetFolder: activityDir.entryInfoList(QDir::AllDirs | QDir::NoDotAndDotDot)) {
             dataset["dataset_name"] = datasetFolder.fileName();
-            removeDataset(dataset);
+            removeDataset(dataset, false);
         }
     }
+    QQmlEngine *engine = qmlEngine(this);
+    engine->clearComponentCache();
 }
 
 #include "moc_ActivityInfoTree.cpp"
