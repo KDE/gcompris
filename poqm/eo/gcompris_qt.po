@@ -17802,7 +17802,7 @@ msgstr ""
 "sur la malsupra areo por enigi vian respondon kaj sur la OK butono por "
 "validigi ĝin."
 
-#: activities/magic-hat-minus/MagicHat.qml:256
+#: activities/magic-hat-minus/MagicHat.qml:272
 msgctxt "MagicHat|"
 msgid "Click on the hat to begin the game"
 msgstr "Alklaku la ĉapelon por komenci la ludon"
@@ -26778,7 +26778,7 @@ msgstr ""
 "respondoj estas malĝustaj, kruca piktogramo aperos en la respondaj linioj. "
 "Korektu la erarojn, tiam premu la Bone-butonon denove."
 
-#: activities/tens_complement_calculate/resource/1/Data.qml:36
+#: activities/tens_complement_calculate/resource/1/Data.qml:52
 msgctxt "Data|"
 msgid "1 pair to make from 3 numbers."
 msgstr "1 paro farenda el 3 nombroj."
@@ -26837,7 +26837,7 @@ msgstr ""
 "Kreu parojn de nombroj egalaj al dek. Elektu nombron en la listo, tiam "
 "elektu malplenan lokon de operacio por movi la elektitan nombron tien."
 
-#: activities/tens_complement_find/resource/1/Data.qml:25
+#: activities/tens_complement_find/resource/1/Data.qml:56
 msgctxt "Data|"
 msgid "First number from 1 to 4."
 msgstr "Unua numero de 1 ĝis 4."
@@ -26895,7 +26895,7 @@ msgstr ""
 "Se iuj respondoj estas malĝustaj, kruca piktogramo aperos sur la respondaj "
 "linioj. Korektu la erarojn, tiam premu la OK butonon denove."
 
-#: activities/tens_complement_swap/resource/1/Data.qml:36
+#: activities/tens_complement_swap/resource/1/Data.qml:50
 msgctxt "Data|"
 msgid "2 pairs to make from 4 numbers."
 msgstr "2 paroj por fari el 4 nombroj."
@@ -26941,7 +26941,7 @@ msgstr ""
 "krampo. Elektu nombron en la listo, tiam elektu malplenan lokon de operacio "
 "por movi la elektitan nombron tien."
 
-#: activities/tens_complement_use/resource/1/Data.qml:43
+#: activities/tens_complement_use/resource/1/Data.qml:59
 msgctxt "Data|"
 msgid "Result between 11 and 19."
 msgstr "Rezulto inter 11 kaj 19."

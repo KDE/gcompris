@@ -18157,7 +18157,7 @@ msgstr ""
 "de jos pentru a-ți introduce răspunsul și apoi clic pe butonul OK pentru a-l "
 "valida."
 
-#: activities/magic-hat-minus/MagicHat.qml:256
+#: activities/magic-hat-minus/MagicHat.qml:272
 msgctxt "MagicHat|"
 msgid "Click on the hat to begin the game"
 msgstr "Clic pe pălărie pentru a începe jocul"
@@ -27448,7 +27448,7 @@ msgstr ""
 "cruce pe liniile respective. Corectează greșelile, apoi apasă din nou "
 "butonul OK."
 
-#: activities/tens_complement_calculate/resource/1/Data.qml:36
+#: activities/tens_complement_calculate/resource/1/Data.qml:52
 msgctxt "Data|"
 msgid "1 pair to make from 3 numbers."
 msgstr "O pereche de format din trei numere."
@@ -27508,7 +27508,7 @@ msgstr ""
 "listă, apoi selectează locul liber al unei operații pentru a muta numărul "
 "selectat acolo."
 
-#: activities/tens_complement_find/resource/1/Data.qml:25
+#: activities/tens_complement_find/resource/1/Data.qml:56
 msgctxt "Data|"
 msgid "First number from 1 to 4."
 msgstr "Primul număr de la 1 la 4."
@@ -27568,7 +27568,7 @@ msgstr ""
 "pictogramă cruce pe liniile respective. Corectează greșelile, apoi apasă din "
 "nou butonul OK."
 
-#: activities/tens_complement_swap/resource/1/Data.qml:36
+#: activities/tens_complement_swap/resource/1/Data.qml:50
 msgctxt "Data|"
 msgid "2 pairs to make from 4 numbers."
 msgstr "2 perechi din 4 numere."
@@ -27614,7 +27614,7 @@ msgstr ""
 "paranteză. Selectează un număr în listă, apoi selectează un loc gol al unei "
 "operații, pentru a muta numărul selectat acolo."
 
-#: activities/tens_complement_use/resource/1/Data.qml:43
+#: activities/tens_complement_use/resource/1/Data.qml:59
 msgctxt "Data|"
 msgid "Result between 11 and 19."
 msgstr "Rezultatul între 11 și 19."

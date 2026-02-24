@@ -18003,7 +18003,7 @@ msgstr ""
 "капелюхом. Натисніть унизу, щоб ввести вашу відповідь, а потім натисніть "
 "кнопку «Гаразд», щоб перевірити її."
 
-#: activities/magic-hat-minus/MagicHat.qml:256
+#: activities/magic-hat-minus/MagicHat.qml:272
 msgctxt "MagicHat|"
 msgid "Click on the hat to begin the game"
 msgstr "Натисніть на капелюсі, щоб розпочати гру"
@@ -27092,7 +27092,7 @@ msgstr ""
 "відповідей будуть помилковими, у відповідних рядках буде показано хрестик. "
 "Виправте помилки і натисніть кнопку «Гаразд» ще раз."
 
-#: activities/tens_complement_calculate/resource/1/Data.qml:36
+#: activities/tens_complement_calculate/resource/1/Data.qml:52
 msgctxt "Data|"
 msgid "1 pair to make from 3 numbers."
 msgstr "1 пара з 3 чисел."
@@ -27151,7 +27151,7 @@ msgstr ""
 "Створіть пари чисел, які разом складають десять. Виберіть число зі списку, "
 "потім виберіть порожнє місце у дії, що пересунути вибране число на це місце."
 
-#: activities/tens_complement_find/resource/1/Data.qml:25
+#: activities/tens_complement_find/resource/1/Data.qml:56
 msgctxt "Data|"
 msgid "First number from 1 to 4."
 msgstr "Перше число від 1 до 4."
@@ -27210,7 +27210,7 @@ msgstr ""
 "відповіді. Якщо якісь з відповідей будуть помилковими, у відповідних рядках "
 "буде показано хрестик. Виправте помилки і натисніть кнопку «Гаразд» ще раз."
 
-#: activities/tens_complement_swap/resource/1/Data.qml:36
+#: activities/tens_complement_swap/resource/1/Data.qml:50
 msgctxt "Data|"
 msgid "2 pairs to make from 4 numbers."
 msgstr "Дві пари з 4 чисел."
@@ -27256,7 +27256,7 @@ msgstr ""
 "кожній з дужок. Виберіть число зі списку, потім виберіть порожнє місце у "
 "дії, що пересунути вибране число на це місце."
 
-#: activities/tens_complement_use/resource/1/Data.qml:43
+#: activities/tens_complement_use/resource/1/Data.qml:59
 msgctxt "Data|"
 msgid "Result between 11 and 19."
 msgstr "Результат від 11 до 19."

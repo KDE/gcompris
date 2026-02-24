@@ -17447,7 +17447,7 @@ msgstr ""
 "بقيت تحت القبعة يا تُرى؟ عدّ بحرص. انقر على المساحة السفليّة  لإدخال إجابتك ثم "
 "اضغط الزر لتأكيدها."
 
-#: activities/magic-hat-minus/MagicHat.qml:256
+#: activities/magic-hat-minus/MagicHat.qml:272
 msgctxt "MagicHat|"
 msgid "Click on the hat to begin the game"
 msgstr "انقر القبّعة لبدء اللعبة"
@@ -26229,7 +26229,7 @@ msgstr ""
 "الإجابات خاطئة، فسيظهر رمز التقاطع على الأسطر المعنية. صحّح الأخطاء ثم اضغط "
 "على زر موافق مرة ثانية."
 
-#: activities/tens_complement_calculate/resource/1/Data.qml:36
+#: activities/tens_complement_calculate/resource/1/Data.qml:52
 msgctxt "Data|"
 msgid "1 pair to make from 3 numbers."
 msgstr "اصنع ثنائية من بين 3 أعداد."
@@ -26287,7 +26287,7 @@ msgstr ""
 "أنشئ ثنائيات من الأعداد تساوي عشرة. اختر رقمًا في القائمة، ثم اختر مكانًا "
 "لتنقله إليها."
 
-#: activities/tens_complement_find/resource/1/Data.qml:25
+#: activities/tens_complement_find/resource/1/Data.qml:56
 msgctxt "Data|"
 msgid "First number from 1 to 4."
 msgstr "الرقم الأول من 1 إلى 4."
@@ -26344,7 +26344,7 @@ msgstr ""
 "المعنية. لتصحيح الأخطاء اضغط على الأعداد الخاطئة لإزالتها وكرّر الخطوات "
 "السابقة."
 
-#: activities/tens_complement_swap/resource/1/Data.qml:36
+#: activities/tens_complement_swap/resource/1/Data.qml:50
 msgctxt "Data|"
 msgid "2 pairs to make from 4 numbers."
 msgstr "ثنائيتان 2 للإنشاء من 4 أعداد."
@@ -26389,7 +26389,7 @@ msgstr ""
 "فكّك عمليات الجمع لإنشاء أزواج من الأرقام تساوي عشرة داخل كل قوس. حدد رقمًا في "
 "القائمة، ثم حدد مكانًا فارغًا لعملية ما لنقل الرقم المحدد هناك."
 
-#: activities/tens_complement_use/resource/1/Data.qml:43
+#: activities/tens_complement_use/resource/1/Data.qml:59
 msgctxt "Data|"
 msgid "Result between 11 and 19."
 msgstr "النتيجة بين 11 و 19."

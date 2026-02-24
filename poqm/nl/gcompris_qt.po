@@ -18005,7 +18005,7 @@ msgstr ""
 "zijn. Klik op het onderste gebied en voer je antwoord in en klik op de knop "
 "OK om te kijken of het goed is."
 
-#: activities/magic-hat-minus/MagicHat.qml:256
+#: activities/magic-hat-minus/MagicHat.qml:272
 msgctxt "MagicHat|"
 msgid "Click on the hat to begin the game"
 msgstr "Klik op de hoed om het spel te beginnen"
@@ -27092,7 +27092,7 @@ msgstr ""
 "onjuist zijn zal er een pictogram met een kruis verschijnen op de "
 "bijbehorende regels. Corrigeer de fouten, druk daarna opnieuw op de knop OK."
 
-#: activities/tens_complement_calculate/resource/1/Data.qml:36
+#: activities/tens_complement_calculate/resource/1/Data.qml:52
 msgctxt "Data|"
 msgid "1 pair to make from 3 numbers."
 msgstr "1 paar om vanaf 3 getallen te maken."
@@ -27152,7 +27152,7 @@ msgstr ""
 "selecteer daarna een lege plek van een bewerking om het geselecteerde getal "
 "daar te plaatsen."
 
-#: activities/tens_complement_find/resource/1/Data.qml:25
+#: activities/tens_complement_find/resource/1/Data.qml:56
 msgctxt "Data|"
 msgid "First number from 1 to 4."
 msgstr "Eerste getal van 1 tot 4."
@@ -27212,7 +27212,7 @@ msgstr ""
 "onjuist zijn zal er een pictogram met een kruis verschijnen op de "
 "bijbehorende regels. Corrigeer de fouten, druk daarna opnieuw op de knop OK."
 
-#: activities/tens_complement_swap/resource/1/Data.qml:36
+#: activities/tens_complement_swap/resource/1/Data.qml:50
 msgctxt "Data|"
 msgid "2 pairs to make from 4 numbers."
 msgstr "2 paren om vanaf 4 getallen te maken."
@@ -27258,7 +27258,7 @@ msgstr ""
 "haakjes te maken. Selecteer een getal uit de lijst, selecteer daarna een "
 "lege plek van een bewerking om het geselecteerde getal daar te plaatsen."
 
-#: activities/tens_complement_use/resource/1/Data.qml:43
+#: activities/tens_complement_use/resource/1/Data.qml:59
 msgctxt "Data|"
 msgid "Result between 11 and 19."
 msgstr "Resultaat tussen 11 en 19."

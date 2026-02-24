@@ -18354,7 +18354,7 @@ msgstr ""
 "clic en l'àrea inferior per a introduir la teva resposta i en el botó «OK» "
 "per a validar-la."
 
-#: activities/magic-hat-minus/MagicHat.qml:256
+#: activities/magic-hat-minus/MagicHat.qml:272
 msgctxt "MagicHat|"
 msgid "Click on the hat to begin the game"
 msgstr "Fes clic en el barret per a començar el joc"
@@ -27520,7 +27520,7 @@ msgstr ""
 "apareixerà una icona de creu a les línies corresponents. Corregeix els "
 "errors, després torna a prémer el botó «OK»."
 
-#: activities/tens_complement_calculate/resource/1/Data.qml:36
+#: activities/tens_complement_calculate/resource/1/Data.qml:52
 msgctxt "Data|"
 msgid "1 pair to make from 3 numbers."
 msgstr "Fer 2 parells a partir de 3 nombres."
@@ -27580,7 +27580,7 @@ msgstr ""
 "continuació, selecciona un punt buit d'una operació per a moure el nombre "
 "seleccionat allà."
 
-#: activities/tens_complement_find/resource/1/Data.qml:25
+#: activities/tens_complement_find/resource/1/Data.qml:56
 msgctxt "Data|"
 msgid "First number from 1 to 4."
 msgstr "Primer nombre des de l'1 fins al 4."
@@ -27640,7 +27640,7 @@ msgstr ""
 "respostes són incorrectes, apareixerà una icona de creu a les línies "
 "corresponents. Corregeix els errors, després torna a prémer el botó «OK»."
 
-#: activities/tens_complement_swap/resource/1/Data.qml:36
+#: activities/tens_complement_swap/resource/1/Data.qml:50
 msgctxt "Data|"
 msgid "2 pairs to make from 4 numbers."
 msgstr "Fer 2 parells a partir de 4 nombres."
@@ -27686,7 +27686,7 @@ msgstr ""
 "parèntesi. Selecciona un nombre a la llista i, a continuació, selecciona un "
 "punt buit d'una operació per a moure el nombre seleccionat allà."
 
-#: activities/tens_complement_use/resource/1/Data.qml:43
+#: activities/tens_complement_use/resource/1/Data.qml:59
 msgctxt "Data|"
 msgid "Result between 11 and 19."
 msgstr "Resultat entre 11 i 19."

@@ -18085,7 +18085,7 @@ msgstr ""
 "sombrero. Pulsa en el área inferior para poner tu respuesta y en el botón "
 "«Aceptar» para validarla."
 
-#: activities/magic-hat-minus/MagicHat.qml:256
+#: activities/magic-hat-minus/MagicHat.qml:272
 msgctxt "MagicHat|"
 msgid "Click on the hat to begin the game"
 msgstr "Pulsa el sombrero para comenzar el juego"
@@ -27179,7 +27179,7 @@ msgstr ""
 "verás un icono con una cruz en las líneas correspondientes. Corrige los "
 "errores y vuelve a pulsar el botón «Aceptar»."
 
-#: activities/tens_complement_calculate/resource/1/Data.qml:36
+#: activities/tens_complement_calculate/resource/1/Data.qml:52
 msgctxt "Data|"
 msgid "1 pair to make from 3 numbers."
 msgstr "Forma una pareja a partir de 3 números."
@@ -27240,7 +27240,7 @@ msgstr ""
 "lista y luego selecciona un lugar vacío de una operación para mover allí el "
 "número que has seleccionado."
 
-#: activities/tens_complement_find/resource/1/Data.qml:25
+#: activities/tens_complement_find/resource/1/Data.qml:56
 msgctxt "Data|"
 msgid "First number from 1 to 4."
 msgstr "Primer número del 1 al 4."
@@ -27300,7 +27300,7 @@ msgstr ""
 "incorrecta, verás un icono con una cruz en las líneas correspondientes. "
 "Corrige los errores y vuelve a pulsar el botón «Aceptar»."
 
-#: activities/tens_complement_swap/resource/1/Data.qml:36
+#: activities/tens_complement_swap/resource/1/Data.qml:50
 msgctxt "Data|"
 msgid "2 pairs to make from 4 numbers."
 msgstr "Forma dos parejas a partir de 4 números."
@@ -27347,7 +27347,7 @@ msgstr ""
 "selecciona un lugar vacío de una operación para mover allí el número que has "
 "seleccionado."
 
-#: activities/tens_complement_use/resource/1/Data.qml:43
+#: activities/tens_complement_use/resource/1/Data.qml:59
 msgctxt "Data|"
 msgid "Result between 11 and 19."
 msgstr "Resultado entre 11 y 19."

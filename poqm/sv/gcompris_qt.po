@@ -17852,7 +17852,7 @@ msgstr ""
 "i området längst ner för att mata in ditt svar, och på Ok-knappen för att "
 "kontrollera det."
 
-#: activities/magic-hat-minus/MagicHat.qml:256
+#: activities/magic-hat-minus/MagicHat.qml:272
 msgctxt "MagicHat|"
 msgid "Click on the hat to begin the game"
 msgstr "Klicka på hatten för att börja spelet"
@@ -26843,7 +26843,7 @@ msgstr ""
 "knappen Ok för att kontrollera svaren. Om vissa svar är felaktiga visas en "
 "korsikon på motsvarande rader. Rätta felen, och använd sedan knappen Ok igen."
 
-#: activities/tens_complement_calculate/resource/1/Data.qml:36
+#: activities/tens_complement_calculate/resource/1/Data.qml:52
 msgctxt "Data|"
 msgid "1 pair to make from 3 numbers."
 msgstr "1 par att skapa från 3 tal."
@@ -26902,7 +26902,7 @@ msgstr ""
 "Skapa par av tal som är lika med tio. Välj ett tal i listan, och välj sedan "
 "ett tomt utrymme för en operation för att flytta det valda talet dit."
 
-#: activities/tens_complement_find/resource/1/Data.qml:25
+#: activities/tens_complement_find/resource/1/Data.qml:56
 msgctxt "Data|"
 msgid "First number from 1 to 4."
 msgstr "Första talet från 1 till 4."
@@ -26961,7 +26961,7 @@ msgstr ""
 "svar är felaktiga visas en korsikon på motsvarande rader. Rätta felen, och "
 "använd sedan knappen Ok igen."
 
-#: activities/tens_complement_swap/resource/1/Data.qml:36
+#: activities/tens_complement_swap/resource/1/Data.qml:50
 msgctxt "Data|"
 msgid "2 pairs to make from 4 numbers."
 msgstr "2 par att skapa från 4 tal."
@@ -27007,7 +27007,7 @@ msgstr ""
 "varje parentespar. Välj ett tal i listan, och välj sedan ett tomt utrymme "
 "för en operation för att flytta det valda talet dit."
 
-#: activities/tens_complement_use/resource/1/Data.qml:43
+#: activities/tens_complement_use/resource/1/Data.qml:59
 msgctxt "Data|"
 msgid "Result between 11 and 19."
 msgstr "Resultat mellan 11 och 19."

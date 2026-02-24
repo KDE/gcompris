@@ -17409,7 +17409,7 @@ msgstr ""
 "Tvým úkolem je spočítat, kolik hvězd zůstalo pod kloboukem. Klikni na pole "
 "pod čarou pro vložení odpovědi a potvrď ji stisknutím OK."
 
-#: activities/magic-hat-minus/MagicHat.qml:256
+#: activities/magic-hat-minus/MagicHat.qml:272
 msgctxt "MagicHat|"
 msgid "Click on the hat to begin the game"
 msgstr "Pro započetí hry klikni na klobouk"
@@ -26336,7 +26336,7 @@ msgstr ""
 "nesprávné, objeví se na odpovídajících řádcích ikona křížku. Oprav chyby a "
 "pak stiskni tlačítko OK znovu."
 
-#: activities/tens_complement_calculate/resource/1/Data.qml:36
+#: activities/tens_complement_calculate/resource/1/Data.qml:52
 msgctxt "Data|"
 msgid "1 pair to make from 3 numbers."
 msgstr "Vytvoř 1 pár ze 3 čísel."
@@ -26395,7 +26395,7 @@ msgstr ""
 "Vytvoř páry, které se rovnají deseti. Vyber ze seznamu číslo a pak abys "
 "vybrané číslo přesunul na dané místo zvol prázdné místo výpočtu."
 
-#: activities/tens_complement_find/resource/1/Data.qml:25
+#: activities/tens_complement_find/resource/1/Data.qml:56
 msgctxt "Data|"
 msgid "First number from 1 to 4."
 msgstr "První číslo od 1 do 4."
@@ -26453,7 +26453,7 @@ msgstr ""
 "odpovědi nesprávné, objeví se na odpovídajících řádcích ikona křížku. Oprav "
 "chyby a pak stiskni tlačítko OK znovu."
 
-#: activities/tens_complement_swap/resource/1/Data.qml:36
+#: activities/tens_complement_swap/resource/1/Data.qml:50
 msgctxt "Data|"
 msgid "2 pairs to make from 4 numbers."
 msgstr "Vytvoř 2 páry ze 4 čísel."
@@ -26499,7 +26499,7 @@ msgstr ""
 "Vyber číslo ze seznamu, pak vyber prázdné místo na operaci pro přesun "
 "vybraného čísla na dané místo."
 
-#: activities/tens_complement_use/resource/1/Data.qml:43
+#: activities/tens_complement_use/resource/1/Data.qml:59
 msgctxt "Data|"
 msgid "Result between 11 and 19."
 msgstr "Výsledek mezi 11 a 19."

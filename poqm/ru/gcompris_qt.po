@@ -17942,7 +17942,7 @@ msgstr ""
 "звёздочкам в нижнем ряду, чтобы указать нужное количество. Нажми кнопку «ОК» "
 "для проверки своего ответа."
 
-#: activities/magic-hat-minus/MagicHat.qml:256
+#: activities/magic-hat-minus/MagicHat.qml:272
 msgctxt "MagicHat|"
 msgid "Click on the hat to begin the game"
 msgstr "Щёлкни по шляпе, чтобы начать игру"
@@ -27025,7 +27025,7 @@ msgstr ""
 "какие-то ответы неверны, в соответствующих строках появится значок крестика. "
 "Исправь ошибки, затем снова нажми кнопку OK."
 
-#: activities/tens_complement_calculate/resource/1/Data.qml:36
+#: activities/tens_complement_calculate/resource/1/Data.qml:52
 msgctxt "Data|"
 msgid "1 pair to make from 3 numbers."
 msgstr "1 пара для составления из 3 чисел."
@@ -27084,7 +27084,7 @@ msgstr ""
 "Составь пары чисел, равных десяти. Выбери число в списке, затем выбери "
 "пустое место операции, чтобы переместить туда выбранное число."
 
-#: activities/tens_complement_find/resource/1/Data.qml:25
+#: activities/tens_complement_find/resource/1/Data.qml:56
 msgctxt "Data|"
 msgid "First number from 1 to 4."
 msgstr "Первое число от 1 до 4."
@@ -27143,7 +27143,7 @@ msgstr ""
 "неверны, в соответствующих строках появится крестик. Исправь ошибки, затем "
 "снова нажми кнопку «OK»."
 
-#: activities/tens_complement_swap/resource/1/Data.qml:36
+#: activities/tens_complement_swap/resource/1/Data.qml:50
 msgctxt "Data|"
 msgid "2 pairs to make from 4 numbers."
 msgstr "2 пары для составления из 4 чисел. "
@@ -27189,7 +27189,7 @@ msgstr ""
 "Выбери число в списке, затем выбери пустое место операции, чтобы переместить "
 "туда выбранное число."
 
-#: activities/tens_complement_use/resource/1/Data.qml:43
+#: activities/tens_complement_use/resource/1/Data.qml:59
 msgctxt "Data|"
 msgid "Result between 11 and 19."
 msgstr "Результаты между 11 и 19."

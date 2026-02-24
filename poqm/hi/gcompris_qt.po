@@ -19625,7 +19625,7 @@ msgstr ""
 "इसे खोलने या बंद करने के लिए टोपी पर क्लिक करें। टोपी के नीचे, आप कितने तारे देख सकते हैं? "
 "सावधानी से गणना करें अपने जवाब को इनपुट करने के लिए नीचे-दाएं क्षेत्र में क्लिक करें।"
 
-#: activities/magic-hat-minus/MagicHat.qml:256
+#: activities/magic-hat-minus/MagicHat.qml:272
 msgctxt "MagicHat|"
 msgid "Click on the hat to begin the game"
 msgstr "खेल शुरू करने के लिए टोपी पर क्लिक करें"
@@ -30060,7 +30060,7 @@ msgid ""
 "the errors, then press the OK button again."
 msgstr ""
 
-#: activities/tens_complement_calculate/resource/1/Data.qml:36
+#: activities/tens_complement_calculate/resource/1/Data.qml:52
 #, fuzzy
 #| msgctxt "Warning|"
 #| msgid "1 is not a prime number."
@@ -30125,7 +30125,7 @@ msgid ""
 "select an empty spot of an operation to move the selected number there."
 msgstr ""
 
-#: activities/tens_complement_find/resource/1/Data.qml:25
+#: activities/tens_complement_find/resource/1/Data.qml:56
 #, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Learn the division of numbers"
@@ -30189,7 +30189,7 @@ msgid ""
 "corresponding lines. Correct the errors, then press the OK button again."
 msgstr ""
 
-#: activities/tens_complement_swap/resource/1/Data.qml:36
+#: activities/tens_complement_swap/resource/1/Data.qml:50
 #, fuzzy
 #| msgctxt "Warning|"
 #| msgid "1 is not a prime number."
@@ -30241,7 +30241,7 @@ msgid ""
 "operation to move the selected number there."
 msgstr ""
 
-#: activities/tens_complement_use/resource/1/Data.qml:43
+#: activities/tens_complement_use/resource/1/Data.qml:59
 #, fuzzy
 #| msgctxt "guessnumber|"
 #| msgid "Guess a number between 1 and %1"

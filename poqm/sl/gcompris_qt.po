@@ -17831,7 +17831,7 @@ msgstr ""
 "pobegne. Morate prešteti, koliko jih je še pod klobukom. Kliknite na spodnje "
 "območje za vnos vašega odgovora in na gumb V redu, da preverite svoj odgovor."
 
-#: activities/magic-hat-minus/MagicHat.qml:256
+#: activities/magic-hat-minus/MagicHat.qml:272
 msgctxt "MagicHat|"
 msgid "Click on the hat to begin the game"
 msgstr "Kliknite na klobuk, da začnete igro"
@@ -26801,7 +26801,7 @@ msgstr ""
 "se v ustreznih vrsticah pojavi ikona križca. Popravite napake in znova "
 "pritisnite gumb OK."
 
-#: activities/tens_complement_calculate/resource/1/Data.qml:36
+#: activities/tens_complement_calculate/resource/1/Data.qml:52
 msgctxt "Data|"
 msgid "1 pair to make from 3 numbers."
 msgstr "naredite 1 par iz 3 števil."
@@ -26860,7 +26860,7 @@ msgstr ""
 "Ustvarite pare številk, ki so enake deset. Izberite število na seznamu, nato "
 "izberite prazno mesto operacije in premaknite izbrano število tja."
 
-#: activities/tens_complement_find/resource/1/Data.qml:25
+#: activities/tens_complement_find/resource/1/Data.qml:56
 msgctxt "Data|"
 msgid "First number from 1 to 4."
 msgstr "Prvo število od 1 do 4."
@@ -26919,7 +26919,7 @@ msgstr ""
 "nekateri odgovori napačni, se bo na tam prikazala ikona križa. Popravite "
 "napake, nato spet pritisnite gumb V redu."
 
-#: activities/tens_complement_swap/resource/1/Data.qml:36
+#: activities/tens_complement_swap/resource/1/Data.qml:50
 msgctxt "Data|"
 msgid "2 pairs to make from 4 numbers."
 msgstr "naredite 2 para iz 4 števil."
@@ -26965,7 +26965,7 @@ msgstr ""
 "oklepaju. Na seznamu izberite številko, nato izberite prazno mesto operacije "
 "za premik izbrane številke tja."
 
-#: activities/tens_complement_use/resource/1/Data.qml:43
+#: activities/tens_complement_use/resource/1/Data.qml:59
 msgctxt "Data|"
 msgid "Result between 11 and 19."
 msgstr "Rezultat med 11 in 19."

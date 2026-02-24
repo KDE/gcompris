@@ -17813,7 +17813,7 @@ msgstr ""
 "Moraš izračunati koliko je zvjezdica još ispod šešira. Klikni na donji dio "
 "za unos odgovora i na gumb \"U redu\" za potvrdu."
 
-#: activities/magic-hat-minus/MagicHat.qml:256
+#: activities/magic-hat-minus/MagicHat.qml:272
 msgctxt "MagicHat|"
 msgid "Click on the hat to begin the game"
 msgstr "Klikni na šešir za početak igre"
@@ -26802,7 +26802,7 @@ msgstr ""
 "neki odgovori netočni, pojavit će se ikona križića u retku netočnog "
 "odgovora. Ispravi pogreške te zatim ponovno pritisnite gumb \"U redu\"."
 
-#: activities/tens_complement_calculate/resource/1/Data.qml:36
+#: activities/tens_complement_calculate/resource/1/Data.qml:52
 msgctxt "Data|"
 msgid "1 pair to make from 3 numbers."
 msgstr "Napravi 1 par od 3 broja."
@@ -26861,7 +26861,7 @@ msgstr ""
 "Sastavi parove brojeva jednakih deset. Odaberi broj na popisu, zatim odaberi "
 "prazno mjesto operacije kako bi tamo premjestio odabrani broj."
 
-#: activities/tens_complement_find/resource/1/Data.qml:25
+#: activities/tens_complement_find/resource/1/Data.qml:56
 msgctxt "Data|"
 msgid "First number from 1 to 4."
 msgstr "Prvi broj od 1 do 4."
@@ -26920,7 +26920,7 @@ msgstr ""
 "odgovora. Ako su neki odgovori netočni, pojavit će se ikona križa u "
 "odgovarajućim redovima. Ispravi pogreške, a zatim ponovno pritisni gumb OK."
 
-#: activities/tens_complement_swap/resource/1/Data.qml:36
+#: activities/tens_complement_swap/resource/1/Data.qml:50
 msgctxt "Data|"
 msgid "2 pairs to make from 4 numbers."
 msgstr "Napravi 2 para od 4 broja."
@@ -26966,7 +26966,7 @@ msgstr ""
 "svake zagrade. Odaberi broj na popisu, zatim odaberi prazno mjesto operacije "
 "kako bi tamo premjestio odabrani broj."
 
-#: activities/tens_complement_use/resource/1/Data.qml:43
+#: activities/tens_complement_use/resource/1/Data.qml:59
 msgctxt "Data|"
 msgid "Result between 11 and 19."
 msgstr "Rezultat između 11 i 19."

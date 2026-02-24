@@ -17777,7 +17777,7 @@ msgstr ""
 "按一下帽子可以把它打開或蓋上。星星會跑進去，然後有一些會溜走。您要數數看在帽"
 "子下還有多少星星。點擊底部區域並輸入您的答案，然後點「確定」來揭曉。"
 
-#: activities/magic-hat-minus/MagicHat.qml:256
+#: activities/magic-hat-minus/MagicHat.qml:272
 msgctxt "MagicHat|"
 msgid "Click on the hat to begin the game"
 msgstr "點擊帽子開始遊戲"
@@ -26881,7 +26881,7 @@ msgstr ""
 "中的數字來調換他們的位置。 完成所有行後，按下「確定」以驗證答案。 如果某些答"
 "案不正確，相應行上會出現叉叉。更正錯誤，然後再次按「確定」鍵。"
 
-#: activities/tens_complement_calculate/resource/1/Data.qml:36
+#: activities/tens_complement_calculate/resource/1/Data.qml:52
 #, fuzzy
 #| msgctxt "Data|"
 #| msgid "2 pairs to make from 4 numbers."
@@ -26944,7 +26944,7 @@ msgstr ""
 "建立一對加起來等於 10 的數字。在清單中選擇一個數字，然後選擇等式的空白位置將"
 "所選數字移動到那裡。"
 
-#: activities/tens_complement_find/resource/1/Data.qml:25
+#: activities/tens_complement_find/resource/1/Data.qml:56
 msgctxt "Data|"
 msgid "First number from 1 to 4."
 msgstr "第一個數字從 1 到 4。"
@@ -27002,7 +27002,7 @@ msgstr ""
 "中的數字來調換他們的位置。 完成所有行後，按下「確定」以驗證答案。 如果某些答"
 "案不正確，相應行上會出現叉叉。更正錯誤，然後再次按「確定」鍵。"
 
-#: activities/tens_complement_swap/resource/1/Data.qml:36
+#: activities/tens_complement_swap/resource/1/Data.qml:50
 msgctxt "Data|"
 msgid "2 pairs to make from 4 numbers."
 msgstr "4 個數字組成兩對。"
@@ -27050,7 +27050,7 @@ msgstr ""
 "分解加法，並在刮號內建立一對加起來等於十的數字。在清單中選擇一個數字，然後選"
 "擇等式中的空白位置將所選數字移動到那裡。"
 
-#: activities/tens_complement_use/resource/1/Data.qml:43
+#: activities/tens_complement_use/resource/1/Data.qml:59
 msgctxt "Data|"
 msgid "Result between 11 and 19."
 msgstr "運算結果在 11 到 19 之間。"

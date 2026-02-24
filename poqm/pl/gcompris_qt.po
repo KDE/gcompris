@@ -17935,7 +17935,7 @@ msgstr ""
 "ucieka. Musisz zliczyć ile jest ich jeszcze pod czapką. Naciśnij w dolnym "
 "obszarze, aby podać swoją odpowiedź i na przycisku OK, aby ją potwierdzić."
 
-#: activities/magic-hat-minus/MagicHat.qml:256
+#: activities/magic-hat-minus/MagicHat.qml:272
 msgctxt "MagicHat|"
 msgid "Click on the hat to begin the game"
 msgstr "Naciśnij na czapce, aby zacząć grę"
@@ -26998,7 +26998,7 @@ msgstr ""
 "niektóre z odpowiedzi będą niepoprawne, to pojawi się ikona krzyżyka obok "
 "danego wiersza. Popraw te błędy, a następnie naciśnij ponownie przycisk OK."
 
-#: activities/tens_complement_calculate/resource/1/Data.qml:36
+#: activities/tens_complement_calculate/resource/1/Data.qml:52
 msgctxt "Data|"
 msgid "1 pair to make from 3 numbers."
 msgstr "1 para do stworzenia z 3 liczb."
@@ -27057,7 +27057,7 @@ msgstr ""
 "Stworzyć pary liczb równe dziesięciu. Wybierz liczbę na liście, a następnie "
 "wybierz puste miejsce działania, aby przenieść tam wybraną liczbę."
 
-#: activities/tens_complement_find/resource/1/Data.qml:25
+#: activities/tens_complement_find/resource/1/Data.qml:56
 msgctxt "Data|"
 msgid "First number from 1 to 4."
 msgstr "Liczba pierwsza z zakresu od 1 do 4."
@@ -27117,7 +27117,7 @@ msgstr ""
 "obok danego wiersza. Popraw te błędy, a następnie naciśnij ponownie przycisk "
 "OK."
 
-#: activities/tens_complement_swap/resource/1/Data.qml:36
+#: activities/tens_complement_swap/resource/1/Data.qml:50
 msgctxt "Data|"
 msgid "2 pairs to make from 4 numbers."
 msgstr "2 pary do stworzenia z 4 liczb."
@@ -27163,7 +27163,7 @@ msgstr ""
 "nawiasie. Wybierz liczbę na liście, a następnie wybierz puste miejsce "
 "działania, aby przenieść tam wybraną liczbę."
 
-#: activities/tens_complement_use/resource/1/Data.qml:43
+#: activities/tens_complement_use/resource/1/Data.qml:59
 msgctxt "Data|"
 msgid "Result between 11 and 19."
 msgstr "Wynik pomiędzy 11 a 19."

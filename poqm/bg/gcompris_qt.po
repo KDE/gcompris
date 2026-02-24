@@ -17927,7 +17927,7 @@ msgstr ""
 "Кликни върху долната област, за да въведеш отговора си и върху бутона OK, за "
 "да го потвърдиш."
 
-#: activities/magic-hat-minus/MagicHat.qml:256
+#: activities/magic-hat-minus/MagicHat.qml:272
 msgctxt "MagicHat|"
 msgid "Click on the hat to begin the game"
 msgstr "Кликни върху шапката, за да започнеш играта"
@@ -26993,7 +26993,7 @@ msgstr ""
 "отговори са неправилни, иконка с две кръстосани линии ще се появи на "
 "съответните редове. Коригирай грешките, след което отново натисни бутона OK."
 
-#: activities/tens_complement_calculate/resource/1/Data.qml:36
+#: activities/tens_complement_calculate/resource/1/Data.qml:52
 msgctxt "Data|"
 msgid "1 pair to make from 3 numbers."
 msgstr "1 двойка да се направи от 3 числа."
@@ -27052,7 +27052,7 @@ msgstr ""
 "Създай двойки числа, равни на десет. Избери число в списъка, след което "
 "избери празно място на операцията и премести избраното число там."
 
-#: activities/tens_complement_find/resource/1/Data.qml:25
+#: activities/tens_complement_find/resource/1/Data.qml:56
 msgctxt "Data|"
 msgid "First number from 1 to 4."
 msgstr "Първо число от 1 до 4."
@@ -27112,7 +27112,7 @@ msgstr ""
 "ще се появи на съответните линии. Коригирайте грешките, след което отново "
 "натисни бутона OK."
 
-#: activities/tens_complement_swap/resource/1/Data.qml:36
+#: activities/tens_complement_swap/resource/1/Data.qml:50
 msgctxt "Data|"
 msgid "2 pairs to make from 4 numbers."
 msgstr "2 двойки да се направят от 4 числа."
@@ -27158,7 +27158,7 @@ msgstr ""
 "скоба. Избери число в списъка, след което избери празно място на операция, "
 "за да преместиш избраното число там."
 
-#: activities/tens_complement_use/resource/1/Data.qml:43
+#: activities/tens_complement_use/resource/1/Data.qml:59
 msgctxt "Data|"
 msgid "Result between 11 and 19."
 msgstr "Резултат между 11 и 19."

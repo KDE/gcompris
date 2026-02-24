@@ -17920,7 +17920,7 @@ msgstr ""
 "tog. Klik er c'hombodoù war al linenn en traoñ  evit reiñ da respont a-raok "
 "pouezañ war OK a-zehoù."
 
-#: activities/magic-hat-minus/MagicHat.qml:256
+#: activities/magic-hat-minus/MagicHat.qml:272
 msgctxt "MagicHat|"
 msgid "Click on the hat to begin the game"
 msgstr "Klik war an tog evit kregiñ gant ar c'hoari"
@@ -26955,7 +26955,7 @@ msgstr ""
 "teuio skeudennig ur groaz war-wel war al linennoù da reizhañ. Difazi pep tra "
 "ha pouez goude adarre war ar bouton OK;"
 
-#: activities/tens_complement_calculate/resource/1/Data.qml:36
+#: activities/tens_complement_calculate/resource/1/Data.qml:52
 msgctxt "Data|"
 msgid "1 pair to make from 3 numbers."
 msgstr "1 c'houblad da gaout diwar 3 niverenn."
@@ -27014,7 +27014,7 @@ msgstr ""
 "Krou koubladoù niveroù par da zek. Dibab un niver er roll, choaz goude ul "
 "lec'h goullo er jedadenn evit kas an niver dibabet aze."
 
-#: activities/tens_complement_find/resource/1/Data.qml:25
+#: activities/tens_complement_find/resource/1/Data.qml:56
 msgctxt "Data|"
 msgid "First number from 1 to 4."
 msgstr "Niveroù prim adalek 1 betek 4."
@@ -27073,7 +27073,7 @@ msgstr ""
 "respontoù faos e teuio skeudennig ur groaz war-wel war al linennoù da "
 "reizhañ. Difazi pep tra ha pouez goude adarre war ar bouton OK;"
 
-#: activities/tens_complement_swap/resource/1/Data.qml:36
+#: activities/tens_complement_swap/resource/1/Data.qml:50
 msgctxt "Data|"
 msgid "2 pairs to make from 4 numbers."
 msgstr "2 goublad ingal diwar 4 niverenn."
@@ -27119,7 +27119,7 @@ msgstr ""
 "barzh ar c'hrommelloù . Dibab un niver er roll, choaz goude ul lec'h goullo "
 "er jedadenn evit kas an niver dibabet aze."
 
-#: activities/tens_complement_use/resource/1/Data.qml:43
+#: activities/tens_complement_use/resource/1/Data.qml:59
 msgctxt "Data|"
 msgid "Result between 11 and 19."
 msgstr "Disoc'h etre 11 ha 19."

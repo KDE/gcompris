@@ -17822,7 +17822,7 @@ msgstr ""
 "kadarının hala şapka altında olduğunu saymalısın. Yanıtını girmek için "
 "alttaki alana tıkla ve yanıtını doğrulamak için OK düğmesine tıkla."
 
-#: activities/magic-hat-minus/MagicHat.qml:256
+#: activities/magic-hat-minus/MagicHat.qml:272
 msgctxt "MagicHat|"
 msgid "Click on the hat to begin the game"
 msgstr "Şapkaya tıklayarak oyuna başla"
@@ -26817,7 +26817,7 @@ msgstr ""
 "bir çarpı simgesi görünecektir. Hataları düzelt, ardından yeniden OK "
 "düğmesine bas."
 
-#: activities/tens_complement_calculate/resource/1/Data.qml:36
+#: activities/tens_complement_calculate/resource/1/Data.qml:52
 msgctxt "Data|"
 msgid "1 pair to make from 3 numbers."
 msgstr "3 sayıdan yapılacak 1 çift."
@@ -26876,7 +26876,7 @@ msgstr ""
 "10’a eşit sayı çiftleri oluştur. Listeden bir numara seç, ardından seçilen "
 "numarayı oraya taşımak için bir işlemin boş bir yerini seç."
 
-#: activities/tens_complement_find/resource/1/Data.qml:25
+#: activities/tens_complement_find/resource/1/Data.qml:56
 msgctxt "Data|"
 msgid "First number from 1 to 4."
 msgstr "1’den 4’e kadar ilk sayı."
@@ -26935,7 +26935,7 @@ msgstr ""
 "yanıtlar yanlışsa ilgili satırlarda bir çarpı simgesi görünecektir. Hataları "
 "düzelt, ardından yeniden OK düğmesine bas."
 
-#: activities/tens_complement_swap/resource/1/Data.qml:36
+#: activities/tens_complement_swap/resource/1/Data.qml:50
 msgctxt "Data|"
 msgid "2 pairs to make from 4 numbers."
 msgstr "4 sayıdan yapılacak 2 çift."
@@ -26981,7 +26981,7 @@ msgstr ""
 "ayrıştır. Listeden bir numara seç, ardından seçilen numarayı oraya taşımak "
 "için bir işlemin boş bir yerini seç."
 
-#: activities/tens_complement_use/resource/1/Data.qml:43
+#: activities/tens_complement_use/resource/1/Data.qml:59
 msgctxt "Data|"
 msgid "Result between 11 and 19."
 msgstr "11 ile 19 arasındaki sonuç."

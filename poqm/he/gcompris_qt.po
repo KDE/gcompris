@@ -17437,7 +17437,7 @@ msgstr ""
 "כמה נמצאים עדיין מתחת לכובע. ללחוץ על החלק התחתון כדי להכניס את התשובה שלך "
 "ועל כפתור ה\"אישור\" כדי לאמת אותה."
 
-#: activities/magic-hat-minus/MagicHat.qml:256
+#: activities/magic-hat-minus/MagicHat.qml:272
 msgctxt "MagicHat|"
 msgid "Click on the hat to begin the game"
 msgstr "ללחוץ על הכובע כדי להתחיל את המשחק"
@@ -26208,7 +26208,7 @@ msgstr ""
 "הכפתור OK כדי לאמת את התשובות. אם חלק מהתשובות שגויות, יופיע סימן של צלב על "
 "השורה המתאימה. יש לתקן את השגיאות וללחוץ על הכפתור OK שוב."
 
-#: activities/tens_complement_calculate/resource/1/Data.qml:36
+#: activities/tens_complement_calculate/resource/1/Data.qml:52
 msgctxt "Data|"
 msgid "1 pair to make from 3 numbers."
 msgstr "ליצור זוג מ־3 מספרים."
@@ -26266,7 +26266,7 @@ msgstr ""
 "צְרוּ זוגות מספרים שסכומם 10. לבחור מספר מהרשימה, ואז לבחור מקום ריק של פעולה "
 "כדי להעביר את המספר לשם."
 
-#: activities/tens_complement_find/resource/1/Data.qml:25
+#: activities/tens_complement_find/resource/1/Data.qml:56
 msgctxt "Data|"
 msgid "First number from 1 to 4."
 msgstr "מספר ראשון בין 1 ל־4."
@@ -26322,7 +26322,7 @@ msgstr ""
 "על OK כדי לבדוק את התשובות. אם חלק מהתשובות אינן נכונות, יופיעו לידן סימן X. "
 "לאחר תיקון השגיאות יש ללחוץ שוב על OK."
 
-#: activities/tens_complement_swap/resource/1/Data.qml:36
+#: activities/tens_complement_swap/resource/1/Data.qml:50
 msgctxt "Data|"
 msgid "2 pairs to make from 4 numbers."
 msgstr "ליצור 2 זוגות מ־4 מספרים."
@@ -26368,7 +26368,7 @@ msgstr ""
 "סוגריים. לבחור מספר מהרשימה, ואז לבחור מקום ריק באחת הפעולות כדי להעביר את "
 "המספר לשם."
 
-#: activities/tens_complement_use/resource/1/Data.qml:43
+#: activities/tens_complement_use/resource/1/Data.qml:59
 msgctxt "Data|"
 msgid "Result between 11 and 19."
 msgstr "התוצאה בין 11 ל־19."

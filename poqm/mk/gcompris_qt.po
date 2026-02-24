@@ -18759,7 +18759,7 @@ msgstr ""
 "Кликнете на долниот дел за да го внесете вашиот одговор и на копчето ОК за "
 "да го потврдите вашиот одговор."
 
-#: activities/magic-hat-minus/MagicHat.qml:256
+#: activities/magic-hat-minus/MagicHat.qml:272
 msgctxt "MagicHat|"
 msgid "Click on the hat to begin the game"
 msgstr "Кликнете на капата за да ја започнете играта"
@@ -28287,7 +28287,7 @@ msgid ""
 "the errors, then press the OK button again."
 msgstr ""
 
-#: activities/tens_complement_calculate/resource/1/Data.qml:36
+#: activities/tens_complement_calculate/resource/1/Data.qml:52
 #, fuzzy
 #| msgctxt "Warning|"
 #| msgid "1 is not a prime number."
@@ -28352,7 +28352,7 @@ msgid ""
 "select an empty spot of an operation to move the selected number there."
 msgstr ""
 
-#: activities/tens_complement_find/resource/1/Data.qml:25
+#: activities/tens_complement_find/resource/1/Data.qml:56
 #, fuzzy
 #| msgctxt "Data|"
 #| msgid "Numbers from 0 to 9."
@@ -28416,7 +28416,7 @@ msgid ""
 "corresponding lines. Correct the errors, then press the OK button again."
 msgstr ""
 
-#: activities/tens_complement_swap/resource/1/Data.qml:36
+#: activities/tens_complement_swap/resource/1/Data.qml:50
 #, fuzzy
 #| msgctxt "Warning|"
 #| msgid "1 is not a prime number."
@@ -28468,7 +28468,7 @@ msgid ""
 "operation to move the selected number there."
 msgstr ""
 
-#: activities/tens_complement_use/resource/1/Data.qml:43
+#: activities/tens_complement_use/resource/1/Data.qml:59
 #, fuzzy
 #| msgctxt "Data|"
 #| msgid "Between 1 and 10."

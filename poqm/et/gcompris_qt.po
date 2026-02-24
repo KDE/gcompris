@@ -18321,7 +18321,7 @@ msgstr ""
 "kübara all. Klõpsa alumisel real vastuse andmiseks ja vastuse kinnitamiseks "
 "vajuta nupule OK."
 
-#: activities/magic-hat-minus/MagicHat.qml:256
+#: activities/magic-hat-minus/MagicHat.qml:272
 msgctxt "MagicHat|"
 msgid "Click on the hat to begin the game"
 msgstr "Mängu alustamiseks klõpsa kübaral"
@@ -27705,7 +27705,7 @@ msgstr ""
 "valed, ilmub vastavatele ridadele ristiikoon. Parandage vead, seejärel "
 "vajutage uuesti nuppu OK."
 
-#: activities/tens_complement_calculate/resource/1/Data.qml:36
+#: activities/tens_complement_calculate/resource/1/Data.qml:52
 #, fuzzy
 #| msgctxt "Data|"
 #| msgid "2 pairs to make from 4 numbers."
@@ -27770,7 +27770,7 @@ msgstr ""
 "Looge arvupaare, mis võrduvad kümnega. Valige loendist number, seejärel "
 "valige toimingu tühi koht, et valitud number sinna liigutada."
 
-#: activities/tens_complement_find/resource/1/Data.qml:25
+#: activities/tens_complement_find/resource/1/Data.qml:56
 msgctxt "Data|"
 msgid "First number from 1 to 4."
 msgstr "Esimene number 1 kuni 4."
@@ -27832,7 +27832,7 @@ msgstr ""
 "valed, ilmub vastavatele ridadele ristiikoon. Parandage vead, seejärel "
 "vajutage uuesti nuppu OK."
 
-#: activities/tens_complement_swap/resource/1/Data.qml:36
+#: activities/tens_complement_swap/resource/1/Data.qml:50
 msgctxt "Data|"
 msgid "2 pairs to make from 4 numbers."
 msgstr "Tee 2 paari 4st numbrist."
@@ -27881,7 +27881,7 @@ msgstr ""
 "Valige loendist number, seejärel valige toimingu tühi koht, et valitud "
 "number sinna teisaldada."
 
-#: activities/tens_complement_use/resource/1/Data.qml:43
+#: activities/tens_complement_use/resource/1/Data.qml:59
 msgctxt "Data|"
 msgid "Result between 11 and 19."
 msgstr "Tulemus vahemikus 11 kuni 19."

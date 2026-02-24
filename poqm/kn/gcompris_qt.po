@@ -18455,7 +18455,7 @@ msgstr ""
 "ಅಡಿಯಲ್ಲಿ ಎಷ್ಟು ನಕ್ಷತ್ರಗಳು ಬಾಕಿ ಉಳಿದಿವೆ ಎಂದು  ಎಣಿಸಿ ನೋಡಿರಿ. ಕೆಳಗಿನ ಭಾಗದಲ್ಲಿ ಕ್ಲಿಕ್ "
 "ಮಾಡಿ ಉತ್ತರವನ್ನು ನೀಡಿ ಓಕೆ ಬಟನ್ ಒತ್ತಿ ಅದನ್ನು ದೃಢಪಡಿಸಬೇಕು."
 
-#: activities/magic-hat-minus/MagicHat.qml:256
+#: activities/magic-hat-minus/MagicHat.qml:272
 msgctxt "MagicHat|"
 msgid "Click on the hat to begin the game"
 msgstr "ಟೋಪಿಗೆ ಕ್ಲಿಕ್ ಮಾಡಿ ಆಟವನ್ನು ಆರಂಭಿಸಿ"
@@ -27898,7 +27898,7 @@ msgstr ""
 "ಉತ್ತರಗಳನ್ನು ಪರಿಶೀಲಿಸಿರಿ. ತಪ್ಪು ಉತ್ತರಗಳಿದ್ದರೆ, ಆ ಸಾಲುಗಳಲ್ಲಿ ಒಂದು ತಪ್ಪು ಚಿಹ್ನೆಯನ್ನು "
 "ನೋಡುತ್ತೀರಿ. ತಪ್ಪುಗಳನ್ನು ಸರಿಪಡಿಸಿ ಪುನ: OK ಬಟನ್ ಒತ್ತಿರಿ."
 
-#: activities/tens_complement_calculate/resource/1/Data.qml:36
+#: activities/tens_complement_calculate/resource/1/Data.qml:52
 #, fuzzy
 #| msgctxt "Data|"
 #| msgid "2 pairs to make from 4 numbers."
@@ -27963,7 +27963,7 @@ msgstr ""
 "ಹತ್ತಕ್ಕೆ ಸಮಾನವಾದ ಸಂಖ್ಯೆಗಳ ಜೋಡಿಗಳನ್ನು ಮಾಡಿರಿ. ಪಟ್ಟಿಯಿಂದ ಒಂದು ಸಂಖ್ಯೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಿ "
 "ಮತ್ತು ನಂತರ ಒಂದು ಕ್ರಿಯೆಯ ಖಾಲಿ ಜಾಗವನ್ನು ಆರಿಸಿದಾಗ ಆ ಸಂಖ್ಯೆಯು ಅಲ್ಲಿಗೆ ಚಲಿಸುವುದು."
 
-#: activities/tens_complement_find/resource/1/Data.qml:25
+#: activities/tens_complement_find/resource/1/Data.qml:56
 msgctxt "Data|"
 msgid "First number from 1 to 4."
 msgstr "ಮೊದಲ ಸಂಖ್ಯೆ 1 ರಿಂದ 4."
@@ -28025,7 +28025,7 @@ msgstr ""
 "ಉತ್ತರಗಳನ್ನು ಪರಿಶೀಲಿಸಿರಿ. ತಪ್ಪು ಉತ್ತರಗಳಿದ್ದರೆ, ಆ ಸಾಲುಗಳಲ್ಲಿ ಒಂದು ತಪ್ಪು ಚಿಹ್ನೆಯನ್ನು "
 "ನೋಡುತ್ತೀರಿ. ತಪ್ಪುಗಳನ್ನು ಸರಿಪಡಿಸಿ ಪುನ: OK ಬಟನ್ ಒತ್ತಿರಿ."
 
-#: activities/tens_complement_swap/resource/1/Data.qml:36
+#: activities/tens_complement_swap/resource/1/Data.qml:50
 msgctxt "Data|"
 msgid "2 pairs to make from 4 numbers."
 msgstr "4 ಸಂಖ್ಯೆಗಳನ್ನು ಉಪಯೋಗಿಸಿ 2 ಜೊತೆಗಳನ್ನು ಮಾಡಿ."
@@ -28074,7 +28074,7 @@ msgstr ""
 "ಮಾಡಿರಿ.ನೀಡಿರುವ ಪಟ್ಟಿಯಿಂದ ಒಂದು ಸಂಖ್ಯೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ, ನಂತರ ಕ್ರಿಯೆಯ ಖಾಲಿ ಜಾಗವನ್ನು "
 "ಆಯ್ಕೆ ಮಾಡಿ ಆ ಸಂಖ್ಯೆಯನ್ನು ಅಲ್ಲಿಗೆ ಸರಿಸಿರಿ."
 
-#: activities/tens_complement_use/resource/1/Data.qml:43
+#: activities/tens_complement_use/resource/1/Data.qml:59
 msgctxt "Data|"
 msgid "Result between 11 and 19."
 msgstr "ಉತ್ತರವು 11 ಮತ್ತು 19 ರ ನಡುವೆ ಇದೆ."

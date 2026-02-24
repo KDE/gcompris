@@ -18461,7 +18461,7 @@ msgstr ""
 "Sinun on laskettava, montako hatun alla yhä on. Anna vastauksesi "
 "napsauttamalla alempaa aluetta ja vahvista se painamalla OK."
 
-#: activities/magic-hat-minus/MagicHat.qml:256
+#: activities/magic-hat-minus/MagicHat.qml:272
 msgctxt "MagicHat|"
 msgid "Click on the hat to begin the game"
 msgstr "Aloita peli painamalla hatusta"
@@ -27713,7 +27713,7 @@ msgid ""
 "the errors, then press the OK button again."
 msgstr ""
 
-#: activities/tens_complement_calculate/resource/1/Data.qml:36
+#: activities/tens_complement_calculate/resource/1/Data.qml:52
 #, fuzzy
 #| msgctxt "Data|"
 #| msgid "2 pairs to make from 4 numbers."
@@ -27769,7 +27769,7 @@ msgid ""
 "select an empty spot of an operation to move the selected number there."
 msgstr ""
 
-#: activities/tens_complement_find/resource/1/Data.qml:25
+#: activities/tens_complement_find/resource/1/Data.qml:56
 msgctxt "Data|"
 msgid "First number from 1 to 4."
 msgstr "Ensimmäinen numero 1–4."
@@ -27821,7 +27821,7 @@ msgid ""
 "corresponding lines. Correct the errors, then press the OK button again."
 msgstr ""
 
-#: activities/tens_complement_swap/resource/1/Data.qml:36
+#: activities/tens_complement_swap/resource/1/Data.qml:50
 msgctxt "Data|"
 msgid "2 pairs to make from 4 numbers."
 msgstr "4 luvusta tehtävät 2 paria."
@@ -27864,7 +27864,7 @@ msgid ""
 "operation to move the selected number there."
 msgstr ""
 
-#: activities/tens_complement_use/resource/1/Data.qml:43
+#: activities/tens_complement_use/resource/1/Data.qml:59
 msgctxt "Data|"
 msgid "Result between 11 and 19."
 msgstr "Tulos väliltä 11–19."

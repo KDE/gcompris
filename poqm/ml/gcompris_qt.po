@@ -17672,7 +17672,7 @@ msgstr ""
 "തൊപ്പിക്കടിയിൽ എത്ര നക്ഷത്രങ്ങൾ ബാക്കിയുണ്ടെന്ന് നിങ്ങൾ എണ്ണി നോക്കണം. താഴെയുള്ള ഭാഗത്ത് ക്ലിക്ക് "
 "ചെയ്ത് ഉത്തരം കൊടുക്കുകയും ഒകെ ബട്ടൺ അമർത്തി അതു സ്ഥിരീകരിക്കുകയും ചെയ്യാം."
 
-#: activities/magic-hat-minus/MagicHat.qml:256
+#: activities/magic-hat-minus/MagicHat.qml:272
 msgctxt "MagicHat|"
 msgid "Click on the hat to begin the game"
 msgstr "തൊപ്പിയിൽ ക്ലിക്ക് ചെയ്ത് കളി തുടങ്ങൂ"
@@ -26581,7 +26581,7 @@ msgstr ""
 "അമർത്തി ഉത്തരങ്ങൾ സാധൂകരിക്കുക. തെറ്റായ ഉത്തരങ്ങൾ ഉണ്ടെങ്കിൽ, ആ വരികളിൽ ഒരു തെറ്റിന്റെ "
 "ചിഹ്നം കാണും. തെറ്റുകൾ തിരുത്തി, വീണ്ടും ഒകെ ബട്ടണിൽ അമർത്തുക."
 
-#: activities/tens_complement_calculate/resource/1/Data.qml:36
+#: activities/tens_complement_calculate/resource/1/Data.qml:52
 msgctxt "Data|"
 msgid "1 pair to make from 3 numbers."
 msgstr "3 സംഖ്യകൾകൊണ്ട് 1 ജോടി ഉണ്ടാക്കുക."
@@ -26639,7 +26639,7 @@ msgstr ""
 "പത്തിനു തുല്യമായ സംഖ്യ ജോടികൾ നിർമിക്കുക. പട്ടികയിൽ നിന്നും ഒരു സംഖ്യ തിരഞ്ഞെടുക്കുക, എന്നിട്ട് "
 "ഒരു ക്രിയയുടെ ഒഴിഞ്ഞഭാഗം തിരഞ്ഞെടുത്ത് ആ സംഖ്യയെ അങ്ങോട്ടേക്കു നീക്കുക."
 
-#: activities/tens_complement_find/resource/1/Data.qml:25
+#: activities/tens_complement_find/resource/1/Data.qml:56
 msgctxt "Data|"
 msgid "First number from 1 to 4."
 msgstr "ആദ്യസംഖ്യ 1 തൊട്ട് 4 വരെ."
@@ -26697,7 +26697,7 @@ msgstr ""
 "പൂർത്തിയായാൽ, ഒകെ ബട്ടണിൽ അമർത്തി ഉത്തരങ്ങൾ സാധൂകരിക്കുക. തെറ്റായ ഉത്തരങ്ങൾ ഉണ്ടെങ്കിൽ, ആ "
 "വരികളിൽ ഒരു തെറ്റിന്റെ ചിഹ്നം കാണും. തെറ്റുകൾ തിരുത്തി, വീണ്ടും ഒകെ ബട്ടണിൽ അമർത്തുക."
 
-#: activities/tens_complement_swap/resource/1/Data.qml:36
+#: activities/tens_complement_swap/resource/1/Data.qml:50
 msgctxt "Data|"
 msgid "2 pairs to make from 4 numbers."
 msgstr "4 സംഖ്യകൾകൊണ്ട് 2 ജോടികൾ ഉണ്ടാക്കുക."
@@ -26743,7 +26743,7 @@ msgstr ""
 "തന്നിരിക്കുന്ന പട്ടികയിൽ നിന്നും ഒരു സംഖ്യ തിരഞ്ഞെടുക്കുക, എന്നിട്ട് ഒരു ക്രിയയുടെ ഒഴിഞ്ഞഭാഗം "
 "തിരഞ്ഞെടുത്ത് ആ സംഖ്യയെ അങ്ങോട്ടേക്കു നീക്കുക."
 
-#: activities/tens_complement_use/resource/1/Data.qml:43
+#: activities/tens_complement_use/resource/1/Data.qml:59
 msgctxt "Data|"
 msgid "Result between 11 and 19."
 msgstr "ഉത്തരം 11-നും 19-നും ഇടയിൽ."

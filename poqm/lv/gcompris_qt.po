@@ -17832,7 +17832,7 @@ msgstr ""
 "Klikšķini uz apakšējās daļas, lai ierakstītu savu atbildi, bet pēc tam uz "
 "„Labi“, lai to pārbaudītu."
 
-#: activities/magic-hat-minus/MagicHat.qml:256
+#: activities/magic-hat-minus/MagicHat.qml:272
 msgctxt "MagicHat|"
 msgid "Click on the hat to begin the game"
 msgstr "Lai sāktu spēli, klikšķini uz cepures!"
@@ -26822,7 +26822,7 @@ msgstr ""
 "attiecīgajā rindiņā parādīsies krusta ikona. Izlabo kļūdas un spied „Labi“ "
 "vēlreiz."
 
-#: activities/tens_complement_calculate/resource/1/Data.qml:36
+#: activities/tens_complement_calculate/resource/1/Data.qml:52
 msgctxt "Data|"
 msgid "1 pair to make from 3 numbers."
 msgstr "Viens pāris no trim skaitļiem."
@@ -26881,7 +26881,7 @@ msgstr ""
 "Izveido skaitļu pārus, kuru summa ir desmit. Izvēlies skaitli sarakstā un "
 "tad spied uz tukšās vietas darbībā, lai turp pārvietotu šo skaitli."
 
-#: activities/tens_complement_find/resource/1/Data.qml:25
+#: activities/tens_complement_find/resource/1/Data.qml:56
 msgctxt "Data|"
 msgid "First number from 1 to 4."
 msgstr "Pirmais skaitlis no 1 līdz 4."
@@ -26938,7 +26938,7 @@ msgstr ""
 "pārbaudīt. Ja kāda no atbildēm nav pareiza, attiecīgajā rindiņā būs redzama "
 "krusta ikona. Izlabo kļūdas un vēlreiz apstiprini atbildes."
 
-#: activities/tens_complement_swap/resource/1/Data.qml:36
+#: activities/tens_complement_swap/resource/1/Data.qml:50
 msgctxt "Data|"
 msgid "2 pairs to make from 4 numbers."
 msgstr "2 pāri no 4 skaitļiem."
@@ -26984,7 +26984,7 @@ msgstr ""
 "desmit. Atlasi skaitli sarakstā, tad izvēlies tukšu vietu darbībā, lai turp "
 "pārvietotu skaitli."
 
-#: activities/tens_complement_use/resource/1/Data.qml:43
+#: activities/tens_complement_use/resource/1/Data.qml:59
 msgctxt "Data|"
 msgid "Result between 11 and 19."
 msgstr "Rezultāti starp 11 un 19."

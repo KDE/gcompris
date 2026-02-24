@@ -18107,7 +18107,7 @@ msgstr ""
 "deve calcular quantas estrelas ficaram sob o chapéu. Clique na área inferior "
 "para inserir sua resposta e no botão OK para conferi-la."
 
-#: activities/magic-hat-minus/MagicHat.qml:256
+#: activities/magic-hat-minus/MagicHat.qml:272
 msgctxt "MagicHat|"
 msgid "Click on the hat to begin the game"
 msgstr "Clique no chapéu para começar o jogo"
@@ -27211,7 +27211,7 @@ msgstr ""
 "cruz aparecerá na(s) linha(s) correspondente(s). Corrija o(s) erro(s) e "
 "pressione o botão OK novamente."
 
-#: activities/tens_complement_calculate/resource/1/Data.qml:36
+#: activities/tens_complement_calculate/resource/1/Data.qml:52
 msgctxt "Data|"
 msgid "1 pair to make from 3 numbers."
 msgstr "1 par a partir de 3 números."
@@ -27272,7 +27272,7 @@ msgstr ""
 "lista e, depois, selecione um espaço vazio em uma operação para mover o "
 "número selecionado para lá."
 
-#: activities/tens_complement_find/resource/1/Data.qml:25
+#: activities/tens_complement_find/resource/1/Data.qml:56
 msgctxt "Data|"
 msgid "First number from 1 to 4."
 msgstr "Primeiro número de 1 a 4."
@@ -27332,7 +27332,7 @@ msgstr ""
 "um ícone de cruz aparecerá na(s) linha(s) correspondente(s). Corrija o(s) "
 "erro(s) e pressione o botão OK novamente."
 
-#: activities/tens_complement_swap/resource/1/Data.qml:36
+#: activities/tens_complement_swap/resource/1/Data.qml:50
 msgctxt "Data|"
 msgid "2 pairs to make from 4 numbers."
 msgstr "2 pares a partir de 4 números."
@@ -27378,7 +27378,7 @@ msgstr ""
 "cada um dos parênteses. Selecione um número da lista e, depois, selecione um "
 "espaço vazio de uma operação para mover o número selecionado para lá."
 
-#: activities/tens_complement_use/resource/1/Data.qml:43
+#: activities/tens_complement_use/resource/1/Data.qml:59
 msgctxt "Data|"
 msgid "Result between 11 and 19."
 msgstr "Resultado entre 11 e 19."

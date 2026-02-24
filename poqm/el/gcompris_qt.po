@@ -18249,7 +18249,7 @@ msgstr ""
 "κάτω μέρος, για να δώσεις την απάντησή σου και πάτα το κουμπί ΟΚ για να "
 "γίνει έλεγχος της απάντησής σου."
 
-#: activities/magic-hat-minus/MagicHat.qml:256
+#: activities/magic-hat-minus/MagicHat.qml:272
 msgctxt "MagicHat|"
 msgid "Click on the hat to begin the game"
 msgstr "Κάνε κλικ στο καπέλο για να ξεκινήσει το παιχνίδι"
@@ -27436,7 +27436,7 @@ msgstr ""
 "Χ στις αντίστοιχες γραμμές. Διόρθωσε τα λάθη και, στη συνέχεια, πάτησε ξανά "
 "το πλήκτρο ΟΚ."
 
-#: activities/tens_complement_calculate/resource/1/Data.qml:36
+#: activities/tens_complement_calculate/resource/1/Data.qml:52
 msgctxt "Data|"
 msgid "1 pair to make from 3 numbers."
 msgstr "3 αριθμοί, οι 2 σε παρένθεση και 1 εκτός."
@@ -27497,7 +27497,7 @@ msgstr ""
 "λίστα αριστερά και στη συνέχεια ένα κενό σε μια από τις πράξεις δεξιά για να "
 "μετακινήσεις τον επιλεγμένο αριθμό εκεί."
 
-#: activities/tens_complement_find/resource/1/Data.qml:25
+#: activities/tens_complement_find/resource/1/Data.qml:56
 msgctxt "Data|"
 msgid "First number from 1 to 4."
 msgstr "Ο πρώτος προσθετέος να είναι από 1 έως το 4."
@@ -27559,7 +27559,7 @@ msgstr ""
 "διορθώσεις τα σφάλματα, κάνε κλικ διαδοχικά στους λάθος αριθμούς για να τους "
 "τοποθετήσεις στις σωστές θέσεις."
 
-#: activities/tens_complement_swap/resource/1/Data.qml:36
+#: activities/tens_complement_swap/resource/1/Data.qml:50
 msgctxt "Data|"
 msgid "2 pairs to make from 4 numbers."
 msgstr "4 αριθμοί μοιρασμένοι ανά 2 σε παρενθέσεις."
@@ -27606,7 +27606,7 @@ msgstr ""
 "Επιλέγουμε έναν αριθμό από αριστερά και στη συνέχεια ένα κενό σημείο μιας "
 "πράξης για να μετακινήσουμε τον επιλεγμένο αριθμό εκεί."
 
-#: activities/tens_complement_use/resource/1/Data.qml:43
+#: activities/tens_complement_use/resource/1/Data.qml:59
 msgctxt "Data|"
 msgid "Result between 11 and 19."
 msgstr "Αθροίσματα μεταξύ 11 και 19."

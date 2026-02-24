@@ -17904,7 +17904,7 @@ msgstr ""
 "Meg kell számolnod, hogy maradt a kalap alatt. Kattints a lenti területre, "
 "hogy beírhasd a válaszodat, majd az OK gombra hogy ellenőizd azt."
 
-#: activities/magic-hat-minus/MagicHat.qml:256
+#: activities/magic-hat-minus/MagicHat.qml:272
 msgctxt "MagicHat|"
 msgid "Click on the hat to begin the game"
 msgstr "Kattins a kalapra a játék indításához"
@@ -26998,7 +26998,7 @@ msgstr ""
 "válaszok a műveletek között, egy X jel jelenik meg, az adott sorokban. "
 "Javítsd ki a hibákat majd nyomd meg újra az OK gombot!"
 
-#: activities/tens_complement_calculate/resource/1/Data.qml:36
+#: activities/tens_complement_calculate/resource/1/Data.qml:52
 msgctxt "Data|"
 msgid "1 pair to make from 3 numbers."
 msgstr "Három számból legyen két pár."
@@ -27058,7 +27058,7 @@ msgstr ""
 "válaszd ki az üres mezőt egy műveletnél, hogy a kiválasztott számot beírd "
 "oda!"
 
-#: activities/tens_complement_find/resource/1/Data.qml:25
+#: activities/tens_complement_find/resource/1/Data.qml:56
 msgctxt "Data|"
 msgid "First number from 1 to 4."
 msgstr "Első szám 1-4-ig."
@@ -27117,7 +27117,7 @@ msgstr ""
 "válaszok a műveletek között, egy X jel jelenik meg, az adott sorokban. "
 "Javítsd ki a hibákat majd nyomd meg újra az OK gombot!"
 
-#: activities/tens_complement_swap/resource/1/Data.qml:36
+#: activities/tens_complement_swap/resource/1/Data.qml:50
 msgctxt "Data|"
 msgid "2 pairs to make from 4 numbers."
 msgstr "Négy számból legyen két pár."
@@ -27163,7 +27163,7 @@ msgstr ""
 "számot a listáról majd válassz egy üres helyet egy műveletben, hogy "
 "elhelyezd a választott számot!"
 
-#: activities/tens_complement_use/resource/1/Data.qml:43
+#: activities/tens_complement_use/resource/1/Data.qml:59
 msgctxt "Data|"
 msgid "Result between 11 and 19."
 msgstr "11 és 19 között!"

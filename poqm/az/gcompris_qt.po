@@ -18402,7 +18402,7 @@ msgstr ""
 "qaçır. Sapkanın altında neçə ulduz qaldı? Alt sıradakı ulduzlara vuraraq "
 "lazımi miqdarı göstərin. OLDU düyməsinə vuraraq cavabınızı yoxlayın."
 
-#: activities/magic-hat-minus/MagicHat.qml:256
+#: activities/magic-hat-minus/MagicHat.qml:272
 msgctxt "MagicHat|"
 msgid "Click on the hat to begin the game"
 msgstr "Şapkaya vuraraq oyuna başlayın"
@@ -27892,7 +27892,7 @@ msgstr ""
 "hər hansı bir səhv olarsa müvafiq sətirdə \"X\" işarəsi görünəcək. Səhvi "
 "düzəlt və sonra OLDU süyməsinə vur."
 
-#: activities/tens_complement_calculate/resource/1/Data.qml:36
+#: activities/tens_complement_calculate/resource/1/Data.qml:52
 #, fuzzy
 #| msgctxt "Data|"
 #| msgid "2 pairs to make from 4 numbers."
@@ -27957,7 +27957,7 @@ msgstr ""
 "On bərabər sayda cütlər yarat. Siyahıdan sayı seç, sonra seçdiyin sayı "
 "köçürəcəyin boş yeri seç."
 
-#: activities/tens_complement_find/resource/1/Data.qml:25
+#: activities/tens_complement_find/resource/1/Data.qml:56
 msgctxt "Data|"
 msgid "First number from 1 to 4."
 msgstr "1-dən 4-ə ilk say."
@@ -28019,7 +28019,7 @@ msgstr ""
 "hər hansı bir səhv olarsa müvafiq sətirdə \"X\" işarəsi görünəcək. Səhvi "
 "düzəlt və sonra OLDU süyməsinə vur."
 
-#: activities/tens_complement_swap/resource/1/Data.qml:36
+#: activities/tens_complement_swap/resource/1/Data.qml:50
 msgctxt "Data|"
 msgid "2 pairs to make from 4 numbers."
 msgstr "4 saydan 2 cüt yarat"
@@ -28068,7 +28068,7 @@ msgstr ""
 "sayları böl. Siyahıdan bir say seç və seçilmiş saylar köçürüləcək "
 "əməliyyatın boş yerini seç."
 
-#: activities/tens_complement_use/resource/1/Data.qml:43
+#: activities/tens_complement_use/resource/1/Data.qml:59
 msgctxt "Data|"
 msgid "Result between 11 and 19."
 msgstr "11 ilə 19 arasındakı nəticə."

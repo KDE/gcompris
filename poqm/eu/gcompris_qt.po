@@ -17941,7 +17941,7 @@ msgstr ""
 "duzu. Egin klik beheko eremuan zure erantzuna sartzeko eta Ados botoiari "
 "hura baliozkotzeko."
 
-#: activities/magic-hat-minus/MagicHat.qml:256
+#: activities/magic-hat-minus/MagicHat.qml:272
 msgctxt "MagicHat|"
 msgid "Click on the hat to begin the game"
 msgstr "Sakatu txapelean jolasarekin hasteko"
@@ -27018,7 +27018,7 @@ msgstr ""
 "baliozkotzeko. Erantzun batzuk okerrak badira, gurutze ikono bat agertuko da "
 "dagokion lerroan. Zuzendu erroreak, eta hautatu Ados botoia berriz."
 
-#: activities/tens_complement_calculate/resource/1/Data.qml:36
+#: activities/tens_complement_calculate/resource/1/Data.qml:52
 msgctxt "Data|"
 msgid "1 pair to make from 3 numbers."
 msgstr "3 zenbakien artetik bikote 1 egin behar da."
@@ -27078,7 +27078,7 @@ msgstr ""
 "bat, ondoren hautatu eragiketa baten leku huts bat hautatutako zenbakia hara "
 "eramateko."
 
-#: activities/tens_complement_find/resource/1/Data.qml:25
+#: activities/tens_complement_find/resource/1/Data.qml:56
 msgctxt "Data|"
 msgid "First number from 1 to 4."
 msgstr "1etik 4ra arteko aurreneko zenbakia."
@@ -27138,7 +27138,7 @@ msgstr ""
 "agertuko da dagokion lerroan. Zuzendu erroreak, eta hautatu Ados botoia "
 "berriz."
 
-#: activities/tens_complement_swap/resource/1/Data.qml:36
+#: activities/tens_complement_swap/resource/1/Data.qml:50
 msgctxt "Data|"
 msgid "2 pairs to make from 4 numbers."
 msgstr "4 zenbakien artetik 2 bikote egin behar dira."
@@ -27184,7 +27184,7 @@ msgstr ""
 "zenbaki bikoteak sortzeko. Hautatu zerrendako zenbaki bat, ondoren hautatu "
 "eragiketa baten leku huts bat hautatutako zenbakia hara eramateko."
 
-#: activities/tens_complement_use/resource/1/Data.qml:43
+#: activities/tens_complement_use/resource/1/Data.qml:59
 msgctxt "Data|"
 msgid "Result between 11 and 19."
 msgstr "11 eta 19 arteko emaitza."

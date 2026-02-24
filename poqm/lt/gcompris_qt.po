@@ -17936,7 +17936,7 @@ msgstr ""
 "dar yra po skrybėle. Paspausk lango apačioje tiek žvaigždučių, kiek jų liko "
 "po skrybėle ir paskui mygtuką OK."
 
-#: activities/magic-hat-minus/MagicHat.qml:256
+#: activities/magic-hat-minus/MagicHat.qml:272
 msgctxt "MagicHat|"
 msgid "Click on the hat to begin the game"
 msgstr "Paspausk ant skrybėlės, kad pradėtum žaidimą"
@@ -26984,7 +26984,7 @@ msgstr ""
 "atsakymai bus neteisingi, bus parodytas kryžiukas prie atitinkamos eilutės. "
 "Ištaisęs klaidas, gali vėl paspausti „OK“ mygtuką."
 
-#: activities/tens_complement_calculate/resource/1/Data.qml:36
+#: activities/tens_complement_calculate/resource/1/Data.qml:52
 msgctxt "Data|"
 msgid "1 pair to make from 3 numbers."
 msgstr "1 pora iš 3 skaičių."
@@ -27045,7 +27045,7 @@ msgstr ""
 "į tuščią veiksmo vietą."
 
 # Pirmas skaičius nuo 1 iki 4.
-#: activities/tens_complement_find/resource/1/Data.qml:25
+#: activities/tens_complement_find/resource/1/Data.qml:56
 msgctxt "Data|"
 msgid "First number from 1 to 4."
 msgstr "Pirmas skaičius nuo 1 iki 4."
@@ -27104,7 +27104,7 @@ msgstr ""
 "kai kurie atsakymai bus neteisingi, bus parodytas kryžiukas prie atitinkamos "
 "eilutės. Ištaisęs klaidas, gali vėl paspausti „OK“ mygtuką."
 
-#: activities/tens_complement_swap/resource/1/Data.qml:36
+#: activities/tens_complement_swap/resource/1/Data.qml:50
 msgctxt "Data|"
 msgid "2 pairs to make from 4 numbers."
 msgstr "2 poros iš 4 skaičių."
@@ -27149,7 +27149,7 @@ msgstr ""
 "Išskaidyk veiksmą, kad susidarytų pora skaičių, lygių dešimt. Pasirink "
 "skaičių iš sąrašo ir perkelk jį į tuščią veiksmo vietą."
 
-#: activities/tens_complement_use/resource/1/Data.qml:43
+#: activities/tens_complement_use/resource/1/Data.qml:59
 msgctxt "Data|"
 msgid "Result between 11 and 19."
 msgstr "Rezultatas tarp 11 ir 19."

@@ -18003,7 +18003,7 @@ msgstr ""
 "të llogaritni sa yje janë ende nën kapelë. Klikoni në fushën poshtë që të "
 "jepni përgjigjen tuaj dhe mbi butonin OK, që ajo të vlerësohet."
 
-#: activities/magic-hat-minus/MagicHat.qml:256
+#: activities/magic-hat-minus/MagicHat.qml:272
 msgctxt "MagicHat|"
 msgid "Click on the hat to begin the game"
 msgstr "Që të fillohet loja, klikoni mbi kapelën"
@@ -27116,7 +27116,7 @@ msgstr ""
 "rreshtat përkatës do të shfaqet një ikonë kryqi. Ndreqni përgjigjet, mandej "
 "shtypni sërish butonin OK."
 
-#: activities/tens_complement_calculate/resource/1/Data.qml:36
+#: activities/tens_complement_calculate/resource/1/Data.qml:52
 msgctxt "Data|"
 msgid "1 pair to make from 3 numbers."
 msgstr "1 dyshe për t’u krijuar nga 3 numra."
@@ -27176,7 +27176,7 @@ msgstr ""
 "mandej përzgjidhni një vend të zbrazët te një veprim, për ta shpënë atje "
 "numrin e përzgjedhur."
 
-#: activities/tens_complement_find/resource/1/Data.qml:25
+#: activities/tens_complement_find/resource/1/Data.qml:56
 msgctxt "Data|"
 msgid "First number from 1 to 4."
 msgstr "Numri i parë nga 1 deri në 4."
@@ -27236,7 +27236,7 @@ msgstr ""
 "pasakta, te rreshtat përkatës do të shfaqet një ikonë kryqi. Ndreqni "
 "përgjigjet, mandej shtypni sërish butonin OK."
 
-#: activities/tens_complement_swap/resource/1/Data.qml:36
+#: activities/tens_complement_swap/resource/1/Data.qml:50
 msgctxt "Data|"
 msgid "2 pairs to make from 4 numbers."
 msgstr "2 dyshe për t’u krijuar nga 4 numra."
@@ -27282,7 +27282,7 @@ msgstr ""
 "dysheje kllapash. Përzgjidhni një numër te lista, mandej përzgjidhni një "
 "vend të zbrazët të një veprimi ku të shpihet numri i përzgjedhur."
 
-#: activities/tens_complement_use/resource/1/Data.qml:43
+#: activities/tens_complement_use/resource/1/Data.qml:59
 msgctxt "Data|"
 msgid "Result between 11 and 19."
 msgstr "Përfundim mes 11 dhe 19."

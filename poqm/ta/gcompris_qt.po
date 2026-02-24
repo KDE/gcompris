@@ -18394,7 +18394,7 @@ msgstr ""
 "பிறகு.தொப்பியின் கீழ் எத்தனை நட்சத்திரங்கள் உள்ளன என்பதை நீங்கள் கணக்கிட வேண்டும். "
 "கீழ்ப்பகுதியில் கிளிக் செய்து பதிலளித்து OK பொத்தானை அழுத்தி அதனை உறுதிப்படுத்தவும்."
 
-#: activities/magic-hat-minus/MagicHat.qml:256
+#: activities/magic-hat-minus/MagicHat.qml:272
 msgctxt "MagicHat|"
 msgid "Click on the hat to begin the game"
 msgstr "தொப்பியைக் கிளிக் செய்து விளையாட்டைத் தொடங்கவும்"
@@ -27862,7 +27862,7 @@ msgstr ""
 "மூலம் பதில்களைச் சரிபார்க்கவும். தவறான பதில்கள் இருந்தால், அந்த வரிசைகளில் ஒரு பிழை "
 "சின்னத்தைக் காண்பீர்கள். பிழைகளைத் திருத்தி, OK பொத்தானை மீண்டும் அழுத்தவும்."
 
-#: activities/tens_complement_calculate/resource/1/Data.qml:36
+#: activities/tens_complement_calculate/resource/1/Data.qml:52
 #, fuzzy
 #| msgctxt "Data|"
 #| msgid "2 pairs to make from 4 numbers."
@@ -27927,7 +27927,7 @@ msgstr ""
 "பத்துக்கு சமமான எண்களின் ஜோடிகளை உருவாக்கவும். பட்டியலிலிருந்து சரியான பதிலைத் "
 "தேர்ந்தெடுத்த பின்னர் செயல்பாட்டிலுள்ள காலியான கட்டத்தில் கிளிக் செய்யவும்."
 
-#: activities/tens_complement_find/resource/1/Data.qml:25
+#: activities/tens_complement_find/resource/1/Data.qml:56
 msgctxt "Data|"
 msgid "First number from 1 to 4."
 msgstr "முதல் எண் 1 முதல் 4 வரை."
@@ -27989,7 +27989,7 @@ msgstr ""
 "மூலம் பதில்களைச் சரிபார்க்கவும். தவறான பதில்கள் இருந்தால், அந்த வரிசைகளில் ஒரு பிழை "
 "சின்னத்தைக் காண்பீர்கள். பிழைகளைத் திருத்தி, OK பொத்தானை மீண்டும் அழுத்தவும்."
 
-#: activities/tens_complement_swap/resource/1/Data.qml:36
+#: activities/tens_complement_swap/resource/1/Data.qml:50
 msgctxt "Data|"
 msgid "2 pairs to make from 4 numbers."
 msgstr "4 எண்களில் இருந்து 2 ஜோடிகளை உருவாக்கவும்."
@@ -28038,7 +28038,7 @@ msgstr ""
 "உருவாக்கவும். ஒரு எண்ணைத் தேர்ந்தெடுத்து, செயல்பாட்டிலுள்ள காலியான கட்டத்தில் கிளிக் "
 "செய்து, அந்த எண்ணை அங்கு நகர்த்தவும். "
 
-#: activities/tens_complement_use/resource/1/Data.qml:43
+#: activities/tens_complement_use/resource/1/Data.qml:59
 msgctxt "Data|"
 msgid "Result between 11 and 19."
 msgstr "பதில் 11 க்கும், 19 க்கும் இடையில்"

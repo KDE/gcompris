@@ -18119,7 +18119,7 @@ msgstr ""
 "tersisa di bawah topi. Klik pada bagian bawah untuk memasukkan jawabanmu dan "
 "klik tombol OK untuk menyetujui jawabanmu."
 
-#: activities/magic-hat-minus/MagicHat.qml:256
+#: activities/magic-hat-minus/MagicHat.qml:272
 msgctxt "MagicHat|"
 msgid "Click on the hat to begin the game"
 msgstr "Klik pada topi untuk memulai permainan"
@@ -27214,7 +27214,7 @@ msgstr ""
 "terdapat jawaban yang salah, ikon silang akan muncul pada baris tersebut. "
 "Perbaiki kesalahan, lalu tekan tombol OK lagi."
 
-#: activities/tens_complement_calculate/resource/1/Data.qml:36
+#: activities/tens_complement_calculate/resource/1/Data.qml:52
 msgctxt "Data|"
 msgid "1 pair to make from 3 numbers."
 msgstr "1 pasang terbuat dari 3 angka."
@@ -27274,7 +27274,7 @@ msgstr ""
 "pilih tempat kosong dari suatu operasi untuk memindahkan nomor yang dipilih "
 "ke tempat tersebut."
 
-#: activities/tens_complement_find/resource/1/Data.qml:25
+#: activities/tens_complement_find/resource/1/Data.qml:56
 msgctxt "Data|"
 msgid "First number from 1 to 4."
 msgstr "Satu angka dari 1 sampai 4."
@@ -27333,7 +27333,7 @@ msgstr ""
 "jawaban. Jika beberapa jawaban salah, ikon silang akan muncul di baris yang "
 "salah tersebut. Perbaiki kesalahan, lalu tekan kembali tombol OK."
 
-#: activities/tens_complement_swap/resource/1/Data.qml:36
+#: activities/tens_complement_swap/resource/1/Data.qml:50
 msgctxt "Data|"
 msgid "2 pairs to make from 4 numbers."
 msgstr "Untuk membuat 2 pasangan dengan 4 angka."
@@ -27380,7 +27380,7 @@ msgstr ""
 "tempat kosong dari suatu operasi untuk memindahkan nomor yang dipilih ke "
 "tempat tersebut."
 
-#: activities/tens_complement_use/resource/1/Data.qml:43
+#: activities/tens_complement_use/resource/1/Data.qml:59
 msgctxt "Data|"
 msgid "Result between 11 and 19."
 msgstr "Hasil antara 11 dan 19."

@@ -18279,7 +18279,7 @@ msgstr ""
 "Unapaswa kuhesabu nyota ngapi bado ziko chini ya kofia. Bofya kwenye eneo la "
 "chini ili kuingiza jibu lako na kwenye kitufe cha Sawa ili kulithibitisha."
 
-#: activities/magic-hat-minus/MagicHat.qml:256
+#: activities/magic-hat-minus/MagicHat.qml:272
 msgctxt "MagicHat|"
 msgid "Click on the hat to begin the game"
 msgstr "Bonyeza kofia ili kuanza mchezo"
@@ -27785,7 +27785,7 @@ msgstr ""
 "majibu. Ikiwa baadhi ya majibu si sahihi, ikoni ya msalaba itaonekana kwenye "
 "mistari inayolingana. Sahihisha makosa, kisha ubonyeze kitufe cha Sawa tena."
 
-#: activities/tens_complement_calculate/resource/1/Data.qml:36
+#: activities/tens_complement_calculate/resource/1/Data.qml:52
 #, fuzzy
 #| msgctxt "Data|"
 #| msgid "2 pairs to make from 4 numbers."
@@ -27850,7 +27850,7 @@ msgstr ""
 "Unda jozi za nambari sawa na kumi. Chagua nambari kwenye orodha, kisha "
 "uchague sehemu tupu ya operesheni ili kusogeza nambari iliyochaguliwa hapo."
 
-#: activities/tens_complement_find/resource/1/Data.qml:25
+#: activities/tens_complement_find/resource/1/Data.qml:56
 msgctxt "Data|"
 msgid "First number from 1 to 4."
 msgstr "Nambari ya kwanza kutoka 1 hadi 4."
@@ -27912,7 +27912,7 @@ msgstr ""
 "majibu. Ikiwa baadhi ya majibu si sahihi, ikoni ya msalaba itaonekana kwenye "
 "mistari inayolingana. Sahihisha makosa, kisha ubonyeze kitufe cha Sawa tena."
 
-#: activities/tens_complement_swap/resource/1/Data.qml:36
+#: activities/tens_complement_swap/resource/1/Data.qml:50
 msgctxt "Data|"
 msgid "2 pairs to make from 4 numbers."
 msgstr "Jozi 2 za kutengeneza kutoka kwa nambari 4."
@@ -27961,7 +27961,7 @@ msgstr ""
 "mabano. Chagua nambari kwenye orodha, kisha uchague sehemu tupu ya "
 "operesheni ili kusogeza nambari iliyochaguliwa hapo."
 
-#: activities/tens_complement_use/resource/1/Data.qml:43
+#: activities/tens_complement_use/resource/1/Data.qml:59
 msgctxt "Data|"
 msgid "Result between 11 and 19."
 msgstr "Matokeo kati ya 11 na 19."
