@@ -34,7 +34,7 @@ DatasetEditorBase {
 
     (mode === "minus" ?
     qsTr('Each row of the second operand (the bottom one) will contain a number of stars generated in such a way that when subtracted from the number of stars of the corresponding row of the first operand, the result will not be more than the "Maximum result per row" value.') :
-    qsTr('Eath row of the second operand (the bottom one) will contain a number of stars generated in such a way that when added to the number of stars of the corresponding row of the first operand, the result will not be more than the "Maximum result per row" value.'))
+    qsTr('Each row of the second operand (the bottom one) will contain a number of stars generated in such a way that when added to the number of stars of the corresponding row of the first operand, the result will not be more than the "Maximum result per row" value.'))
 
     + ("</li><li>") +
 
