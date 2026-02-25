@@ -112,10 +112,6 @@ Rectangle {
         onExited: {
             Activity.resetDropTarget();
         }
-
-        onDropped: {
-            console.log("dropped")
-        }
     }
 
     Item {

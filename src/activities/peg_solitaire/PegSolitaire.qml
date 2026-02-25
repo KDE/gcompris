@@ -75,8 +75,9 @@ ActivityBase {
                     text: "";
                     theme: "noStyle"
                     onClicked: Activity.doUndo()
-                    enabled: (items.undoList && items.undoList.length > 0)
-                    opacity: enabled ? 1 : 0
+                    enabled: !items.inputBlocked && hasUndo
+                    opacity: hasUndo ? 1 : 0
+                    property bool hasUndo: (items.undoList && items.undoList.length > 0)
                     Image {
                         source: 'qrc:/gcompris/src/activities/chess/resource/undo.svg'
                         sourceSize.width: boardArea.slotSize
@@ -98,8 +99,9 @@ ActivityBase {
                     text: "";
                     theme: "noStyle"
                     onClicked: Activity.doRedo()
-                    enabled: (items.redoList && items.redoList.length > 0)
-                    opacity: enabled ? 1 : 0
+                    enabled: !items.inputBlocked && hasRedo
+                    opacity:  hasRedo ? 1 : 0
+                    property bool hasRedo: (items.redoList && items.redoList.length > 0)
                     Image {
                         source: 'qrc:/gcompris/src/activities/chess/resource/redo.svg'
                         sourceSize.width: boardArea.slotSize
@@ -192,6 +194,14 @@ ActivityBase {
 
         Bonus {
             id: bonus
+            Component.onCompleted: {
+                win.connect(unlockInput);
+                loose.connect(unlockInput);
+            }
+
+            function unlockInput() {
+               items.inputBlocked = false;
+            }
         }
     }
 

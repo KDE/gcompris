@@ -90,12 +90,15 @@ function slotPressed(_clickedSlot) {
     } else if(_clickedSlot.canReceive) {
         scheduleMovePeg(_clickedSlot);
     } else {
+        items.inputBlocked = true;
         deselectPeg();
         resetDropTarget();
+        items.inputBlocked = false;
     }
 }
 
 function scheduleMovePeg(_clickedSlot) {
+    items.inputBlocked = true;
     selectedPeg.targetSlot = _clickedSlot;
     selectedPeg.moveAnim.start();
     items.smudgeSound.play()
@@ -108,6 +111,7 @@ function doPendingMove() {
 
 function checkDropTarget() {
     if(dropTarget) {
+        items.inputBlocked = true;
         movePeg(dropTarget, false);
         items.smudgeSound.play();
     }
@@ -134,6 +138,7 @@ function deselectPeg() {
 }
 
 function doUndo() {
+    items.inputBlocked = true;
     if(items.undoList.length > 0) {
         deselectPeg();
         resetDropTarget();
@@ -160,9 +165,11 @@ function doUndo() {
 
         items.redoList.push(undoItem);
     }
+    items.inputBlocked = false;
 }
 
 function doRedo() {
+    items.inputBlocked = true;
     if(items.redoList.length > 0) {
         deselectPeg();
         resetDropTarget();
@@ -173,6 +180,7 @@ function doRedo() {
 
         items.undoList.push(undoItem);
     }
+    items.inputBlocked = false;
 }
 
 function movePeg(_clickedSlot, _isUndo) {
@@ -331,6 +339,7 @@ function resetCanReceive() {
 }
 
 function selectPeg(_clickedSlot) {
+    items.inputBlocked = true;
     deselectPeg();
     resetDropTarget();
     selectedPeg = _clickedSlot;
@@ -349,6 +358,7 @@ function selectPeg(_clickedSlot) {
             }
         }
     }
+    items.inputBlocked = false;
 }
 
 
