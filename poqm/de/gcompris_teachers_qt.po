@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gcompris_teachers\n"
-"PO-Revision-Date: 2026-01-29 19:37+0100\n"
+"PO-Revision-Date: 2026-02-21 10:44+0100\n"
 "Last-Translator: Alexander Becker <alex-at-kde-l10n-de@freenet.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 25.12.1\n"
+"X-Generator: Lokalize 25.12.2\n"
 "X-Qt-Contexts: true\n"
 
 #: server/activities/adjacent_numbers/ActivityEditor.qml:13
@@ -1042,7 +1042,7 @@ msgstr ""
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:37
 msgctxt "MagicHatEditor|"
 msgid ""
-"Eath row of the second operand (the bottom one) will contain a number of "
+"Each row of the second operand (the bottom one) will contain a number of "
 "stars generated in such a way that when added to the number of stars of the "
 "corresponding row of the first operand, the result will not be more than the "
 "\"Maximum result per row\" value."
@@ -2661,8 +2661,7 @@ msgstr "Falsches Passwort"
 #: server/views/LoginView.qml:47
 msgctxt "LoginView|"
 msgid "GCompris-teachers is already running on this computer"
-msgstr ""
-"GCompris-Dienstprogramm für Lehrer wird bereits auf diesem Rechner ausgeführt"
+msgstr "GCompris-teachers wird bereits auf diesem Rechner ausgeführt"
 
 #: server/views/LoginView.qml:48
 msgctxt "LoginView|"

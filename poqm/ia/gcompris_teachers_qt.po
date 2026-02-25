@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-01-13 12:07+0100\n"
+"PO-Revision-Date: 2026-02-24 11:39+0100\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -70,7 +70,7 @@ msgstr ""
 #: server/activities/adjacent_numbers/AdjacentNumbersEditor.qml:29
 msgctxt "AdjacentNumbersEditor|"
 msgid "Sublevels"
-msgstr ""
+msgstr "Subnivellos"
 
 #: server/activities/adjacent_numbers/AdjacentNumbersEditor.qml:30
 msgctxt "AdjacentNumbersEditor|"
@@ -110,7 +110,7 @@ msgstr ""
 #: server/activities/adjacent_numbers/AdjacentNumbersEditor.qml:98
 msgctxt "AdjacentNumbersEditor|"
 msgid "Dataset is empty."
-msgstr ""
+msgstr "Insimul de datos es vacue."
 
 #: server/activities/adjacent_numbers/AdjacentNumbersEditor.qml:100
 msgctxt "AdjacentNumbersEditor|"
@@ -182,7 +182,7 @@ msgstr ""
 #: server/activities/algebra_by/AlgebraEditor.qml:39
 msgctxt "AlgebraEditor|"
 msgid "Sublevels"
-msgstr ""
+msgstr "Subnivellos"
 
 #: server/activities/algebra_by/AlgebraEditor.qml:35
 msgctxt "AlgebraEditor|"
@@ -239,7 +239,7 @@ msgstr ""
 #: server/activities/algebra_div/ActivityEditor.qml:29
 msgctxt "ActivityEditor|"
 msgid "Sublevels"
-msgstr ""
+msgstr "Subnivellos"
 
 #: server/activities/algebra_div/ActivityEditor.qml:25
 msgctxt "ActivityEditor|"
@@ -312,7 +312,7 @@ msgstr ""
 #: server/activities/binary_bulb/BinaryBulbEditor.qml:29
 msgctxt "BinaryBulbEditor|"
 msgid "Sublevels"
-msgstr ""
+msgstr "Subnivellos"
 
 #: server/activities/binary_bulb/BinaryBulbEditor.qml:30
 msgctxt "BinaryBulbEditor|"
@@ -342,7 +342,7 @@ msgstr ""
 #: server/activities/binary_bulb/BinaryBulbEditor.qml:87
 msgctxt "BinaryBulbEditor|"
 msgid "Dataset is empty."
-msgstr ""
+msgstr "Insimul de datos es vacue."
 
 #: server/activities/binary_bulb/BinaryBulbEditor.qml:101
 #, qt-format
@@ -464,7 +464,7 @@ msgstr ""
 #: server/activities/comparator/ComparatorEditor.qml:109
 msgctxt "ComparatorEditor|"
 msgid "Dataset is empty."
-msgstr ""
+msgstr "Insimul de datos es vacue."
 
 #: server/activities/comparator/ComparatorEditor.qml:119
 #, qt-format
@@ -500,7 +500,7 @@ msgstr ""
 #, qt-format
 msgctxt "DailyReport|"
 msgid "%1 %2"
-msgstr ""
+msgstr "%1 %2"
 
 #: server/activities/DailyReport.qml:133
 msgctxt "DailyReport|"
@@ -534,7 +534,7 @@ msgstr "Lineas: %1"
 #, qt-format
 msgctxt "DailyReport|"
 msgid "%1 %"
-msgstr ""
+msgstr "%1 %"
 
 #: server/activities/fractions_create/ActivityEditor.qml:14
 msgctxt "ActivityEditor|"
@@ -570,7 +570,7 @@ msgstr "Instruction"
 #: server/activities/fractions_create/FractionsCreateEditor.qml:130
 msgctxt "FractionsCreateEditor|"
 msgid "Dataset is empty."
-msgstr ""
+msgstr "Insimul de datos es vacue."
 
 #: server/activities/fractions_create/FractionsCreateEditor.qml:140
 #, qt-format
@@ -658,7 +658,7 @@ msgstr ""
 #: server/activities/fractions_find/FractionsFindEditor.qml:159
 msgctxt "FractionsFindEditor|"
 msgid "Dataset is empty."
-msgstr ""
+msgstr "Insimul de datos es vacue."
 
 #: server/activities/fractions_find/FractionsFindEditor.qml:169
 #, qt-format
@@ -716,7 +716,7 @@ msgstr "Shuffle (miscer)"
 #: server/activities/learn_decimals/LearnDecimalsEditor.qml:29
 msgctxt "LearnDecimalsEditor|"
 msgid "Sublevels"
-msgstr ""
+msgstr "Subnivellos"
 
 #: server/activities/learn_decimals/LearnDecimalsEditor.qml:39
 msgctxt "LearnDecimalsEditor|"
@@ -736,7 +736,7 @@ msgstr "Valor maxime:"
 #: server/activities/learn_decimals/LearnDecimalsEditor.qml:140
 msgctxt "LearnDecimalsEditor|"
 msgid "Dataset is empty."
-msgstr ""
+msgstr "Insimul de datos es vacue."
 
 #: server/activities/learn_decimals/LearnDecimalsEditor.qml:150
 #, qt-format
@@ -773,7 +773,7 @@ msgstr "Shuffle (miscer)"
 #: server/activities/learn_decimals_additions/DecimalAdditionEditor.qml:30
 msgctxt "DecimalAdditionEditor|"
 msgid "Sublevels"
-msgstr ""
+msgstr "Subnivellos"
 
 #: server/activities/learn_decimals_additions/DecimalAdditionEditor.qml:41
 msgctxt "DecimalAdditionEditor|"
@@ -798,7 +798,7 @@ msgstr "Valor maxime:"
 #: server/activities/learn_decimals_additions/DecimalAdditionEditor.qml:182
 msgctxt "DecimalAdditionEditor|"
 msgid "Dataset is empty."
-msgstr ""
+msgstr "Insimul de datos es vacue."
 
 #: server/activities/learn_decimals_additions/DecimalAdditionEditor.qml:192
 #, qt-format
@@ -843,7 +843,7 @@ msgstr ""
 #, qt-format
 msgctxt "LearnDigitsDataDisplay|"
 msgid "%1 = %2"
-msgstr ""
+msgstr "%1 = %2"
 
 #. %1 is the answer. Example: "Answer: 10"
 #: server/activities/learn_digits/LearnDigitsDataDisplay.qml:27
@@ -865,7 +865,7 @@ msgstr ""
 #: server/activities/learn_digits/LearnDigitsEditor.qml:99
 msgctxt "LearnDigitsEditor|"
 msgid "Dataset is empty."
-msgstr ""
+msgstr "Insimul de datos es vacue."
 
 #: server/activities/learn_digits/LearnDigitsEditor.qml:101
 msgctxt "LearnDigitsEditor|"
@@ -896,12 +896,12 @@ msgstr "Numeros"
 #: server/activities/learn_digits/LearnDigitsEditor.qml:163
 msgctxt "LearnDigitsEditor|"
 msgid "Additions"
-msgstr ""
+msgstr "Additiones"
 
 #: server/activities/learn_digits/LearnDigitsEditor.qml:165
 msgctxt "LearnDigitsEditor|"
 msgid "Subtractions"
-msgstr ""
+msgstr "Subtractiones"
 
 #: server/activities/learn_quantities/ActivityEditor.qml:24
 msgctxt "ActivityEditor|"
@@ -987,7 +987,7 @@ msgstr ""
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:37
 msgctxt "MagicHatEditor|"
 msgid ""
-"Eath row of the second operand (the bottom one) will contain a number of "
+"Each row of the second operand (the bottom one) will contain a number of "
 "stars generated in such a way that when added to the number of stars of the "
 "corresponding row of the first operand, the result will not be more than the "
 "\"Maximum result per row\" value."
@@ -1056,12 +1056,9 @@ msgid "Row coefficients"
 msgstr ""
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:120
-#, fuzzy
-#| msgctxt "NavigationPanel|"
-#| msgid "Datasets"
 msgctxt "MagicHatEditor|"
 msgid "Dataset is empty."
-msgstr "Gruppo de datos"
+msgstr "Insimul de datos es vacue."
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:149
 #, qt-format
@@ -1109,7 +1106,7 @@ msgstr ""
 #, qt-format
 msgctxt "StarsBar|"
 msgid "%1x"
-msgstr ""
+msgstr "%1x"
 
 #: server/activities/multiple_choice_questions/ActivityEditor.qml:15
 msgctxt "ActivityEditor|"
@@ -1161,7 +1158,7 @@ msgstr "Shuffle (miscer)"
 #: server/activities/multiple_choice_questions/MultipleChoiceEditor.qml:30
 msgctxt "MultipleChoiceEditor|"
 msgid "Sublevels"
-msgstr ""
+msgstr "Subnivellos"
 
 #: server/activities/multiple_choice_questions/MultipleChoiceEditor.qml:36
 msgctxt "MultipleChoiceEditor|"
@@ -1196,7 +1193,7 @@ msgstr ""
 #: server/activities/multiple_choice_questions/MultipleChoiceEditor.qml:121
 msgctxt "MultipleChoiceEditor|"
 msgid "Dataset is empty."
-msgstr ""
+msgstr "Insimul de datos es vacue."
 
 #: server/activities/multiple_choice_questions/MultipleChoiceEditor.qml:131
 #, qt-format
@@ -1274,26 +1271,20 @@ msgid ""
 msgstr ""
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:27
-#, fuzzy
-#| msgctxt "ComparatorEditor|"
-#| msgid "Questions"
 msgctxt "TensComplementFindEditor|"
 msgid "Random questions"
-msgstr "Demandas"
+msgstr "Demandas aleatori"
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:28
-#, fuzzy
-#| msgctxt "DecimalAdditionEditor|"
-#| msgid "First Number"
 msgctxt "TensComplementFindEditor|"
 msgid "Find both numbers"
-msgstr "Prime numero"
+msgstr "Trova ambes le numeros"
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:29
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:35
 msgctxt "TensComplementFindEditor|"
 msgid "Sublevels"
-msgstr ""
+msgstr "Subnivellos"
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:30
 msgctxt "TensComplementFindEditor|"
@@ -1317,28 +1308,19 @@ msgid "Maximum first operand"
 msgstr ""
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:34
-#, fuzzy
-#| msgctxt "AlgebraEditor|"
-#| msgid "Shuffle"
 msgctxt "TensComplementFindEditor|"
 msgid "Shuffle operands"
-msgstr "Shuffle (miscer)"
+msgstr "Shuffle (miscer) operandos"
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:40
-#, fuzzy
-#| msgctxt "DecimalAdditionEditor|"
-#| msgid "First Number"
 msgctxt "TensComplementFindEditor|"
 msgid "First operands"
-msgstr "Prime numero"
+msgstr "Prime operandos"
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:163
-#, fuzzy
-#| msgctxt "NavigationPanel|"
-#| msgid "Datasets"
 msgctxt "TensComplementFindEditor|"
 msgid "Dataset is empty."
-msgstr "Gruppo de datos"
+msgstr "Insimul de datos es vacue."
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:178
 #, qt-format
@@ -1410,9 +1392,6 @@ msgid ""
 msgstr ""
 
 #: server/activities/tens_complement_swap/TensComplementSwapEditor.qml:35
-#, fuzzy
-#| msgctxt "AlgebraEditor|"
-#| msgid "Shuffle"
 msgctxt "TensComplementSwapEditor|"
 msgid "Shuffle"
 msgstr "Shuffle (miscer)"
@@ -1420,7 +1399,7 @@ msgstr "Shuffle (miscer)"
 #: server/activities/tens_complement_swap/TensComplementSwapEditor.qml:36
 msgctxt "TensComplementSwapEditor|"
 msgid "Additions"
-msgstr ""
+msgstr "Additiones"
 
 #: server/activities/tens_complement_swap/TensComplementSwapEditor.qml:41
 msgctxt "TensComplementSwapEditor|"
@@ -1428,12 +1407,9 @@ msgid "Random operands"
 msgstr ""
 
 #: server/activities/tens_complement_swap/TensComplementSwapEditor.qml:42
-#, fuzzy
-#| msgctxt "VerticalEditor|"
-#| msgid "Number of lines"
 msgctxt "TensComplementSwapEditor|"
 msgid "Number of operands"
-msgstr "Numero de Lineas"
+msgstr "Numero de operandos"
 
 #: server/activities/tens_complement_swap/TensComplementSwapEditor.qml:43
 msgctxt "TensComplementSwapEditor|"
@@ -1446,12 +1422,9 @@ msgid "Extra operand"
 msgstr ""
 
 #: server/activities/tens_complement_swap/TensComplementSwapEditor.qml:144
-#, fuzzy
-#| msgctxt "NavigationPanel|"
-#| msgid "Datasets"
 msgctxt "TensComplementSwapEditor|"
 msgid "Dataset is empty."
-msgstr "Gruppo de datos"
+msgstr "Insimul de datos es vacue."
 
 #: server/activities/tens_complement_swap/TensComplementSwapEditor.qml:154
 #, qt-format
@@ -1493,34 +1466,25 @@ msgid "Proposed numbers:"
 msgstr ""
 
 #: server/activities/tens_complement_use/TensComplementUseDataDisplay.qml:71
-#, fuzzy
-#| msgctxt "MultipleChoiceDataDisplay|"
-#| msgid "Question:"
 msgctxt "TensComplementUseDataDisplay|"
 msgid "Question:"
 msgstr "Demanda:"
 
 #: server/activities/tens_complement_use/TensComplementUseDataDisplay.qml:97
-#, fuzzy
-#| msgctxt "AdjacentNumbersDataDisplay|"
-#| msgid "Answer:"
 msgctxt "TensComplementUseDataDisplay|"
 msgid "Answer:"
 msgstr "Responde:"
 
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:27
-#, fuzzy
-#| msgctxt "ComparatorEditor|"
-#| msgid "Questions"
 msgctxt "TensComplementUseEditor|"
 msgid "Random questions"
-msgstr "Demandas"
+msgstr "Demandas aleatori"
 
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:28
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:34
 msgctxt "TensComplementUseEditor|"
 msgid "Sublevels"
-msgstr ""
+msgstr "Subnivellos"
 
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:29
 msgctxt "TensComplementUseEditor|"
@@ -1534,25 +1498,16 @@ msgid "Extra cards"
 msgstr ""
 
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:31
-#, fuzzy
-#| msgctxt "LearnDecimalsEditor|"
-#| msgid "Minimum Value"
 msgctxt "TensComplementUseEditor|"
 msgid "Minimum result"
-msgstr "Valor minime:"
+msgstr "Resultato minime"
 
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:32
-#, fuzzy
-#| msgctxt "LearnDecimalsEditor|"
-#| msgid "Maximum Value"
 msgctxt "TensComplementUseEditor|"
 msgid "Maximum result"
-msgstr "Valor maxime:"
+msgstr "Resultato maxime"
 
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:33
-#, fuzzy
-#| msgctxt "AlgebraEditor|"
-#| msgid "Shuffle"
 msgctxt "TensComplementUseEditor|"
 msgid "Shuffle"
 msgstr "Shuffle (miscer)"
@@ -1560,15 +1515,12 @@ msgstr "Shuffle (miscer)"
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:39
 msgctxt "TensComplementUseEditor|"
 msgid "Additions"
-msgstr ""
+msgstr "Additiones"
 
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:156
-#, fuzzy
-#| msgctxt "NavigationPanel|"
-#| msgid "Datasets"
 msgctxt "TensComplementUseEditor|"
 msgid "Dataset is empty."
-msgstr "Gruppo de datos"
+msgstr "Insimul de datos es vacue."
 
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:169
 #, qt-format
@@ -1615,7 +1567,7 @@ msgstr ""
 #: server/activities/vertical_subtraction/VerticalEditor.qml:29
 msgctxt "VerticalEditor|"
 msgid "Sublevels"
-msgstr ""
+msgstr "Subnivellos"
 
 #: server/activities/vertical_subtraction/VerticalEditor.qml:31
 msgctxt "VerticalEditor|"
@@ -2397,7 +2349,7 @@ msgstr "Contrasigno incorrecte."
 #: server/views/DevicesView.qml:56
 msgctxt "DevicesView|"
 msgid "Logged in"
-msgstr ""
+msgstr "Aperi session"
 
 #: server/views/DevicesView.qml:58
 msgctxt "DevicesView|"
@@ -2467,7 +2419,7 @@ msgstr "Connectite:"
 #: server/views/DevicesView.qml:250
 msgctxt "DevicesView|"
 msgid "Logged in:"
-msgstr ""
+msgstr "Aperi session:"
 
 #: server/views/DevicesView.qml:257
 msgctxt "DevicesView|"

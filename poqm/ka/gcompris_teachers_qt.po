@@ -24,7 +24,7 @@ msgstr ""
 #: server/activities/tens_complement_use/ActivityEditor.qml:13
 msgctxt "ActivityEditor|"
 msgid "Rules to create a valid dataset:"
-msgstr "წესები ახალი მონაცემთა ნაკრების შესაქმნელად:"
+msgstr "წესები სწორი მონაცემთა ნაკრების შესაქმნელად:"
 
 #: server/activities/adjacent_numbers/ActivityEditor.qml:15
 msgctxt "ActivityEditor|"
@@ -117,7 +117,7 @@ msgstr "ნაკლული რიცხვების მდებარე�
 #: server/activities/adjacent_numbers/AdjacentNumbersEditor.qml:36
 msgctxt "AdjacentNumbersEditor|"
 msgid "Proposed numbers"
-msgstr "შემოთავაზებული რიცხვები"
+msgstr "შეთავაზებული რიცხვები"
 
 #: server/activities/adjacent_numbers/AdjacentNumbersEditor.qml:98
 msgctxt "AdjacentNumbersEditor|"
@@ -171,7 +171,7 @@ msgstr "პასუხი: %1"
 #: server/activities/algebra_by/AlgebraEditor.qml:25
 msgctxt "AlgebraEditor|"
 msgid "Rules to create a valid dataset:"
-msgstr "წესები ახალი მონაცემთა ნაკრების შესაქმნელად:"
+msgstr "წესები სწორი მონაცემთა ნაკრების შესაქმნელად:"
 
 #: server/activities/algebra_by/AlgebraEditor.qml:27
 msgctxt "AlgebraEditor|"
@@ -225,7 +225,7 @@ msgstr "შედეგის მნიშვნელობის ზღვა�
 #: server/activities/algebra_by/AlgebraEditor.qml:38
 msgctxt "AlgebraEditor|"
 msgid "Shuffle"
-msgstr "შემთხვევით"
+msgstr "არევა"
 
 #: server/activities/algebra_by/AlgebraEditor.qml:44
 msgctxt "AlgebraEditor|"
@@ -288,7 +288,7 @@ msgstr "შედეგის მნიშვნელობის ზღვა�
 #: server/activities/algebra_div/ActivityEditor.qml:28
 msgctxt "ActivityEditor|"
 msgid "Shuffle"
-msgstr "შემთხვევით"
+msgstr "არევა"
 
 #: server/activities/algebra_div/ActivityEditor.qml:34
 msgctxt "ActivityEditor|"
@@ -480,7 +480,7 @@ msgstr "შედეგი:"
 #: server/activities/comparator/ComparatorEditor.qml:29
 msgctxt "ComparatorEditor|"
 msgid "Shuffle"
-msgstr "შემთხვევით"
+msgstr "არევა"
 
 #: server/activities/comparator/ComparatorEditor.qml:30
 msgctxt "ComparatorEditor|"
@@ -582,7 +582,7 @@ msgstr ""
 #: server/activities/fractions_create/FractionsCreateEditor.qml:29
 msgctxt "FractionsCreateEditor|"
 msgid "Shuffle"
-msgstr "შემთხვევით"
+msgstr "არევა"
 
 #: server/activities/fractions_create/FractionsCreateEditor.qml:30
 msgctxt "FractionsCreateEditor|"
@@ -655,7 +655,7 @@ msgstr "პასუხი:"
 #: server/activities/fractions_find/FractionsFindEditor.qml:29
 msgctxt "FractionsFindEditor|"
 msgid "Shuffle"
-msgstr "შემთხვევით"
+msgstr "არევა"
 
 #: server/activities/fractions_find/FractionsFindEditor.qml:30
 msgctxt "FractionsFindEditor|"
@@ -751,7 +751,7 @@ msgstr ""
 #: server/activities/learn_decimals/LearnDecimalsEditor.qml:28
 msgctxt "LearnDecimalsEditor|"
 msgid "Shuffle"
-msgstr "შემთხვევით"
+msgstr "არევა"
 
 #: server/activities/learn_decimals/LearnDecimalsEditor.qml:29
 msgctxt "LearnDecimalsEditor|"
@@ -808,7 +808,7 @@ msgstr "რეჟიმი"
 #: server/activities/learn_decimals_additions/DecimalAdditionEditor.qml:29
 msgctxt "DecimalAdditionEditor|"
 msgid "Shuffle"
-msgstr "შემთხვევით"
+msgstr "არევა"
 
 #: server/activities/learn_decimals_additions/DecimalAdditionEditor.qml:30
 msgctxt "DecimalAdditionEditor|"
@@ -943,7 +943,7 @@ msgstr "რიცხვები"
 #: server/activities/learn_digits/LearnDigitsEditor.qml:163
 msgctxt "LearnDigitsEditor|"
 msgid "Additions"
-msgstr "დამატებები"
+msgstr "მიმატებები"
 
 #: server/activities/learn_digits/LearnDigitsEditor.qml:165
 msgctxt "LearnDigitsEditor|"
@@ -1004,17 +1004,14 @@ msgid "Duration: %1s"
 msgstr "ხანგრძლივობა: %1წმ"
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:29
-#, fuzzy
-#| msgctxt "ActivityEditor|"
-#| msgid "Rules to create a valid dataset:"
 msgctxt "MagicHatEditor|"
 msgid "Rules to create a valid dataset:"
-msgstr "წესები ახალი მონაცემთა ნაკრების შესაქმნელად:"
+msgstr "წესები სწორი მონაცემთა ნაკრების შესაქმნელად:"
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:31
 msgctxt "MagicHatEditor|"
 msgid "If \"Use coefficients\" is not checked:"
-msgstr ""
+msgstr "თუ 'კოეფიციენტების გამოყენება' ჩართული არაა:"
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:33
 #, qt-format
@@ -1026,6 +1023,12 @@ msgid ""
 "must be between %1 and %2, the others between 0 and %2. Also the minimum "
 "numbers must not be larger than the corresponding maximum numbers."
 msgstr ""
+"\"ვარსკვლავების მაქსიმალური რაოდენობა\" და \"ვარსკვლავების მინიმალური "
+"რაოდენობა\" ზღუდავს ვარკსვლავების რაოდენობა პირველი ოპერანდის (ზედა) სამი "
+"მწკრივისთვის. ისინი ზუსტად 3 მთელ რიცხვს უნდა შეიცავდეს, ერთს თითოეული "
+"მწკრივისთვის. პირველი ჩანაწერი უნდა იყოს შუალედიდან %1-%2 და დანარჩენები 0-"
+"სა და %2-ს შორის. მინიმალური რიცხვები შესაბამის მაქსიმალურს არ უნდა "
+"აჭარბებდეს."
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:36
 msgctxt "MagicHatEditor|"
@@ -1035,15 +1038,30 @@ msgid ""
 "of the corresponding row of the first operand, the result will not be more "
 "than the \"Maximum result per row\" value."
 msgstr ""
+"მეორე ოპერანდის (ქვედა) თითოეული მწკრივი შეიცავს ვარსკვლავების რაოდენობას, "
+"რომლებიც გენერირებულია ისე, რომ როცა ვარსკვლავების რაოდენობას პირველი "
+"ოპერანდის შესაბამის მწკრივ გამოაკლებთ, შედეგი \"მაქსიმალური შედეგი თითოეული "
+"მწკრივისთვის\" მნიშვნელობაზე მეტი არ იქნება."
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:37
+#, fuzzy
+#| msgctxt "MagicHatEditor|"
+#| msgid ""
+#| "Eath row of the second operand (the bottom one) will contain a number of "
+#| "stars generated in such a way that when added to the number of stars of "
+#| "the corresponding row of the first operand, the result will not be more "
+#| "than the \"Maximum result per row\" value."
 msgctxt "MagicHatEditor|"
 msgid ""
-"Eath row of the second operand (the bottom one) will contain a number of "
+"Each row of the second operand (the bottom one) will contain a number of "
 "stars generated in such a way that when added to the number of stars of the "
 "corresponding row of the first operand, the result will not be more than the "
 "\"Maximum result per row\" value."
 msgstr ""
+"მეორე ოპერანდის (ქვედა) თითოეული მწკრივი შეიცავს ვარსკვლავების რაოდენობას, "
+"რომლებიც გენერირებულია ისე, რომ როცა ვარსკვლავების რაოდენობას პირველი "
+"ოპერანდის შესაბამის მწკრივ მიუმატებთ, შედეგი \"მაქსიმალური შედეგი თითოეული "
+"მწკრივისთვის\" მნიშვნელობაზე მეტი არ იქნება."
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:41
 msgctxt "MagicHatEditor|"
@@ -1051,6 +1069,8 @@ msgid ""
 "If \"Maximum number of stars\" for a row is 0, this row will be empty and "
 "hidden for both operands."
 msgstr ""
+"თუ \"ვარსკვლავების მაქსიმალური რაოდენობა\" მწკრივისთვის 0-ის ტოლია, ეს "
+"მწკრივი ცარიელი იქნება და დაიმალება ორივე ოპერანდისთვის."
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:44
 msgctxt "MagicHatEditor|"
@@ -1058,11 +1078,13 @@ msgid ""
 "\"Maximum result per row\" must be larger than any value in \"Maximum number "
 "of stars\"."
 msgstr ""
+"\"მაქსიმალური შედეგი თითოეული მწკრივისთვის\" \"ვარსკვლავების მაქსიმალური "
+"რაოდენობის\" ნებისმიერ მნიშვნელობაზე მეტი უნდა იყოს."
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:46
 msgctxt "MagicHatEditor|"
 msgid "If \"Use coefficients\" is checked:"
-msgstr ""
+msgstr "თუ 'კოეფიციენტების გამოყენება' ჩართულია:"
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:48
 msgctxt "MagicHatEditor|"
@@ -1071,55 +1093,46 @@ msgid ""
 "must be between 1 and 10, the others between 0 and 10, and the sum of the 3 "
 "entries must not be larger than 10."
 msgstr ""
+"\"მწკრივის კოეფიციენტები\" ზუსტად 3 მთელ რიცხვს უნდა შეიცავდეს. პირველი უნდა "
+"იყოს შუალედიდან 1-10, დანარჩენები - შუალედიდან 0-10 და 3 ჩანაწერის ჯამი 10-"
+"ზე მეტი არ უნდა იყოს."
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:52
 msgctxt "MagicHatEditor|"
 msgid "Use coefficients"
-msgstr ""
+msgstr "კოეფიციენტების გამოყენება"
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:53
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Maximum start number"
 msgctxt "MagicHatEditor|"
 msgid "Maximum result per row"
-msgstr "მაქსიმალური საწყისი რიცხვი"
+msgstr "მაქსიმალური შედეგი თითოეულ მწკრივში"
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:54
 msgctxt "MagicHatEditor|"
 msgid "Use different star sets per row"
-msgstr ""
+msgstr "განსხვავებული ვარსკვლავების ნაკრების გამოყენება თითოეული მწკრივისთვის"
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:55
-#, fuzzy
-#| msgctxt "FractionsFindEditor|"
-#| msgid "Maximum of units"
 msgctxt "MagicHatEditor|"
 msgid "Maximum number of stars"
-msgstr "ერთეულების მაქსიმალური რაოდენობა"
+msgstr "ვარსკვლავების მაქსიმალური რაოდენობა"
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:56
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Minimum start number"
 msgctxt "MagicHatEditor|"
 msgid "Minimum number of stars"
-msgstr "მინიმალური საწყისი რიცხვი"
+msgstr "ვარსკვლავების მინიმალური რაოდენობა"
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:57
 msgctxt "MagicHatEditor|"
 msgid "Coefficient multiplier"
-msgstr ""
+msgstr "კოეფიციენტის მამრავლი"
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:58
 msgctxt "MagicHatEditor|"
 msgid "Row coefficients"
-msgstr ""
+msgstr "მწკრივის კოეფიციენტები"
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:120
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Dataset is empty."
 msgctxt "MagicHatEditor|"
 msgid "Dataset is empty."
 msgstr "მონაცემთა ნაკრები ცარიელია."
@@ -1131,6 +1144,9 @@ msgid ""
 "Level %1 must contain exactly 3 integer numbers in \"Maximum number of stars"
 "\". The first entry must be between %2 and %3, the others between 0 and %3."
 msgstr ""
+"დონე %1 ზუსტად 3 მთელ რიცხვს უნდა შეიცავდეს \"ვარსკვლავების მაქსიმალურ "
+"რაოდენობაში\". პირველი ჩანაწერი უნდა იყოს შუალედიდან %2-%3, დანარჩენები კი - "
+"0-%3."
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:169
 #, qt-format
@@ -1141,6 +1157,10 @@ msgid ""
 "and each number must not be larger than the corresponding number in "
 "\"Maximum number of stars\"."
 msgstr ""
+"დონე %1 ზუსტად 3 მთელ რიცხვს უნდა შეიცავდეს \"ვარსკვლავების მინიმალურ "
+"რაოდენობაში\". პირველი ჩანაწერი უნდა იყოს შუალედიდან %2-%3, დანარჩენები კი - "
+"0-%3 და თითოეული რიცხვი არ უნდა იყოს \"ვარსკვლავების მაქსიმალური რაოდენობის"
+"\" შესაბამის რიცხვზე მეტი."
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:183
 #, qt-format
@@ -1149,6 +1169,8 @@ msgid ""
 "In Level %1, \"Maximum result per row\" must be larger than any value in "
 "\"Maximum number of stars\"."
 msgstr ""
+"დონეზე %1 \"მაქსიმალური შედეგი თითოეული მწკრივისთვის\" \"ვარსკვლავების "
+"მაქსიმალური რაოდენობის\" ნებისმიერ მნიშვნელობაზე მეტი უნდა იყოს."
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:213
 #, qt-format
@@ -1158,11 +1180,12 @@ msgid ""
 "first entry must be between 1 and 10, the others between 0 and 10, and the "
 "sum of the 3 entries must not be larger than 10."
 msgstr ""
+"დონე %1 ზუსტად 3 მთელ რიცხვს უნდა შეიცავდეს \"მწკრივის კოეფიციენტებში\". "
+"პირველი უნდა იყოს შუალედიდან 1-10, დანარჩენები - შუალედიდან 0-10 და 3 "
+"ჩანაწერის ჯამი 10-ზე მეტი არ უნდა იყოს."
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:219
-#, fuzzy, qt-format
-#| msgctxt "BinaryBulbEditor|"
-#| msgid "The following errors need to be fixed:<ul>%1</ul>"
+#, qt-format
 msgctxt "MagicHatEditor|"
 msgid "The following errors need to be fixed:<ul>%1</ul>"
 msgstr "საჭიროა შემდეგი შეცდომების გასწორება:<ul>%1</ul>"
@@ -1172,7 +1195,7 @@ msgstr "საჭიროა შემდეგი შეცდომები�
 #, qt-format
 msgctxt "StarsBar|"
 msgid "%1x"
-msgstr ""
+msgstr "%1x"
 
 #: server/activities/multiple_choice_questions/ActivityEditor.qml:15
 msgctxt "ActivityEditor|"
@@ -1221,12 +1244,12 @@ msgstr "მოსალოდნელი:"
 #: server/activities/multiple_choice_questions/MultipleChoiceDataDisplay.qml:45
 msgctxt "MultipleChoiceDataDisplay|"
 msgid "Proposed:"
-msgstr "შემოთავაზებული:"
+msgstr "შეთავაზებული:"
 
 #: server/activities/multiple_choice_questions/MultipleChoiceEditor.qml:29
 msgctxt "MultipleChoiceEditor|"
 msgid "Shuffle"
-msgstr "შემთხვევით"
+msgstr "არევა"
 
 #: server/activities/multiple_choice_questions/MultipleChoiceEditor.qml:30
 msgctxt "MultipleChoiceEditor|"
@@ -1325,7 +1348,7 @@ msgstr "რეჟიმი"
 #: server/activities/tens_complement_use/ActivityEditor.qml:15
 msgctxt "ActivityEditor|"
 msgid "All numbers must be positive integers"
-msgstr ""
+msgstr "ყველა რიცხვი დადებითი მთელი რიცხვი უნდა იყოს"
 
 #: server/activities/tens_complement_find/ActivityEditor.qml:17
 msgctxt "ActivityEditor|"
@@ -1334,6 +1357,9 @@ msgid ""
 "cards, and there is already 1 card per addition, or 2 cards per addition if "
 "\"Find both numbers\" is selected."
 msgstr ""
+"ნუ დაამატებთ მეტისმეტად ბევრ \"დამატებით ბარათს!\" თითოეული ქვედონე 6-ზე მეტ "
+"ბარათს არ უნდა შეიცავდეს და თითოეული მიმატებისთვის 1 ბარათი უკვე არსებობს, "
+"ან 2 თითოეული მიმატებისთვის, თუ \"ორივე რიცხვის პოვნა\" ჩართულია."
 
 #: server/activities/tens_complement_find/ActivityEditor.qml:19
 msgctxt "ActivityEditor|"
@@ -1342,28 +1368,22 @@ msgid ""
 "must contain 1, 2 or 3 numbers between 1 and 9. There is one addition for "
 "each \"First operand\" number."
 msgstr ""
+"თუ \"შემთხვევითი კითხვები\" მონიშნული არაა, თითოეული ქვედონის \"პირველი "
+"ოპერანდები უნდა შეიცავდეს 1, 2 ან 3 რიცხვს შუალედიდან 1-9. თითოეული "
+"\"პირველი ოპერანდის\" რიცხვისთვის არსებობს ერთი მიმატება."
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:27
-#, fuzzy
-#| msgctxt "FractionsFindEditor|"
-#| msgid "Random fraction"
 msgctxt "TensComplementFindEditor|"
 msgid "Random questions"
-msgstr "შემთხვევითი წილადი"
+msgstr "შემთხვევითი კითხვები"
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:28
-#, fuzzy
-#| msgctxt "BinaryBulbEditor|"
-#| msgid "Random numbers"
 msgctxt "TensComplementFindEditor|"
 msgid "Find both numbers"
-msgstr "შემთხვევითი რიცხვები"
+msgstr "იპოვეთ ორივე რიცხვი"
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:29
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:35
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Sublevels"
 msgctxt "TensComplementFindEditor|"
 msgid "Sublevels"
 msgstr "ქვედონეები"
@@ -1371,50 +1391,35 @@ msgstr "ქვედონეები"
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:30
 msgctxt "TensComplementFindEditor|"
 msgid "Additions per sublevel"
-msgstr ""
+msgstr "მიმატება თითოეული ქვედონისთვის"
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:31
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:41
 msgctxt "TensComplementFindEditor|"
 msgid "Extra cards"
-msgstr ""
+msgstr "დამატებითი ბარათები"
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:32
-#, fuzzy
-#| msgctxt "AlgebraEditor|"
-#| msgid "Minimum operand value"
 msgctxt "TensComplementFindEditor|"
 msgid "Minimum first operand"
-msgstr "მინიმალური ოპერანდის მნიშვნელობა"
+msgstr "მინიმალური პირველი ოპერანდი"
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:33
-#, fuzzy
-#| msgctxt "AlgebraEditor|"
-#| msgid "Maximum operand value"
 msgctxt "TensComplementFindEditor|"
 msgid "Maximum first operand"
-msgstr "მაქსიმალური ოპერანდის მნიშვნელობა"
+msgstr "მაქსიმალური პირველი ოპერანდი"
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:34
-#, fuzzy
-#| msgctxt "MultipleChoiceEditor|"
-#| msgid "Shuffle answers"
 msgctxt "TensComplementFindEditor|"
 msgid "Shuffle operands"
-msgstr "პასუხების შერევა"
+msgstr "ოპერანდების შერევა"
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:40
-#, fuzzy
-#| msgctxt "AlgebraEditor|"
-#| msgid "First operand"
 msgctxt "TensComplementFindEditor|"
 msgid "First operands"
-msgstr "პირველი ოპერანდი"
+msgstr "პირველი ოპერანდები"
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:163
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Dataset is empty."
 msgctxt "TensComplementFindEditor|"
 msgid "Dataset is empty."
 msgstr "მონაცემთა ნაკრები ცარიელია."
@@ -1423,79 +1428,65 @@ msgstr "მონაცემთა ნაკრები ცარიელი�
 #, qt-format
 msgctxt "TensComplementFindEditor|"
 msgid "Level %1 contains too many extra cards."
-msgstr ""
+msgstr "დონე %1 მეტისმეტად ბევრ დამატებით ბარათს შეიცავს."
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:184
-#, fuzzy, qt-format
-#| msgctxt "ComparatorEditor|"
-#| msgid "Level %1 must not be empty."
+#, qt-format
 msgctxt "TensComplementFindEditor|"
 msgid "Level %1 must not be empty."
 msgstr "დონე %1 ცარიელი არ უნდა იყოს."
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:193
-#, fuzzy, qt-format
-#| msgctxt "MultipleChoiceEditor|"
-#| msgid "\"Answers\" in Sublevel %1 of Level %2 must not be empty."
+#, qt-format
 msgctxt "TensComplementFindEditor|"
 msgid "Sublevel %2 of Level %1 must not be empty."
-msgstr "\"პასუხები\" %2 დონის %1 ქვედონეზე არ შეიძლება, ცარიელი იყოს."
+msgstr "დონის %1 ქვედონე %2 ცარიელი არ უნდა იყოს."
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:200
 #, qt-format
 msgctxt "TensComplementFindEditor|"
 msgid "Sublevel %2 of Level %1 contains invalid First operands."
-msgstr ""
+msgstr "დონის %1 ქვედონე %2 არასწორ პირველ ოპერანდებს შეიცავს."
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:210
 #, qt-format
 msgctxt "TensComplementFindEditor|"
 msgid "Sublevel %2 of Level %1 contains invalid extra cards."
-msgstr ""
+msgstr "დონის %1 ქვედონე %2 არასწორ დამატებით ბარათებს შეიცავს."
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:218
 #, qt-format
 msgctxt "TensComplementFindEditor|"
 msgid "Sublevel %2 of Level %1 contains too many extra cards."
-msgstr ""
+msgstr "დონის %1 ქვედონე %2 მეტისმეტად ბევრ დამატებით ბარათს შეიცავს."
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:226
-#, fuzzy, qt-format
-#| msgctxt "BinaryBulbEditor|"
-#| msgid "The following errors need to be fixed:<ul>%1</ul>"
+#, qt-format
 msgctxt "TensComplementFindEditor|"
 msgid "The following errors need to be fixed:<ul>%1</ul>"
 msgstr "საჭიროა შემდეგი შეცდომების გასწორება:<ul>%1</ul>"
 
 #: server/activities/tens_complement_swap/TensComplementSwapEditor.qml:25
-#, fuzzy
-#| msgctxt "ActivityEditor|"
-#| msgid "Rules to create a valid dataset:"
 msgctxt "TensComplementSwapEditor|"
 msgid "Rules to create a valid dataset:"
-msgstr "წესები ახალი მონაცემთა ნაკრების შესაქმნელად:"
+msgstr "წესები სწორი მონაცემთა ნაკრების შესაქმნელად:"
 
 #: server/activities/tens_complement_swap/TensComplementSwapEditor.qml:27
 msgctxt "TensComplementSwapEditor|"
 msgid "All numbers must be positive integers"
-msgstr ""
+msgstr "ყველა რიცხვი დადებითი მთელი რიცხვი უნდა იყოს"
 
 #: server/activities/tens_complement_swap/TensComplementSwapEditor.qml:29
-#, fuzzy
-#| msgctxt "ActivityEditor|"
-#| msgid ""
-#| "If \"Random numbers\" is not selected, \"Numbers to find\" must contain a "
-#| "list of integer numbers. Each number must be between 0 and the maximum "
-#| "number which can be represented with the given \"Bulb count\"."
 msgctxt "TensComplementSwapEditor|"
 msgid ""
 "If \"Random operands\" is not selected, \"Operands\" must contain 1, 2 or 3 "
 "entries. Each entry must be a number between 1 and 9. The resulting addition "
 "will contain the given entries and their complement to 10."
 msgstr ""
-"თუ \"შემთხვევითი რიცხვები\" არჩეული არაა, \"საპოვნელი რიცხვი\" მთელი "
-"რიცხვების სიას უნდა შეიცავდეს. თითოეული რიცხვი უნდა იყოს 0-სა და მაქსიმალურ "
-"რიცხვს შორის, რომელიც \"ნათურების რაოდენობის\" მნიშვნელობითაა მითითებული."
+"თუ \"შემთხვევი ოპერანდები\" მონიშნული არაა, \"ოპერანდები\" 1, 2, ან 3 "
+"ჩანაწერს უნდა შეიცავდეს. თითოეული ჩანაწერი უნდა წარმოადგენდეს რიცხვს "
+"შუალედიდან 1-9. მიმატების ჯამი შეიცავს მითითებულ ჩანაწერებს და მათ 10-მდე "
+"დამატებით რიცხვებს."
 
 #: server/activities/tens_complement_swap/TensComplementSwapEditor.qml:31
 msgctxt "TensComplementSwapEditor|"
@@ -1505,67 +1496,48 @@ msgid ""
 "if \"Operands\" contains 2 numbers, and not used if \"Operands\" contains 3 "
 "numbers."
 msgstr ""
+"\"დამატებითი ოპერანდი\" შეიძლება, შეიცავდეს 1 რიცხვს შუალედიდან 1-9, რომელიც "
+"ამ მიმატებას მიემატება. ის აუცილებელია, თუ \"ოპერანდები\" 1 რიცხვს შეიცავს "
+"და არასავალდებულოა, თუ \"ოპერანდები\" 2 რიცხვს შეიცავს და არ გამოიყენება, თუ "
+"\"ოპერანდები\" 3 რიცხვს შეიცავს."
 
 #: server/activities/tens_complement_swap/TensComplementSwapEditor.qml:35
-#, fuzzy
-#| msgctxt "AlgebraEditor|"
-#| msgid "Shuffle"
 msgctxt "TensComplementSwapEditor|"
 msgid "Shuffle"
-msgstr "შემთხვევით"
+msgstr "არევა"
 
 #: server/activities/tens_complement_swap/TensComplementSwapEditor.qml:36
-#, fuzzy
-#| msgctxt "LearnDigitsEditor|"
-#| msgid "Additions"
 msgctxt "TensComplementSwapEditor|"
 msgid "Additions"
-msgstr "დამატებები"
+msgstr "მიმატებები"
 
 #: server/activities/tens_complement_swap/TensComplementSwapEditor.qml:41
-#, fuzzy
-#| msgctxt "AlgebraEditor|"
-#| msgid "Random operands"
 msgctxt "TensComplementSwapEditor|"
 msgid "Random operands"
 msgstr "შემთხვევითი ოპერანდები"
 
 #: server/activities/tens_complement_swap/TensComplementSwapEditor.qml:42
-#, fuzzy
-#| msgctxt "VerticalEditor|"
-#| msgid "Number of lines"
 msgctxt "TensComplementSwapEditor|"
 msgid "Number of operands"
-msgstr "ხაზების რაოდენობა"
+msgstr "ოპერანდების რაოდენობა"
 
 #: server/activities/tens_complement_swap/TensComplementSwapEditor.qml:43
-#, fuzzy
-#| msgctxt "AlgebraEditor|"
-#| msgid "Random operands"
 msgctxt "TensComplementSwapEditor|"
 msgid "Operands"
-msgstr "შემთხვევითი ოპერანდები"
+msgstr "ოპერანდები"
 
 #: server/activities/tens_complement_swap/TensComplementSwapEditor.qml:44
-#, fuzzy
-#| msgctxt "AlgebraEditor|"
-#| msgid "First operand"
 msgctxt "TensComplementSwapEditor|"
 msgid "Extra operand"
-msgstr "პირველი ოპერანდი"
+msgstr "დამატებითი ოპერანდი"
 
 #: server/activities/tens_complement_swap/TensComplementSwapEditor.qml:144
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Dataset is empty."
 msgctxt "TensComplementSwapEditor|"
 msgid "Dataset is empty."
 msgstr "მონაცემთა ნაკრები ცარიელია."
 
 #: server/activities/tens_complement_swap/TensComplementSwapEditor.qml:154
-#, fuzzy, qt-format
-#| msgctxt "ComparatorEditor|"
-#| msgid "Level %1 must not be empty."
+#, qt-format
 msgctxt "TensComplementSwapEditor|"
 msgid "Level %1 must not be empty."
 msgstr "დონე %1 ცარიელი არ უნდა იყოს."
@@ -1576,12 +1548,10 @@ msgctxt "TensComplementSwapEditor|"
 msgid ""
 "Content of Addition %2 of Level %1 is not valid. Please check the "
 "instructions."
-msgstr ""
+msgstr "დონის %1 შემცველობის დამატება %2 არასწორია. შეამოწმეთ ინსტრუქციები."
 
 #: server/activities/tens_complement_swap/TensComplementSwapEditor.qml:198
-#, fuzzy, qt-format
-#| msgctxt "BinaryBulbEditor|"
-#| msgid "The following errors need to be fixed:<ul>%1</ul>"
+#, qt-format
 msgctxt "TensComplementSwapEditor|"
 msgid "The following errors need to be fixed:<ul>%1</ul>"
 msgstr "საჭიროა შემდეგი შეცდომების გასწორება:<ul>%1</ul>"
@@ -1592,58 +1562,40 @@ msgid ""
 "Do not add too many \"Extra cards\"! Each sublevel must not have more than 6 "
 "cards, and there are already 2 cards per addition."
 msgstr ""
+"ნუ დაამატებთ მეტისმეტად ბევრ \"დამატებით ბარათს\"! თითოეული ქვედონე 6-ზე მეტ "
+"ბარათს არ უნდა შეიცავდეს და იქ უკვე არსებობს 2 თითოეული მიმატებისთვის."
 
 #: server/activities/tens_complement_use/ActivityEditor.qml:19
-#, fuzzy
-#| msgctxt "LearnDigitsEditor|"
-#| msgid ""
-#| "\"Additions\" must only contain additions which results are integer "
-#| "numbers between 0 and 9, and must not be empty."
 msgctxt "ActivityEditor|"
 msgid ""
 "In \"Additions\", each entry must be an addition which first number is "
 "between 1 and 9, and which result is between 11 and 99."
 msgstr ""
-"\"დამატებები\", მხოლოდ, მიმატებებს უნდა შეიცავდეს, რომლის შედეგიც მთელი "
-"რიცხვებია შუალედიდან 0-9 და არ უნდა იყოს ცარიელი."
+"\"მიმატებებში\" თითოეული ჩანაწერი უნდა იყოს მიმატება, რომლის პირველი რიცხვია "
+"1-დან 9-მდე და რომლის ჯამიც არის შუალედიდან 11-99."
 
 #: server/activities/tens_complement_use/TensComplementUseDataDisplay.qml:36
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Proposed numbers"
 msgctxt "TensComplementUseDataDisplay|"
 msgid "Proposed numbers:"
-msgstr "შემოთავაზებული რიცხვები"
+msgstr "შეთავაზებული რიცხვები:"
 
 #: server/activities/tens_complement_use/TensComplementUseDataDisplay.qml:71
-#, fuzzy
-#| msgctxt "MultipleChoiceDataDisplay|"
-#| msgid "Question:"
 msgctxt "TensComplementUseDataDisplay|"
 msgid "Question:"
 msgstr "კითხვა:"
 
 #: server/activities/tens_complement_use/TensComplementUseDataDisplay.qml:97
-#, fuzzy
-#| msgctxt "AdjacentNumbersDataDisplay|"
-#| msgid "Answer:"
 msgctxt "TensComplementUseDataDisplay|"
 msgid "Answer:"
 msgstr "პასუხი:"
 
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:27
-#, fuzzy
-#| msgctxt "FractionsFindEditor|"
-#| msgid "Random fraction"
 msgctxt "TensComplementUseEditor|"
 msgid "Random questions"
-msgstr "შემთხვევითი წილადი"
+msgstr "შემთხვევითი კითხვები"
 
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:28
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:34
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Sublevels"
 msgctxt "TensComplementUseEditor|"
 msgid "Sublevels"
 msgstr "ქვედონეები"
@@ -1651,50 +1603,35 @@ msgstr "ქვედონეები"
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:29
 msgctxt "TensComplementUseEditor|"
 msgid "Additions per sublevel"
-msgstr ""
+msgstr "მიმატება თითოეული ქვედონისთვის"
 
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:30
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:40
 msgctxt "TensComplementUseEditor|"
 msgid "Extra cards"
-msgstr ""
+msgstr "დამატებითი ბარათები"
 
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:31
-#, fuzzy
-#| msgctxt "LearnDecimalsEditor|"
-#| msgid "Minimum Value"
 msgctxt "TensComplementUseEditor|"
 msgid "Minimum result"
-msgstr "მინიმალური მნიშვნელობა"
+msgstr "მინიმალური შედეგი"
 
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:32
-#, fuzzy
-#| msgctxt "FractionsFindEditor|"
-#| msgid "Maximum of units"
 msgctxt "TensComplementUseEditor|"
 msgid "Maximum result"
-msgstr "ერთეულების მაქსიმალური რაოდენობა"
+msgstr "მაქსიმალური შედეგი"
 
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:33
-#, fuzzy
-#| msgctxt "AlgebraEditor|"
-#| msgid "Shuffle"
 msgctxt "TensComplementUseEditor|"
 msgid "Shuffle"
-msgstr "შემთხვევით"
+msgstr "არევა"
 
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:39
-#, fuzzy
-#| msgctxt "LearnDigitsEditor|"
-#| msgid "Additions"
 msgctxt "TensComplementUseEditor|"
 msgid "Additions"
-msgstr "დამატებები"
+msgstr "მიმატებები"
 
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:156
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Dataset is empty."
 msgctxt "TensComplementUseEditor|"
 msgid "Dataset is empty."
 msgstr "მონაცემთა ნაკრები ცარიელია."
@@ -1703,48 +1640,40 @@ msgstr "მონაცემთა ნაკრები ცარიელი�
 #, qt-format
 msgctxt "TensComplementUseEditor|"
 msgid "Level %1 contains too many extra cards."
-msgstr ""
+msgstr "დონე %1 მეტისმეტად ბევრ დამატებით ბარათს შეიცავს."
 
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:175
-#, fuzzy, qt-format
-#| msgctxt "ComparatorEditor|"
-#| msgid "Level %1 must not be empty."
+#, qt-format
 msgctxt "TensComplementUseEditor|"
 msgid "Level %1 must not be empty."
 msgstr "დონე %1 ცარიელი არ უნდა იყოს."
 
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:184
-#, fuzzy, qt-format
-#| msgctxt "MultipleChoiceEditor|"
-#| msgid "\"Answers\" in Sublevel %1 of Level %2 must not be empty."
+#, qt-format
 msgctxt "TensComplementUseEditor|"
 msgid "Sublevel %2 of Level %1 must not be empty."
-msgstr "\"პასუხები\" %2 დონის %1 ქვედონეზე არ შეიძლება, ცარიელი იყოს."
+msgstr "დონის %1 ქვედონე %2 ცარიელი არ უნდა იყოს."
 
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:194
-#, fuzzy, qt-format
-#| msgctxt "MultipleChoiceEditor|"
-#| msgid "\"Question\" in Sublevel %1 of Level %2 must not be empty."
+#, qt-format
 msgctxt "TensComplementUseEditor|"
 msgid "Addition %3 of Sublevel %2 of Level %1 is not correct."
-msgstr "\"კითხვა\" %2 დონის %1 ქვედონეზე არ შეიძლება, ცარიელი იყოს."
+msgstr "დონის %1 ქვედონის %2 მიმატება %3 არასწორია."
 
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:204
 #, qt-format
 msgctxt "TensComplementUseEditor|"
 msgid "Sublevel %2 of Level %1 contains invalid extra cards."
-msgstr ""
+msgstr "დონის %1 ქვედონე %2 არასწორ დამატებით ბარათებს შეიცავს."
 
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:212
 #, qt-format
 msgctxt "TensComplementUseEditor|"
 msgid "Sublevel %2 of Level %1 contains too many extra cards."
-msgstr ""
+msgstr "დონის %1 ქვედონე %2 მეტისმეტად ბევრ დამატებით ბარათს შეიცავს."
 
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:220
-#, fuzzy, qt-format
-#| msgctxt "BinaryBulbEditor|"
-#| msgid "The following errors need to be fixed:<ul>%1</ul>"
+#, qt-format
 msgctxt "TensComplementUseEditor|"
 msgid "The following errors need to be fixed:<ul>%1</ul>"
 msgstr "საჭიროა შემდეგი შეცდომების გასწორება:<ul>%1</ul>"

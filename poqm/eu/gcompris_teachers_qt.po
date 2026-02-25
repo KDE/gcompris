@@ -1052,7 +1052,7 @@ msgstr ""
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:37
 msgctxt "MagicHatEditor|"
 msgid ""
-"Eath row of the second operand (the bottom one) will contain a number of "
+"Each row of the second operand (the bottom one) will contain a number of "
 "stars generated in such a way that when added to the number of stars of the "
 "corresponding row of the first operand, the result will not be more than the "
 "\"Maximum result per row\" value."
