@@ -41,10 +41,6 @@ var frenchBoard = {
 
 var levelList = [englishBoard, frenchBoard];
 
-var pegsWhichCanMove = 0; // init to 1 for first peg to delete to allow starting the game
-var pegsWhichCantMove = 0;
-var pegsToEat = 0;
-
 var slotsWhichCanReceive = []; // list of slots which can receive selected peg
 var selectedPeg = null;
 
@@ -68,9 +64,8 @@ function initLevel() {
     items.gameGrid = levelList[items.currentLevel];
     items.boardRepeater.model = items.gameGrid.gridCoordinates;
     items.boardRepeater.resetBoard();
-    pegsWhichCanMove = 0;
-    pegsWhichCantMove = items.gameGrid.gridCoordinates.length;
-    pegsToEat = items.gameGrid.gridCoordinates.length - 2;
+    items.pegsWhichCanMove = 0;
+    items.pegsToEat = items.gameGrid.gridCoordinates.length - 2;
     if(items.useDefaultHole) {
         removeFirstPeg(items.boardRepeater.itemAt(items.gameGrid.defaultHoleIndex));
     }
@@ -149,17 +144,15 @@ function doUndo() {
         _initialSlot.hasPeg = true;
         _destinationSlot.hasPeg = false;
         _eatenSlot.hasPeg = true;
-        pegsToEat++;
+        items.pegsToEat++;
 
-        var newCanMove = checkCanMove(_initialSlot.modelData);
-        setCanMove(_initialSlot.index, newCanMove);
+        setCanMove(_initialSlot.index, true);
         checkSurroundingSlots(_initialSlot.modelData);
 
-        newCanMove = checkCanMove(_destinationSlot.modelData);
-        setCanMove(_destinationSlot.index, newCanMove);
+        setCanMove(_destinationSlot.index, false);
         checkSurroundingSlots(_destinationSlot.modelData);
 
-        newCanMove = checkCanMove(_eatenSlot.modelData);
+        var newCanMove = checkCanMove(_eatenSlot.modelData);
         setCanMove(_eatenSlot.index, newCanMove);
         checkSurroundingSlots(_eatenSlot.modelData);
 
@@ -194,7 +187,7 @@ function movePeg(_clickedSlot, _isUndo) {
     var eatenPegIndex = findPeg(eatenPegPosition);
     var eatenPeg = items.boardRepeater.itemAt(eatenPegIndex);
     eatenPeg.hasPeg = false;
-    pegsToEat--;
+    items.pegsToEat--;
     setCanMove(eatenPegIndex, false);
 
     selectedPeg.hasPeg = false;
@@ -217,17 +210,12 @@ function movePeg(_clickedSlot, _isUndo) {
     deselectPeg();
     resetDropTarget();
 
-    // // Useful debug log, kept around just in case
-    // console.log("canmove: " + pegsWhichCanMove)
-    // console.log("cantmove: " + pegsWhichCantMove)
-    // console.log("toEat: " + pegsToEat)
-
     checkBoard();
 }
 
 function checkBoard() {
-    if(pegsWhichCanMove === 0) {
-        if(pegsToEat > 0) {
+    if(items.pegsWhichCanMove === 0) {
+        if(items.pegsToEat > 0) {
             items.bonus.bad('flower');
         } else if (!items.alreadyWon){
             items.alreadyWon = true;
@@ -322,11 +310,9 @@ function setCanMove(_itemIndex, _canMove) {
     if(gridSlot.canMove != _canMove) {
         gridSlot.canMove = _canMove;
         if(_canMove) {
-            pegsWhichCanMove++;
-            pegsWhichCantMove--;
+            items.pegsWhichCanMove++;
         } else {
-            pegsWhichCanMove--;
-            pegsWhichCantMove++;
+            items.pegsWhichCanMove--;
         }
     }
 }

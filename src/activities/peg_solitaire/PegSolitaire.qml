@@ -44,6 +44,8 @@ ActivityBase {
             // each undo item is an array with [initialSlot, destinationSlot, eatenSlot]
             property list<var> undoList: []
             property list<var> redoList: []
+            property int pegsToEat: 0
+            property int pegsWhichCanMove: 0
         }
 
         onStart: { Activity.start(items) }
