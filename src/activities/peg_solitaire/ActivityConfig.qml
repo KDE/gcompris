@@ -26,18 +26,21 @@ Item {
             id: defaultHoleBox
             text: qsTr("Use default start hole")
             checked: activityConfiguration.useDefaultHole
+            onCheckedChanged: {
+                activityConfiguration.useDefaultHole = checked;
+            }
         }
     }
 
     property var dataToSave
     function setDefaultValues() {
-        // Recreate the binding
-        defaultHoleBox.checked = Qt.binding(function(){return activityConfiguration.useDefaultHole;});
-        activityConfiguration.useDefaultHole = (dataToSave.useDefaultHole === "true");
+        if(dataToSave["useDefaultHole"] === undefined) {
+            dataToSave["useDefaultHole"] = "true";
+        }
+        defaultHoleBox.checked = (dataToSave.useDefaultHole === "true")
     }
 
     function saveValues() {
-        activityConfiguration.useDefaultHole = defaultHoleBox.checked;
-        dataToSave = {"useDefaultHole": "" + activityConfiguration.useDefaultHole};
+        dataToSave = { "useDefaultHole": "" + activityConfiguration.useDefaultHole }
     }
 }

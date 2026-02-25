@@ -161,7 +161,7 @@ ActivityBase {
                 activity.home()
             }
             onLoadData: {
-                if(activityData) {
+                if(activityData && activityData["useDefaultHole"]) {
                     items.useDefaultHole = activityData["useDefaultHole"] === "true" ? true : false;
                 }
             }
