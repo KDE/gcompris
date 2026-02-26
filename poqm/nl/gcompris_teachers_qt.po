@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-02-24 11:43+0100\n"
+"PO-Revision-Date: 2026-02-25 12:15+0100\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -1047,13 +1047,6 @@ msgstr ""
 "dan de waarde \"Maximum resultaat per rij\"."
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:37
-#, fuzzy
-#| msgctxt "MagicHatEditor|"
-#| msgid ""
-#| "Eath row of the second operand (the bottom one) will contain a number of "
-#| "stars generated in such a way that when added to the number of stars of "
-#| "the corresponding row of the first operand, the result will not be more "
-#| "than the \"Maximum result per row\" value."
 msgctxt "MagicHatEditor|"
 msgid ""
 "Each row of the second operand (the bottom one) will contain a number of "

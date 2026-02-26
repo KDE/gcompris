@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gcompris\n"
-"PO-Revision-Date: 2026-02-24 10:33+0100\n"
+"PO-Revision-Date: 2026-02-25 08:25+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -1048,13 +1048,6 @@ msgstr ""
 "«Resultat màxim per fila»."
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:37
-#, fuzzy
-#| msgctxt "MagicHatEditor|"
-#| msgid ""
-#| "Eath row of the second operand (the bottom one) will contain a number of "
-#| "stars generated in such a way that when added to the number of stars of "
-#| "the corresponding row of the first operand, the result will not be more "
-#| "than the \"Maximum result per row\" value."
 msgctxt "MagicHatEditor|"
 msgid ""
 "Each row of the second operand (the bottom one) will contain a number of "
@@ -1153,7 +1146,7 @@ msgstr ""
 "i %3."
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:169
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "MagicHatEditor|"
 msgid ""
 "Level %1 must contain exactly 3 integer numbers in \"Minimum number of stars"
@@ -1167,17 +1160,17 @@ msgstr ""
 "«Nombre màxim d'estreles»."
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:183
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "MagicHatEditor|"
 msgid ""
 "In Level %1, \"Maximum result per row\" must be larger than any value in "
 "\"Maximum number of stars\"."
 msgstr ""
 "En el nivell %1, «Resultat màxim per fila» ha de ser més gran que qualsevol "
-"valor en \"Màxim nombre d'estreles\"."
+"valor a «Nombre màxim d'estreles»."
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:213
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "MagicHatEditor|"
 msgid ""
 "Level %1 must contain exactly 3 integer numbers in \"Row coefficients\". The "
@@ -1196,7 +1189,7 @@ msgstr "Cal corregir els errors següents:<ul>%1</ul>"
 
 #. text displaying coefficient with which the set of stars is to be multiplied along with multiplication symbol.
 #: server/activities/magic-hat-minus/StarsBar.qml:53
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "StarsBar|"
 msgid "%1x"
 msgstr "%1x"
@@ -1353,34 +1346,31 @@ msgstr "Mode"
 
 #: server/activities/tens_complement_find/ActivityEditor.qml:15
 #: server/activities/tens_complement_use/ActivityEditor.qml:15
-#, fuzzy
 msgctxt "ActivityEditor|"
 msgid "All numbers must be positive integers"
 msgstr "Tots els nombres han de ser enters positius"
 
 #: server/activities/tens_complement_find/ActivityEditor.qml:17
-#, fuzzy
 msgctxt "ActivityEditor|"
 msgid ""
 "Do not add too many \"Extra cards\"! Each sublevel must not have more than 6 "
 "cards, and there is already 1 card per addition, or 2 cards per addition if "
 "\"Find both numbers\" is selected."
 msgstr ""
-"No afiges massa \"targetes extres\"! Cada subnivell no ha de tindre més de 6 "
-"cartes, i ja hi ha 1 carta per suma, o 2 cartes per suma si es tria \"Busca "
-"els dos números\"."
+"No afiges massa «Targetes extres»! Cada subnivell no ha de tindre més de 6 "
+"targetes, i ja hi ha 1 targeta per suma, o 2 targetes per suma si es tria "
+"«Troba ambdós números»."
 
 #: server/activities/tens_complement_find/ActivityEditor.qml:19
-#, fuzzy
 msgctxt "ActivityEditor|"
 msgid ""
 "If \"Random questions\" is not selected, \"First operands\" of each sublevel "
 "must contain 1, 2 or 3 numbers between 1 and 9. There is one addition for "
 "each \"First operand\" number."
 msgstr ""
-"Si no se selecciona \"Preguntes de Random\", els \"primers operands\" de "
-"cada subnivell han de contindre 1, 2 o 3 números entre 1 i 9. Hi ha una "
-"addició per a cada número de \"Primer operand\"."
+"Si no se selecciona «Preguntes aleatòries», els «primers operands» de cada "
+"subnivell han de contindre 1, 2 o 3 números entre 1 i 9. Hi ha una addició "
+"per a cada número de «Primer operand»."
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:27
 msgctxt "TensComplementFindEditor|"
@@ -1399,7 +1389,6 @@ msgid "Sublevels"
 msgstr "Subnivells"
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:30
-#, fuzzy
 msgctxt "TensComplementFindEditor|"
 msgid "Additions per sublevel"
 msgstr "Addicions per subnivell"
@@ -1436,7 +1425,7 @@ msgid "Dataset is empty."
 msgstr "El conjunt de dades està buit."
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:178
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "TensComplementFindEditor|"
 msgid "Level %1 contains too many extra cards."
 msgstr "El nivell %1 conté massa targetes extres."
@@ -1454,19 +1443,19 @@ msgid "Sublevel %2 of Level %1 must not be empty."
 msgstr "El subnivell %2 del nivell %1 no pot estar buit."
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:200
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "TensComplementFindEditor|"
 msgid "Sublevel %2 of Level %1 contains invalid First operands."
-msgstr "El subnivell %2 del nivell %1 conté els primers operands no vàlids."
+msgstr "El subnivell %2 del nivell %1 conté primers operands no vàlids."
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:210
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "TensComplementFindEditor|"
 msgid "Sublevel %2 of Level %1 contains invalid extra cards."
 msgstr "El subnivell %2 del nivell %1 conté targetes extres no vàlides."
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:218
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "TensComplementFindEditor|"
 msgid "Sublevel %2 of Level %1 contains too many extra cards."
 msgstr "El subnivell %2 del nivell %1 conté massa targetes extres."
@@ -1483,7 +1472,6 @@ msgid "Rules to create a valid dataset:"
 msgstr "Regles per a crear un conjunt de dades vàlid:"
 
 #: server/activities/tens_complement_swap/TensComplementSwapEditor.qml:27
-#, fuzzy
 msgctxt "TensComplementSwapEditor|"
 msgid "All numbers must be positive integers"
 msgstr "Tots els nombres han de ser enters positius"
@@ -1500,7 +1488,6 @@ msgstr ""
 "resultant contindrà les entrades donades i el seu complement a 10."
 
 #: server/activities/tens_complement_swap/TensComplementSwapEditor.qml:31
-#, fuzzy
 msgctxt "TensComplementSwapEditor|"
 msgid ""
 "\"Extra operand\" can contain 1 number between 1 and 9 which will be added "
@@ -1508,10 +1495,9 @@ msgid ""
 "if \"Operands\" contains 2 numbers, and not used if \"Operands\" contains 3 "
 "numbers."
 msgstr ""
-"\"Extra operand\" pot contindre 1 número entre 1 i 9 que s'afegirà a "
-"l'addició. És obligatori si \"Operands\" conté 1 número, opcional si "
-"\"Operands\" conté 2 números, i no s'utilitza si \"Operands\" conté 3 "
-"números."
+"«Operand extra» pot contindre 1 número entre 1 i 9 que s'afegirà a "
+"l'addició. És obligatori si «Operands» conté 1 número, opcional si "
+"«Operands» conté 2 números, i no s'utilitza si «Operands» conté 3 números."
 
 #: server/activities/tens_complement_swap/TensComplementSwapEditor.qml:35
 msgctxt "TensComplementSwapEditor|"
@@ -1555,7 +1541,7 @@ msgid "Level %1 must not be empty."
 msgstr "El nivell %1 no pot estar buit."
 
 #: server/activities/tens_complement_swap/TensComplementSwapEditor.qml:192
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "TensComplementSwapEditor|"
 msgid ""
 "Content of Addition %2 of Level %1 is not valid. Please check the "
@@ -1571,14 +1557,13 @@ msgid "The following errors need to be fixed:<ul>%1</ul>"
 msgstr "Cal corregir els errors següents:<ul>%1</ul>"
 
 #: server/activities/tens_complement_use/ActivityEditor.qml:17
-#, fuzzy
 msgctxt "ActivityEditor|"
 msgid ""
 "Do not add too many \"Extra cards\"! Each sublevel must not have more than 6 "
 "cards, and there are already 2 cards per addition."
 msgstr ""
-"No afiges massa \"targetes extres\"! Cada subnivell no ha de tindre més de 6 "
-"cartes, i ja hi ha 2 cartes per suma."
+"No afiges massa «Targetes extres»! Cada subnivell no ha de tindre més de 6 "
+"targetes, i ja hi ha 2 targetes per suma."
 
 #: server/activities/tens_complement_use/ActivityEditor.qml:19
 msgctxt "ActivityEditor|"
@@ -1616,7 +1601,6 @@ msgid "Sublevels"
 msgstr "Subnivells"
 
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:29
-#, fuzzy
 msgctxt "TensComplementUseEditor|"
 msgid "Additions per sublevel"
 msgstr "Addicions per subnivell"
@@ -1653,7 +1637,7 @@ msgid "Dataset is empty."
 msgstr "El conjunt de dades està buit."
 
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:169
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "TensComplementUseEditor|"
 msgid "Level %1 contains too many extra cards."
 msgstr "El nivell %1 conté massa targetes extres."
@@ -1677,13 +1661,13 @@ msgid "Addition %3 of Sublevel %2 of Level %1 is not correct."
 msgstr "La suma %3 del subnivell %2 del nivell %1 no és correcta."
 
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:204
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "TensComplementUseEditor|"
 msgid "Sublevel %2 of Level %1 contains invalid extra cards."
 msgstr "El subnivell %2 del nivell %1 conté targetes extres no vàlides."
 
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:212
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "TensComplementUseEditor|"
 msgid "Sublevel %2 of Level %1 contains too many extra cards."
 msgstr "El subnivell %2 del nivell %1 conté massa targetes extres."

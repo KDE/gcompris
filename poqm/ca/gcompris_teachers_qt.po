@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gcompris\n"
-"PO-Revision-Date: 2026-02-24 12:14+0100\n"
+"PO-Revision-Date: 2026-02-25 08:25+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 25.12.2\n"
+"X-Generator: Lokalize 25.04.0\n"
 "X-Qt-Contexts: true\n"
 
 #: server/activities/adjacent_numbers/ActivityEditor.qml:13
@@ -1046,13 +1046,6 @@ msgstr ""
 "«Resultat màxim per fila»."
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:37
-#, fuzzy
-#| msgctxt "MagicHatEditor|"
-#| msgid ""
-#| "Eath row of the second operand (the bottom one) will contain a number of "
-#| "stars generated in such a way that when added to the number of stars of "
-#| "the corresponding row of the first operand, the result will not be more "
-#| "than the \"Maximum result per row\" value."
 msgctxt "MagicHatEditor|"
 msgid ""
 "Each row of the second operand (the bottom one) will contain a number of "
@@ -1672,7 +1665,7 @@ msgid "Sublevel %2 of Level %1 contains invalid extra cards."
 msgstr "El subnivell %2 del nivell %1 conté targetes extres no vàlides."
 
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:212
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "TensComplementUseEditor|"
 msgid "Sublevel %2 of Level %1 contains too many extra cards."
 msgstr "El subnivell %2 del nivell %1 conté massa targetes extres."
