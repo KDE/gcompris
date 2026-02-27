@@ -1028,12 +1028,9 @@ msgid "Use coefficients"
 msgstr ""
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:53
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Maximum start number"
 msgctxt "MagicHatEditor|"
 msgid "Maximum result per row"
-msgstr "最大起始数字"
+msgstr ""
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:54
 msgctxt "MagicHatEditor|"
@@ -1041,20 +1038,14 @@ msgid "Use different star sets per row"
 msgstr ""
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:55
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Maximum start number"
 msgctxt "MagicHatEditor|"
 msgid "Maximum number of stars"
-msgstr "最大起始数字"
+msgstr ""
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:56
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Minimum start number"
 msgctxt "MagicHatEditor|"
 msgid "Minimum number of stars"
-msgstr "最小起始数字"
+msgstr ""
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:57
 msgctxt "MagicHatEditor|"
@@ -1067,9 +1058,6 @@ msgid "Row coefficients"
 msgstr ""
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:120
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Dataset is empty."
 msgctxt "MagicHatEditor|"
 msgid "Dataset is empty."
 msgstr "数据集为空。"
@@ -1285,26 +1273,17 @@ msgid ""
 msgstr ""
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:27
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Random start numbers"
 msgctxt "TensComplementFindEditor|"
 msgid "Random questions"
-msgstr "随机起始数字"
+msgstr ""
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:28
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Random start numbers"
 msgctxt "TensComplementFindEditor|"
 msgid "Find both numbers"
-msgstr "随机起始数字"
+msgstr ""
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:29
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:35
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Sublevels"
 msgctxt "TensComplementFindEditor|"
 msgid "Sublevels"
 msgstr "子级"
@@ -1321,20 +1300,14 @@ msgid "Extra cards"
 msgstr ""
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:32
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Minimum start number"
 msgctxt "TensComplementFindEditor|"
 msgid "Minimum first operand"
-msgstr "最小起始数字"
+msgstr ""
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:33
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Maximum start number"
 msgctxt "TensComplementFindEditor|"
 msgid "Maximum first operand"
-msgstr "最大起始数字"
+msgstr ""
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:34
 msgctxt "TensComplementFindEditor|"
@@ -1347,9 +1320,6 @@ msgid "First operands"
 msgstr ""
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:163
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Dataset is empty."
 msgctxt "TensComplementFindEditor|"
 msgid "Dataset is empty."
 msgstr "数据集为空。"
@@ -1454,9 +1424,6 @@ msgid "Extra operand"
 msgstr ""
 
 #: server/activities/tens_complement_swap/TensComplementSwapEditor.qml:144
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Dataset is empty."
 msgctxt "TensComplementSwapEditor|"
 msgid "Dataset is empty."
 msgstr "数据集为空。"
@@ -1496,12 +1463,9 @@ msgid ""
 msgstr ""
 
 #: server/activities/tens_complement_use/TensComplementUseDataDisplay.qml:36
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Proposed numbers"
 msgctxt "TensComplementUseDataDisplay|"
 msgid "Proposed numbers:"
-msgstr "提出的数字"
+msgstr ""
 
 #: server/activities/tens_complement_use/TensComplementUseDataDisplay.qml:71
 msgctxt "TensComplementUseDataDisplay|"
@@ -1514,18 +1478,12 @@ msgid "Answer:"
 msgstr ""
 
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:27
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Random start numbers"
 msgctxt "TensComplementUseEditor|"
 msgid "Random questions"
-msgstr "随机起始数字"
+msgstr ""
 
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:28
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:34
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Sublevels"
 msgctxt "TensComplementUseEditor|"
 msgid "Sublevels"
 msgstr "子级"
@@ -1562,9 +1520,6 @@ msgid "Additions"
 msgstr ""
 
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:156
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Dataset is empty."
 msgctxt "TensComplementUseEditor|"
 msgid "Dataset is empty."
 msgstr "数据集为空。"
