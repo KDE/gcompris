@@ -130,7 +130,7 @@ ActivityBase {
                 runCodeOrResetTux()
             if(event.key === Qt.Key_Tab)
                 areaWithKeyboardInput.tabKeyPressed()
-            if(event.key === Qt.Key_Delete && activeCodeAreaIndicator.top !== instructionArea.top) {
+            if(event.key === Qt.Key_Delete && areaWithKeyboardInput !== instructionArea) {
                 areaWithKeyboardInput.deleteKeyPressed()
             }
         }
