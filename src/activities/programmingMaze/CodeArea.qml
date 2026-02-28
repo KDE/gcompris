@@ -174,7 +174,6 @@ GridView {
             codeArea.currentIndex = -1
             codeArea.draggedItemIndex = codeArea.indexAt(mouseX,mouseY)
             if(codeArea.draggedItemIndex === -1) {
-                constraintInstruction.changeConstraintInstructionOpacity()
                 codeArea.isEditingInstruction = false
             }
             else if(!codeArea.isEditingInstruction)
