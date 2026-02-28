@@ -17,6 +17,10 @@ ActivityBase {
     onStart: focus = true
     onStop: {}
 
+     onActivityNextLevel: {
+         Activity.nextLevel()
+    }
+
     pageComponent: Image {
         id: activityBackground
         source: "qrc:/gcompris/src/activities/colors/resource/background.svg"

@@ -36,6 +36,10 @@ ActivityBase {
 
     property bool keyboardNavigationVisible: false
 
+     onActivityNextLevel: {
+         Activity.nextLevel()
+    }
+
     pageComponent: Image {
         id: activityBackground
         source: "qrc:/gcompris/src/activities/programmingMaze/resource/background-pm.svg"
@@ -62,6 +66,9 @@ ActivityBase {
             property Item main: activity.main
             property alias activityBackground: activityBackground
             property int currentLevel: activity.currentLevel
+            onCurrentLevelChanged: activity.currentLevel = currentLevel
+            property int numberOfLevel: 0
+            onNumberOfLevelChanged: activity.numberOfLevel = numberOfLevel
             property alias bonus: bonus
             property alias brickSound: brickSound
             readonly property var levels: activity.datasets
@@ -130,7 +137,7 @@ ActivityBase {
                 runCodeOrResetTux()
             if(event.key === Qt.Key_Tab)
                 areaWithKeyboardInput.tabKeyPressed()
-            if(event.key === Qt.Key_Delete && areaWithKeyboardInput !== instructionArea) {
+            if(event.key === Qt.Key_Delete && activeCodeAreaIndicator.top !== instructionArea.top) {
                 areaWithKeyboardInput.deleteKeyPressed()
             }
         }
@@ -659,7 +666,7 @@ ActivityBase {
         Bonus {
             id: bonus
             Component.onCompleted: {
-                win.connect(Activity.nextLevel)
+                win.connect(activity.nextLevel)
                 loose.connect(Activity.resetTuxPosition)
             }
         }

@@ -22,6 +22,10 @@ ActivityBase {
     onStart: focus = true
     onStop: {}
 
+     onActivityNextLevel: {
+         Activity.nextLevel()
+    }
+
     pageComponent: Image {
         id: activityBackground
         anchors.fill: parent

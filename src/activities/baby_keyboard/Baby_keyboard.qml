@@ -28,6 +28,10 @@ ActivityBase {
         }
     }
 
+     onActivityNextLevel: {
+         Activity.nextLevel()
+    }
+
     pageComponent: Image {
         id: activityBackground
         anchors.fill: parent

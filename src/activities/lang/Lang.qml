@@ -31,6 +31,10 @@ ActivityBase {
         }
     }
 
+     onActivityNextLevel: {
+         Activity.nextLevel()
+    }
+
     pageComponent: Rectangle {
         id: activityBackground
         color: "#85D8F6"

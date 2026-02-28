@@ -22,6 +22,10 @@ ActivityBase {
     onStop: {}
 
 
+     onActivityNextLevel: {
+         Activity.nextLevel()
+    }
+
     pageComponent: Rectangle {
         id: activityBackground
         anchors.fill: parent
