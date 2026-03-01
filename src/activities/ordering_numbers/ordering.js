@@ -84,6 +84,8 @@ function initLevel() {
 
     items.instruction.text = display_instruction;
     initGrids()
+    
+    items.client.startTiming(); // for server version
 }
 
 function initGrids() {
@@ -181,10 +183,14 @@ function checkOrder() {
 
     items.targetPlaceholder.colorResetRequired = true
 
-    if(success)
+    if(success) {
+        items.client.sendToServer(true);    
         items.bonus.good("lion")
-    else
+    }
+    else {
+        items.client.sendToServer(false);        
         items.bonus.bad("lion")
+    }
 }
 
 function moveFromTargetList(from_, to_, n_) {

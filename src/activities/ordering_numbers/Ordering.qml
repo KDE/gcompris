@@ -53,10 +53,37 @@ ActivityBase {
             property alias bonus: bonus
             property alias instruction: instructionPanel.textItem
             property alias targetPlaceholder: targetPlaceholder
+            property alias client: client            
         }
 
         onStart: { Activity.start(items, mode) }
         onStop: { Activity.stop() }
+        
+        
+        Client {    // Client for server version. Prepare data from activity to server
+            id: client
+            getDataCallback: function() {
+                var elementsOrderedStr = ""
+                for(var i = 0; i < items.targetListModel.count; ++i) {
+                    var elementsOrderedStr = elementsOrderedStr + " " + items.targetListModel.get(i);
+                }
+                var elementsBeforeOrderingStr
+                for(i = 0; i < items.originListModel.count; ++i) {
+                    var elementsBeforeOrderingStr = elementsBeforeOrderingStr + " " + items.originListModel.get(i);
+                }
+                var data = {
+                    "originalElementsOrder": elementsBeforeOrderingStr,
+                    "results": elementsOrderedStr
+                }           
+                return data
+            }
+        }
+
+        // getDataCallback: function() {
+     
+        //     return data
+        // }
+        
 
         GCTextPanel {
             id: instructionPanel
