@@ -486,6 +486,41 @@ Window {
         anchors.fill: parent
     }
 
+    property var activitiesWithoutDatasets: []
+    function resetActivitiesWithoutDatasets(showDialog) {
+        if(activitiesWithoutDatasets.length == 0) {
+            return;
+        }
+        var text = "<ul>";
+        for (var i = 0; i < activitiesWithoutDatasets.length; ++ i) {
+            text += "<li>" + activitiesWithoutDatasets[i].title + "</li>";
+            // Restore datasets
+            activitiesWithoutDatasets[i].resetLevels();
+        }
+        text += "</ul>";
+
+        if (showDialog) {
+            Core.showMessageDialog(main,
+            qsTr("The following activities do not have any active datasets! All of their datasets will be reactivated.") + "<br>" + text + "<br>",
+            "", null, "", null, function() { pageView.focus = true });
+        }
+        activitiesWithoutDatasets = [];
+    }
+
+    Connections {
+        id: connectionActivityInfoTree
+        target: activityInfoTree
+        function onActivitiesWithoutDatasets(activitiesWithoutActiveDatasets) {
+            main.activitiesWithoutDatasets = activitiesWithoutActiveDatasets;
+            // <= 1 because at start, we display it before the menu is loaded
+            // == 1 when we are in the menu and we want to directly display it
+            if (pageView.depth <= 1) {
+                // We only display the warning and reset the datasets if we are not starting a specific activity
+                resetActivitiesWithoutDatasets(ActivityInfoTree.startingActivity === "");
+            }
+        }
+    }
+
     Connections {
         id: connection
         target: clientNetworkMessages
@@ -842,6 +877,10 @@ Window {
             if (!exitItem.isDialog ||    // if coming from menu or
                 enterItem.alwaysStart) { // start signal enforced (for special case like transition from config-dialog to editor)
                     enterItem.start();
+            }
+
+            if (pageView.depth == 1 && activitiesWithoutDatasets.length != 0) {
+                resetActivitiesWithoutDatasets(true);
             }
         }
     }
