@@ -1,4 +1,10 @@
 GCompris on laadukas monitoimintoinen opetusohjelmisto 2–10-vuotiaille lapsille.
 Jotkin toiminnoista ovat pelimäisiä mutta silti opettavaisia.
 Alta löydät luettelot luokista sekä maininnan joistakin kuhunkin luokkaan kuuluvista toiminnoista.
+- tietokoneen oppiminen: näppäimistö, hiiri, eri hiirieleet jne.
+- aritmetiikka: kertotaulujen opettelu, laskutehtävät, peilikuvan piirtäminen, vaa’an tasapainottaminen, vaihtorahan antaminen jne.
+- tiede: kanavasulku, värien sekoitus, painovoiman käsite jne.
+- pelit: muisti, neljän suora, ristinolla, sudoku, Hanoin tornit jne.
+- lukeminen: lukemisen harjoittelu jne.
+- muuta: kellonajan kertominen, pistekirjoitus, sokkelo, soittimet jne.
 GComprisissa on nykyisellään yli sata toimintoa, ja lisää kehitetään. GCompris on vapaata ohjelmistoa, mikä tarkoittaa, että voit muokata sitä tarpeisiisi, parannella sitä ja mikä tärkeintä jakaa sitä lapsille kaikkialla.
