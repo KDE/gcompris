@@ -74,13 +74,13 @@ Don't forget to include this last date.
 Please respect the format of the date (YYYY-MM-DD),it is used by scripts.
 -->
 <date
->2024-09-20</date>
+>2026-02-04</date>
 
 <!--version information of the application and kde this documentation is valid for.
 for example 'xx.yy.zz'
 -->
 <releaseinfo
->4.2</releaseinfo>
+>26.0</releaseinfo>
 
 <!-- Abstract about this handbook -->
 
@@ -131,11 +131,11 @@ for example 'xx.yy.zz'
 <title
 >تثبيت</title>
 <para
->البرنامج متوفر للتحميل في أشكال مختلفة. اتبع التعليمات حسب حالتك. </para>
+>البرنامج متوفر للتحميل في أشكال مختلفة. اتبع التعليمات حسب حالتك.</para>
 <itemizedlist>
 <listitem
 ><para
->&GNU;/&Linux;: استعمل الحزم الخاصة بتوزيعة لنظام &GNU;/&Linux; . إن كان فهمت ليس له حزمة خاصة بتوزيعتك من  &Linux; , رجاءً اتصل بهم لطلب إدراج  فهمت في توزيعتك من &Linux;.</para
+>استخدم الحزم المخصصة لتوزيعة نظام جنو/لينكس. إذا لم تتوفر حزمة خاصة بتوزيعة لينكس التي تستخدمها، يُرجى الاتصال بهم لطلب إدراجها في التوزيعة.</para
 ></listitem>
 <listitem
 ><para
@@ -143,11 +143,11 @@ for example 'xx.yy.zz'
 ></listitem>
 <listitem
 ><para
->MacOSX: متوفرة حسب برنامج التثبيت العادي.</para
+>ماك أوس: متوفرة حسب برنامج التثبيت العادي.</para
 ></listitem>
 <listitem
 ><para
->أندرويد: متوفرة في متجر غوغل بلاي ومتجر F-Droid .ملف apk متوفر أيضا.</para
+>أندرويد: متوفرة في متجر غوغل بلاي ومتجر F-Droid .ملف APK متوفر أيضا.</para
 ></listitem>
 </itemizedlist>
 </sect1>
@@ -189,18 +189,18 @@ for example 'xx.yy.zz'
 ><para
 ><inlinemediaobject
 ><imageobject
-><imagedata fileref="difficulty1.svg" format="SVG"/></imageobject
+><imagedata fileref="difficulty1.png" format="PNG" width="2em" depth="2em" scalefit="1"/></imageobject
 ></inlinemediaobject
->نجمة واحدة أو نجمتان أو 3 نجوم صفراء - من عمر سنتين (2) إلى 6 سنوات.</para
+>نجمة واحدة أو نجمتان أو 3 نجوم صفراء — من عمر سنتين (2) إلى 6 سنوات.</para
 ></listitem
 > 
 <listitem
 ><para
 ><inlinemediaobject
 ><imageobject
-><imagedata fileref="difficulty4.svg" format="SVG"/></imageobject
+><imagedata fileref="difficulty4.png" format="PNG" width="2em" depth="2em" scalefit="1"/></imageobject
 ></inlinemediaobject
->نجمة واحدة أو نجمتان أو 3 نجوم حمراء -لعمر يبدأ من 6 سنوات.</para
+>نجمة واحدة أو نجمتان أو 3 نجوم حمراء —لعمر يبدأ من 6 سنوات.</para
 ></listitem
 > 
 </itemizedlist>
@@ -212,66 +212,66 @@ for example 'xx.yy.zz'
 ><para
 ><inlinemediaobject
 ><imageobject
-><imagedata fileref="bar_home.svg" format="SVG"/></imageobject
+><imagedata fileref="bar_home.png" format="PNG" width="5em" depth="5em" scalefit="1"/></imageobject
 ></inlinemediaobject
-> المنزل- ترك النشاط الحالي والعودة إلى القائمة السابقة.</para
+> المنزل— ترك النشاط الحالي والعودة إلى القائمة السابقة.</para
 ></listitem
 > 
 <listitem
 ><para
 ><inlinemediaobject
 ><imageobject
-><imagedata fileref="bar_ok.svg" format="SVG"/></imageobject
+><imagedata fileref="bar_ok.png" format="PNG" width="5em" depth="5em" scalefit="1"/></imageobject
 ></inlinemediaobject
-> "موافق" - التحقق من صحة الإجابة وتأكيدها. لا تكتشف بعض الأنشطة تلقائيًا ما إذا كان الطفل قد أكمل المهمة أم لا. لذا، عليك النقر على هذا الرمز. يمكنك أيضًا استخدام &Enter; على لوحة المفاتيح.</para
+> "موافق" — التحقق من صحة الإجابة وتأكيدها. لا تكتشف بعض الأنشطة تلقائيًا ما إذا كان الطفل قد أكمل المهمة أم لا. لذا، عليك النقر على هذا الرمز. يمكنك أيضًا استخدام &Enter; على لوحة المفاتيح.</para
 ></listitem
 > 
 <listitem
 ><para
 ><inlinemediaobject
 ><imageobject
-><imagedata fileref="bar_hint.svg" format="SVG"/></imageobject
+><imagedata fileref="bar_hint.png" format="PNG" width="5em" depth="5em" scalefit="1"/></imageobject
 ></inlinemediaobject
-> الضوء - عرض تلميح للنشاط. يمكننا مساعدة الأطفال في بعض الأنشطة للوصول إلى الإجابات.</para
+> الضوء — عرض تلميح للنشاط. يمكننا مساعدة الأطفال في بعض الأنشطة للوصول إلى الإجابات.</para
 ></listitem>
 <listitem
 ><para
 ><inlinemediaobject
 ><imageobject
-><imagedata fileref="bar_previous.svg" format="SVG"/></imageobject
+><imagedata fileref="bar_previous.png" format="PNG" width="2.5em" depth="5em" scalefit="1"/></imageobject
 ></inlinemediaobject>
 <inlinemediaobject
 ><imageobject
-><imagedata fileref="bar_next.svg" format="SVG"/></imageobject
+><imagedata fileref="bar_next.png" format="PNG" width="2.5em" depth="5em" scalefit="1"/></imageobject
 ></inlinemediaobject
-> الأسهم - المستوى الحالي معروض. انقر على الأسهم لتحديد مستوى آخر. عمومًا، للأنشطة مستويات عديدة على حسبها. في فهمت، يمكن الانتقال إلى المستوى التالي دون إكمال المستوى الحالي.</para
+> الأسهم — المستوى الحالي معروض. انقر على الأسهم لتحديد مستوى آخر. عمومًا، للأنشطة مستويات عديدة على حسبها. في فهمت، يمكن الانتقال إلى المستوى التالي دون إكمال المستوى الحالي.</para
 ></listitem
 > 
 <listitem
 ><para
 ><inlinemediaobject
 ><imageobject
-><imagedata fileref="bar_repeat.svg" format="SVG"/></imageobject
+><imagedata fileref="bar_repeat.png" format="PNG" width="5em" depth="5em" scalefit="1"/></imageobject
 ></inlinemediaobject
-> الشفاه - اطلب من فهمت تكرار السؤال.</para
+> الشفاه — اطلب من فهمت تكرار السؤال.</para
 ></listitem
 > 
 <listitem
 ><para
 ><inlinemediaobject
 ><imageobject
-><imagedata fileref="bar_help.svg" format="SVG"/></imageobject
+><imagedata fileref="bar_help.png" format="PNG" width="5em" depth="5em" scalefit="1"/></imageobject
 ></inlinemediaobject
-> علامة الاستفهام - عرض مربع حوار المساعدة. أحيانًا، قد يكون النشاط معقدًا فلا يكفي وصفه لشرح عمله. لذا  تتيح هذه الوظيفة معلومات إضافية.</para
+> علامة الاستفهام — عرض مربع حوار المساعدة. أحيانًا، قد يكون النشاط معقدًا فلا يكفي وصفه لشرح عمله. لذا  تتيح هذه الوظيفة معلومات إضافية.</para
 ></listitem
 > 
 <listitem
 ><para
 ><inlinemediaobject
 ><imageobject
-><imagedata fileref="bar_config.svg" format="SVG"/></imageobject
+><imagedata fileref="bar_config.png" format="PNG" width="5em" depth="5em" scalefit="1"/></imageobject
 ></inlinemediaobject
-> صندوق الأدوات - قائمة الإعدادات. تُحفظ الإعدادات في مستودع المستخدم (المجلد) تحت اسم <filename
+> صندوق الأدوات — قائمة الإعدادات. تُحفظ الإعدادات في مستودع المستخدم (المجلد) تحت اسم <filename
 >.config/gcompris/gcompris-qt.conf</filename
 >.  وهو ملف نصي يمكن تحريره يدويًا.</para
 ></listitem
@@ -280,26 +280,26 @@ for example 'xx.yy.zz'
 ><para
 ><inlinemediaobject
 ><imageobject
-><imagedata fileref="bar_activity_config.svg" format="SVG"/></imageobject
+><imagedata fileref="bar_activity_config.png" format="PNG" width="5em" depth="5em" scalefit="1"/></imageobject
 ></inlinemediaobject
-> عنصر القائمة - عرض قائمة إعدادات النشاط. هناك علامتا تبويب محتملتان هنا. الأولى، "مجموعة البيانات"، لاختيار  مستويات الأنشطة حسب الأهداف. والثانية، "الخيارات"، لتعديل إعدادات النشاط إن وُجدت. </para
+> عنصر القائمة — عرض قائمة إعدادات النشاط. هناك علامتا تبويب محتملتان هنا. الأولى، "مجموعة البيانات"، لاختيار  مستويات الأنشطة حسب الأهداف. والثانية، "الخيارات"، لتعديل إعدادات النشاط إن وُجدت.</para
 ></listitem>
 <listitem
 ><para
 ><inlinemediaobject
 ><imageobject
-><imagedata fileref="bar_about.svg" format="SVG"/></imageobject
+><imagedata fileref="bar_about.png" format="PNG" width="5em" depth="5em" scalefit="1"/></imageobject
 ></inlinemediaobject
-> حرف "G" - صندوق معلومات فهمت، عن المساهمين الرئيسيين وإصدار البرنامج.</para
+> حرف "G" — صندوق معلومات فهمت، عن المساهمين الرئيسيين وإصدار البرنامج.</para
 ></listitem
 > 
 <listitem
 ><para
 ><inlinemediaobject
 ><imageobject
-><imagedata fileref="bar_exit.svg" format="SVG"/></imageobject
+><imagedata fileref="bar_exit.png" format="PNG" width="5em" depth="5em" scalefit="1"/></imageobject
 ></inlinemediaobject
-> تشغيل- خروج فهمت. يمكنك استخدام اختصار على لوحة المفاتيح <keycombo action="simul"
+> تشغيل— خروج فهمت. يمكنك استخدام اختصار على لوحة المفاتيح <keycombo action="simul"
 >&Ctrl;<keycap
 >Q</keycap
 ></keycombo
@@ -334,7 +334,7 @@ for example 'xx.yy.zz'
 ><command
 >gcompris --disable-kioskmode</command
 ></userinput
-> : يُظهر زري <guiicon
+> :يُظهر زري <guiicon
 >الخروج</guiicon
 > و <guiicon
 >الإعدادات</guiicon
@@ -346,7 +346,7 @@ for example 'xx.yy.zz'
 ><command
 >gcompris -f</command
 ></userinput
-> :شغّل فهمت في وضع ملء الشّاشة</para
+>:شغّل فهمت في وضع ملء الشّاشة</para
 ></listitem
 > 
 <listitem
@@ -438,7 +438,7 @@ for example 'xx.yy.zz'
 <para
 >فهمت  متعدد اللغات به أكثر من 35 لغة.للتحقق من توفر لغتك، شغّل فهمت وابحث عن لغتك في الإعدادات.</para>
 <para
->انتبه، بعض اللغات تحتاج إلى خطوط معينة لتُعرض عرضًا صحيحًا. </para
+>انتبه، بعض اللغات تحتاج إلى خطوط معينة لتُعرض عرضًا صحيحًا.</para
 > 
 <para
 >إذا لم تكن لغتك مدعومة، ساهم معنا  في البرنامج وإضافة ترجمة لغتك. إذا كنت مهتمًا، اتصل بفريق الترجمة في مشروع كيدي للغتك. تحقّق من مستوى الترجمة للغتك على  <ulink url="https://l10n.kde.org/"
@@ -494,7 +494,7 @@ for example 'xx.yy.zz'
 
 <sect1 id="console-switches">
 <title
->مفاتيح الطرفية</title>
+>معاملات الطرفية</title>
 <para
 >تشغيل فهمت من سطر الأوامر بالخيار --help يعرض كل المعلمات المتاحة:</para>
 <informaltable>
@@ -586,15 +586,39 @@ for example 'xx.yy.zz'
 </row>
 <row>
 <entry
+>--show-home-button</entry>
+<entry
+>اعرض زر المنزل في الشريط (المبدئي).</entry>
+</row>
+<row>
+<entry
+>--hide-home-button</entry>
+<entry
+>أخفِ زر المنزل في الشريط.</entry>
+</row>
+<row>
+<entry
+>--renderer={renderer}</entry>
+<entry
+>حدد مُصيّر الرسوميات المراد استخدامه. يتوفر “opengl” والبرمجيات على جميع المنصات. أما في ويندوز، فيمكن استخدام “direct3d11” أو “direct3d12” (إذا صُرّف باستخدام كيو-تي ≥ 6.6). وفي نظام macOS، يمكن استخدام “metal”.</entry>
+</row>
+<row>
+<entry
 >--software-renderer</entry>
 <entry
->استخدم معالج عرض برمجي بدلًا من  أوبن جي ال (أبطأ ولكنه يعمل على أي بطاقة رسومية).</entry>
+>استخدم مُصيّر البرمجيات بدلاً من OpenGL (يُفترض أن يعمل مع أي بطاقة رسوميات). هذا الخيار مهجور، استخدم “--renderer=software” بدلاً منه.</entry>
 </row>
 <row>
 <entry
 >--opengl-renderer</entry>
 <entry
->استخدم عارض OpenGL بدلاً من البرنامج (أسرع ولكن من المحتمل أن يتعطل بناءً على بطاقتك الرسومية).</entry>
+>استخدم عارض OpenGL بدلاً من البرنامج (أسرع ولكن من المحتمل أن يتعطل بناءً على بطاقتك الرسومية). هذا الخيار مهجور، استخدم “--renderer=software” بدلاً منه.</entry>
+</row>
+<row>
+<entry
+>--locale=locale</entry>
+<entry
+>شغّل فهمت باللغة التي تحددها.</entry>
 </row>
 </tbody>
 </tgroup>
@@ -638,11 +662,11 @@ for example 'xx.yy.zz'
 <para
 >فهمت </para>
 <para
->حقوق البرنامج 2000-2024 Timothée Giet and others </para>
+>حقوق البرنامج © 2000–2025 Timothée Giet وآخرين </para>
 
 <para
-><email
->taha.zerrouki@gmail.com</email
+>الترجمة: زايد السعيدي <email
+>zayed.alsaidi@gmail.com</email
 ></para
 > &underFDL; &underGPL; </chapter>
 
