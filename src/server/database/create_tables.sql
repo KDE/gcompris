@@ -24,7 +24,7 @@ CREATE TABLE teacher_ (
 CREATE TABLE user_ (
 	user_id              INTEGER NOT NULL  PRIMARY KEY AUTOINCREMENT ,
 	user_name            TEXT NOT NULL    ,
-	user_password        TEXT NOT NULL    ,
+	user_password        TEXT ,
 	CONSTRAINT unq_user_name UNIQUE ( user_name )
  );
 
