@@ -528,7 +528,7 @@ Window {
         function onPasswordRejected() {
             Core.showMessageDialog(main,
                     qsTr("Password rejected by server %1").arg(connection.requestDeviceId),
-                    qsTr("OK"), null, "", null, null);
+                    qsTr("OK"), function() { pageView.focus = true }, "", null, null);
         }
     }
 
