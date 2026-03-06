@@ -85,7 +85,7 @@ Popup {
                 anchors.centerIn: parent
                 font.pixelSize: Style.textSize
                 color: Style.selectedPalette.text
-                text: qsTr("Format: name;groups;password\nExample:\nPatrick Dummy;group 1;1234\nPatricia Brown;group 1,group 2;4321\n")
+                text: qsTr("Format: name;groups;password\nExample:\nPatrick Dummy;group 1;%1\nPatricia Brown;group 1,group 2;%2\n").arg("apple-banana-cherries-lemon").arg("orange-pear-pineapple-plum")
             }
         }
 
