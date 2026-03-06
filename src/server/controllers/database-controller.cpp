@@ -478,7 +478,7 @@ namespace controllers {
         if (userAdded)
             userId = query.lastInsertId().toInt();
         else
-            triggerDBError(query.lastError(), tr("Pupil login <b>%1</b> already exists or password is empty.").arg(userName));
+            triggerDBError(query.lastError(), tr("Pupil login <b>%1</b> already exists.").arg(userName));
         return userId;
     }
 
