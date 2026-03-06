@@ -21718,8 +21718,6 @@ msgstr ""
 #. Board for the Peg solitaire game
 #: activities/peg_solitaire/peg_solitaire.js:44
 #, fuzzy
-#| msgctxt "board14_0|"
-#| msgid "French Polynesia"
 msgctxt "peg_solitaire|"
 msgid "French board"
 msgstr "Fransk Polynesia"

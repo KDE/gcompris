@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-02-21 17:47+0400\n"
+"PO-Revision-Date: 2026-03-05 10:38+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -6520,16 +6520,6 @@ msgstr "اكتشف الهوبوتروكود واستخدمها كأدوات رس
 
 #. Help manual
 #: activities/drawing_wheels/ActivityInfo.qml:27
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid ""
-#| "Make beautiful drawings by rolling the gear in the cogwheel with the "
-#| "chosen pen. Select a wheel size, a gear size, pen's settings and color "
-#| "from the popup panels, and press the play button to roll the gear. You "
-#| "can use the file menu to save your image, open a previously saved image, "
-#| "or create a new image with selected background color. Saving an image "
-#| "will save it in an SVG file (vector format), along with a PNG file (pixel "
-#| "format). Only the SVG file can be opened again from the activity."
 msgctxt "ActivityInfo|"
 msgid ""
 "Make beautiful drawings by rolling the gear in the cogwheel with the chosen "
@@ -6545,10 +6535,12 @@ msgid ""
 msgstr ""
 "ارسم رسومات جميلة عن طريق تدوير الترس في العجلة المسننة باستخدام القلم "
 "المختار. حدد حجم العجلة وحجم الترس وإعدادات القلم واللون من اللوحات "
-"المنبثقة، ثم اضغط على زر التشغيل لتدوير الترس. يمكنك استخدام قائمة الملفات "
-"لحفظ صورتك أو فتح صورة محفوظة مسبقًا أو إنشاء صورة جديدة بلون خلفية محدد. حفظ "
-"الصورة يحفظها في ملف SVG (تنسيق متجه) مع ملف PNG (تنسيق بكسل). لا يمكن فتح "
-"سوى ملف SVG مرة أخرى من النشاط."
+"المنبثقة، ثم اضغط على زر التشغيل لتدوير الترس. في المستوى الأول، تتوفر فقط "
+"بعض تركيبات محددة من أحجام العجلات والتروس للبدء. في المستوى الثاني، تتوفر "
+"جميع تركيبات الأحجام لتوفير مزيد من الحرية الإبداعية. يمكنك استخدام قائمة "
+"الملفات لحفظ صورتك، أو فتح صورة محفوظة مسبقًا، أو إنشاء صورة جديدة باللون "
+"الخلفي المحدد. سيؤدي حفظ الصورة إلى حفظها في ملف SVG (تنسيق متجه)، إلى جانب "
+"ملف PNG (تنسيق بكسل). لا يمكن فتح ملف SVG فقط مرة أخرى من النشاط."
 
 #: activities/drawing_wheels/ActivityInfo.qml:29
 #: activities/sketch/ActivityInfo.qml:28
@@ -21161,19 +21153,19 @@ msgstr "رسم المسار"
 #: activities/peg_solitaire/ActivityConfig.qml:27
 msgctxt "ActivityConfig|"
 msgid "Use the default starting hole"
-msgstr ""
+msgstr "استخدم الحفرة البداية المبدئية"
 
 #. Activity title
 #: activities/peg_solitaire/ActivityInfo.qml:14
 msgctxt "ActivityInfo|"
 msgid "Peg solitaire"
-msgstr ""
+msgstr "سوليتير"
 
 #. Help title
 #: activities/peg_solitaire/ActivityInfo.qml:16
 msgctxt "ActivityInfo|"
 msgid "Remove all the pieces in the correct order until only one remains."
-msgstr ""
+msgstr "أزل جميع القطع بالترتيب الصحيح حتى تبقى واحدة فقط."
 
 #. Help manual
 #: activities/peg_solitaire/ActivityInfo.qml:23
@@ -21188,36 +21180,37 @@ msgid ""
 "clicking on it. You can use the undo button to undo your last move, and the "
 "redo button to redo it."
 msgstr ""
+"لنقل قطعة، اجعلها تقفز فوق قطعة أخرى في اتجاه عمودي، إلى حفرة تبعد مسافة "
+"مربعين. تُزال القطعة التي قفزت عليها من اللوحة. يمكنك النقر على قطعة قابلة "
+"للحركة ثم على وجهتها، أو سحبها وإفلاتها في وجهتها. تنتهي اللعبة عندما لا "
+"يمكن تحريك أي قطعة أخرى، و تفوز إذا بقيت قطعة واحدة فقط. إذا لم يُحدد خيار "
+"استخدام الحفرة المبدئية الافتراضية، فستحتاج إلى اختيار القطعة الأولى التي "
+"تريد إزالتها عن طريق النقر عليها. يمكنك استخدام زر التراجع للتراجع عن آخر "
+"حركة قمت بها، وزر الإعادة لإعادتها."
 
 #. Board for the Peg solitaire game
 #: activities/peg_solitaire/peg_solitaire.js:28
 msgctxt "peg_solitaire|"
 msgid "English board"
-msgstr ""
+msgstr "لوحة الإنجليزية"
 
 #. Board for the Peg solitaire game
 #: activities/peg_solitaire/peg_solitaire.js:44
-#, fuzzy
-#| msgctxt "board14_0|"
-#| msgid "French Polynesia"
 msgctxt "peg_solitaire|"
 msgid "French board"
-msgstr "بولينيزيا الفرنسية"
+msgstr "لوحة الفرنسية"
 
 #. Board for the Peg solitaire game
 #: activities/peg_solitaire/peg_solitaire.js:61
 msgctxt "peg_solitaire|"
 msgid "32 holes diamond board"
-msgstr ""
+msgstr "لوحة ماسية ذات 32 فتحة"
 
 #. Board for the Peg solitaire game
 #: activities/peg_solitaire/peg_solitaire.js:79
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Numerical order"
 msgctxt "peg_solitaire|"
 msgid "Asymmetrical board"
-msgstr "ترتيب عددي"
+msgstr "ترتيب غير متناظر"
 
 #. Activity title
 #: activities/penalty/ActivityInfo.qml:15

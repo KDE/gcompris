@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-03-01 19:05+0200\n"
+"PO-Revision-Date: 2026-03-05 07:27+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -1037,6 +1037,7 @@ msgid ""
 "\"Maximum result per row\" must be larger than any value in \"Maximum number "
 "of stars\"."
 msgstr ""
+"\"„תוצאה מרבית לשורה” חייבת להיות גדולה מכל ערך תחת „כמות כוכבים מרבית”."
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:46
 msgctxt "MagicHatEditor|"
@@ -1116,6 +1117,8 @@ msgid ""
 "In Level %1, \"Maximum result per row\" must be larger than any value in "
 "\"Maximum number of stars\"."
 msgstr ""
+"ברמה %1, „תוצאה מרבית לשורה” חייבת להיות גדולה מכל ערך תחת „כמות כוכבים "
+"מרבית”."
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:213
 #, qt-format
@@ -1336,20 +1339,14 @@ msgid "Extra cards"
 msgstr "כרטיסים נוספים"
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:32
-#, fuzzy
-#| msgctxt "AlgebraEditor|"
-#| msgid "Minimum operand value"
 msgctxt "TensComplementFindEditor|"
 msgid "Minimum first operand"
-msgstr "ערך איבר מזערי"
+msgstr "איבר ראשון מזערי"
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:33
-#, fuzzy
-#| msgctxt "AlgebraEditor|"
-#| msgid "Maximum operand value"
 msgctxt "TensComplementFindEditor|"
 msgid "Maximum first operand"
-msgstr "ערך איבר מרבי"
+msgstr "איבר ראשון מרבי"
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:34
 msgctxt "TensComplementFindEditor|"
@@ -1370,7 +1367,7 @@ msgstr "סדרת הנתונים ריקה."
 #, qt-format
 msgctxt "TensComplementFindEditor|"
 msgid "Level %1 contains too many extra cards."
-msgstr ""
+msgstr "השלב %1 מכיל יותר מדי כרטיסים נוספים."
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:184
 #, qt-format
@@ -1505,20 +1502,17 @@ msgid ""
 "Do not add too many \"Extra cards\"! Each sublevel must not have more than 6 "
 "cards, and there are already 2 cards per addition."
 msgstr ""
+"לא להוסיף יותר מדי „כרטיסים נוספים”! בכלל תת־שלב חייבים להיות לא יותר מ־6 "
+"כרטיסים, וכבר יש 2 כרטיסים לחיבור."
 
 #: server/activities/tens_complement_use/ActivityEditor.qml:19
-#, fuzzy
-#| msgctxt "LearnDigitsEditor|"
-#| msgid ""
-#| "\"Additions\" must only contain additions which results are integer "
-#| "numbers between 0 and 9, and must not be empty."
 msgctxt "ActivityEditor|"
 msgid ""
 "In \"Additions\", each entry must be an addition which first number is "
 "between 1 and 9, and which result is between 11 and 99."
 msgstr ""
-"„חיבורים” חייבים להכיל רק חיבורים שהתוצאות שלהם הן מספרים שלמים וחיוביים בין "
-"0 ל־9, ואסור שיהיו ריקים."
+"ב„חיבורים”, כל רשומה חייבת להיות חיבור שהמספר הראשון שלו הוא בין 1 ל־9, "
+"והתוצאה שלו צריכה להיות בין 11 ל־99."
 
 #: server/activities/tens_complement_use/TensComplementUseDataDisplay.qml:36
 msgctxt "TensComplementUseDataDisplay|"
