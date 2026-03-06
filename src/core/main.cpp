@@ -39,6 +39,9 @@ int main(int argc, char *argv[])
     // Disable it because we already support HDPI display natively
     qunsetenv("QT_DEVICE_PIXEL_RATIO");
 
+    // Disable FFMPEG debug log
+    QLoggingCategory::setFilterRules(QStringLiteral("*.ffmpeg.*=false"));
+
 #if QT_VERSION >= QT_VERSION_CHECK(6, 9, 0)
     QGuiApplication app(argc, argv);
 #else
