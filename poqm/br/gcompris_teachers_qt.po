@@ -1276,103 +1276,103 @@ msgctxt "controllers::DatabaseController|"
 msgid "Table teacher_ could not be updated to current version."
 msgstr "N'eo ket bet adnevesaet taolenn ar c'helenner evit ar stumm o treiñ."
 
-#: server/controllers/database-controller.cpp:351
+#: server/controllers/database-controller.cpp:355
 msgctxt "controllers::DatabaseController|"
 msgid "Error creating teacher."
 msgstr "Fazi o krouiñ ar c'helenner."
 
-#: server/controllers/database-controller.cpp:373
+#: server/controllers/database-controller.cpp:377
 msgctxt "controllers::DatabaseController|"
 msgid "Wrong password."
 msgstr "Ger-tremen faos."
 
-#: server/controllers/database-controller.cpp:417
+#: server/controllers/database-controller.cpp:421
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "Group <b>%1</b> already exists."
 msgstr "Bez' ez eus dija eus ar strollad <b>%1</b>."
 
-#: server/controllers/database-controller.cpp:438
+#: server/controllers/database-controller.cpp:442
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "Group <b>%1</b> could not be updated to <b>%2</b>."
 msgstr "N'eo ket bet posupl hizivaat ar strollad <b>%1</b> da <b>%2</b>."
 
-#: server/controllers/database-controller.cpp:456
+#: server/controllers/database-controller.cpp:460
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "Group <b>%1</b> could not be deleted from table group_."
 msgstr "N'eo ket bet lamet ar strollad  <b>%1</b> eus taolenn ar strollad."
 
-#: server/controllers/database-controller.cpp:459
+#: server/controllers/database-controller.cpp:463
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "Group <b>%1</b> could not be deleted from table group_user_."
 msgstr "N'eo ket bet lamet ar strollad <b>%1</b> eus taolenn an implijer."
 
-#: server/controllers/database-controller.cpp:483
+#: server/controllers/database-controller.cpp:485
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "Pupil login <b>%1</b> already exists or password is empty."
 msgstr ""
 "Bez' ez eus dija eus login an implijer <b>%1</b> pe goullo eo ar ger-tremen."
 
-#: server/controllers/database-controller.cpp:502
+#: server/controllers/database-controller.cpp:504
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "<b>%1</b> could not be updated to <b>%2</b>."
 msgstr "N'eo ket bet posupl hizivaat <b>%1</b> da <b>%2</b>."
 
-#: server/controllers/database-controller.cpp:522
+#: server/controllers/database-controller.cpp:524
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "User <b>%1</b> could not be deleted from table user_."
 msgstr "N'eo ket lamet an implijer  <b>%1</b>  eus an taolenn an implijer."
 
-#: server/controllers/database-controller.cpp:527
+#: server/controllers/database-controller.cpp:529
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "User <b>%1</b> could not be deleted from table result_."
 msgstr "N'eo ket lamet an implijer  <b>%1</b>  eus taolenn an disoc'h."
 
-#: server/controllers/database-controller.cpp:542
+#: server/controllers/database-controller.cpp:544
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "User <b>%1</b> could not be deleted from table group_user_."
 msgstr ""
 "N'eo ket lamet an implijer  <b>%1</b>  eus an taolenn strollad an implijer."
 
-#: server/controllers/database-controller.cpp:557
+#: server/controllers/database-controller.cpp:559
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "User <b>%1</b> already exists in group <b>%2</b>."
 msgstr "Bez' ez eus dija deus an implijer <b>%1</b> er strollad <b>%2</b>."
 
-#: server/controllers/database-controller.cpp:572
+#: server/controllers/database-controller.cpp:574
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "User <b>%1</b> group <b>%2</b> couldn't be deleted."
 msgstr "N'eo ket bet lamet an implijer <b>%1</b> strollad <b>%2</b>."
 
-#: server/controllers/database-controller.cpp:607
+#: server/controllers/database-controller.cpp:609
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "Result could not be added for user <b>%1</b>"
 msgstr "Ne oa ket tu da ouzhpennañ an disoc'h evit an implijer <b>%1</b>"
 
-#: server/controllers/database-controller.cpp:619
+#: server/controllers/database-controller.cpp:621
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "Error inserting activity: %1"
 msgstr "Fazi oc'h enlakaat an obererezh : %1"
 
-#: server/controllers/database-controller.cpp:665
+#: server/controllers/database-controller.cpp:667
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "Dataset <b>%1</b> already exists."
 msgstr "Bez' ez eus eus an diaz roadennoù  <b>%1</b> dija."
 
-#: server/controllers/database-controller.cpp:682
+#: server/controllers/database-controller.cpp:684
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "Dataset <b>%1</b> could not be updated to <b>%2</b>."
@@ -1380,7 +1380,7 @@ msgstr ""
 "N'eo ket bet posupl hizivaat an diaes roadennoù eus ar stumm <b>%1</b> d'ar "
 "stumm <b>%2</b>."
 
-#: server/controllers/database-controller.cpp:697
+#: server/controllers/database-controller.cpp:699
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "Dataset <b>%1</b> couldn't be deleted."
