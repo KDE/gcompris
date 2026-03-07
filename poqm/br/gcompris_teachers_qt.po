@@ -1874,103 +1874,104 @@ msgctxt "controllers::DatabaseController|"
 msgid "Table teacher_ could not be updated to current version."
 msgstr "N'eo ket bet adnevesaet taolenn ar c'helenner evit ar stumm o treiñ."
 
-#: server/controllers/database-controller.cpp:347
+#: server/controllers/database-controller.cpp:351
 msgctxt "controllers::DatabaseController|"
 msgid "Error creating teacher."
 msgstr "Fazi o krouiñ ar c'helenner."
 
-#: server/controllers/database-controller.cpp:369
+#: server/controllers/database-controller.cpp:373
 msgctxt "controllers::DatabaseController|"
 msgid "Wrong password."
 msgstr "Ger-tremen faos."
 
-#: server/controllers/database-controller.cpp:413
+#: server/controllers/database-controller.cpp:417
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "Group <b>%1</b> already exists."
 msgstr "Bez' ez eus dija eus ar strollad <b>%1</b>."
 
-#: server/controllers/database-controller.cpp:434
+#: server/controllers/database-controller.cpp:438
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "Group <b>%1</b> could not be updated to <b>%2</b>."
 msgstr "N'eo ket bet posupl hizivaat ar strollad <b>%1</b> da <b>%2</b>."
 
-#: server/controllers/database-controller.cpp:452
+#: server/controllers/database-controller.cpp:456
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "Group <b>%1</b> could not be deleted from table group_."
 msgstr "N'eo ket bet lamet ar strollad  <b>%1</b> eus taolenn ar strollad."
 
-#: server/controllers/database-controller.cpp:455
+#: server/controllers/database-controller.cpp:459
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "Group <b>%1</b> could not be deleted from table group_user_."
 msgstr "N'eo ket bet lamet ar strollad <b>%1</b> eus taolenn an implijer."
 
-#: server/controllers/database-controller.cpp:479
-#, qt-format
+#: server/controllers/database-controller.cpp:481
+#, fuzzy, qt-format
+#| msgctxt "controllers::DatabaseController|"
+#| msgid "Group <b>%1</b> already exists."
 msgctxt "controllers::DatabaseController|"
-msgid "Pupil login <b>%1</b> already exists or password is empty."
-msgstr ""
-"Bez' ez eus dija eus login an implijer <b>%1</b> pe goullo eo ar ger-tremen."
+msgid "Pupil login <b>%1</b> already exists."
+msgstr "Bez' ez eus dija eus ar strollad <b>%1</b>."
 
-#: server/controllers/database-controller.cpp:498
+#: server/controllers/database-controller.cpp:500
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "<b>%1</b> could not be updated to <b>%2</b>."
 msgstr "N'eo ket bet posupl hizivaat <b>%1</b> da <b>%2</b>."
 
-#: server/controllers/database-controller.cpp:518
+#: server/controllers/database-controller.cpp:520
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "User <b>%1</b> could not be deleted from table user_."
 msgstr "N'eo ket lamet an implijer  <b>%1</b>  eus an taolenn an implijer."
 
-#: server/controllers/database-controller.cpp:523
+#: server/controllers/database-controller.cpp:525
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "User <b>%1</b> could not be deleted from table result_."
 msgstr "N'eo ket lamet an implijer  <b>%1</b>  eus taolenn an disoc'h."
 
-#: server/controllers/database-controller.cpp:538
+#: server/controllers/database-controller.cpp:540
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "User <b>%1</b> could not be deleted from table group_user_."
 msgstr ""
 "N'eo ket lamet an implijer  <b>%1</b>  eus an taolenn strollad an implijer."
 
-#: server/controllers/database-controller.cpp:553
+#: server/controllers/database-controller.cpp:555
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "User <b>%1</b> already exists in group <b>%2</b>."
 msgstr "Bez' ez eus dija deus an implijer <b>%1</b> er strollad <b>%2</b>."
 
-#: server/controllers/database-controller.cpp:568
+#: server/controllers/database-controller.cpp:570
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "User <b>%1</b> group <b>%2</b> couldn't be deleted."
 msgstr "N'eo ket bet lamet an implijer <b>%1</b> strollad <b>%2</b>."
 
-#: server/controllers/database-controller.cpp:603
+#: server/controllers/database-controller.cpp:605
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "Result could not be added for user <b>%1</b>"
 msgstr "Ne oa ket tu da ouzhpennañ an disoc'h evit an implijer <b>%1</b>"
 
-#: server/controllers/database-controller.cpp:615
+#: server/controllers/database-controller.cpp:617
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "Error inserting activity: %1"
 msgstr "Fazi oc'h enlakaat an obererezh : %1"
 
-#: server/controllers/database-controller.cpp:661
+#: server/controllers/database-controller.cpp:663
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "Dataset <b>%1</b> already exists."
 msgstr "Bez' ez eus eus an diaz roadennoù  <b>%1</b> dija."
 
-#: server/controllers/database-controller.cpp:678
+#: server/controllers/database-controller.cpp:680
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "Dataset <b>%1</b> could not be updated to <b>%2</b>."
@@ -1978,7 +1979,7 @@ msgstr ""
 "N'eo ket bet posupl hizivaat an diaes roadennoù eus ar stumm <b>%1</b> d'ar "
 "stumm <b>%2</b>."
 
-#: server/controllers/database-controller.cpp:693
+#: server/controllers/database-controller.cpp:695
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "Dataset <b>%1</b> couldn't be deleted."
@@ -2126,12 +2127,19 @@ msgid "Import pupils from CSV file"
 msgstr "Enporzhiañ skolidi diwar ur restr CSV"
 
 #: server/dialogs/ImportPupilsDialog.qml:88
+#, fuzzy, qt-format
+#| msgctxt "ImportPupilsDialog|"
+#| msgid ""
+#| "Format: name;groups;password\n"
+#| "Example:\n"
+#| "Patrick Dummy;group 1;1234\n"
+#| "Patricia Brown;group 1,group 2;4321\n"
 msgctxt "ImportPupilsDialog|"
 msgid ""
 "Format: name;groups;password\n"
 "Example:\n"
-"Patrick Dummy;group 1;1234\n"
-"Patricia Brown;group 1,group 2;4321\n"
+"Patrick Dummy;group 1;%1\n"
+"Patricia Brown;group 1,group 2;%2\n"
 msgstr ""
 "Patrom : anv ; strolladoù ; ger-tremen\n"
 "Skouer:\n"
@@ -2924,3 +2932,9 @@ msgstr "Skolidi kevreet"
 msgctxt "SettingsView|"
 msgid "Activities data received"
 msgstr "Data an obererezhioù resevet"
+
+#~ msgctxt "controllers::DatabaseController|"
+#~ msgid "Pupil login <b>%1</b> already exists or password is empty."
+#~ msgstr ""
+#~ "Bez' ez eus dija eus login an implijer <b>%1</b> pe goullo eo ar ger-"
+#~ "tremen."

@@ -1788,107 +1788,109 @@ msgctxt "controllers::DatabaseController|"
 msgid "Table teacher_ could not be updated to current version."
 msgstr "У поточній версії teacher_ таблиці не можна оновлювати."
 
-#: server/controllers/database-controller.cpp:347
+#: server/controllers/database-controller.cpp:351
 msgctxt "controllers::DatabaseController|"
 msgid "Error creating teacher."
 msgstr "Помилка під час спроби створити запис вчителя."
 
-#: server/controllers/database-controller.cpp:369
+#: server/controllers/database-controller.cpp:373
 msgctxt "controllers::DatabaseController|"
 msgid "Wrong password."
 msgstr "Помилковий пароль."
 
-#: server/controllers/database-controller.cpp:413
+#: server/controllers/database-controller.cpp:417
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "Group <b>%1</b> already exists."
 msgstr "Група з назвою <b>%1</b> вже існує."
 
-#: server/controllers/database-controller.cpp:434
+#: server/controllers/database-controller.cpp:438
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "Group <b>%1</b> could not be updated to <b>%2</b>."
 msgstr "Групу <b>%1</b> не вдалося оновити до <b>%2</b>."
 
-#: server/controllers/database-controller.cpp:452
+#: server/controllers/database-controller.cpp:456
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "Group <b>%1</b> could not be deleted from table group_."
 msgstr "Групу <b>%1</b> не вдалося вилучити з group_ таблиці."
 
-#: server/controllers/database-controller.cpp:455
+#: server/controllers/database-controller.cpp:459
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "Group <b>%1</b> could not be deleted from table group_user_."
 msgstr "Групу <b>%1</b> не вдалося вилучити з group_user_ таблиці."
 
-#: server/controllers/database-controller.cpp:479
-#, qt-format
+#: server/controllers/database-controller.cpp:481
+#, fuzzy, qt-format
+#| msgctxt "controllers::DatabaseController|"
+#| msgid "Group <b>%1</b> already exists."
 msgctxt "controllers::DatabaseController|"
-msgid "Pupil login <b>%1</b> already exists or password is empty."
-msgstr "Обліковий запис учня <b>%1</b> вже існує або пароль є порожнім."
+msgid "Pupil login <b>%1</b> already exists."
+msgstr "Група з назвою <b>%1</b> вже існує."
 
-#: server/controllers/database-controller.cpp:498
+#: server/controllers/database-controller.cpp:500
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "<b>%1</b> could not be updated to <b>%2</b>."
 msgstr "<b>%1</b> не вдалося оновити до <b>%2</b>."
 
-#: server/controllers/database-controller.cpp:518
+#: server/controllers/database-controller.cpp:520
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "User <b>%1</b> could not be deleted from table user_."
 msgstr "Запис користувача <b>%1</b> не вдалося вилучити з user_ таблиці."
 
-#: server/controllers/database-controller.cpp:523
+#: server/controllers/database-controller.cpp:525
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "User <b>%1</b> could not be deleted from table result_."
 msgstr "Запис користувача <b>%1</b> не вдалося вилучити з result_ таблиці."
 
-#: server/controllers/database-controller.cpp:538
+#: server/controllers/database-controller.cpp:540
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "User <b>%1</b> could not be deleted from table group_user_."
 msgstr "Запис користувача <b>%1</b> не вдалося вилучити з group_user_ таблиці."
 
-#: server/controllers/database-controller.cpp:553
+#: server/controllers/database-controller.cpp:555
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "User <b>%1</b> already exists in group <b>%2</b>."
 msgstr "Запис користувача <b>%1</b> вже існує у групі <b>%2</b>."
 
-#: server/controllers/database-controller.cpp:568
+#: server/controllers/database-controller.cpp:570
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "User <b>%1</b> group <b>%2</b> couldn't be deleted."
 msgstr "Не вдалося вилучити запис користувача <b>%1</b> групи <b>%2</b>."
 
-#: server/controllers/database-controller.cpp:603
+#: server/controllers/database-controller.cpp:605
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "Result could not be added for user <b>%1</b>"
 msgstr "Не вдалося додати результат для користувача <b>%1</b>"
 
-#: server/controllers/database-controller.cpp:615
+#: server/controllers/database-controller.cpp:617
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "Error inserting activity: %1"
 msgstr "Помилка під час спроби вставити вправу: %1"
 
-#: server/controllers/database-controller.cpp:661
+#: server/controllers/database-controller.cpp:663
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "Dataset <b>%1</b> already exists."
 msgstr "Набір даних <b>%1</b> вже існує."
 
-#: server/controllers/database-controller.cpp:678
+#: server/controllers/database-controller.cpp:680
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "Dataset <b>%1</b> could not be updated to <b>%2</b>."
 msgstr "Набір даних <b>%1</b> не вдалося оновити до <b>%2</b>."
 
-#: server/controllers/database-controller.cpp:693
+#: server/controllers/database-controller.cpp:695
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "Dataset <b>%1</b> couldn't be deleted."
@@ -2036,12 +2038,19 @@ msgid "Import pupils from CSV file"
 msgstr "Імпортувати записи учнів з файла CSV"
 
 #: server/dialogs/ImportPupilsDialog.qml:88
+#, fuzzy, qt-format
+#| msgctxt "ImportPupilsDialog|"
+#| msgid ""
+#| "Format: name;groups;password\n"
+#| "Example:\n"
+#| "Patrick Dummy;group 1;1234\n"
+#| "Patricia Brown;group 1,group 2;4321\n"
 msgctxt "ImportPupilsDialog|"
 msgid ""
 "Format: name;groups;password\n"
 "Example:\n"
-"Patrick Dummy;group 1;1234\n"
-"Patricia Brown;group 1,group 2;4321\n"
+"Patrick Dummy;group 1;%1\n"
+"Patricia Brown;group 1,group 2;%2\n"
 msgstr ""
 "Формат: ім'я;групи;пароль\n"
 "Приклад:\n"
@@ -2817,6 +2826,10 @@ msgstr "Учні у системі"
 msgctxt "SettingsView|"
 msgid "Activities data received"
 msgstr "Отримано даних вправ"
+
+#~ msgctxt "controllers::DatabaseController|"
+#~ msgid "Pupil login <b>%1</b> already exists or password is empty."
+#~ msgstr "Обліковий запис учня <b>%1</b> вже існує або пароль є порожнім."
 
 #~ msgctxt "NavigationPanel|"
 #~ msgid "Development (WIP)"
