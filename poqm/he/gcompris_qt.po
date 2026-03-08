@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GCompris\n"
 "POT-Creation-Date: 2019-09-04 13:03+0000\n"
-"PO-Revision-Date: 2026-03-05 07:25+0200\n"
+"PO-Revision-Date: 2026-03-07 08:11+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -6494,16 +6494,6 @@ msgstr "להיחשף להיפוטרוכואידים ולהשתמש בהם ככל
 
 #. Help manual
 #: activities/drawing_wheels/ActivityInfo.qml:27
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid ""
-#| "Make beautiful drawings by rolling the gear in the cogwheel with the "
-#| "chosen pen. Select a wheel size, a gear size, pen's settings and color "
-#| "from the popup panels, and press the play button to roll the gear. You "
-#| "can use the file menu to save your image, open a previously saved image, "
-#| "or create a new image with selected background color. Saving an image "
-#| "will save it in an SVG file (vector format), along with a PNG file (pixel "
-#| "format). Only the SVG file can be opened again from the activity."
 msgctxt "ActivityInfo|"
 msgid ""
 "Make beautiful drawings by rolling the gear in the cogwheel with the chosen "
@@ -6518,11 +6508,13 @@ msgid ""
 "opened again from the activity."
 msgstr ""
 "יצירת ציורים מהממים על ידי סיבוב גלגל השיניים עם העט הנבחר. אפשר לבחור גודל "
-"גלגל, הגדרות עט וצבע מהלוחות הצצים וללחוץ על כפתור ההפעלה כדי לסובב את גלגל "
-"השיניים. אפשר להשתמש בתפריט הקובץ כדי לשמור את התמונה שלך, לפתוח תמונה "
+"גלגל, הגדרות גלגל שינויים, הגדרות עט וצבע מהלוחות הצצים וללחוץ על כפתור "
+"ההפעלה כדי לסובב את גלגל השיניים. ברמה הראשונה, יש רק צירופים מסוימים של "
+"גודל גלגל ופסיעה זמינים להתחלה. בשלב השני, כל הצירופים זמינים כדי לספק יותר "
+"חופש אומנותי. אפשר להשתמש בתפריט הקובץ כדי לשמור את התמונה שלך, לפתוח תמונה "
 "שנשמרה בעבר או ליצור תמונה חדשה עם צבע רקע מסוים. השמירה תשמור את התמונה "
-"בתסדיר SVG (תבנית וקטורית), לצד קובץ PNG (תבנית עם פיקסלים). אפשר לפתוח רק "
-"את קובץ ה־SVG שוב מתו הפעילות."
+"בתסדיר SVG (תבנית וקטורית), לצד קובץ PNG (תבנית עם פיקסלים). רק את קובץ ה־"
+"SVG אפשר לפתוח שוב מאותה הפעילות."
 
 #: activities/drawing_wheels/ActivityInfo.qml:29
 #: activities/sketch/ActivityInfo.qml:28
@@ -21169,7 +21161,7 @@ msgstr "להשתמש בחור הפתיחה כברירת מחדל"
 #: activities/peg_solitaire/ActivityInfo.qml:14
 msgctxt "ActivityInfo|"
 msgid "Peg solitaire"
-msgstr ""
+msgstr "מחשבת"
 
 #. Help title
 #: activities/peg_solitaire/ActivityInfo.qml:16
@@ -21190,6 +21182,12 @@ msgid ""
 "clicking on it. You can use the undo button to undo your last move, and the "
 "redo button to redo it."
 msgstr ""
+"כדי להעביר חלק, צריך לגרום לו לקפוץ מעל חלק אחר בכיוון אנכי, לגומה שנמצאת "
+"במרחק שני צעדים. החלק שמעליו קפץ החלק השני יורד מהלוח. אפשר ללוח על חלק נייד "
+"ואז על היעד שלו או לגרור ליעד. המשחק נגמר כשאין עוד חלקים שאפשר להזיז "
+"וניצחון הוא כשנשאר רק חלק אחד. אם לא נבחרה האפשרות להשתמש בגומת ברירת המחדל "
+"ההתחלתית, צריך לבחור את החלק הראשון להסרה בלחיצה עליו. אפשר להשתמש בכפתור "
+"ההסגה כדי לבטל את המהלך האחרון שלך, ביצוע חוזר יבצע אותו שוב."
 
 #. Board for the Peg solitaire game
 #: activities/peg_solitaire/peg_solitaire.js:28

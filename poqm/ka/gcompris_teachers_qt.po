@@ -1822,12 +1822,10 @@ msgid "Group <b>%1</b> could not be deleted from table group_user_."
 msgstr "ჯგუფის <b>%1</b> წაშლა შეუძლებელია ცხრილიდან group_user_."
 
 #: server/controllers/database-controller.cpp:481
-#, fuzzy, qt-format
-#| msgctxt "controllers::DatabaseController|"
-#| msgid "Group <b>%1</b> already exists."
+#, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "Pupil login <b>%1</b> already exists."
-msgstr "ჯგუფი <b>%1</b> უკვე არსებობს."
+msgstr "მოსწავლის მომხმარებელი <b>%1</b> უკვე არსებობს."
 
 #: server/controllers/database-controller.cpp:500
 #, qt-format
@@ -2038,13 +2036,7 @@ msgid "Import pupils from CSV file"
 msgstr "მოსწავლეების შემოტანა CSV ფაილიდან"
 
 #: server/dialogs/ImportPupilsDialog.qml:88
-#, fuzzy, qt-format
-#| msgctxt "ImportPupilsDialog|"
-#| msgid ""
-#| "Format: name;groups;password\n"
-#| "Example:\n"
-#| "Patrick Dummy;group 1;1234\n"
-#| "Patricia Brown;group 1,group 2;4321\n"
+#, qt-format
 msgctxt "ImportPupilsDialog|"
 msgid ""
 "Format: name;groups;password\n"
@@ -2054,8 +2046,8 @@ msgid ""
 msgstr ""
 "ფორმატი: სახელი;ჯგუფები;პაროლი\n"
 "მაგალითად:\n"
-"Patrick Dummy;group 1;1234\n"
-"Patricia Brown;group 1,group 2;4321\n"
+"Patrick Dummy;group 1;%1\n"
+"Patricia Brown;group 1,group 2;%2\n"
 
 #: server/dialogs/ImportPupilsDialog.qml:94
 msgctxt "ImportPupilsDialog|"

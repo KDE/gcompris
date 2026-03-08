@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-02-25 20:22+0200\n"
+"PO-Revision-Date: 2026-03-07 11:14+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -1823,12 +1823,10 @@ msgid "Group <b>%1</b> could not be deleted from table group_user_."
 msgstr "Групу <b>%1</b> не вдалося вилучити з group_user_ таблиці."
 
 #: server/controllers/database-controller.cpp:481
-#, fuzzy, qt-format
-#| msgctxt "controllers::DatabaseController|"
-#| msgid "Group <b>%1</b> already exists."
+#, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "Pupil login <b>%1</b> already exists."
-msgstr "Група з назвою <b>%1</b> вже існує."
+msgstr "Обліковий запис учня <b>%1</b> вже існує."
 
 #: server/controllers/database-controller.cpp:500
 #, qt-format
@@ -2038,13 +2036,7 @@ msgid "Import pupils from CSV file"
 msgstr "Імпортувати записи учнів з файла CSV"
 
 #: server/dialogs/ImportPupilsDialog.qml:88
-#, fuzzy, qt-format
-#| msgctxt "ImportPupilsDialog|"
-#| msgid ""
-#| "Format: name;groups;password\n"
-#| "Example:\n"
-#| "Patrick Dummy;group 1;1234\n"
-#| "Patricia Brown;group 1,group 2;4321\n"
+#, qt-format
 msgctxt "ImportPupilsDialog|"
 msgid ""
 "Format: name;groups;password\n"
@@ -2054,8 +2046,8 @@ msgid ""
 msgstr ""
 "Формат: ім'я;групи;пароль\n"
 "Приклад:\n"
-"Patrick Dummy;group 1;1234\n"
-"Patricia Brown;group 1,group 2;4321\n"
+"Patrick Dummy;group 1;%1\n"
+"Patricia Brown;group 1,group 2;%2\n"
 
 #: server/dialogs/ImportPupilsDialog.qml:94
 msgctxt "ImportPupilsDialog|"

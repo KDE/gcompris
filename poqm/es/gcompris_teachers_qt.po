@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gcompris_teachers_qt\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-12-23 00:32+0100\n"
-"PO-Revision-Date: 2026-02-26 00:28+0100\n"
+"PO-Revision-Date: 2026-03-07 10:55+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -1837,12 +1837,10 @@ msgid "Group <b>%1</b> could not be deleted from table group_user_."
 msgstr "No se ha podido borrar el grupo <b>%1</b> de la tabla «group_user_»."
 
 #: server/controllers/database-controller.cpp:481
-#, fuzzy, qt-format
-#| msgctxt "controllers::DatabaseController|"
-#| msgid "Group <b>%1</b> already exists."
+#, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "Pupil login <b>%1</b> already exists."
-msgstr "El grupo <b>%1</b> ya existe."
+msgstr "El inicio de sesión del alumno <b>%1</b> ya existe."
 
 #: server/controllers/database-controller.cpp:500
 #, qt-format
@@ -2052,13 +2050,7 @@ msgid "Import pupils from CSV file"
 msgstr "Importar alumnos de archivo CSV"
 
 #: server/dialogs/ImportPupilsDialog.qml:88
-#, fuzzy, qt-format
-#| msgctxt "ImportPupilsDialog|"
-#| msgid ""
-#| "Format: name;groups;password\n"
-#| "Example:\n"
-#| "Patrick Dummy;group 1;1234\n"
-#| "Patricia Brown;group 1,group 2;4321\n"
+#, qt-format
 msgctxt "ImportPupilsDialog|"
 msgid ""
 "Format: name;groups;password\n"
@@ -2068,8 +2060,8 @@ msgid ""
 msgstr ""
 "Formato: nombre;grupos;contraseña\n"
 "Ejemplo:\n"
-"Patricio Rubio;grupo 1;1234\n"
-"Patricia Moreno;grupo 1,grupo 2;4321\n"
+"Patricio Rubio;grupo 1;%1\n"
+"Patricia Moreno;grupo 1,grupo 2;%2\n"
 
 #: server/dialogs/ImportPupilsDialog.qml:94
 msgctxt "ImportPupilsDialog|"
@@ -2846,9 +2838,3 @@ msgstr "Alumnos con sesión iniciada"
 msgctxt "SettingsView|"
 msgid "Activities data received"
 msgstr "Datos de actividades recibidos"
-
-#~ msgctxt "controllers::DatabaseController|"
-#~ msgid "Pupil login <b>%1</b> already exists or password is empty."
-#~ msgstr ""
-#~ "El inicio de sesión del alumno <b>%1</b> ya existe o la contraseña está "
-#~ "en blanco."
