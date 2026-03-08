@@ -2142,7 +2142,7 @@ msgstr "我的第一款文字处理器"
 #: activities/baby_wordprocessor/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Write your first texts."
-msgstr "写下您的第一篇文字内容。"
+msgstr "写下您的第一篇文本内容。"
 
 #. Help goal
 #: activities/baby_wordprocessor/ActivityInfo.qml:20

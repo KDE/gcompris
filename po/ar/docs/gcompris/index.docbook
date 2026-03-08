@@ -9,7 +9,7 @@
 ><!-- replace kmyapplication here
                                             do *not* replace kappname-->
   <!ENTITY % addindex "IGNORE">
-  <!ENTITY % English "INCLUDE"
+  <!ENTITY % Arabic "INCLUDE"
 > <!-- ONLY If you are writing non-English
                                      original documentation, change
                                      the language here -->
@@ -74,13 +74,13 @@ Don't forget to include this last date.
 Please respect the format of the date (YYYY-MM-DD),it is used by scripts.
 -->
 <date
->2026-02-04</date>
+>2026-03-11</date>
 
 <!--version information of the application and kde this documentation is valid for.
 for example 'xx.yy.zz'
 -->
 <releaseinfo
->26.0</releaseinfo>
+>26.1</releaseinfo>
 
 <!-- Abstract about this handbook -->
 
