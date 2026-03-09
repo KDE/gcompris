@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GCompris\n"
 "POT-Creation-Date: 2018-11-30 13:03+0000\n"
-"PO-Revision-Date: 2026-02-01 14:53+0100\n"
+"PO-Revision-Date: 2026-03-08 08:49+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 25.12.1\n"
+"X-Generator: Lokalize 25.12.3\n"
 "X-Qt-Contexts: true\n"
 
 #: activities/adjacent_numbers/ActivityConfig.qml:19
@@ -21758,7 +21758,7 @@ msgstr "Ibilbidea erlatiboa kodetzea"
 #: activities/penalty/ActivityInfo.qml:15
 msgctxt "ActivityInfo|"
 msgid "Penalty kick"
-msgstr "Penalti jaurtiketa"
+msgstr "Zigor jaurtiketa"
 
 #. Help title
 #: activities/penalty/ActivityInfo.qml:17
