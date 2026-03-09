@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GCompris\n"
 "POT-Creation-Date: 2018-11-30 13:03+0000\n"
-"PO-Revision-Date: 2026-02-01 14:53+0100\n"
+"PO-Revision-Date: 2026-03-08 09:09+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 25.12.1\n"
+"X-Generator: Lokalize 25.12.3\n"
 "X-Qt-Contexts: true\n"
 
 #: activities/adjacent_numbers/ActivityConfig.qml:19
@@ -6721,16 +6721,6 @@ msgstr ""
 
 #. Help manual
 #: activities/drawing_wheels/ActivityInfo.qml:27
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid ""
-#| "Make beautiful drawings by rolling the gear in the cogwheel with the "
-#| "chosen pen. Select a wheel size, a gear size, pen's settings and color "
-#| "from the popup panels, and press the play button to roll the gear. You "
-#| "can use the file menu to save your image, open a previously saved image, "
-#| "or create a new image with selected background color. Saving an image "
-#| "will save it in an SVG file (vector format), along with a PNG file (pixel "
-#| "format). Only the SVG file can be opened again from the activity."
 msgctxt "ActivityInfo|"
 msgid ""
 "Make beautiful drawings by rolling the gear in the cogwheel with the chosen "
@@ -6745,9 +6735,12 @@ msgid ""
 "opened again from the activity."
 msgstr ""
 "Marrazki ederrak egin hortz dun gurpileko engranajea hautatutako "
-"arkatzarekin biratuz. Hautatu gurpil-neurria, engranaje-neurria, arkatzaren "
-"ezarpenak eta kolorea panel gainerakorretatik, eta sakatu jo botoia "
-"engranajea birarazteko. Fitxategia menua erabil dezakezu zure irudia "
+"arkatzarekin biratuz. Hautatu gurpilaren neurria, engranajearen neurria, "
+"arkatzaren ezarpenak eta kolorea panel gainerakorretatik, eta sakatu jo "
+"botoia engranajea birarazteko. Lehenengo mailan, hastapenerako gurpil eta "
+"engranaje neurri konbinazio zehatz batzuk bakarrik daude erabilgarri. "
+"Bigarren mailan, sorkuntza askatasun gehiago emateko, neurri konbinazio "
+"guztiak erabilgarri daude. Fitxategia menua erabil dezakezu zure irudia "
 "gordetzeko, aurrez gordetako irudi bat irekitzeko, edo  hautatutako atzeko "
 "planoko kolorearekin irudi berri bat sortzeko. Irudi bat gordetzean SVG "
 "fitxategi (bektore formatua) batean egingo du, PNG fitxategi (pixel "
@@ -18004,12 +17997,10 @@ msgid "Calculate remaining stars up to 10000 with coefficients."
 msgstr "Kalkulatu gelditzen diren izarrak, 10000 arte koefizienteekin."
 
 #: activities/magic-hat-minus/resource/9/Data.qml:13
-#, fuzzy
-#| msgctxt "Data|"
-#| msgid "Calculate remaining stars up to 100 with coefficients."
 msgctxt "Data|"
 msgid "Calculate remaining stars up to 10, with 2 or 3 different star sets."
-msgstr "Kalkulatu gelditzen diren izarrak, 100 arte koefizienteekin."
+msgstr ""
+"Kalkulatu gelditzen diren izarrak, 10 arte, 2 edo 3 izar multzo ezberdinekin."
 
 #. text displaying coefficient with which the set of stars is to be multiplied along with multiplication symbol.
 #: activities/magic-hat-minus/StarsBar.qml:36
@@ -18100,12 +18091,9 @@ msgid "Add stars up to 10000 with coefficients."
 msgstr "Gehitu izarrak, 10000 arte koefizienteekin."
 
 #: activities/magic-hat-plus/resource/9/Data.qml:13
-#, fuzzy
-#| msgctxt "Data|"
-#| msgid "Add stars up to 100 with coefficients."
 msgctxt "Data|"
 msgid "Add stars up to 10, with 2 or 3 different star sets."
-msgstr "Gehitu izarrak, 100 arte koefizienteekin."
+msgstr "Gehitu izarrak, 10 arte, 2 edo 3 izar multzo ezberdinekin."
 
 #. Activity title
 #: activities/maze/ActivityInfo.qml:15
@@ -19952,17 +19940,14 @@ msgstr ""
 "erabiltzailerako sartutako pasahitza okerra da."
 
 #: activities/menu/Menu.qml:213
-#, fuzzy, qt-format
-#| msgctxt "Menu|"
-#| msgid ""
-#| "GCompris is connected to teacher's server, and the user is authenticated."
+#, qt-format
 msgctxt "Menu|"
 msgid ""
 "GCompris is connected to teacher's server, and the user is authenticated as "
 "%1."
 msgstr ""
 "GCompris irakaslearen zerbitzarira konektatuta dago, eta erabiltzailea "
-"autentifikatuta dago."
+"%1gisa egiaztatuta dago."
 
 #: activities/menu/Menu.qml:214
 msgctxt "Menu|"
@@ -21792,19 +21777,19 @@ msgstr "Ibilbidea erlatiboa kodetzea"
 #: activities/peg_solitaire/ActivityConfig.qml:27
 msgctxt "ActivityConfig|"
 msgid "Use the default starting hole"
-msgstr ""
+msgstr "Erabili hasierako zulo lehenetsia"
 
 #. Activity title
 #: activities/peg_solitaire/ActivityInfo.qml:14
 msgctxt "ActivityInfo|"
 msgid "Peg solitaire"
-msgstr ""
+msgstr "Bakarkako pieza-jokoa"
 
 #. Help title
 #: activities/peg_solitaire/ActivityInfo.qml:16
 msgctxt "ActivityInfo|"
 msgid "Remove all the pieces in the correct order until only one remains."
-msgstr ""
+msgstr "Kendu pieza guztiak ordena egokian bakarra geratu arte."
 
 #. Help manual
 #: activities/peg_solitaire/ActivityInfo.qml:23
@@ -21819,42 +21804,45 @@ msgid ""
 "clicking on it. You can use the undo button to undo your last move, and the "
 "redo button to redo it."
 msgstr ""
+"Pieza bat mugitzeko, beste pieza baten gainetik salto egin behar du norabide "
+"ortogonalean, bi posiziotara dagoen zulo batera. Gainetik salto egindako "
+"pieza taulatik kentzen da. Mugi daitekeen pieza batean klik egin eta ondoren "
+"haren helmugan klik egin dezakezu, edo arrastatu eta hara jaregin. Mugi "
+"daitekeen piezarik ez dagoenean jokoa bukatzen da, eta pieza bakarra "
+"geratzen bada irabazten da. Hasierako zulo lehenetsia erabiltzeko aukera "
+"hautatuta ez badago, kendu beharreko lehen pieza haren gainean klik eginez "
+"aukeratu behar duzu. Azken mugimendua desegiteko desegin botoia erabil "
+"dezakezu, eta berregin botoia berriro egiteko."
 
 #. Board for the Peg solitaire game
 #: activities/peg_solitaire/peg_solitaire.js:28
 msgctxt "peg_solitaire|"
 msgid "English board"
-msgstr ""
+msgstr "Taula ingelesa"
 
 #. Board for the Peg solitaire game
 #: activities/peg_solitaire/peg_solitaire.js:44
-#, fuzzy
-#| msgctxt "board14_0|"
-#| msgid "French Polynesia"
 msgctxt "peg_solitaire|"
 msgid "French board"
-msgstr "Polinesia Frantsesa"
+msgstr "Taula frantsesa"
 
 #. Board for the Peg solitaire game
 #: activities/peg_solitaire/peg_solitaire.js:61
 msgctxt "peg_solitaire|"
 msgid "32 holes diamond board"
-msgstr ""
+msgstr "32 zuloko diamante-taula"
 
 #. Board for the Peg solitaire game
 #: activities/peg_solitaire/peg_solitaire.js:79
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Numerical order"
 msgctxt "peg_solitaire|"
 msgid "Asymmetrical board"
-msgstr "Zenbaki-hurrenkera"
+msgstr "Taula asimetrikoa"
 
 #. Activity title
 #: activities/penalty/ActivityInfo.qml:15
 msgctxt "ActivityInfo|"
 msgid "Penalty kick"
-msgstr "Penalti jaurtiketa"
+msgstr "Zigor jaurtiketa"
 
 #. Help title
 #: activities/penalty/ActivityInfo.qml:17

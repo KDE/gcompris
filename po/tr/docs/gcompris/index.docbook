@@ -74,13 +74,13 @@ Don't forget to include this last date.
 Please respect the format of the date (YYYY-MM-DD),it is used by scripts.
 -->
 <date
->2026‒02‒04</date>
+>2026‒03‒11</date>
 
 <!--version information of the application and kde this documentation is valid for.
 for example 'xx.yy.zz'
 -->
 <releaseinfo
->26.0</releaseinfo>
+>26.1</releaseinfo>
 
 <!-- Abstract about this handbook -->
 
@@ -436,7 +436,7 @@ for example 'xx.yy.zz'
 <title
 >Uluslararasılaştırma hakkında</title>
 <para
->&gcompris; uluslararasılaştırılmıştır ve 35’ten fazla dilde kullanılabilir. Dilinizin var olup olmadığını denetleek istiyorsanız &gcompris;’i başlatabilir ve yapılandırma seçeneğinden bakabilirsiniz.</para>
+>&gcompris; uluslararasılaştırılmıştır ve 35’ten fazla dilde kullanılabilir. Dilinizin var olup olmadığını denetlemek istiyorsanız &gcompris;’i başlatabilir ve yapılandırma seçeneğinden bakabilirsiniz.</para>
 <para
 >Dikkatli olun; bazı diller düzgünce görüntülenebilmek için belirli yazıtiplerine gereksinim duyarlar.</para
 > 

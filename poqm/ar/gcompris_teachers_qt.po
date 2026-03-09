@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-02-25 21:53+0400\n"
+"PO-Revision-Date: 2026-03-08 09:53+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -1799,12 +1799,10 @@ msgid "Group <b>%1</b> could not be deleted from table group_user_."
 msgstr "تعذر حذف المجموعة <b>%1</b> من جدول مجموعات المستخدمين (group_user_)."
 
 #: server/controllers/database-controller.cpp:481
-#, fuzzy, qt-format
-#| msgctxt "controllers::DatabaseController|"
-#| msgid "Group <b>%1</b> already exists."
+#, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "Pupil login <b>%1</b> already exists."
-msgstr "المجموعة <b>%1</b> موجودة بالفعل."
+msgstr "المجموعة <b>%1</b> موجودة من قبل."
 
 #: server/controllers/database-controller.cpp:500
 #, qt-format
@@ -2014,13 +2012,7 @@ msgid "Import pupils from CSV file"
 msgstr "استيراد التلاميذ من ملف CSV"
 
 #: server/dialogs/ImportPupilsDialog.qml:88
-#, fuzzy, qt-format
-#| msgctxt "ImportPupilsDialog|"
-#| msgid ""
-#| "Format: name;groups;password\n"
-#| "Example:\n"
-#| "Patrick Dummy;group 1;1234\n"
-#| "Patricia Brown;group 1,group 2;4321\n"
+#, qt-format
 msgctxt "ImportPupilsDialog|"
 msgid ""
 "Format: name;groups;password\n"
@@ -2030,8 +2022,8 @@ msgid ""
 msgstr ""
 "التنسيق: الاسم;المجموعات;كلمة السر\n"
 "مثال:\n"
-"Patrick Dummy;group 1;1234\n"
-"Patricia Brown;group 1,group 2;4321\n"
+"Patrick Dummy;group 1;%1\n"
+"Patricia Brown;group 1,group 2;%2\n"
 
 #: server/dialogs/ImportPupilsDialog.qml:94
 msgctxt "ImportPupilsDialog|"

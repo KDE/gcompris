@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-02-01 15:12+0100\n"
+"PO-Revision-Date: 2026-03-08 10:50+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 25.12.1\n"
+"X-Generator: Lokalize 25.12.3\n"
 
 #: server/activities/adjacent_numbers/ActivityEditor.qml:13
 #: server/activities/binary_bulb/ActivityEditor.qml:12
@@ -1017,9 +1017,6 @@ msgid "Duration: %1s"
 msgstr "Iraupena: %1s"
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:29
-#, fuzzy
-#| msgctxt "ActivityEditor|"
-#| msgid "Rules to create a valid dataset:"
 msgctxt "MagicHatEditor|"
 msgid "Rules to create a valid dataset:"
 msgstr "Datu-multzo baliodun bat sortzeko arauak:"
@@ -1027,7 +1024,7 @@ msgstr "Datu-multzo baliodun bat sortzeko arauak:"
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:31
 msgctxt "MagicHatEditor|"
 msgid "If \"Use coefficients\" is not checked:"
-msgstr ""
+msgstr "\"Erabili koefizienteak\" markatu gabe badago:"
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:33
 #, qt-format
@@ -1039,6 +1036,12 @@ msgid ""
 "must be between %1 and %2, the others between 0 and %2. Also the minimum "
 "numbers must not be larger than the corresponding maximum numbers."
 msgstr ""
+"\"Gehienezko izar kopurua\" eta \"Gutxieneko izar kopurua\" aukerek lehen "
+"eragingaiaren (goikoaren) 3 errenkadetako bakoitzean egon daitekeen izar "
+"kopurua mugatzen dute. Zehazki 3 zenbaki osok osatu behar dituzte, errenkada "
+"bakoitzeko bana. Lehen sarrerak %1 eta %2 artean egon behar du; gainerakoek, "
+"0 eta %2 artean. Gainera, gutxieneko kopuruek ezin dute dagozkien gehienezko "
+"kopuruak baino handiagoak izan."
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:36
 msgctxt "MagicHatEditor|"
@@ -1048,6 +1051,10 @@ msgid ""
 "of the corresponding row of the first operand, the result will not be more "
 "than the \"Maximum result per row\" value."
 msgstr ""
+"Bigarren eragingaiaren (behekoaren) errenkada bakoitzak izar kopuru jakin "
+"bat izango du, lehen eragingaiaren dagokion errenkadako izar kopurutik "
+"kentzean emaitza \"Errenkadako gehienezko emaitza\" balioa baino handiagoa "
+"izan ez dadin sortua."
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:37
 msgctxt "MagicHatEditor|"
@@ -1057,6 +1064,10 @@ msgid ""
 "corresponding row of the first operand, the result will not be more than the "
 "\"Maximum result per row\" value."
 msgstr ""
+"Bigarren eragingaiaren (behekoaren) errenkada bakoitzak izar kopuru jakin "
+"bat izango du, lehen eragingaiaren dagokion errenkadako izar kopuruari "
+"gehitzean emaitza \"Errenkadako gehienezko emaitza\" balioa baino handiagoa "
+"izan ez dadin sortua."
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:41
 msgctxt "MagicHatEditor|"
@@ -1064,6 +1075,8 @@ msgid ""
 "If \"Maximum number of stars\" for a row is 0, this row will be empty and "
 "hidden for both operands."
 msgstr ""
+"Errenkada bateko \"Gehienezko izar kopurua\" 0 bada, errenkada hori hutsik "
+"egongo da eta bi eragingaietarako ezkutuan egongo da."
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:44
 msgctxt "MagicHatEditor|"
@@ -1071,11 +1084,13 @@ msgid ""
 "\"Maximum result per row\" must be larger than any value in \"Maximum number "
 "of stars\"."
 msgstr ""
+"\"Errenkadako gehienezko emaitza\" balioak \"Gehienezko izar kopurua\" "
+"aukerako edozein balio baino handiagoa izan behar du."
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:46
 msgctxt "MagicHatEditor|"
 msgid "If \"Use coefficients\" is checked:"
-msgstr ""
+msgstr "\"Erabili koefizienteak\" markatuta badago:"
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:48
 msgctxt "MagicHatEditor|"
@@ -1084,55 +1099,46 @@ msgid ""
 "must be between 1 and 10, the others between 0 and 10, and the sum of the 3 "
 "entries must not be larger than 10."
 msgstr ""
+"\"Errenkaden koefizienteak\" aukerak zehazki 3 zenbaki oso eduki behar ditu. "
+"Lehen sarrerak 1 eta 10 artean egon behar du; gainerakoek, 0 eta 10 artean. "
+"3 sarreren batura, gainera, ezin da 10 baino handiagoa izan."
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:52
 msgctxt "MagicHatEditor|"
 msgid "Use coefficients"
-msgstr ""
+msgstr "Erabili koefizienteak"
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:53
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Maximum start number"
 msgctxt "MagicHatEditor|"
 msgid "Maximum result per row"
-msgstr "Gehienezko hasierako zenbakia"
+msgstr "Errenkadako gehienezko emaitza"
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:54
 msgctxt "MagicHatEditor|"
 msgid "Use different star sets per row"
-msgstr ""
+msgstr "Erabili izar multzo ezberdinak errenkada bakoitzeko"
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:55
-#, fuzzy
-#| msgctxt "FractionsFindEditor|"
-#| msgid "Maximum of units"
 msgctxt "MagicHatEditor|"
 msgid "Maximum number of stars"
-msgstr "Unitateetan gehienezkoa"
+msgstr "Gehienezko izar kopurua"
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:56
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Minimum start number"
 msgctxt "MagicHatEditor|"
 msgid "Minimum number of stars"
-msgstr "Gutxieneko hasierako zenbakia"
+msgstr "Gutxieneko izar kopurua"
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:57
 msgctxt "MagicHatEditor|"
 msgid "Coefficient multiplier"
-msgstr ""
+msgstr "Koefizienteen biderkatzailea"
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:58
 msgctxt "MagicHatEditor|"
 msgid "Row coefficients"
-msgstr ""
+msgstr "Errenkaden koefizienteak"
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:120
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Dataset is empty."
 msgctxt "MagicHatEditor|"
 msgid "Dataset is empty."
 msgstr "Datu-multzoa hutsik dago."
@@ -1144,6 +1150,9 @@ msgid ""
 "Level %1 must contain exactly 3 integer numbers in \"Maximum number of stars"
 "\". The first entry must be between %2 and %3, the others between 0 and %3."
 msgstr ""
+"%1 mailak zehazki 3 zenbaki oso eduki behar ditu \"Gehienezko izar kopurua\" "
+"aukeran. Lehen sarrerak %2 eta %3 artean egon behar du; gainerakoek, 0 eta "
+"%3 artean."
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:169
 #, qt-format
@@ -1154,6 +1163,10 @@ msgid ""
 "and each number must not be larger than the corresponding number in "
 "\"Maximum number of stars\"."
 msgstr ""
+"%1 mailak zehazki 3 zenbaki oso eduki behar ditu \"Gutxieneko izar kopurua\" "
+"aukeran. Lehen sarrerak %2 eta %3 artean egon behar du; gainerakoek, 0 eta "
+"%3 artean, eta zenbaki bakoitzak ezin du \"Gehienezko izar kopurua\" "
+"aukerako dagokion zenbakia baino handiagoa izan."
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:183
 #, qt-format
@@ -1162,6 +1175,8 @@ msgid ""
 "In Level %1, \"Maximum result per row\" must be larger than any value in "
 "\"Maximum number of stars\"."
 msgstr ""
+"%1 mailan, \"Errenkadako gehienezko emaitza\" balioak \"Gehienezko izar "
+"kopurua\" aukerako edozein balio baino handiagoa izan behar du."
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:213
 #, qt-format
@@ -1171,11 +1186,12 @@ msgid ""
 "first entry must be between 1 and 10, the others between 0 and 10, and the "
 "sum of the 3 entries must not be larger than 10."
 msgstr ""
+"%1 mailak zehazki 3 zenbaki oso eduki behar ditu \"Errenkaden koefizienteak"
+"\" aukeran. Lehen sarrerak 1 eta 10 artean egon behar du; gainerakoek, 0 eta "
+"10 artean. 3 sarreren baturak, gainera, ezin du 10 baino handiagoa izan."
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:219
-#, fuzzy, qt-format
-#| msgctxt "BinaryBulbEditor|"
-#| msgid "The following errors need to be fixed:<ul>%1</ul>"
+#, qt-format
 msgctxt "MagicHatEditor|"
 msgid "The following errors need to be fixed:<ul>%1</ul>"
 msgstr "Ondoko erroreak zuzendu behar dira:<ul>%1</ul>"
@@ -1185,7 +1201,7 @@ msgstr "Ondoko erroreak zuzendu behar dira:<ul>%1</ul>"
 #, qt-format
 msgctxt "StarsBar|"
 msgid "%1x"
-msgstr ""
+msgstr "%1x"
 
 #: server/activities/multiple_choice_questions/ActivityEditor.qml:15
 msgctxt "ActivityEditor|"
@@ -1340,7 +1356,7 @@ msgstr "Modua"
 #: server/activities/tens_complement_use/ActivityEditor.qml:15
 msgctxt "ActivityEditor|"
 msgid "All numbers must be positive integers"
-msgstr ""
+msgstr "Zenbaki guztiak oso positiboak izan behar dira"
 
 #: server/activities/tens_complement_find/ActivityEditor.qml:17
 msgctxt "ActivityEditor|"
@@ -1349,6 +1365,9 @@ msgid ""
 "cards, and there is already 1 card per addition, or 2 cards per addition if "
 "\"Find both numbers\" is selected."
 msgstr ""
+"Ez gehitu \"Karta gehigarri\" gehiegi! Azpimaila bakoitzak ezin du 6 karta "
+"baino gehiago izan, eta dagoeneko karta 1 dago batuketa bakoitzeko, edo 2 "
+"karta batuketa bakoitzeko \"Aurkitu bi zenbakiak\" hautatuta badago."
 
 #: server/activities/tens_complement_find/ActivityEditor.qml:19
 msgctxt "ActivityEditor|"
@@ -1357,28 +1376,22 @@ msgid ""
 "must contain 1, 2 or 3 numbers between 1 and 9. There is one addition for "
 "each \"First operand\" number."
 msgstr ""
+"\"Ausazko galderak\" hautatuta ez badago, azpimaila bakoitzeko \"Lehen "
+"eragingaiak\" aukerak 1 eta 9 arteko 1, 2 edo 3 zenbaki eduki behar ditu. "
+"\"Lehen eragingai\" zenbaki bakoitzeko batuketa bat dago."
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:27
-#, fuzzy
-#| msgctxt "FractionsFindEditor|"
-#| msgid "Random fraction"
 msgctxt "TensComplementFindEditor|"
 msgid "Random questions"
-msgstr "Ausazko zatikia"
+msgstr "Ausazko galderak"
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:28
-#, fuzzy
-#| msgctxt "BinaryBulbEditor|"
-#| msgid "Random numbers"
 msgctxt "TensComplementFindEditor|"
 msgid "Find both numbers"
-msgstr "Ausazko zenbakiak"
+msgstr "Aurkitu bi zenbakiak"
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:29
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:35
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Sublevels"
 msgctxt "TensComplementFindEditor|"
 msgid "Sublevels"
 msgstr "Azpimailak"
@@ -1386,50 +1399,35 @@ msgstr "Azpimailak"
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:30
 msgctxt "TensComplementFindEditor|"
 msgid "Additions per sublevel"
-msgstr ""
+msgstr "Batuketa azpimailako"
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:31
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:41
 msgctxt "TensComplementFindEditor|"
 msgid "Extra cards"
-msgstr ""
+msgstr "Karta gehigarriak"
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:32
-#, fuzzy
-#| msgctxt "AlgebraEditor|"
-#| msgid "Minimum operand value"
 msgctxt "TensComplementFindEditor|"
 msgid "Minimum first operand"
-msgstr "Eragingaiaren gutxieneko balioa"
+msgstr "Lehen eragingaiaren gutxienekoa"
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:33
-#, fuzzy
-#| msgctxt "AlgebraEditor|"
-#| msgid "Maximum operand value"
 msgctxt "TensComplementFindEditor|"
 msgid "Maximum first operand"
-msgstr "Eragingaiaren gehienezko balioa"
+msgstr "Lehen eragingaiaren gehienekoa"
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:34
-#, fuzzy
-#| msgctxt "MultipleChoiceEditor|"
-#| msgid "Shuffle answers"
 msgctxt "TensComplementFindEditor|"
 msgid "Shuffle operands"
-msgstr "Nahastu erantzunak"
+msgstr "Nahastu eragingaiak"
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:40
-#, fuzzy
-#| msgctxt "AlgebraEditor|"
-#| msgid "First operand"
 msgctxt "TensComplementFindEditor|"
 msgid "First operands"
 msgstr "Lehen eragingaia"
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:163
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Dataset is empty."
 msgctxt "TensComplementFindEditor|"
 msgid "Dataset is empty."
 msgstr "Datu-multzoa hutsik dago."
@@ -1438,54 +1436,45 @@ msgstr "Datu-multzoa hutsik dago."
 #, qt-format
 msgctxt "TensComplementFindEditor|"
 msgid "Level %1 contains too many extra cards."
-msgstr ""
+msgstr "%1 mailak karta gehigarri gehiegi ditu."
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:184
-#, fuzzy, qt-format
-#| msgctxt "ComparatorEditor|"
-#| msgid "Level %1 must not be empty."
+#, qt-format
 msgctxt "TensComplementFindEditor|"
 msgid "Level %1 must not be empty."
 msgstr "%1 maila ez da hutsik egon behar."
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:193
-#, fuzzy, qt-format
-#| msgctxt "MultipleChoiceEditor|"
-#| msgid "\"Answers\" in Sublevel %1 of Level %2 must not be empty."
+#, qt-format
 msgctxt "TensComplementFindEditor|"
 msgid "Sublevel %2 of Level %1 must not be empty."
-msgstr "\"Erantzunak\" %2 mailako %1 azpimailan ez da hutsik egon behar."
+msgstr "%1 mailako %2 azpimaila ez da hutsik egon behar."
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:200
 #, qt-format
 msgctxt "TensComplementFindEditor|"
 msgid "Sublevel %2 of Level %1 contains invalid First operands."
-msgstr ""
+msgstr "%1 mailako %2 azpimailak lehen eragingai baliogabeak ditu."
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:210
 #, qt-format
 msgctxt "TensComplementFindEditor|"
 msgid "Sublevel %2 of Level %1 contains invalid extra cards."
-msgstr ""
+msgstr "%1 mailako %2 azpimailak karta gehigarri baliogabeak ditu."
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:218
 #, qt-format
 msgctxt "TensComplementFindEditor|"
 msgid "Sublevel %2 of Level %1 contains too many extra cards."
-msgstr ""
+msgstr "%1 mailako %2 azpimailak karta gehigarri gehiegi ditu."
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:226
-#, fuzzy, qt-format
-#| msgctxt "BinaryBulbEditor|"
-#| msgid "The following errors need to be fixed:<ul>%1</ul>"
+#, qt-format
 msgctxt "TensComplementFindEditor|"
 msgid "The following errors need to be fixed:<ul>%1</ul>"
 msgstr "Ondoko erroreak zuzendu behar dira:<ul>%1</ul>"
 
 #: server/activities/tens_complement_swap/TensComplementSwapEditor.qml:25
-#, fuzzy
-#| msgctxt "ActivityEditor|"
-#| msgid "Rules to create a valid dataset:"
 msgctxt "TensComplementSwapEditor|"
 msgid "Rules to create a valid dataset:"
 msgstr "Datu-multzo baliodun bat sortzeko arauak:"
@@ -1493,25 +1482,19 @@ msgstr "Datu-multzo baliodun bat sortzeko arauak:"
 #: server/activities/tens_complement_swap/TensComplementSwapEditor.qml:27
 msgctxt "TensComplementSwapEditor|"
 msgid "All numbers must be positive integers"
-msgstr ""
+msgstr "Zenbaki guztiak oso positiboak izan behar dira"
 
 #: server/activities/tens_complement_swap/TensComplementSwapEditor.qml:29
-#, fuzzy
-#| msgctxt "ActivityEditor|"
-#| msgid ""
-#| "If \"Random numbers\" is not selected, \"Numbers to find\" must contain a "
-#| "list of integer numbers. Each number must be between 0 and the maximum "
-#| "number which can be represented with the given \"Bulb count\"."
 msgctxt "TensComplementSwapEditor|"
 msgid ""
 "If \"Random operands\" is not selected, \"Operands\" must contain 1, 2 or 3 "
 "entries. Each entry must be a number between 1 and 9. The resulting addition "
 "will contain the given entries and their complement to 10."
 msgstr ""
-"\"Ausazko zenbakiak\" hautatuta ez badago, \"Aurkitu beharreko zenbakiak\" "
-"zenbaki osoen zerrenda bat izan behar du. Zenbaki bakoitza 0 eta emandako "
-"\"Bonbilla kopurua\"rekin adieraz daitekeen gehienezko zenbakiaren artean "
-"egon behar du."
+"\"Ausazko eragingaiak\" hautatuta ez badago, \"Eragingaiak\" aukerak 1, 2 "
+"edo 3 sarrera eduki behar ditu. Sarrera bakoitzak 1 eta 9 arteko zenbaki bat "
+"izan behar du. Sortutako batuketak emandako sarrerak eta haien 10erako "
+"osagarriak edukiko ditu."
 
 #: server/activities/tens_complement_swap/TensComplementSwapEditor.qml:31
 msgctxt "TensComplementSwapEditor|"
@@ -1521,67 +1504,48 @@ msgid ""
 "if \"Operands\" contains 2 numbers, and not used if \"Operands\" contains 3 "
 "numbers."
 msgstr ""
+"\"Eragingai gehigarria\" aukerak 1 eta 9 arteko zenbaki 1 eduki dezake, "
+"batuketari gehituko zaiona. Nahitaezkoa da \"Eragingaiak\" aukerak zenbaki 1 "
+"badu, aukerakoa \"Eragingaiak\" aukerak 2 zenbaki baditu, eta ez da "
+"erabiltzen \"Eragingaiak\" aukerak 3 zenbaki baditu."
 
 #: server/activities/tens_complement_swap/TensComplementSwapEditor.qml:35
-#, fuzzy
-#| msgctxt "AlgebraEditor|"
-#| msgid "Shuffle"
 msgctxt "TensComplementSwapEditor|"
 msgid "Shuffle"
 msgstr "Nahastu"
 
 #: server/activities/tens_complement_swap/TensComplementSwapEditor.qml:36
-#, fuzzy
-#| msgctxt "LearnDigitsEditor|"
-#| msgid "Additions"
 msgctxt "TensComplementSwapEditor|"
 msgid "Additions"
 msgstr "Batuketak"
 
 #: server/activities/tens_complement_swap/TensComplementSwapEditor.qml:41
-#, fuzzy
-#| msgctxt "AlgebraEditor|"
-#| msgid "Random operands"
 msgctxt "TensComplementSwapEditor|"
 msgid "Random operands"
 msgstr "Ausazko eragingaiak"
 
 #: server/activities/tens_complement_swap/TensComplementSwapEditor.qml:42
-#, fuzzy
-#| msgctxt "VerticalEditor|"
-#| msgid "Number of lines"
 msgctxt "TensComplementSwapEditor|"
 msgid "Number of operands"
-msgstr "Lerro kopurua"
+msgstr "Eragingai kopurua"
 
 #: server/activities/tens_complement_swap/TensComplementSwapEditor.qml:43
-#, fuzzy
-#| msgctxt "AlgebraEditor|"
-#| msgid "Random operands"
 msgctxt "TensComplementSwapEditor|"
 msgid "Operands"
-msgstr "Ausazko eragingaiak"
+msgstr "Eragingaiak"
 
 #: server/activities/tens_complement_swap/TensComplementSwapEditor.qml:44
-#, fuzzy
-#| msgctxt "AlgebraEditor|"
-#| msgid "First operand"
 msgctxt "TensComplementSwapEditor|"
 msgid "Extra operand"
-msgstr "Lehen eragingaia"
+msgstr "Eragingai gehigarria"
 
 #: server/activities/tens_complement_swap/TensComplementSwapEditor.qml:144
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Dataset is empty."
 msgctxt "TensComplementSwapEditor|"
 msgid "Dataset is empty."
 msgstr "Datu-multzoa hutsik dago."
 
 #: server/activities/tens_complement_swap/TensComplementSwapEditor.qml:154
-#, fuzzy, qt-format
-#| msgctxt "ComparatorEditor|"
-#| msgid "Level %1 must not be empty."
+#, qt-format
 msgctxt "TensComplementSwapEditor|"
 msgid "Level %1 must not be empty."
 msgstr "%1 maila ez da hutsik egon behar."
@@ -1593,11 +1557,11 @@ msgid ""
 "Content of Addition %2 of Level %1 is not valid. Please check the "
 "instructions."
 msgstr ""
+"%1 mailako %2 batuketaren edukia ez da baliozkoa. Mesedez, jarraibideak "
+"egiaztatu."
 
 #: server/activities/tens_complement_swap/TensComplementSwapEditor.qml:198
-#, fuzzy, qt-format
-#| msgctxt "BinaryBulbEditor|"
-#| msgid "The following errors need to be fixed:<ul>%1</ul>"
+#, qt-format
 msgctxt "TensComplementSwapEditor|"
 msgid "The following errors need to be fixed:<ul>%1</ul>"
 msgstr "Ondoko erroreak zuzendu behar dira:<ul>%1</ul>"
@@ -1608,58 +1572,40 @@ msgid ""
 "Do not add too many \"Extra cards\"! Each sublevel must not have more than 6 "
 "cards, and there are already 2 cards per addition."
 msgstr ""
+"Ez gehitu \"Karta gehigarri\" gehiegi! Azpimaila bakoitzak ezin du 6 karta "
+"baino gehiago izan, eta dagoeneko 2 karta daude batuketa bakoitzeko."
 
 #: server/activities/tens_complement_use/ActivityEditor.qml:19
-#, fuzzy
-#| msgctxt "LearnDigitsEditor|"
-#| msgid ""
-#| "\"Additions\" must only contain additions which results are integer "
-#| "numbers between 0 and 9, and must not be empty."
 msgctxt "ActivityEditor|"
 msgid ""
 "In \"Additions\", each entry must be an addition which first number is "
 "between 1 and 9, and which result is between 11 and 99."
 msgstr ""
-"\"Batuketak\" emaitzak 0 eta 9 arteko zenbaki osoak dituzten batuketak "
-"bakarrik izan behar ditu, eta ez da hutsik egon behar."
+"\"Batuketak\" atalean, sarrera bakoitza batuketa bat izan behar da; lehen "
+"zenbakia 1 eta 9 artean egon behar du, eta emaitza 11 eta 99 artean."
 
 #: server/activities/tens_complement_use/TensComplementUseDataDisplay.qml:36
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Proposed numbers"
 msgctxt "TensComplementUseDataDisplay|"
 msgid "Proposed numbers:"
-msgstr "Proposatutako zenbakiak"
+msgstr "Proposatutako zenbakiak:"
 
 #: server/activities/tens_complement_use/TensComplementUseDataDisplay.qml:71
-#, fuzzy
-#| msgctxt "MultipleChoiceDataDisplay|"
-#| msgid "Question:"
 msgctxt "TensComplementUseDataDisplay|"
 msgid "Question:"
 msgstr "Galdera:"
 
 #: server/activities/tens_complement_use/TensComplementUseDataDisplay.qml:97
-#, fuzzy
-#| msgctxt "AdjacentNumbersDataDisplay|"
-#| msgid "Answer:"
 msgctxt "TensComplementUseDataDisplay|"
 msgid "Answer:"
 msgstr "Erantzuna:"
 
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:27
-#, fuzzy
-#| msgctxt "FractionsFindEditor|"
-#| msgid "Random fraction"
 msgctxt "TensComplementUseEditor|"
 msgid "Random questions"
-msgstr "Ausazko zatikia"
+msgstr "Ausazko galderak"
 
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:28
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:34
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Sublevels"
 msgctxt "TensComplementUseEditor|"
 msgid "Sublevels"
 msgstr "Azpimailak"
@@ -1667,50 +1613,35 @@ msgstr "Azpimailak"
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:29
 msgctxt "TensComplementUseEditor|"
 msgid "Additions per sublevel"
-msgstr ""
+msgstr "Batuketa azpimailako"
 
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:30
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:40
 msgctxt "TensComplementUseEditor|"
 msgid "Extra cards"
-msgstr ""
+msgstr "Karta gehigarriak"
 
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:31
-#, fuzzy
-#| msgctxt "LearnDecimalsEditor|"
-#| msgid "Minimum Value"
 msgctxt "TensComplementUseEditor|"
 msgid "Minimum result"
-msgstr "Gutxieneko balioa"
+msgstr "Emaitzaren gutxienekoa"
 
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:32
-#, fuzzy
-#| msgctxt "FractionsFindEditor|"
-#| msgid "Maximum of units"
 msgctxt "TensComplementUseEditor|"
 msgid "Maximum result"
-msgstr "Unitateetan gehienezkoa"
+msgstr "Emaitzaren gehienekoa"
 
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:33
-#, fuzzy
-#| msgctxt "AlgebraEditor|"
-#| msgid "Shuffle"
 msgctxt "TensComplementUseEditor|"
 msgid "Shuffle"
 msgstr "Nahastu"
 
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:39
-#, fuzzy
-#| msgctxt "LearnDigitsEditor|"
-#| msgid "Additions"
 msgctxt "TensComplementUseEditor|"
 msgid "Additions"
 msgstr "Batuketak"
 
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:156
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Dataset is empty."
 msgctxt "TensComplementUseEditor|"
 msgid "Dataset is empty."
 msgstr "Datu-multzoa hutsik dago."
@@ -1719,48 +1650,40 @@ msgstr "Datu-multzoa hutsik dago."
 #, qt-format
 msgctxt "TensComplementUseEditor|"
 msgid "Level %1 contains too many extra cards."
-msgstr ""
+msgstr "%1 mailak karta gehigarri gehiegi ditu."
 
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:175
-#, fuzzy, qt-format
-#| msgctxt "ComparatorEditor|"
-#| msgid "Level %1 must not be empty."
+#, qt-format
 msgctxt "TensComplementUseEditor|"
 msgid "Level %1 must not be empty."
 msgstr "%1 maila ez da hutsik egon behar."
 
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:184
-#, fuzzy, qt-format
-#| msgctxt "MultipleChoiceEditor|"
-#| msgid "\"Answers\" in Sublevel %1 of Level %2 must not be empty."
+#, qt-format
 msgctxt "TensComplementUseEditor|"
 msgid "Sublevel %2 of Level %1 must not be empty."
-msgstr "\"Erantzunak\" %2 mailako %1 azpimailan ez da hutsik egon behar."
+msgstr "%1 mailako %2 azpimaila ez da hutsik egon behar."
 
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:194
-#, fuzzy, qt-format
-#| msgctxt "MultipleChoiceEditor|"
-#| msgid "\"Question\" in Sublevel %1 of Level %2 must not be empty."
+#, qt-format
 msgctxt "TensComplementUseEditor|"
 msgid "Addition %3 of Sublevel %2 of Level %1 is not correct."
-msgstr "\"Galdera\" %2 mailako %1 azpimailan ez da hutsik egon behar."
+msgstr "%1 mailako %2 azpimailako %3 batuketa ez da zuzena."
 
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:204
 #, qt-format
 msgctxt "TensComplementUseEditor|"
 msgid "Sublevel %2 of Level %1 contains invalid extra cards."
-msgstr ""
+msgstr "%1 mailako %2 azpimailak karta gehigarri baliogabeak ditu."
 
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:212
 #, qt-format
 msgctxt "TensComplementUseEditor|"
 msgid "Sublevel %2 of Level %1 contains too many extra cards."
-msgstr ""
+msgstr "%1 mailako %2 azpimailak karta gehigarri gehiegi ditu."
 
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:220
-#, fuzzy, qt-format
-#| msgctxt "BinaryBulbEditor|"
-#| msgid "The following errors need to be fixed:<ul>%1</ul>"
+#, qt-format
 msgctxt "TensComplementUseEditor|"
 msgid "The following errors need to be fixed:<ul>%1</ul>"
 msgstr "Ondoko erroreak zuzendu behar dira:<ul>%1</ul>"
@@ -1916,12 +1839,10 @@ msgid "Group <b>%1</b> could not be deleted from table group_user_."
 msgstr "<b>%1</b> taldea ezin izan da group_user_ taulatik ezabatu."
 
 #: server/controllers/database-controller.cpp:481
-#, fuzzy, qt-format
-#| msgctxt "controllers::DatabaseController|"
-#| msgid "Group <b>%1</b> already exists."
+#, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "Pupil login <b>%1</b> already exists."
-msgstr "<b>%1</b> taldea jada badago."
+msgstr "Jada badago <b>%1</b> erabiltzaile-izena."
 
 #: server/controllers/database-controller.cpp:500
 #, qt-format
@@ -2131,13 +2052,7 @@ msgid "Import pupils from CSV file"
 msgstr "Inportatu ikasleak CSV fitxategitik"
 
 #: server/dialogs/ImportPupilsDialog.qml:88
-#, fuzzy, qt-format
-#| msgctxt "ImportPupilsDialog|"
-#| msgid ""
-#| "Format: name;groups;password\n"
-#| "Example:\n"
-#| "Patrick Dummy;group 1;1234\n"
-#| "Patricia Brown;group 1,group 2;4321\n"
+#, qt-format
 msgctxt "ImportPupilsDialog|"
 msgid ""
 "Format: name;groups;password\n"
@@ -2146,9 +2061,9 @@ msgid ""
 "Patricia Brown;group 1,group 2;%2\n"
 msgstr ""
 "Formatua: izena;taldeak;pasahitza\n"
-"Adibidea:\n"
-"Patxi Gezurrezko;taldea 1;1234\n"
-"Pantxika Gaztainaga;taldea 1,taldea 2;4321\n"
+"Adibidez:\n"
+"Patxi Gezurmuino;taldea 1;%1\n"
+"Pantxika Gaztainaga;taldea 1,taldea 2;%2\n"
 
 #: server/dialogs/ImportPupilsDialog.qml:94
 msgctxt "ImportPupilsDialog|"

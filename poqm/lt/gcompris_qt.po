@@ -5943,7 +5943,7 @@ msgstr "Skaitmeninė elektra"
 #: activities/digital_electricity/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Create and simulate a digital logic circuit."
-msgstr "Sukurk ir modeliuok skaitmeninę loginę grandinę.\v"
+msgstr "Sukurk ir modeliuok skaitmeninę loginę grandinę."
 
 #. Help goal
 #: activities/digital_electricity/ActivityInfo.qml:20

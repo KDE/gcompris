@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-03-05 10:38+0400\n"
+"PO-Revision-Date: 2026-03-08 09:52+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -2401,7 +2401,7 @@ msgstr "بول جوجن، أريريا - 1892"
 #: activities/babyshapes/resource/board/board7_1.qml:14
 msgctxt "board7_1|"
 msgid "Pieter Bruegel the Elder, The peasants wedding - 1568"
-msgstr "بيتر برويغيل البكر، زفاف الفّلاحين - 1568"
+msgstr "بيتر برويغيل البكر، زفاف الفلاحين - 1568"
 
 #: activities/babyshapes/resource/board/board7_2.qml:14
 msgctxt "board7_2|"
@@ -13526,7 +13526,7 @@ msgstr "والس وفوتونا"
 #: activities/geography/resource/board/board1_0.qml:15
 msgctxt "board1_0|"
 msgid "Continents"
-msgstr "القّارّات"
+msgstr "القارات"
 
 #: activities/geography/resource/board/board1_0.qml:24
 msgctxt "board1_0|"
@@ -21153,13 +21153,13 @@ msgstr "رسم المسار"
 #: activities/peg_solitaire/ActivityConfig.qml:27
 msgctxt "ActivityConfig|"
 msgid "Use the default starting hole"
-msgstr "استخدم الحفرة البداية المبدئية"
+msgstr "استخدم الفتحة البداية المبدئية"
 
 #. Activity title
 #: activities/peg_solitaire/ActivityInfo.qml:14
 msgctxt "ActivityInfo|"
 msgid "Peg solitaire"
-msgstr "سوليتير"
+msgstr "لعبة ورق سوليتير"
 
 #. Help title
 #: activities/peg_solitaire/ActivityInfo.qml:16
@@ -21180,25 +21180,25 @@ msgid ""
 "clicking on it. You can use the undo button to undo your last move, and the "
 "redo button to redo it."
 msgstr ""
-"لنقل قطعة، اجعلها تقفز فوق قطعة أخرى في اتجاه عمودي، إلى حفرة تبعد مسافة "
-"مربعين. تُزال القطعة التي قفزت عليها من اللوحة. يمكنك النقر على قطعة قابلة "
-"للحركة ثم على وجهتها، أو سحبها وإفلاتها في وجهتها. تنتهي اللعبة عندما لا "
-"يمكن تحريك أي قطعة أخرى، و تفوز إذا بقيت قطعة واحدة فقط. إذا لم يُحدد خيار "
-"استخدام الحفرة المبدئية الافتراضية، فستحتاج إلى اختيار القطعة الأولى التي "
-"تريد إزالتها عن طريق النقر عليها. يمكنك استخدام زر التراجع للتراجع عن آخر "
-"حركة قمت بها، وزر الإعادة لإعادتها."
+"لتحريك قطعة، اجعلها تقفز فوق أخرى في اتجاه متعامد، إلى فجوة تبعد موضعين. "
+"تُزال القطعة التي قُفِز فوقها من اللوحة. يمكنك النقر على قطعة قابلة للتحريك ثم "
+"على وجهتها، أو سحبها وإفلاتها إلى وجهتها. تنتهي اللعبة عندما لا يمكن تحريك "
+"أي قطعة أخرى، ويُفوز بها إذا بقيت قطعة واحدة فقط. إذا لم يُختر خيار استخدام "
+"الفجوة المبدئية للبدء، تحتاج إلى اختيار القطعة الأولى التي ستُزال بالنقر "
+"عليها. يمكنك استخدام زر التراجع للتراجع عن حركتك الأخيرة، وزر الإعادة "
+"لإعادتها."
 
 #. Board for the Peg solitaire game
 #: activities/peg_solitaire/peg_solitaire.js:28
 msgctxt "peg_solitaire|"
 msgid "English board"
-msgstr "لوحة الإنجليزية"
+msgstr "اللوحة الإنجليزية"
 
 #. Board for the Peg solitaire game
 #: activities/peg_solitaire/peg_solitaire.js:44
 msgctxt "peg_solitaire|"
 msgid "French board"
-msgstr "لوحة الفرنسية"
+msgstr "اللوحة الفرنسية"
 
 #. Board for the Peg solitaire game
 #: activities/peg_solitaire/peg_solitaire.js:61
@@ -21210,7 +21210,7 @@ msgstr "لوحة ماسية ذات 32 فتحة"
 #: activities/peg_solitaire/peg_solitaire.js:79
 msgctxt "peg_solitaire|"
 msgid "Asymmetrical board"
-msgstr "ترتيب غير متناظر"
+msgstr "لوحة غير متناظرة"
 
 #. Activity title
 #: activities/penalty/ActivityInfo.qml:15
@@ -24486,7 +24486,7 @@ msgstr "مهارات العدّ."
 #: activities/smallnumbers/ActivityInfo.qml:24
 msgctxt "ActivityInfo|"
 msgid "Type the number of dots you see on each falling dice."
-msgstr "اكتب عدد النّقاط الّتي تراها على النّرد المتساقط."
+msgstr "اكتب عدد النّقاط التي تراها على النّرد المتساقط."
 
 #: activities/smallnumbers/resource/1/Data.qml:14
 #: activities/smallnumbers2/resource/1/Data.qml:14

@@ -2,17 +2,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-03-05 07:27+0200\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-03-08 22:32+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Qt-Contexts: true\n"
 "Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
 "n % 10 == 0) ? 2 : 3));\n"
-"X-Generator: Lokalize 25.12.2\n"
+"X-Qt-Contexts: true\n"
+"X-Generator: Poedit 3.8\n"
 
 #: server/activities/adjacent_numbers/ActivityEditor.qml:13
 #: server/activities/binary_bulb/ActivityEditor.qml:12
@@ -1769,12 +1770,10 @@ msgid "Group <b>%1</b> could not be deleted from table group_user_."
 msgstr "לא ניתן למחוק את הקבוצה <b>%1</b> מהטבלה group_user_‎."
 
 #: server/controllers/database-controller.cpp:481
-#, fuzzy, qt-format
-#| msgctxt "controllers::DatabaseController|"
-#| msgid "Group <b>%1</b> already exists."
+#, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "Pupil login <b>%1</b> already exists."
-msgstr "הקבוצה <b>%1</b> כבר קיימת."
+msgstr "פרטי הגישה של התלמיד/ה <b>%1</b> כבר קיימים."
 
 #: server/controllers/database-controller.cpp:500
 #, qt-format
@@ -1984,13 +1983,7 @@ msgid "Import pupils from CSV file"
 msgstr "ייבוא תלמידים מקובץ CSV"
 
 #: server/dialogs/ImportPupilsDialog.qml:88
-#, fuzzy, qt-format
-#| msgctxt "ImportPupilsDialog|"
-#| msgid ""
-#| "Format: name;groups;password\n"
-#| "Example:\n"
-#| "Patrick Dummy;group 1;1234\n"
-#| "Patricia Brown;group 1,group 2;4321\n"
+#, qt-format
 msgctxt "ImportPupilsDialog|"
 msgid ""
 "Format: name;groups;password\n"
@@ -2000,8 +1993,8 @@ msgid ""
 msgstr ""
 "תבנית: שם;קבוצות;סיסמה\n"
 "למשל:\n"
-"אלעד מדומה;קבוצה 1;1234\n"
-"ירדן בן־יוסף;קבוצה 1,קבוצה 2;4321\n"
+"אלעד מדומה;קבוצה 1;%1\n"
+"ירדן בן־יוסף;קבוצה 1,קבוצה 2;%2\n"
 
 #: server/dialogs/ImportPupilsDialog.qml:94
 msgctxt "ImportPupilsDialog|"
