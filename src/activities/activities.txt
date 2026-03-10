@@ -89,6 +89,7 @@ hanoi_real
 hexagon
 imagename
 instruments
+keyboard_training
 land_safe
 lang
 learn_additions

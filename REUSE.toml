@@ -3745,6 +3745,12 @@ SPDX-FileCopyrightText = "2023 Timothée Giet"
 SPDX-License-Identifier = "CC-BY-SA-4.0"
 
 [[annotations]]
+path = "src/activities/keyboard_training/**.svg"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 Timothée Giet"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+[[annotations]]
 path = ["src/activities/vertical_addition/**.svg", "src/activities/vertical_subtraction/**.svg", "src/activities/vertical_subtraction_compensation/**.svg"]
 precedence = "aggregate"
 SPDX-FileCopyrightText = "2024 Timothée Giet"
