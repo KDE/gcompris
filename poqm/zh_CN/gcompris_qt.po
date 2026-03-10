@@ -20594,10 +20594,9 @@ msgstr ""
 
 #. Board for the Peg solitaire game
 #: activities/peg_solitaire/peg_solitaire.js:44
-#, fuzzy
 msgctxt "peg_solitaire|"
 msgid "French board"
-msgstr "法属波利尼西亚"
+msgstr ""
 
 #. Board for the Peg solitaire game
 #: activities/peg_solitaire/peg_solitaire.js:61
@@ -20607,10 +20606,9 @@ msgstr ""
 
 #. Board for the Peg solitaire game
 #: activities/peg_solitaire/peg_solitaire.js:79
-#, fuzzy
 msgctxt "peg_solitaire|"
 msgid "Asymmetrical board"
-msgstr "数字顺序"
+msgstr ""
 
 #. Activity title
 #: activities/penalty/ActivityInfo.qml:15
