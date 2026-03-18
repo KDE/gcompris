@@ -1532,6 +1532,7 @@ msgstr "حالت آزاد"
 #: activities/digital_electricity/ActivityConfig.qml:33
 #: activities/graph-coloring/ActivityConfig.qml:32
 #: activities/guesscount/ActivityConfig.qml:39
+#: activities/keyboard_training/ActivityConfig.qml:45
 #: activities/solar_system/ActivityConfig.qml:32
 #: activities/superbrain/ActivityConfig.qml:32
 #: activities/traffic/ActivityConfig.qml:32
@@ -4903,6 +4904,7 @@ msgstr ""
 #: activities/grammar_analysis/ActivityConfig.qml:36
 #: activities/grammar_classes/ActivityConfig.qml:36
 #: activities/hangman/ActivityConfig.qml:38
+#: activities/keyboard_training/ActivityConfig.qml:39
 #: activities/lang/ActivityConfig.qml:36
 #: activities/letter-in-word/ActivityConfig.qml:69
 #: activities/missing-letter/ActivityConfig.qml:36
@@ -15728,6 +15730,55 @@ msgstr ""
 #: activities/instruments/instruments.js:292
 msgctxt "instruments|"
 msgid "Find the tuba"
+msgstr ""
+
+#: activities/keyboard_training/ActivityConfig.qml:28
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Draw letters"
+msgctxt "ActivityConfig|"
+msgid "Uppercase letters"
+msgstr "رسم حروف"
+
+#: activities/keyboard_training/ActivityConfig.qml:29
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Draw letters"
+msgctxt "ActivityConfig|"
+msgid "Lowercase letters"
+msgstr "رسم حروف"
+
+#. Activity title
+#: activities/keyboard_training/ActivityInfo.qml:14
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Memory training."
+msgctxt "ActivityInfo|"
+msgid "Keyboard training"
+msgstr "تمرین حافظه."
+
+#. Help title
+#: activities/keyboard_training/ActivityInfo.qml:16
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Find the correct date and select it on the calendar."
+msgctxt "ActivityInfo|"
+msgid "Find the requested character and type it on the keyboard."
+msgstr "روز درست را پیدا کرده و در تقویم آن را انتخاب کن."
+
+#. Help goal
+#: activities/keyboard_training/ActivityInfo.qml:19
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Learn about prime numbers."
+msgctxt "ActivityInfo|"
+msgid "Learn to type on a keyboard."
+msgstr "یادگیری در مورد اعداد اول."
+
+#. Help manual
+#: activities/keyboard_training/ActivityInfo.qml:23
+msgctxt "ActivityInfo|"
+msgid "A character is displayed. Find it on the keyboard and type it."
 msgstr ""
 
 #. Activity title

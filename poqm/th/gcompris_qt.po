@@ -1702,6 +1702,7 @@ msgstr ""
 #: activities/digital_electricity/ActivityConfig.qml:33
 #: activities/graph-coloring/ActivityConfig.qml:32
 #: activities/guesscount/ActivityConfig.qml:39
+#: activities/keyboard_training/ActivityConfig.qml:45
 #: activities/solar_system/ActivityConfig.qml:32
 #: activities/superbrain/ActivityConfig.qml:32
 #: activities/traffic/ActivityConfig.qml:32
@@ -5184,6 +5185,7 @@ msgstr ""
 #: activities/grammar_analysis/ActivityConfig.qml:36
 #: activities/grammar_classes/ActivityConfig.qml:36
 #: activities/hangman/ActivityConfig.qml:38
+#: activities/keyboard_training/ActivityConfig.qml:39
 #: activities/lang/ActivityConfig.qml:36
 #: activities/letter-in-word/ActivityConfig.qml:69
 #: activities/missing-letter/ActivityConfig.qml:36
@@ -16779,6 +16781,55 @@ msgstr "หาผีเสื้อสีส้มชานม"
 msgctxt "instruments|"
 msgid "Find the tuba"
 msgstr "หาผีเสื้อสีส้มชานม"
+
+#: activities/keyboard_training/ActivityConfig.qml:28
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Simple Letters"
+msgctxt "ActivityConfig|"
+msgid "Uppercase letters"
+msgstr "ตัวอักษรอย่างง่าย"
+
+#: activities/keyboard_training/ActivityConfig.qml:29
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Simple Letters"
+msgctxt "ActivityConfig|"
+msgid "Lowercase letters"
+msgstr "ตัวอักษรอย่างง่าย"
+
+#. Activity title
+#: activities/keyboard_training/ActivityInfo.qml:14
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Keyboard training"
+msgctxt "ActivityInfo|"
+msgid "Keyboard training"
+msgstr "ฝึกหัดการใช้แป้นพิมพ์"
+
+#. Help title
+#: activities/keyboard_training/ActivityInfo.qml:16
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Draw the picture by clicking on each numbers in the right order."
+msgctxt "ActivityInfo|"
+msgid "Find the requested character and type it on the keyboard."
+msgstr "วาดรูปด้วยการคลิกที่ตัวเลขตามลำดับ"
+
+#. Help goal
+#: activities/keyboard_training/ActivityInfo.qml:19
+#, fuzzy
+#| msgctxt "Warning|"
+#| msgid "1 is not a prime number."
+msgctxt "ActivityInfo|"
+msgid "Learn to type on a keyboard."
+msgstr "1 ไม่ใช่จำนวนเฉพาะ"
+
+#. Help manual
+#: activities/keyboard_training/ActivityInfo.qml:23
+msgctxt "ActivityInfo|"
+msgid "A character is displayed. Find it on the keyboard and type it."
+msgstr ""
 
 #. Activity title
 #: activities/land_safe/ActivityInfo.qml:15
@@ -30010,13 +30061,6 @@ msgstr ""
 #~ msgctxt "ActivityInfo|"
 #~ msgid "Hit the target and count your points."
 #~ msgstr "ปาเป้าและนับแต้ม"
-
-#, fuzzy
-#~| msgctxt "ActivityInfo|"
-#~| msgid "Keyboard training"
-#~ msgctxt "ActivityInfo|"
-#~ msgid "Keyboard training."
-#~ msgstr "ฝึกหัดการใช้แป้นพิมพ์"
 
 #, fuzzy
 #~| msgctxt "ActivityInfo|"

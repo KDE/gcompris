@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gcompris\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-04 00:40+0000\n"
+"POT-Creation-Date: 2026-03-18 00:40+0000\n"
 "PO-Revision-Date: 2026-03-04 07:33+0100\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -655,6 +655,12 @@ msgstr "Povlecite in spustite vsak element nad njegovo ime."
 #, kde-format
 msgid "Click on the correct musical instrument."
 msgstr "Klikajte na pravi glasbeni instrument."
+
+#. i18n: intro voices, see GCompris-voices/README.md - activity: "keyboard_training"
+#: activities/keyboard_training/ActivityInfo.qml:17
+#, kde-format
+msgid "Find the requested character and type it on the keyboard."
+msgstr ""
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "land_safe"
 #: activities/land_safe/ActivityInfo.qml:18

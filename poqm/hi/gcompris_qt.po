@@ -1653,6 +1653,7 @@ msgstr ""
 #: activities/digital_electricity/ActivityConfig.qml:33
 #: activities/graph-coloring/ActivityConfig.qml:32
 #: activities/guesscount/ActivityConfig.qml:39
+#: activities/keyboard_training/ActivityConfig.qml:45
 #: activities/solar_system/ActivityConfig.qml:32
 #: activities/superbrain/ActivityConfig.qml:32
 #: activities/traffic/ActivityConfig.qml:32
@@ -5291,6 +5292,7 @@ msgstr "1955 सिट्रॉइन DS 19"
 #: activities/grammar_analysis/ActivityConfig.qml:36
 #: activities/grammar_classes/ActivityConfig.qml:36
 #: activities/hangman/ActivityConfig.qml:38
+#: activities/keyboard_training/ActivityConfig.qml:39
 #: activities/lang/ActivityConfig.qml:36
 #: activities/letter-in-word/ActivityConfig.qml:69
 #: activities/missing-letter/ActivityConfig.qml:36
@@ -17961,6 +17963,56 @@ msgstr "टम्बोरिन को ढूंढें"
 msgctxt "instruments|"
 msgid "Find the tuba"
 msgstr "ट्यूबा को ढूंढें"
+
+#: activities/keyboard_training/ActivityConfig.qml:28
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Draw Letters"
+msgctxt "ActivityConfig|"
+msgid "Uppercase letters"
+msgstr "अक्षर लिखें"
+
+#: activities/keyboard_training/ActivityConfig.qml:29
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Draw Letters"
+msgctxt "ActivityConfig|"
+msgid "Lowercase letters"
+msgstr "अक्षर लिखें"
+
+#. Activity title
+#: activities/keyboard_training/ActivityInfo.qml:14
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Keyboard training"
+msgctxt "ActivityInfo|"
+msgid "Keyboard training"
+msgstr "कुंजी पटल प्रशिक्षण"
+
+#. Help title
+#: activities/keyboard_training/ActivityInfo.qml:16
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid ""
+#| "Review the instructions and then drag and drop the elements as specified"
+msgctxt "ActivityInfo|"
+msgid "Find the requested character and type it on the keyboard."
+msgstr "निर्देशों की समीक्षा करें और फिर वस्तुओं को निर्दिष्ट के अनुसार खींचें और छोडें। "
+
+#. Help goal
+#: activities/keyboard_training/ActivityInfo.qml:19
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Learn the water cycle"
+msgctxt "ActivityInfo|"
+msgid "Learn to type on a keyboard."
+msgstr "जल चक्र सीखें"
+
+#. Help manual
+#: activities/keyboard_training/ActivityInfo.qml:23
+msgctxt "ActivityInfo|"
+msgid "A character is displayed. Find it on the keyboard and type it."
+msgstr ""
 
 #. Activity title
 #: activities/land_safe/ActivityInfo.qml:15
@@ -32949,13 +33001,6 @@ msgstr ""
 #~ "game."
 #~ msgstr ""
 #~ "गेम को जीतने के लिए किसी भी क्षैतिज, ऊर्ध्वाधर, या विकर्ण पंक्ति में तीन संबंधित अंक रखें"
-
-#, fuzzy
-#~| msgctxt "ActivityInfo|"
-#~| msgid "Keyboard training"
-#~ msgctxt "ActivityInfo|"
-#~ msgid "Keyboard training."
-#~ msgstr "कुंजी पटल प्रशिक्षण"
 
 #~ msgctxt "Guesscount|"
 #~ msgid "%1/%2"

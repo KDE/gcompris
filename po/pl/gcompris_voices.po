@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-04 00:40+0000\n"
+"POT-Creation-Date: 2026-03-18 00:40+0000\n"
 "PO-Revision-Date: 2026-01-01 12:27+0100\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: pl\n"
@@ -655,6 +655,12 @@ msgstr "Przeciągnij i upuść każdy element nad jego nazwą."
 #, kde-format
 msgid "Click on the correct musical instrument."
 msgstr "Kliknij na właściwym instrumencie muzycznym."
+
+#. i18n: intro voices, see GCompris-voices/README.md - activity: "keyboard_training"
+#: activities/keyboard_training/ActivityInfo.qml:17
+#, kde-format
+msgid "Find the requested character and type it on the keyboard."
+msgstr ""
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "land_safe"
 #: activities/land_safe/ActivityInfo.qml:18

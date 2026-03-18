@@ -1528,6 +1528,7 @@ msgstr "自由玩模式"
 #: activities/digital_electricity/ActivityConfig.qml:33
 #: activities/graph-coloring/ActivityConfig.qml:32
 #: activities/guesscount/ActivityConfig.qml:39
+#: activities/keyboard_training/ActivityConfig.qml:45
 #: activities/solar_system/ActivityConfig.qml:32
 #: activities/superbrain/ActivityConfig.qml:32
 #: activities/traffic/ActivityConfig.qml:32
@@ -4962,6 +4963,7 @@ msgstr "1955 年星辰 (Citroën) 的 DS 19"
 #: activities/grammar_analysis/ActivityConfig.qml:36
 #: activities/grammar_classes/ActivityConfig.qml:36
 #: activities/hangman/ActivityConfig.qml:38
+#: activities/keyboard_training/ActivityConfig.qml:39
 #: activities/lang/ActivityConfig.qml:36
 #: activities/letter-in-word/ActivityConfig.qml:69
 #: activities/missing-letter/ActivityConfig.qml:36
@@ -16312,6 +16314,55 @@ msgstr "找出鈴鼓"
 msgctxt "instruments|"
 msgid "Find the tuba"
 msgstr "找出大號"
+
+#: activities/keyboard_training/ActivityConfig.qml:28
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Draw letters"
+msgctxt "ActivityConfig|"
+msgid "Uppercase letters"
+msgstr "畫出字母"
+
+#: activities/keyboard_training/ActivityConfig.qml:29
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Draw letters"
+msgctxt "ActivityConfig|"
+msgid "Lowercase letters"
+msgstr "畫出字母"
+
+#. Activity title
+#: activities/keyboard_training/ActivityInfo.qml:14
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Keyboard training."
+msgctxt "ActivityInfo|"
+msgid "Keyboard training"
+msgstr "鍵盤訓練。"
+
+#. Help title
+#: activities/keyboard_training/ActivityInfo.qml:16
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Find the correct date and select it on the calendar."
+msgctxt "ActivityInfo|"
+msgid "Find the requested character and type it on the keyboard."
+msgstr "在日曆上找到並選擇正確的日期。"
+
+#. Help goal
+#: activities/keyboard_training/ActivityInfo.qml:19
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Learn the alphabetical order."
+msgctxt "ActivityInfo|"
+msgid "Learn to type on a keyboard."
+msgstr "學習字母的順序。"
+
+#. Help manual
+#: activities/keyboard_training/ActivityInfo.qml:23
+msgctxt "ActivityInfo|"
+msgid "A character is displayed. Find it on the keyboard and type it."
+msgstr ""
 
 #. Activity title
 #: activities/land_safe/ActivityInfo.qml:15
@@ -29425,10 +29476,6 @@ msgstr "開始"
 #~ "Place three marks in any horizontal, vertical, or diagonal row to win the "
 #~ "game."
 #~ msgstr "三個記號連成垂直、水平或對角的一條線。"
-
-#~ msgctxt "ActivityInfo|"
-#~ msgid "Keyboard training."
-#~ msgstr "鍵盤訓練。"
 
 #~ msgctxt "Guesscount|"
 #~ msgid "%1/%2"

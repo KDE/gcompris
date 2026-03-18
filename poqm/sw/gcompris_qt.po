@@ -1490,6 +1490,7 @@ msgstr "Hali ya Bure"
 #: activities/digital_electricity/ActivityConfig.qml:33
 #: activities/graph-coloring/ActivityConfig.qml:32
 #: activities/guesscount/ActivityConfig.qml:39
+#: activities/keyboard_training/ActivityConfig.qml:45
 #: activities/solar_system/ActivityConfig.qml:32
 #: activities/superbrain/ActivityConfig.qml:32
 #: activities/traffic/ActivityConfig.qml:32
@@ -5095,6 +5096,7 @@ msgstr "1955 Citroën DS 19"
 #: activities/grammar_analysis/ActivityConfig.qml:36
 #: activities/grammar_classes/ActivityConfig.qml:36
 #: activities/hangman/ActivityConfig.qml:38
+#: activities/keyboard_training/ActivityConfig.qml:39
 #: activities/lang/ActivityConfig.qml:36
 #: activities/letter-in-word/ActivityConfig.qml:69
 #: activities/missing-letter/ActivityConfig.qml:36
@@ -16734,6 +16736,55 @@ msgstr "Tafuta tari"
 msgctxt "instruments|"
 msgid "Find the tuba"
 msgstr "Tafuta tuba"
+
+#: activities/keyboard_training/ActivityConfig.qml:28
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Draw letters"
+msgctxt "ActivityConfig|"
+msgid "Uppercase letters"
+msgstr "Chora herufi"
+
+#: activities/keyboard_training/ActivityConfig.qml:29
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Draw letters"
+msgctxt "ActivityConfig|"
+msgid "Lowercase letters"
+msgstr "Chora herufi"
+
+#. Activity title
+#: activities/keyboard_training/ActivityInfo.qml:14
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Keyboard training."
+msgctxt "ActivityInfo|"
+msgid "Keyboard training"
+msgstr "Mafunzo ya kibodi."
+
+#. Help title
+#: activities/keyboard_training/ActivityInfo.qml:16
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Find the correct date and select it on the calendar."
+msgctxt "ActivityInfo|"
+msgid "Find the requested character and type it on the keyboard."
+msgstr "Tafuta tarehe sahihi na uchague kwenye kalenda."
+
+#. Help goal
+#: activities/keyboard_training/ActivityInfo.qml:19
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Learn the alphabetical order."
+msgctxt "ActivityInfo|"
+msgid "Learn to type on a keyboard."
+msgstr "Jifunze mpangilio wa alfabeti."
+
+#. Help manual
+#: activities/keyboard_training/ActivityInfo.qml:23
+msgctxt "ActivityInfo|"
+msgid "A character is displayed. Find it on the keyboard and type it."
+msgstr ""
 
 #. Activity title
 #: activities/land_safe/ActivityInfo.qml:15
@@ -30435,10 +30486,6 @@ msgstr "Anzisha"
 #~ "game."
 #~ msgstr ""
 #~ "Weka alama tatu katika safu mlalo, wima au mlalo ili kushinda mchezo."
-
-#~ msgctxt "ActivityInfo|"
-#~ msgid "Keyboard training."
-#~ msgstr "Mafunzo ya kibodi."
 
 #~ msgctxt "Data|"
 #~ msgid "Copy and complete this frieze"

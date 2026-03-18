@@ -1484,6 +1484,7 @@ msgstr "Mod liber"
 #: activities/digital_electricity/ActivityConfig.qml:33
 #: activities/graph-coloring/ActivityConfig.qml:32
 #: activities/guesscount/ActivityConfig.qml:39
+#: activities/keyboard_training/ActivityConfig.qml:45
 #: activities/solar_system/ActivityConfig.qml:32
 #: activities/superbrain/ActivityConfig.qml:32
 #: activities/traffic/ActivityConfig.qml:32
@@ -5086,6 +5087,7 @@ msgstr "1955 Citroën DS 19"
 #: activities/grammar_analysis/ActivityConfig.qml:36
 #: activities/grammar_classes/ActivityConfig.qml:36
 #: activities/hangman/ActivityConfig.qml:38
+#: activities/keyboard_training/ActivityConfig.qml:39
 #: activities/lang/ActivityConfig.qml:36
 #: activities/letter-in-word/ActivityConfig.qml:69
 #: activities/missing-letter/ActivityConfig.qml:36
@@ -16679,6 +16681,55 @@ msgstr "Găsește tamburina"
 msgctxt "instruments|"
 msgid "Find the tuba"
 msgstr "Găsește tuba"
+
+#: activities/keyboard_training/ActivityConfig.qml:28
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Draw letters"
+msgctxt "ActivityConfig|"
+msgid "Uppercase letters"
+msgstr "Scrie litere"
+
+#: activities/keyboard_training/ActivityConfig.qml:29
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Draw letters"
+msgctxt "ActivityConfig|"
+msgid "Lowercase letters"
+msgstr "Scrie litere"
+
+#. Activity title
+#: activities/keyboard_training/ActivityInfo.qml:14
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Keyboard training."
+msgctxt "ActivityInfo|"
+msgid "Keyboard training"
+msgstr "Exersarea scrierii la tastatura."
+
+#. Help title
+#: activities/keyboard_training/ActivityInfo.qml:16
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Read the score, and then play it on the keyboard."
+msgctxt "ActivityInfo|"
+msgid "Find the requested character and type it on the keyboard."
+msgstr "Citește partitura și apoi cânt-o la claviatură."
+
+#. Help goal
+#: activities/keyboard_training/ActivityInfo.qml:19
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Learn to spell words."
+msgctxt "ActivityInfo|"
+msgid "Learn to type on a keyboard."
+msgstr "Să înveți să scrii corect cuvinte."
+
+#. Help manual
+#: activities/keyboard_training/ActivityInfo.qml:23
+msgctxt "ActivityInfo|"
+msgid "A character is displayed. Find it on the keyboard and type it."
+msgstr ""
 
 #. Activity title
 #: activities/land_safe/ActivityInfo.qml:15
@@ -30165,10 +30216,6 @@ msgstr "Start"
 #~ msgstr ""
 #~ "Să pui trei de X pe o linie orizontală, verticală sau diagonală, pentru a "
 #~ "câștiga jocul."
-
-#~ msgctxt "ActivityInfo|"
-#~ msgid "Keyboard training."
-#~ msgstr "Exersarea scrierii la tastatura."
 
 #~ msgctxt "Data|"
 #~ msgid "Copy and complete this frieze"

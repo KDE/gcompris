@@ -1469,6 +1469,7 @@ msgstr "സ്വതന്ത്ര മോഡ്"
 #: activities/digital_electricity/ActivityConfig.qml:33
 #: activities/graph-coloring/ActivityConfig.qml:32
 #: activities/guesscount/ActivityConfig.qml:39
+#: activities/keyboard_training/ActivityConfig.qml:45
 #: activities/solar_system/ActivityConfig.qml:32
 #: activities/superbrain/ActivityConfig.qml:32
 #: activities/traffic/ActivityConfig.qml:32
@@ -4902,6 +4903,7 @@ msgstr "1955 സിട്രോയെൻ ഡിഎസ് 19"
 #: activities/grammar_analysis/ActivityConfig.qml:36
 #: activities/grammar_classes/ActivityConfig.qml:36
 #: activities/hangman/ActivityConfig.qml:38
+#: activities/keyboard_training/ActivityConfig.qml:39
 #: activities/lang/ActivityConfig.qml:36
 #: activities/letter-in-word/ActivityConfig.qml:69
 #: activities/missing-letter/ActivityConfig.qml:36
@@ -16298,6 +16300,55 @@ msgstr "ടാമ്പൂരിൻ കണ്ടെത്തൂ"
 msgctxt "instruments|"
 msgid "Find the tuba"
 msgstr "ട്യൂബ കണ്ടെത്തൂ"
+
+#: activities/keyboard_training/ActivityConfig.qml:28
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Draw letters"
+msgctxt "ActivityConfig|"
+msgid "Uppercase letters"
+msgstr "അക്ഷരങ്ങൾ വരയ്ക്കാം"
+
+#: activities/keyboard_training/ActivityConfig.qml:29
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Draw letters"
+msgctxt "ActivityConfig|"
+msgid "Lowercase letters"
+msgstr "അക്ഷരങ്ങൾ വരയ്ക്കാം"
+
+#. Activity title
+#: activities/keyboard_training/ActivityInfo.qml:14
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Keyboard training."
+msgctxt "ActivityInfo|"
+msgid "Keyboard training"
+msgstr "കീബോർഡ് പരിശീലനം."
+
+#. Help title
+#: activities/keyboard_training/ActivityInfo.qml:16
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Read the score, and then play it on the keyboard."
+msgctxt "ActivityInfo|"
+msgid "Find the requested character and type it on the keyboard."
+msgstr "സ്വരങ്ങൾ വായിച്ച് പിയാനോയിൽ പ്ലേ ചെയ്യൂ."
+
+#. Help goal
+#: activities/keyboard_training/ActivityInfo.qml:19
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Learn to spell words."
+msgctxt "ActivityInfo|"
+msgid "Learn to type on a keyboard."
+msgstr "അക്ഷരവിന്യാസം പഠിക്കൽ."
+
+#. Help manual
+#: activities/keyboard_training/ActivityInfo.qml:23
+msgctxt "ActivityInfo|"
+msgid "A character is displayed. Find it on the keyboard and type it."
+msgstr ""
 
 #. Activity title
 #: activities/land_safe/ActivityInfo.qml:15
@@ -29065,10 +29116,6 @@ msgstr "തുടങ്ങാം"
 #~ "game."
 #~ msgstr ""
 #~ "തലങ്ങനെയോ വിലങ്ങനെയോ കോണോടുകോണായോ ഉള്ള ഒരു നിരയിൽ മൂന്നു ചിഹ്നങ്ങൾ നിരത്തുന്ന ആൾ വിജയി."
-
-#~ msgctxt "ActivityInfo|"
-#~ msgid "Keyboard training."
-#~ msgstr "കീബോർഡ് പരിശീലനം."
 
 #~ msgctxt "Data|"
 #~ msgid "Copy and complete this frieze"
