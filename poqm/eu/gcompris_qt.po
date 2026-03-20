@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GCompris\n"
 "POT-Creation-Date: 2018-11-30 13:03+0000\n"
-"PO-Revision-Date: 2026-03-08 09:09+0100\n"
+"PO-Revision-Date: 2026-03-19 21:52+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -16538,53 +16538,38 @@ msgid "Find the tuba"
 msgstr "Topatu tuba"
 
 #: activities/keyboard_training/ActivityConfig.qml:28
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Draw letters"
 msgctxt "ActivityConfig|"
 msgid "Uppercase letters"
-msgstr "Letrak marraztea"
+msgstr "Letra larriak"
 
 #: activities/keyboard_training/ActivityConfig.qml:29
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Draw letters"
 msgctxt "ActivityConfig|"
 msgid "Lowercase letters"
-msgstr "Letrak marraztea"
+msgstr "Letra xeheak"
 
 #. Activity title
 #: activities/keyboard_training/ActivityInfo.qml:14
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Keyboard training."
 msgctxt "ActivityInfo|"
 msgid "Keyboard training"
-msgstr "Teklatuarekin trebatzea."
+msgstr "Teklatuarekin trebatzea"
 
 #. Help title
 #: activities/keyboard_training/ActivityInfo.qml:16
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Read the score, and then play it on the keyboard."
 msgctxt "ActivityInfo|"
 msgid "Find the requested character and type it on the keyboard."
-msgstr "Nota irakurri, eta teklatuan jo."
+msgstr "Aurkitu eskatutako karakterea eta tekleatu teklatuan."
 
 #. Help goal
 #: activities/keyboard_training/ActivityInfo.qml:19
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Learn to spell words."
 msgctxt "ActivityInfo|"
 msgid "Learn to type on a keyboard."
-msgstr "Hitzak letreiatzen ikastea."
+msgstr "Teklatuarekin tekleatzen ikasi."
 
 #. Help manual
 #: activities/keyboard_training/ActivityInfo.qml:23
 msgctxt "ActivityInfo|"
 msgid "A character is displayed. Find it on the keyboard and type it."
-msgstr ""
+msgstr "Karaktere bat erakutsiko da. Teklatuan aurkitu eta tekleatu."
 
 #. Activity title
 #: activities/land_safe/ActivityInfo.qml:15

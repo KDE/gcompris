@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: gcompris\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-03-18 00:40+0000\n"
-"PO-Revision-Date: 2026-03-08 11:23+0100\n"
+"PO-Revision-Date: 2026-03-19 21:50+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -668,7 +668,7 @@ msgstr "Egin klik dagokion musika tresnari."
 #: activities/keyboard_training/ActivityInfo.qml:17
 #, kde-format
 msgid "Find the requested character and type it on the keyboard."
-msgstr ""
+msgstr "Aurkitu eskatutako karakterea eta tekleatu teklatuan."
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "land_safe"
 #: activities/land_safe/ActivityInfo.qml:18
