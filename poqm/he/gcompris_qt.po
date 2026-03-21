@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GCompris\n"
 "POT-Creation-Date: 2019-09-04 13:03+0000\n"
-"PO-Revision-Date: 2026-03-18 16:21+0200\n"
+"PO-Revision-Date: 2026-03-20 08:13+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -21063,7 +21063,7 @@ msgstr "אוטאגאווה הירושיגה, סוס מקרל וסרטנים - 18
 #: activities/path_decoding/ActivityInfo.qml:14
 msgctxt "ActivityInfo|"
 msgid "Path decoding"
-msgstr "פענוח נתיב"
+msgstr "פיענוח נתיב"
 
 #. Help title
 #: activities/path_decoding/ActivityInfo.qml:16
@@ -21125,7 +21125,7 @@ msgstr "רשתות %1x%2."
 #: activities/path_decoding_relative/ActivityInfo.qml:14
 msgctxt "ActivityInfo|"
 msgid "Relative path decoding"
-msgstr "פענוח נתיב יחסי"
+msgstr "פיענוח נתיב יחסי"
 
 #: activities/path_decoding_relative/ActivityInfo.qml:23
 #: activities/path_encoding_relative/ActivityInfo.qml:23
