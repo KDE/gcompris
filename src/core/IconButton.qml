@@ -14,6 +14,7 @@ Item {
     property bool selected: false
     property alias source: iconImage.source
     property alias mirror: iconImage.mirror
+    property alias mirrorVertically: iconImage.mirrorVertically
     property alias buttonArea: buttonArea
     smooth: true
     width: 50
