@@ -30824,12 +30824,12 @@ msgctxt "main|"
 msgid "Background music"
 msgstr "Música de fundo"
 
-#: core/main.qml:248 core/main.qml:510
+#: core/main.qml:248 core/main.qml:545
 msgctxt "main|"
 msgid "Yes"
 msgstr "Sim"
 
-#: core/main.qml:255 core/main.qml:516
+#: core/main.qml:255 core/main.qml:551
 msgctxt "main|"
 msgid "No"
 msgstr "Não"
@@ -30846,7 +30846,7 @@ msgctxt "main|"
 msgid "Apply"
 msgstr ""
 
-#: core/main.qml:275 core/main.qml:551 core/main.qml:626
+#: core/main.qml:275 core/main.qml:586 core/main.qml:661
 #, fuzzy
 #| msgctxt "DialogChooseLevel|"
 #| msgid "Cancel"
@@ -30897,7 +30897,14 @@ msgctxt "main|"
 msgid "GCompris has been updated! Here are the new changes:<br/>"
 msgstr "O GCompris foi actualizado! Aqui estão as novas alterações:<br/>"
 
-#: core/main.qml:509
+#: core/main.qml:504
+msgctxt "main|"
+msgid ""
+"The following activities do not have any active datasets! All of their "
+"datasets will be reactivated."
+msgstr ""
+
+#: core/main.qml:544
 #, fuzzy, qt-format
 #| msgctxt "Chess|"
 #| msgid "Do you really want to undo all the moves?"
@@ -30905,18 +30912,18 @@ msgctxt "main|"
 msgid "Do you want to connect to server %1?"
 msgstr "Deseja realmente anular todas as jogadas?"
 
-#: core/main.qml:530
+#: core/main.qml:565
 #, qt-format
 msgctxt "main|"
 msgid "Password rejected by server %1"
 msgstr ""
 
-#: core/main.qml:531 core/main.qml:550 core/main.qml:625
+#: core/main.qml:566 core/main.qml:585 core/main.qml:660
 msgctxt "main|"
 msgid "OK"
 msgstr ""
 
-#: core/main.qml:546
+#: core/main.qml:581
 #, fuzzy
 #| msgctxt "ActivityConfig|"
 #| msgid "Select your mode"
@@ -30924,12 +30931,12 @@ msgctxt "main|"
 msgid "Select your username"
 msgstr "Seleccionar o seu modo"
 
-#: core/main.qml:556
+#: core/main.qml:591
 msgctxt "main|"
 msgid "Please select your username in the list or cancel."
 msgstr ""
 
-#: core/main.qml:623
+#: core/main.qml:658
 #, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Enter: validate your answer"

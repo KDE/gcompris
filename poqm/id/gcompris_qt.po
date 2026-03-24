@@ -29221,12 +29221,12 @@ msgctxt "main|"
 msgid "Background music"
 msgstr "Latar belakang musik"
 
-#: core/main.qml:248 core/main.qml:510
+#: core/main.qml:248 core/main.qml:545
 msgctxt "main|"
 msgid "Yes"
 msgstr "Ya"
 
-#: core/main.qml:255 core/main.qml:516
+#: core/main.qml:255 core/main.qml:551
 msgctxt "main|"
 msgid "No"
 msgstr "Tidak"
@@ -29245,7 +29245,7 @@ msgctxt "main|"
 msgid "Apply"
 msgstr "Terapkan"
 
-#: core/main.qml:275 core/main.qml:551 core/main.qml:626
+#: core/main.qml:275 core/main.qml:586 core/main.qml:661
 msgctxt "main|"
 msgid "Cancel"
 msgstr "Batal"
@@ -29287,7 +29287,14 @@ msgstr ""
 "GCompris sudah diperbarui! Ini adalah perubahan terbaru dari versi "
 "sebelumnya:<br/>"
 
-#: core/main.qml:509
+#: core/main.qml:504
+msgctxt "main|"
+msgid ""
+"The following activities do not have any active datasets! All of their "
+"datasets will be reactivated."
+msgstr ""
+
+#: core/main.qml:544
 #, fuzzy, qt-format
 #| msgctxt "Sketch|"
 #| msgid "Do you want to erase this image?"
@@ -29295,13 +29302,13 @@ msgctxt "main|"
 msgid "Do you want to connect to server %1?"
 msgstr "Apakah kamu ingin menghapus gambar ini?"
 
-#: core/main.qml:530
+#: core/main.qml:565
 #, qt-format
 msgctxt "main|"
 msgid "Password rejected by server %1"
 msgstr ""
 
-#: core/main.qml:531 core/main.qml:550 core/main.qml:625
+#: core/main.qml:566 core/main.qml:585 core/main.qml:660
 #, fuzzy
 #| msgctxt "Balancebox|"
 #| msgid "OK"
@@ -29309,7 +29316,7 @@ msgctxt "main|"
 msgid "OK"
 msgstr "OKE"
 
-#: core/main.qml:546
+#: core/main.qml:581
 #, fuzzy
 #| msgctxt "ActivityConfig|"
 #| msgid "Select your mode"
@@ -29317,12 +29324,12 @@ msgctxt "main|"
 msgid "Select your username"
 msgstr "Pilih mode kamu"
 
-#: core/main.qml:556
+#: core/main.qml:591
 msgctxt "main|"
 msgid "Please select your username in the list or cancel."
 msgstr ""
 
-#: core/main.qml:623
+#: core/main.qml:658
 #, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Enter: validate your answer"

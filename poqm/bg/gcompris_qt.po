@@ -28922,12 +28922,12 @@ msgctxt "main|"
 msgid "Background music"
 msgstr "Фонова музика"
 
-#: core/main.qml:248 core/main.qml:510
+#: core/main.qml:248 core/main.qml:545
 msgctxt "main|"
 msgid "Yes"
 msgstr "Да"
 
-#: core/main.qml:255 core/main.qml:516
+#: core/main.qml:255 core/main.qml:551
 msgctxt "main|"
 msgid "No"
 msgstr "Без"
@@ -28946,7 +28946,7 @@ msgctxt "main|"
 msgid "Apply"
 msgstr "Прилагане"
 
-#: core/main.qml:275 core/main.qml:551 core/main.qml:626
+#: core/main.qml:275 core/main.qml:586 core/main.qml:661
 msgctxt "main|"
 msgid "Cancel"
 msgstr "Отказване"
@@ -28987,34 +28987,41 @@ msgctxt "main|"
 msgid "GCompris has been updated! Here are the new changes:<br/>"
 msgstr "Gcompris е актуализиран! Това са новите промени: <br />"
 
-#: core/main.qml:509
+#: core/main.qml:504
+msgctxt "main|"
+msgid ""
+"The following activities do not have any active datasets! All of their "
+"datasets will be reactivated."
+msgstr ""
+
+#: core/main.qml:544
 #, qt-format
 msgctxt "main|"
 msgid "Do you want to connect to server %1?"
 msgstr "Искате ли да се свържете със сървър %1?"
 
-#: core/main.qml:530
+#: core/main.qml:565
 #, qt-format
 msgctxt "main|"
 msgid "Password rejected by server %1"
 msgstr "Паролата е отхвърлена от сървър %1"
 
-#: core/main.qml:531 core/main.qml:550 core/main.qml:625
+#: core/main.qml:566 core/main.qml:585 core/main.qml:660
 msgctxt "main|"
 msgid "OK"
 msgstr "Добре"
 
-#: core/main.qml:546
+#: core/main.qml:581
 msgctxt "main|"
 msgid "Select your username"
 msgstr "Изберете потребителското си име"
 
-#: core/main.qml:556
+#: core/main.qml:591
 msgctxt "main|"
 msgid "Please select your username in the list or cancel."
 msgstr "Моля, изберете потребителското си име от списъка или отменете."
 
-#: core/main.qml:623
+#: core/main.qml:658
 msgctxt "main|"
 msgid "Enter your password"
 msgstr "Въведете паролата си"
