@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-03-18 17:02+0100\n"
+"PO-Revision-Date: 2026-03-24 12:54+0100\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -29087,6 +29087,8 @@ msgid ""
 "The following activities do not have any active datasets! All of their "
 "datasets will be reactivated."
 msgstr ""
+"De volgende activiteiten hebben geen enkele actieve gegevensset! Al hun "
+"gegevenssets zullen opnieuw geactiveerd worden."
 
 #: core/main.qml:544
 #, qt-format

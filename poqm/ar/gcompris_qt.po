@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-03-08 09:52+0400\n"
+"PO-Revision-Date: 2026-03-24 10:56+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -15403,7 +15403,7 @@ msgstr ""
 "الإدخال الأيمن العلوي. ستُخبر إذا كان عددك أعلى أو أقل من العدد المطلوب. حاول "
 "مرارًا حتى تجد الإجابة الصحيحة. تمثل المسافة بين البطريق والجانب الأيمن من "
 "الشاشة مدى بعدك عن العدد المطلوب.  إذا كان البطريق أعلى أو أسفل منتصف "
-"الشاشة  رأسيًا، فهذا يعني أن عددك أعلى أو أقل من العدد المبحوث عنه."
+"الشاشة  عموديًا، فهذا يعني أن عددك أعلى أو أقل من العدد المبحوث عنه."
 
 #: activities/guessnumber/ActivityInfo.qml:25
 msgctxt "ActivityInfo|"
@@ -16106,53 +16106,38 @@ msgid "Find the tuba"
 msgstr "جِد آلة التوبا"
 
 #: activities/keyboard_training/ActivityConfig.qml:28
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Draw letters"
 msgctxt "ActivityConfig|"
 msgid "Uppercase letters"
-msgstr "ارسم الحروف"
+msgstr "الحروف الكبيرة"
 
 #: activities/keyboard_training/ActivityConfig.qml:29
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Draw letters"
 msgctxt "ActivityConfig|"
 msgid "Lowercase letters"
-msgstr "ارسم الحروف"
+msgstr "الأشكال الصغيرة للحروف"
 
 #. Activity title
 #: activities/keyboard_training/ActivityInfo.qml:14
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Keyboard training."
 msgctxt "ActivityInfo|"
 msgid "Keyboard training"
-msgstr "التّدرّب على لوحة المفاتيح."
+msgstr "التدرّب على لوحة المفاتيح"
 
 #. Help title
 #: activities/keyboard_training/ActivityInfo.qml:16
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Read the score, and then play it on the keyboard."
 msgctxt "ActivityInfo|"
 msgid "Find the requested character and type it on the keyboard."
-msgstr "اقرأ العلامة الموسيقية، ثم اعزفها على البيانو."
+msgstr "ابحث عن الحرف المطلوب واكتبه على لوحة المفاتيح."
 
 #. Help goal
 #: activities/keyboard_training/ActivityInfo.qml:19
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Learn to spell words."
 msgctxt "ActivityInfo|"
 msgid "Learn to type on a keyboard."
-msgstr "تعلّم تهجية الكلمات."
+msgstr "تعلم الكتابة على لوحة المفاتيح."
 
 #. Help manual
 #: activities/keyboard_training/ActivityInfo.qml:23
 msgctxt "ActivityInfo|"
 msgid "A character is displayed. Find it on the keyboard and type it."
-msgstr ""
+msgstr "يظهر حرف. ابحث عنه في لوحة المفاتيح واكتبه."
 
 #. Activity title
 #: activities/land_safe/ActivityInfo.qml:15
@@ -16222,7 +16207,7 @@ msgid ""
 "the lower red area it's lower, and on the blue baseline in the yellow middle "
 "area the two forces cancel each other out."
 msgstr ""
-"مقياس التسارع في الطرف الأيمن يوضّح التسارع الرأسي الكلي للصاروخ بما في ذلك "
+"مقياس التسارع في الطرف الأيمن يوضّح التسارع العمودي الكلي للصاروخ بما في ذلك "
 "قوة الجاذبية. في المنطقة الخضراء العليا من مقياس التسارع، يكون التسارع أكبر "
 "من قوة الجاذبية، وفي المنطقة الحمراء السفلية يكون التسارع أقل من الجاذبية، "
 "وعلى خط الأساس الأزرق في المنطقة الوسطى الصفراء، تلغي القوتان بعضهما البعض."
@@ -22181,7 +22166,7 @@ msgid ""
 "Odd levels display a vertical line on the staff following the rhythm: click "
 "on the drum when the line is in the middle of the notes."
 msgstr ""
-"تعرض المستويات الفردية خطًا رأسيًا على المدرج يتبع الإيقاع: انقر فوق الطبل "
+"تعرض المستويات الفردية خطًا عموديًا على المدرج يتبع الإيقاع: انقر فوق الطبل "
 "عندما يكون الخط في منتصف النغمات."
 
 #: activities/play_rhythm/ActivityInfo.qml:30
@@ -22761,7 +22746,7 @@ msgstr "لا لم تكن هناك!"
 #: activities/readingv/ActivityInfo.qml:15
 msgctxt "ActivityInfo|"
 msgid "Vertical reading practice"
-msgstr "تدريب على القراءة الرأسية"
+msgstr "تدريب على القراءة العمودية"
 
 #. Help title
 #: activities/readingv/ActivityInfo.qml:17
@@ -26593,8 +26578,8 @@ msgid ""
 "Each car can only move either horizontally or vertically. You must make some "
 "room in order to let the red car move through the gate on the right."
 msgstr ""
-"تتحرك كل سيارة أفقيًا أو رأسيًا فقط. وفّر فراغات للسماح للسيارة الحمراء بالتحرك "
-"إلى البوابة على اليمين."
+"تتحرك كل سيارة أفقيًا أو عموديًا فقط. وفّر فراغات للسماح للسيارة الحمراء "
+"بالتحرك إلى البوابة على اليمين."
 
 #. Activity title
 #: activities/vertical_addition/ActivityInfo.qml:15
