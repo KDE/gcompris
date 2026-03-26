@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-02-09 21:30+0200\n"
+"PO-Revision-Date: 2026-03-25 09:42+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -12,7 +12,7 @@ msgstr ""
 "X-Qt-Contexts: true\n"
 "Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
 "n % 10 == 0) ? 2 : 3));\n"
-"X-Generator: Lokalize 25.12.1\n"
+"X-Generator: Lokalize 25.12.3\n"
 
 #: server/activities/adjacent_numbers/ActivityEditor.qml:13
 #: server/activities/binary_bulb/ActivityEditor.qml:12
@@ -492,7 +492,7 @@ msgstr "סדרת הנתונים ריקה."
 #, qt-format
 msgctxt "ComparatorEditor|"
 msgid "Level %1 must not be empty."
-msgstr "רמה %1 לא יכולה להיות ריקה."
+msgstr "שלב %1 לא יכול להיות ריק."
 
 #: server/activities/comparator/ComparatorEditor.qml:126
 #, qt-format
@@ -598,7 +598,7 @@ msgstr "סדרת הנתונים ריקה."
 #, qt-format
 msgctxt "FractionsCreateEditor|"
 msgid "Level %1 must not be empty."
-msgstr "רמה %1 לא יכולה להיות ריקה."
+msgstr "שלב %1 לא יכול להיות ריק."
 
 #: server/activities/fractions_create/FractionsCreateEditor.qml:146
 #, qt-format
@@ -686,7 +686,7 @@ msgstr "סדרת הנתונים ריקה."
 #, qt-format
 msgctxt "FractionsFindEditor|"
 msgid "Level %1 must not be empty."
-msgstr "רמה %1 לא יכולה להיות ריקה."
+msgstr "שלב %1 לא יכול להיות ריק."
 
 #: server/activities/fractions_find/FractionsFindEditor.qml:173
 #, qt-format
@@ -764,7 +764,7 @@ msgstr "סדרת הנתונים ריקה."
 #, qt-format
 msgctxt "LearnDecimalsEditor|"
 msgid "Level %1 must not be empty."
-msgstr "רמה %1 לא יכולה להיות ריקה."
+msgstr "שלב %1 לא יכול להיות ריק."
 
 #: server/activities/learn_decimals/LearnDecimalsEditor.qml:154
 #, qt-format
@@ -826,7 +826,7 @@ msgstr "סדרת הנתונים ריקה."
 #, qt-format
 msgctxt "DecimalAdditionEditor|"
 msgid "Level %1 must not be empty."
-msgstr "רמה %1 לא יכולה להיות ריקה."
+msgstr "שלב %1 לא יכול להיות ריק."
 
 #: server/activities/learn_decimals_additions/DecimalAdditionEditor.qml:196
 #, qt-format
@@ -1078,7 +1078,7 @@ msgstr "סדרת הנתונים ריקה."
 #, qt-format
 msgctxt "MultipleChoiceEditor|"
 msgid "Level %1 must not be empty."
-msgstr "רמה %1 לא יכולה להיות ריקה."
+msgstr "שלב %1 לא יכול להיות ריק."
 
 #: server/activities/multiple_choice_questions/MultipleChoiceEditor.qml:138
 #, qt-format
