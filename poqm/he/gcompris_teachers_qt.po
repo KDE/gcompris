@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-03-08 22:32+0200\n"
+"PO-Revision-Date: 2026-03-25 09:42+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
 "n % 10 == 0) ? 2 : 3));\n"
 "X-Qt-Contexts: true\n"
-"X-Generator: Poedit 3.8\n"
+"X-Generator: Lokalize 25.12.3\n"
 
 #: server/activities/adjacent_numbers/ActivityEditor.qml:13
 #: server/activities/binary_bulb/ActivityEditor.qml:12
@@ -495,7 +495,7 @@ msgstr "סדרת הנתונים ריקה."
 #, qt-format
 msgctxt "ComparatorEditor|"
 msgid "Level %1 must not be empty."
-msgstr "רמה %1 לא יכולה להיות ריקה."
+msgstr "שלב %1 לא יכול להיות ריק."
 
 #: server/activities/comparator/ComparatorEditor.qml:126
 #, qt-format
@@ -601,7 +601,7 @@ msgstr "סדרת הנתונים ריקה."
 #, qt-format
 msgctxt "FractionsCreateEditor|"
 msgid "Level %1 must not be empty."
-msgstr "רמה %1 לא יכולה להיות ריקה."
+msgstr "שלב %1 לא יכול להיות ריק."
 
 #: server/activities/fractions_create/FractionsCreateEditor.qml:146
 #, qt-format
@@ -689,7 +689,7 @@ msgstr "סדרת הנתונים ריקה."
 #, qt-format
 msgctxt "FractionsFindEditor|"
 msgid "Level %1 must not be empty."
-msgstr "רמה %1 לא יכולה להיות ריקה."
+msgstr "שלב %1 לא יכול להיות ריק."
 
 #: server/activities/fractions_find/FractionsFindEditor.qml:173
 #, qt-format
@@ -767,7 +767,7 @@ msgstr "סדרת הנתונים ריקה."
 #, qt-format
 msgctxt "LearnDecimalsEditor|"
 msgid "Level %1 must not be empty."
-msgstr "רמה %1 לא יכולה להיות ריקה."
+msgstr "שלב %1 לא יכול להיות ריק."
 
 #: server/activities/learn_decimals/LearnDecimalsEditor.qml:154
 #, qt-format
@@ -829,7 +829,7 @@ msgstr "סדרת הנתונים ריקה."
 #, qt-format
 msgctxt "DecimalAdditionEditor|"
 msgid "Level %1 must not be empty."
-msgstr "רמה %1 לא יכולה להיות ריקה."
+msgstr "שלב %1 לא יכול להיות ריק."
 
 #: server/activities/learn_decimals_additions/DecimalAdditionEditor.qml:196
 #, qt-format
@@ -1118,7 +1118,7 @@ msgid ""
 "In Level %1, \"Maximum result per row\" must be larger than any value in "
 "\"Maximum number of stars\"."
 msgstr ""
-"ברמה %1, „תוצאה מרבית לשורה” חייבת להיות גדולה מכל ערך תחת „כמות כוכבים "
+"בשלב %1, „תוצאה מרבית לשורה” חייבת להיות גדולה מכל ערך תחת „כמות כוכבים "
 "מרבית”."
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:213
@@ -1129,6 +1129,9 @@ msgid ""
 "first entry must be between 1 and 10, the others between 0 and 10, and the "
 "sum of the 3 entries must not be larger than 10."
 msgstr ""
+"שלב %1 חייב להכיל בדיוק 3 מספרים שלמים ב„מקדמי שורה”. הרשומה הראשונה חייבת "
+"להיות בין 1 ל־10, האחרות בין 0 ל־10 והסכום של 3 הרשומות לא יכול להיות גדול מ־"
+"10."
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:219
 #, qt-format
@@ -1240,7 +1243,7 @@ msgstr "סדרת הנתונים ריקה."
 #, qt-format
 msgctxt "MultipleChoiceEditor|"
 msgid "Level %1 must not be empty."
-msgstr "רמה %1 לא יכולה להיות ריקה."
+msgstr "שלב %1 לא יכול להיות ריק."
 
 #: server/activities/multiple_choice_questions/MultipleChoiceEditor.qml:138
 #, qt-format
@@ -1303,6 +1306,9 @@ msgid ""
 "cards, and there is already 1 card per addition, or 2 cards per addition if "
 "\"Find both numbers\" is selected."
 msgstr ""
+"לא להוסיף יותר מדי „כרטיסים נוספים”! בכל תת־שלב לא יכולים להיות יותר מ־6 "
+"כרטיסים, וכבר יש כרטיס 1 לכל חיבור, או שני כרטיסים לחיבור אם נבחרה האפשרות "
+"„למצוא את שני המספרים”."
 
 #: server/activities/tens_complement_find/ActivityEditor.qml:19
 msgctxt "ActivityEditor|"
@@ -1374,13 +1380,13 @@ msgstr "השלב %1 מכיל יותר מדי כרטיסים נוספים."
 #, qt-format
 msgctxt "TensComplementFindEditor|"
 msgid "Level %1 must not be empty."
-msgstr "רמה %1 לא יכולה להיות ריקה."
+msgstr "שלב %1 לא יכול להיות ריק."
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:193
 #, qt-format
 msgctxt "TensComplementFindEditor|"
 msgid "Sublevel %2 of Level %1 must not be empty."
-msgstr "תת־רמה %2 של רמה %1 לא יכולה להיות ריקה."
+msgstr "תת־שלב %2 של שלב %1 לא יכול להיות ריק."
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:200
 #, qt-format
@@ -1481,7 +1487,7 @@ msgstr "סדרת הנתונים ריקה."
 #, qt-format
 msgctxt "TensComplementSwapEditor|"
 msgid "Level %1 must not be empty."
-msgstr "רמה %1 לא יכולה להיות ריקה."
+msgstr "שלב %1 לא יכול להיות ריק."
 
 #: server/activities/tens_complement_swap/TensComplementSwapEditor.qml:192
 #, qt-format
@@ -1581,19 +1587,19 @@ msgstr "סדרת הנתונים ריקה."
 #, qt-format
 msgctxt "TensComplementUseEditor|"
 msgid "Level %1 contains too many extra cards."
-msgstr "רמה %1 מכילה יותר מדי כרטיסים נוספים."
+msgstr "שלב %1 מכיל יותר מדי כרטיסים נוספים."
 
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:175
 #, qt-format
 msgctxt "TensComplementUseEditor|"
 msgid "Level %1 must not be empty."
-msgstr "רמה %1 לא יכולה להיות ריקה."
+msgstr "שלב %1 לא יכול להיות ריק."
 
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:184
 #, qt-format
 msgctxt "TensComplementUseEditor|"
 msgid "Sublevel %2 of Level %1 must not be empty."
-msgstr "תת־רמה %2 של רמה %1 לא יכולה להיות ריקה."
+msgstr "תת־שלב %2 של שלב %1 לא יכול להיות ריק."
 
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:194
 #, qt-format
@@ -1605,13 +1611,13 @@ msgstr "חיבור %3 בתת־שלב %2 של השלב %1 שגוי."
 #, qt-format
 msgctxt "TensComplementUseEditor|"
 msgid "Sublevel %2 of Level %1 contains invalid extra cards."
-msgstr "תת־רמה %2 של רמה %1 מכילה כרטיסים נוספים שגויים."
+msgstr "תת־שלב %2 של שלב %1 מכיל כרטיסים נוספים שגויים."
 
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:212
 #, qt-format
 msgctxt "TensComplementUseEditor|"
 msgid "Sublevel %2 of Level %1 contains too many extra cards."
-msgstr "תת־רמה %2 של רמה %1 מכילה יותר מדי כרטיסים נוספים."
+msgstr "תת־שלב %2 של שלב %1 מכיל יותר מדי כרטיסים נוספים."
 
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:220
 #, qt-format

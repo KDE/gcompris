@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-03-24 10:56+0400\n"
+"PO-Revision-Date: 2026-03-25 09:31+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -28118,6 +28118,8 @@ msgid ""
 "The following activities do not have any active datasets! All of their "
 "datasets will be reactivated."
 msgstr ""
+"لا توجد أي مجموعات بيانات نشطة للأنشطة التالية! جميع مجموعات البيانات الخاصة "
+"بها ستُعاد تنشيطها."
 
 #: core/main.qml:544
 #, qt-format
