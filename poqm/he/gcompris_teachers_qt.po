@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-03-25 09:42+0200\n"
+"PO-Revision-Date: 2026-03-26 09:34+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -1495,7 +1495,7 @@ msgctxt "TensComplementSwapEditor|"
 msgid ""
 "Content of Addition %2 of Level %1 is not valid. Please check the "
 "instructions."
-msgstr ""
+msgstr "תוכן החיבור %2 ברמה %1 שגוי. נא לעיין בהנחיות."
 
 #: server/activities/tens_complement_swap/TensComplementSwapEditor.qml:198
 #, qt-format

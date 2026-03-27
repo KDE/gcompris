@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gcompris_teachers\n"
-"PO-Revision-Date: 2026-02-21 10:44+0100\n"
+"PO-Revision-Date: 2026-03-22 22:23+0100\n"
 "Last-Translator: Alexander Becker <alex-at-kde-l10n-de@freenet.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 25.12.2\n"
+"X-Generator: Lokalize 25.12.3\n"
 "X-Qt-Contexts: true\n"
 
 #: server/activities/adjacent_numbers/ActivityEditor.qml:13
@@ -1007,9 +1007,6 @@ msgid "Duration: %1s"
 msgstr "Dauer: %1 s"
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:29
-#, fuzzy
-#| msgctxt "ActivityEditor|"
-#| msgid "Rules to create a valid dataset:"
 msgctxt "MagicHatEditor|"
 msgid "Rules to create a valid dataset:"
 msgstr "Regeln zur Erstellung eines gültigen Datensatzes:"
@@ -1120,9 +1117,6 @@ msgid "Row coefficients"
 msgstr ""
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:120
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Dataset is empty."
 msgctxt "MagicHatEditor|"
 msgid "Dataset is empty."
 msgstr "Datensatz ist leer."
@@ -1163,9 +1157,7 @@ msgid ""
 msgstr ""
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:219
-#, fuzzy, qt-format
-#| msgctxt "BinaryBulbEditor|"
-#| msgid "The following errors need to be fixed:<ul>%1</ul>"
+#, qt-format
 msgctxt "MagicHatEditor|"
 msgid "The following errors need to be fixed:<ul>%1</ul>"
 msgstr "Folgende Fehler müssen behoben werden:<ul>%1</ul>"
@@ -1175,7 +1167,7 @@ msgstr "Folgende Fehler müssen behoben werden:<ul>%1</ul>"
 #, qt-format
 msgctxt "StarsBar|"
 msgid "%1x"
-msgstr ""
+msgstr "%1×"
 
 #: server/activities/multiple_choice_questions/ActivityEditor.qml:15
 msgctxt "ActivityEditor|"
@@ -1358,18 +1350,12 @@ msgid "Random questions"
 msgstr "Zufallsbrüche"
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:28
-#, fuzzy
-#| msgctxt "BinaryBulbEditor|"
-#| msgid "Random numbers"
 msgctxt "TensComplementFindEditor|"
 msgid "Find both numbers"
-msgstr "Zufallszahlen"
+msgstr "Finde beide Zahlen"
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:29
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:35
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Sublevels"
 msgctxt "TensComplementFindEditor|"
 msgid "Sublevels"
 msgstr "Unterstufen"
@@ -1418,9 +1404,6 @@ msgid "First operands"
 msgstr "Erster Operand"
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:163
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Dataset is empty."
 msgctxt "TensComplementFindEditor|"
 msgid "Dataset is empty."
 msgstr "Datensatz ist leer."
@@ -1432,9 +1415,7 @@ msgid "Level %1 contains too many extra cards."
 msgstr ""
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:184
-#, fuzzy, qt-format
-#| msgctxt "ComparatorEditor|"
-#| msgid "Level %1 must not be empty."
+#, qt-format
 msgctxt "TensComplementFindEditor|"
 msgid "Level %1 must not be empty."
 msgstr "Stufe %1 darf nicht leer sein."
@@ -1466,17 +1447,12 @@ msgid "Sublevel %2 of Level %1 contains too many extra cards."
 msgstr ""
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:226
-#, fuzzy, qt-format
-#| msgctxt "BinaryBulbEditor|"
-#| msgid "The following errors need to be fixed:<ul>%1</ul>"
+#, qt-format
 msgctxt "TensComplementFindEditor|"
 msgid "The following errors need to be fixed:<ul>%1</ul>"
 msgstr "Folgende Fehler müssen behoben werden:<ul>%1</ul>"
 
 #: server/activities/tens_complement_swap/TensComplementSwapEditor.qml:25
-#, fuzzy
-#| msgctxt "ActivityEditor|"
-#| msgid "Rules to create a valid dataset:"
 msgctxt "TensComplementSwapEditor|"
 msgid "Rules to create a valid dataset:"
 msgstr "Regeln zur Erstellung eines gültigen Datensatzes:"
@@ -1514,25 +1490,16 @@ msgid ""
 msgstr ""
 
 #: server/activities/tens_complement_swap/TensComplementSwapEditor.qml:35
-#, fuzzy
-#| msgctxt "AlgebraEditor|"
-#| msgid "Shuffle"
 msgctxt "TensComplementSwapEditor|"
 msgid "Shuffle"
 msgstr "Mischen"
 
 #: server/activities/tens_complement_swap/TensComplementSwapEditor.qml:36
-#, fuzzy
-#| msgctxt "LearnDigitsEditor|"
-#| msgid "Additions"
 msgctxt "TensComplementSwapEditor|"
 msgid "Additions"
 msgstr "Additionen"
 
 #: server/activities/tens_complement_swap/TensComplementSwapEditor.qml:41
-#, fuzzy
-#| msgctxt "AlgebraEditor|"
-#| msgid "Random operands"
 msgctxt "TensComplementSwapEditor|"
 msgid "Random operands"
 msgstr "Zufällige Operanden"
@@ -1562,17 +1529,12 @@ msgid "Extra operand"
 msgstr "Erster Operand"
 
 #: server/activities/tens_complement_swap/TensComplementSwapEditor.qml:144
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Dataset is empty."
 msgctxt "TensComplementSwapEditor|"
 msgid "Dataset is empty."
 msgstr "Datensatz ist leer."
 
 #: server/activities/tens_complement_swap/TensComplementSwapEditor.qml:154
-#, fuzzy, qt-format
-#| msgctxt "ComparatorEditor|"
-#| msgid "Level %1 must not be empty."
+#, qt-format
 msgctxt "TensComplementSwapEditor|"
 msgid "Level %1 must not be empty."
 msgstr "Stufe %1 darf nicht leer sein."
@@ -1586,9 +1548,7 @@ msgid ""
 msgstr ""
 
 #: server/activities/tens_complement_swap/TensComplementSwapEditor.qml:198
-#, fuzzy, qt-format
-#| msgctxt "BinaryBulbEditor|"
-#| msgid "The following errors need to be fixed:<ul>%1</ul>"
+#, qt-format
 msgctxt "TensComplementSwapEditor|"
 msgid "The following errors need to be fixed:<ul>%1</ul>"
 msgstr "Folgende Fehler müssen behoben werden:<ul>%1</ul>"
@@ -1615,25 +1575,16 @@ msgstr ""
 "Ergebnissen zwischen 0 und 9 enthalten."
 
 #: server/activities/tens_complement_use/TensComplementUseDataDisplay.qml:36
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Proposed numbers"
 msgctxt "TensComplementUseDataDisplay|"
 msgid "Proposed numbers:"
-msgstr "Vorgeschlagene Zahlen"
+msgstr "Vorgeschlagene Zahlen:"
 
 #: server/activities/tens_complement_use/TensComplementUseDataDisplay.qml:71
-#, fuzzy
-#| msgctxt "MultipleChoiceDataDisplay|"
-#| msgid "Question:"
 msgctxt "TensComplementUseDataDisplay|"
 msgid "Question:"
 msgstr "Frage:"
 
 #: server/activities/tens_complement_use/TensComplementUseDataDisplay.qml:97
-#, fuzzy
-#| msgctxt "AdjacentNumbersDataDisplay|"
-#| msgid "Answer:"
 msgctxt "TensComplementUseDataDisplay|"
 msgid "Answer:"
 msgstr "Antwort:"
@@ -1648,9 +1599,6 @@ msgstr "Zufallsbrüche"
 
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:28
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:34
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Sublevels"
 msgctxt "TensComplementUseEditor|"
 msgid "Sublevels"
 msgstr "Unterstufen"
@@ -1683,25 +1631,16 @@ msgid "Maximum result"
 msgstr "Maximale Elementanzahl"
 
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:33
-#, fuzzy
-#| msgctxt "AlgebraEditor|"
-#| msgid "Shuffle"
 msgctxt "TensComplementUseEditor|"
 msgid "Shuffle"
 msgstr "Mischen"
 
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:39
-#, fuzzy
-#| msgctxt "LearnDigitsEditor|"
-#| msgid "Additions"
 msgctxt "TensComplementUseEditor|"
 msgid "Additions"
 msgstr "Additionen"
 
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:156
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Dataset is empty."
 msgctxt "TensComplementUseEditor|"
 msgid "Dataset is empty."
 msgstr "Datensatz ist leer."
@@ -1713,9 +1652,7 @@ msgid "Level %1 contains too many extra cards."
 msgstr ""
 
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:175
-#, fuzzy, qt-format
-#| msgctxt "ComparatorEditor|"
-#| msgid "Level %1 must not be empty."
+#, qt-format
 msgctxt "TensComplementUseEditor|"
 msgid "Level %1 must not be empty."
 msgstr "Stufe %1 darf nicht leer sein."
@@ -1749,9 +1686,7 @@ msgid "Sublevel %2 of Level %1 contains too many extra cards."
 msgstr ""
 
 #: server/activities/tens_complement_use/TensComplementUseEditor.qml:220
-#, fuzzy, qt-format
-#| msgctxt "BinaryBulbEditor|"
-#| msgid "The following errors need to be fixed:<ul>%1</ul>"
+#, qt-format
 msgctxt "TensComplementUseEditor|"
 msgid "The following errors need to be fixed:<ul>%1</ul>"
 msgstr "Folgende Fehler müssen behoben werden:<ul>%1</ul>"
@@ -2126,13 +2061,7 @@ msgid "Import pupils from CSV file"
 msgstr "Schüler aus CSV-Datei importieren"
 
 #: server/dialogs/ImportPupilsDialog.qml:88
-#, fuzzy, qt-format
-#| msgctxt "ImportPupilsDialog|"
-#| msgid ""
-#| "Format: name;groups;password\n"
-#| "Example:\n"
-#| "Patrick Dummy;group 1;1234\n"
-#| "Patricia Brown;group 1,group 2;4321\n"
+#, qt-format
 msgctxt "ImportPupilsDialog|"
 msgid ""
 "Format: name;groups;password\n"
@@ -2142,8 +2071,8 @@ msgid ""
 msgstr ""
 "Format: Name;Gruppen;Passwort\n"
 "Beispiel:\n"
-"Heidi Musterfrau;Gruppe 1;1234\n"
-"Peter Mustermann;Gruppe 1,Gruppe 2;4321\n"
+"Heidi Musterfrau;Gruppe 1;%1\n"
+"Peter Mustermann;Gruppe 1,Gruppe 2;%2\n"
 
 #: server/dialogs/ImportPupilsDialog.qml:94
 msgctxt "ImportPupilsDialog|"
