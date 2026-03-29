@@ -16390,16 +16390,12 @@ msgstr "Finn tubaen"
 
 #: activities/keyboard_training/ActivityConfig.qml:28
 #, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Draw letters"
 msgctxt "ActivityConfig|"
 msgid "Uppercase letters"
 msgstr "Teikn bokstavar"
 
 #: activities/keyboard_training/ActivityConfig.qml:29
 #, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Draw letters"
 msgctxt "ActivityConfig|"
 msgid "Lowercase letters"
 msgstr "Teikn bokstavar"
@@ -16407,8 +16403,6 @@ msgstr "Teikn bokstavar"
 #. Activity title
 #: activities/keyboard_training/ActivityInfo.qml:14
 #, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Memory training."
 msgctxt "ActivityInfo|"
 msgid "Keyboard training"
 msgstr "Hugseøving."
