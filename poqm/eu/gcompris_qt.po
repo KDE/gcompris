@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GCompris\n"
 "POT-Creation-Date: 2018-11-30 13:03+0000\n"
-"PO-Revision-Date: 2026-03-19 21:52+0100\n"
+"PO-Revision-Date: 2026-03-29 20:32+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -28980,6 +28980,8 @@ msgid ""
 "The following activities do not have any active datasets! All of their "
 "datasets will be reactivated."
 msgstr ""
+"Ondoko jarduerek ez dute datu-multzo aktiborik! Haien datu-multzo guztiak "
+"berraktibatuko dira."
 
 #: core/main.qml:544
 #, qt-format
