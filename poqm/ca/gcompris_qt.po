@@ -1,5 +1,5 @@
 # Translation of gcompris_qt.po to Catalan
-# Copyright (C) 2015-2025 This_file_is_part_of_KDE
+# Copyright (C) 2015-2026 This_file_is_part_of_KDE
 # Copyright (C) 2003-2010 Free Software Foundation, Inc.
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
@@ -8,13 +8,13 @@
 # SPDX-FileCopyrightText: 2003, 2004, 2005, 2006, 2007 Xavier A. Conde Rueda <xavi.conde@gmail.com>
 # SPDX-FileCopyrightText: 2007, 2008 Francesc Vilches Batet <francesc-vilches@gmail.com>
 # SPDX-FileCopyrightText: 2010 Pau Iranzo <paugnu@gmail.com>
-# SPDX-FileCopyrightText: 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025 Josep M. Ferrer <txemaq@gmail.com>
+# SPDX-FileCopyrightText: 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026 Josep M. Ferrer <txemaq@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: gcompris\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2014-12-25 01:10+0000\n"
-"PO-Revision-Date: 2025-12-24 09:30+0100\n"
+"PO-Revision-Date: 2026-03-31 17:24+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -27127,8 +27127,8 @@ msgid ""
 "The leftmost item in the control panel is the engine of the submarine, "
 "indicating the current speed of the submarine."
 msgstr ""
-"L'element més a l'esquerra del plafó de control és el motor del submarí, el "
-"qual indica la velocitat actual."
+"L'element més a l'esquerra de la subfinestra de control és el motor del "
+"submarí, el qual indica la velocitat actual."
 
 #: activities/submarine/Submarine.qml:139
 msgctxt "Submarine|"
@@ -27189,7 +27189,7 @@ msgid ""
 "The rightmost item in the control panel controls the diving planes of the "
 "submarine."
 msgstr ""
-"L'element més a la dreta del plafó de control controla els alerons "
+"L'element més a la dreta de la subfinestra de control controla els alerons "
 "d'immersió del submarí."
 
 #: activities/submarine/Submarine.qml:171
