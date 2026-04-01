@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-03-26 09:34+0200\n"
+"PO-Revision-Date: 2026-03-29 17:07+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -1013,6 +1013,9 @@ msgid ""
 "of the corresponding row of the first operand, the result will not be more "
 "than the \"Maximum result per row\" value."
 msgstr ""
+"כל שורה של האיבר השני (התחתון) תכיל מספר כוכבים שנוצרו באופן כזה שכשמחסרים "
+"אותם ממספר הכוכבים של השורה המתאימה באיבר הראשון, התוצאה לא תהיה גדולה מהערך "
+"„תוצאה מרבית לשורה”."
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:37
 msgctxt "MagicHatEditor|"
@@ -1022,6 +1025,9 @@ msgid ""
 "corresponding row of the first operand, the result will not be more than the "
 "\"Maximum result per row\" value."
 msgstr ""
+"כל שורה של האיבר השני (התחתון) תכיל מספר כוכבים שנוצרו באופן כזה שכשמחברים "
+"אותם למספר הכוכבים של השורה המתאימה באיבר הראשון, התוצאה לא תהיה גדולה מהערך "
+"„תוצאה מרבית לשורה”."
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:41
 msgctxt "MagicHatEditor|"
@@ -1052,6 +1058,8 @@ msgid ""
 "must be between 1 and 10, the others between 0 and 10, and the sum of the 3 "
 "entries must not be larger than 10."
 msgstr ""
+"„מקדמי שורה” חייבים להכיל בדיוק 3 מספרים שלמים. הרשומה הראשונה חייבת להיות "
+"בין 1 ל־10, האחרות בין 0 ל־10 והסכום של 3 הרשומות לא יכול להיות גדול מ־10."
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:52
 msgctxt "MagicHatEditor|"
@@ -1100,6 +1108,8 @@ msgid ""
 "Level %1 must contain exactly 3 integer numbers in \"Maximum number of stars"
 "\". The first entry must be between %2 and %3, the others between 0 and %3."
 msgstr ""
+"שלב %1 חייב להכיל בדיוק 3 מספרים שלמים ב„כמות הכוכבים המרבית”. הרשומה "
+"הראשונה חייבת להיות בין %2 ל־%3, האחרות בין 0 ל־%3."
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:169
 #, qt-format
@@ -1110,6 +1120,9 @@ msgid ""
 "and each number must not be larger than the corresponding number in "
 "\"Maximum number of stars\"."
 msgstr ""
+"שלב %1 חייב להכיל בדיוק 3 מספרים שלמים ב„כמות הכוכבים המזערית”. הרשומה "
+"הראשונה חייבת להיות בין %2 ל־%3, האחרות בין 0 ל־%3, וכל מספר חייב להיות גדול "
+"יותר מהמספר התואם ב„כמות הכוכבים המרבית”."
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:183
 #, qt-format
@@ -1317,6 +1330,8 @@ msgid ""
 "must contain 1, 2 or 3 numbers between 1 and 9. There is one addition for "
 "each \"First operand\" number."
 msgstr ""
+"אם „שאלות אקראיות” לא נבחרו, „האיברים הראשונים” של כל תת־שלב חייבים להכיל 1, "
+"2 או 3 מספרים בין 1 ל־9. יש חיבור אחר לכל מספר „איבר ראשון”."
 
 #: server/activities/tens_complement_find/TensComplementFindEditor.qml:27
 msgctxt "TensComplementFindEditor|"
@@ -1423,21 +1438,15 @@ msgid "All numbers must be positive integers"
 msgstr "כל המספרים חייבים להיות שלמים וחיוביים"
 
 #: server/activities/tens_complement_swap/TensComplementSwapEditor.qml:29
-#, fuzzy
-#| msgctxt "ActivityEditor|"
-#| msgid ""
-#| "If \"Random numbers\" is not selected, \"Numbers to find\" must contain a "
-#| "list of integer numbers. Each number must be between 0 and the maximum "
-#| "number which can be represented with the given \"Bulb count\"."
 msgctxt "TensComplementSwapEditor|"
 msgid ""
 "If \"Random operands\" is not selected, \"Operands\" must contain 1, 2 or 3 "
 "entries. Each entry must be a number between 1 and 9. The resulting addition "
 "will contain the given entries and their complement to 10."
 msgstr ""
-"אם „מספרים אקראיים” לא נבחר, „מספרים למציאה” חייבים להכיל רשימה של מספרים "
-"שלמים וחיוביים. כל מספר חייב להיות בין 0 והמספר המרבי שניתן לייצג עם „כמות "
-"נורות” שסופקה."
+"אם „איברים אקראיים” לא נבחר, „איברים” חייבים להכיל 1, 2 או 3 רשומות. כל "
+"רשומה חייבת להיות מספר בין 1 ל־9. תוצאות החיבור תכיל את הרשומות שסופקו ואת "
+"המשלים שלהן ל־10."
 
 #: server/activities/tens_complement_swap/TensComplementSwapEditor.qml:31
 msgctxt "TensComplementSwapEditor|"
@@ -1447,6 +1456,9 @@ msgid ""
 "if \"Operands\" contains 2 numbers, and not used if \"Operands\" contains 3 "
 "numbers."
 msgstr ""
+"„איבר נוסף” יכול להכיל מספר 1 בין 1 ל־9 שיתווסף לחיבור. הוא בגדר חובה אם "
+"„איברים” מכילים מספר 1, רשות אם „איברים” מכילים 2 מספרים ולא בשימוש אם "
+"„איברים” מכילים 3 מספרים."
 
 #: server/activities/tens_complement_swap/TensComplementSwapEditor.qml:35
 msgctxt "TensComplementSwapEditor|"

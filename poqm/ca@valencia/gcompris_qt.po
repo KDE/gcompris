@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: gcompris\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2014-12-25 01:10+0000\n"
-"PO-Revision-Date: 2026-03-24 10:47+0100\n"
+"PO-Revision-Date: 2026-03-31 17:24+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: &\n"
-"X-Generator: Lokalize 25.12.3\n"
+"X-Generator: Lokalize 25.04.0\n"
 "X-Qt-Contexts: true\n"
 
 #: activities/adjacent_numbers/ActivityConfig.qml:19
@@ -2501,11 +2501,11 @@ msgid ""
 "logically to one object in the main board area. Drag each object from the "
 "side panel to the correct spot in the main area."
 msgstr ""
-"En l'àrea principal del tauler es mostra un conjunt d'objectes. En la "
-"subfinestra lateral es mostra un altre conjunt d'objectes, cada objecte en "
-"el quadro lateral es correspon lògicament amb un objecte en l'àrea del "
-"tauler principal. Arrossega cada objecte des de la subfinestra lateral cap "
-"al lloc correcte en l'àrea principal."
+"En l'àrea principal del tauler es mostra un conjunt d'objectes. A el quadro "
+"lateral es mostra un altre conjunt d'objectes, cada objecte en el quadro "
+"lateral es correspon lògicament amb un objecte en l'àrea del tauler "
+"principal. Arrossega cada objecte des d'el quadro lateral cap al lloc "
+"correcte en l'àrea principal."
 
 #: activities/babymatch/resource/board/board1_0.qml:14
 msgctxt "board1_0|"
@@ -2564,31 +2564,31 @@ msgstr "El Pany amb formes acolorides."
 #: activities/babyshapes/resource/board/board7_0.qml:15
 msgctxt "board7_0|"
 msgid "Paul Gauguin, Arearea - 1892"
-msgstr "Paul Gauguin, Arearea - 1892"
+msgstr "Paul Gauguin, Arearea – 1892"
 
 # Nota: https://ca.wikipedia.org/wiki/La_boda_camperola
 #: activities/babyshapes/resource/board/board7_1.qml:14
 msgctxt "board7_1|"
 msgid "Pieter Bruegel the Elder, The peasants wedding - 1568"
-msgstr "Pieter Bruegel el vell, La boda camperola - 1568"
+msgstr "Pieter Bruegel el vell, La boda camperola – 1568"
 
 # Nota: http://ca.wikipedia.org/wiki/La_dama_i_l'unicorn
 #: activities/babyshapes/resource/board/board7_2.qml:14
 msgctxt "board7_2|"
 msgid "The Lady and the Unicorn - XVe century"
-msgstr "La dama i l'unicorn - segle XV"
+msgstr "La dama i l'unicorn – segle XV"
 
 # Nota: https://ca.wikipedia.org/wiki/El_dormitori_de_Van_Gogh_a_Arle
 #: activities/babyshapes/resource/board/board7_3.qml:14
 msgctxt "board7_3|"
 msgid "Vincent van Gogh, Bedroom in Arles - 1888"
-msgstr "El dormitori de van Gogh a Arles - 1888"
+msgstr "El dormitori de van Gogh a Arles – 1888"
 
 # Nota: https://ca.wikipedia.org/wiki/Ambrosius_Bosschaert_el_Vell
 #: activities/babyshapes/resource/board/board7_4.qml:14
 msgctxt "board7_4|"
 msgid "Ambrosius Bosschaert the Elder, Flower Still Life - 1614"
-msgstr "Ambrosius Bosschaert el Vell, Flor de natura morta - 1614"
+msgstr "Ambrosius Bosschaert el Vell, Flor de natura morta – 1614"
 
 #: activities/balancebox/ActivityConfig.qml:23
 msgctxt "ActivityConfig|"
@@ -6129,7 +6129,7 @@ msgstr "Taj Mahal, Agra, Índia"
 #: activities/details/resource/board/board1_0.qml:14
 msgctxt "board1_0|"
 msgid "Vincent van Gogh, Entrance Hall of Saint-Paul Hospital - 1889"
-msgstr "Vincent van Gogh, Hall d'entrada del Saint-Paul Hospital - 1889"
+msgstr "Vincent van Gogh, Hall d'entrada del Saint-Paul Hospital – 1889"
 
 # Nota: http://ca.wikipedia.org/wiki/Castell_de_Neuschwanstein
 #: activities/details/resource/board/board20_0.qml:14
@@ -6150,45 +6150,45 @@ msgid ""
 "Vincent van Gogh, The Bridge of Langlois at Arles with a lady with umbrella "
 "- 1888"
 msgstr ""
-"Vincent van Gogh, El pont de Langlois a Arles amb una dama amb para-sol - "
+"Vincent van Gogh, El pont de Langlois a Arles amb una dama amb para-sol – "
 "1888"
 
 # Nota: http://ca.wikipedia.org/wiki/L'església_d'Auvers-sur-Oise
 #: activities/details/resource/board/board3_0.qml:14
 msgctxt "board3_0|"
 msgid "Vincent van Gogh, The Church at Auvers-sur-Oise - 1890"
-msgstr "Vincent van Gogh, L'església d'Auvers-sur-Oise - 1890"
+msgstr "Vincent van Gogh, L'església d'Auvers-sur-Oise – 1890"
 
 # Nota: http://www.vangoghgallery.com/catalog/Painting/374/Painter-on-His-Way-
 # to-Work,-The.html
 #: activities/details/resource/board/board4_0.qml:14
 msgctxt "board4_0|"
 msgid "Vincent van Gogh, Painter on His Way to Work - 1888"
-msgstr "Vincent van Gogh, Pintor en la seua manera de treballar - 1888"
+msgstr "Vincent van Gogh, Pintor en la seua manera de treballar – 1888"
 
 # Nota: http://www.vangoghmuseum.nl/en/collection/s0030V1962
 #: activities/details/resource/board/board5_0.qml:14
 msgctxt "board5_0|"
 msgid "Vincent van Gogh, The Harvest - 1888"
-msgstr "Vincent van Gogh, La collita - 1888"
+msgstr "Vincent van Gogh, La collita – 1888"
 
 # Nota: http://ca.wikipedia.org/wiki/Terrassa_de_cafè_a_la_nit
 #: activities/details/resource/board/board6_0.qml:14
 msgctxt "board6_0|"
 msgid "Vincent van Gogh, Cafe Terrace at Night - 1888"
-msgstr "Vincent van Gogh, Terrassa de cafè a la nit - 1888"
+msgstr "Vincent van Gogh, Terrassa de cafè a la nit – 1888"
 
 # Nota: http://ca.wikipedia.org/wiki/El_cafè_de_nit
 #: activities/details/resource/board/board7_0.qml:14
 msgctxt "board7_0|"
 msgid "Vincent van Gogh, The Night Café - 1888"
-msgstr "Vincent van Gogh, El cafè de nit - 1888"
+msgstr "Vincent van Gogh, El cafè de nit – 1888"
 
 # Nota: http://en.wikipedia.org/wiki/Portrait_of_Père_Tanguy
 #: activities/details/resource/board/board8_0.qml:14
 msgctxt "board8_0|"
 msgid "Vincent van Gogh, Portrait of Pere Tanguy 1887-8"
-msgstr "Vincent van Gogh, Retrat d'en Pere Tanguy - 1887-8"
+msgstr "Vincent van Gogh, Retrat d'en Pere Tanguy – 1887-8"
 
 # Nota: http://ca.wikipedia.org/wiki/Notre-Dame_de_París
 #: activities/details/resource/board/board9_0.qml:14
@@ -11549,7 +11549,7 @@ msgstr "Llombardia"
 #: activities/geo-country/resource/board/board11_0.qml:52
 msgctxt "board11_0|"
 msgid "Trentino-South Tyrol"
-msgstr "Trentino - Tirol del Sud"
+msgstr "Trentino – Tirol del Sud"
 
 #. Region of Italy: Veneto
 #: activities/geo-country/resource/board/board11_0.qml:59
@@ -16068,7 +16068,7 @@ msgstr "Solucionable amb + i -."
 #: activities/guess24/resource/2/Data.qml:13
 msgctxt "Data|"
 msgid "Solvable with +, - and ×."
-msgstr "Solucionable amb +, - i ×."
+msgstr "Solucionable amb +, – i ×."
 
 #: activities/guess24/resource/3/Data.qml:13
 msgctxt "Data|"
@@ -17491,7 +17491,7 @@ msgstr "Mostra el resultat de: %1 + %2"
 #, qt-format
 msgctxt "Learn_decimals|"
 msgid "Display the result of: %1 - %2"
-msgstr "Mostra el resultat de: %1 - %2"
+msgstr "Mostra el resultat de: %1 – %2"
 
 #: activities/learn_decimals/Learn_decimals.qml:175
 #, qt-format
@@ -22013,98 +22013,98 @@ msgid ""
 "Embankment - 1830"
 msgstr ""
 "Katsushika Hokusai, Vista de la posta del Sol sobre el pont de Ryogoku a "
-"l'Ommaya Embankment - 1830"
+"l'Ommaya Embankment – 1830"
 
 #: activities/paintings/resource/board/board11_0.qml:14
 msgctxt "board11_0|"
 msgid "Katsushika Hokusa, Poppies - 1833-1834"
-msgstr "Katsushika Hokusai, Roselles - 1833-1834"
+msgstr "Katsushika Hokusai, Roselles – 1833-1834"
 
 #: activities/paintings/resource/board/board12_0.qml:14
 msgctxt "board12_0|"
 msgid "Katsushika Hokusai, Kazusa sea Route - 1830."
-msgstr "Katsushika Hokusai, La ruta marítima de Kazusa - 1830."
+msgstr "Katsushika Hokusai, La ruta marítima de Kazusa – 1830."
 
 # Nota: https://ca.wikipedia.org/wiki/Pietat_(Miquel_Àngel)
 #: activities/paintings/resource/board/board13_0.qml:14
 msgctxt "board13_0|"
 msgid "Michelangelo, Pieta - 1499"
-msgstr "Miquel Àngel, Pietat - 1499"
+msgstr "Miquel Àngel, Pietat – 1499"
 
 # Nota: https://ca.wikipedia.org/wiki/La_Gioconda
 #: activities/paintings/resource/board/board14_0.qml:14
 msgctxt "board14_0|"
 msgid "Leonardo da Vinci, Mona Lisa - 1503-19"
-msgstr "Leonardo da Vinci, La Gioconda - 1503-19"
+msgstr "Leonardo da Vinci, La Gioconda – 1503-19"
 
 # Nota: https://it.wikipedia.org/wiki/Pala_di_Pesaro
 #: activities/paintings/resource/board/board15_0.qml:14
 msgctxt "board15_0|"
 msgid "Giovanni Bellini, La Pala di Pesaro - 1475-85"
-msgstr "Giovanni Bellini, El retaule de Pesaro - 1475-85"
+msgstr "Giovanni Bellini, El retaule de Pesaro – 1475-85"
 
 # Nota: http://www.wikiart.org/en/albrecht-durer/lion-1494
 #: activities/paintings/resource/board/board16_0.qml:14
 msgctxt "board16_0|"
 msgid "Albrecht Dürer, Lion - 1494"
-msgstr "Albrecht Dürer, Lleó - 1494"
+msgstr "Albrecht Dürer, Lleó – 1494"
 
 # Nota: https://en.wikipedia.org/wiki/The_Harvesters_(painting)
 #: activities/paintings/resource/board/board17_0.qml:14
 msgctxt "board17_0|"
 msgid "Pieter Brugel, The Harvesters - 1565"
-msgstr "Pieter Brugel, La collita - 1565"
+msgstr "Pieter Brugel, La collita – 1565"
 
 # Nota: https://en.wikipedia.org/wiki/Girls_at_the_Piano
 #: activities/paintings/resource/board/board18_0.qml:14
 msgctxt "board18_0|"
 msgid "Pierre-Auguste Renoir, Girls At The Piano - 1892"
-msgstr "Pierre-Auguste Renoir, Xiques al piano - 1892"
+msgstr "Pierre-Auguste Renoir, Xiques al piano – 1892"
 
 # Nota: http://www.wikiart.org/en/wassily-kandinsky/composition-viii-1923
 # https://ca.wikipedia.org/wiki/Vassili_Kandinski
 #: activities/paintings/resource/board/board19_0.qml:14
 msgctxt "board19_0|"
 msgid "Wassily Kandinsky, Composition VIII - 1923"
-msgstr "Vassili Kandinski, Composició VIII - 1923"
+msgstr "Vassili Kandinski, Composició VIII – 1923"
 
 # Nota: https://en.wikipedia.org/wiki/Moulin_de_la_Galette
 #: activities/paintings/resource/board/board1_0.qml:14
 msgctxt "board1_0|"
 msgid "Pierre-Auguste Renoir, Bal du moulin de la Galette - 1876"
-msgstr "Pierre-Auguste Renoir, El molí de la coca - 1876"
+msgstr "Pierre-Auguste Renoir, El molí de la coca – 1876"
 
 # Nota: https://ca.wikipedia.org/wiki/Frédéric_Bazille
 #: activities/paintings/resource/board/board20_0.qml:14
 msgctxt "board20_0|"
 msgid "Bazille, The Ramparts at Aigues-Mortes - 1867"
-msgstr "Frédéric Bazille, Les muralles d'Aigues-Mortes - 1867"
+msgstr "Frédéric Bazille, Les muralles d'Aigues-Mortes – 1867"
 
 # Nota: http://www.wikiart.org/en/mary-cassatt/summertime-1894
 # https://ca.wikipedia.org/wiki/Mary_Cassatt
 #: activities/paintings/resource/board/board21_0.qml:14
 msgctxt "board21_0|"
 msgid "Mary Cassatt, Summertime - 1894"
-msgstr "Mary Cassatt, El temps a l'estiu - 1894"
+msgstr "Mary Cassatt, El temps a l'estiu – 1894"
 
 # Nota: http://www.vangogh.net/village-street-in-auvers.jsp
 #: activities/paintings/resource/board/board22_0.qml:14
 msgctxt "board22_0|"
 msgid "Vincent Van Gogh, Village Street in Auvers - 1890"
-msgstr "Vincent van Gogh, Carrer del poble a Auvers - 1890"
+msgstr "Vincent van Gogh, Carrer del poble a Auvers – 1890"
 
 # Nota: http://www.wikiart.org/en/giuseppe-arcimboldo/spring-1573
 # https://ca.wikipedia.org/wiki/Giuseppe_Arcimboldo
 #: activities/paintings/resource/board/board2_0.qml:14
 msgctxt "board2_0|"
 msgid "Giuseppe Arcimboldo, Spring - 1573"
-msgstr "Giuseppe Arcimboldo, La primavera - 1573"
+msgstr "Giuseppe Arcimboldo, La primavera – 1573"
 
 # Nota: https://en.wikipedia.org/wiki/The_Librarian_(painting)
 #: activities/paintings/resource/board/board3_0.qml:14
 msgctxt "board3_0|"
 msgid "Giuseppe Arcimboldo, The Librarian - 1566"
-msgstr "Giuseppe Arcimboldo, El bibliotecari - 1566"
+msgstr "Giuseppe Arcimboldo, El bibliotecari – 1566"
 
 # Nota: https://en.wikipedia.org/wiki/Oiran
 #: activities/paintings/resource/board/board4_0.qml:14
@@ -22124,13 +22124,13 @@ msgstr "Katsushika Hokusai, Dona que sosté un ventall"
 #: activities/paintings/resource/board/board6_0.qml:14
 msgctxt "board6_0|"
 msgid "Katsushika Hokusai, Ejiri in Suruga Province - 1830-1833"
-msgstr "Katsushika Hokusai, Ejiri en la província de Suruga - 1830-1833"
+msgstr "Katsushika Hokusai, Ejiri en la província de Suruga – 1830-1833"
 
 # Nota: https://ca.wikipedia.org/wiki/La_gran_ona_de_Kanagawa
 #: activities/paintings/resource/board/board7_0.qml:14
 msgctxt "board7_0|"
 msgid "Katsushika Hokusai, The Great Wave off Kanagawa - 1823-1829"
-msgstr "Katsushika Hokusai, La gran ona de Kanagawa - 1823-1829"
+msgstr "Katsushika Hokusai, La gran ona de Kanagawa – 1823-1829"
 
 # Nota: http://www.wikiart.org/en/hiroshige/benzaiten-shrine-at-inokashira-in-
 # snow
@@ -22138,13 +22138,13 @@ msgstr "Katsushika Hokusai, La gran ona de Kanagawa - 1823-1829"
 msgctxt "board8_0|"
 msgid "Utagawa Hiroshige, The Benzaiten Shrine at Inokashira in Snow - 1760-70"
 msgstr ""
-"Utagawa Hiroshige, La capella nevada de Benzaiten a Inokashira - 1760-70"
+"Utagawa Hiroshige, La capella nevada de Benzaiten a Inokashira – 1760-70"
 
 # Nota: https://ca.wikipedia.org/wiki/Andō_Hiroshige
 #: activities/paintings/resource/board/board9_0.qml:14
 msgctxt "board9_0|"
 msgid "Utagawa Hiroshige, Horse-mackerel and Prawn - 1840"
-msgstr "Utagawa Hiroshige, Sorell i gambes - 1840"
+msgstr "Utagawa Hiroshige, Sorell i gambes – 1840"
 
 #. Activity title
 #: activities/path_decoding/ActivityInfo.qml:14
@@ -24321,7 +24321,7 @@ msgstr ""
 "Totes les unitats, excepte el 4 i 9, es construïxen amb sumes d'I i V:\n"
 "I, II, III, V, VI, VII, VIII.\n"
 " Les unitats 4 i 9 es construïxen emprant diferències:\n"
-"IV (5 - 1) i IX (10 - 1)."
+"IV (5 – 1) i IX (10 – 1)."
 
 #: activities/roman_numerals/RomanNumerals.qml:106
 #: activities/roman_numerals/RomanNumerals.qml:112
@@ -27002,8 +27002,8 @@ msgid ""
 msgstr ""
 "Mode: <font color=\"#3bb0de\">%1</font><br><br>En esta activitat hi ha dos "
 "modes que pots alternar des de la finestra de configuració:<br><b>1. Mode "
-"aprenentatge</b> - En este mode podràs jugar i conéixer el sistema solar."
-"<br><b>2. Mode avaluació</b> - En este mode posaràs a prova els teus "
+"aprenentatge</b> – En este mode podràs jugar i conéixer el sistema solar."
+"<br><b>2. Mode avaluació</b> – En este mode posaràs a prova els teus "
 "coneixements sobre el sistema solar."
 
 #: activities/solar_system/SolarSystem.qml:159
@@ -27103,7 +27103,7 @@ msgid ""
 "b>other <b>J</b>ust <b>S</b>erved <b>U</b>s <b>N</b>oodles.<br>"
 msgstr ""
 "3. Recorda sempre esta rima per a aprendre la posició dels planetes, examina "
-"la primera lletra de cada paraula - <b>M</b>y <b>V</b>ery <b>E</b>xcellent "
+"la primera lletra de cada paraula – <b>M</b>y <b>V</b>ery <b>E</b>xcellent "
 "<b>M</b>other <b>J</b>ust <b>S</b>erved <b>U</b>s <b>N</b>oodles.<br>"
 
 #: activities/solar_system/SolarSystem.qml:368
@@ -27257,7 +27257,7 @@ msgid ""
 "Press the + button to increase the velocity, or the - button to decrease the "
 "velocity."
 msgstr ""
-"Prem el botó + per a augmentar la velocitat o el botó - per a fer-la "
+"Prem el botó «+» per a augmentar la velocitat o el botó – per a fer-la "
 "disminuir."
 
 #: activities/submarine/Submarine.qml:156
@@ -27332,7 +27332,7 @@ msgid ""
 "The + button will increase the depth of the submarine, while the - button "
 "will decrease the depth of the submarine."
 msgstr ""
-"El botó + augmentarà la profunditat del submarí, mentre que el botó - la "
+"El botó «+» augmentarà la profunditat del submarí, mentre que el botó – la "
 "farà disminuir."
 
 #: activities/submarine/Submarine.qml:187
