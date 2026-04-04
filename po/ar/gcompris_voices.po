@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-18 00:40+0000\n"
+"POT-Creation-Date: 2026-04-04 00:40+0000\n"
 "PO-Revision-Date: 2026-03-24 09:49+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
@@ -319,6 +319,13 @@ msgstr "اضغط على اللون الصحيح"
 msgid ""
 "Select the correct comparator sign for each pair of numbers in the list."
 msgstr "اختر علامة المقارنة الصحيحة لكل ثنائية من الأعداد في القائمة."
+
+#. i18n: intro voices, see GCompris-voices/README.md - activity: "compass"
+#: activities/compass/ActivityInfo.qml:17
+#, fuzzy, kde-format
+#| msgid "Use the tools to draw images."
+msgid "Use the compass to draw."
+msgstr "استخدم الأدوات لرسم الصور."
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "crane"
 #: activities/crane/ActivityInfo.qml:23

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gcompris voices\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-18 00:40+0000\n"
+"POT-Creation-Date: 2026-04-04 00:40+0000\n"
 "PO-Revision-Date: 2017-05-27 14:21+0100\n"
 "Last-Translator: GunChleoc <fios@foramnagaidhlig.net>\n"
 "Language-Team: gd <kde-i18n-doc@kde.org>\n"
@@ -356,6 +356,12 @@ msgstr "Briog air an dath cheart."
 #, kde-format
 msgid ""
 "Select the correct comparator sign for each pair of numbers in the list."
+msgstr ""
+
+#. i18n: intro voices, see GCompris-voices/README.md - activity: "compass"
+#: activities/compass/ActivityInfo.qml:17
+#, kde-format
+msgid "Use the compass to draw."
 msgstr ""
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "crane"

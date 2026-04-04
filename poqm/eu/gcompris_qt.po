@@ -195,7 +195,7 @@ msgstr ""
 #: activities/click_on_letter_up/ActivityInfo.qml:25
 #: activities/colors/ActivityInfo.qml:25
 #: activities/comparator/ActivityInfo.qml:27
-#: activities/crane/ActivityInfo.qml:30
+#: activities/compass/ActivityInfo.qml:35 activities/crane/ActivityInfo.qml:30
 #: activities/drawing_wheels/ActivityInfo.qml:28
 #: activities/enumerate/ActivityInfo.qml:25
 #: activities/fifteen/ActivityInfo.qml:24
@@ -1466,12 +1466,14 @@ msgid "Tutorial Mode"
 msgstr "Tutoretza modua"
 
 #: activities/analog_electricity/ActivityConfig.qml:24
+#: activities/compass/ActivityConfig.qml:19
 #: activities/digital_electricity/ActivityConfig.qml:24
 msgctxt "ActivityConfig|"
 msgid "Free Mode"
 msgstr "Modu askea"
 
 #: activities/analog_electricity/ActivityConfig.qml:33
+#: activities/compass/ActivityConfig.qml:28
 #: activities/digital_electricity/ActivityConfig.qml:33
 #: activities/graph-coloring/ActivityConfig.qml:32
 #: activities/guesscount/ActivityConfig.qml:39
@@ -5669,6 +5671,522 @@ msgctxt "Data|"
 msgid "2 decimal places between 0 and 99.99."
 msgstr "2 leku-hamartar 0 eta 99,99 artean."
 
+#: activities/compass/ActivityConfig.qml:18
+#, fuzzy
+#| msgctxt "ActivityConfig|"
+#| msgid "Free Mode"
+msgctxt "ActivityConfig|"
+msgid "Template Mode"
+msgstr "Modu askea"
+
+#. Activity title
+#: activities/compass/ActivityInfo.qml:14
+msgctxt "ActivityInfo|"
+msgid "Compass"
+msgstr ""
+
+#. Help title
+#: activities/compass/ActivityInfo.qml:16
+msgctxt "ActivityInfo|"
+msgid "Use the compass to draw."
+msgstr ""
+
+#. Help goal
+#: activities/compass/ActivityInfo.qml:19
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Learn how to draw letters in a fun way."
+msgctxt "ActivityInfo|"
+msgid "Learn how to draw circles and arcs with a compass."
+msgstr "Letrak era dibertigarri batean marrazten ikastea."
+
+#. Help manual
+#: activities/compass/ActivityInfo.qml:23
+msgctxt "ActivityInfo|"
+msgid ""
+"In template mode, each level contains a template to replicate or to get "
+"inspiration from. In free mode, you can draw freely and adjust the canvas "
+"size and grid spacing as you want from the compass settings menu."
+msgstr ""
+
+#: activities/compass/ActivityInfo.qml:24
+msgctxt "ActivityInfo|"
+msgid "<br><b>Drawing with the compass:</b>"
+msgstr ""
+
+#: activities/compass/ActivityInfo.qml:25
+msgctxt "ActivityInfo|"
+msgid "Move the compass by dragging the leg without the pen."
+msgstr ""
+
+#: activities/compass/ActivityInfo.qml:26
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid ""
+#| "Complete the puzzle by dragging each piece on the side to the matching "
+#| "space in the puzzle."
+msgctxt "ActivityInfo|"
+msgid ""
+"Move the pen by dragging the other leg or the circle around the pen tip."
+msgstr ""
+"Osatu buruhaustekoa alboko pieza bakoitza buruhaustekoan dagokion hutsunera "
+"arrastatuz."
+
+#: activities/compass/ActivityInfo.qml:27
+msgctxt "ActivityInfo|"
+msgid "Rotate and draw by dragging the pen with the left mouse button."
+msgstr ""
+
+#: activities/compass/ActivityInfo.qml:28
+msgctxt "ActivityInfo|"
+msgid ""
+"Rotate without drawing by dragging the compass hinge, or by dragging the pen "
+"with the right mouse button."
+msgstr ""
+
+#: activities/compass/ActivityInfo.qml:29
+msgctxt "ActivityInfo|"
+msgid ""
+"The snap to grid setting can be temporarily inverted by pressing the Control "
+"key."
+msgstr ""
+
+#: activities/compass/ActivityInfo.qml:30
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "<b>Diving planes</b>"
+msgctxt "ActivityInfo|"
+msgid "<b>Templates:</b>"
+msgstr "<b>Urperatzeko lemak</b>"
+
+#: activities/compass/ActivityInfo.qml:31
+msgctxt "ActivityInfo|"
+msgid ""
+"Each level in template mode presents a template to replicate or to get "
+"inspiration from."
+msgstr ""
+
+#: activities/compass/ActivityInfo.qml:32
+msgctxt "ActivityInfo|"
+msgid ""
+"Each template is divided into steps which can be scrolled through using the "
+"arrows."
+msgstr ""
+
+#: activities/compass/ActivityInfo.qml:33
+msgctxt "ActivityInfo|"
+msgid ""
+"Each step shows where to place the tip of the compass and the circle or arc "
+"to be drawn."
+msgstr ""
+
+#: activities/compass/ActivityInfo.qml:34
+#, fuzzy
+#| msgctxt "TutorialDataset|"
+#| msgid "You can change the rheostat value by dragging its slider."
+msgctxt "ActivityInfo|"
+msgid "You can change the position of the template by clicking on its corners."
+msgstr "Erreostatoaren graduatzailea arrastatuz bere balioa alda dezakezu."
+
+#: activities/compass/ActivityInfo.qml:36
+#: activities/drawing_wheels/ActivityInfo.qml:29
+#: activities/sketch/ActivityInfo.qml:28
+msgctxt "ActivityInfo|"
+msgid "Ctrl + Z: undo last action"
+msgstr "Ktrl + Z: azken ekintza desegiteko"
+
+#: activities/compass/ActivityInfo.qml:37
+#: activities/drawing_wheels/ActivityInfo.qml:30
+#: activities/sketch/ActivityInfo.qml:29
+msgctxt "ActivityInfo|"
+msgid "Ctrl + Y: redo last action"
+msgstr "Ktrl + Y: azken ekintza berregiteko"
+
+#: activities/compass/ActivityInfo.qml:38
+#: activities/drawing_wheels/ActivityInfo.qml:31
+#: activities/sketch/ActivityInfo.qml:30
+msgctxt "ActivityInfo|"
+msgid "Ctrl + S: save the image"
+msgstr "Ktrl + S: irudia gordetzeko"
+
+#: activities/compass/ActivityInfo.qml:39
+#: activities/drawing_wheels/ActivityInfo.qml:32
+#: activities/sketch/ActivityInfo.qml:31
+msgctxt "ActivityInfo|"
+msgid "Ctrl + O: open an image"
+msgstr "Ktrl + O: irudi bat irekitzeko"
+
+#: activities/compass/ActivityInfo.qml:40
+msgctxt "ActivityInfo|"
+msgid "Ctrl: invert snap to grid while it is pressed"
+msgstr ""
+
+#: activities/compass/ActivityInfo.qml:41
+msgctxt "ActivityInfo|"
+msgid "P: open the pen panel"
+msgstr ""
+
+#: activities/compass/ActivityInfo.qml:42
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Down arrow: select previous item"
+msgctxt "ActivityInfo|"
+msgid "Left arrow: previous template step"
+msgstr "Behera gezia: hautatu aurreko elementua"
+
+#: activities/compass/ActivityInfo.qml:43
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Right arrow: right hand answer"
+msgctxt "ActivityInfo|"
+msgid "Right arrow: next template step"
+msgstr "Eskuin-gezia: eskuin eskua erantzuna"
+
+#: activities/compass/ActivityInfo.qml:44
+msgctxt "ActivityInfo|"
+msgid "Tab: toggle the template visibility"
+msgstr ""
+
+#: activities/compass/ActivityInfo.qml:45
+msgctxt "ActivityInfo|"
+msgid "Space: toggle the compass and grid visibility"
+msgstr ""
+
+#: activities/compass/compass.js:103
+#, fuzzy
+#| msgctxt "ActivityConfig|"
+#| msgid "Free Mode"
+msgctxt "compass|"
+msgid "Free mode"
+msgstr "Modu askea"
+
+#: activities/compass/Compass.qml:439
+#, fuzzy
+#| msgctxt "IntroMessage|"
+#| msgid "Previous"
+msgctxt "Compass|"
+msgid "Previous step"
+msgstr "Aurrekoa"
+
+#: activities/compass/Compass.qml:464
+#, fuzzy
+#| msgctxt "IntroMessage|"
+#| msgid "Next"
+msgctxt "Compass|"
+msgid "Next step"
+msgstr "Hurrengoa"
+
+#: activities/compass/Compass.qml:477
+#, fuzzy
+#| msgctxt "ActivityConfig|"
+#| msgid "All the words"
+msgctxt "Compass|"
+msgid "All steps"
+msgstr "Hitz guztiak"
+
+#: activities/compass/Compass.qml:477
+msgctxt "Compass|"
+msgid "Current step"
+msgstr ""
+
+#: activities/compass/Compass.qml:549
+#, fuzzy
+#| msgctxt "DrawingWheels|"
+#| msgid "File menu"
+msgctxt "Compass|"
+msgid "File menu"
+msgstr "Fitxategia menua"
+
+#: activities/compass/Compass.qml:558
+msgctxt "Compass|"
+msgid "Compass and grid settings"
+msgstr ""
+
+#: activities/compass/Compass.qml:567
+#, fuzzy
+#| msgctxt "DialogChooseLevel|"
+#| msgid "%1 settings"
+msgctxt "Compass|"
+msgid "Pen settings"
+msgstr "%1 ezarpenak"
+
+#: activities/compass/Compass.qml:588
+#, fuzzy
+#| msgctxt "DrawingWheels|"
+#| msgid "Undo"
+msgctxt "Compass|"
+msgid "Undo"
+msgstr "Desegin"
+
+#: activities/compass/Compass.qml:598
+#, fuzzy
+#| msgctxt "DrawingWheels|"
+#| msgid "Redo"
+msgctxt "Compass|"
+msgid "Redo"
+msgstr "Berregin"
+
+#: activities/compass/Compass.qml:612
+msgctxt "Compass|"
+msgid "Show template"
+msgstr ""
+
+#: activities/compass/Compass.qml:612
+#, fuzzy
+#| msgctxt "board2|"
+#| msgid "Golden Temple"
+msgctxt "Compass|"
+msgid "Hide template"
+msgstr "Urrezko tenplua"
+
+#: activities/compass/Compass.qml:624
+msgctxt "Compass|"
+msgid "Show compass and grid"
+msgstr ""
+
+#: activities/compass/Compass.qml:624
+msgctxt "Compass|"
+msgid "Hide compass and grid"
+msgstr ""
+
+#: activities/compass/Compass.qml:775
+#, fuzzy
+#| msgctxt "DrawingWheels|"
+#| msgid "Save your image"
+msgctxt "Compass|"
+msgid "Save your image"
+msgstr "Gorde zure irudia"
+
+#: activities/compass/Compass.qml:790
+#, fuzzy
+#| msgctxt "DrawingWheels|"
+#| msgid "Open an image"
+msgctxt "Compass|"
+msgid "Open an image"
+msgstr "Ireki irudi bat"
+
+#: activities/compass/Compass.qml:813
+#, fuzzy
+#| msgctxt "DrawingWheels|"
+#| msgid "Create a new image"
+msgctxt "Compass|"
+msgid "Create a new image"
+msgstr "Sortu irudi berri bat"
+
+#: activities/compass/Compass.qml:832
+#, fuzzy
+#| msgctxt "DrawingWheels|"
+#| msgid "Background color"
+msgctxt "Compass|"
+msgid "Background color"
+msgstr "Atzeko planoaren kolorea"
+
+#: activities/compass/Compass.qml:892
+#, fuzzy
+#| msgctxt "DrawingWheels|"
+#| msgid "Pen size"
+msgctxt "Compass|"
+msgid "Canvas size"
+msgstr "Arkatzaren neurria"
+
+#: activities/compass/Compass.qml:962
+msgctxt "Compass|"
+msgid "Grid spacing"
+msgstr ""
+
+#: activities/compass/Compass.qml:1013
+msgctxt "Compass|"
+msgid "Snap to grid"
+msgstr ""
+
+#: activities/compass/Compass.qml:1039
+msgctxt "Compass|"
+msgid "Show grid"
+msgstr ""
+
+#: activities/compass/Compass.qml:1103
+#, fuzzy
+#| msgctxt "DrawingWheels|"
+#| msgid "Color"
+msgctxt "Compass|"
+msgid "Color"
+msgstr "Kolorea"
+
+#: activities/compass/Compass.qml:1149
+#, fuzzy
+#| msgctxt "DrawingWheels|"
+#| msgid "Opacity"
+msgctxt "Compass|"
+msgid "Opacity"
+msgstr "Opakutasuna"
+
+#: activities/compass/Compass.qml:1193
+#, fuzzy
+#| msgctxt "DrawingWheels|"
+#| msgid "Pen size"
+msgctxt "Compass|"
+msgid " Pen size"
+msgstr "Arkatzaren neurria"
+
+#: activities/compass/Compass.qml:1254
+#, fuzzy
+#| msgctxt "DrawingWheels|"
+#| msgid "You did not save this image. Do you want to close this activity?"
+msgctxt "Compass|"
+msgid "You did not save this image. Do you want to close this activity?"
+msgstr "Ez duzu irudi hau gorde. Jarduera hau itxi nahi duzu?"
+
+#: activities/compass/Compass.qml:1255
+#, fuzzy
+#| msgctxt "DrawingWheels|"
+#| msgid "Do you want to erase this image?"
+msgctxt "Compass|"
+msgid "Do you want to erase this image?"
+msgstr "Irudi hau ezabatu nahi duzu?"
+
+#: activities/compass/Compass.qml:1256
+#, fuzzy
+#| msgctxt "balanceboxeditor|"
+#| msgid "Yes"
+msgctxt "Compass|"
+msgid "Yes"
+msgstr "Bai"
+
+#: activities/compass/Compass.qml:1257
+#, fuzzy
+#| msgctxt "balanceboxeditor|"
+#| msgid "No"
+msgctxt "Compass|"
+msgid "No"
+msgstr "Ez"
+
+#: activities/compass/resource/1/Data.qml:13
+#, fuzzy
+#| msgctxt "Dataset|"
+#| msgid "Third largest"
+msgctxt "Data|"
+msgid "The target"
+msgstr "Hirugarren handiena"
+
+#: activities/compass/resource/10/Data.qml:13
+#, fuzzy
+#| msgctxt "board8|"
+#| msgid "The Pantheon"
+msgctxt "Data|"
+msgid "The peony"
+msgstr "Panteoia"
+
+#: activities/compass/resource/11/Data.qml:13
+#, fuzzy
+#| msgctxt "Dataset|"
+#| msgid "The same"
+msgctxt "Data|"
+msgid "The snail"
+msgstr "Berdina"
+
+#: activities/compass/resource/12/Data.qml:13
+#, fuzzy
+#| msgctxt "Dataset|"
+#| msgid "The same"
+msgctxt "Data|"
+msgid "The rose"
+msgstr "Berdina"
+
+#: activities/compass/resource/13/Data.qml:13
+msgctxt "Data|"
+msgid "The swirl"
+msgstr ""
+
+#: activities/compass/resource/14/Data.qml:13
+#, fuzzy
+#| msgctxt "Dataset|"
+#| msgid "The same"
+msgctxt "Data|"
+msgid "The spiral"
+msgstr "Berdina"
+
+#: activities/compass/resource/15/Data.qml:13
+msgctxt "Data|"
+msgid "The twist"
+msgstr ""
+
+#: activities/compass/resource/16/Data.qml:15
+#, fuzzy
+#| msgctxt "Dataset|"
+#| msgid "The same"
+msgctxt "Data|"
+msgid "The face"
+msgstr "Berdina"
+
+#: activities/compass/resource/17/Data.qml:15
+#, fuzzy
+#| msgctxt "Dataset|"
+#| msgid "The same"
+msgctxt "Data|"
+msgid "The bear"
+msgstr "Berdina"
+
+#: activities/compass/resource/18/Data.qml:14
+msgctxt "Data|"
+msgid "The lion"
+msgstr ""
+
+#. The animal
+#: activities/compass/resource/19/Data.qml:16
+#, fuzzy
+#| msgctxt "board3_0|"
+#| msgid "house"
+msgctxt "Data|"
+msgid "The mouse"
+msgstr "etxea"
+
+#: activities/compass/resource/2/Data.qml:13
+#, fuzzy
+#| msgctxt "Dataset|"
+#| msgid "The same"
+msgctxt "Data|"
+msgid "The shell"
+msgstr "Berdina"
+
+#: activities/compass/resource/3/Data.qml:13
+msgctxt "Data|"
+msgid "The lotus flower"
+msgstr ""
+
+#: activities/compass/resource/4/Data.qml:13
+msgctxt "Data|"
+msgid "The carpet of flowers"
+msgstr ""
+
+#: activities/compass/resource/5/Data.qml:13
+msgctxt "Data|"
+msgid "The clover"
+msgstr ""
+
+#: activities/compass/resource/6/Data.qml:13
+#, fuzzy
+#| msgctxt "board8|"
+#| msgid "The Pantheon"
+msgctxt "Data|"
+msgid "The balloon"
+msgstr "Panteoia"
+
+#: activities/compass/resource/7/Data.qml:13
+msgctxt "Data|"
+msgid "The daisy"
+msgstr ""
+
+#. The flower
+#: activities/compass/resource/8/Data.qml:14
+msgctxt "Data|"
+msgid "The periwinkle"
+msgstr ""
+
+#: activities/compass/resource/9/Data.qml:13
+msgctxt "Data|"
+msgid "The soccer ball"
+msgstr ""
+
 #. Activity title
 #: activities/crane/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
@@ -6748,30 +7266,6 @@ msgstr ""
 "fitxategi (bektore formatua) batean egingo du, PNG fitxategi (pixel "
 "formatua) batekin batera. Jardueratik SVG fitxategia bakarrik ireki daiteke "
 "berriro."
-
-#: activities/drawing_wheels/ActivityInfo.qml:29
-#: activities/sketch/ActivityInfo.qml:28
-msgctxt "ActivityInfo|"
-msgid "Ctrl + Z: undo last action"
-msgstr "Ktrl + Z: azken ekintza desegiteko"
-
-#: activities/drawing_wheels/ActivityInfo.qml:30
-#: activities/sketch/ActivityInfo.qml:29
-msgctxt "ActivityInfo|"
-msgid "Ctrl + Y: redo last action"
-msgstr "Ktrl + Y: azken ekintza berregiteko"
-
-#: activities/drawing_wheels/ActivityInfo.qml:31
-#: activities/sketch/ActivityInfo.qml:30
-msgctxt "ActivityInfo|"
-msgid "Ctrl + S: save the image"
-msgstr "Ktrl + S: irudia gordetzeko"
-
-#: activities/drawing_wheels/ActivityInfo.qml:32
-#: activities/sketch/ActivityInfo.qml:31
-msgctxt "ActivityInfo|"
-msgid "Ctrl + O: open an image"
-msgstr "Ktrl + O: irudi bat irekitzeko"
 
 #: activities/drawing_wheels/DrawingWheels.qml:405
 msgctxt "DrawingWheels|"
@@ -29140,12 +29634,6 @@ msgstr "Hasi"
 #~ msgid "Save as a drawing"
 #~ msgstr "Gorde marrazki gisa"
 
-#~| msgctxt "category_colors|"
-#~| msgid "Colors"
-#~ msgctxt "DrawingWheels|"
-#~ msgid "Color"
-#~ msgstr "Kolorea"
-
 #~| msgctxt "board9_0|"
 #~| msgid "Districto Federal"
 #~ msgctxt "DrawingWheels|"
@@ -29294,14 +29782,6 @@ msgstr "Hasi"
 #~ "Kolorea aldatzeko, mugitu pintura-hodietako graduatzaileak edo egin klik "
 #~ "+ eta - botoiei. Ondoren egin klik «Ados» botoiari zure erantzuna "
 #~ "baliozkotzeko."
-
-#~ msgctxt "ActivityInfo|"
-#~ msgid ""
-#~ "Complete the puzzle by dragging each piece on the side to the matching "
-#~ "space in the puzzle."
-#~ msgstr ""
-#~ "Osatu buruhaustekoa alboko pieza bakoitza buruhaustekoan dagokion "
-#~ "hutsunera arrastatuz."
 
 #~ msgctxt "ActivityInfo|"
 #~ msgid "Numeration training."

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gcompris\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-18 00:40+0000\n"
+"POT-Creation-Date: 2026-04-04 00:40+0000\n"
 "PO-Revision-Date: 2026-03-18 16:21+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
@@ -317,6 +317,13 @@ msgstr "יש ללחוץ על הצבע הנכון"
 msgid ""
 "Select the correct comparator sign for each pair of numbers in the list."
 msgstr "יש לבחור את סימן ההשוואה הנכון לכל צמד מספרים ברשימה."
+
+#. i18n: intro voices, see GCompris-voices/README.md - activity: "compass"
+#: activities/compass/ActivityInfo.qml:17
+#, fuzzy, kde-format
+#| msgid "Use the tools to draw images."
+msgid "Use the compass to draw."
+msgstr "אפשר להשתמש בכלים כדי לאייר תמונות."
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "crane"
 #: activities/crane/ActivityInfo.qml:23

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gcompris\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-18 00:40+0000\n"
+"POT-Creation-Date: 2026-04-04 00:40+0000\n"
 "PO-Revision-Date: 2026-03-19 21:50+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -335,6 +335,13 @@ msgid ""
 "Select the correct comparator sign for each pair of numbers in the list."
 msgstr ""
 "Hautatu zerrendako zenbaki pare bakoitzari dagokion zeinu konparadore egokia."
+
+#. i18n: intro voices, see GCompris-voices/README.md - activity: "compass"
+#: activities/compass/ActivityInfo.qml:17
+#, fuzzy, kde-format
+#| msgid "Use the tools to draw images."
+msgid "Use the compass to draw."
+msgstr "Erabili tresnak irudiak marrazteko."
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "crane"
 #: activities/crane/ActivityInfo.qml:23
