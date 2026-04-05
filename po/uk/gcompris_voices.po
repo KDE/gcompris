@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gcompris_voices\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-04 00:40+0000\n"
-"PO-Revision-Date: 2026-03-18 12:49+0200\n"
+"PO-Revision-Date: 2026-04-04 09:49+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -345,10 +345,9 @@ msgstr "Виберіть належний знак порівняння для �
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "compass"
 #: activities/compass/ActivityInfo.qml:17
-#, fuzzy, kde-format
-#| msgid "Use the tools to draw images."
+#, kde-format
 msgid "Use the compass to draw."
-msgstr "Скористайтеся інструментами для малювання."
+msgstr "Скористайтеся циркулем для малювання."
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "crane"
 #: activities/crane/ActivityInfo.qml:23

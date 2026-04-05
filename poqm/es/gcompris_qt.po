@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: gcompris_qt\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-12-22 23:51+0100\n"
-"PO-Revision-Date: 2026-03-25 00:41+0100\n"
+"PO-Revision-Date: 2026-04-05 01:47+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -5765,33 +5765,27 @@ msgid "2 decimal places between 0 and 99.99."
 msgstr "2 decimales entre 0 y 99,99."
 
 #: activities/compass/ActivityConfig.qml:18
-#, fuzzy
-#| msgctxt "ActivityConfig|"
-#| msgid "Free Mode"
 msgctxt "ActivityConfig|"
 msgid "Template Mode"
-msgstr "Modo libre"
+msgstr "Modo plantilla"
 
 #. Activity title
 #: activities/compass/ActivityInfo.qml:14
 msgctxt "ActivityInfo|"
 msgid "Compass"
-msgstr ""
+msgstr "Compás"
 
 #. Help title
 #: activities/compass/ActivityInfo.qml:16
 msgctxt "ActivityInfo|"
 msgid "Use the compass to draw."
-msgstr ""
+msgstr "Usa el compás para dibujar."
 
 #. Help goal
 #: activities/compass/ActivityInfo.qml:19
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Learn how to draw letters in a fun way."
 msgctxt "ActivityInfo|"
 msgid "Learn how to draw circles and arcs with a compass."
-msgstr "Aprende a dibujar letras de una forma divertida."
+msgstr "Aprende a dibujar círculos y arcos con un compás."
 
 #. Help manual
 #: activities/compass/ActivityInfo.qml:23
@@ -5801,33 +5795,33 @@ msgid ""
 "inspiration from. In free mode, you can draw freely and adjust the canvas "
 "size and grid spacing as you want from the compass settings menu."
 msgstr ""
+"En el modo plantilla, cada nivel contiene una plantilla para replicar o de "
+"la que obtener inspiración. En el modo libre puedes dibujar libremente y "
+"ajustar el tamaño del lienzo y del espacio de la rejilla como prefieras "
+"mediante el menú de ajustes del compás."
 
 #: activities/compass/ActivityInfo.qml:24
 msgctxt "ActivityInfo|"
 msgid "<br><b>Drawing with the compass:</b>"
-msgstr ""
+msgstr "<br><b>Dibujo con el compás:</b>"
 
 #: activities/compass/ActivityInfo.qml:25
 msgctxt "ActivityInfo|"
 msgid "Move the compass by dragging the leg without the pen."
-msgstr ""
+msgstr "Mueve el compás arrastrando la pata sin el lápiz."
 
 #: activities/compass/ActivityInfo.qml:26
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid ""
-#| "Complete the puzzle by dragging each piece on the side to the matching "
-#| "spot."
 msgctxt "ActivityInfo|"
 msgid ""
 "Move the pen by dragging the other leg or the circle around the pen tip."
 msgstr ""
-"Completa el puzle arrastrando cada pieza lateral a su lugar correspondiente."
+"Mueve el lápiz arrastrando la otra pata o el círculo que rodea la punta del "
+"lápiz."
 
 #: activities/compass/ActivityInfo.qml:27
 msgctxt "ActivityInfo|"
 msgid "Rotate and draw by dragging the pen with the left mouse button."
-msgstr ""
+msgstr "Gira y dibuja arrastrando el lápiz son el botón izquierdo del ratón."
 
 #: activities/compass/ActivityInfo.qml:28
 msgctxt "ActivityInfo|"
@@ -5835,6 +5829,8 @@ msgid ""
 "Rotate without drawing by dragging the compass hinge, or by dragging the pen "
 "with the right mouse button."
 msgstr ""
+"Gira sin dibujar arrastrando la bisagra del compás o arrastrando el lápiz "
+"con el botón derecho del ratón."
 
 #: activities/compass/ActivityInfo.qml:29
 msgctxt "ActivityInfo|"
@@ -5842,14 +5838,13 @@ msgid ""
 "The snap to grid setting can be temporarily inverted by pressing the Control "
 "key."
 msgstr ""
+"La preferencia de ajuste a la cuadrícula se puede invertir temporalmente "
+"pulsando la tecla Control."
 
 #: activities/compass/ActivityInfo.qml:30
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "<b>Diving planes</b>"
 msgctxt "ActivityInfo|"
 msgid "<b>Templates:</b>"
-msgstr "<b>Timones de profundidad</b>"
+msgstr "<b>Plantillas:</b>"
 
 #: activities/compass/ActivityInfo.qml:31
 msgctxt "ActivityInfo|"
@@ -5857,6 +5852,8 @@ msgid ""
 "Each level in template mode presents a template to replicate or to get "
 "inspiration from."
 msgstr ""
+"Cada nivel del modo plantilla muestra una plantilla para replicar o de la "
+"que obtener inspiración."
 
 #: activities/compass/ActivityInfo.qml:32
 msgctxt "ActivityInfo|"
@@ -5864,6 +5861,8 @@ msgid ""
 "Each template is divided into steps which can be scrolled through using the "
 "arrows."
 msgstr ""
+"Cada plantilla está dividida en pasos por los que te puedes desplazar usando "
+"las flechas."
 
 #: activities/compass/ActivityInfo.qml:33
 msgctxt "ActivityInfo|"
@@ -5871,15 +5870,13 @@ msgid ""
 "Each step shows where to place the tip of the compass and the circle or arc "
 "to be drawn."
 msgstr ""
+"Cada paso muestra dónde debes colocar la punta del compás y el círculo o "
+"arco que tienes que dibujar."
 
 #: activities/compass/ActivityInfo.qml:34
-#, fuzzy
-#| msgctxt "TutorialDataset|"
-#| msgid "You can change the rheostat value by dragging its slider."
 msgctxt "ActivityInfo|"
 msgid "You can change the position of the template by clicking on its corners."
-msgstr ""
-"Puedes cambiar el valor del reóstato arrastrando su control deslizante."
+msgstr "Puedes cambiar la posición de la plantilla pulsando en sus esquinas."
 
 #: activities/compass/ActivityInfo.qml:36
 #: activities/drawing_wheels/ActivityInfo.qml:29
@@ -5912,80 +5909,59 @@ msgstr "Ctrl + O: abrir una imagen"
 #: activities/compass/ActivityInfo.qml:40
 msgctxt "ActivityInfo|"
 msgid "Ctrl: invert snap to grid while it is pressed"
-msgstr ""
+msgstr "Ctrl: invertir el ajuste a la cuadrícula mientras se pulsa"
 
 #: activities/compass/ActivityInfo.qml:41
 msgctxt "ActivityInfo|"
 msgid "P: open the pen panel"
-msgstr ""
+msgstr "P: abrir el panel del lápiz"
 
 #: activities/compass/ActivityInfo.qml:42
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Down arrow: select previous item"
 msgctxt "ActivityInfo|"
 msgid "Left arrow: previous template step"
-msgstr "Flecha abajo: seleccionar el elemento anterior"
+msgstr "Flecha izquierda: anterior paso de la plantilla"
 
 #: activities/compass/ActivityInfo.qml:43
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Right arrow: right hand answer"
 msgctxt "ActivityInfo|"
 msgid "Right arrow: next template step"
-msgstr "Flecha derecha: respuesta de mano derecha"
+msgstr "Flecha derecha: siguiente paso de la plantilla"
 
 #: activities/compass/ActivityInfo.qml:44
 msgctxt "ActivityInfo|"
 msgid "Tab: toggle the template visibility"
-msgstr ""
+msgstr "Tabulador: conmutar la visibilidad de la plantilla"
 
 #: activities/compass/ActivityInfo.qml:45
 msgctxt "ActivityInfo|"
 msgid "Space: toggle the compass and grid visibility"
-msgstr ""
+msgstr "Espacio: conmutar la visibilidad del compás y de la cuadrícula"
 
 #: activities/compass/compass.js:103
-#, fuzzy
-#| msgctxt "ActivityConfig|"
-#| msgid "Free Mode"
 msgctxt "compass|"
 msgid "Free mode"
 msgstr "Modo libre"
 
 #: activities/compass/Compass.qml:439
-#, fuzzy
-#| msgctxt "IntroMessage|"
-#| msgid "Previous"
 msgctxt "Compass|"
 msgid "Previous step"
-msgstr "Anterior"
+msgstr "Paso anterior"
 
 #: activities/compass/Compass.qml:464
-#, fuzzy
-#| msgctxt "IntroMessage|"
-#| msgid "Next"
 msgctxt "Compass|"
 msgid "Next step"
-msgstr "Siguiente"
+msgstr "Paso siguiente"
 
 #: activities/compass/Compass.qml:477
-#, fuzzy
-#| msgctxt "ActivityConfig|"
-#| msgid "All the words"
 msgctxt "Compass|"
 msgid "All steps"
-msgstr "Todas las palabras"
+msgstr "Todos los pasos"
 
 #: activities/compass/Compass.qml:477
 msgctxt "Compass|"
 msgid "Current step"
-msgstr ""
+msgstr "Paso actual"
 
 #: activities/compass/Compass.qml:549
-#, fuzzy
-#| msgctxt "DrawingWheels|"
-#| msgid "File menu"
 msgctxt "Compass|"
 msgid "File menu"
 msgstr "Menú Archivo"
@@ -5993,28 +5969,19 @@ msgstr "Menú Archivo"
 #: activities/compass/Compass.qml:558
 msgctxt "Compass|"
 msgid "Compass and grid settings"
-msgstr ""
+msgstr "Preferencias del compás y de la cuadrícula"
 
 #: activities/compass/Compass.qml:567
-#, fuzzy
-#| msgctxt "DialogChooseLevel|"
-#| msgid "%1 settings"
 msgctxt "Compass|"
 msgid "Pen settings"
-msgstr "Preferencias de %1"
+msgstr "Preferencias del lápiz"
 
 #: activities/compass/Compass.qml:588
-#, fuzzy
-#| msgctxt "DrawingWheels|"
-#| msgid "Undo"
 msgctxt "Compass|"
 msgid "Undo"
 msgstr "Deshacer"
 
 #: activities/compass/Compass.qml:598
-#, fuzzy
-#| msgctxt "DrawingWheels|"
-#| msgid "Redo"
 msgctxt "Compass|"
 msgid "Redo"
 msgstr "Rehacer"
@@ -6022,263 +5989,194 @@ msgstr "Rehacer"
 #: activities/compass/Compass.qml:612
 msgctxt "Compass|"
 msgid "Show template"
-msgstr ""
+msgstr "Mostrar plantilla"
 
 #: activities/compass/Compass.qml:612
-#, fuzzy
-#| msgctxt "board2|"
-#| msgid "Golden Temple"
 msgctxt "Compass|"
 msgid "Hide template"
-msgstr "El Templo Dorado"
+msgstr "Ocultar plantilla"
 
 #: activities/compass/Compass.qml:624
 msgctxt "Compass|"
 msgid "Show compass and grid"
-msgstr ""
+msgstr "Mostrar el compás y la cuadrícula"
 
 #: activities/compass/Compass.qml:624
 msgctxt "Compass|"
 msgid "Hide compass and grid"
-msgstr ""
+msgstr "Ocultar el compás y la cuadrícula"
 
 #: activities/compass/Compass.qml:775
-#, fuzzy
-#| msgctxt "DrawingWheels|"
-#| msgid "Save your image"
 msgctxt "Compass|"
 msgid "Save your image"
 msgstr "Guardar la imagen"
 
 #: activities/compass/Compass.qml:790
-#, fuzzy
-#| msgctxt "DrawingWheels|"
-#| msgid "Open an image"
 msgctxt "Compass|"
 msgid "Open an image"
 msgstr "Abrir una imagen"
 
 #: activities/compass/Compass.qml:813
-#, fuzzy
-#| msgctxt "DrawingWheels|"
-#| msgid "Create a new image"
 msgctxt "Compass|"
 msgid "Create a new image"
 msgstr "Crear una nueva imagen"
 
 #: activities/compass/Compass.qml:832
-#, fuzzy
-#| msgctxt "DrawingWheels|"
-#| msgid "Background color"
 msgctxt "Compass|"
 msgid "Background color"
 msgstr "Color del fondo"
 
 #: activities/compass/Compass.qml:892
-#, fuzzy
-#| msgctxt "DrawingWheels|"
-#| msgid "Pen size"
 msgctxt "Compass|"
 msgid "Canvas size"
-msgstr "Tamaño del lápiz"
+msgstr "Tamaño del lienzo"
 
 #: activities/compass/Compass.qml:962
 msgctxt "Compass|"
 msgid "Grid spacing"
-msgstr ""
+msgstr "Espaciado de la cuadrícula"
 
 #: activities/compass/Compass.qml:1013
 msgctxt "Compass|"
 msgid "Snap to grid"
-msgstr ""
+msgstr "Ajustar a la cuadrícula"
 
 #: activities/compass/Compass.qml:1039
 msgctxt "Compass|"
 msgid "Show grid"
-msgstr ""
+msgstr "Mostrar cuadrícula"
 
 #: activities/compass/Compass.qml:1103
-#, fuzzy
-#| msgctxt "category_colors|"
-#| msgid "Colors"
 msgctxt "Compass|"
 msgid "Color"
-msgstr "Colores"
+msgstr "Color"
 
 #: activities/compass/Compass.qml:1149
-#, fuzzy
-#| msgctxt "DrawingWheels|"
-#| msgid "Opacity"
 msgctxt "Compass|"
 msgid "Opacity"
 msgstr "Opacidad"
 
 #: activities/compass/Compass.qml:1193
-#, fuzzy
-#| msgctxt "DrawingWheels|"
-#| msgid "Pen size"
 msgctxt "Compass|"
 msgid " Pen size"
 msgstr "Tamaño del lápiz"
 
 #: activities/compass/Compass.qml:1254
-#, fuzzy
-#| msgctxt "DrawingWheels|"
-#| msgid "You did not save this image. Do you want to close this activity?"
 msgctxt "Compass|"
 msgid "You did not save this image. Do you want to close this activity?"
 msgstr "No has guardado la imagen. ¿Quieres cerrar esta actividad?"
 
 #: activities/compass/Compass.qml:1255
-#, fuzzy
-#| msgctxt "DrawingWheels|"
-#| msgid "Do you want to erase this image?"
 msgctxt "Compass|"
 msgid "Do you want to erase this image?"
 msgstr "¿Quieres borrar esta imagen?"
 
 #: activities/compass/Compass.qml:1256
-#, fuzzy
-#| msgctxt "balanceboxeditor|"
-#| msgid "Yes"
 msgctxt "Compass|"
 msgid "Yes"
 msgstr "Sí"
 
 #: activities/compass/Compass.qml:1257
-#, fuzzy
-#| msgctxt "balanceboxeditor|"
-#| msgid "No"
 msgctxt "Compass|"
 msgid "No"
 msgstr "No"
 
 #: activities/compass/resource/1/Data.qml:13
-#, fuzzy
-#| msgctxt "Dataset|"
-#| msgid "Third largest"
 msgctxt "Data|"
 msgid "The target"
-msgstr "El tercero más grande"
+msgstr "El objetivo"
 
 #: activities/compass/resource/10/Data.qml:13
-#, fuzzy
-#| msgctxt "board8|"
-#| msgid "The Pantheon"
 msgctxt "Data|"
 msgid "The peony"
-msgstr "El Panteón"
+msgstr "La peonía"
 
 #: activities/compass/resource/11/Data.qml:13
-#, fuzzy
-#| msgctxt "Dataset|"
-#| msgid "The same"
 msgctxt "Data|"
 msgid "The snail"
-msgstr "El mismo"
+msgstr "El caracol"
 
 #: activities/compass/resource/12/Data.qml:13
-#, fuzzy
-#| msgctxt "Dataset|"
-#| msgid "The same"
 msgctxt "Data|"
 msgid "The rose"
-msgstr "El mismo"
+msgstr "La rosa"
 
 #: activities/compass/resource/13/Data.qml:13
 msgctxt "Data|"
 msgid "The swirl"
-msgstr ""
+msgstr "El remolino"
 
 #: activities/compass/resource/14/Data.qml:13
-#, fuzzy
-#| msgctxt "Dataset|"
-#| msgid "The same"
 msgctxt "Data|"
 msgid "The spiral"
-msgstr "El mismo"
+msgstr "La espiral"
 
 #: activities/compass/resource/15/Data.qml:13
 msgctxt "Data|"
 msgid "The twist"
-msgstr ""
+msgstr "El giro"
 
 #: activities/compass/resource/16/Data.qml:15
-#, fuzzy
-#| msgctxt "Dataset|"
-#| msgid "The same"
 msgctxt "Data|"
 msgid "The face"
-msgstr "El mismo"
+msgstr "La cara"
 
 #: activities/compass/resource/17/Data.qml:15
-#, fuzzy
-#| msgctxt "Dataset|"
-#| msgid "The same"
 msgctxt "Data|"
 msgid "The bear"
-msgstr "El mismo"
+msgstr "El oso"
 
 #: activities/compass/resource/18/Data.qml:14
 msgctxt "Data|"
 msgid "The lion"
-msgstr ""
+msgstr "El león"
 
 #. The animal
 #: activities/compass/resource/19/Data.qml:16
-#, fuzzy
-#| msgctxt "board3_0|"
-#| msgid "house"
 msgctxt "Data|"
 msgid "The mouse"
-msgstr "casa"
+msgstr "El ratón"
 
 #: activities/compass/resource/2/Data.qml:13
-#, fuzzy
-#| msgctxt "Dataset|"
-#| msgid "The same"
 msgctxt "Data|"
 msgid "The shell"
-msgstr "El mismo"
+msgstr "El caparazón"
 
 #: activities/compass/resource/3/Data.qml:13
 msgctxt "Data|"
 msgid "The lotus flower"
-msgstr ""
+msgstr "La flor de loto"
 
 #: activities/compass/resource/4/Data.qml:13
 msgctxt "Data|"
 msgid "The carpet of flowers"
-msgstr ""
+msgstr "La alfombra de flores"
 
 #: activities/compass/resource/5/Data.qml:13
 msgctxt "Data|"
 msgid "The clover"
-msgstr ""
+msgstr "El trébol"
 
 #: activities/compass/resource/6/Data.qml:13
-#, fuzzy
-#| msgctxt "board8|"
-#| msgid "The Pantheon"
 msgctxt "Data|"
 msgid "The balloon"
-msgstr "El Panteón"
+msgstr "El globo"
 
 #: activities/compass/resource/7/Data.qml:13
 msgctxt "Data|"
 msgid "The daisy"
-msgstr ""
+msgstr "La margarita"
 
 #. The flower
 #: activities/compass/resource/8/Data.qml:14
 msgctxt "Data|"
 msgid "The periwinkle"
-msgstr ""
+msgstr "La violeta"
 
 #: activities/compass/resource/9/Data.qml:13
 msgctxt "Data|"
 msgid "The soccer ball"
-msgstr ""
+msgstr "El balón de fútbol"
 
 #. Activity title
 #: activities/crane/ActivityInfo.qml:20

@@ -5398,12 +5398,9 @@ msgid "2 decimal places between 0 and 99.99."
 msgstr "2 位小数介于0到99.99之间。"
 
 #: activities/compass/ActivityConfig.qml:18
-#, fuzzy
-#| msgctxt "ActivityConfig|"
-#| msgid "Free Mode"
 msgctxt "ActivityConfig|"
 msgid "Template Mode"
-msgstr "自由模式"
+msgstr ""
 
 #. Activity title
 #: activities/compass/ActivityInfo.qml:14
@@ -5419,12 +5416,9 @@ msgstr ""
 
 #. Help goal
 #: activities/compass/ActivityInfo.qml:19
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Learn how to draw letters in a fun way."
 msgctxt "ActivityInfo|"
 msgid "Learn how to draw circles and arcs with a compass."
-msgstr "学习如何以有趣的方式绘制字母。"
+msgstr ""
 
 #. Help manual
 #: activities/compass/ActivityInfo.qml:23
@@ -5446,15 +5440,10 @@ msgid "Move the compass by dragging the leg without the pen."
 msgstr ""
 
 #: activities/compass/ActivityInfo.qml:26
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid ""
-#| "Complete the puzzle by dragging each piece on the side to the matching "
-#| "spot."
 msgctxt "ActivityInfo|"
 msgid ""
 "Move the pen by dragging the other leg or the circle around the pen tip."
-msgstr "若要完成谜题，请拖动边上的各片到匹配的点。"
+msgstr ""
 
 #: activities/compass/ActivityInfo.qml:27
 msgctxt "ActivityInfo|"
@@ -5502,12 +5491,9 @@ msgid ""
 msgstr ""
 
 #: activities/compass/ActivityInfo.qml:34
-#, fuzzy
-#| msgctxt "TutorialDataset|"
-#| msgid "You can change the rheostat value by dragging its slider."
 msgctxt "ActivityInfo|"
 msgid "You can change the position of the template by clicking on its corners."
-msgstr "你可以拖动变阻器滑块来改变它的阻值。"
+msgstr ""
 
 #: activities/compass/ActivityInfo.qml:36
 #: activities/drawing_wheels/ActivityInfo.qml:29
@@ -5548,20 +5534,14 @@ msgid "P: open the pen panel"
 msgstr ""
 
 #: activities/compass/ActivityInfo.qml:42
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Down arrow: select previous item"
 msgctxt "ActivityInfo|"
 msgid "Left arrow: previous template step"
-msgstr "下箭头：选择上一个项目"
+msgstr ""
 
 #: activities/compass/ActivityInfo.qml:43
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Right arrow: move the token to the right"
 msgctxt "ActivityInfo|"
 msgid "Right arrow: next template step"
-msgstr "右箭头：将硬币移动到右边"
+msgstr ""
 
 #: activities/compass/ActivityInfo.qml:44
 msgctxt "ActivityInfo|"
@@ -5574,36 +5554,24 @@ msgid "Space: toggle the compass and grid visibility"
 msgstr ""
 
 #: activities/compass/compass.js:103
-#, fuzzy
-#| msgctxt "ActivityConfig|"
-#| msgid "Free Mode"
 msgctxt "compass|"
 msgid "Free mode"
-msgstr "自由模式"
+msgstr ""
 
 #: activities/compass/Compass.qml:439
-#, fuzzy
-#| msgctxt "IntroMessage|"
-#| msgid "Previous"
 msgctxt "Compass|"
 msgid "Previous step"
-msgstr "上一首"
+msgstr ""
 
 #: activities/compass/Compass.qml:464
-#, fuzzy
-#| msgctxt "IntroMessage|"
-#| msgid "Next"
 msgctxt "Compass|"
 msgid "Next step"
-msgstr "下一个"
+msgstr ""
 
 #: activities/compass/Compass.qml:477
-#, fuzzy
-#| msgctxt "ActivityConfig|"
-#| msgid "All the words"
 msgctxt "Compass|"
 msgid "All steps"
-msgstr "所有单词"
+msgstr ""
 
 #: activities/compass/Compass.qml:477
 msgctxt "Compass|"
@@ -5621,20 +5589,14 @@ msgid "Compass and grid settings"
 msgstr ""
 
 #: activities/compass/Compass.qml:567
-#, fuzzy
-#| msgctxt "FilesPanel|"
-#| msgid "New image settings"
 msgctxt "Compass|"
 msgid "Pen settings"
-msgstr "新图像设置"
+msgstr ""
 
 #: activities/compass/Compass.qml:588
-#, fuzzy
-#| msgctxt "OptionsRow|"
-#| msgid "Undo"
 msgctxt "Compass|"
 msgid "Undo"
-msgstr "撤销"
+msgstr ""
 
 #: activities/compass/Compass.qml:598
 msgctxt "Compass|"
@@ -5647,12 +5609,9 @@ msgid "Show template"
 msgstr ""
 
 #: activities/compass/Compass.qml:612
-#, fuzzy
-#| msgctxt "board2|"
-#| msgid "Golden Temple"
 msgctxt "Compass|"
 msgid "Hide template"
-msgstr "金庙"
+msgstr ""
 
 #: activities/compass/Compass.qml:624
 msgctxt "Compass|"
@@ -5665,36 +5624,24 @@ msgid "Hide compass and grid"
 msgstr ""
 
 #: activities/compass/Compass.qml:775
-#, fuzzy
-#| msgctxt "FilesPanel|"
-#| msgid "Save your image"
 msgctxt "Compass|"
 msgid "Save your image"
-msgstr "保存您的图像"
+msgstr ""
 
 #: activities/compass/Compass.qml:790
-#, fuzzy
-#| msgctxt "FilesPanel|"
-#| msgid "Open an image"
 msgctxt "Compass|"
 msgid "Open an image"
-msgstr "打开图片"
+msgstr ""
 
 #: activities/compass/Compass.qml:813
-#, fuzzy
-#| msgctxt "FilesPanel|"
-#| msgid "Create a new image"
 msgctxt "Compass|"
 msgid "Create a new image"
-msgstr "创建新的图像"
+msgstr ""
 
 #: activities/compass/Compass.qml:832
-#, fuzzy
-#| msgctxt "BackgroundColorSelector|"
-#| msgid "Background color"
 msgctxt "Compass|"
 msgid "Background color"
-msgstr "背景色"
+msgstr ""
 
 #: activities/compass/Compass.qml:892
 msgctxt "Compass|"
@@ -5717,92 +5664,59 @@ msgid "Show grid"
 msgstr ""
 
 #: activities/compass/Compass.qml:1103
-#, fuzzy
-#| msgctxt "category_colors|"
-#| msgid "Colors"
 msgctxt "Compass|"
 msgid "Color"
-msgstr "颜色"
+msgstr ""
 
 #: activities/compass/Compass.qml:1149
-#, fuzzy
-#| msgctxt "ToolsPanel|"
-#| msgid "Opacity"
 msgctxt "Compass|"
 msgid "Opacity"
-msgstr "不透明度"
+msgstr ""
 
 #: activities/compass/Compass.qml:1193
-#, fuzzy
-#| msgctxt "ConfigurationItem|"
-#| msgid "Font size"
 msgctxt "Compass|"
 msgid " Pen size"
-msgstr "字体大小"
+msgstr ""
 
 #: activities/compass/Compass.qml:1254
-#, fuzzy
-#| msgctxt "Sketch|"
-#| msgid "You did not save this image. Do you want to close this activity?"
 msgctxt "Compass|"
 msgid "You did not save this image. Do you want to close this activity?"
-msgstr "您没有保存此图像。您想要关闭此活动吗？"
+msgstr ""
 
 #: activities/compass/Compass.qml:1255
-#, fuzzy
-#| msgctxt "Sketch|"
-#| msgid "Do you want to erase this image?"
 msgctxt "Compass|"
 msgid "Do you want to erase this image?"
-msgstr "您想要删除这个图像吗？"
+msgstr ""
 
 #: activities/compass/Compass.qml:1256
-#, fuzzy
-#| msgctxt "balanceboxeditor|"
-#| msgid "Yes"
 msgctxt "Compass|"
 msgid "Yes"
-msgstr "是"
+msgstr ""
 
 #: activities/compass/Compass.qml:1257
-#, fuzzy
-#| msgctxt "balanceboxeditor|"
-#| msgid "No"
 msgctxt "Compass|"
 msgid "No"
-msgstr "否"
+msgstr ""
 
 #: activities/compass/resource/1/Data.qml:13
-#, fuzzy
-#| msgctxt "Dataset|"
-#| msgid "Third largest"
 msgctxt "Data|"
 msgid "The target"
-msgstr "第三大"
+msgstr ""
 
 #: activities/compass/resource/10/Data.qml:13
-#, fuzzy
-#| msgctxt "board8|"
-#| msgid "The Pantheon"
 msgctxt "Data|"
 msgid "The peony"
-msgstr "万神庙"
+msgstr ""
 
 #: activities/compass/resource/11/Data.qml:13
-#, fuzzy
-#| msgctxt "Dataset|"
-#| msgid "The same"
 msgctxt "Data|"
 msgid "The snail"
-msgstr "一样大"
+msgstr ""
 
 #: activities/compass/resource/12/Data.qml:13
-#, fuzzy
-#| msgctxt "Dataset|"
-#| msgid "The same"
 msgctxt "Data|"
 msgid "The rose"
-msgstr "一样大"
+msgstr ""
 
 #: activities/compass/resource/13/Data.qml:13
 msgctxt "Data|"
@@ -5810,12 +5724,9 @@ msgid "The swirl"
 msgstr ""
 
 #: activities/compass/resource/14/Data.qml:13
-#, fuzzy
-#| msgctxt "Dataset|"
-#| msgid "The same"
 msgctxt "Data|"
 msgid "The spiral"
-msgstr "一样大"
+msgstr ""
 
 #: activities/compass/resource/15/Data.qml:13
 msgctxt "Data|"
@@ -5823,20 +5734,14 @@ msgid "The twist"
 msgstr ""
 
 #: activities/compass/resource/16/Data.qml:15
-#, fuzzy
-#| msgctxt "Dataset|"
-#| msgid "The same"
 msgctxt "Data|"
 msgid "The face"
-msgstr "一样大"
+msgstr ""
 
 #: activities/compass/resource/17/Data.qml:15
-#, fuzzy
-#| msgctxt "Dataset|"
-#| msgid "The same"
 msgctxt "Data|"
 msgid "The bear"
-msgstr "一样大"
+msgstr ""
 
 #: activities/compass/resource/18/Data.qml:14
 msgctxt "Data|"
@@ -5845,20 +5750,14 @@ msgstr ""
 
 #. The animal
 #: activities/compass/resource/19/Data.qml:16
-#, fuzzy
-#| msgctxt "board3_0|"
-#| msgid "house"
 msgctxt "Data|"
 msgid "The mouse"
-msgstr "房子"
+msgstr ""
 
 #: activities/compass/resource/2/Data.qml:13
-#, fuzzy
-#| msgctxt "Dataset|"
-#| msgid "The same"
 msgctxt "Data|"
 msgid "The shell"
-msgstr "一样大"
+msgstr ""
 
 #: activities/compass/resource/3/Data.qml:13
 msgctxt "Data|"
@@ -5876,12 +5775,9 @@ msgid "The clover"
 msgstr ""
 
 #: activities/compass/resource/6/Data.qml:13
-#, fuzzy
-#| msgctxt "board8|"
-#| msgid "The Pantheon"
 msgctxt "Data|"
 msgid "The balloon"
-msgstr "万神庙"
+msgstr ""
 
 #: activities/compass/resource/7/Data.qml:13
 msgctxt "Data|"
