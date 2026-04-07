@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-03-18 10:40+0100\n"
+"PO-Revision-Date: 2026-04-06 19:26+0200\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -4347,7 +4347,7 @@ msgstr "Inverno"
 #: activities/chronos/resource/board/board3_0.qml:15
 msgctxt "board3_0|"
 msgid "Gardening"
-msgstr ""
+msgstr "Jardinage"
 
 #: activities/chronos/resource/board/board3_0.qml:46
 msgctxt "board3_0|"
@@ -5216,12 +5216,9 @@ msgid "2 decimal places between 0 and 99.99."
 msgstr ""
 
 #: activities/compass/ActivityConfig.qml:18
-#, fuzzy
-#| msgctxt "ActivityConfig|"
-#| msgid "Free Mode"
 msgctxt "ActivityConfig|"
 msgid "Template Mode"
-msgstr "Modo libere"
+msgstr "Modo de patrono"
 
 #. Activity title
 #: activities/compass/ActivityInfo.qml:14
@@ -5237,12 +5234,9 @@ msgstr ""
 
 #. Help goal
 #: activities/compass/ActivityInfo.qml:19
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Learn how to draw numbers in a fun way."
 msgctxt "ActivityInfo|"
 msgid "Learn how to draw circles and arcs with a compass."
-msgstr "Apprende como designar numeros in un modo amusante."
+msgstr "Apprende como designar circulos e arcos con un compasso."
 
 #. Help manual
 #: activities/compass/ActivityInfo.qml:23
@@ -5291,7 +5285,7 @@ msgstr ""
 #: activities/compass/ActivityInfo.qml:30
 msgctxt "ActivityInfo|"
 msgid "<b>Templates:</b>"
-msgstr ""
+msgstr "<b>Patronos:</b>"
 
 #: activities/compass/ActivityInfo.qml:31
 msgctxt "ActivityInfo|"
@@ -5378,28 +5372,19 @@ msgid "Space: toggle the compass and grid visibility"
 msgstr ""
 
 #: activities/compass/compass.js:103
-#, fuzzy
-#| msgctxt "ActivityConfig|"
-#| msgid "Free Mode"
 msgctxt "compass|"
 msgid "Free mode"
 msgstr "Modo libere"
 
 #: activities/compass/Compass.qml:439
-#, fuzzy
-#| msgctxt "IntroMessage|"
-#| msgid "Previous"
 msgctxt "Compass|"
 msgid "Previous step"
-msgstr "Precedente"
+msgstr "Passo Precedente"
 
 #: activities/compass/Compass.qml:464
-#, fuzzy
-#| msgctxt "IntroMessage|"
-#| msgid "Next"
 msgctxt "Compass|"
 msgid "Next step"
-msgstr "Proxime"
+msgstr "Passo Proxime"
 
 #: activities/compass/Compass.qml:477
 msgctxt "Compass|"
@@ -5422,25 +5407,16 @@ msgid "Compass and grid settings"
 msgstr ""
 
 #: activities/compass/Compass.qml:567
-#, fuzzy
-#| msgctxt "DialogChooseLevel|"
-#| msgid "%1 settings"
 msgctxt "Compass|"
 msgid "Pen settings"
-msgstr "%1 preferentias"
+msgstr "Preferetias de penna"
 
 #: activities/compass/Compass.qml:588
-#, fuzzy
-#| msgctxt "DrawingWheels|"
-#| msgid "Undo"
 msgctxt "Compass|"
 msgid "Undo"
 msgstr "Annulla"
 
 #: activities/compass/Compass.qml:598
-#, fuzzy
-#| msgctxt "DrawingWheels|"
-#| msgid "Redo"
 msgctxt "Compass|"
 msgid "Redo"
 msgstr "Reface"
@@ -5481,56 +5457,41 @@ msgid "Create a new image"
 msgstr ""
 
 #: activities/compass/Compass.qml:832
-#, fuzzy
-#| msgctxt "DrawingWheels|"
-#| msgid "Background color"
 msgctxt "Compass|"
 msgid "Background color"
 msgstr "Color de fundo"
 
 #: activities/compass/Compass.qml:892
-#, fuzzy
-#| msgctxt "DrawingWheels|"
-#| msgid "Pen size"
 msgctxt "Compass|"
 msgid "Canvas size"
-msgstr "Grandor de penna"
+msgstr "Grandor de tela (canva)"
 
 #: activities/compass/Compass.qml:962
 msgctxt "Compass|"
 msgid "Grid spacing"
-msgstr ""
+msgstr "Spatiamento de grillia"
 
 #: activities/compass/Compass.qml:1013
 msgctxt "Compass|"
 msgid "Snap to grid"
-msgstr ""
+msgstr "Instantaneo a grilia"
 
 #: activities/compass/Compass.qml:1039
 msgctxt "Compass|"
 msgid "Show grid"
-msgstr ""
+msgstr "Monstra grillia"
 
 #: activities/compass/Compass.qml:1103
-#, fuzzy
-#| msgctxt "category_colors|"
-#| msgid "Colors"
 msgctxt "Compass|"
 msgid "Color"
-msgstr "Colores"
+msgstr "Color"
 
 #: activities/compass/Compass.qml:1149
-#, fuzzy
-#| msgctxt "DrawingWheels|"
-#| msgid "Opacity"
 msgctxt "Compass|"
 msgid "Opacity"
 msgstr "Opacitate"
 
 #: activities/compass/Compass.qml:1193
-#, fuzzy
-#| msgctxt "DrawingWheels|"
-#| msgid "Pen size"
 msgctxt "Compass|"
 msgid " Pen size"
 msgstr "Grandor de penna"
@@ -5541,36 +5502,24 @@ msgid "You did not save this image. Do you want to close this activity?"
 msgstr ""
 
 #: activities/compass/Compass.qml:1255
-#, fuzzy
-#| msgctxt "main|"
-#| msgid "Do you want to connect to server %1?"
 msgctxt "Compass|"
 msgid "Do you want to erase this image?"
-msgstr "Tu vole connecter a servitor %1?"
+msgstr "Tu vole eliminar iste imagine?"
 
 #: activities/compass/Compass.qml:1256
-#, fuzzy
-#| msgctxt "balanceboxeditor|"
-#| msgid "Yes"
 msgctxt "Compass|"
 msgid "Yes"
 msgstr "Si"
 
 #: activities/compass/Compass.qml:1257
-#, fuzzy
-#| msgctxt "balanceboxeditor|"
-#| msgid "No"
 msgctxt "Compass|"
 msgid "No"
 msgstr "No"
 
 #: activities/compass/resource/1/Data.qml:13
-#, fuzzy
-#| msgctxt "Dataset|"
-#| msgid "Third largest"
 msgctxt "Data|"
 msgid "The target"
-msgstr "Le tertie plus grande"
+msgstr "Le objectivo"
 
 #: activities/compass/resource/10/Data.qml:13
 msgctxt "Data|"
@@ -5578,20 +5527,14 @@ msgid "The peony"
 msgstr ""
 
 #: activities/compass/resource/11/Data.qml:13
-#, fuzzy
-#| msgctxt "Dataset|"
-#| msgid "The same"
 msgctxt "Data|"
 msgid "The snail"
-msgstr "Le mesme"
+msgstr "Le limace"
 
 #: activities/compass/resource/12/Data.qml:13
-#, fuzzy
-#| msgctxt "Dataset|"
-#| msgid "The same"
 msgctxt "Data|"
 msgid "The rose"
-msgstr "Le mesme"
+msgstr "Le spiral"
 
 #: activities/compass/resource/13/Data.qml:13
 msgctxt "Data|"
@@ -5599,12 +5542,9 @@ msgid "The swirl"
 msgstr ""
 
 #: activities/compass/resource/14/Data.qml:13
-#, fuzzy
-#| msgctxt "Dataset|"
-#| msgid "The same"
 msgctxt "Data|"
 msgid "The spiral"
-msgstr "Le mesme"
+msgstr "Le spiral"
 
 #: activities/compass/resource/15/Data.qml:13
 msgctxt "Data|"
@@ -5612,20 +5552,14 @@ msgid "The twist"
 msgstr ""
 
 #: activities/compass/resource/16/Data.qml:15
-#, fuzzy
-#| msgctxt "Dataset|"
-#| msgid "The same"
 msgctxt "Data|"
 msgid "The face"
-msgstr "Le mesme"
+msgstr "Le facie"
 
 #: activities/compass/resource/17/Data.qml:15
-#, fuzzy
-#| msgctxt "Dataset|"
-#| msgid "The same"
 msgctxt "Data|"
 msgid "The bear"
-msgstr "Le mesme"
+msgstr "Le urso"
 
 #: activities/compass/resource/18/Data.qml:14
 msgctxt "Data|"
@@ -5634,20 +5568,14 @@ msgstr ""
 
 #. The animal
 #: activities/compass/resource/19/Data.qml:16
-#, fuzzy
-#| msgctxt "board3_0|"
-#| msgid "house"
 msgctxt "Data|"
 msgid "The mouse"
-msgstr "casa"
+msgstr "Le mus"
 
 #: activities/compass/resource/2/Data.qml:13
-#, fuzzy
-#| msgctxt "Dataset|"
-#| msgid "The same"
 msgctxt "Data|"
 msgid "The shell"
-msgstr "Le mesme"
+msgstr "Le concha"
 
 #: activities/compass/resource/3/Data.qml:13
 msgctxt "Data|"
@@ -18731,7 +18659,7 @@ msgstr "Logic"
 #: activities/menu/Menu.qml:117
 msgctxt "Menu|"
 msgid "Fine Arts"
-msgstr ""
+msgstr "Belle Artes"
 
 #: activities/menu/Menu.qml:118
 msgctxt "Menu|"
