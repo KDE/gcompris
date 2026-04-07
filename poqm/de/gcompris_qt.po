@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gcompris_qt\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-02-21 12:57+0100\n"
+"PO-Revision-Date: 2026-04-01 23:26+0200\n"
 "Last-Translator: Alexander Becker <alex-at-kde-l10n-de@freenet.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -29,7 +29,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Qt-Contexts: true\n"
-"X-Generator: Lokalize 25.12.2\n"
+"X-Generator: Lokalize 25.12.3\n"
 
 #: activities/adjacent_numbers/ActivityConfig.qml:19
 #: activities/clickanddraw/ActivityConfig.qml:22
@@ -2989,9 +2989,6 @@ msgstr ""
 "dargestellt, was das binäre System des Zählens ausmacht."
 
 #: activities/binary_bulb/BinaryBulb.qml:103
-#, fuzzy
-#| msgctxt "binary_bulb|"
-#| msgid "In the activity 0 and 1 are simulated by bulbs, switched on or off."
 msgctxt "BinaryBulb|"
 msgid "In the activity 0 and 1 are simulated by bulbs, switched on or off."
 msgstr ""
@@ -5591,12 +5588,6 @@ msgstr ""
 "deine Antwort zu bestätigen."
 
 #: activities/color_mix_light/ActivityInfo.qml:25
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid ""
-#| "Mixing light colors is just the opposite of mixing paint colors. The more "
-#| "light you add, the lighter the resulting color becomes. Primary colors of "
-#| "light are red, green and blue."
 msgctxt "ActivityInfo|"
 msgid ""
 "Mixing light colors is just the opposite of mixing paint colors. The more "
@@ -8996,12 +8987,9 @@ msgid ""
 msgstr ""
 
 #: activities/explore_monuments/resource/board/board7.qml:85
-#, fuzzy
-#| msgctxt "board2|"
-#| msgid "Monuments of India"
 msgctxt "board7|"
 msgid "Monuments of China"
-msgstr "Denkmäler in Indien"
+msgstr "Denkmäler in China"
 
 #: activities/explore_monuments/resource/board/board7.qml:88
 msgctxt "board7|"
@@ -9137,12 +9125,9 @@ msgid ""
 msgstr ""
 
 #: activities/explore_monuments/resource/board/board8.qml:85
-#, fuzzy
-#| msgctxt "board2|"
-#| msgid "Monuments of India"
 msgctxt "board8|"
 msgid "Monuments of Italy"
-msgstr "Denkmäler in Indien"
+msgstr "Denkmäler in Italien"
 
 #: activities/explore_monuments/resource/board/board8.qml:88
 msgctxt "board8|"
@@ -9234,12 +9219,9 @@ msgid ""
 msgstr ""
 
 #: activities/explore_monuments/resource/board/board9.qml:63
-#, fuzzy
-#| msgctxt "board3|"
-#| msgid "Monuments of France"
 msgctxt "board9|"
 msgid "Monuments of Japan"
-msgstr "Denkmäler in Frankreich"
+msgstr "Denkmäler in Japan"
 
 #: activities/explore_monuments/resource/board/board9.qml:66
 msgctxt "board9|"
@@ -12695,7 +12677,7 @@ msgstr "Oppeln"
 #: activities/geo-country/resource/board/board4_0.qml:94
 msgctxt "board4_0|"
 msgid "Masovian"
-msgstr " Masowien"
+msgstr "Masowien"
 
 #. Province of Poland: Lesser Poland
 #: activities/geo-country/resource/board/board4_0.qml:101
@@ -13765,16 +13747,11 @@ msgstr ""
 
 #. Help manual
 #: activities/geography/ActivityInfo.qml:27
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid ""
-#| "Drag and drop the map pieces to their correct locations to complete the "
-#| "map."
 msgctxt "ActivityInfo|"
 msgid ""
 "Drag and drop the map pieces to their correct location to complete the map."
 msgstr ""
-"Ziehe die Kartenstücke auf die richtigen Stellen, um die Karte zu "
+"Ziehe die Kartenstücke an die richtige Stelle, um die Karte zu "
 "vervollständigen."
 
 #: activities/geography/resource/board/board10_0.qml:15
@@ -14899,12 +14876,10 @@ msgstr ""
 
 #. Help manual
 #: activities/gletters/ActivityInfo.qml:23
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Type the falling letters before they reach the ground."
 msgctxt "ActivityInfo|"
 msgid "Type the falling letters on the keyboard before they reach the ground."
-msgstr "Gib die fallenden Buchstaben ein, bevor sie unten ankommen."
+msgstr ""
+"Gib die fallenden Buchstaben auf der Tastatur ein, bevor sie unten ankommen."
 
 #. Activity title
 #: activities/gnumch-equality/ActivityInfo.qml:15
@@ -15424,12 +15399,9 @@ msgstr ""
 "markierten Wert auf der Skala entspricht."
 
 #: activities/graduated_line_use/ActivityInfo.qml:25
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Left and Right arrows: move the spaceship"
 msgctxt "ActivityInfo|"
 msgid "Left and Right arrows: move the cursor"
-msgstr "Pfeiltasten links und rechts: Bewegt das Raumschiff"
+msgstr "Pfeiltasten links und rechts: Den Mauszeiger bewegen"
 
 #: activities/graduated_line_use/GraduatedLineUse.qml:10
 msgctxt "GraduatedLineUse|"
@@ -18307,7 +18279,7 @@ msgstr "Berechne bis zu 10000 verbleibende Sterne mit Koeffizienten."
 #, qt-format
 msgctxt "StarsBar|"
 msgid "%1x"
-msgstr "%1x"
+msgstr "%1×"
 
 #. Activity title
 #: activities/magic-hat-plus/ActivityInfo.qml:15
@@ -25410,7 +25382,7 @@ msgstr "Helligkeit"
 #: activities/sketch/ColorSelector.qml:329
 msgctxt "ColorSelector|"
 msgid "Reset Color"
-msgstr ""
+msgstr "Farbe zurücksetzen"
 
 #: activities/sketch/FilesPanel.qml:35
 msgctxt "FilesPanel|"
@@ -25500,7 +25472,7 @@ msgstr "Stempel-Werkzeug"
 #: activities/sketch/TextToolPanel.qml:17
 msgctxt "TextToolPanel|"
 msgid "Text Tool"
-msgstr ""
+msgstr "Textwerkzeug"
 
 #: activities/sketch/TextToolPanel.qml:33
 msgctxt "TextToolPanel|"
@@ -25545,7 +25517,7 @@ msgstr "Größer der Punkte"
 #: activities/sketch/ToolsPanel.qml:586
 msgctxt "ToolsPanel|"
 msgid "Smoothing"
-msgstr ""
+msgstr "Glättung"
 
 #: activities/sketch/ToolsPanel.qml:647
 msgctxt "ToolsPanel|"
@@ -27896,25 +27868,19 @@ msgstr ""
 #: activities/vertical_subtraction_compensation/resource/1/Data.qml:12
 msgctxt "Data|"
 msgid "Solve subtraction, 2 digits, 2 lines, without carry."
-msgstr ""
+msgstr "Löse Subtraktion, 2 Ziffern, 2 Zeilen, ohne Übertrag."
 
 #: activities/vertical_subtraction/resource/10/Data.qml:12
 #: activities/vertical_subtraction_compensation/resource/10/Data.qml:12
-#, fuzzy
-#| msgctxt "Data|"
-#| msgid "Subtractions with 1, 2 and 3."
 msgctxt "Data|"
 msgid "Solve subtraction, 4 or 5 digits, 3 lines."
-msgstr "Subtraktion mit 1, 2 und 3."
+msgstr "Löse Subtraktion, 4 oder 5 Ziffern, 3 Zeilen."
 
 #: activities/vertical_subtraction/resource/11/Data.qml:12
 #: activities/vertical_subtraction_compensation/resource/11/Data.qml:12
-#, fuzzy
-#| msgctxt "Data|"
-#| msgid "Subtractions with 1, 2 and 3."
 msgctxt "Data|"
 msgid "Solve subtraction, 4 or 5 digits, 4 lines."
-msgstr "Subtraktion mit 1, 2 und 3."
+msgstr "Löse Subtraktion, 4 oder 5 Ziffern, 4 Zeilen."
 
 #: activities/vertical_subtraction/resource/12/Data.qml:12
 #: activities/vertical_subtraction_compensation/resource/12/Data.qml:12
@@ -27930,12 +27896,9 @@ msgstr "Schreibe auf und löse Subtraktion, 2 Ziffern, 2 Zeilen, ohne Übertrag.
 
 #: activities/vertical_subtraction/resource/3/Data.qml:12
 #: activities/vertical_subtraction_compensation/resource/3/Data.qml:12
-#, fuzzy
-#| msgctxt "Data|"
-#| msgid "Subtractions with 1, 2 and 3."
 msgctxt "Data|"
 msgid "Solve subtraction, 2 or 3 digits, 2 lines."
-msgstr "Subtraktion mit 1, 2 und 3."
+msgstr "Löse Subtraktion, 2 oder 3 Ziffern, 2 Zeilen."
 
 #: activities/vertical_subtraction/resource/4/Data.qml:12
 #: activities/vertical_subtraction_compensation/resource/4/Data.qml:12
@@ -27951,12 +27914,9 @@ msgstr "Schreibe auf und löse Subtraktion, 2 oder 3 Ziffern, 3 Zeilen."
 
 #: activities/vertical_subtraction/resource/6/Data.qml:12
 #: activities/vertical_subtraction_compensation/resource/6/Data.qml:12
-#, fuzzy
-#| msgctxt "Data|"
-#| msgid "Subtractions with 1, 2 and 3."
 msgctxt "Data|"
 msgid "Solve subtraction, 3 or 4 digits, 2 lines."
-msgstr "Subtraktion mit 1, 2 und 3."
+msgstr "Löse Subtraktion, 3 oder 4 Ziffern, 2 Zeilen."
 
 #: activities/vertical_subtraction/resource/7/Data.qml:12
 #: activities/vertical_subtraction_compensation/resource/7/Data.qml:12
@@ -27966,21 +27926,15 @@ msgstr "Schreibe auf und löse Subtraktion, 3 oder 4 Ziffern, 2 Zeilen."
 
 #: activities/vertical_subtraction/resource/8/Data.qml:12
 #: activities/vertical_subtraction_compensation/resource/8/Data.qml:12
-#, fuzzy
-#| msgctxt "Data|"
-#| msgid "Subtractions with 1, 2 and 3."
 msgctxt "Data|"
 msgid "Solve subtraction, 3 or 4 digits, 3 lines."
-msgstr "Subtraktion mit 1, 2 und 3."
+msgstr "Löse Subtraktion, 3 oder 4 Ziffern, 3 Zeilen."
 
 #: activities/vertical_subtraction/resource/9/Data.qml:12
 #: activities/vertical_subtraction_compensation/resource/9/Data.qml:12
-#, fuzzy
-#| msgctxt "Data|"
-#| msgid "Subtractions with 1, 2 and 3."
 msgctxt "Data|"
 msgid "Solve subtraction, 4 or 5 digits, 2 lines."
-msgstr "Subtraktion mit 1, 2 und 3."
+msgstr "Löse Subtraktion, 4 oder 5 Ziffern, 2 Zeilen."
 
 #: activities/vertical_subtraction/subtraction.js:79
 msgctxt "subtraction|"
@@ -28243,12 +28197,9 @@ msgid "Many bug fixes"
 msgstr "Viele Fehlerbereinigungen"
 
 #: core/ChangeLog.qml:34
-#, fuzzy
-#| msgctxt "ChangeLog|"
-#| msgid "Translation added for Azerbaijani"
 msgctxt "ChangeLog|"
 msgid "Translation added for Kannada and Tamil"
-msgstr "Übersetzung für Aserbaidschanisch hinzugefügt"
+msgstr "Übersetzungen für Kannada und Tamil hinzugefügt"
 
 #: core/ChangeLog.qml:35
 #, fuzzy
@@ -28278,12 +28229,9 @@ msgid "Many usability improvements"
 msgstr "Viele Verbesserungen der Benutzbarkeit"
 
 #: core/ChangeLog.qml:48
-#, fuzzy
-#| msgctxt "ChangeLog|"
-#| msgid "Translation added for Azerbaijani"
 msgctxt "ChangeLog|"
 msgid "Translation added for Sanskrit"
-msgstr "Übersetzung für Aserbaidschanisch hinzugefügt"
+msgstr "Übersetzung für Sanskrit hinzugefügt"
 
 #: core/ChangeLog.qml:50 core/ChangeLog.qml:76 core/ChangeLog.qml:85
 #: core/ChangeLog.qml:92 core/ChangeLog.qml:105 core/ChangeLog.qml:123
@@ -28319,20 +28267,14 @@ msgstr ""
 "bestimmten zu beginnen."
 
 #: core/ChangeLog.qml:63
-#, fuzzy
-#| msgctxt "ChangeLog|"
-#| msgid "Translation added for Azerbaijani"
 msgctxt "ChangeLog|"
 msgid "Translation added for Latvian"
-msgstr "Übersetzung für Aserbaidschanisch hinzugefügt"
+msgstr "Übersetzung für Lettisch hinzugefügt"
 
 #: core/ChangeLog.qml:74
-#, fuzzy
-#| msgctxt "ChangeLog|"
-#| msgid "Translations added for: Slovenian, German, Galician."
 msgctxt "ChangeLog|"
 msgid "Translations added for Bulgarian, Galician and Swahili"
-msgstr "Neue Übersetzungen für Slowenisch, Deutsch, Galizisch"
+msgstr "Übersetzungen für Bulgarisch, Galicisch und Swahili hinzugefügt"
 
 #: core/ChangeLog.qml:78
 #, fuzzy
@@ -28815,8 +28757,8 @@ msgstr ""
 "Fehlerverfolgungssystem. Besuchen Sie <a href=\"%1\">%1</a>, um Fehler zu "
 "melden.<br /><br />Wenn Sie einen Verbesserungsvorschlag haben, können Sie "
 "gerne das Fehlerverfolgungssystem verwenden, um Ihren Vorschlag zu "
-"unterbreiten. Verbesserungsvorschläge sollten mit dem Schweregrad (severity) "
-"„Wishlist“ versehen werden."
+"unterbreiten. Stellen Sie dabei sicher, dass Sie unter "
+"„Severity“ („Schweregrad“) die Auswahl „Wishlist“ („Wunschliste“) treffen."
 
 #: core/DialogAbout.qml:105
 #, qt-format
@@ -29055,7 +28997,7 @@ msgstr "Keine Stimmen für %1 gefunden."
 #, qt-format
 msgctxt "QObject|"
 msgid "No data found for %1."
-msgstr ""
+msgstr "Keine Daten für %1 gefunden."
 
 #: core/GCCreationHandler.qml:185
 msgctxt "GCCreationHandler|"
