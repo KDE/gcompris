@@ -5647,8 +5647,6 @@ msgstr "Tal frå 0,00 til 99,99 – 2 desimalar"
 
 #: activities/compass/ActivityConfig.qml:18
 #, fuzzy
-#| msgctxt "ActivityConfig|"
-#| msgid "Free Mode"
 msgctxt "ActivityConfig|"
 msgid "Template Mode"
 msgstr "Frimodus"
@@ -5668,8 +5666,6 @@ msgstr ""
 #. Help goal
 #: activities/compass/ActivityInfo.qml:19
 #, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Learn how to draw letters in a fun way."
 msgctxt "ActivityInfo|"
 msgid "Learn how to draw circles and arcs with a compass."
 msgstr "Læra å teikna bokstavane på ein morosam måte."
@@ -5695,10 +5691,6 @@ msgstr ""
 
 #: activities/compass/ActivityInfo.qml:26
 #, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid ""
-#| "Complete the puzzle by dragging each piece on the side to the matching "
-#| "spot."
 msgctxt "ActivityInfo|"
 msgid ""
 "Move the pen by dragging the other leg or the circle around the pen tip."
@@ -5725,8 +5717,6 @@ msgstr ""
 
 #: activities/compass/ActivityInfo.qml:30
 #, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "<b>Diving planes</b>"
 msgctxt "ActivityInfo|"
 msgid "<b>Templates:</b>"
 msgstr "<b>Djupnror</b>"
@@ -5754,8 +5744,6 @@ msgstr ""
 
 #: activities/compass/ActivityInfo.qml:34
 #, fuzzy
-#| msgctxt "TutorialDataset|"
-#| msgid "You can change the rheostat value by dragging its slider."
 msgctxt "ActivityInfo|"
 msgid "You can change the position of the template by clicking on its corners."
 msgstr "Du kan endra resistansen ved å dra glidebrytaren på motstanden."
@@ -5802,16 +5790,12 @@ msgstr ""
 
 #: activities/compass/ActivityInfo.qml:42
 #, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Down arrow: select previous item"
 msgctxt "ActivityInfo|"
 msgid "Left arrow: previous template step"
 msgstr "Pil ned: Vel førre frukt"
 
 #: activities/compass/ActivityInfo.qml:43
 #, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Right arrow: right hand answer"
 msgctxt "ActivityInfo|"
 msgid "Right arrow: next template step"
 msgstr "Pil venstre: Svar «høgre»"
@@ -5828,32 +5812,24 @@ msgstr ""
 
 #: activities/compass/compass.js:103
 #, fuzzy
-#| msgctxt "ActivityConfig|"
-#| msgid "Free Mode"
 msgctxt "compass|"
 msgid "Free mode"
 msgstr "Frimodus"
 
 #: activities/compass/Compass.qml:439
 #, fuzzy
-#| msgctxt "IntroMessage|"
-#| msgid "Previous"
 msgctxt "Compass|"
 msgid "Previous step"
 msgstr "Førre"
 
 #: activities/compass/Compass.qml:464
 #, fuzzy
-#| msgctxt "IntroMessage|"
-#| msgid "Next"
 msgctxt "Compass|"
 msgid "Next step"
 msgstr "Neste"
 
 #: activities/compass/Compass.qml:477
 #, fuzzy
-#| msgctxt "ActivityConfig|"
-#| msgid "All the words"
 msgctxt "Compass|"
 msgid "All steps"
 msgstr "Alle orda"
@@ -5875,8 +5851,6 @@ msgstr ""
 
 #: activities/compass/Compass.qml:567
 #, fuzzy
-#| msgctxt "DialogChooseLevel|"
-#| msgid "%1 settings"
 msgctxt "Compass|"
 msgid "Pen settings"
 msgstr "%1-innstillingar"
@@ -5899,8 +5873,6 @@ msgstr ""
 
 #: activities/compass/Compass.qml:612
 #, fuzzy
-#| msgctxt "board2|"
-#| msgid "Golden Temple"
 msgctxt "Compass|"
 msgid "Hide template"
 msgstr "Det gylne tempelet"
@@ -5962,8 +5934,6 @@ msgstr ""
 
 #: activities/compass/Compass.qml:1103
 #, fuzzy
-#| msgctxt "category_colors|"
-#| msgid "Colors"
 msgctxt "Compass|"
 msgid "Color"
 msgstr "Fargar"
@@ -5993,48 +5963,36 @@ msgstr "Er du sikker på at du vil angra alle trekka du har gjort?"
 
 #: activities/compass/Compass.qml:1256
 #, fuzzy
-#| msgctxt "balanceboxeditor|"
-#| msgid "Yes"
 msgctxt "Compass|"
 msgid "Yes"
 msgstr "Ja"
 
 #: activities/compass/Compass.qml:1257
 #, fuzzy
-#| msgctxt "balanceboxeditor|"
-#| msgid "No"
 msgctxt "Compass|"
 msgid "No"
 msgstr "Nei"
 
 #: activities/compass/resource/1/Data.qml:13
 #, fuzzy
-#| msgctxt "Dataset|"
-#| msgid "Third largest"
 msgctxt "Data|"
 msgid "The target"
 msgstr "Den tredje største"
 
 #: activities/compass/resource/10/Data.qml:13
 #, fuzzy
-#| msgctxt "board2_0|"
-#| msgid "The 4 Seasons"
 msgctxt "Data|"
 msgid "The peony"
 msgstr "Dei fire årstidene"
 
 #: activities/compass/resource/11/Data.qml:13
 #, fuzzy
-#| msgctxt "Dataset|"
-#| msgid "The same"
 msgctxt "Data|"
 msgid "The snail"
 msgstr "Om lag like stor"
 
 #: activities/compass/resource/12/Data.qml:13
 #, fuzzy
-#| msgctxt "Dataset|"
-#| msgid "The same"
 msgctxt "Data|"
 msgid "The rose"
 msgstr "Om lag like stor"
@@ -6046,8 +6004,6 @@ msgstr ""
 
 #: activities/compass/resource/14/Data.qml:13
 #, fuzzy
-#| msgctxt "Dataset|"
-#| msgid "The same"
 msgctxt "Data|"
 msgid "The spiral"
 msgstr "Om lag like stor"
@@ -6059,16 +6015,12 @@ msgstr ""
 
 #: activities/compass/resource/16/Data.qml:15
 #, fuzzy
-#| msgctxt "Dataset|"
-#| msgid "The same"
 msgctxt "Data|"
 msgid "The face"
 msgstr "Om lag like stor"
 
 #: activities/compass/resource/17/Data.qml:15
 #, fuzzy
-#| msgctxt "Dataset|"
-#| msgid "The same"
 msgctxt "Data|"
 msgid "The bear"
 msgstr "Om lag like stor"
@@ -6081,16 +6033,12 @@ msgstr ""
 #. The animal
 #: activities/compass/resource/19/Data.qml:16
 #, fuzzy
-#| msgctxt "board3_0|"
-#| msgid "house"
 msgctxt "Data|"
 msgid "The mouse"
 msgstr "hus"
 
 #: activities/compass/resource/2/Data.qml:13
 #, fuzzy
-#| msgctxt "Dataset|"
-#| msgid "The same"
 msgctxt "Data|"
 msgid "The shell"
 msgstr "Om lag like stor"
