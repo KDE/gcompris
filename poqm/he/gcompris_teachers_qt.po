@@ -1712,7 +1712,7 @@ msgctxt "FieldEdit|"
 msgid "Remove last entry"
 msgstr "הסרת הרשומה האחרונה"
 
-#: server/components/FoldDown.qml:151
+#: server/components/FoldDown.qml:156
 msgctxt "FoldDown|@action"
 msgid "Filter list"
 msgstr "סינון רשימה"
@@ -1736,6 +1736,15 @@ msgstr "עריכת קבוצה"
 msgctxt "RadioGroupEditDelegate|"
 msgid "Delete group"
 msgstr "מחיקת קבוצה"
+
+#. Argument is dataset name
+#: server/components/SequenceElement.qml:72
+#, fuzzy, qt-format
+#| msgctxt "NavigationPanel|"
+#| msgid "Datasets"
+msgctxt "SequenceElement|"
+msgid "Dataset: %1"
+msgstr "סדרות נתונים"
 
 #: server/components/ServerLanguageList.qml:32
 msgctxt "ServerLanguageList|"
@@ -1846,23 +1855,63 @@ msgctxt "controllers::DatabaseController|"
 msgid "Error inserting activity: %1"
 msgstr "שגיאה בהוספת פעילות: %1"
 
-#: server/controllers/database-controller.cpp:663
+#: server/controllers/database-controller.cpp:664
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "Dataset <b>%1</b> already exists."
 msgstr "סדרת הנתונים <b>%1</b> כבר קיימת."
 
-#: server/controllers/database-controller.cpp:680
+#: server/controllers/database-controller.cpp:683
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "Dataset <b>%1</b> could not be updated to <b>%2</b>."
 msgstr "לא ניתן לעדכן את סדרת הנתונים <b>%1</b> לכדי <b>%2</b>."
 
-#: server/controllers/database-controller.cpp:695
+#: server/controllers/database-controller.cpp:698
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "Dataset <b>%1</b> couldn't be deleted."
 msgstr "לא ניתן למחוק את סדרת הנתונים <b>%1</b>."
+
+#: server/controllers/database-controller.cpp:714
+#, qt-format
+msgctxt "controllers::DatabaseController|"
+msgid "Error inserting sequence in table sequence_: <b>%1</b>."
+msgstr ""
+
+#: server/controllers/database-controller.cpp:746
+#, qt-format
+msgctxt "controllers::DatabaseController|"
+msgid "Error updating sequence in table sequence_: <b>%1</b>."
+msgstr ""
+
+#: server/controllers/database-controller.cpp:754
+#: server/controllers/database-controller.cpp:802
+#, fuzzy, qt-format
+#| msgctxt "controllers::DatabaseController|"
+#| msgid "User <b>%1</b> could not be deleted from table result_."
+msgctxt "controllers::DatabaseController|"
+msgid ""
+"Sequence <b>%1</b> couldn't be deleted from table sequence_with_activity_."
+msgstr "לא ניתן למחוק את המשתמש <b>%1</b> מהטבלה result_‎."
+
+#: server/controllers/database-controller.cpp:759
+#: server/controllers/database-controller.cpp:806
+#, fuzzy, qt-format
+#| msgctxt "controllers::DatabaseController|"
+#| msgid "User <b>%1</b> could not be deleted from table user_."
+msgctxt "controllers::DatabaseController|"
+msgid ""
+"Sequence <b>%1</b> couldn't be deleted from table activity_with_datasets_."
+msgstr "לא ניתן למחוק את המשתמש <b>%1</b> מהטבלה user_‎."
+
+#: server/controllers/database-controller.cpp:798
+#, fuzzy, qt-format
+#| msgctxt "controllers::DatabaseController|"
+#| msgid "User <b>%1</b> could not be deleted from table user_."
+msgctxt "controllers::DatabaseController|"
+msgid "Sequence <b>%1</b> could not be deleted from table sequence_."
+msgstr "לא ניתן למחוק את המשתמש <b>%1</b> מהטבלה user_‎."
 
 #: server/controllers/network-controller.cpp:46
 #, qt-format
@@ -2076,6 +2125,16 @@ msgid ""
 "Are you sure you want to remove the following pupils from the database ?"
 msgstr "להסיר את התלמידים הבאים ממסד הנתונים?"
 
+#: server/dialogs/RemoveSequenceDialog.qml:64
+#, fuzzy
+#| msgctxt "RemoveDatasetDialog|"
+#| msgid ""
+#| "Are you sure you want to delete the following dataset from the database?"
+msgctxt "RemoveSequenceDialog|"
+msgid ""
+"Are you sure you want to delete the following sequence from the database?"
+msgstr "למחוק את סדרת הנתונים הבאה ממסד הנתונים?"
+
 #: server/dialogs/SendDatasetDialog.qml:93
 msgctxt "SendDatasetDialog|"
 msgid "Do you want to send the dataset to selected pupils?"
@@ -2098,6 +2157,130 @@ msgctxt "SendDatasetDialog|"
 msgid "Pupils"
 msgstr "תלמידים"
 
+#: server/dialogs/SendSequenceDialog.qml:104
+#, fuzzy
+#| msgctxt "SendDatasetDialog|"
+#| msgid "Do you want to send the dataset to selected pupils?"
+msgctxt "SendSequenceDialog|"
+msgid "Do you want to send the sequence to selected pupils?"
+msgstr "לשלוח את סדרת התונים לתלמידים הנבחרים?"
+
+#: server/dialogs/SendSequenceDialog.qml:105
+#, fuzzy
+#| msgctxt "SendDatasetDialog|"
+#| msgid "Are you sure you want to remove the dataset from selected pupils?"
+msgctxt "SendSequenceDialog|"
+msgid "Are you sure you want to remove the sequence from selected pupils?"
+msgstr "להסיר את סדרת הנתונים מהתלמידים הנבחרים?"
+
+#: server/dialogs/SendSequenceDialog.qml:106
+#, fuzzy
+#| msgctxt "SendDatasetDialog|"
+#| msgid ""
+#| "Are you sure you want to remove all the existing datasets from selected "
+#| "pupils?"
+msgctxt "SendSequenceDialog|"
+msgid ""
+"Are you sure you want to remove all the existing sequences from selected "
+"pupils?"
+msgstr "להסיר את כל סדרות הנתונים הקיימות מהתלמידים הנבחרים?"
+
+#: server/dialogs/SendSequenceDialog.qml:140
+#, fuzzy
+#| msgctxt "ExportPupilsDialog|"
+#| msgid "Pupils"
+msgctxt "SendSequenceDialog|"
+msgid "Pupils"
+msgstr "תלמידים"
+
+#: server/dialogs/SequenceEditorDialog.qml:50
+#, fuzzy
+#| msgctxt "DatasetEditorDialog|"
+#| msgid "Create dataset"
+msgctxt "SequenceEditorDialog|"
+msgid "Create sequence"
+msgstr "יצירת סדרת נתונים"
+
+#: server/dialogs/SequenceEditorDialog.qml:56
+#, fuzzy
+#| msgctxt "DatasetEditorDialog|"
+#| msgid "Update dataset"
+msgctxt "SequenceEditorDialog|"
+msgid "Update sequence"
+msgstr "עדכון סדרת נתונים"
+
+#: server/dialogs/SequenceEditorDialog.qml:81
+#, fuzzy
+#| msgctxt "DatasetEditorDialog|"
+#| msgid "Dataset name is empty"
+msgctxt "SequenceEditorDialog|"
+msgid "Sequence name is empty"
+msgstr "שם סדרת הנתונים ריק"
+
+#: server/dialogs/SequenceEditorDialog.qml:163
+#, fuzzy
+#| msgctxt "AdjacentNumbersEditor|"
+#| msgid "Sequence length"
+msgctxt "SequenceEditorDialog|"
+msgid "Sequence name"
+msgstr "אורך רצף"
+
+#: server/dialogs/SequenceEditorDialog.qml:177
+#, fuzzy
+#| msgctxt "DatasetEditorDialog|"
+#| msgid "Goal"
+msgctxt "SequenceEditorDialog|"
+msgid "Goal"
+msgstr "יעד"
+
+#: server/dialogs/SequenceEditorDialog.qml:245
+#, fuzzy
+#| msgctxt "NavigationPanel|"
+#| msgid "Activities"
+msgctxt "SequenceEditorDialog|"
+msgid "Activities"
+msgstr "פעילויות"
+
+#: server/dialogs/SequenceEditorDialog.qml:272
+#, fuzzy
+#| msgctxt "NavigationPanel|"
+#| msgid "Datasets"
+msgctxt "SequenceEditorDialog|"
+msgid "Datasets"
+msgstr "סדרות נתונים"
+
+#: server/dialogs/SequenceEditorDialog.qml:323
+#, fuzzy
+#| msgctxt "EditorBox|"
+#| msgid "Add"
+msgctxt "SequenceEditorDialog|"
+msgid "Add"
+msgstr "הוספה"
+
+#: server/dialogs/SequenceEditorDialog.qml:343
+#, fuzzy
+#| msgctxt "EditorBox|"
+#| msgid "Remove"
+msgctxt "SequenceEditorDialog|"
+msgid "Remove"
+msgstr "הסרה"
+
+#: server/dialogs/SequenceEditorDialog.qml:355
+#, fuzzy
+#| msgctxt "EditorBox|"
+#| msgid "Move up"
+msgctxt "SequenceEditorDialog|"
+msgid "Move up"
+msgstr "העלאה למעלה"
+
+#: server/dialogs/SequenceEditorDialog.qml:367
+#, fuzzy
+#| msgctxt "EditorBox|"
+#| msgid "Move down"
+msgctxt "SequenceEditorDialog|"
+msgid "Move down"
+msgstr "הורדה למטה"
+
 #: server/dialogs/SqlLineDialog.qml:19
 msgctxt "SqlLineDialog|"
 msgid "Line details"
@@ -2113,37 +2296,45 @@ msgctxt "Main|"
 msgid "GCompris Teachers Tool"
 msgstr "כלי המורים של ג׳יקומפרי"
 
-#: server/panels/NavigationPanel.qml:70
+#: server/panels/NavigationPanel.qml:71
 msgctxt "NavigationPanel|"
 msgid "Login"
 msgstr "כניסה"
 
-#: server/panels/NavigationPanel.qml:78
+#: server/panels/NavigationPanel.qml:79
 msgctxt "NavigationPanel|"
 msgid "Pupils and Groups"
 msgstr "תלמידים וקבוצות"
 
-#: server/panels/NavigationPanel.qml:86
+#: server/panels/NavigationPanel.qml:87
 msgctxt "NavigationPanel|"
 msgid "Connect devices"
 msgstr "חיבור מכשירים"
 
-#: server/panels/NavigationPanel.qml:94
+#: server/panels/NavigationPanel.qml:95
 msgctxt "NavigationPanel|"
 msgid "Activities"
 msgstr "פעילויות"
 
-#: server/panels/NavigationPanel.qml:102
+#: server/panels/NavigationPanel.qml:103
 msgctxt "NavigationPanel|"
 msgid "Datasets"
 msgstr "סדרות נתונים"
 
-#: server/panels/NavigationPanel.qml:110
+#: server/panels/NavigationPanel.qml:111
+#, fuzzy
+#| msgctxt "AdjacentNumbersEditor|"
+#| msgid "Sequence length"
+msgctxt "NavigationPanel|"
+msgid "Sequences"
+msgstr "אורך רצף"
+
+#: server/panels/NavigationPanel.qml:119
 msgctxt "NavigationPanel|"
 msgid "Charts"
 msgstr "תרשימים"
 
-#: server/panels/NavigationPanel.qml:118
+#: server/panels/NavigationPanel.qml:127
 msgctxt "NavigationPanel|"
 msgid "Settings"
 msgstr "הגדרות"
@@ -2163,92 +2354,92 @@ msgctxt "SelectorPanel|"
 msgid "Activities"
 msgstr "פעילויות"
 
-#: server/singletons/Master.qml:40
+#: server/singletons/Master.qml:43
 msgctxt "Master|"
 msgid "User ID"
 msgstr "מזהה משתמש"
 
-#: server/singletons/Master.qml:41
+#: server/singletons/Master.qml:44
 msgctxt "Master|"
 msgid "Name"
 msgstr "שם"
 
-#: server/singletons/Master.qml:42
+#: server/singletons/Master.qml:45
 msgctxt "Master|"
 msgid "Names"
 msgstr "שמות"
 
-#: server/singletons/Master.qml:43
+#: server/singletons/Master.qml:46
 msgctxt "Master|"
 msgid "Password"
 msgstr "סיסמה"
 
-#: server/singletons/Master.qml:44
+#: server/singletons/Master.qml:47
 msgctxt "Master|"
 msgid "Users IDs"
 msgstr "מזהי משתמשים"
 
-#: server/singletons/Master.qml:45
+#: server/singletons/Master.qml:48
 msgctxt "Master|"
 msgid "Activity ID"
 msgstr "מזהה פעילות"
 
-#: server/singletons/Master.qml:46
+#: server/singletons/Master.qml:49
 msgctxt "Master|"
 msgid "Activity"
 msgstr "פעילות"
 
-#: server/singletons/Master.qml:47
+#: server/singletons/Master.qml:50
 msgctxt "Master|"
 msgid "Group"
 msgstr "קבוצה"
 
-#: server/singletons/Master.qml:48
+#: server/singletons/Master.qml:51
 msgctxt "Master|"
 msgid "Description"
 msgstr "תיאור"
 
-#: server/singletons/Master.qml:49
+#: server/singletons/Master.qml:52
 msgctxt "Master|"
 msgid "Groups"
 msgstr "קבוצות"
 
-#: server/singletons/Master.qml:50
+#: server/singletons/Master.qml:53
 msgctxt "Master|"
 msgid "Groups IDs"
 msgstr "מזהי קבוצות"
 
-#: server/singletons/Master.qml:51 server/singletons/Master.qml:55
+#: server/singletons/Master.qml:54 server/singletons/Master.qml:58
 msgctxt "Master|"
 msgid "Date"
 msgstr "תאריך"
 
-#: server/singletons/Master.qml:52 server/singletons/Master.qml:57
+#: server/singletons/Master.qml:55 server/singletons/Master.qml:60
 msgctxt "Master|"
 msgid "Success"
 msgstr "הצליח"
 
-#: server/singletons/Master.qml:53
+#: server/singletons/Master.qml:56
 msgctxt "Master|"
 msgid "Duration"
 msgstr "משך"
 
-#: server/singletons/Master.qml:54
+#: server/singletons/Master.qml:57
 msgctxt "Master|"
 msgid "Data"
 msgstr "נתונים"
 
-#: server/singletons/Master.qml:56
+#: server/singletons/Master.qml:59
 msgctxt "Master|"
 msgid "Count"
 msgstr "כמות"
 
-#: server/singletons/Master.qml:58
+#: server/singletons/Master.qml:61
 msgctxt "Master|"
 msgid "Failed"
 msgstr "נכשל"
 
-#: server/singletons/Master.qml:59
+#: server/singletons/Master.qml:62
 msgctxt "Master|"
 msgid "Success ratio"
 msgstr "יחס הצלחה"
@@ -2636,6 +2827,62 @@ msgstr "ייבוא תלמידים"
 msgctxt "ManagePupilsView|"
 msgid "Remove pupils"
 msgstr "הסרת תלמידים"
+
+#: server/views/SequencesView.qml:67
+#, fuzzy
+#| msgctxt "AdjacentNumbersEditor|"
+#| msgid "Sequence length"
+msgctxt "SequencesView|"
+msgid "Sequences"
+msgstr "אורך רצף"
+
+#: server/views/SequencesView.qml:102
+#, fuzzy
+#| msgctxt "SqlLineDialog|"
+#| msgid "Line details"
+msgctxt "SequencesView|"
+msgid "Details"
+msgstr "פרטי שורה"
+
+#: server/views/SequencesView.qml:169
+#, fuzzy
+#| msgctxt "ManagePupilsView|"
+#| msgid "Pupils management"
+msgctxt "SequencesView|"
+msgid "Sequences management"
+msgstr "ניהול תלמידים"
+
+#: server/views/SequencesView.qml:187
+#, fuzzy
+#| msgctxt "DatasetEditorDialog|"
+#| msgid "Create dataset"
+msgctxt "SequencesView|"
+msgid "Create sequence"
+msgstr "יצירת סדרת נתונים"
+
+#: server/views/SequencesView.qml:195
+#, fuzzy
+#| msgctxt "DatasetEditorDialog|"
+#| msgid "Update dataset"
+msgctxt "SequencesView|"
+msgid "Update sequence"
+msgstr "עדכון סדרת נתונים"
+
+#: server/views/SequencesView.qml:204
+#, fuzzy
+#| msgctxt "DatasetsView|"
+#| msgid "Send dataset to clients"
+msgctxt "SequencesView|"
+msgid "Send sequence to clients"
+msgstr "שליחת סדרת נתונים ללקוחות"
+
+#: server/views/SequencesView.qml:247
+#, fuzzy
+#| msgctxt "DatasetsView|"
+#| msgid "Delete dataset"
+msgctxt "SequencesView|"
+msgid "Delete sequence"
+msgstr "מחיקת סדרת נתונים"
 
 #: server/views/SettingsView.qml:65
 msgctxt "SettingsView|"

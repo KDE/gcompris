@@ -1831,7 +1831,7 @@ msgctxt "FieldEdit|"
 msgid "Remove last entry"
 msgstr "Pašalinti paskutinį įrašą"
 
-#: server/components/FoldDown.qml:151
+#: server/components/FoldDown.qml:156
 #, fuzzy
 #| msgctxt "FoldDown|"
 #| msgid "Filter list"
@@ -1858,6 +1858,15 @@ msgstr "Redaguoti grupę"
 msgctxt "RadioGroupEditDelegate|"
 msgid "Delete group"
 msgstr "Ištrinti grupę"
+
+#. Argument is dataset name
+#: server/components/SequenceElement.qml:72
+#, fuzzy, qt-format
+#| msgctxt "NavigationPanel|"
+#| msgid "Datasets"
+msgctxt "SequenceElement|"
+msgid "Dataset: %1"
+msgstr "Duomenų rinkiniai"
 
 #: server/components/ServerLanguageList.qml:32
 msgctxt "ServerLanguageList|"
@@ -1970,23 +1979,63 @@ msgctxt "controllers::DatabaseController|"
 msgid "Error inserting activity: %1"
 msgstr "Klaida įterpiant pamokėlę: %1"
 
-#: server/controllers/database-controller.cpp:663
+#: server/controllers/database-controller.cpp:664
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "Dataset <b>%1</b> already exists."
 msgstr "Duomenų rinkinys <b>%1</b> jau egzistuoja."
 
-#: server/controllers/database-controller.cpp:680
+#: server/controllers/database-controller.cpp:683
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "Dataset <b>%1</b> could not be updated to <b>%2</b>."
 msgstr "Duomenų rinkinio <b>%1</b> nepavyko atnaujinti į <b>%2</b>."
 
-#: server/controllers/database-controller.cpp:695
+#: server/controllers/database-controller.cpp:698
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "Dataset <b>%1</b> couldn't be deleted."
 msgstr "Duomenų rinkinio <b>%1</b> nepavyko ištrinti."
+
+#: server/controllers/database-controller.cpp:714
+#, qt-format
+msgctxt "controllers::DatabaseController|"
+msgid "Error inserting sequence in table sequence_: <b>%1</b>."
+msgstr ""
+
+#: server/controllers/database-controller.cpp:746
+#, qt-format
+msgctxt "controllers::DatabaseController|"
+msgid "Error updating sequence in table sequence_: <b>%1</b>."
+msgstr ""
+
+#: server/controllers/database-controller.cpp:754
+#: server/controllers/database-controller.cpp:802
+#, fuzzy, qt-format
+#| msgctxt "controllers::DatabaseController|"
+#| msgid "User <b>%1</b> could not be deleted from table result_."
+msgctxt "controllers::DatabaseController|"
+msgid ""
+"Sequence <b>%1</b> couldn't be deleted from table sequence_with_activity_."
+msgstr "Mokinio <b>%1</b> nepavyko ištrinti iš lentelės result_."
+
+#: server/controllers/database-controller.cpp:759
+#: server/controllers/database-controller.cpp:806
+#, fuzzy, qt-format
+#| msgctxt "controllers::DatabaseController|"
+#| msgid "User <b>%1</b> could not be deleted from table user_."
+msgctxt "controllers::DatabaseController|"
+msgid ""
+"Sequence <b>%1</b> couldn't be deleted from table activity_with_datasets_."
+msgstr "Mokinio <b>%1</b> nepavyko ištrinti iš lentelės user_."
+
+#: server/controllers/database-controller.cpp:798
+#, fuzzy, qt-format
+#| msgctxt "controllers::DatabaseController|"
+#| msgid "User <b>%1</b> could not be deleted from table user_."
+msgctxt "controllers::DatabaseController|"
+msgid "Sequence <b>%1</b> could not be deleted from table sequence_."
+msgstr "Mokinio <b>%1</b> nepavyko ištrinti iš lentelės user_."
 
 #: server/controllers/network-controller.cpp:46
 #, qt-format
@@ -2206,6 +2255,16 @@ msgid ""
 "Are you sure you want to remove the following pupils from the database ?"
 msgstr "Ar tikrai norite pašalinti šiuos mokinius iš duomenų bazės?"
 
+#: server/dialogs/RemoveSequenceDialog.qml:64
+#, fuzzy
+#| msgctxt "RemoveDatasetDialog|"
+#| msgid ""
+#| "Are you sure you want to delete the following dataset from the database?"
+msgctxt "RemoveSequenceDialog|"
+msgid ""
+"Are you sure you want to delete the following sequence from the database?"
+msgstr "Ar tikrai norite ištrinti šį duomenų rinkinį iš duomenų bazės?"
+
 #: server/dialogs/SendDatasetDialog.qml:93
 msgctxt "SendDatasetDialog|"
 msgid "Do you want to send the dataset to selected pupils?"
@@ -2230,6 +2289,132 @@ msgctxt "SendDatasetDialog|"
 msgid "Pupils"
 msgstr "Mokiniai"
 
+#: server/dialogs/SendSequenceDialog.qml:104
+#, fuzzy
+#| msgctxt "SendDatasetDialog|"
+#| msgid "Do you want to send the dataset to selected pupils?"
+msgctxt "SendSequenceDialog|"
+msgid "Do you want to send the sequence to selected pupils?"
+msgstr "Ar norite nusiųsti duomenų rinkinį pasirinktiems mokiniams?"
+
+#: server/dialogs/SendSequenceDialog.qml:105
+#, fuzzy
+#| msgctxt "SendDatasetDialog|"
+#| msgid "Are you sure you want to remove the dataset from selected pupils?"
+msgctxt "SendSequenceDialog|"
+msgid "Are you sure you want to remove the sequence from selected pupils?"
+msgstr "Ar tikrai norite pašalinti duomenų rinkinį iš pasirinktų mokinių?"
+
+#: server/dialogs/SendSequenceDialog.qml:106
+#, fuzzy
+#| msgctxt "SendDatasetDialog|"
+#| msgid ""
+#| "Are you sure you want to remove all the existing datasets from selected "
+#| "pupils?"
+msgctxt "SendSequenceDialog|"
+msgid ""
+"Are you sure you want to remove all the existing sequences from selected "
+"pupils?"
+msgstr ""
+"Ar tikrai norite pašalinti visus esamus duomenų rinkinius iš pasirinktų "
+"mokinių?"
+
+#: server/dialogs/SendSequenceDialog.qml:140
+#, fuzzy
+#| msgctxt "ExportPupilsDialog|"
+#| msgid "Pupils"
+msgctxt "SendSequenceDialog|"
+msgid "Pupils"
+msgstr "Mokiniai"
+
+#: server/dialogs/SequenceEditorDialog.qml:50
+#, fuzzy
+#| msgctxt "DatasetEditorDialog|"
+#| msgid "Create dataset"
+msgctxt "SequenceEditorDialog|"
+msgid "Create sequence"
+msgstr "Sukurti duomenų rinkinį"
+
+#: server/dialogs/SequenceEditorDialog.qml:56
+#, fuzzy
+#| msgctxt "DatasetEditorDialog|"
+#| msgid "Update dataset"
+msgctxt "SequenceEditorDialog|"
+msgid "Update sequence"
+msgstr "Atnaujinti duomenų rinkinį"
+
+#: server/dialogs/SequenceEditorDialog.qml:81
+#, fuzzy
+#| msgctxt "DatasetEditorDialog|"
+#| msgid "Dataset name is empty"
+msgctxt "SequenceEditorDialog|"
+msgid "Sequence name is empty"
+msgstr "Duomenų rinkinio pavadinimas yra tuščias"
+
+#: server/dialogs/SequenceEditorDialog.qml:163
+#, fuzzy
+#| msgctxt "AdjacentNumbersEditor|"
+#| msgid "Sequence length"
+msgctxt "SequenceEditorDialog|"
+msgid "Sequence name"
+msgstr "Sekos ilgis"
+
+#: server/dialogs/SequenceEditorDialog.qml:177
+#, fuzzy
+#| msgctxt "DatasetEditorDialog|"
+#| msgid "Goal"
+msgctxt "SequenceEditorDialog|"
+msgid "Goal"
+msgstr "Tikslas"
+
+#: server/dialogs/SequenceEditorDialog.qml:245
+#, fuzzy
+#| msgctxt "NavigationPanel|"
+#| msgid "Activities"
+msgctxt "SequenceEditorDialog|"
+msgid "Activities"
+msgstr "Pamokėlės"
+
+#: server/dialogs/SequenceEditorDialog.qml:272
+#, fuzzy
+#| msgctxt "NavigationPanel|"
+#| msgid "Datasets"
+msgctxt "SequenceEditorDialog|"
+msgid "Datasets"
+msgstr "Duomenų rinkiniai"
+
+#: server/dialogs/SequenceEditorDialog.qml:323
+#, fuzzy
+#| msgctxt "EditorBox|"
+#| msgid "Add"
+msgctxt "SequenceEditorDialog|"
+msgid "Add"
+msgstr "Pridėti"
+
+#: server/dialogs/SequenceEditorDialog.qml:343
+#, fuzzy
+#| msgctxt "EditorBox|"
+#| msgid "Remove"
+msgctxt "SequenceEditorDialog|"
+msgid "Remove"
+msgstr "Pašalinti"
+
+#: server/dialogs/SequenceEditorDialog.qml:355
+#, fuzzy
+#| msgctxt "EditorBox|"
+#| msgid "Move up"
+msgctxt "SequenceEditorDialog|"
+msgid "Move up"
+msgstr "Aukštyn"
+
+#: server/dialogs/SequenceEditorDialog.qml:367
+#, fuzzy
+#| msgctxt "EditorBox|"
+#| msgid "Move down"
+msgctxt "SequenceEditorDialog|"
+msgid "Move down"
+msgstr "Žemyn"
+
 #: server/dialogs/SqlLineDialog.qml:19
 msgctxt "SqlLineDialog|"
 msgid "Line details"
@@ -2245,37 +2430,45 @@ msgctxt "Main|"
 msgid "GCompris Teachers Tool"
 msgstr "GCompris mokytojams įrankis"
 
-#: server/panels/NavigationPanel.qml:70
+#: server/panels/NavigationPanel.qml:71
 msgctxt "NavigationPanel|"
 msgid "Login"
 msgstr "Prisijungti"
 
-#: server/panels/NavigationPanel.qml:78
+#: server/panels/NavigationPanel.qml:79
 msgctxt "NavigationPanel|"
 msgid "Pupils and Groups"
 msgstr "Mokiniai ir grupės"
 
-#: server/panels/NavigationPanel.qml:86
+#: server/panels/NavigationPanel.qml:87
 msgctxt "NavigationPanel|"
 msgid "Connect devices"
 msgstr "Įrenginių prijungimas"
 
-#: server/panels/NavigationPanel.qml:94
+#: server/panels/NavigationPanel.qml:95
 msgctxt "NavigationPanel|"
 msgid "Activities"
 msgstr "Pamokėlės"
 
-#: server/panels/NavigationPanel.qml:102
+#: server/panels/NavigationPanel.qml:103
 msgctxt "NavigationPanel|"
 msgid "Datasets"
 msgstr "Duomenų rinkiniai"
 
-#: server/panels/NavigationPanel.qml:110
+#: server/panels/NavigationPanel.qml:111
+#, fuzzy
+#| msgctxt "AdjacentNumbersEditor|"
+#| msgid "Sequence length"
+msgctxt "NavigationPanel|"
+msgid "Sequences"
+msgstr "Sekos ilgis"
+
+#: server/panels/NavigationPanel.qml:119
 msgctxt "NavigationPanel|"
 msgid "Charts"
 msgstr "Diagramos"
 
-#: server/panels/NavigationPanel.qml:118
+#: server/panels/NavigationPanel.qml:127
 msgctxt "NavigationPanel|"
 msgid "Settings"
 msgstr "Nustatymai"
@@ -2295,32 +2488,32 @@ msgctxt "SelectorPanel|"
 msgid "Activities"
 msgstr "Pamokėlės"
 
-#: server/singletons/Master.qml:40
+#: server/singletons/Master.qml:43
 msgctxt "Master|"
 msgid "User ID"
 msgstr "Mokinio ID"
 
-#: server/singletons/Master.qml:41
+#: server/singletons/Master.qml:44
 msgctxt "Master|"
 msgid "Name"
 msgstr "Vardas"
 
-#: server/singletons/Master.qml:42
+#: server/singletons/Master.qml:45
 msgctxt "Master|"
 msgid "Names"
 msgstr "Vardai"
 
-#: server/singletons/Master.qml:43
+#: server/singletons/Master.qml:46
 msgctxt "Master|"
 msgid "Password"
 msgstr "Slaptažodis"
 
-#: server/singletons/Master.qml:44
+#: server/singletons/Master.qml:47
 msgctxt "Master|"
 msgid "Users IDs"
 msgstr "Mokinių ID"
 
-#: server/singletons/Master.qml:45
+#: server/singletons/Master.qml:48
 #, fuzzy
 #| msgctxt "Master|"
 #| msgid "Activity Id"
@@ -2328,64 +2521,64 @@ msgctxt "Master|"
 msgid "Activity ID"
 msgstr "Pamokėlės ID"
 
-#: server/singletons/Master.qml:46
+#: server/singletons/Master.qml:49
 msgctxt "Master|"
 msgid "Activity"
 msgstr "Pamokėlė"
 
-#: server/singletons/Master.qml:47
+#: server/singletons/Master.qml:50
 msgctxt "Master|"
 msgid "Group"
 msgstr "Grupė"
 
-#: server/singletons/Master.qml:48
+#: server/singletons/Master.qml:51
 msgctxt "Master|"
 msgid "Description"
 msgstr "Aprašymas"
 
-#: server/singletons/Master.qml:49
+#: server/singletons/Master.qml:52
 msgctxt "Master|"
 msgid "Groups"
 msgstr "Grupės"
 
-#: server/singletons/Master.qml:50
+#: server/singletons/Master.qml:53
 msgctxt "Master|"
 msgid "Groups IDs"
 msgstr "Grupių ID"
 
-#: server/singletons/Master.qml:51 server/singletons/Master.qml:55
+#: server/singletons/Master.qml:54 server/singletons/Master.qml:58
 msgctxt "Master|"
 msgid "Date"
 msgstr "Data"
 
-#: server/singletons/Master.qml:52 server/singletons/Master.qml:57
+#: server/singletons/Master.qml:55 server/singletons/Master.qml:60
 msgctxt "Master|"
 msgid "Success"
 msgstr ""
 "Sėkmė\n"
 "Teisingai"
 
-#: server/singletons/Master.qml:53
+#: server/singletons/Master.qml:56
 msgctxt "Master|"
 msgid "Duration"
 msgstr "Trukmė"
 
-#: server/singletons/Master.qml:54
+#: server/singletons/Master.qml:57
 msgctxt "Master|"
 msgid "Data"
 msgstr "Duomenys"
 
-#: server/singletons/Master.qml:56
+#: server/singletons/Master.qml:59
 msgctxt "Master|"
 msgid "Count"
 msgstr "Skaičius"
 
-#: server/singletons/Master.qml:58
+#: server/singletons/Master.qml:61
 msgctxt "Master|"
 msgid "Failed"
 msgstr "Nepavyko"
 
-#: server/singletons/Master.qml:59
+#: server/singletons/Master.qml:62
 msgctxt "Master|"
 msgid "Success ratio"
 msgstr "Sėkmės rodiklis"
@@ -2791,6 +2984,62 @@ msgstr "Importuoti mokinius"
 msgctxt "ManagePupilsView|"
 msgid "Remove pupils"
 msgstr "Pašalinti mokinius"
+
+#: server/views/SequencesView.qml:67
+#, fuzzy
+#| msgctxt "AdjacentNumbersEditor|"
+#| msgid "Sequence length"
+msgctxt "SequencesView|"
+msgid "Sequences"
+msgstr "Sekos ilgis"
+
+#: server/views/SequencesView.qml:102
+#, fuzzy
+#| msgctxt "SqlLineDialog|"
+#| msgid "Line details"
+msgctxt "SequencesView|"
+msgid "Details"
+msgstr "Eilutės parametrai"
+
+#: server/views/SequencesView.qml:169
+#, fuzzy
+#| msgctxt "ManagePupilsView|"
+#| msgid "Pupils management"
+msgctxt "SequencesView|"
+msgid "Sequences management"
+msgstr "Mokinių valdymas"
+
+#: server/views/SequencesView.qml:187
+#, fuzzy
+#| msgctxt "DatasetEditorDialog|"
+#| msgid "Create dataset"
+msgctxt "SequencesView|"
+msgid "Create sequence"
+msgstr "Sukurti duomenų rinkinį"
+
+#: server/views/SequencesView.qml:195
+#, fuzzy
+#| msgctxt "DatasetEditorDialog|"
+#| msgid "Update dataset"
+msgctxt "SequencesView|"
+msgid "Update sequence"
+msgstr "Atnaujinti duomenų rinkinį"
+
+#: server/views/SequencesView.qml:204
+#, fuzzy
+#| msgctxt "DatasetsView|"
+#| msgid "Send dataset to clients"
+msgctxt "SequencesView|"
+msgid "Send sequence to clients"
+msgstr "Siųsti duomenų rinkinį mokiniams"
+
+#: server/views/SequencesView.qml:247
+#, fuzzy
+#| msgctxt "DatasetsView|"
+#| msgid "Delete dataset"
+msgctxt "SequencesView|"
+msgid "Delete sequence"
+msgstr "Ištrinti duomenų rinkinį"
 
 #: server/views/SettingsView.qml:65
 msgctxt "SettingsView|"

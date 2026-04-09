@@ -622,6 +622,12 @@ for example 'xx.yy.zz'
 <entry
 >&gcompris;’i belirtilen yerel ayarla çalıştırın.</entry>
 </row>
+<row>
+<entry
+>--with-sequence=sequence.json</entry>
+<entry
+>Run &gcompris; with the specific sequence. A sequence is a list of activities with specific datasets, forcing GCompris to run them in the specified order.</entry>
+</row>
 </tbody>
 </tgroup>
 </informaltable>

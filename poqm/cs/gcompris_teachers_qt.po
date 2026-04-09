@@ -1634,7 +1634,7 @@ msgctxt "FieldEdit|"
 msgid "Remove last entry"
 msgstr ""
 
-#: server/components/FoldDown.qml:151
+#: server/components/FoldDown.qml:156
 msgctxt "FoldDown|@action"
 msgid "Filter list"
 msgstr ""
@@ -1657,6 +1657,13 @@ msgstr ""
 #: server/components/RadioGroupEditDelegate.qml:71
 msgctxt "RadioGroupEditDelegate|"
 msgid "Delete group"
+msgstr ""
+
+#. Argument is dataset name
+#: server/components/SequenceElement.qml:72
+#, qt-format
+msgctxt "SequenceElement|"
+msgid "Dataset: %1"
 msgstr ""
 
 #: server/components/ServerLanguageList.qml:32
@@ -1766,22 +1773,56 @@ msgctxt "controllers::DatabaseController|"
 msgid "Error inserting activity: %1"
 msgstr ""
 
-#: server/controllers/database-controller.cpp:663
+#: server/controllers/database-controller.cpp:664
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "Dataset <b>%1</b> already exists."
 msgstr ""
 
-#: server/controllers/database-controller.cpp:680
+#: server/controllers/database-controller.cpp:683
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "Dataset <b>%1</b> could not be updated to <b>%2</b>."
 msgstr ""
 
-#: server/controllers/database-controller.cpp:695
+#: server/controllers/database-controller.cpp:698
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "Dataset <b>%1</b> couldn't be deleted."
+msgstr ""
+
+#: server/controllers/database-controller.cpp:714
+#, qt-format
+msgctxt "controllers::DatabaseController|"
+msgid "Error inserting sequence in table sequence_: <b>%1</b>."
+msgstr ""
+
+#: server/controllers/database-controller.cpp:746
+#, qt-format
+msgctxt "controllers::DatabaseController|"
+msgid "Error updating sequence in table sequence_: <b>%1</b>."
+msgstr ""
+
+#: server/controllers/database-controller.cpp:754
+#: server/controllers/database-controller.cpp:802
+#, qt-format
+msgctxt "controllers::DatabaseController|"
+msgid ""
+"Sequence <b>%1</b> couldn't be deleted from table sequence_with_activity_."
+msgstr ""
+
+#: server/controllers/database-controller.cpp:759
+#: server/controllers/database-controller.cpp:806
+#, qt-format
+msgctxt "controllers::DatabaseController|"
+msgid ""
+"Sequence <b>%1</b> couldn't be deleted from table activity_with_datasets_."
+msgstr ""
+
+#: server/controllers/database-controller.cpp:798
+#, qt-format
+msgctxt "controllers::DatabaseController|"
+msgid "Sequence <b>%1</b> could not be deleted from table sequence_."
 msgstr ""
 
 #: server/controllers/network-controller.cpp:46
@@ -1992,6 +2033,12 @@ msgid ""
 "Are you sure you want to remove the following pupils from the database ?"
 msgstr ""
 
+#: server/dialogs/RemoveSequenceDialog.qml:64
+msgctxt "RemoveSequenceDialog|"
+msgid ""
+"Are you sure you want to delete the following sequence from the database?"
+msgstr ""
+
 #: server/dialogs/SendDatasetDialog.qml:93
 msgctxt "SendDatasetDialog|"
 msgid "Do you want to send the dataset to selected pupils?"
@@ -2014,6 +2061,83 @@ msgctxt "SendDatasetDialog|"
 msgid "Pupils"
 msgstr ""
 
+#: server/dialogs/SendSequenceDialog.qml:104
+msgctxt "SendSequenceDialog|"
+msgid "Do you want to send the sequence to selected pupils?"
+msgstr ""
+
+#: server/dialogs/SendSequenceDialog.qml:105
+msgctxt "SendSequenceDialog|"
+msgid "Are you sure you want to remove the sequence from selected pupils?"
+msgstr ""
+
+#: server/dialogs/SendSequenceDialog.qml:106
+msgctxt "SendSequenceDialog|"
+msgid ""
+"Are you sure you want to remove all the existing sequences from selected "
+"pupils?"
+msgstr ""
+
+#: server/dialogs/SendSequenceDialog.qml:140
+msgctxt "SendSequenceDialog|"
+msgid "Pupils"
+msgstr ""
+
+#: server/dialogs/SequenceEditorDialog.qml:50
+msgctxt "SequenceEditorDialog|"
+msgid "Create sequence"
+msgstr ""
+
+#: server/dialogs/SequenceEditorDialog.qml:56
+msgctxt "SequenceEditorDialog|"
+msgid "Update sequence"
+msgstr ""
+
+#: server/dialogs/SequenceEditorDialog.qml:81
+msgctxt "SequenceEditorDialog|"
+msgid "Sequence name is empty"
+msgstr ""
+
+#: server/dialogs/SequenceEditorDialog.qml:163
+msgctxt "SequenceEditorDialog|"
+msgid "Sequence name"
+msgstr ""
+
+#: server/dialogs/SequenceEditorDialog.qml:177
+msgctxt "SequenceEditorDialog|"
+msgid "Goal"
+msgstr ""
+
+#: server/dialogs/SequenceEditorDialog.qml:245
+msgctxt "SequenceEditorDialog|"
+msgid "Activities"
+msgstr ""
+
+#: server/dialogs/SequenceEditorDialog.qml:272
+msgctxt "SequenceEditorDialog|"
+msgid "Datasets"
+msgstr ""
+
+#: server/dialogs/SequenceEditorDialog.qml:323
+msgctxt "SequenceEditorDialog|"
+msgid "Add"
+msgstr ""
+
+#: server/dialogs/SequenceEditorDialog.qml:343
+msgctxt "SequenceEditorDialog|"
+msgid "Remove"
+msgstr ""
+
+#: server/dialogs/SequenceEditorDialog.qml:355
+msgctxt "SequenceEditorDialog|"
+msgid "Move up"
+msgstr ""
+
+#: server/dialogs/SequenceEditorDialog.qml:367
+msgctxt "SequenceEditorDialog|"
+msgid "Move down"
+msgstr ""
+
 #: server/dialogs/SqlLineDialog.qml:19
 msgctxt "SqlLineDialog|"
 msgid "Line details"
@@ -2029,37 +2153,42 @@ msgctxt "Main|"
 msgid "GCompris Teachers Tool"
 msgstr ""
 
-#: server/panels/NavigationPanel.qml:70
+#: server/panels/NavigationPanel.qml:71
 msgctxt "NavigationPanel|"
 msgid "Login"
 msgstr ""
 
-#: server/panels/NavigationPanel.qml:78
+#: server/panels/NavigationPanel.qml:79
 msgctxt "NavigationPanel|"
 msgid "Pupils and Groups"
 msgstr ""
 
-#: server/panels/NavigationPanel.qml:86
+#: server/panels/NavigationPanel.qml:87
 msgctxt "NavigationPanel|"
 msgid "Connect devices"
 msgstr ""
 
-#: server/panels/NavigationPanel.qml:94
+#: server/panels/NavigationPanel.qml:95
 msgctxt "NavigationPanel|"
 msgid "Activities"
 msgstr ""
 
-#: server/panels/NavigationPanel.qml:102
+#: server/panels/NavigationPanel.qml:103
 msgctxt "NavigationPanel|"
 msgid "Datasets"
 msgstr ""
 
-#: server/panels/NavigationPanel.qml:110
+#: server/panels/NavigationPanel.qml:111
+msgctxt "NavigationPanel|"
+msgid "Sequences"
+msgstr ""
+
+#: server/panels/NavigationPanel.qml:119
 msgctxt "NavigationPanel|"
 msgid "Charts"
 msgstr ""
 
-#: server/panels/NavigationPanel.qml:118
+#: server/panels/NavigationPanel.qml:127
 msgctxt "NavigationPanel|"
 msgid "Settings"
 msgstr ""
@@ -2079,92 +2208,92 @@ msgctxt "SelectorPanel|"
 msgid "Activities"
 msgstr ""
 
-#: server/singletons/Master.qml:40
+#: server/singletons/Master.qml:43
 msgctxt "Master|"
 msgid "User ID"
 msgstr ""
 
-#: server/singletons/Master.qml:41
+#: server/singletons/Master.qml:44
 msgctxt "Master|"
 msgid "Name"
 msgstr ""
 
-#: server/singletons/Master.qml:42
+#: server/singletons/Master.qml:45
 msgctxt "Master|"
 msgid "Names"
 msgstr ""
 
-#: server/singletons/Master.qml:43
+#: server/singletons/Master.qml:46
 msgctxt "Master|"
 msgid "Password"
 msgstr ""
 
-#: server/singletons/Master.qml:44
+#: server/singletons/Master.qml:47
 msgctxt "Master|"
 msgid "Users IDs"
 msgstr ""
 
-#: server/singletons/Master.qml:45
+#: server/singletons/Master.qml:48
 msgctxt "Master|"
 msgid "Activity ID"
 msgstr ""
 
-#: server/singletons/Master.qml:46
+#: server/singletons/Master.qml:49
 msgctxt "Master|"
 msgid "Activity"
 msgstr ""
 
-#: server/singletons/Master.qml:47
+#: server/singletons/Master.qml:50
 msgctxt "Master|"
 msgid "Group"
 msgstr ""
 
-#: server/singletons/Master.qml:48
+#: server/singletons/Master.qml:51
 msgctxt "Master|"
 msgid "Description"
 msgstr ""
 
-#: server/singletons/Master.qml:49
+#: server/singletons/Master.qml:52
 msgctxt "Master|"
 msgid "Groups"
 msgstr ""
 
-#: server/singletons/Master.qml:50
+#: server/singletons/Master.qml:53
 msgctxt "Master|"
 msgid "Groups IDs"
 msgstr ""
 
-#: server/singletons/Master.qml:51 server/singletons/Master.qml:55
+#: server/singletons/Master.qml:54 server/singletons/Master.qml:58
 msgctxt "Master|"
 msgid "Date"
 msgstr ""
 
-#: server/singletons/Master.qml:52 server/singletons/Master.qml:57
+#: server/singletons/Master.qml:55 server/singletons/Master.qml:60
 msgctxt "Master|"
 msgid "Success"
 msgstr ""
 
-#: server/singletons/Master.qml:53
+#: server/singletons/Master.qml:56
 msgctxt "Master|"
 msgid "Duration"
 msgstr ""
 
-#: server/singletons/Master.qml:54
+#: server/singletons/Master.qml:57
 msgctxt "Master|"
 msgid "Data"
 msgstr ""
 
-#: server/singletons/Master.qml:56
+#: server/singletons/Master.qml:59
 msgctxt "Master|"
 msgid "Count"
 msgstr ""
 
-#: server/singletons/Master.qml:58
+#: server/singletons/Master.qml:61
 msgctxt "Master|"
 msgid "Failed"
 msgstr ""
 
-#: server/singletons/Master.qml:59
+#: server/singletons/Master.qml:62
 msgctxt "Master|"
 msgid "Success ratio"
 msgstr ""
@@ -2551,6 +2680,41 @@ msgstr ""
 #: server/views/ManagePupilsView.qml:251
 msgctxt "ManagePupilsView|"
 msgid "Remove pupils"
+msgstr ""
+
+#: server/views/SequencesView.qml:67
+msgctxt "SequencesView|"
+msgid "Sequences"
+msgstr ""
+
+#: server/views/SequencesView.qml:102
+msgctxt "SequencesView|"
+msgid "Details"
+msgstr ""
+
+#: server/views/SequencesView.qml:169
+msgctxt "SequencesView|"
+msgid "Sequences management"
+msgstr ""
+
+#: server/views/SequencesView.qml:187
+msgctxt "SequencesView|"
+msgid "Create sequence"
+msgstr ""
+
+#: server/views/SequencesView.qml:195
+msgctxt "SequencesView|"
+msgid "Update sequence"
+msgstr ""
+
+#: server/views/SequencesView.qml:204
+msgctxt "SequencesView|"
+msgid "Send sequence to clients"
+msgstr ""
+
+#: server/views/SequencesView.qml:247
+msgctxt "SequencesView|"
+msgid "Delete sequence"
 msgstr ""
 
 #: server/views/SettingsView.qml:65

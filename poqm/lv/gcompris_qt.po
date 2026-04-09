@@ -20378,12 +20378,12 @@ msgctxt "Menu|"
 msgid "Vocabulary"
 msgstr "Vārdu krājums"
 
-#: activities/menu/Menu.qml:211
+#: activities/menu/Menu.qml:213
 msgctxt "Menu|"
 msgid "GCompris is not connected to teacher's server."
 msgstr "„GCompris“ nav savienots ar skolotāja serveri."
 
-#: activities/menu/Menu.qml:212
+#: activities/menu/Menu.qml:214
 msgctxt "Menu|"
 msgid ""
 "GCompris is connected to teacher's server, but the password entered for "
@@ -20392,7 +20392,7 @@ msgstr ""
 "„GCompris“ ir savienots ar skolotāja serveri, bet ir ievadīta nepareiza "
 "lietotāja parole."
 
-#: activities/menu/Menu.qml:213
+#: activities/menu/Menu.qml:215
 #, fuzzy, qt-format
 #| msgctxt "Menu|"
 #| msgid ""
@@ -20404,17 +20404,17 @@ msgid ""
 msgstr ""
 "„GCompris“ ir savienots ar skolotāja serveri un lietotājs ir autentificēts."
 
-#: activities/menu/Menu.qml:214
+#: activities/menu/Menu.qml:216
 msgctxt "Menu|"
 msgid "GCompris has lost the connection to teacher's server."
 msgstr "„GCompris“ pazaudēja savienojumu ar skolotāja serveri."
 
-#: activities/menu/Menu.qml:215
+#: activities/menu/Menu.qml:217
 msgctxt "Menu|"
 msgid "GCompris has been disconnected from teacher's server."
 msgstr "„GCompris“ ir atvienots no skolotāja servera."
 
-#: activities/menu/Menu.qml:216
+#: activities/menu/Menu.qml:218
 msgctxt "Menu|"
 msgid ""
 "GCompris is connected to teacher's server, but the user is not yet "
@@ -20423,7 +20423,7 @@ msgstr ""
 "„GCompris“ ir savienots ar skolotāja serveri, bet lietotājs vēl nav "
 "autentificējies."
 
-#: activities/menu/Menu.qml:678
+#: activities/menu/Menu.qml:680
 msgctxt "Menu|"
 msgid ""
 "Put your favorite activities here by clicking on the sun at the top right of "
@@ -20432,12 +20432,12 @@ msgstr ""
 "Pievieno savas iecienītākās aktivitātes, klikšķinot uz saules ikonas pie "
 "attiecīgās aktivitātes."
 
-#: activities/menu/Menu.qml:828
+#: activities/menu/Menu.qml:855
 msgctxt "Menu|"
 msgid "Search specific activities"
 msgstr "Meklēt attiecīgās aktivitātes"
 
-#: activities/menu/Menu.qml:857
+#: activities/menu/Menu.qml:884
 msgctxt "Menu|"
 msgid "Activity Settings"
 msgstr "Aktivitātes iestatījumi"
@@ -28222,34 +28222,71 @@ msgctxt "ActivityInfo|"
 msgid "Type the complete word as it falls, before it reaches the ground."
 msgstr "Ieraksti krītošo vārdu pirms tas sasniedz zemi."
 
-#: core/ChangeLog.qml:30 core/ChangeLog.qml:43 core/ChangeLog.qml:49
-#: core/ChangeLog.qml:55 core/ChangeLog.qml:64 core/ChangeLog.qml:70
-#: core/ChangeLog.qml:75 core/ChangeLog.qml:81 core/ChangeLog.qml:110
-#: core/ChangeLog.qml:145 core/ChangeLog.qml:148 core/ChangeLog.qml:154
+#: core/ActivityBase.qml:218
+msgctxt "ActivityBase|"
+msgid ""
+"You are currently in a sequence, going back to the menu will cancel it, do "
+"you confirm?"
+msgstr ""
+
+#: core/ActivityBase.qml:219
+#, fuzzy
+#| msgctxt "balanceboxeditor|"
+#| msgid "Yes"
+msgctxt "ActivityBase|"
+msgid "Yes"
+msgstr "Jā"
+
+#: core/ActivityBase.qml:224
+#, fuzzy
+#| msgctxt "balanceboxeditor|"
+#| msgid "No"
+msgctxt "ActivityBase|"
+msgid "No"
+msgstr "Nē"
+
+#: core/ChangeLog.qml:30
+#, fuzzy
+#| msgctxt "ChangeLog|"
+#| msgid ""
+#| "New command-line option to list all the activities and start on a "
+#| "specific one"
+msgctxt "ChangeLog|"
+msgid ""
+"New command-line option to run a list of activities with specific datasets "
+"in sequence (--with-sequence sequence.json)"
+msgstr ""
+"Jauna komandrindas iespēja, lai uzskaitītu visas aktivitātes un sāktu ar "
+"noteiktu"
+
+#: core/ChangeLog.qml:31 core/ChangeLog.qml:44 core/ChangeLog.qml:50
+#: core/ChangeLog.qml:56 core/ChangeLog.qml:65 core/ChangeLog.qml:71
+#: core/ChangeLog.qml:76 core/ChangeLog.qml:82 core/ChangeLog.qml:111
+#: core/ChangeLog.qml:146 core/ChangeLog.qml:149 core/ChangeLog.qml:155
 msgctxt "ChangeLog|"
 msgid "Many usability improvements"
 msgstr "Daudzi lietojamības uzlabojumi"
 
-#: core/ChangeLog.qml:31 core/ChangeLog.qml:36 core/ChangeLog.qml:44
-#: core/ChangeLog.qml:50 core/ChangeLog.qml:57 core/ChangeLog.qml:65
-#: core/ChangeLog.qml:71 core/ChangeLog.qml:76 core/ChangeLog.qml:83
-#: core/ChangeLog.qml:92 core/ChangeLog.qml:99 core/ChangeLog.qml:112
-#: core/ChangeLog.qml:150 core/ChangeLog.qml:156
+#: core/ChangeLog.qml:32 core/ChangeLog.qml:37 core/ChangeLog.qml:45
+#: core/ChangeLog.qml:51 core/ChangeLog.qml:58 core/ChangeLog.qml:66
+#: core/ChangeLog.qml:72 core/ChangeLog.qml:77 core/ChangeLog.qml:84
+#: core/ChangeLog.qml:93 core/ChangeLog.qml:100 core/ChangeLog.qml:113
+#: core/ChangeLog.qml:151 core/ChangeLog.qml:157
 msgctxt "ChangeLog|"
 msgid "Many bug fixes"
 msgstr "Daudzi kļūdu labojumi"
 
-#: core/ChangeLog.qml:40
+#: core/ChangeLog.qml:41
 msgctxt "ChangeLog|"
 msgid "Translation added for Kannada and Tamil"
 msgstr "Pievienots kannadi un tamilu valodas tulkojums"
 
-#: core/ChangeLog.qml:41
+#: core/ChangeLog.qml:42
 msgctxt "ChangeLog|"
 msgid "New command-line option to set the locale (--locale locale)"
 msgstr "Jauna komandrindas opcija lokāles iestatīšanai (--locale lokāle)"
 
-#: core/ChangeLog.qml:42
+#: core/ChangeLog.qml:43
 msgctxt "ChangeLog|"
 msgid ""
 "New command-line option to show/hide the Home button (--hide-home-button/--"
@@ -28258,19 +28295,19 @@ msgstr ""
 "Jauna komandrindas opcija māju pogas parādīšanai/paslēpšanai (--hide-home-"
 "button/--show-home-button)"
 
-#: core/ChangeLog.qml:54
+#: core/ChangeLog.qml:55
 msgctxt "ChangeLog|"
 msgid "Translation added for Sanskrit"
 msgstr "Pievienots sanskrita valodas tulkojums"
 
-#: core/ChangeLog.qml:56 core/ChangeLog.qml:82 core/ChangeLog.qml:91
-#: core/ChangeLog.qml:98 core/ChangeLog.qml:111 core/ChangeLog.qml:129
-#: core/ChangeLog.qml:144 core/ChangeLog.qml:149 core/ChangeLog.qml:155
+#: core/ChangeLog.qml:57 core/ChangeLog.qml:83 core/ChangeLog.qml:92
+#: core/ChangeLog.qml:99 core/ChangeLog.qml:112 core/ChangeLog.qml:130
+#: core/ChangeLog.qml:145 core/ChangeLog.qml:150 core/ChangeLog.qml:156
 msgctxt "ChangeLog|"
 msgid "Many new images"
 msgstr "Daudzi jauni attēli"
 
-#: core/ChangeLog.qml:58
+#: core/ChangeLog.qml:59
 msgctxt "ChangeLog|"
 msgid ""
 "Automatic application of new language when changing it in the menu (no need "
@@ -28279,28 +28316,28 @@ msgstr ""
 "Automātiska jaunas valodas pielietošana, to nomainot izvēlnē (nav "
 "nepieciešams pārstartēt „GCompris“)"
 
-#: core/ChangeLog.qml:59
+#: core/ChangeLog.qml:60
 msgctxt "ChangeLog|"
 msgid "Add splash screen at startup"
 msgstr "Ieslēdzoties parāda sākuma ekrānu"
 
-#: core/ChangeLog.qml:60
+#: core/ChangeLog.qml:61
 msgctxt "ChangeLog|"
 msgid "New command-line option to switch the renderer (--renderer renderer)"
 msgstr ""
 "Jauna komandrindas opcija, lai pārslēgtu atveidotāju (--renderer atveidotājs)"
 
-#: core/ChangeLog.qml:69
+#: core/ChangeLog.qml:70
 msgctxt "ChangeLog|"
 msgid "Translation added for Latvian"
 msgstr "Pievienots latviešu valodas tulkojums"
 
-#: core/ChangeLog.qml:80
+#: core/ChangeLog.qml:81
 msgctxt "ChangeLog|"
 msgid "Translations added for Bulgarian, Galician and Swahili"
 msgstr "Pievienots tulkojums bulgāru, galisiešu un svahili valodā"
 
-#: core/ChangeLog.qml:84
+#: core/ChangeLog.qml:85
 msgctxt "ChangeLog|"
 msgid ""
 "New command-line option to directly start an activity at a specific level (--"
@@ -28309,17 +28346,17 @@ msgstr ""
 "Jaunas komandrindas iespējas, lai tiešā veidā sāktu darbību noteiktā līmenī "
 "(„--start-level“ līmenis izmantošanai ar „--launch“ aktivitāti)"
 
-#: core/ChangeLog.qml:89
+#: core/ChangeLog.qml:90
 msgctxt "ChangeLog|"
 msgid "Translations added for Arabic and Esperanto"
 msgstr "Pievienots arābu un esperanto tulkojums"
 
-#: core/ChangeLog.qml:90 core/ChangeLog.qml:97
+#: core/ChangeLog.qml:91 core/ChangeLog.qml:98
 msgctxt "ChangeLog|"
 msgid "Many translation updates"
 msgstr "Daudzi tulkojumu atjauninājumi"
 
-#: core/ChangeLog.qml:96
+#: core/ChangeLog.qml:97
 msgctxt "ChangeLog|"
 msgid ""
 "New command-line option (--difficulty {value|min-max}) to start GCompris at "
@@ -28328,22 +28365,22 @@ msgstr ""
 "Jaunas komandrindas iespējas ((--difficulty {value|min-max}), lai „GCompris“ "
 "palaistu ar noteiktu grūtības līmeni"
 
-#: core/ChangeLog.qml:103
+#: core/ChangeLog.qml:104
 msgctxt "ChangeLog|"
 msgid "Fix issue in comparator activity"
 msgstr "Novērsta kļūme salīdzināšanas aktivitātē"
 
-#: core/ChangeLog.qml:107
+#: core/ChangeLog.qml:108
 msgctxt "ChangeLog|"
 msgid "Map of Spain added for geography activity"
 msgstr "Ģeogrāfijas aktivitātei pievienota Spānijas karte"
 
-#: core/ChangeLog.qml:108
+#: core/ChangeLog.qml:109
 msgctxt "ChangeLog|"
 msgid "Voices added for Ukrainian"
 msgstr "Ukraiņu valodai pievienotas balsis"
 
-#: core/ChangeLog.qml:109
+#: core/ChangeLog.qml:110
 msgctxt "ChangeLog|"
 msgid ""
 "New command-line option to list all the activities and start on a specific "
@@ -28352,38 +28389,38 @@ msgstr ""
 "Jauna komandrindas iespēja, lai uzskaitītu visas aktivitātes un sāktu ar "
 "noteiktu"
 
-#: core/ChangeLog.qml:116
+#: core/ChangeLog.qml:117
 msgctxt "ChangeLog|"
 msgid ""
 "Reduce the size of the packages for all platforms and of the external word "
 "images set"
 msgstr "Samazināts pakotnes izmērs visām platformām un ārējām attēlu kopām"
 
-#: core/ChangeLog.qml:117
+#: core/ChangeLog.qml:118
 msgctxt "ChangeLog|"
 msgid "Improve images quality in several activities"
 msgstr "Uzlabota attēlu kvalitāte vairākām aktivitātēm"
 
-#: core/ChangeLog.qml:118
+#: core/ChangeLog.qml:119
 msgctxt "ChangeLog|"
 msgid "Fix some transitions in renewable_energy/watercycle on some platforms"
 msgstr ""
 "Labotas atsevišķas pārejas dažās platformās atjaunīgās enerģijas/ūdens cikla"
 
-#: core/ChangeLog.qml:119
+#: core/ChangeLog.qml:120
 msgctxt "ChangeLog|"
 msgid "Fix dead keys ignored on Linux for typing activities"
 msgstr ""
 "Labotas diakritiskās zīmes taustiņa ignorēšana „Linux“ rakstīšanas "
 "aktivitātēs"
 
-#: core/ChangeLog.qml:120
+#: core/ChangeLog.qml:121
 msgctxt "ChangeLog|"
 msgid "Fix level reset when changing level manually in Logical associations"
 msgstr ""
 "Fiksēta līmeņa atiestatīšana, manuāli mainot līmeni Loģiskajās asociācijās"
 
-#: core/ChangeLog.qml:124
+#: core/ChangeLog.qml:125
 msgctxt "ChangeLog|"
 msgid ""
 "Fix Alphabet sequence, Even and odd numbers and Numbers in order activities"
@@ -28391,37 +28428,37 @@ msgstr ""
 "Labota alfabētiskā secība, nepāra un pāra skaitļi un skaitļi kārtošanas "
 "aktivitātēs"
 
-#: core/ChangeLog.qml:128 core/ChangeLog.qml:136
+#: core/ChangeLog.qml:129 core/ChangeLog.qml:137
 msgctxt "ChangeLog|"
 msgid "Several bug fixes"
 msgstr "Vairāku kļūdu labojumi"
 
-#: core/ChangeLog.qml:130
+#: core/ChangeLog.qml:131
 msgctxt "ChangeLog|"
 msgid "Translation updated for Russian"
 msgstr "Tulkojumu atjauninājumi krievu valodai"
 
-#: core/ChangeLog.qml:131
+#: core/ChangeLog.qml:132
 msgctxt "ChangeLog|"
 msgid "New voices for Norwegian Nynorsk"
 msgstr "Jaunas balsis jaunnorvēģu valodai"
 
-#: core/ChangeLog.qml:135
+#: core/ChangeLog.qml:136
 msgctxt "ChangeLog|"
 msgid "Translations added for Breton, Czech and Macedonian"
 msgstr "Tulkojumi bretoņu, čehu un maķedoniešu valodā."
 
-#: core/ChangeLog.qml:140
+#: core/ChangeLog.qml:141
 msgctxt "ChangeLog|"
 msgid "Translation added for Azerbaijani"
 msgstr "Pievienots azerbaidžāņu valodas tulkojums"
 
-#: core/ChangeLog.qml:141
+#: core/ChangeLog.qml:142
 msgctxt "ChangeLog|"
 msgid "New maps and update of the maps for geography activities"
 msgstr "Jaunas kartes un karšu atjauninājumi ģeogrāfijas aktivitātēm"
 
-#: core/ChangeLog.qml:142
+#: core/ChangeLog.qml:143
 msgctxt "ChangeLog|"
 msgid ""
 "New dataset containing loops operations for programming maze, and make "
@@ -28430,7 +28467,7 @@ msgstr ""
 "Jauna datu kopa, kas satur ciklu operācijas labirintu programmēšanai, un "
 "pamācītu attēli padarīti tulkojami"
 
-#: core/ChangeLog.qml:143
+#: core/ChangeLog.qml:144
 msgctxt "ChangeLog|"
 msgid ""
 "Addition of a level to teach voltage source loop in analog electricity "
@@ -28439,57 +28476,57 @@ msgstr ""
 "Līmeņa pievienošana, lai mācītu sprieguma avota ciklu analogās elektrības "
 "aktivitātē"
 
-#: core/ChangeLog.qml:153
+#: core/ChangeLog.qml:154
 msgctxt "ChangeLog|"
 msgid "New Activity Settings menu, with dataset selection"
 msgstr "Jauna aktivitāšu iestatījumu izvēlne ar datu kopas atlasi"
 
-#: core/ChangeLog.qml:159
+#: core/ChangeLog.qml:160
 msgctxt "ChangeLog|"
 msgid "New sub-categories to organize activities"
 msgstr "Jaunas apakškategorijas aktivitāšu organizēšanai"
 
-#: core/ChangeLog.qml:160
+#: core/ChangeLog.qml:161
 msgctxt "ChangeLog|"
 msgid "Translation added for Macedonian."
 msgstr "Pievienots tulkojums maķedoniešu valodai."
 
-#: core/ChangeLog.qml:161
+#: core/ChangeLog.qml:162
 msgctxt "ChangeLog|"
 msgid "New activities Programming Maze and Baby Tangram"
 msgstr "Jaunas aktivitātes: labirinta programmēšana un bērnu tangrams"
 
-#: core/ChangeLog.qml:162
+#: core/ChangeLog.qml:163
 msgctxt "ChangeLog|"
 msgid "New background music and volume settings."
 msgstr "Jauni fona mūzikas un skaļuma iestatījumi."
 
-#: core/ChangeLog.qml:163
+#: core/ChangeLog.qml:164
 msgctxt "ChangeLog|"
 msgid "New speed setting in several activities."
 msgstr "Jauni ātruma iestatījumi vairākās aktivitātēs."
 
-#: core/ChangeLog.qml:164
+#: core/ChangeLog.qml:165
 msgctxt "ChangeLog|"
 msgid "New option in chess to display captured pieces."
 msgstr "Jauna iespēja šahā parādīt paņemtās figūras."
 
-#: core/ChangeLog.qml:165
+#: core/ChangeLog.qml:166
 msgctxt "ChangeLog|"
 msgid "New images in Colors, Advanced colors and Target game."
 msgstr "Jauni attēli krāsu, papildu krāsu un mērķa spēlē."
 
-#: core/ChangeLog.qml:166
+#: core/ChangeLog.qml:167
 msgctxt "ChangeLog|"
 msgid "New voices for US English."
 msgstr "Jaunas balsis ASV angļu valodai."
 
-#: core/ChangeLog.qml:167 core/ChangeLog.qml:175
+#: core/ChangeLog.qml:168 core/ChangeLog.qml:176
 msgctxt "ChangeLog|"
 msgid "Many little fixes and improvements."
 msgstr "Daudzi sīki labojumi un uzlabojumi."
 
-#: core/ChangeLog.qml:168
+#: core/ChangeLog.qml:169
 msgctxt "ChangeLog|"
 msgid ""
 "Translation updated for multiple languages (Breton, Brazilian Portuguese, "
@@ -28498,18 +28535,18 @@ msgstr ""
 "Atjaunināts tulkojums vairākām valodām (bretoņu, Brazīlijas portugāļu, "
 "somu...)."
 
-#: core/ChangeLog.qml:169
+#: core/ChangeLog.qml:170
 msgctxt "ChangeLog|"
 msgid "Add Russian dataset for Click on letter activity."
 msgstr ""
 "Pievienota krievu valodas datu kopa klikšķināšanas uz burta aktivitātei."
 
-#: core/ChangeLog.qml:170
+#: core/ChangeLog.qml:171
 msgctxt "ChangeLog|"
 msgid "Lang activity now available in Dutch."
 msgstr "Valodu aktivitāte holandiešu valodā."
 
-#: core/ChangeLog.qml:171
+#: core/ChangeLog.qml:172
 msgctxt "ChangeLog|"
 msgid ""
 "Merge Norwegian counties Nord-Trøndelag and Sør-Trøndelag into Trøndelag in "
@@ -28518,17 +28555,17 @@ msgstr ""
 "Valstu aktivitātē apvienoti Norvēģijas novadi Nūrtrendelāga un Sērtrendelāga "
 "vienā Trendelāgas novadā."
 
-#: core/ChangeLog.qml:172
+#: core/ChangeLog.qml:173
 msgctxt "ChangeLog|"
 msgid "Fix in braille activities where the cells start at 1, not 0."
 msgstr "Labojums Braila aktivitātēs, šūnām sākoties ar 1, bet ne 0."
 
-#: core/ChangeLog.qml:173
+#: core/ChangeLog.qml:174
 msgctxt "ChangeLog|"
 msgid "Translation added for Basque, Hungarian and Malayalam."
 msgstr "Pievienots tulkojums basku, ungāru un malaju valodai."
 
-#: core/ChangeLog.qml:174
+#: core/ChangeLog.qml:175
 msgctxt "ChangeLog|"
 msgid ""
 "Loading/saving of creations (Baby Wordprocessor, Balance Box and Piano "
@@ -28537,47 +28574,47 @@ msgstr ""
 "Izveidotā satura ielāde/saglabāšana (bērnu tekstapstrādes programma, "
 "līdzsvara kaste un klavieru kompozīcija)."
 
-#: core/ChangeLog.qml:175
+#: core/ChangeLog.qml:176
 msgctxt "ChangeLog|"
 msgid "Translations added for Scottish Gaelic."
 msgstr "Pievienots tulkojums skotu gēlu valodai."
 
-#: core/ChangeLog.qml:176
+#: core/ChangeLog.qml:177
 msgctxt "ChangeLog|"
 msgid "License page added in configuration."
 msgstr "Konfigurācijai ir pievienota licences lapa."
 
-#: core/ChangeLog.qml:176
+#: core/ChangeLog.qml:177
 msgctxt "ChangeLog|"
 msgid "Multiple changes on layouts to improve the ergonomy."
 msgstr "Vairākas izkārtojuma izmaiņas ergonomikas uzlabošanai"
 
-#: core/ChangeLog.qml:177
+#: core/ChangeLog.qml:178
 msgctxt "ChangeLog|"
 msgid "Lang activity now available in Polish, Swedish and Ukrainian."
 msgstr "Valodas aktivitāte ir pieejama poļu, zviedru un ukraiņu valodai."
 
-#: core/ChangeLog.qml:178
+#: core/ChangeLog.qml:179
 msgctxt "ChangeLog|"
 msgid "Search feature."
 msgstr "Meklēšanas iespēja."
 
-#: core/ChangeLog.qml:179
+#: core/ChangeLog.qml:180
 msgctxt "ChangeLog|"
 msgid "A Changelog."
 msgstr "Izmaiņu žurnāls."
 
-#: core/ChangeLog.qml:180
+#: core/ChangeLog.qml:181
 msgctxt "ChangeLog|"
 msgid "Many little fixes."
 msgstr "Daudzi sīki labojumi."
 
-#: core/ChangeLog.qml:180
+#: core/ChangeLog.qml:181
 msgctxt "ChangeLog|"
 msgid "Lang activity now available in French."
 msgstr "Valodas aktivitāte pieejama franču valodai."
 
-#: core/ChangeLog.qml:181
+#: core/ChangeLog.qml:182
 msgctxt "ChangeLog|"
 msgid ""
 "Adding a loading overlay to let the user know that some actions are taking "
@@ -28586,7 +28623,7 @@ msgstr ""
 "Pievienots ielādēšanās virsekrāns, lai lietotāju informētu par notiekošajām "
 "darbībām (piemēram, aktivitātes ielādi), kas var aizņemt kādu laiku."
 
-#: core/ChangeLog.qml:181
+#: core/ChangeLog.qml:182
 msgctxt "ChangeLog|"
 msgid ""
 "Translations added for: Catalan (Valencian), Chinese Traditional, Finnish "
@@ -28596,12 +28633,12 @@ msgstr ""
 "(92% iztulkoti), krievu (98% iztulkoti), slovāku (92% iztulkoti), turku "
 "valodai."
 
-#: core/ChangeLog.qml:182
+#: core/ChangeLog.qml:183
 msgctxt "ChangeLog|"
 msgid "Translations added for: Slovenian, German, Galician."
 msgstr "Pievienoti tulkojumi slovēņu, vācu un galisiešu valodai."
 
-#: core/ChangeLog.qml:236
+#: core/ChangeLog.qml:237
 #, qt-format
 msgctxt "ChangeLog|"
 msgid "Version %1:"
@@ -29188,15 +29225,20 @@ msgstr ""
 
 #: core/main.cpp:149
 msgctxt "QObject|"
+msgid "Start the sequence of activities passed in the json file."
+msgstr ""
+
+#: core/main.cpp:153
+msgctxt "QObject|"
 msgid "Specify the locale when starting GCompris."
 msgstr "Norādiet lokāli, ar kuru sākt „GCompris“."
 
-#: core/main.cpp:153
+#: core/main.cpp:157
 msgctxt "QObject|"
 msgid "Hide the Home button in the bar."
 msgstr "Paslēpt māju pogu izvēļņu joslā."
 
-#: core/main.cpp:157
+#: core/main.cpp:161
 msgctxt "QObject|"
 msgid "Show the Home button in the bar (default)."
 msgstr "Paslēpt māju pogu izvēļņu joslā (noklusējums)."
@@ -29225,12 +29267,12 @@ msgctxt "main|"
 msgid "Background music"
 msgstr "Fona mūzika"
 
-#: core/main.qml:248 core/main.qml:545
+#: core/main.qml:248 core/main.qml:548
 msgctxt "main|"
 msgid "Yes"
 msgstr "Jā"
 
-#: core/main.qml:255 core/main.qml:551
+#: core/main.qml:255 core/main.qml:554
 msgctxt "main|"
 msgid "No"
 msgstr "Nē"
@@ -29249,7 +29291,7 @@ msgctxt "main|"
 msgid "Apply"
 msgstr "Pielietot"
 
-#: core/main.qml:275 core/main.qml:586 core/main.qml:661
+#: core/main.qml:275 core/main.qml:589 core/main.qml:664
 msgctxt "main|"
 msgid "Cancel"
 msgstr "Atcelt"
@@ -29289,41 +29331,41 @@ msgctxt "main|"
 msgid "GCompris has been updated! Here are the new changes:<br/>"
 msgstr "„GCompris“ ir atjaunināts! Šīs ir jaunākās izmaiņas:<br/>"
 
-#: core/main.qml:504
+#: core/main.qml:507
 msgctxt "main|"
 msgid ""
 "The following activities do not have any active datasets! All of their "
 "datasets will be reactivated."
 msgstr ""
 
-#: core/main.qml:544
+#: core/main.qml:547
 #, qt-format
 msgctxt "main|"
 msgid "Do you want to connect to server %1?"
 msgstr "Vai vēlaties savienoties ar serveri „%1“?"
 
-#: core/main.qml:565
+#: core/main.qml:568
 #, qt-format
 msgctxt "main|"
 msgid "Password rejected by server %1"
 msgstr "Serveris „%1“ noraidīja paroli"
 
-#: core/main.qml:566 core/main.qml:585 core/main.qml:660
+#: core/main.qml:569 core/main.qml:588 core/main.qml:663
 msgctxt "main|"
 msgid "OK"
 msgstr "Labi"
 
-#: core/main.qml:581
+#: core/main.qml:584
 msgctxt "main|"
 msgid "Select your username"
 msgstr "Atlasiet savu lietotājvārdu"
 
-#: core/main.qml:591
+#: core/main.qml:594
 msgctxt "main|"
 msgid "Please select your username in the list or cancel."
 msgstr "Atlasiet lietotājvārda no saraksta vai atceliet."
 
-#: core/main.qml:658
+#: core/main.qml:661
 msgctxt "main|"
 msgid "Enter your password"
 msgstr "Ierakstiet savu paroli"
