@@ -54,6 +54,7 @@ ActivityBase {
             property alias errorRectangle: errorRectangle
             property alias instructionPanel: instructionPanel
             property alias instruction: instructionPanel.textItem
+            property alias client: client
             property int nbSubLevel
             property alias listModel: listModel
             property bool acceptCandy: false
@@ -88,6 +89,47 @@ ActivityBase {
         property bool easyMode: true
         property alias wrongMove: wrongMove
 
+        readonly property int expectedShare: Math.floor(items.totalCandies/items.totalChildren);
+        property int boysPlaced: 0
+        property list<int> candiesInBoys: []
+        property int girlsPlaced: 0
+        property list<int> candiesInGirls: []
+        property bool basketPlaced: false
+        property int candiesInBasket: 0
+
+        Client {    // Client for gcompris-teachers. Prepare data from activity to server
+            id: client
+            getDataCallback: function() {
+                var data = {
+                    "instruction": items.instruction.text,
+                    "totalBoys": items.totalBoys,
+                    "totalGirls": items.totalGirls,
+                    "totalCandies": items.totalCandies,
+                    "expectedShare": expectedShare,
+                    "expectedRest": rest,
+                    "boysPlaced": boysPlaced,
+                    "girlsPlaced": girlsPlaced,
+                    "candiesInBoys": candiesInBoys,
+                    "candiesInGirls": candiesInGirls,
+                    "basketPlaced": basketPlaced,
+                    "candiesInBasket": candiesInBasket
+                }
+
+                return data;
+            }
+        }
+
+        // reset values for the client data callback
+        function resetCheck() {
+            boysPlaced = 0;
+            candiesInBoys = [];
+            girlsPlaced = 0;
+            candiesInGirls = [];
+            basketPlaced = false;
+            candiesInBasket = 0;
+        }
+
+
         //returns true if the x and y is in the "dest" area
         function contains(x, y, dest) {
             return (x > dest.x && x < dest.x + dest.width &&
@@ -102,32 +144,46 @@ ActivityBase {
 
         //check if the answer is correct
         function check() {
-            activityBackground.resetCandy()
-            items.buttonsBlocked = true
+            items.buttonsBlocked = true;
+            activityBackground.resetCandy();
+            activityBackground.resetCheck();
 
-            var ok = 0
-            var okRest = 0
+            var ok = 0;
 
             if (listModel.count >= items.totalChildren) {
                 for (var i = 0 ; i < listModel.count ; i++) {
-                    if (listModel.get(i).nameS === "basket")
-                        okRest = listModel.get(i).countS
-                    else if (listModel.get(i).countS === Math.floor(items.totalCandies/items.totalChildren))
-                        ok ++
+                    var currentObject = listModel.get(i);
+                    if (currentObject.nameS === "basket") {
+                        basketPlaced = true;
+                        candiesInBasket = currentObject.countS;
+                    } else {
+                        if(currentObject.nameS === "girl") {
+                            girlsPlaced++;
+                            candiesInGirls.push(currentObject.countS);
+                        } else {
+                            boysPlaced++;
+                            candiesInBoys.push(currentObject.countS);
+                        }
+                        if(currentObject.countS === expectedShare) {
+                            ok ++;
+                        }
+                    }
                 }
 
                 //condition without or with rest
-                if ((rest == 0 && ok == items.totalChildren) || (rest == okRest && ok == items.totalChildren))  {
-                    score.currentSubLevel++
-                    score.playWinAnimation()
-                    goodAnswerSound.play()
-                    return
+                if ((rest == 0 && ok == items.totalChildren) || (rest == candiesInBasket && ok == items.totalChildren))  {
+                    score.currentSubLevel++;
+                    score.playWinAnimation();
+                    goodAnswerSound.play();
+                    items.client.sendToServer(true);
+                    return;
                 }
             }
 
             //else => bad
-            errorRectangle.startAnimation()
-            badAnswerSound.play()
+            errorRectangle.startAnimation();
+            badAnswerSound.play();
+            items.client.sendToServer(false);
         }
 
         GCSoundEffect {
