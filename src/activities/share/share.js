@@ -23,10 +23,15 @@ var savedTotalCandies
 var savedPlacedInGirls
 var savedPlacedInBoys
 var savedCurrentCandies
+var dataset
+var levelData
+var subLevels
 var subLevelData
 
 function start(items_) {
     items = items_
+    dataset = items.levels
+    items.numberOfLevel = dataset.length
     items.currentLevel = Core.getInitialLevel(items.numberOfLevel)
     initLevel()
 }
@@ -35,22 +40,31 @@ function stop() {
 }
 
 function initLevel() {
+    levelData = dataset[items.currentLevel]
+    subLevels = levelData.subLevels
+    if(levelData.shuffle) {
+        subLevels = Core.shuffle(subLevels);
+    }
+    items.nbSubLevel = subLevels.length
     setUp()
 }
 
 function setUp() {
     items.errorRectangle.resetState()
-    var levelData = items.levels
-    items.numberOfLevel = items.levels.length
-    subLevelData = levelData[items.currentLevel][items.score.currentSubLevel];
+    subLevelData = subLevels[items.score.currentSubLevel];
+
     // use board levels
     if (!subLevelData["randomisedInputData"]) {
         items.totalBoys = subLevelData.totalBoys
         items.totalGirls = subLevelData.totalGirls
         items.totalCandies = subLevelData.totalCandies
 
-        items.instruction.text = subLevelData.instruction
-        items.nbSubLevel = levelData[items.currentLevel].length
+        // Use provided instruction if not empty, else generate it
+        if(subLevelData.hasOwnProperty("instruction") && subLevelData.instruction != "") {
+            items.instruction.text = subLevelData.instruction
+        } else {
+            generateInstruction()
+        }
 
         items.activityBackground.currentCandies = items.totalGirls * subLevelData.placedInGirls +
                 items.totalBoys * subLevelData.placedInBoys
@@ -76,10 +90,10 @@ function setUp() {
         var sum = items.totalBoys + items.totalGirls
         // use sum * 6 as top margin (max 6 candies per rectangle, and minimum 1 per child)
         items.totalCandies = Math.floor(Math.random() * 6 * sum) + sum
-        items.nbSubLevel = levelData[items.currentLevel].length
         // stay within the max margin
-        if (items.totalCandies > maxCandies)
+        if (items.totalCandies > maxCandies) {
             items.totalCandies = maxCandies
+        }
 
         items.activityBackground.placedInGirls = 0
         items.activityBackground.placedInBoys = 0
@@ -109,18 +123,13 @@ function setUp() {
             items.activityBackground.currentCandies = items.totalGirls * items.activityBackground.placedInGirls
                 + items.totalBoys * items.activityBackground.placedInBoys
         }
-        //~ singular "Place %n boy "
-        //~ plural "Place %n boys "
-        items.instruction.text = qsTr("Place %n boy(s) ", "First part of Place %n boy(s) and %n girl(s) in the center. Then split %n pieces of candy equally between them.", items.totalBoys);
 
-        //~ singular "and %n girl in the center. "
-        //~ plural "and %n girls in the center. "
-        items.instruction.text += qsTr("and %n girl(s) in the center. ", "Second part of Place %n boy(s) and %n girl(s) in the center. Then split %n pieces of candy equally between them.", items.totalGirls);
-
-        //~ singular Then split %n candy equally between them.
-        //~ plural Then split %n candies equally between them.
-        items.instruction.text += qsTr("Then split %n pieces of candy equally between them.", "Third part of Place %n boy(s) and %n girl(s) in the center. Then split %n pieces of candy equally between them.", items.totalCandies - items.activityBackground.currentCandies);
-
+        // Use provided instruction if not empty, else generate it
+        if(subLevelData.hasOwnProperty("instruction") && subLevelData.instruction != "") {
+            items.instruction.text = subLevelData.instruction
+        } else {
+            generateInstruction()
+        }
 
         items.activityBackground.rest = items.totalCandies -
                 Math.floor(items.totalCandies / items.totalChildren) * (items.totalBoys+items.totalGirls)
@@ -132,6 +141,20 @@ function setUp() {
         saveVariables()
     }
     resetBoard()
+}
+
+function generateInstruction() {
+    //~ singular "Place %n boy "
+    //~ plural "Place %n boys "
+    items.instruction.text = qsTr("Place %n boy(s) ", "First part of Place %n boy(s) and %n girl(s) in the center. Then split %n pieces of candy equally between them.", items.totalBoys);
+
+    //~ singular "and %n girl in the center. "
+    //~ plural "and %n girls in the center. "
+    items.instruction.text += qsTr("and %n girl(s) in the center. ", "Second part of Place %n boy(s) and %n girl(s) in the center. Then split %n pieces of candy equally between them.", items.totalGirls);
+
+    //~ singular Then split %n candy equally between them.
+    //~ plural Then split %n candies equally between them.
+    items.instruction.text += qsTr("Then split %n pieces of candy equally between them.", "Third part of Place %n boy(s) and %n girl(s) in the center. Then split %n pieces of candy equally between them.", items.totalCandies - items.activityBackground.currentCandies);
 }
 
 function resetBoard() {
@@ -153,8 +176,9 @@ function resetBoard() {
 
     items.candyWidget.canDrag = true
     items.candyWidget.element.opacity = 1
-    if (items.totalCandies - items.activityBackground.currentCandies == 0)
+    if (items.totalCandies - items.activityBackground.currentCandies == 0) {
         items.candyWidget.element.opacity = 0.6
+    }
 
     items.basketWidget.canDrag = true
     items.buttonsBlocked = false

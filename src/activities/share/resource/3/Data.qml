@@ -9,7 +9,7 @@
  */
 import core 1.0
 
-// NOTE: Never put more than max 6 children and 6 candy per children.
+// NOTE: Never put more than max 6 children and 6 candies per child.
 
 Data {
     objective: qsTr("Maximum 30 pieces of candy and 6 kids, possible rest.")
@@ -17,190 +17,205 @@ Data {
     // NOTE: don't put maxBoys or maxGirls less than 1,
     // and don't make maxBoys + maxGirls more than maximum kids (6 here)
     data:  [
-        [
-            {
-                "randomisedInputData": true,
-                "maxBoys": 1,
-                "maxGirls": 3,
-                "maxCandies": 6,
-                "alreadyPlaced": false
-            },
-            {
-                "randomisedInputData": true,
-                "maxBoys": 2,
-                "maxGirls": 2,
-                "maxCandies": 10,
-                "alreadyPlaced": true
-            },
-            {
-                "randomisedInputData": true,
-                "maxBoys": 2,
-                "maxGirls": 2,
-                "maxCandies": 12,
-                "alreadyPlaced": false
-            },
-            {
-                "randomisedInputData": true,
-                "maxBoys": 2,
-                "maxGirls": 2,
-                "maxCandies": 16,
-                "alreadyPlaced": true
-            },
-            {
-                "randomisedInputData": true,
-                "maxBoys": 2,
-                "maxGirls": 2,
-                "maxCandies": 16,
-                "alreadyPlaced": false
-            }
-        ],
-        [
-            {
-                "randomisedInputData": true,
-                "maxBoys": 1,
-                "maxGirls": 3,
-                "maxCandies": 6,
-                "alreadyPlaced": false
-            },
-            {
-                "randomisedInputData": true,
-                "maxBoys": 2,
-                "maxGirls": 2,
-                "maxCandies": 10,
-                "alreadyPlaced": false
-            },
-            {
-                "randomisedInputData": true,
-                "maxBoys": 2,
-                "maxGirls": 2,
-                "maxCandies": 14,
-                "alreadyPlaced": false
-            },
-            {
-                "randomisedInputData": true,
-                "maxBoys": 2,
-                "maxGirls": 2,
-                "maxCandies": 16,
-                "alreadyPlaced": false
-            },
-            {
-                "randomisedInputData": true,
-                "maxBoys": 2,
-                "maxGirls": 2,
-                "maxCandies": 18,
-                "alreadyPlaced": false
-            }
-        ],
-        [
-            {
-                "randomisedInputData": true,
-                "maxBoys": 1,
-                "maxGirls": 4,
-                "maxCandies": 10,
-                "alreadyPlaced": false
-            },
-            {
-                "randomisedInputData": true,
-                "maxBoys": 2,
-                "maxGirls": 3,
-                "maxCandies": 14,
-                "alreadyPlaced": false
-            },
-            {
-                "randomisedInputData": true,
-                "maxBoys": 3,
-                "maxGirls": 2,
-                "maxCandies": 18,
-                "alreadyPlaced": false
-            },
-            {
-                "randomisedInputData": true,
-                "maxBoys": 2,
-                "maxGirls": 3,
-                "maxCandies": 22,
-                "alreadyPlaced": false
-            },
-            {
-                "randomisedInputData": true,
-                "maxBoys": 2,
-                "maxGirls": 2,
-                "maxCandies": 26,
-                "alreadyPlaced": false
-            }
-        ],
-        [
-            {
-                "randomisedInputData": true,
-                "maxBoys": 1,
-                "maxGirls": 3,
-                "maxCandies": 10,
-                "alreadyPlaced": true
-            },
-            {
-                "randomisedInputData": true,
-                "maxBoys": 2,
-                "maxGirls": 2,
-                "maxCandies": 14,
-                "alreadyPlaced": false
-            },
-            {
-                "randomisedInputData": true,
-                "maxBoys": 3,
-                "maxGirls": 3,
-                "maxCandies": 18,
-                "alreadyPlaced": true
-            },
-            {
-                "randomisedInputData": true,
-                "maxBoys": 3,
-                "maxGirls": 3,
-                "maxCandies": 22,
-                "alreadyPlaced": false
-            },
-            {
-                "randomisedInputData": true,
-                "maxBoys": 3,
-                "maxGirls": 3,
-                "maxCandies": 26,
-                "alreadyPlaced": false
-            }
-        ],
-        [
-            {
-                "randomisedInputData": true,
-                "maxBoys": 1,
-                "maxGirls": 5,
-                "maxCandies": 12,
-                "alreadyPlaced": true
-            },
-            {
-                "randomisedInputData": true,
-                "maxBoys": 3,
-                "maxGirls": 3,
-                "maxCandies": 16,
-                "alreadyPlaced": true
-            },
-            {
-                "randomisedInputData": true,
-                "maxBoys": 3,
-                "maxGirls": 3,
-                "maxCandies": 20,
-                "alreadyPlaced": true
-            },
-            {
-                "randomisedInputData": true,
-                "maxBoys": 3,
-                "maxGirls": 3,
-                "maxCandies": 24,
-                "alreadyPlaced": false
-            },
-            {
-                "randomisedInputData": true,
-                "maxBoys": 3,
-                "maxGirls": 3,
-                "maxCandies": 30,
-                "alreadyPlaced": true
-            }
-        ]
+        {
+            "shuffle": false,
+            "subLevels": [
+                {
+                    "randomisedInputData": true,
+                    "maxBoys": 1,
+                    "maxGirls": 3,
+                    "maxCandies": 6,
+                    "alreadyPlaced": false
+                },
+                {
+                    "randomisedInputData": true,
+                    "maxBoys": 2,
+                    "maxGirls": 2,
+                    "maxCandies": 10,
+                    "alreadyPlaced": true
+                },
+                {
+                    "randomisedInputData": true,
+                    "maxBoys": 2,
+                    "maxGirls": 2,
+                    "maxCandies": 12,
+                    "alreadyPlaced": false
+                },
+                {
+                    "randomisedInputData": true,
+                    "maxBoys": 2,
+                    "maxGirls": 2,
+                    "maxCandies": 16,
+                    "alreadyPlaced": true
+                },
+                {
+                    "randomisedInputData": true,
+                    "maxBoys": 2,
+                    "maxGirls": 2,
+                    "maxCandies": 16,
+                    "alreadyPlaced": false
+                }
+            ]
+        },
+        {
+            "shuffle": false,
+            "subLevels": [
+                {
+                    "randomisedInputData": true,
+                    "maxBoys": 1,
+                    "maxGirls": 3,
+                    "maxCandies": 6,
+                    "alreadyPlaced": false
+                },
+                {
+                    "randomisedInputData": true,
+                    "maxBoys": 2,
+                    "maxGirls": 2,
+                    "maxCandies": 10,
+                    "alreadyPlaced": false
+                },
+                {
+                    "randomisedInputData": true,
+                    "maxBoys": 2,
+                    "maxGirls": 2,
+                    "maxCandies": 14,
+                    "alreadyPlaced": false
+                },
+                {
+                    "randomisedInputData": true,
+                    "maxBoys": 2,
+                    "maxGirls": 2,
+                    "maxCandies": 16,
+                    "alreadyPlaced": false
+                },
+                {
+                    "randomisedInputData": true,
+                    "maxBoys": 2,
+                    "maxGirls": 2,
+                    "maxCandies": 18,
+                    "alreadyPlaced": false
+                }
+            ]
+        },
+        {
+            "shuffle": false,
+            "subLevels": [
+                {
+                    "randomisedInputData": true,
+                    "maxBoys": 1,
+                    "maxGirls": 4,
+                    "maxCandies": 10,
+                    "alreadyPlaced": false
+                },
+                {
+                    "randomisedInputData": true,
+                    "maxBoys": 2,
+                    "maxGirls": 3,
+                    "maxCandies": 14,
+                    "alreadyPlaced": false
+                },
+                {
+                    "randomisedInputData": true,
+                    "maxBoys": 3,
+                    "maxGirls": 2,
+                    "maxCandies": 18,
+                    "alreadyPlaced": false
+                },
+                {
+                    "randomisedInputData": true,
+                    "maxBoys": 2,
+                    "maxGirls": 3,
+                    "maxCandies": 22,
+                    "alreadyPlaced": false
+                },
+                {
+                    "randomisedInputData": true,
+                    "maxBoys": 2,
+                    "maxGirls": 2,
+                    "maxCandies": 26,
+                    "alreadyPlaced": false
+                }
+            ]
+        },
+        {
+            "shuffle": false,
+            "subLevels": [
+                {
+                    "randomisedInputData": true,
+                    "maxBoys": 1,
+                    "maxGirls": 3,
+                    "maxCandies": 10,
+                    "alreadyPlaced": true
+                },
+                {
+                    "randomisedInputData": true,
+                    "maxBoys": 2,
+                    "maxGirls": 2,
+                    "maxCandies": 14,
+                    "alreadyPlaced": false
+                },
+                {
+                    "randomisedInputData": true,
+                    "maxBoys": 3,
+                    "maxGirls": 3,
+                    "maxCandies": 18,
+                    "alreadyPlaced": true
+                },
+                {
+                    "randomisedInputData": true,
+                    "maxBoys": 3,
+                    "maxGirls": 3,
+                    "maxCandies": 22,
+                    "alreadyPlaced": false
+                },
+                {
+                    "randomisedInputData": true,
+                    "maxBoys": 3,
+                    "maxGirls": 3,
+                    "maxCandies": 26,
+                    "alreadyPlaced": false
+                }
+            ]
+        },
+        {
+            "shuffle": false,
+            "subLevels": [
+                {
+                    "randomisedInputData": true,
+                    "maxBoys": 1,
+                    "maxGirls": 5,
+                    "maxCandies": 12,
+                    "alreadyPlaced": true
+                },
+                {
+                    "randomisedInputData": true,
+                    "maxBoys": 3,
+                    "maxGirls": 3,
+                    "maxCandies": 16,
+                    "alreadyPlaced": true
+                },
+                {
+                    "randomisedInputData": true,
+                    "maxBoys": 3,
+                    "maxGirls": 3,
+                    "maxCandies": 20,
+                    "alreadyPlaced": true
+                },
+                {
+                    "randomisedInputData": true,
+                    "maxBoys": 3,
+                    "maxGirls": 3,
+                    "maxCandies": 24,
+                    "alreadyPlaced": false
+                },
+                {
+                    "randomisedInputData": true,
+                    "maxBoys": 3,
+                    "maxGirls": 3,
+                    "maxCandies": 30,
+                    "alreadyPlaced": true
+                }
+            ]
+        }
     ]
 }
