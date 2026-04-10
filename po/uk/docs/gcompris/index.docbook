@@ -622,6 +622,12 @@ for example 'xx.yy.zz'
 <entry
 >Запустити &gcompris; із використанням вказаної локалі.</entry>
 </row>
+<row>
+<entry
+>--with-sequence=послідовність.json</entry>
+<entry
+>Запустити &gcompris; з певною послідовністю. Послідовність є списком вправ з вказаними наборами даних, який GCompris примусово запускає у вказаному порядку.</entry>
+</row>
 </tbody>
 </tgroup>
 </informaltable>

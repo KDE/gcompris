@@ -60,13 +60,13 @@ Don't forget to include this last date.
 Please respect the format of the date (YYYY-MM-DD),it is used by scripts.
 -->
 <date
->2026-02-04</date>
+>2026-03-11</date>
 
 <!--version information of the application and kde this documentation is valid for.
 for example 'xx.yy.zz'
 -->
 <releaseinfo
->26.0</releaseinfo>
+>26.1</releaseinfo>
 
 <!-- Abstract about this handbook -->
 
@@ -608,6 +608,12 @@ for example 'xx.yy.zz'
 >--locale=taalcode</entry>
 <entry
 >&gcompris; uitvoeren met de gespecificeerde taalcode.</entry>
+</row>
+<row>
+<entry
+>--with-sequence=sequence.json</entry>
+<entry
+>Voer GCompris uit met de opgegeven sequentie. Een sequentie is een lijst van activiteiten met specifieke gegevenssets, waardoor GCompris gedwongen wordt deze in de opgegeven volgorde uit te voeren.</entry>
 </row>
 </tbody>
 </tgroup>

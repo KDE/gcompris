@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-03-08 16:40+0100\n"
+"PO-Revision-Date: 2026-04-09 15:04+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 25.12.2\n"
+"X-Generator: Lokalize 25.12.3\n"
 
 #: server/activities/adjacent_numbers/ActivityEditor.qml:13
 #: server/activities/binary_bulb/ActivityEditor.qml:12
@@ -1779,12 +1779,10 @@ msgstr "Groep verwijderen"
 
 #. Argument is dataset name
 #: server/components/SequenceElement.qml:72
-#, fuzzy, qt-format
-#| msgctxt "NavigationPanel|"
-#| msgid "Datasets"
+#, qt-format
 msgctxt "SequenceElement|"
 msgid "Dataset: %1"
-msgstr "Gegevenssets"
+msgstr "Gegevensset: %1"
 
 #: server/components/ServerLanguageList.qml:32
 msgctxt "ServerLanguageList|"
@@ -1919,41 +1917,39 @@ msgstr "Gegevensset <b>%1</b> kon niet verwijderd worden."
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "Error inserting sequence in table sequence_: <b>%1</b>."
-msgstr ""
+msgstr "Fout bij het invoegen van een reeks in tabelsequentie_: <b>%1</b>."
 
 #: server/controllers/database-controller.cpp:746
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "Error updating sequence in table sequence_: <b>%1</b>."
-msgstr ""
+msgstr "Fout bij het bijwerken van een reeks in tabelsequentie_: <b>%1</b>."
 
 #: server/controllers/database-controller.cpp:754
 #: server/controllers/database-controller.cpp:802
-#, fuzzy, qt-format
-#| msgctxt "controllers::DatabaseController|"
-#| msgid "User <b>%1</b> could not be deleted from table result_."
+#, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid ""
 "Sequence <b>%1</b> couldn't be deleted from table sequence_with_activity_."
-msgstr "Gebruiker <b>%1</b> kon niet verwijderd worden uit tabel resultaat_."
+msgstr ""
+"Sequentie <b>%1</b> kon niet worden verwijderd uit tabel "
+"sequence_with_activity_."
 
 #: server/controllers/database-controller.cpp:759
 #: server/controllers/database-controller.cpp:806
-#, fuzzy, qt-format
-#| msgctxt "controllers::DatabaseController|"
-#| msgid "User <b>%1</b> could not be deleted from table user_."
+#, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid ""
 "Sequence <b>%1</b> couldn't be deleted from table activity_with_datasets_."
-msgstr "Gebruiker <b>%1</b> kon niet verwijderd worden uit tabel gebruiker_."
+msgstr ""
+"Sequentie <b>%1</b> kon niet verwijderd worden uit tabel "
+"activity_with_datasets_."
 
 #: server/controllers/database-controller.cpp:798
-#, fuzzy, qt-format
-#| msgctxt "controllers::DatabaseController|"
-#| msgid "User <b>%1</b> could not be deleted from table user_."
+#, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "Sequence <b>%1</b> could not be deleted from table sequence_."
-msgstr "Gebruiker <b>%1</b> kon niet verwijderd worden uit tabel gebruiker_."
+msgstr "Sequentie <b>%1</b> kon niet verwijderd worden uit tabel sequence_."
 
 #: server/controllers/network-controller.cpp:46
 #, qt-format
@@ -2168,14 +2164,10 @@ msgid ""
 msgstr "Wilt u de volgende leerlingen uit de database verwijderen?"
 
 #: server/dialogs/RemoveSequenceDialog.qml:64
-#, fuzzy
-#| msgctxt "RemoveDatasetDialog|"
-#| msgid ""
-#| "Are you sure you want to delete the following dataset from the database?"
 msgctxt "RemoveSequenceDialog|"
 msgid ""
 "Are you sure you want to delete the following sequence from the database?"
-msgstr "Wilt u de volgende gegevensset uit de database verwijderen?"
+msgstr "Wilt u de volgende sequentie uit de database verwijderen?"
 
 #: server/dialogs/SendDatasetDialog.qml:93
 msgctxt "SendDatasetDialog|"
@@ -2202,127 +2194,79 @@ msgid "Pupils"
 msgstr "Leerlingen"
 
 #: server/dialogs/SendSequenceDialog.qml:104
-#, fuzzy
-#| msgctxt "SendDatasetDialog|"
-#| msgid "Do you want to send the dataset to selected pupils?"
 msgctxt "SendSequenceDialog|"
 msgid "Do you want to send the sequence to selected pupils?"
-msgstr "Wilt u de gegevensset naar de geselecteerde leerlingen verzenden?"
+msgstr "Wilt u de sequentie naar de geselecteerde leerlingen verzenden?"
 
 #: server/dialogs/SendSequenceDialog.qml:105
-#, fuzzy
-#| msgctxt "SendDatasetDialog|"
-#| msgid "Are you sure you want to remove the dataset from selected pupils?"
 msgctxt "SendSequenceDialog|"
 msgid "Are you sure you want to remove the sequence from selected pupils?"
-msgstr "Wilt u de gegevensset verwijderen uit de geselecteerde leerlingen?"
+msgstr "Wilt u de sequentie verwijderen uit de geselecteerde leerlingen?"
 
 #: server/dialogs/SendSequenceDialog.qml:106
-#, fuzzy
-#| msgctxt "SendDatasetDialog|"
-#| msgid ""
-#| "Are you sure you want to remove all the existing datasets from selected "
-#| "pupils?"
 msgctxt "SendSequenceDialog|"
 msgid ""
 "Are you sure you want to remove all the existing sequences from selected "
 "pupils?"
 msgstr ""
-"Wilt u alle bestaande gegevenssets verwijderen uit de geselecteerde "
-"leerlingen?"
+"Wilt u alle bestaande sequenties verwijderen uit de geselecteerde leerlingen?"
 
 #: server/dialogs/SendSequenceDialog.qml:140
-#, fuzzy
-#| msgctxt "ExportPupilsDialog|"
-#| msgid "Pupils"
 msgctxt "SendSequenceDialog|"
 msgid "Pupils"
 msgstr "Leerlingen"
 
 #: server/dialogs/SequenceEditorDialog.qml:50
-#, fuzzy
-#| msgctxt "DatasetEditorDialog|"
-#| msgid "Create dataset"
 msgctxt "SequenceEditorDialog|"
 msgid "Create sequence"
-msgstr "Gegevensset aanmaken"
+msgstr "Nieuwe sequentie maken"
 
 #: server/dialogs/SequenceEditorDialog.qml:56
-#, fuzzy
-#| msgctxt "DatasetEditorDialog|"
-#| msgid "Update dataset"
 msgctxt "SequenceEditorDialog|"
 msgid "Update sequence"
-msgstr "Gegevensset bijwerken"
+msgstr "Sequentie bijwerken"
 
 #: server/dialogs/SequenceEditorDialog.qml:81
-#, fuzzy
-#| msgctxt "DatasetEditorDialog|"
-#| msgid "Dataset name is empty"
 msgctxt "SequenceEditorDialog|"
 msgid "Sequence name is empty"
-msgstr "Naam van gegevensset is leeg"
+msgstr "Naam van sequentie is leeg"
 
 #: server/dialogs/SequenceEditorDialog.qml:163
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Sequence length"
 msgctxt "SequenceEditorDialog|"
 msgid "Sequence name"
-msgstr "Reekslengte"
+msgstr "Naam van sequentie"
 
 #: server/dialogs/SequenceEditorDialog.qml:177
-#, fuzzy
-#| msgctxt "DatasetEditorDialog|"
-#| msgid "Goal"
 msgctxt "SequenceEditorDialog|"
 msgid "Goal"
 msgstr "Doel"
 
 #: server/dialogs/SequenceEditorDialog.qml:245
-#, fuzzy
-#| msgctxt "NavigationPanel|"
-#| msgid "Activities"
 msgctxt "SequenceEditorDialog|"
 msgid "Activities"
 msgstr "Activiteiten"
 
 #: server/dialogs/SequenceEditorDialog.qml:272
-#, fuzzy
-#| msgctxt "NavigationPanel|"
-#| msgid "Datasets"
 msgctxt "SequenceEditorDialog|"
 msgid "Datasets"
 msgstr "Gegevenssets"
 
 #: server/dialogs/SequenceEditorDialog.qml:323
-#, fuzzy
-#| msgctxt "EditorBox|"
-#| msgid "Add"
 msgctxt "SequenceEditorDialog|"
 msgid "Add"
 msgstr "Toevoegen"
 
 #: server/dialogs/SequenceEditorDialog.qml:343
-#, fuzzy
-#| msgctxt "EditorBox|"
-#| msgid "Remove"
 msgctxt "SequenceEditorDialog|"
 msgid "Remove"
 msgstr "Verwijderen"
 
 #: server/dialogs/SequenceEditorDialog.qml:355
-#, fuzzy
-#| msgctxt "EditorBox|"
-#| msgid "Move up"
 msgctxt "SequenceEditorDialog|"
 msgid "Move up"
 msgstr "Omhoog verplaatsen"
 
 #: server/dialogs/SequenceEditorDialog.qml:367
-#, fuzzy
-#| msgctxt "EditorBox|"
-#| msgid "Move down"
 msgctxt "SequenceEditorDialog|"
 msgid "Move down"
 msgstr "Omlaag verplaatsen"
@@ -2368,12 +2312,9 @@ msgid "Datasets"
 msgstr "Gegevenssets"
 
 #: server/panels/NavigationPanel.qml:111
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Sequence length"
 msgctxt "NavigationPanel|"
 msgid "Sequences"
-msgstr "Reekslengte"
+msgstr "Sequences"
 
 #: server/panels/NavigationPanel.qml:119
 msgctxt "NavigationPanel|"
@@ -2875,60 +2816,39 @@ msgid "Remove pupils"
 msgstr "Leerlingen verwijderen"
 
 #: server/views/SequencesView.qml:67
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Sequence length"
 msgctxt "SequencesView|"
 msgid "Sequences"
-msgstr "Reekslengte"
+msgstr "Sequences"
 
 #: server/views/SequencesView.qml:102
-#, fuzzy
-#| msgctxt "SqlLineDialog|"
-#| msgid "Line details"
 msgctxt "SequencesView|"
 msgid "Details"
-msgstr "Details van regels"
+msgstr "Details"
 
 #: server/views/SequencesView.qml:169
-#, fuzzy
-#| msgctxt "ManagePupilsView|"
-#| msgid "Pupils management"
 msgctxt "SequencesView|"
 msgid "Sequences management"
-msgstr "Beheer van leerlingen"
+msgstr "Beheer van sequenties"
 
 #: server/views/SequencesView.qml:187
-#, fuzzy
-#| msgctxt "DatasetEditorDialog|"
-#| msgid "Create dataset"
 msgctxt "SequencesView|"
 msgid "Create sequence"
-msgstr "Gegevensset aanmaken"
+msgstr "Nieuwe sequentie maken"
 
 #: server/views/SequencesView.qml:195
-#, fuzzy
-#| msgctxt "DatasetEditorDialog|"
-#| msgid "Update dataset"
 msgctxt "SequencesView|"
 msgid "Update sequence"
-msgstr "Gegevensset bijwerken"
+msgstr "Sequentie bijwerken"
 
 #: server/views/SequencesView.qml:204
-#, fuzzy
-#| msgctxt "DatasetsView|"
-#| msgid "Send dataset to clients"
 msgctxt "SequencesView|"
 msgid "Send sequence to clients"
-msgstr "Verzend gegevensset naar clients"
+msgstr "Verzend sequentie naar clients"
 
 #: server/views/SequencesView.qml:247
-#, fuzzy
-#| msgctxt "DatasetsView|"
-#| msgid "Delete dataset"
 msgctxt "SequencesView|"
 msgid "Delete sequence"
-msgstr "Gegevensset verwijderen"
+msgstr "Sequentie verwijderen"
 
 #: server/views/SettingsView.qml:65
 msgctxt "SettingsView|"

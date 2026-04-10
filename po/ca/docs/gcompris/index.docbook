@@ -608,6 +608,12 @@ for example 'xx.yy.zz'
 <entry
 >Executa el &gcompris; amb la configuració regional especificada.</entry>
 </row>
+<row>
+<entry
+>--with-sequence=seqüència.json</entry>
+<entry
+>Executa el &gcompris; amb la seqüència específica. Una seqüència és una llista d'activitats amb conjunts de dades específics, forçant el GCompris a executar-les en l'ordre especificat.</entry>
+</row>
 </tbody>
 </tgroup>
 </informaltable>

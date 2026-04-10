@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gcompris\n"
-"PO-Revision-Date: 2026-03-07 19:24+0100\n"
+"PO-Revision-Date: 2026-04-09 11:12+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -1773,12 +1773,10 @@ msgstr "Suprimeix el grup"
 
 #. Argument is dataset name
 #: server/components/SequenceElement.qml:72
-#, fuzzy, qt-format
-#| msgctxt "NavigationPanel|"
-#| msgid "Datasets"
+#, qt-format
 msgctxt "SequenceElement|"
 msgid "Dataset: %1"
-msgstr "Conjunts de dades"
+msgstr "Conjunt de dades: %1"
 
 #: server/components/ServerLanguageList.qml:32
 msgctxt "ServerLanguageList|"
@@ -1911,41 +1909,39 @@ msgstr "No s'ha pogut suprimir el conjunt de dades <b>%1</b>."
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "Error inserting sequence in table sequence_: <b>%1</b>."
-msgstr ""
+msgstr "Error en inserir la seqüència a la taula «sequence_»: <b>%1</b>."
 
 #: server/controllers/database-controller.cpp:746
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "Error updating sequence in table sequence_: <b>%1</b>."
-msgstr ""
+msgstr "Error en actualitzar la seqüència a la taula «sequence_»: <b>%1</b>."
 
 #: server/controllers/database-controller.cpp:754
 #: server/controllers/database-controller.cpp:802
-#, fuzzy, qt-format
-#| msgctxt "controllers::DatabaseController|"
-#| msgid "User <b>%1</b> could not be deleted from table result_."
+#, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid ""
 "Sequence <b>%1</b> couldn't be deleted from table sequence_with_activity_."
-msgstr "L'usuari <b>%1</b> no s'ha pogut suprimir de la taula «result_»."
+msgstr ""
+"La seqüència <b>%1</b> no s'ha pogut suprimir de la taula "
+"«sequence_with_activity_»."
 
 #: server/controllers/database-controller.cpp:759
 #: server/controllers/database-controller.cpp:806
-#, fuzzy, qt-format
-#| msgctxt "controllers::DatabaseController|"
-#| msgid "User <b>%1</b> could not be deleted from table user_."
+#, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid ""
 "Sequence <b>%1</b> couldn't be deleted from table activity_with_datasets_."
-msgstr "L'usuari <b>%1</b> no s'ha pogut suprimir de la taula «user_»."
+msgstr ""
+"La seqüència <b>%1</b> no s'ha pogut suprimir de la taula "
+"«activity_with_datasets_»."
 
 #: server/controllers/database-controller.cpp:798
-#, fuzzy, qt-format
-#| msgctxt "controllers::DatabaseController|"
-#| msgid "User <b>%1</b> could not be deleted from table user_."
+#, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "Sequence <b>%1</b> could not be deleted from table sequence_."
-msgstr "L'usuari <b>%1</b> no s'ha pogut suprimir de la taula «user_»."
+msgstr "La seqüència <b>%1</b> no s'ha pogut suprimir de la taula «sequence_»."
 
 #: server/controllers/network-controller.cpp:46
 #, qt-format
@@ -2161,15 +2157,10 @@ msgid ""
 msgstr "Confirmes que vols eliminar els alumnes següents de la base de dades?"
 
 #: server/dialogs/RemoveSequenceDialog.qml:64
-#, fuzzy
-#| msgctxt "RemoveDatasetDialog|"
-#| msgid ""
-#| "Are you sure you want to delete the following dataset from the database?"
 msgctxt "RemoveSequenceDialog|"
 msgid ""
 "Are you sure you want to delete the following sequence from the database?"
-msgstr ""
-"Confirmes que vols suprimir el conjunt de dades següent de la base de dades?"
+msgstr "Confirmes que vols suprimir la seqüència següent de la base de dades?"
 
 #: server/dialogs/SendDatasetDialog.qml:93
 msgctxt "SendDatasetDialog|"
@@ -2197,128 +2188,80 @@ msgid "Pupils"
 msgstr "Alumnes"
 
 #: server/dialogs/SendSequenceDialog.qml:104
-#, fuzzy
-#| msgctxt "SendDatasetDialog|"
-#| msgid "Do you want to send the dataset to selected pupils?"
 msgctxt "SendSequenceDialog|"
 msgid "Do you want to send the sequence to selected pupils?"
-msgstr "Vols enviar el conjunt de dades als alumnes seleccionats?"
+msgstr "Vols enviar la seqüència als alumnes seleccionats?"
 
 #: server/dialogs/SendSequenceDialog.qml:105
-#, fuzzy
-#| msgctxt "SendDatasetDialog|"
-#| msgid "Are you sure you want to remove the dataset from selected pupils?"
 msgctxt "SendSequenceDialog|"
 msgid "Are you sure you want to remove the sequence from selected pupils?"
-msgstr ""
-"Confirmes que vols eliminar el conjunt de dades dels alumnes seleccionats?"
+msgstr "Confirmes que vols eliminar la seqüència dels alumnes seleccionats?"
 
 #: server/dialogs/SendSequenceDialog.qml:106
-#, fuzzy
-#| msgctxt "SendDatasetDialog|"
-#| msgid ""
-#| "Are you sure you want to remove all the existing datasets from selected "
-#| "pupils?"
 msgctxt "SendSequenceDialog|"
 msgid ""
 "Are you sure you want to remove all the existing sequences from selected "
 "pupils?"
 msgstr ""
-"Confirmes que vols eliminar tots els conjunts de dades existents dels "
-"alumnes seleccionats?"
+"Confirmes que vols eliminar totes les seqüències existents dels alumnes "
+"seleccionats?"
 
 #: server/dialogs/SendSequenceDialog.qml:140
-#, fuzzy
-#| msgctxt "ExportPupilsDialog|"
-#| msgid "Pupils"
 msgctxt "SendSequenceDialog|"
 msgid "Pupils"
 msgstr "Alumnes"
 
 #: server/dialogs/SequenceEditorDialog.qml:50
-#, fuzzy
-#| msgctxt "DatasetEditorDialog|"
-#| msgid "Create dataset"
 msgctxt "SequenceEditorDialog|"
 msgid "Create sequence"
-msgstr "Crea un conjunt de dades"
+msgstr "Crea una seqüència"
 
 #: server/dialogs/SequenceEditorDialog.qml:56
-#, fuzzy
-#| msgctxt "DatasetEditorDialog|"
-#| msgid "Update dataset"
 msgctxt "SequenceEditorDialog|"
 msgid "Update sequence"
-msgstr "Actualitza el conjunt de dades"
+msgstr "Actualitza la seqüència"
 
 #: server/dialogs/SequenceEditorDialog.qml:81
-#, fuzzy
-#| msgctxt "DatasetEditorDialog|"
-#| msgid "Dataset name is empty"
 msgctxt "SequenceEditorDialog|"
 msgid "Sequence name is empty"
-msgstr "El nom del conjunt de dades és buit"
+msgstr "El nom de la seqüència és buit"
 
 #: server/dialogs/SequenceEditorDialog.qml:163
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Sequence length"
 msgctxt "SequenceEditorDialog|"
 msgid "Sequence name"
-msgstr "Longitud de la seqüència"
+msgstr "Nom de la seqüència"
 
 #: server/dialogs/SequenceEditorDialog.qml:177
-#, fuzzy
-#| msgctxt "DatasetEditorDialog|"
-#| msgid "Goal"
 msgctxt "SequenceEditorDialog|"
 msgid "Goal"
 msgstr "Objectiu"
 
 #: server/dialogs/SequenceEditorDialog.qml:245
-#, fuzzy
-#| msgctxt "NavigationPanel|"
-#| msgid "Activities"
 msgctxt "SequenceEditorDialog|"
 msgid "Activities"
 msgstr "Activitats"
 
 #: server/dialogs/SequenceEditorDialog.qml:272
-#, fuzzy
-#| msgctxt "NavigationPanel|"
-#| msgid "Datasets"
 msgctxt "SequenceEditorDialog|"
 msgid "Datasets"
 msgstr "Conjunts de dades"
 
 #: server/dialogs/SequenceEditorDialog.qml:323
-#, fuzzy
-#| msgctxt "EditorBox|"
-#| msgid "Add"
 msgctxt "SequenceEditorDialog|"
 msgid "Add"
 msgstr "Afegeix"
 
 #: server/dialogs/SequenceEditorDialog.qml:343
-#, fuzzy
-#| msgctxt "EditorBox|"
-#| msgid "Remove"
 msgctxt "SequenceEditorDialog|"
 msgid "Remove"
 msgstr "Elimina"
 
 #: server/dialogs/SequenceEditorDialog.qml:355
-#, fuzzy
-#| msgctxt "EditorBox|"
-#| msgid "Move up"
 msgctxt "SequenceEditorDialog|"
 msgid "Move up"
 msgstr "Mou amunt"
 
 #: server/dialogs/SequenceEditorDialog.qml:367
-#, fuzzy
-#| msgctxt "EditorBox|"
-#| msgid "Move down"
 msgctxt "SequenceEditorDialog|"
 msgid "Move down"
 msgstr "Mou avall"
@@ -2364,12 +2307,9 @@ msgid "Datasets"
 msgstr "Conjunts de dades"
 
 #: server/panels/NavigationPanel.qml:111
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Sequence length"
 msgctxt "NavigationPanel|"
 msgid "Sequences"
-msgstr "Longitud de la seqüència"
+msgstr "Seqüències"
 
 #: server/panels/NavigationPanel.qml:119
 msgctxt "NavigationPanel|"
@@ -2871,60 +2811,39 @@ msgid "Remove pupils"
 msgstr "Elimina alumnes"
 
 #: server/views/SequencesView.qml:67
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Sequence length"
 msgctxt "SequencesView|"
 msgid "Sequences"
-msgstr "Longitud de la seqüència"
+msgstr "Seqüències"
 
 #: server/views/SequencesView.qml:102
-#, fuzzy
-#| msgctxt "SqlLineDialog|"
-#| msgid "Line details"
 msgctxt "SequencesView|"
 msgid "Details"
-msgstr "Detalls de la línia"
+msgstr "Detalls"
 
 #: server/views/SequencesView.qml:169
-#, fuzzy
-#| msgctxt "ManagePupilsView|"
-#| msgid "Pupils management"
 msgctxt "SequencesView|"
 msgid "Sequences management"
-msgstr "Gestió d'alumnes"
+msgstr "Gestió de seqüències"
 
 #: server/views/SequencesView.qml:187
-#, fuzzy
-#| msgctxt "DatasetEditorDialog|"
-#| msgid "Create dataset"
 msgctxt "SequencesView|"
 msgid "Create sequence"
-msgstr "Crea un conjunt de dades"
+msgstr "Crea una seqüència"
 
 #: server/views/SequencesView.qml:195
-#, fuzzy
-#| msgctxt "DatasetEditorDialog|"
-#| msgid "Update dataset"
 msgctxt "SequencesView|"
 msgid "Update sequence"
-msgstr "Actualitza el conjunt de dades"
+msgstr "Actualitza la seqüència"
 
 #: server/views/SequencesView.qml:204
-#, fuzzy
-#| msgctxt "DatasetsView|"
-#| msgid "Send dataset to clients"
 msgctxt "SequencesView|"
 msgid "Send sequence to clients"
-msgstr "Envia el conjunt de dades als clients"
+msgstr "Envia la seqüència als clients"
 
 #: server/views/SequencesView.qml:247
-#, fuzzy
-#| msgctxt "DatasetsView|"
-#| msgid "Delete dataset"
 msgctxt "SequencesView|"
 msgid "Delete sequence"
-msgstr "Suprimeix el conjunt de dades"
+msgstr "Suprimeix la seqüència"
 
 #: server/views/SettingsView.qml:65
 msgctxt "SettingsView|"

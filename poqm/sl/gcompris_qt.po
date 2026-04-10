@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-04-04 09:11+0200\n"
+"PO-Revision-Date: 2026-04-09 07:03+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -5959,7 +5959,7 @@ msgstr "Neprosojnost"
 #: activities/compass/Compass.qml:1193
 msgctxt "Compass|"
 msgid " Pen size"
-msgstr "Velikost peresa"
+msgstr " Velikost peresa"
 
 #: activities/compass/Compass.qml:1254
 msgctxt "Compass|"
@@ -28084,35 +28084,27 @@ msgid ""
 "You are currently in a sequence, going back to the menu will cancel it, do "
 "you confirm?"
 msgstr ""
+"Trenutno ste v zaporedju. Če se vrnete v meni, ga boste preklicali. Ali "
+"želite potrditi?"
 
 #: core/ActivityBase.qml:219
-#, fuzzy
-#| msgctxt "balanceboxeditor|"
-#| msgid "Yes"
 msgctxt "ActivityBase|"
 msgid "Yes"
 msgstr "Da"
 
 #: core/ActivityBase.qml:224
-#, fuzzy
-#| msgctxt "balanceboxeditor|"
-#| msgid "No"
 msgctxt "ActivityBase|"
 msgid "No"
 msgstr "Ne"
 
 #: core/ChangeLog.qml:30
-#, fuzzy
-#| msgctxt "ChangeLog|"
-#| msgid ""
-#| "New command-line option to list all the activities and start on a "
-#| "specific one"
 msgctxt "ChangeLog|"
 msgid ""
 "New command-line option to run a list of activities with specific datasets "
 "in sequence (--with-sequence sequence.json)"
 msgstr ""
-"Nova možnost ukaza za seznam vseh aktivnosti in zagon določene aktivnosti"
+"Nova možnost ukazne vrstice za zagon seznama dejavnosti z določenimi nabori "
+"podatkov v zaporedju (--with-sequence sequence.json)"
 
 #: core/ChangeLog.qml:31 core/ChangeLog.qml:44 core/ChangeLog.qml:50
 #: core/ChangeLog.qml:56 core/ChangeLog.qml:65 core/ChangeLog.qml:71
@@ -29083,7 +29075,7 @@ msgstr ""
 #: core/main.cpp:149
 msgctxt "QObject|"
 msgid "Start the sequence of activities passed in the json file."
-msgstr ""
+msgstr "Zaženi zaporedje aktivnosti, posredovanih v datoteki json."
 
 #: core/main.cpp:153
 msgctxt "QObject|"

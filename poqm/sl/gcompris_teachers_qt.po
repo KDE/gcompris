@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-23 11:17+0200\n"
-"PO-Revision-Date: 2026-03-07 06:22+0100\n"
+"PO-Revision-Date: 2026-04-09 07:11+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100>=3 && n"
 "%100<=4 ? 2 : 3);\n"
-"X-Generator: Poedit 3.8\n"
+"X-Generator: Poedit 3.9\n"
 
 #: server/activities/adjacent_numbers/ActivityEditor.qml:13
 #: server/activities/binary_bulb/ActivityEditor.qml:12
@@ -1764,12 +1764,10 @@ msgstr "Izbriši skupino"
 
 #. Argument is dataset name
 #: server/components/SequenceElement.qml:72
-#, fuzzy, qt-format
-#| msgctxt "NavigationPanel|"
-#| msgid "Datasets"
+#, qt-format
 msgctxt "SequenceElement|"
 msgid "Dataset: %1"
-msgstr "Nabori podatkov"
+msgstr "Nabor podatkov: %1"
 
 #: server/components/ServerLanguageList.qml:32
 msgctxt "ServerLanguageList|"
@@ -1900,41 +1898,39 @@ msgstr "Nabora podatkov <b>%1</b> ni bilo mogoče izbrisati."
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "Error inserting sequence in table sequence_: <b>%1</b>."
-msgstr ""
+msgstr "Napaka pri vstavljanju zaporedja v tabelo sequence_: <b>%1</b>."
 
 #: server/controllers/database-controller.cpp:746
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "Error updating sequence in table sequence_: <b>%1</b>."
-msgstr ""
+msgstr "Napaka pri osveževanju zaporedja v tabelo sequence_: <b>%1</b>."
 
 #: server/controllers/database-controller.cpp:754
 #: server/controllers/database-controller.cpp:802
-#, fuzzy, qt-format
-#| msgctxt "controllers::DatabaseController|"
-#| msgid "User <b>%1</b> could not be deleted from table result_."
+#, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid ""
 "Sequence <b>%1</b> couldn't be deleted from table sequence_with_activity_."
-msgstr "Uporabnika <b>%1</b> ni bilo mogoče izbrisati iz tabele result_."
+msgstr ""
+"Zaporedja <b>%1</b> ni bilo mogoče izbrisati iz tabele "
+"sequence_with_activity_."
 
 #: server/controllers/database-controller.cpp:759
 #: server/controllers/database-controller.cpp:806
-#, fuzzy, qt-format
-#| msgctxt "controllers::DatabaseController|"
-#| msgid "User <b>%1</b> could not be deleted from table user_."
+#, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid ""
 "Sequence <b>%1</b> couldn't be deleted from table activity_with_datasets_."
-msgstr "Uporabnika <b>%1</b> ni bilo mogoče izbrisati iz tabele user_."
+msgstr ""
+"Zaporedja <b>%1</b> ni bilo mogoče izbrisati iz tabele "
+"activity_with_datasets_."
 
 #: server/controllers/database-controller.cpp:798
-#, fuzzy, qt-format
-#| msgctxt "controllers::DatabaseController|"
-#| msgid "User <b>%1</b> could not be deleted from table user_."
+#, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "Sequence <b>%1</b> could not be deleted from table sequence_."
-msgstr "Uporabnika <b>%1</b> ni bilo mogoče izbrisati iz tabele user_."
+msgstr "Zaporedja <b>%1</b> ni bilo mogoče izbrisati iz tabele sequence_."
 
 #: server/controllers/network-controller.cpp:46
 #, qt-format
@@ -2152,16 +2148,11 @@ msgstr ""
 "Ali ste prepričani, da želite odstraniti naslednje učence iz baze podatkov?"
 
 #: server/dialogs/RemoveSequenceDialog.qml:64
-#, fuzzy
-#| msgctxt "RemoveDatasetDialog|"
-#| msgid ""
-#| "Are you sure you want to delete the following dataset from the database?"
 msgctxt "RemoveSequenceDialog|"
 msgid ""
 "Are you sure you want to delete the following sequence from the database?"
 msgstr ""
-"Ali ste prepričani, da želite izbrisati naslednji nabor podatkov iz baze "
-"podatkov?"
+"Ali ste prepričani, da želite izbrisati naslednje zaporedje iz baze podatkov?"
 
 #: server/dialogs/SendDatasetDialog.qml:93
 msgctxt "SendDatasetDialog|"
@@ -2189,128 +2180,81 @@ msgid "Pupils"
 msgstr "Učenci"
 
 #: server/dialogs/SendSequenceDialog.qml:104
-#, fuzzy
-#| msgctxt "SendDatasetDialog|"
-#| msgid "Do you want to send the dataset to selected pupils?"
 msgctxt "SendSequenceDialog|"
 msgid "Do you want to send the sequence to selected pupils?"
-msgstr "Ali želite poslati nabor podatkov izbranim učencem?"
+msgstr "Ali želite poslati zaporedje izbranim učencem?"
 
 #: server/dialogs/SendSequenceDialog.qml:105
-#, fuzzy
-#| msgctxt "SendDatasetDialog|"
-#| msgid "Are you sure you want to remove the dataset from selected pupils?"
 msgctxt "SendSequenceDialog|"
 msgid "Are you sure you want to remove the sequence from selected pupils?"
 msgstr ""
-"Ali ste prepričani, da želite odstraniti nabor podatkov izbranim učencem?"
+"Ali ste prepričani, da želite odstraniti zaporedje iz izbranih učencev?"
 
 #: server/dialogs/SendSequenceDialog.qml:106
-#, fuzzy
-#| msgctxt "SendDatasetDialog|"
-#| msgid ""
-#| "Are you sure you want to remove all the existing datasets from selected "
-#| "pupils?"
 msgctxt "SendSequenceDialog|"
 msgid ""
 "Are you sure you want to remove all the existing sequences from selected "
 "pupils?"
 msgstr ""
-"Ali ste prepričani, da želite odstraniti vse obstoječe nabore podatkov "
-"izbranim učencem?"
+"Ali ste prepričani, da želite odstraniti vsa obstoječa zaporedja od izbranih "
+"učencev?"
 
 #: server/dialogs/SendSequenceDialog.qml:140
-#, fuzzy
-#| msgctxt "ExportPupilsDialog|"
-#| msgid "Pupils"
 msgctxt "SendSequenceDialog|"
 msgid "Pupils"
 msgstr "Učenci"
 
 #: server/dialogs/SequenceEditorDialog.qml:50
-#, fuzzy
-#| msgctxt "DatasetEditorDialog|"
-#| msgid "Create dataset"
 msgctxt "SequenceEditorDialog|"
 msgid "Create sequence"
-msgstr "Ustvari nabor podatkov"
+msgstr "Ustvari zaporedje"
 
 #: server/dialogs/SequenceEditorDialog.qml:56
-#, fuzzy
-#| msgctxt "DatasetEditorDialog|"
-#| msgid "Update dataset"
 msgctxt "SequenceEditorDialog|"
 msgid "Update sequence"
-msgstr "Posodobi nabor podatkov"
+msgstr "Posodobi zaporedje"
 
 #: server/dialogs/SequenceEditorDialog.qml:81
-#, fuzzy
-#| msgctxt "DatasetEditorDialog|"
-#| msgid "Dataset name is empty"
 msgctxt "SequenceEditorDialog|"
 msgid "Sequence name is empty"
-msgstr "Ime nabora podatkov je prazno"
+msgstr "Ime zaporedja je prazno"
 
 #: server/dialogs/SequenceEditorDialog.qml:163
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Sequence length"
 msgctxt "SequenceEditorDialog|"
 msgid "Sequence name"
-msgstr "Dolžina zaporedja"
+msgstr "Ime zaporedja"
 
 #: server/dialogs/SequenceEditorDialog.qml:177
-#, fuzzy
-#| msgctxt "DatasetEditorDialog|"
-#| msgid "Goal"
 msgctxt "SequenceEditorDialog|"
 msgid "Goal"
 msgstr "Cilj"
 
 #: server/dialogs/SequenceEditorDialog.qml:245
-#, fuzzy
-#| msgctxt "NavigationPanel|"
-#| msgid "Activities"
 msgctxt "SequenceEditorDialog|"
 msgid "Activities"
 msgstr "Dejavnosti"
 
 #: server/dialogs/SequenceEditorDialog.qml:272
-#, fuzzy
-#| msgctxt "NavigationPanel|"
-#| msgid "Datasets"
 msgctxt "SequenceEditorDialog|"
 msgid "Datasets"
 msgstr "Nabori podatkov"
 
 #: server/dialogs/SequenceEditorDialog.qml:323
-#, fuzzy
-#| msgctxt "EditorBox|"
-#| msgid "Add"
 msgctxt "SequenceEditorDialog|"
 msgid "Add"
 msgstr "Dodaj"
 
 #: server/dialogs/SequenceEditorDialog.qml:343
-#, fuzzy
-#| msgctxt "EditorBox|"
-#| msgid "Remove"
 msgctxt "SequenceEditorDialog|"
 msgid "Remove"
 msgstr "Odstrani"
 
 #: server/dialogs/SequenceEditorDialog.qml:355
-#, fuzzy
-#| msgctxt "EditorBox|"
-#| msgid "Move up"
 msgctxt "SequenceEditorDialog|"
 msgid "Move up"
 msgstr "Premakni gor"
 
 #: server/dialogs/SequenceEditorDialog.qml:367
-#, fuzzy
-#| msgctxt "EditorBox|"
-#| msgid "Move down"
 msgctxt "SequenceEditorDialog|"
 msgid "Move down"
 msgstr "Premakni dol"
@@ -2356,12 +2300,9 @@ msgid "Datasets"
 msgstr "Nabori podatkov"
 
 #: server/panels/NavigationPanel.qml:111
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Sequence length"
 msgctxt "NavigationPanel|"
 msgid "Sequences"
-msgstr "Dolžina zaporedja"
+msgstr "Zaporedja"
 
 #: server/panels/NavigationPanel.qml:119
 msgctxt "NavigationPanel|"
@@ -2863,60 +2804,39 @@ msgid "Remove pupils"
 msgstr "Odstrani učence"
 
 #: server/views/SequencesView.qml:67
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Sequence length"
 msgctxt "SequencesView|"
 msgid "Sequences"
-msgstr "Dolžina zaporedja"
+msgstr "Zaporedja"
 
 #: server/views/SequencesView.qml:102
-#, fuzzy
-#| msgctxt "SqlLineDialog|"
-#| msgid "Line details"
 msgctxt "SequencesView|"
 msgid "Details"
-msgstr "Podrobnosti o vrstici"
+msgstr "Podrobnosti"
 
 #: server/views/SequencesView.qml:169
-#, fuzzy
-#| msgctxt "ManagePupilsView|"
-#| msgid "Pupils management"
 msgctxt "SequencesView|"
 msgid "Sequences management"
-msgstr "Upravljanje učencev"
+msgstr "Upravljanje zaporedij"
 
 #: server/views/SequencesView.qml:187
-#, fuzzy
-#| msgctxt "DatasetEditorDialog|"
-#| msgid "Create dataset"
 msgctxt "SequencesView|"
 msgid "Create sequence"
-msgstr "Ustvari nabor podatkov"
+msgstr "Ustvari zaporedje"
 
 #: server/views/SequencesView.qml:195
-#, fuzzy
-#| msgctxt "DatasetEditorDialog|"
-#| msgid "Update dataset"
 msgctxt "SequencesView|"
 msgid "Update sequence"
-msgstr "Posodobi nabor podatkov"
+msgstr "Posodobi zaporedje"
 
 #: server/views/SequencesView.qml:204
-#, fuzzy
-#| msgctxt "DatasetsView|"
-#| msgid "Send dataset to clients"
 msgctxt "SequencesView|"
 msgid "Send sequence to clients"
-msgstr "Pošlji nabor podatkov strankam"
+msgstr "Pošlji zaporedje strankam"
 
 #: server/views/SequencesView.qml:247
-#, fuzzy
-#| msgctxt "DatasetsView|"
-#| msgid "Delete dataset"
 msgctxt "SequencesView|"
 msgid "Delete sequence"
-msgstr "Izbriši nabor podatkov"
+msgstr "Izbriši zaporedje"
 
 #: server/views/SettingsView.qml:65
 msgctxt "SettingsView|"

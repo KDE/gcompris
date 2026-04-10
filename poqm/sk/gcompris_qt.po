@@ -5650,7 +5650,7 @@ msgstr "Compass"
 #: activities/compass/ActivityInfo.qml:16
 msgctxt "ActivityInfo|"
 msgid "Use the compass to draw."
-msgstr ""
+msgstr "Použite kružidlo na kreslenie."
 
 #. Help goal
 #: activities/compass/ActivityInfo.qml:19
@@ -5666,16 +5666,19 @@ msgid ""
 "inspiration from. In free mode, you can draw freely and adjust the canvas "
 "size and grid spacing as you want from the compass settings menu."
 msgstr ""
+"In template mode, each level contains a template to replicate or to get "
+"inspiration from. In free mode, you can draw freely and adjust the canvas "
+"size and grid spacing as you want from the compass settings menu."
 
 #: activities/compass/ActivityInfo.qml:24
 msgctxt "ActivityInfo|"
 msgid "<br><b>Drawing with the compass:</b>"
-msgstr ""
+msgstr "<br><b>Drawing with the compass:</b>"
 
 #: activities/compass/ActivityInfo.qml:25
 msgctxt "ActivityInfo|"
 msgid "Move the compass by dragging the leg without the pen."
-msgstr ""
+msgstr "Posúvajte kružidlo ťahaním nožičky bez pera."
 
 #: activities/compass/ActivityInfo.qml:26
 msgctxt "ActivityInfo|"
@@ -5688,7 +5691,7 @@ msgstr ""
 #: activities/compass/ActivityInfo.qml:27
 msgctxt "ActivityInfo|"
 msgid "Rotate and draw by dragging the pen with the left mouse button."
-msgstr ""
+msgstr "Otáčajte a kreslite ťahaním pera ľavým tlačidlom myši."
 
 #: activities/compass/ActivityInfo.qml:28
 msgctxt "ActivityInfo|"
@@ -5696,6 +5699,8 @@ msgid ""
 "Rotate without drawing by dragging the compass hinge, or by dragging the pen "
 "with the right mouse button."
 msgstr ""
+"Otáčajte bez kreslenia ťahaním kĺbu kružidla alebo ťahaním pera pravým "
+"tlačidlom myši."
 
 #: activities/compass/ActivityInfo.qml:29
 msgctxt "ActivityInfo|"
@@ -5703,6 +5708,8 @@ msgid ""
 "The snap to grid setting can be temporarily inverted by pressing the Control "
 "key."
 msgstr ""
+"Nastavenie prichytávania na mriežku je možné dočasne invertovať stlačením "
+"klávesu Control."
 
 #: activities/compass/ActivityInfo.qml:30
 msgctxt "ActivityInfo|"
@@ -5715,6 +5722,8 @@ msgid ""
 "Each level in template mode presents a template to replicate or to get "
 "inspiration from."
 msgstr ""
+"Každá úroveň v režime šablóny predstavuje šablónu na replikovanie alebo "
+"inšpiráciu."
 
 #: activities/compass/ActivityInfo.qml:32
 msgctxt "ActivityInfo|"
@@ -5722,6 +5731,8 @@ msgid ""
 "Each template is divided into steps which can be scrolled through using the "
 "arrows."
 msgstr ""
+"Každá šablóna je rozdelená na kroky, ktorými je možné prechádzať pomocou "
+"šípok."
 
 #: activities/compass/ActivityInfo.qml:33
 msgctxt "ActivityInfo|"
@@ -5729,11 +5740,13 @@ msgid ""
 "Each step shows where to place the tip of the compass and the circle or arc "
 "to be drawn."
 msgstr ""
+"Každý krok ukazuje, kam umiestniť hrot kružidla a kruh alebo oblúk, ktorý "
+"treba nakresliť."
 
 #: activities/compass/ActivityInfo.qml:34
 msgctxt "ActivityInfo|"
 msgid "You can change the position of the template by clicking on its corners."
-msgstr ""
+msgstr "Pozíciu šablóny môžete zmeniť kliknutím na jej rohy."
 
 #: activities/compass/ActivityInfo.qml:36
 #: activities/drawing_wheels/ActivityInfo.qml:29
@@ -5766,12 +5779,12 @@ msgstr "Ctrl + O: open an image"
 #: activities/compass/ActivityInfo.qml:40
 msgctxt "ActivityInfo|"
 msgid "Ctrl: invert snap to grid while it is pressed"
-msgstr ""
+msgstr "Ctrl: invertovať prichytávanie na mriežku počas držania"
 
 #: activities/compass/ActivityInfo.qml:41
 msgctxt "ActivityInfo|"
 msgid "P: open the pen panel"
-msgstr ""
+msgstr "P: otvoriť panel pera"
 
 #: activities/compass/ActivityInfo.qml:42
 msgctxt "ActivityInfo|"
@@ -5786,12 +5799,12 @@ msgstr "Šípka vpravo: odpoveď vpravo"
 #: activities/compass/ActivityInfo.qml:44
 msgctxt "ActivityInfo|"
 msgid "Tab: toggle the template visibility"
-msgstr ""
+msgstr "Tab: prepnúť viditeľnosť šablóny"
 
 #: activities/compass/ActivityInfo.qml:45
 msgctxt "ActivityInfo|"
 msgid "Space: toggle the compass and grid visibility"
-msgstr ""
+msgstr "Medzerník: prepnúť viditeľnosť kružidla a mriežky"
 
 #: activities/compass/compass.js:103
 msgctxt "compass|"
@@ -5816,7 +5829,7 @@ msgstr "Všetky slová"
 #: activities/compass/Compass.qml:477
 msgctxt "Compass|"
 msgid "Current step"
-msgstr ""
+msgstr "Aktuálny krok"
 
 #: activities/compass/Compass.qml:549
 msgctxt "Compass|"
@@ -5826,7 +5839,7 @@ msgstr "File menu"
 #: activities/compass/Compass.qml:558
 msgctxt "Compass|"
 msgid "Compass and grid settings"
-msgstr ""
+msgstr "Nastavenia kružidla a mriežky"
 
 #: activities/compass/Compass.qml:567
 msgctxt "Compass|"
@@ -5856,12 +5869,12 @@ msgstr "Zlatý chrám"
 #: activities/compass/Compass.qml:624
 msgctxt "Compass|"
 msgid "Show compass and grid"
-msgstr ""
+msgstr "Zobraziť kružidlo a mriežku"
 
 #: activities/compass/Compass.qml:624
 msgctxt "Compass|"
 msgid "Hide compass and grid"
-msgstr ""
+msgstr "Skryť kružidlo a mriežku"
 
 #: activities/compass/Compass.qml:775
 msgctxt "Compass|"
@@ -5891,17 +5904,17 @@ msgstr "Veľkosť písma"
 #: activities/compass/Compass.qml:962
 msgctxt "Compass|"
 msgid "Grid spacing"
-msgstr ""
+msgstr "Rozostup mriežky"
 
 #: activities/compass/Compass.qml:1013
 msgctxt "Compass|"
 msgid "Snap to grid"
-msgstr ""
+msgstr "Prichytiť na mriežku"
 
 #: activities/compass/Compass.qml:1039
 msgctxt "Compass|"
 msgid "Show grid"
-msgstr ""
+msgstr "Zobraziť mriežku"
 
 #: activities/compass/Compass.qml:1103
 msgctxt "Compass|"
@@ -5961,7 +5974,7 @@ msgstr "Rovnaké"
 #: activities/compass/resource/13/Data.qml:13
 msgctxt "Data|"
 msgid "The swirl"
-msgstr ""
+msgstr "Špirála"
 
 #: activities/compass/resource/14/Data.qml:13
 msgctxt "Data|"
@@ -5971,7 +5984,7 @@ msgstr "Rovnaké"
 #: activities/compass/resource/15/Data.qml:13
 msgctxt "Data|"
 msgid "The twist"
-msgstr ""
+msgstr "Otočenie"
 
 #: activities/compass/resource/16/Data.qml:15
 msgctxt "Data|"
@@ -5986,7 +5999,7 @@ msgstr "Rovnaké"
 #: activities/compass/resource/18/Data.qml:14
 msgctxt "Data|"
 msgid "The lion"
-msgstr ""
+msgstr "Lev"
 
 #. The animal
 #: activities/compass/resource/19/Data.qml:16
@@ -6002,38 +6015,38 @@ msgstr "Rovnaké"
 #: activities/compass/resource/3/Data.qml:13
 msgctxt "Data|"
 msgid "The lotus flower"
-msgstr ""
+msgstr "Lotosový kvet"
 
 #: activities/compass/resource/4/Data.qml:13
 msgctxt "Data|"
 msgid "The carpet of flowers"
-msgstr ""
+msgstr "Koberec kvetov"
 
 #: activities/compass/resource/5/Data.qml:13
 msgctxt "Data|"
 msgid "The clover"
-msgstr ""
+msgstr "Ďatelina"
 
 #: activities/compass/resource/6/Data.qml:13
 msgctxt "Data|"
 msgid "The balloon"
-msgstr ""
+msgstr "Balón"
 
 #: activities/compass/resource/7/Data.qml:13
 msgctxt "Data|"
 msgid "The daisy"
-msgstr ""
+msgstr "Sedmokráska"
 
 #. The flower
 #: activities/compass/resource/8/Data.qml:14
 msgctxt "Data|"
 msgid "The periwinkle"
-msgstr ""
+msgstr "Brčál"
 
 #: activities/compass/resource/9/Data.qml:13
 msgctxt "Data|"
 msgid "The soccer ball"
-msgstr ""
+msgstr "Futbalová lopta"
 
 #. Activity title
 #: activities/crane/ActivityInfo.qml:20
@@ -7070,6 +7083,16 @@ msgid ""
 "format), along with a PNG file (pixel format). Only the SVG file can be "
 "opened again from the activity."
 msgstr ""
+"Make beautiful drawings by rolling the gear in the cogwheel with the chosen "
+"pen. Select a wheel size, a gear size, pen's settings and color from the "
+"popup panels, and press the play button to roll the gear. On the first "
+"level, only some specific wheel and gear size combinations are available to "
+"get started. On the second level, all size combinations are available to "
+"give more creative freedom. You can use the file menu to save your image, "
+"open a previously saved image, or create a new image with selected "
+"background color. Saving an image will save it in an SVG file (vector "
+"format), along with a PNG file (pixel format). Only the SVG file can be "
+"opened again from the activity."
 
 #: activities/drawing_wheels/DrawingWheels.qml:405
 msgctxt "DrawingWheels|"
@@ -16813,7 +16836,7 @@ msgstr "Učiť sa abecedné poradie."
 #: activities/keyboard_training/ActivityInfo.qml:23
 msgctxt "ActivityInfo|"
 msgid "A character is displayed. Find it on the keyboard and type it."
-msgstr ""
+msgstr "Zobrazí sa znak. Nájdite ho na klávesnici a napíšte ho."
 
 #. Activity title
 #: activities/land_safe/ActivityInfo.qml:15
@@ -18362,7 +18385,7 @@ msgstr "Add stars hore to 10000 with coefficients."
 #: activities/magic-hat-plus/resource/9/Data.qml:13
 msgctxt "Data|"
 msgid "Add stars up to 10, with 2 or 3 different star sets."
-msgstr ""
+msgstr "Sčítajte hviezdy do 10, s 2 alebo 3 rôznymi sadami hviezd."
 
 #. Activity title
 #: activities/maze/ActivityInfo.qml:15
@@ -20214,6 +20237,8 @@ msgid ""
 "GCompris is connected to teacher's server, and the user is authenticated as "
 "%1."
 msgstr ""
+"GCompris is connected to teacher's server, and the user is authenticated as "
+"%1."
 
 #: activities/menu/Menu.qml:216
 msgctxt "Menu|"
@@ -22026,19 +22051,19 @@ msgstr "Kódovanie relatívnej cesty"
 #: activities/peg_solitaire/ActivityConfig.qml:27
 msgctxt "ActivityConfig|"
 msgid "Use the default starting hole"
-msgstr ""
+msgstr "Použiť predvolený počiatočný otvor"
 
 #. Activity title
 #: activities/peg_solitaire/ActivityInfo.qml:14
 msgctxt "ActivityInfo|"
 msgid "Peg solitaire"
-msgstr ""
+msgstr "Kolíkový solitér"
 
 #. Help title
 #: activities/peg_solitaire/ActivityInfo.qml:16
 msgctxt "ActivityInfo|"
 msgid "Remove all the pieces in the correct order until only one remains."
-msgstr ""
+msgstr "Odstráňte všetky figúrky v správnom poradí, kým nezostane iba jedna."
 
 #. Help manual
 #: activities/peg_solitaire/ActivityInfo.qml:23
@@ -22053,12 +22078,20 @@ msgid ""
 "clicking on it. You can use the undo button to undo your last move, and the "
 "redo button to redo it."
 msgstr ""
+"To move a piece, make it jump another one in an orthogonal direction, to a "
+"hole two positions away. The jumped piece is removed from the board. You can "
+"click on a movable piece and then on its destination, or drag and drop it to "
+"its destination. The game is over when no more piece can be moved, and is "
+"won if only one piece remains. If the option to use the default starting "
+"hole is not selected, you need to choose the first piece to remove by "
+"clicking on it. You can use the undo button to undo your last move, and the "
+"redo button to redo it."
 
 #. Board for the Peg solitaire game
 #: activities/peg_solitaire/peg_solitaire.js:28
 msgctxt "peg_solitaire|"
 msgid "English board"
-msgstr ""
+msgstr "Anglická doska"
 
 #. Board for the Peg solitaire game
 #: activities/peg_solitaire/peg_solitaire.js:44
@@ -22070,7 +22103,7 @@ msgstr "Francúzska Polynézia"
 #: activities/peg_solitaire/peg_solitaire.js:61
 msgctxt "peg_solitaire|"
 msgid "32 holes diamond board"
-msgstr ""
+msgstr "32-otvorová diamantová doska"
 
 #. Board for the Peg solitaire game
 #: activities/peg_solitaire/peg_solitaire.js:79
@@ -28043,30 +28076,19 @@ msgctxt "ActivityBase|"
 msgid ""
 "You are currently in a sequence, going back to the menu will cancel it, do "
 "you confirm?"
-msgstr ""
+msgstr "Momentálne ste v sekvencii, návrat do menu ju zruší, potvrdzujete?"
 
 #: core/ActivityBase.qml:219
-#, fuzzy
-#| msgctxt "balanceboxeditor|"
-#| msgid "Yes"
 msgctxt "ActivityBase|"
 msgid "Yes"
 msgstr "Áno"
 
 #: core/ActivityBase.qml:224
-#, fuzzy
-#| msgctxt "balanceboxeditor|"
-#| msgid "No"
 msgctxt "ActivityBase|"
 msgid "No"
 msgstr "Nie"
 
 #: core/ChangeLog.qml:30
-#, fuzzy
-#| msgctxt "ChangeLog|"
-#| msgid ""
-#| "New command-line option to list all the activities and start on a "
-#| "specific one"
 msgctxt "ChangeLog|"
 msgid ""
 "New command-line option to run a list of activities with specific datasets "
@@ -29036,7 +29058,7 @@ msgstr ""
 #: core/main.cpp:149
 msgctxt "QObject|"
 msgid "Start the sequence of activities passed in the json file."
-msgstr ""
+msgstr "Spustiť sekvenciu aktivít zadanú v súbore json."
 
 #: core/main.cpp:153
 msgctxt "QObject|"
@@ -29147,6 +29169,8 @@ msgid ""
 "The following activities do not have any active datasets! All of their "
 "datasets will be reactivated."
 msgstr ""
+"Nasledujúce aktivity nemajú žiadne aktívne datasety! Všetky ich datasety "
+"budú znova aktivované."
 
 #: core/main.qml:547
 #, qt-format

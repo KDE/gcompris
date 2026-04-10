@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-03-07 12:54+0300\n"
+"PO-Revision-Date: 2026-04-09 14:47+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -58,10 +58,10 @@ msgid ""
 "- 2, to always have at least 2 visible numbers in the sequence."
 msgstr ""
 "“Eksik sayıların konumu”, bulunacak sayıların indeksine karşılık gelen bir "
-"sayı listesi içermelidir. İndeks numaraları 0’dan (dizinin ilk sayısı) "
-"başlar ve “Dizi uzunluğu” − 1’den büyük olamaz. Ayrıca, listedeki sayının "
-"uzunluğu “Dizi uzunluğu” − 2’den büyük olamaz, böylece dizide her zaman en "
-"az 2 görünür sayı bulunur."
+"sayı listesi içermelidir. İndeks numaraları 0’dan (silsilenin ilk sayısı) "
+"başlar ve “Silsile uzunluğu” − 1’den büyük olamaz. Ayrıca, listedeki sayının "
+"uzunluğu “Silsile uzunluğu” − 2’den büyük olamaz, böylece silsilede her "
+"zaman en az 2 görünür sayı bulunur."
 
 #: server/activities/adjacent_numbers/AdjacentNumbersDataDisplay.qml:36
 msgctxt "AdjacentNumbersDataDisplay|"
@@ -106,7 +106,7 @@ msgstr "Sayılar arasındaki adımlar"
 #: server/activities/adjacent_numbers/AdjacentNumbersEditor.qml:34
 msgctxt "AdjacentNumbersEditor|"
 msgid "Sequence length"
-msgstr "Dizi uzunluğu"
+msgstr "Silsile uzunluğu"
 
 #: server/activities/adjacent_numbers/AdjacentNumbersEditor.qml:35
 msgctxt "AdjacentNumbersEditor|"
@@ -1760,12 +1760,10 @@ msgstr "Grubu sil"
 
 #. Argument is dataset name
 #: server/components/SequenceElement.qml:72
-#, fuzzy, qt-format
-#| msgctxt "NavigationPanel|"
-#| msgid "Datasets"
+#, qt-format
 msgctxt "SequenceElement|"
 msgid "Dataset: %1"
-msgstr "Veri Kümeleri"
+msgstr "Veri kümesi: %1"
 
 #: server/components/ServerLanguageList.qml:32
 msgctxt "ServerLanguageList|"
@@ -1838,25 +1836,25 @@ msgstr "<b>%1</b>, <b>%2</b> olarak güncellenemedi."
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "User <b>%1</b> could not be deleted from table user_."
-msgstr "Kullanıcı <b>%1</b>, user_ tablosundan silinemedi."
+msgstr "<b>%1</b> kullanıcısı, user_ tablosundan silinemedi."
 
 #: server/controllers/database-controller.cpp:525
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "User <b>%1</b> could not be deleted from table result_."
-msgstr "Kullanıcı <b>%1</b>, result_ tablosundan silinemedi."
+msgstr "<b>%1</b> kullanıcısı, result_ tablosundan silinemedi."
 
 #: server/controllers/database-controller.cpp:540
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "User <b>%1</b> could not be deleted from table group_user_."
-msgstr "Kullanıcı <b>%1</b>, group_user_ tablosundan silinemedi."
+msgstr "<b>%1</b> kullanıcısı, group_user_ tablosundan silinemedi."
 
 #: server/controllers/database-controller.cpp:555
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "User <b>%1</b> already exists in group <b>%2</b>."
-msgstr "Kullanıcı <b>%1</b>, <b>%2</b> grubunda halihazırda var."
+msgstr "<b>%1</b> kullanıcısı, <b>%2</b> grubunda halihazırda var."
 
 #: server/controllers/database-controller.cpp:570
 #, qt-format
@@ -1898,41 +1896,35 @@ msgstr "Veri kümesi <b>%1</b> silinemedi."
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "Error inserting sequence in table sequence_: <b>%1</b>."
-msgstr ""
+msgstr "sequence_ tablosuna silsile yerleştirilirken hata: <b>%1</b>."
 
 #: server/controllers/database-controller.cpp:746
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "Error updating sequence in table sequence_: <b>%1</b>."
-msgstr ""
+msgstr "sequence_ tablosundaki silsile güncellenirken hata: <b>%1</b>."
 
 #: server/controllers/database-controller.cpp:754
 #: server/controllers/database-controller.cpp:802
-#, fuzzy, qt-format
-#| msgctxt "controllers::DatabaseController|"
-#| msgid "User <b>%1</b> could not be deleted from table result_."
+#, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid ""
 "Sequence <b>%1</b> couldn't be deleted from table sequence_with_activity_."
-msgstr "Kullanıcı <b>%1</b>, result_ tablosundan silinemedi."
+msgstr "<b>%1</b> silsilesi, sequence_with_activity_ tablosundan silinemedi."
 
 #: server/controllers/database-controller.cpp:759
 #: server/controllers/database-controller.cpp:806
-#, fuzzy, qt-format
-#| msgctxt "controllers::DatabaseController|"
-#| msgid "User <b>%1</b> could not be deleted from table user_."
+#, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid ""
 "Sequence <b>%1</b> couldn't be deleted from table activity_with_datasets_."
-msgstr "Kullanıcı <b>%1</b>, user_ tablosundan silinemedi."
+msgstr "<b>%1</b> silsilesi, activity_with_datasets_ tablosundan silinemedi."
 
 #: server/controllers/database-controller.cpp:798
-#, fuzzy, qt-format
-#| msgctxt "controllers::DatabaseController|"
-#| msgid "User <b>%1</b> could not be deleted from table user_."
+#, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "Sequence <b>%1</b> could not be deleted from table sequence_."
-msgstr "Kullanıcı <b>%1</b>, user_ tablosundan silinemedi."
+msgstr "<b>%1</b> silsilesi, sequence_ tablosundan silinemedi."
 
 #: server/controllers/network-controller.cpp:46
 #, qt-format
@@ -2149,15 +2141,11 @@ msgstr ""
 "Aşağıdaki öğrencileri veri tabanından silmek istediğinizden emin misiniz?"
 
 #: server/dialogs/RemoveSequenceDialog.qml:64
-#, fuzzy
-#| msgctxt "RemoveDatasetDialog|"
-#| msgid ""
-#| "Are you sure you want to delete the following dataset from the database?"
 msgctxt "RemoveSequenceDialog|"
 msgid ""
 "Are you sure you want to delete the following sequence from the database?"
 msgstr ""
-"Aşağıdaki veri kümesini veri tabanından silmek istediğinizden emin misiniz?"
+"Aşağıdaki silsileyi veri tabanından silmek istediğinizden emin misiniz?"
 
 #: server/dialogs/SendDatasetDialog.qml:93
 msgctxt "SendDatasetDialog|"
@@ -2186,129 +2174,80 @@ msgid "Pupils"
 msgstr "Öğrenciler"
 
 #: server/dialogs/SendSequenceDialog.qml:104
-#, fuzzy
-#| msgctxt "SendDatasetDialog|"
-#| msgid "Do you want to send the dataset to selected pupils?"
 msgctxt "SendSequenceDialog|"
 msgid "Do you want to send the sequence to selected pupils?"
-msgstr ""
-"Veri kümesini seçili öğrencilere göndermek istediğinizden emin misiniz?"
+msgstr "Silsileyi seçili öğrencilere göndermek istediğinizden emin misiniz?"
 
 #: server/dialogs/SendSequenceDialog.qml:105
-#, fuzzy
-#| msgctxt "SendDatasetDialog|"
-#| msgid "Are you sure you want to remove the dataset from selected pupils?"
 msgctxt "SendSequenceDialog|"
 msgid "Are you sure you want to remove the sequence from selected pupils?"
-msgstr ""
-"Veri kümesini seçili öğrencilerden kaldırmak istediğinizden emin misiniz?"
+msgstr "Silsileyi seçili öğrencilerden kaldırmak istediğinizden emin misiniz?"
 
 #: server/dialogs/SendSequenceDialog.qml:106
-#, fuzzy
-#| msgctxt "SendDatasetDialog|"
-#| msgid ""
-#| "Are you sure you want to remove all the existing datasets from selected "
-#| "pupils?"
 msgctxt "SendSequenceDialog|"
 msgid ""
 "Are you sure you want to remove all the existing sequences from selected "
 "pupils?"
 msgstr ""
-"Seçili öğrencilerden tüm var olan veri kümelerini kaldırmak istediğinizden "
-"emin misiniz?"
+"Seçili öğrencilerden tüm var olan silsileleri kaldırmak istediğinizden emin "
+"misiniz?"
 
 #: server/dialogs/SendSequenceDialog.qml:140
-#, fuzzy
-#| msgctxt "ExportPupilsDialog|"
-#| msgid "Pupils"
 msgctxt "SendSequenceDialog|"
 msgid "Pupils"
 msgstr "Öğrenciler"
 
 #: server/dialogs/SequenceEditorDialog.qml:50
-#, fuzzy
-#| msgctxt "DatasetEditorDialog|"
-#| msgid "Create dataset"
 msgctxt "SequenceEditorDialog|"
 msgid "Create sequence"
-msgstr "Veri kümesi oluştur"
+msgstr "Silsilse oluştur"
 
 #: server/dialogs/SequenceEditorDialog.qml:56
-#, fuzzy
-#| msgctxt "DatasetEditorDialog|"
-#| msgid "Update dataset"
 msgctxt "SequenceEditorDialog|"
 msgid "Update sequence"
-msgstr "Veri kümesini güncelle"
+msgstr "Silsileyi güncelle"
 
 #: server/dialogs/SequenceEditorDialog.qml:81
-#, fuzzy
-#| msgctxt "DatasetEditorDialog|"
-#| msgid "Dataset name is empty"
 msgctxt "SequenceEditorDialog|"
 msgid "Sequence name is empty"
-msgstr "Veri kümesi adı boş"
+msgstr "Silsile adı boş"
 
 #: server/dialogs/SequenceEditorDialog.qml:163
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Sequence length"
 msgctxt "SequenceEditorDialog|"
 msgid "Sequence name"
-msgstr "Dizi uzunluğu"
+msgstr "Silsile uzunluğu"
 
 #: server/dialogs/SequenceEditorDialog.qml:177
-#, fuzzy
-#| msgctxt "DatasetEditorDialog|"
-#| msgid "Goal"
 msgctxt "SequenceEditorDialog|"
 msgid "Goal"
 msgstr "Hedef"
 
 #: server/dialogs/SequenceEditorDialog.qml:245
-#, fuzzy
-#| msgctxt "NavigationPanel|"
-#| msgid "Activities"
 msgctxt "SequenceEditorDialog|"
 msgid "Activities"
 msgstr "Etkinlikler"
 
 #: server/dialogs/SequenceEditorDialog.qml:272
-#, fuzzy
-#| msgctxt "NavigationPanel|"
-#| msgid "Datasets"
 msgctxt "SequenceEditorDialog|"
 msgid "Datasets"
 msgstr "Veri Kümeleri"
 
 #: server/dialogs/SequenceEditorDialog.qml:323
-#, fuzzy
-#| msgctxt "EditorBox|"
-#| msgid "Add"
 msgctxt "SequenceEditorDialog|"
 msgid "Add"
 msgstr "Ekle"
 
 #: server/dialogs/SequenceEditorDialog.qml:343
-#, fuzzy
-#| msgctxt "EditorBox|"
-#| msgid "Remove"
 msgctxt "SequenceEditorDialog|"
 msgid "Remove"
 msgstr "Kaldır"
 
 #: server/dialogs/SequenceEditorDialog.qml:355
-#, fuzzy
-#| msgctxt "EditorBox|"
-#| msgid "Move up"
 msgctxt "SequenceEditorDialog|"
 msgid "Move up"
 msgstr "Yukarı taşı"
 
 #: server/dialogs/SequenceEditorDialog.qml:367
-#, fuzzy
-#| msgctxt "EditorBox|"
-#| msgid "Move down"
 msgctxt "SequenceEditorDialog|"
 msgid "Move down"
 msgstr "Aşağı taşı"
@@ -2354,12 +2293,9 @@ msgid "Datasets"
 msgstr "Veri Kümeleri"
 
 #: server/panels/NavigationPanel.qml:111
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Sequence length"
 msgctxt "NavigationPanel|"
 msgid "Sequences"
-msgstr "Dizi uzunluğu"
+msgstr "Silsileler"
 
 #: server/panels/NavigationPanel.qml:119
 msgctxt "NavigationPanel|"
@@ -2861,60 +2797,39 @@ msgid "Remove pupils"
 msgstr "Öğrencileri Kaldır"
 
 #: server/views/SequencesView.qml:67
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Sequence length"
 msgctxt "SequencesView|"
 msgid "Sequences"
-msgstr "Dizi uzunluğu"
+msgstr "Silsileler"
 
 #: server/views/SequencesView.qml:102
-#, fuzzy
-#| msgctxt "SqlLineDialog|"
-#| msgid "Line details"
 msgctxt "SequencesView|"
 msgid "Details"
-msgstr "Çizgi ayrıntıları"
+msgstr "Ayrıntılar"
 
 #: server/views/SequencesView.qml:169
-#, fuzzy
-#| msgctxt "ManagePupilsView|"
-#| msgid "Pupils management"
 msgctxt "SequencesView|"
 msgid "Sequences management"
-msgstr "Öğrenciler Yönetimi"
+msgstr "Silsileler Yönetimi"
 
 #: server/views/SequencesView.qml:187
-#, fuzzy
-#| msgctxt "DatasetEditorDialog|"
-#| msgid "Create dataset"
 msgctxt "SequencesView|"
 msgid "Create sequence"
-msgstr "Veri kümesi oluştur"
+msgstr "Silsile oluştur"
 
 #: server/views/SequencesView.qml:195
-#, fuzzy
-#| msgctxt "DatasetEditorDialog|"
-#| msgid "Update dataset"
 msgctxt "SequencesView|"
 msgid "Update sequence"
-msgstr "Veri kümesini güncelle"
+msgstr "Silsileyi güncelle"
 
 #: server/views/SequencesView.qml:204
-#, fuzzy
-#| msgctxt "DatasetsView|"
-#| msgid "Send dataset to clients"
 msgctxt "SequencesView|"
 msgid "Send sequence to clients"
-msgstr "İstemcilere Gönder"
+msgstr "Silsileyi İstemcilere Gönder"
 
 #: server/views/SequencesView.qml:247
-#, fuzzy
-#| msgctxt "DatasetsView|"
-#| msgid "Delete dataset"
 msgctxt "SequencesView|"
 msgid "Delete sequence"
-msgstr "Veri kümesini sil"
+msgstr "Silsileyi sil"
 
 #: server/views/SettingsView.qml:65
 msgctxt "SettingsView|"

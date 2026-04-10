@@ -624,9 +624,9 @@ for example 'xx.yy.zz'
 </row>
 <row>
 <entry
->--with-sequence=sequence.json</entry>
+>--with-sequence=silsile.json</entry>
 <entry
->Run &gcompris; with the specific sequence. A sequence is a list of activities with specific datasets, forcing GCompris to run them in the specified order.</entry>
+>&gcompris;’i belirtilen silsilede çalıştırın. Silsile, belirli veri kümelerine sahip etkinliklerin bir listesidir ve &gcompris;’in bunları belirtilen sırayla çalıştırmasını sağlar.</entry>
 </row>
 </tbody>
 </tgroup>

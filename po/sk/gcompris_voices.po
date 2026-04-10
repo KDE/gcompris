@@ -334,7 +334,7 @@ msgstr ""
 #: activities/compass/ActivityInfo.qml:17
 #, kde-format
 msgid "Use the compass to draw."
-msgstr ""
+msgstr "Použite kružidlo na kreslenie."
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "crane"
 #: activities/crane/ActivityInfo.qml:23
@@ -1062,7 +1062,7 @@ msgstr "Use the arrows to move Tux along the path and reach the target."
 #: activities/peg_solitaire/ActivityInfo.qml:17
 #, kde-format
 msgid "Remove all the pieces in the correct order until only one remains."
-msgstr ""
+msgstr "Odstráňte všetky figúrky v správnom poradí, kým nezostane iba jedna."
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "penalty"
 #: activities/penalty/ActivityInfo.qml:18

@@ -651,6 +651,12 @@ for example 'xx.yy.zz'
 <entry
 >Executa o &gcompris; com o local especificado.</entry>
 </row>
+<row>
+<entry
+>--with-sequence=sequence.json</entry>
+<entry
+>Executa o &gcompris; com a sequência específica. Uma sequência é uma lista de atividades com conjuntos de dados específicos, forçando o GCompris a executá-las na ordem especificada.</entry>
+</row>
 </tbody>
 </tgroup>
 </informaltable>
