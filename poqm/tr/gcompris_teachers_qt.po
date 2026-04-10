@@ -1,8 +1,8 @@
-# SPDX-FileCopyrightText: 2025 Emir SARI <emir_sari@icloud.com>
+# SPDX-FileCopyrightText: 2025, 2026 Emir SARI <emir_sari@icloud.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2025-12-23 11:55+0300\n"
+"PO-Revision-Date: 2026-04-09 14:47+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 25.12.0\n"
+"X-Generator: Lokalize 25.12.2\n"
 
 #: server/activities/adjacent_numbers/ActivityEditor.qml:13
 #: server/activities/binary_bulb/ActivityEditor.qml:12
@@ -56,10 +56,10 @@ msgid ""
 "- 2, to always have at least 2 visible numbers in the sequence."
 msgstr ""
 "“Eksik sayıların konumu”, bulunacak sayıların indeksine karşılık gelen bir "
-"sayı listesi içermelidir. İndeks numaraları 0’dan (dizinin ilk sayısı) "
-"başlar ve “Dizi uzunluğu” − 1’den büyük olamaz. Ayrıca, listedeki sayının "
-"uzunluğu “Dizi uzunluğu” − 2’den büyük olamaz, böylece dizide her zaman en "
-"az 2 görünür sayı bulunur."
+"sayı listesi içermelidir. İndeks numaraları 0’dan (silsilenin ilk sayısı) "
+"başlar ve “Silsile uzunluğu” − 1’den büyük olamaz. Ayrıca, listedeki sayının "
+"uzunluğu “Silsile uzunluğu” − 2’den büyük olamaz, böylece silsilede her "
+"zaman en az 2 görünür sayı bulunur."
 
 #: server/activities/adjacent_numbers/AdjacentNumbersDataDisplay.qml:36
 msgctxt "AdjacentNumbersDataDisplay|"
@@ -104,7 +104,7 @@ msgstr "Sayılar arasındaki adımlar"
 #: server/activities/adjacent_numbers/AdjacentNumbersEditor.qml:34
 msgctxt "AdjacentNumbersEditor|"
 msgid "Sequence length"
-msgstr "Dizi uzunluğu"
+msgstr "Silsile uzunluğu"
 
 #: server/activities/adjacent_numbers/AdjacentNumbersEditor.qml:35
 msgctxt "AdjacentNumbersEditor|"
@@ -1308,25 +1308,25 @@ msgstr "<b>%1</b>, <b>%2</b> olarak güncellenemedi."
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "User <b>%1</b> could not be deleted from table user_."
-msgstr "Kullanıcı <b>%1</b>, user_ tablosundan silinemedi."
+msgstr "<b>%1</b> kullanıcısı, user_ tablosundan silinemedi."
 
 #: server/controllers/database-controller.cpp:529
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "User <b>%1</b> could not be deleted from table result_."
-msgstr "Kullanıcı <b>%1</b>, result_ tablosundan silinemedi."
+msgstr "<b>%1</b> kullanıcısı, result_ tablosundan silinemedi."
 
 #: server/controllers/database-controller.cpp:544
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "User <b>%1</b> could not be deleted from table group_user_."
-msgstr "Kullanıcı <b>%1</b>, group_user_ tablosundan silinemedi."
+msgstr "<b>%1</b> kullanıcısı, group_user_ tablosundan silinemedi."
 
 #: server/controllers/database-controller.cpp:559
 #, qt-format
 msgctxt "controllers::DatabaseController|"
 msgid "User <b>%1</b> already exists in group <b>%2</b>."
-msgstr "Kullanıcı <b>%1</b>, <b>%2</b> grubunda halihazırda var."
+msgstr "<b>%1</b> kullanıcısı, <b>%2</b> grubunda halihazırda var."
 
 #: server/controllers/database-controller.cpp:574
 #, qt-format
