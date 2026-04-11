@@ -26540,20 +26540,14 @@ msgid ""
 msgstr ""
 
 #: core/ActivityBase.qml:219
-#, fuzzy
-#| msgctxt "balanceboxeditor|"
-#| msgid "Yes"
 msgctxt "ActivityBase|"
 msgid "Yes"
-msgstr "是"
+msgstr ""
 
 #: core/ActivityBase.qml:224
-#, fuzzy
-#| msgctxt "balanceboxeditor|"
-#| msgid "No"
 msgctxt "ActivityBase|"
 msgid "No"
-msgstr "否"
+msgstr ""
 
 #: core/ChangeLog.qml:30
 msgctxt "ChangeLog|"

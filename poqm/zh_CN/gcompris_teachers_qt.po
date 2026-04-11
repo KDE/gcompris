@@ -2101,12 +2101,9 @@ msgid "Sequence name is empty"
 msgstr ""
 
 #: server/dialogs/SequenceEditorDialog.qml:163
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Sequence length"
 msgctxt "SequenceEditorDialog|"
 msgid "Sequence name"
-msgstr "序列长度"
+msgstr ""
 
 #: server/dialogs/SequenceEditorDialog.qml:177
 msgctxt "SequenceEditorDialog|"
@@ -2119,12 +2116,9 @@ msgid "Activities"
 msgstr ""
 
 #: server/dialogs/SequenceEditorDialog.qml:272
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Dataset is empty."
 msgctxt "SequenceEditorDialog|"
 msgid "Datasets"
-msgstr "数据集为空。"
+msgstr ""
 
 #: server/dialogs/SequenceEditorDialog.qml:323
 msgctxt "SequenceEditorDialog|"
@@ -2187,12 +2181,9 @@ msgid "Datasets"
 msgstr ""
 
 #: server/panels/NavigationPanel.qml:111
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Sequence length"
 msgctxt "NavigationPanel|"
 msgid "Sequences"
-msgstr "序列长度"
+msgstr ""
 
 #: server/panels/NavigationPanel.qml:119
 msgctxt "NavigationPanel|"
@@ -2694,12 +2685,9 @@ msgid "Remove pupils"
 msgstr ""
 
 #: server/views/SequencesView.qml:67
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Sequence length"
 msgctxt "SequencesView|"
 msgid "Sequences"
-msgstr "序列长度"
+msgstr ""
 
 #: server/views/SequencesView.qml:102
 msgctxt "SequencesView|"
@@ -2707,12 +2695,9 @@ msgid "Details"
 msgstr ""
 
 #: server/views/SequencesView.qml:169
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Sequence length"
 msgctxt "SequencesView|"
 msgid "Sequences management"
-msgstr "序列长度"
+msgstr ""
 
 #: server/views/SequencesView.qml:187
 msgctxt "SequencesView|"
@@ -2725,12 +2710,9 @@ msgid "Update sequence"
 msgstr ""
 
 #: server/views/SequencesView.qml:204
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Sequence length"
 msgctxt "SequencesView|"
 msgid "Send sequence to clients"
-msgstr "序列长度"
+msgstr ""
 
 #: server/views/SequencesView.qml:247
 msgctxt "SequencesView|"
