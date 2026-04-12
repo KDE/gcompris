@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: 2023-2025 Scarlett Moore <sgmoore@kde.org>
+# SPDX-FileCopyrightText: 2023-2026 Scarlett Moore <sgmoore@kde.org>
 #
 # SPDX-License-Identifier: CC0-1.0
 ---
@@ -41,6 +41,8 @@ parts:
     source: https://github.com/qml-box2d/qml-box2d.git
     plugin: cmake
     build-packages:
+      - libduktape207
+      - libxkbcommon0
       - cmake
       - libpulse0
     stage-packages:
