@@ -25661,8 +25661,8 @@ msgctxt "Data|"
 msgid "Maximum 25 pieces of candy and 5 kids, no rest."
 msgstr "Enintään 25 karkkia ja 5 lasta, ei taukoa."
 
-#: activities/share/resource/1/Data.qml:20
-#: activities/share/resource/2/Data.qml:20
+#: activities/share/resource/1/Data.qml:22
+#: activities/share/resource/2/Data.qml:22
 msgctxt "Data|"
 msgid ""
 "Paul wants to share 2 pieces of candy equally between 2 of his girl friends. "
@@ -25672,19 +25672,19 @@ msgstr ""
 "Pasi haluaa jakaa 2 karkkia 2 tyttöystävälleen. Osaatko auttaa häntä? Aseta "
 "ensin lapset keskelle ja vedä sitten karkit jokaiselle."
 
-#: activities/share/resource/1/Data.qml:30
+#: activities/share/resource/1/Data.qml:32
 msgctxt "Data|"
 msgid "Now he wants to share 4 pieces of candy equally among his friends."
 msgstr "Nyt hän haluaa antaa ystävilleen 4 karkkia."
 
-#: activities/share/resource/1/Data.qml:40
+#: activities/share/resource/1/Data.qml:42
 msgctxt "Data|"
 msgid ""
 "Can you now share 6 of Paul's pieces of candy equally among his friends?"
 msgstr ""
 "Voitko nyt jakaa 6 Paulin karkkia yhtäläisesti hänen ystäviensä kesken?"
 
-#: activities/share/resource/1/Data.qml:50
+#: activities/share/resource/1/Data.qml:52
 msgctxt "Data|"
 msgid ""
 "Some of his friends already have pieces of candy. He wants to give them 7 "
@@ -25693,7 +25693,7 @@ msgstr ""
 "Joillakin hänen ystävillä on jo karkkeja. Hän haluaa antaa heille 7 "
 "kappaletta lisää, jotta niiltä on kaikilla sama määrä."
 
-#: activities/share/resource/1/Data.qml:60
+#: activities/share/resource/1/Data.qml:62
 msgctxt "Data|"
 msgid ""
 "Paul has only 12 pieces of candy left. He eats 2 pieces of candy and he "
@@ -25703,7 +25703,7 @@ msgstr ""
 "Paulilla on vain 12 karkkia jäljellä. Hän syö niistä 2 ja antaa loput "
 "ystävilleen. Osaatko auttaa häntä jakamaan tasan loput 10 karkkia?"
 
-#: activities/share/resource/1/Data.qml:72
+#: activities/share/resource/1/Data.qml:77
 msgctxt "Data|"
 msgid ""
 "George wants to share 3 pieces of candy equally between 3 of his girl "
@@ -25712,7 +25712,7 @@ msgstr ""
 "Kalle haluaa jakaa 3 karkkia tasapuolisesti kolmen tyttöystävänsä kesken. "
 "Voiko hän jakaa karamellipalat tasan?"
 
-#: activities/share/resource/1/Data.qml:82
+#: activities/share/resource/1/Data.qml:87
 msgctxt "Data|"
 msgid ""
 "Maria wants to share 6 pieces of candy equally between 3 of her friends: 1 "
@@ -25721,7 +25721,7 @@ msgstr ""
 "Maria haluaa jakaa 6 karkkia tasan kolmen ystävänsä kesken: yhdelle tytölle "
 "ja kahdelle pojalle. Voiko hän jakaa karamellipalat tasan?"
 
-#: activities/share/resource/1/Data.qml:92
+#: activities/share/resource/1/Data.qml:97
 msgctxt "Data|"
 msgid ""
 "John wants to share 8 pieces of candy equally between 3 of his friends: 1 "
@@ -25732,7 +25732,7 @@ msgstr ""
 "kahden tytön kesken. Pojalla on jo yksi. Voiko hän varmistaa, että niillä "
 "kaikilla on sama määrä?"
 
-#: activities/share/resource/1/Data.qml:102
+#: activities/share/resource/1/Data.qml:107
 msgctxt "Data|"
 msgid ""
 "Paul wants to share 12 pieces of candy equally between 3 of his friends: 2 "
@@ -25741,7 +25741,7 @@ msgstr ""
 "Pauli haluaa jakaa 12 karkkia tasan kolmen ystävänsä kesken: kahden pojan ja "
 "yhden tytön. Voiko hän jakaa karamellipalat tasan?"
 
-#: activities/share/resource/1/Data.qml:112
+#: activities/share/resource/1/Data.qml:117
 msgctxt "Data|"
 msgid ""
 "Maria wants to share 11 pieces of candy between 3 of her friends: 1 boy and "
@@ -25752,8 +25752,8 @@ msgstr ""
 "tytön kesken. Tytöillä on jo karkkeia. Voiko hän jakaa karamellipalat niin, "
 "että niillä kaikilla on sama määrä?"
 
-#: activities/share/resource/1/Data.qml:124
-#: activities/share/resource/2/Data.qml:114
+#: activities/share/resource/1/Data.qml:132
+#: activities/share/resource/2/Data.qml:122
 msgctxt "Data|"
 msgid ""
 "Alice wants to share 4 pieces of candy equally between 4 of her girl "
@@ -25762,12 +25762,12 @@ msgstr ""
 "Liisa haluaa jakaa 4 karkkia tasapuolisesti neljän tyttöystävänsä kesken. "
 "Voitko auttaa häntä?"
 
-#: activities/share/resource/1/Data.qml:134
+#: activities/share/resource/1/Data.qml:142
 msgctxt "Data|"
 msgid "Now, Alice wants to give 8 pieces of candy to her friends."
 msgstr "Nyt Liisa haluaa antaa 8 karkkia ystävilleen."
 
-#: activities/share/resource/1/Data.qml:144
+#: activities/share/resource/1/Data.qml:152
 msgctxt "Data|"
 msgid ""
 "Alice wants to give 10 pieces of candy to her friends, 1 girl and 3 boys, so "
@@ -25777,12 +25777,12 @@ msgstr ""
 "Liisa haluaa antaa 10 karkkia ystävilleen, yhdelle tytölle ja kolmelle "
 "pojalle, jotta heillä kaikilla olisi sama määrä. Tytöillä on jo karkkeja."
 
-#: activities/share/resource/1/Data.qml:154
+#: activities/share/resource/1/Data.qml:162
 msgctxt "Data|"
 msgid "Alice wants to give 16 pieces of candy to her friends."
 msgstr "Liisa haluaa antaa 16 karkkia ystävilleen."
 
-#: activities/share/resource/1/Data.qml:164
+#: activities/share/resource/1/Data.qml:172
 msgctxt "Data|"
 msgid ""
 "Alice wants to give pieces of candy to 4 friends. Some of them already have "
@@ -25793,7 +25793,7 @@ msgstr ""
 "Voitko auttaa häntä jakamaan 14 karkkipalaa niin, että kaikilla hänen "
 "ystävillään on sama määrä?"
 
-#: activities/share/resource/1/Data.qml:176
+#: activities/share/resource/1/Data.qml:187
 msgctxt "Data|"
 msgid ""
 "Michael wants to share 5 pieces of candy equally between 5 of his girl "
@@ -25802,7 +25802,7 @@ msgstr ""
 "Mikko haluaa jakaa 5 karkkia tasan viiden tyttöystävänsä kesken. Voitko "
 "auttaa häntä?"
 
-#: activities/share/resource/1/Data.qml:186
+#: activities/share/resource/1/Data.qml:197
 msgctxt "Data|"
 msgid ""
 "Helen has 5 friends: 2 boys and 3 girls. She wants to give them 10 pieces of "
@@ -25811,7 +25811,7 @@ msgstr ""
 "Leenalla on 5 ystävää: kaksi poikaa ja kolme tyttöä. Hän haluaa jakaa heille "
 "10 karkkia. Auta häntä jakamaan karkit tasan ystävilleen."
 
-#: activities/share/resource/1/Data.qml:196
+#: activities/share/resource/1/Data.qml:207
 msgctxt "Data|"
 msgid ""
 "Michelle wants to share 12 pieces of candy equally between her 4 brothers "
@@ -25822,7 +25822,7 @@ msgstr ""
 "kesken, jotta heillä kaikilla olisi sama määrä. Hänen siskollaan on jo "
 "karkkeja."
 
-#: activities/share/resource/1/Data.qml:206
+#: activities/share/resource/1/Data.qml:217
 msgctxt "Data|"
 msgid ""
 "Thomas wants to share his 20 pieces of candy with his friends: 1 boy and 4 "
@@ -25831,7 +25831,7 @@ msgstr ""
 "Tuomas haluaa jakaa 20 karkkia ystävilleen: yhdelle pojalle ja neljälle "
 "tytölle. Osaatko auttaa häntä?"
 
-#: activities/share/resource/1/Data.qml:216
+#: activities/share/resource/1/Data.qml:227
 msgctxt "Data|"
 msgid ""
 "Paul wants to share 20 pieces of candy equally between 5 of his friends. "
@@ -25840,7 +25840,7 @@ msgstr ""
 "Tuomas haluaa jakaa 20 karkkia tasan viidelle ystävälleen. Heillä kaikilla "
 "on jo yksi karkki. Osaatko auttaa häntä?"
 
-#: activities/share/resource/1/Data.qml:228
+#: activities/share/resource/1/Data.qml:242
 msgctxt "Data|"
 msgid ""
 "Charles wants to share his 6 pieces of candy equally with 2 of his girl "
@@ -25849,7 +25849,7 @@ msgstr ""
 "Kalle haluaa jakaa hänen 6 karkkiansa tasan kahdelle tyttöystävälleen. Voiko "
 "hän jakaa karkit tasan?"
 
-#: activities/share/resource/1/Data.qml:238
+#: activities/share/resource/1/Data.qml:252
 msgctxt "Data|"
 msgid ""
 "For her birthday, Elizabeth has 8 pieces of candy to share with 3 of her "
@@ -25860,7 +25860,7 @@ msgstr ""
 "kahdelle tytölle ja yhdelle pojalle. Tytöillä on jo karkkeja. Kuinka hänen "
 "pitäisi jakaa karamellipalat niin, että niillä kaikilla on sama määrä?"
 
-#: activities/share/resource/1/Data.qml:248
+#: activities/share/resource/1/Data.qml:262
 msgctxt "Data|"
 msgid ""
 "Jason's father gave him 16 pieces of candy to share equally with his "
@@ -25870,7 +25870,7 @@ msgstr ""
 "Jaakon isä antoi hänelle 16 karkkia jaettavaksi ystävilleen: kahdelle "
 "pojalle ja kahdelle tytölle. Auta häntä antamaan karkit ystävilleen."
 
-#: activities/share/resource/1/Data.qml:258
+#: activities/share/resource/1/Data.qml:272
 msgctxt "Data|"
 msgid ""
 "George wants to share 14 pieces of candy between 4 of his friends: 2 girls "
@@ -25881,7 +25881,7 @@ msgstr ""
 "tytölle. Pojilla on jo yksi karkki molemmilla. Hän haluaa että heillä on "
 "kaikilla sama määrä."
 
-#: activities/share/resource/1/Data.qml:268
+#: activities/share/resource/1/Data.qml:282
 msgctxt "Data|"
 msgid ""
 "Maria wants to share 25 pieces of candy equally between 5 of her friends: 3 "
@@ -25895,22 +25895,22 @@ msgctxt "Data|"
 msgid "Maximum 25 pieces of candy and 5 kids, possible rest."
 msgstr "Enintään 25 karkkia ja 5 lasta, tauko mahdollinen."
 
-#: activities/share/resource/2/Data.qml:30
+#: activities/share/resource/2/Data.qml:32
 msgctxt "Data|"
 msgid "Now he wants to share 5 pieces of candy among his friends."
 msgstr "Nyt hän haluaa jakaa 5 karkkia ystäviensä kesken."
 
-#: activities/share/resource/2/Data.qml:40
+#: activities/share/resource/2/Data.qml:42
 msgctxt "Data|"
 msgid "Can you now share 7 of Paul's pieces of candy among his friends?"
 msgstr "Osaatko nyt jakaa 7 Paulin karkeista hänen ystävilleen?"
 
-#: activities/share/resource/2/Data.qml:50
+#: activities/share/resource/2/Data.qml:52
 msgctxt "Data|"
 msgid "Can you now share 8 of Paul's pieces of candy among his friends?"
 msgstr "Osaatko nyt jakaa 8 Paulin karkeista hänen ystävilleen?"
 
-#: activities/share/resource/2/Data.qml:60
+#: activities/share/resource/2/Data.qml:62
 msgctxt "Data|"
 msgid ""
 "Paul has only 11 pieces of candy left. He eats 2 pieces of candy and he "
@@ -25920,7 +25920,7 @@ msgstr ""
 "Paulilla on vain 11 karkkia jäljellä. Hän syö niistä 2 ja antaa loput "
 "ystävilleen. Osaatko auttaa häntä jakamaan tasan loput 9 karkkia?"
 
-#: activities/share/resource/2/Data.qml:72
+#: activities/share/resource/2/Data.qml:77
 msgctxt "Data|"
 msgid ""
 "Bob wants to share 3 pieces of candy equally between 3 of his girl friends. "
@@ -25929,7 +25929,7 @@ msgstr ""
 "Pasi haluaa jakaa 3 karkkia tasan kolmen tyttöystävänsä kesken. Voiko hän "
 "jakaa karamellipalat tasan?"
 
-#: activities/share/resource/2/Data.qml:82
+#: activities/share/resource/2/Data.qml:87
 msgctxt "Data|"
 msgid ""
 "Harry wants to share 8 pieces of candy between 3 of his friends: 1 boy and 2 "
@@ -25940,7 +25940,7 @@ msgstr ""
 "tytön kesken. Pojalla on jo yksi karkki. Voiko hän jakaa karamellipalat "
 "niin, että niillä kaikilla on sama määrä?"
 
-#: activities/share/resource/2/Data.qml:92
+#: activities/share/resource/2/Data.qml:97
 msgctxt "Data|"
 msgid ""
 "Maria wants to share 8 pieces of candy between 3 of her friends: 1 boy and 2 "
@@ -25951,7 +25951,7 @@ msgstr ""
 "Tytöillä on jo karkkeja. Voiko hän jakaa karamellipalat niin, että niillä "
 "kaikilla on sama määrä?"
 
-#: activities/share/resource/2/Data.qml:102
+#: activities/share/resource/2/Data.qml:107
 msgctxt "Data|"
 msgid ""
 "Harry wants to share 12 pieces of candy between 3 of his friends: 1 boy and "
@@ -25962,12 +25962,12 @@ msgstr ""
 "tytön. Pojalla on jo karkkia. Voiko hän jakaa karamellipalat niin, että "
 "niillä kaikilla on sama määrä?"
 
-#: activities/share/resource/2/Data.qml:124
+#: activities/share/resource/2/Data.qml:132
 msgctxt "Data|"
 msgid "Now, Alice wants to share 8 pieces of candy equally among her friends."
 msgstr "Nyt Liisa haluaa jakaa 8 karkkia tasan ystäviensä kesken."
 
-#: activities/share/resource/2/Data.qml:134
+#: activities/share/resource/2/Data.qml:142
 msgctxt "Data|"
 msgid ""
 "Can you help Alice share 10 pieces of candy equally among her friends: 1 "
@@ -25976,12 +25976,12 @@ msgstr ""
 "Osaatko auttaa Liisaa jakamaan 10 karkkia tasan ystävilleen: yhdelle tytölle "
 "ja kolmelle pojalle? Tytöllä on jo karkkia."
 
-#: activities/share/resource/2/Data.qml:144
+#: activities/share/resource/2/Data.qml:152
 msgctxt "Data|"
 msgid "Alice wants to share 16 pieces of candy equally among her friends."
 msgstr "Nyt Liisa haluaa jakaa 16 karkkia tasan ystäviensä kesken."
 
-#: activities/share/resource/2/Data.qml:154
+#: activities/share/resource/2/Data.qml:162
 msgctxt "Data|"
 msgid ""
 "Alice has 14 pieces of candy left. She wants to share them equally among her "
@@ -25991,7 +25991,7 @@ msgstr ""
 "Liisalla on jäljellä 14 karkkia, jotka hän haluaa jakaa tasan ystävilleen. "
 "Pojilla on jo karkkeja. Osaatko auttaa häntä jakamaan karkit tasan?"
 
-#: activities/share/resource/2/Data.qml:166
+#: activities/share/resource/2/Data.qml:177
 msgctxt "Data|"
 msgid ""
 "Help Jon share 11 pieces of candies equally between five girls. The rest "
@@ -26000,7 +26000,7 @@ msgstr ""
 "Auta Jonia jakamaan 11 karkkia tasa viidelle tytölle. Joni pitää ne mitä jää "
 "yli."
 
-#: activities/share/resource/2/Data.qml:176
+#: activities/share/resource/2/Data.qml:187
 msgctxt "Data|"
 msgid ""
 "Jon wants to share the rest of his pieces of candies with his brothers and "
@@ -26010,7 +26010,7 @@ msgstr ""
 "Joni haluaa jakaa loput karkkinsa veljiensä ja sisartensa kanssa. Voitko "
 "jakaa ne tasan tietäen, että hänen veljillään on jo 2 karkkia?"
 
-#: activities/share/resource/2/Data.qml:186
+#: activities/share/resource/2/Data.qml:197
 msgctxt "Data|"
 msgid ""
 "Help Tux split 19 pieces of candies between his friends: 4 boys and 1 girl."
@@ -26018,13 +26018,13 @@ msgstr ""
 "Auta Jonia jakamaan 19 karkkia kavereidensa kesken: neljälle pojalle ja "
 "yhdelle tytölle."
 
-#: activities/share/resource/2/Data.qml:196
+#: activities/share/resource/2/Data.qml:207
 msgctxt "Data|"
 msgid "Help Maria share 18 pieces of candy equally between 3 boys and 2 girls."
 msgstr ""
 "Auta Mariaa jakamaan 18 karkkia tasan kolen pojan ja kahden tytön kesken."
 
-#: activities/share/resource/2/Data.qml:208
+#: activities/share/resource/2/Data.qml:222
 msgctxt "Data|"
 msgid ""
 "Charles wants to share his 6 pieces of candy equally between 2 of his girl "
@@ -26033,7 +26033,7 @@ msgstr ""
 "Kalle haluaa jakaa 6 karkkia tasan kahdelle tytölleystävälleen. Voiko hän "
 "jakaa karkit tasan?"
 
-#: activities/share/resource/2/Data.qml:218
+#: activities/share/resource/2/Data.qml:232
 msgctxt "Data|"
 msgid ""
 "For her birthday, Elizabeth has 8 pieces of candy to share with 3 of her "
@@ -26044,7 +26044,7 @@ msgstr ""
 "ystävälleen: kahdelle tytölle ja kahdelle pojalle. Kuinka hänen pitäisi "
 "jakaa karkit ystävilleen?"
 
-#: activities/share/resource/2/Data.qml:228
+#: activities/share/resource/2/Data.qml:242
 msgctxt "Data|"
 msgid ""
 "Jason's father gave him 17 pieces of candy to share equally between his "
@@ -26055,7 +26055,7 @@ msgstr ""
 "kahdelle pojalle ja kahdelle tytölle. Auta häntä antamaan karkkipalat "
 "ystävilleen."
 
-#: activities/share/resource/2/Data.qml:238
+#: activities/share/resource/2/Data.qml:252
 msgctxt "Data|"
 msgid ""
 "George wants to share 14 pieces of candy equally between 4 of his friends: 2 "
@@ -26065,7 +26065,7 @@ msgstr ""
 "Kalle haluaa jakaa 14 karkkia tasan neljän ystävänsä kesken: kahden tytön ja "
 "kahden pojan kesken. Voiko hän jakaa karamellipalat tasan ystäviensä kesken?"
 
-#: activities/share/resource/2/Data.qml:248
+#: activities/share/resource/2/Data.qml:262
 msgctxt "Data|"
 msgid ""
 "Maria wants to share 23 pieces of candy equally between 5 of her friends: 3 "
@@ -26082,7 +26082,7 @@ msgid "Maximum 30 pieces of candy and 6 kids, possible rest."
 msgstr "Enintään 30 karkkia ja 6 lasta, tauko mahdollinen."
 
 # Poedit cannot handle this, format
-#: activities/share/share.js:114
+#: activities/share/share.js:149
 #, qt-format
 msgctxt ""
 "share|First part of Place %n boy(s) and %n girl(s) in the center. Then split "
@@ -26092,7 +26092,7 @@ msgid_plural "Place %n boy(s) "
 msgstr[0] "Aseta %n poika keskelle "
 msgstr[1] "Aseta %n poikaa keskelle "
 
-#: activities/share/share.js:118
+#: activities/share/share.js:153
 #, qt-format
 msgctxt ""
 "share|Second part of Place %n boy(s) and %n girl(s) in the center. Then "
@@ -26102,7 +26102,7 @@ msgid_plural "and %n girl(s) in the center. "
 msgstr[0] "ja %n tyttö keskelle. "
 msgstr[1] "ja %n tyttöä keskelle. "
 
-#: activities/share/share.js:122
+#: activities/share/share.js:157
 #, qt-format
 msgctxt ""
 "share|Third part of Place %n boy(s) and %n girl(s) in the center. Then split "
@@ -26112,7 +26112,7 @@ msgid_plural "Then split %n pieces of candy equally between them."
 msgstr[0] "Jaa sitten %n karkki tasan kaikkien kesken."
 msgstr[1] "Jaa sitten %n karkkia tasan kaikkien kesken."
 
-#: activities/share/Share.qml:366
+#: activities/share/Share.qml:422
 #, qt-format
 msgctxt "Share|"
 msgid "You can't put more than %1 pieces of candy in the same rectangle"

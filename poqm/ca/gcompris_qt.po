@@ -25376,8 +25376,8 @@ msgctxt "Data|"
 msgid "Maximum 25 pieces of candy and 5 kids, no rest."
 msgstr "Màxim 25 dolços i 5 infants, que no en quedin."
 
-#: activities/share/resource/1/Data.qml:20
-#: activities/share/resource/2/Data.qml:20
+#: activities/share/resource/1/Data.qml:22
+#: activities/share/resource/2/Data.qml:22
 msgctxt "Data|"
 msgid ""
 "Paul wants to share 2 pieces of candy equally between 2 of his girl friends. "
@@ -25388,18 +25388,18 @@ msgstr ""
 "ajudar-lo? Posa primer la mainada al centre, després arrossega els dolços "
 "per a cadascuna."
 
-#: activities/share/resource/1/Data.qml:30
+#: activities/share/resource/1/Data.qml:32
 msgctxt "Data|"
 msgid "Now he wants to share 4 pieces of candy equally among his friends."
 msgstr "Ara vol compartir per igual 4 dolços amb les seves amistats."
 
-#: activities/share/resource/1/Data.qml:40
+#: activities/share/resource/1/Data.qml:42
 msgctxt "Data|"
 msgid ""
 "Can you now share 6 of Paul's pieces of candy equally among his friends?"
 msgstr "Pots compartir per igual 6 dolços d'en Pau entre les seves amistats?"
 
-#: activities/share/resource/1/Data.qml:50
+#: activities/share/resource/1/Data.qml:52
 msgctxt "Data|"
 msgid ""
 "Some of his friends already have pieces of candy. He wants to give them 7 "
@@ -25408,7 +25408,7 @@ msgstr ""
 "Algunes de les seves amistats ja tenen dolços. Vol donar-los 7 peces més "
 "perquè tothom tingui la mateixa quantitat."
 
-#: activities/share/resource/1/Data.qml:60
+#: activities/share/resource/1/Data.qml:62
 msgctxt "Data|"
 msgid ""
 "Paul has only 12 pieces of candy left. He eats 2 pieces of candy and he "
@@ -25418,7 +25418,7 @@ msgstr ""
 "En Pau només té 12 dolços. Se'n menja 2 i li dona la resta a les seves "
 "amistats. Pots ajudar-lo a dividir per igual els 10 dolços restants?"
 
-#: activities/share/resource/1/Data.qml:72
+#: activities/share/resource/1/Data.qml:77
 msgctxt "Data|"
 msgid ""
 "George wants to share 3 pieces of candy equally between 3 of his girl "
@@ -25427,7 +25427,7 @@ msgstr ""
 "En Jordi vol compartir per igual 3 dolços amb 3 de les seves amigues. Pots "
 "dividir els dolços per igual?"
 
-#: activities/share/resource/1/Data.qml:82
+#: activities/share/resource/1/Data.qml:87
 msgctxt "Data|"
 msgid ""
 "Maria wants to share 6 pieces of candy equally between 3 of her friends: 1 "
@@ -25437,7 +25437,7 @@ msgstr ""
 "nena i 2 nens. Pots dividir els dolços per igual?"
 
 # skip-rule: gender-kids
-#: activities/share/resource/1/Data.qml:92
+#: activities/share/resource/1/Data.qml:97
 msgctxt "Data|"
 msgid ""
 "John wants to share 8 pieces of candy equally between 3 of his friends: 1 "
@@ -25448,7 +25448,7 @@ msgstr ""
 "nen i 2 nenes. Pots ajudar-lo? El nen ja en té un. Pots assegurar-te que "
 "tothom tingui la mateixa quantitat?"
 
-#: activities/share/resource/1/Data.qml:102
+#: activities/share/resource/1/Data.qml:107
 msgctxt "Data|"
 msgid ""
 "Paul wants to share 12 pieces of candy equally between 3 of his friends: 2 "
@@ -25458,7 +25458,7 @@ msgstr ""
 "nens i 1 nena. Pots dividir els dolços per igual?"
 
 # skip-rule: gender-kids
-#: activities/share/resource/1/Data.qml:112
+#: activities/share/resource/1/Data.qml:117
 msgctxt "Data|"
 msgid ""
 "Maria wants to share 11 pieces of candy between 3 of her friends: 1 boy and "
@@ -25469,8 +25469,8 @@ msgstr ""
 "nen i 2 nenes. Les nenes ja tenen algun dolç. Com els hauria de dividir de "
 "manera que tothom tingui la mateixa quantitat?"
 
-#: activities/share/resource/1/Data.qml:124
-#: activities/share/resource/2/Data.qml:114
+#: activities/share/resource/1/Data.qml:132
+#: activities/share/resource/2/Data.qml:122
 msgctxt "Data|"
 msgid ""
 "Alice wants to share 4 pieces of candy equally between 4 of her girl "
@@ -25479,12 +25479,12 @@ msgstr ""
 "L'Alícia vol compartir per igual 4 dolços entre 4 de les seves amigues. Pots "
 "ajudar-la?"
 
-#: activities/share/resource/1/Data.qml:134
+#: activities/share/resource/1/Data.qml:142
 msgctxt "Data|"
 msgid "Now, Alice wants to give 8 pieces of candy to her friends."
 msgstr "Ara, l'Alícia vol donar 8 dolços a les seves amistats."
 
-#: activities/share/resource/1/Data.qml:144
+#: activities/share/resource/1/Data.qml:152
 msgctxt "Data|"
 msgid ""
 "Alice wants to give 10 pieces of candy to her friends, 1 girl and 3 boys, so "
@@ -25494,12 +25494,12 @@ msgstr ""
 "L'Alícia vol donar 10 dolços a les seves amistats, 1 nena i 3 nens, de "
 "manera que tothom tingui la mateixa quantitat. Les nenes ja tenen algun dolç."
 
-#: activities/share/resource/1/Data.qml:154
+#: activities/share/resource/1/Data.qml:162
 msgctxt "Data|"
 msgid "Alice wants to give 16 pieces of candy to her friends."
 msgstr "L'Alícia vol donar 16 dolços a les seves amistats."
 
-#: activities/share/resource/1/Data.qml:164
+#: activities/share/resource/1/Data.qml:172
 msgctxt "Data|"
 msgid ""
 "Alice wants to give pieces of candy to 4 friends. Some of them already have "
@@ -25510,7 +25510,7 @@ msgstr ""
 "ajudar-la a dividir 14 peces de manera que totes les seves amistats tinguin "
 "la mateixa quantitat?"
 
-#: activities/share/resource/1/Data.qml:176
+#: activities/share/resource/1/Data.qml:187
 msgctxt "Data|"
 msgid ""
 "Michael wants to share 5 pieces of candy equally between 5 of his girl "
@@ -25519,7 +25519,7 @@ msgstr ""
 "En Miquel vol compartir per igual 20 dolços entre 5 de les seves amigues. "
 "Pots ajudar-lo?"
 
-#: activities/share/resource/1/Data.qml:186
+#: activities/share/resource/1/Data.qml:197
 msgctxt "Data|"
 msgid ""
 "Helen has 5 friends: 2 boys and 3 girls. She wants to give them 10 pieces of "
@@ -25528,7 +25528,7 @@ msgstr ""
 "L'Elena té 5 amics: 2 nens i 3 nenes. Ella vol donar-los 10 dolços. Ajuda-la "
 "a dividir els dolços entre les seves amistats."
 
-#: activities/share/resource/1/Data.qml:196
+#: activities/share/resource/1/Data.qml:207
 msgctxt "Data|"
 msgid ""
 "Michelle wants to share 12 pieces of candy equally between her 4 brothers "
@@ -25539,7 +25539,7 @@ msgstr ""
 "germana, de manera que tothom tingui la mateixa quantitat. La seva germana "
 "ja té alguns dolços."
 
-#: activities/share/resource/1/Data.qml:206
+#: activities/share/resource/1/Data.qml:217
 msgctxt "Data|"
 msgid ""
 "Thomas wants to share his 20 pieces of candy with his friends: 1 boy and 4 "
@@ -25548,7 +25548,7 @@ msgstr ""
 "En Tomàs vol compartir els seus 20 dolços amb les seves amistats: 1 nen i 4 "
 "nenes. Pots ajudar-lo?"
 
-#: activities/share/resource/1/Data.qml:216
+#: activities/share/resource/1/Data.qml:227
 msgctxt "Data|"
 msgid ""
 "Paul wants to share 20 pieces of candy equally between 5 of his friends. "
@@ -25557,7 +25557,7 @@ msgstr ""
 "En Pau vol compartir per igual 20 dolços entre 5 de les seves amistats. Ja "
 "tenen un dolç cadascú. Pots ajudar-lo?"
 
-#: activities/share/resource/1/Data.qml:228
+#: activities/share/resource/1/Data.qml:242
 msgctxt "Data|"
 msgid ""
 "Charles wants to share his 6 pieces of candy equally with 2 of his girl "
@@ -25566,7 +25566,7 @@ msgstr ""
 "En Carles vol compartir per igual 6 dolços amb 2 de les seves amigues. Pots "
 "dividir els dolços per igual?"
 
-#: activities/share/resource/1/Data.qml:238
+#: activities/share/resource/1/Data.qml:252
 msgctxt "Data|"
 msgid ""
 "For her birthday, Elizabeth has 8 pieces of candy to share with 3 of her "
@@ -25578,7 +25578,7 @@ msgstr ""
 "Com hauria de dividir els dolços de manera que tothom tingui la mateixa "
 "quantitat?"
 
-#: activities/share/resource/1/Data.qml:248
+#: activities/share/resource/1/Data.qml:262
 msgctxt "Data|"
 msgid ""
 "Jason's father gave him 16 pieces of candy to share equally with his "
@@ -25590,7 +25590,7 @@ msgstr ""
 "amistats."
 
 # skip-rule: gender-kids
-#: activities/share/resource/1/Data.qml:258
+#: activities/share/resource/1/Data.qml:272
 msgctxt "Data|"
 msgid ""
 "George wants to share 14 pieces of candy between 4 of his friends: 2 girls "
@@ -25601,7 +25601,7 @@ msgstr ""
 "i 2 nens. Els nens ja tenen un dolç. Vol que tothom en tingui la mateixa "
 "quantitat."
 
-#: activities/share/resource/1/Data.qml:268
+#: activities/share/resource/1/Data.qml:282
 msgctxt "Data|"
 msgid ""
 "Maria wants to share 25 pieces of candy equally between 5 of her friends: 3 "
@@ -25615,22 +25615,22 @@ msgctxt "Data|"
 msgid "Maximum 25 pieces of candy and 5 kids, possible rest."
 msgstr "Màxim 25 dolços i 5 infants, en poden quedar."
 
-#: activities/share/resource/2/Data.qml:30
+#: activities/share/resource/2/Data.qml:32
 msgctxt "Data|"
 msgid "Now he wants to share 5 pieces of candy among his friends."
 msgstr "Ara vol compartir 5 dolços amb les seves amistats."
 
-#: activities/share/resource/2/Data.qml:40
+#: activities/share/resource/2/Data.qml:42
 msgctxt "Data|"
 msgid "Can you now share 7 of Paul's pieces of candy among his friends?"
 msgstr "Pots donar 7 dolços d'en Pau entre les seves amistats?"
 
-#: activities/share/resource/2/Data.qml:50
+#: activities/share/resource/2/Data.qml:52
 msgctxt "Data|"
 msgid "Can you now share 8 of Paul's pieces of candy among his friends?"
 msgstr "Pots donar 8 dolços d'en Pau entre les seves amistats?"
 
-#: activities/share/resource/2/Data.qml:60
+#: activities/share/resource/2/Data.qml:62
 msgctxt "Data|"
 msgid ""
 "Paul has only 11 pieces of candy left. He eats 2 pieces of candy and he "
@@ -25640,7 +25640,7 @@ msgstr ""
 "En Pau només té 11 dolços. Se'n menja 2 i li dona la resta a les seves "
 "amistats. Pots ajudar-lo a dividir per igual els 9 dolços restants?"
 
-#: activities/share/resource/2/Data.qml:72
+#: activities/share/resource/2/Data.qml:77
 msgctxt "Data|"
 msgid ""
 "Bob wants to share 3 pieces of candy equally between 3 of his girl friends. "
@@ -25650,7 +25650,7 @@ msgstr ""
 "dividir els dolços per igual?"
 
 # skip-rule: gender-kids
-#: activities/share/resource/2/Data.qml:82
+#: activities/share/resource/2/Data.qml:87
 msgctxt "Data|"
 msgid ""
 "Harry wants to share 8 pieces of candy between 3 of his friends: 1 boy and 2 "
@@ -25662,7 +25662,7 @@ msgstr ""
 "tothom tingui la mateixa quantitat?"
 
 # skip-rule: gender-kids
-#: activities/share/resource/2/Data.qml:92
+#: activities/share/resource/2/Data.qml:97
 msgctxt "Data|"
 msgid ""
 "Maria wants to share 8 pieces of candy between 3 of her friends: 1 boy and 2 "
@@ -25674,7 +25674,7 @@ msgstr ""
 "que tothom tingui la mateixa quantitat?"
 
 # skip-rule: gender-kids
-#: activities/share/resource/2/Data.qml:102
+#: activities/share/resource/2/Data.qml:107
 msgctxt "Data|"
 msgid ""
 "Harry wants to share 12 pieces of candy between 3 of his friends: 1 boy and "
@@ -25685,12 +25685,12 @@ msgstr ""
 "nenes. El nen ja té algun dolç. Com els hauria de dividir de manera que "
 "tothom tingui la mateixa quantitat?"
 
-#: activities/share/resource/2/Data.qml:124
+#: activities/share/resource/2/Data.qml:132
 msgctxt "Data|"
 msgid "Now, Alice wants to share 8 pieces of candy equally among her friends."
 msgstr "Ara, l'Alícia vol compartir per igual 8 dolços amb les seves amistats."
 
-#: activities/share/resource/2/Data.qml:134
+#: activities/share/resource/2/Data.qml:142
 msgctxt "Data|"
 msgid ""
 "Can you help Alice share 10 pieces of candy equally among her friends: 1 "
@@ -25699,13 +25699,13 @@ msgstr ""
 "Pots ajudar a l'Alícia a compartir per igual 10 dolços entre les seves "
 "amistats: 1 nena i 3 nens? La nena ja té alguns dolços."
 
-#: activities/share/resource/2/Data.qml:144
+#: activities/share/resource/2/Data.qml:152
 msgctxt "Data|"
 msgid "Alice wants to share 16 pieces of candy equally among her friends."
 msgstr ""
 "Ara, l'Alícia vol compartir per igual 16 dolços amb les seves amistats."
 
-#: activities/share/resource/2/Data.qml:154
+#: activities/share/resource/2/Data.qml:162
 msgctxt "Data|"
 msgid ""
 "Alice has 14 pieces of candy left. She wants to share them equally among her "
@@ -25716,7 +25716,7 @@ msgstr ""
 "seves amistats. Els nens ja tenen alguns caramels. Pots ajudar-la a dividir-"
 "los per igual?"
 
-#: activities/share/resource/2/Data.qml:166
+#: activities/share/resource/2/Data.qml:177
 msgctxt "Data|"
 msgid ""
 "Help Jon share 11 pieces of candies equally between five girls. The rest "
@@ -25725,7 +25725,7 @@ msgstr ""
 "Ajuda en Joaquim a compartir per igual 11 dolços entre 5 nenes. La resta "
 "se'ls quedarà en Joaquim."
 
-#: activities/share/resource/2/Data.qml:176
+#: activities/share/resource/2/Data.qml:187
 msgctxt "Data|"
 msgid ""
 "Jon wants to share the rest of his pieces of candies with his brothers and "
@@ -25736,19 +25736,19 @@ msgstr ""
 "germanes. Pots dividir-los per igual, sabent que els seus germans ja en "
 "tenen 2?"
 
-#: activities/share/resource/2/Data.qml:186
+#: activities/share/resource/2/Data.qml:197
 msgctxt "Data|"
 msgid ""
 "Help Tux split 19 pieces of candies between his friends: 4 boys and 1 girl."
 msgstr ""
 "Ajuda en Tux a dividir 19 dolços entre les seves amistats: 4 nens i 1 nena."
 
-#: activities/share/resource/2/Data.qml:196
+#: activities/share/resource/2/Data.qml:207
 msgctxt "Data|"
 msgid "Help Maria share 18 pieces of candy equally between 3 boys and 2 girls."
 msgstr "Ajuda na Maria a compartir per igual 18 dolços entre 3 nens i 2 nenes."
 
-#: activities/share/resource/2/Data.qml:208
+#: activities/share/resource/2/Data.qml:222
 msgctxt "Data|"
 msgid ""
 "Charles wants to share his 6 pieces of candy equally between 2 of his girl "
@@ -25757,7 +25757,7 @@ msgstr ""
 "En Carles vol compartir per igual 6 dolços amb 2 de les seves amigues. Pots "
 "dividir els dolços per igual?"
 
-#: activities/share/resource/2/Data.qml:218
+#: activities/share/resource/2/Data.qml:232
 msgctxt "Data|"
 msgid ""
 "For her birthday, Elizabeth has 8 pieces of candy to share with 3 of her "
@@ -25768,7 +25768,7 @@ msgstr ""
 "3 de les seves amistats. Es tracta de 2 nenes i 1 nen. Com hauria de dividir "
 "els dolços entre les seves amistats?"
 
-#: activities/share/resource/2/Data.qml:228
+#: activities/share/resource/2/Data.qml:242
 msgctxt "Data|"
 msgid ""
 "Jason's father gave him 17 pieces of candy to share equally between his "
@@ -25779,7 +25779,7 @@ msgstr ""
 "seves amistats: 2 nens i 2 nenes. Ajuda'l a donar els dolços a les seves "
 "amistats."
 
-#: activities/share/resource/2/Data.qml:238
+#: activities/share/resource/2/Data.qml:252
 msgctxt "Data|"
 msgid ""
 "George wants to share 14 pieces of candy equally between 4 of his friends: 2 "
@@ -25789,7 +25789,7 @@ msgstr ""
 "En Jordi vol compartir per igual 14 dolços entre 4 de les seves amistats. 2 "
 "nenes i 2 nens. Pots dividir els dolços per igual?"
 
-#: activities/share/resource/2/Data.qml:248
+#: activities/share/resource/2/Data.qml:262
 msgctxt "Data|"
 msgid ""
 "Maria wants to share 23 pieces of candy equally between 5 of her friends: 3 "
@@ -25804,7 +25804,7 @@ msgctxt "Data|"
 msgid "Maximum 30 pieces of candy and 6 kids, possible rest."
 msgstr "Màxim 30 dolços i 6 infants, en poden quedar."
 
-#: activities/share/share.js:114
+#: activities/share/share.js:149
 #, qt-format
 msgctxt ""
 "share|First part of Place %n boy(s) and %n girl(s) in the center. Then split "
@@ -25814,7 +25814,7 @@ msgid_plural "Place %n boy(s) "
 msgstr[0] "Situa %n nen "
 msgstr[1] "Situa %n nens "
 
-#: activities/share/share.js:118
+#: activities/share/share.js:153
 #, qt-format
 msgctxt ""
 "share|Second part of Place %n boy(s) and %n girl(s) in the center. Then "
@@ -25824,7 +25824,7 @@ msgid_plural "and %n girl(s) in the center. "
 msgstr[0] "i %n nena al centre. "
 msgstr[1] "i %n nenes al centre. "
 
-#: activities/share/share.js:122
+#: activities/share/share.js:157
 #, qt-format
 msgctxt ""
 "share|Third part of Place %n boy(s) and %n girl(s) in the center. Then split "
@@ -25835,7 +25835,7 @@ msgstr[0] "Llavors divideix per igual %n dolç entre ells/es."
 msgstr[1] "Llavors divideix per igual %n dolços entre ells/es."
 
 # skip-rule: common-widget
-#: activities/share/Share.qml:366
+#: activities/share/Share.qml:422
 #, qt-format
 msgctxt "Share|"
 msgid "You can't put more than %1 pieces of candy in the same rectangle"

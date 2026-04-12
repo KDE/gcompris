@@ -1319,6 +1319,241 @@ msgctxt "MultipleChoiceEditor|"
 msgid "Mode"
 msgstr "Režīms"
 
+#: server/activities/share/ShareDataDisplay.qml:49
+#, fuzzy
+#| msgctxt "LearnDigitsEditor|"
+#| msgid "Number of circles"
+msgctxt "ShareDataDisplay|"
+msgid "Number of candies:"
+msgstr "Apļu skaits"
+
+#: server/activities/share/ShareDataDisplay.qml:76
+msgctxt "ShareDataDisplay|"
+msgid "Placed girls:"
+msgstr ""
+
+#. Display a fraction
+#: server/activities/share/ShareDataDisplay.qml:87
+#: server/activities/share/ShareDataDisplay.qml:118
+#: server/activities/share/ShareDataDisplay.qml:262
+#, qt-format
+msgctxt "ShareDataDisplay|"
+msgid "%1 / %2"
+msgstr ""
+
+#: server/activities/share/ShareDataDisplay.qml:107
+msgctxt "ShareDataDisplay|"
+msgid "Placed boys:"
+msgstr ""
+
+#: server/activities/share/ShareDataDisplay.qml:137
+msgctxt "ShareDataDisplay|"
+msgid "Expected candies per child:"
+msgstr ""
+
+#: server/activities/share/ShareDataDisplay.qml:164
+msgctxt "ShareDataDisplay|"
+msgid "Candies for girls:"
+msgstr ""
+
+#: server/activities/share/ShareDataDisplay.qml:195
+msgctxt "ShareDataDisplay|"
+msgid "Candies for boys:"
+msgstr ""
+
+#: server/activities/share/ShareDataDisplay.qml:224
+msgctxt "ShareDataDisplay|"
+msgid "Jar placed:"
+msgstr ""
+
+#: server/activities/share/ShareDataDisplay.qml:234
+#, fuzzy
+#| msgctxt "SettingsView|"
+#| msgid "Yes"
+msgctxt "ShareDataDisplay|"
+msgid "Yes"
+msgstr "Jā"
+
+#: server/activities/share/ShareDataDisplay.qml:234
+#, fuzzy
+#| msgctxt "SettingsView|"
+#| msgid "No"
+msgctxt "ShareDataDisplay|"
+msgid "No"
+msgstr "Nē"
+
+#: server/activities/share/ShareDataDisplay.qml:251
+msgctxt "ShareDataDisplay|"
+msgid "Candies in the jar:"
+msgstr ""
+
+#: server/activities/share/ShareEditor.qml:22
+#, fuzzy
+#| msgctxt "ActivityEditor|"
+#| msgid "Rules to create a valid dataset:"
+msgctxt "ShareEditor|"
+msgid "Rules to create a valid dataset:"
+msgstr "Noteikumi derīgas datu kopas izveidošanai:"
+
+#: server/activities/share/ShareEditor.qml:24
+msgctxt "ShareEditor|"
+msgid ""
+"In general, there can not be more than 6 children, and 6 candies per child."
+msgstr ""
+
+#: server/activities/share/ShareEditor.qml:26
+msgctxt "ShareEditor|"
+msgid ""
+"If \"Random numbers\" is selected, the number of already placed candies per "
+"child must be defined such that not all candies are already placed."
+msgstr ""
+
+#: server/activities/share/ShareEditor.qml:28
+msgctxt "ShareEditor|"
+msgid ""
+"The \"Instruction\" field allows to give a specific instruction for each "
+"sublevel. If it is empty, a default instruction text is used."
+msgstr ""
+
+#: server/activities/share/ShareEditor.qml:33
+#, fuzzy
+#| msgctxt "AlgebraEditor|"
+#| msgid "Shuffle"
+msgctxt "ShareEditor|"
+msgid "Shuffle"
+msgstr "Jaukt secību"
+
+#: server/activities/share/ShareEditor.qml:34
+#, fuzzy
+#| msgctxt "AdjacentNumbersEditor|"
+#| msgid "Sublevels"
+msgctxt "ShareEditor|"
+msgid "Sublevels"
+msgstr "Apakšlīmeņi"
+
+#: server/activities/share/ShareEditor.qml:40
+#, fuzzy
+#| msgctxt "BinaryBulbEditor|"
+#| msgid "Random numbers"
+msgctxt "ShareEditor|"
+msgid "Random numbers"
+msgstr "Nejauši skaitļi"
+
+#: server/activities/share/ShareEditor.qml:44
+#, fuzzy
+#| msgctxt "LearnDigitsEditor|"
+#| msgid "Number of circles"
+msgctxt "ShareEditor|"
+msgid "Number of girls"
+msgstr "Apļu skaits"
+
+#: server/activities/share/ShareEditor.qml:45
+#, fuzzy
+#| msgctxt "VerticalEditor|"
+#| msgid "Number of lines"
+msgctxt "ShareEditor|"
+msgid "Number of boys"
+msgstr "Rindu skaits"
+
+#: server/activities/share/ShareEditor.qml:46
+#, fuzzy
+#| msgctxt "LearnDigitsEditor|"
+#| msgid "Number of circles"
+msgctxt "ShareEditor|"
+msgid "Number of candies"
+msgstr "Apļu skaits"
+
+#: server/activities/share/ShareEditor.qml:47
+msgctxt "ShareEditor|"
+msgid "Candies already placed per girl"
+msgstr ""
+
+#: server/activities/share/ShareEditor.qml:48
+msgctxt "ShareEditor|"
+msgid "Candies already placed per boy"
+msgstr ""
+
+#: server/activities/share/ShareEditor.qml:49
+msgctxt "ShareEditor|"
+msgid "Force showing the jar"
+msgstr ""
+
+#: server/activities/share/ShareEditor.qml:52
+#, fuzzy
+#| msgctxt "FractionsFindEditor|"
+#| msgid "Maximum of units"
+msgctxt "ShareEditor|"
+msgid "Maximum number of girls"
+msgstr "Vienību maksimums"
+
+#: server/activities/share/ShareEditor.qml:53
+#, fuzzy
+#| msgctxt "FractionsFindEditor|"
+#| msgid "Maximum of units"
+msgctxt "ShareEditor|"
+msgid "Maximum number of boys"
+msgstr "Vienību maksimums"
+
+#: server/activities/share/ShareEditor.qml:54
+#, fuzzy
+#| msgctxt "FractionsFindEditor|"
+#| msgid "Maximum of units"
+msgctxt "ShareEditor|"
+msgid "Maximum number of candies"
+msgstr "Vienību maksimums"
+
+#: server/activities/share/ShareEditor.qml:55
+msgctxt "ShareEditor|"
+msgid "Already place some candies"
+msgstr ""
+
+#: server/activities/share/ShareEditor.qml:58
+#, fuzzy
+#| msgctxt "FractionsCreateEditor|"
+#| msgid "Instruction"
+msgctxt "ShareEditor|"
+msgid "Instruction"
+msgstr "Norādījumi"
+
+#: server/activities/share/ShareEditor.qml:289
+#, fuzzy
+#| msgctxt "AdjacentNumbersEditor|"
+#| msgid "Dataset is empty."
+msgctxt "ShareEditor|"
+msgid "Dataset is empty."
+msgstr "Datu kopa ir tukša."
+
+#: server/activities/share/ShareEditor.qml:299
+#, fuzzy, qt-format
+#| msgctxt "ComparatorEditor|"
+#| msgid "Level %1 must not be empty."
+msgctxt "ShareEditor|"
+msgid "Level %1 must not be empty."
+msgstr "%1. līmenis nedrīkst būt tukšs."
+
+#: server/activities/share/ShareEditor.qml:309
+#, fuzzy, qt-format
+#| msgctxt "MultipleChoiceEditor|"
+#| msgid "\"Answers\" in Sublevel %1 of Level %2 must not be empty."
+msgctxt "ShareEditor|"
+msgid "In Sublevel %2 of Level %1, the total number of children is 0."
+msgstr "%2. līmeņa %1. apakšlīmeņa „Atbildes“ nevar būt tukšas"
+
+#: server/activities/share/ShareEditor.qml:317
+#, qt-format
+msgctxt "ShareEditor|"
+msgid ""
+"In Sublevel %2 of Level %1, the number of already placed candies is too high."
+msgstr ""
+
+#: server/activities/share/ShareEditor.qml:324
+#, fuzzy, qt-format
+#| msgctxt "BinaryBulbEditor|"
+#| msgid "The following errors need to be fixed:<ul>%1</ul>"
+msgctxt "ShareEditor|"
+msgid "The following errors need to be fixed:<ul>%1</ul>"
+msgstr "Jānovērš šīs kļūdas:<ul>%1</ul>"
+
 #: server/activities/tens_complement_find/ActivityEditor.qml:15
 #: server/activities/tens_complement_use/ActivityEditor.qml:15
 msgctxt "ActivityEditor|"

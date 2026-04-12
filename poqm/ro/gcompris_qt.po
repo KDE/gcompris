@@ -25331,8 +25331,8 @@ msgctxt "Data|"
 msgid "Maximum 25 pieces of candy and 5 kids, no rest."
 msgstr "Maximum 25 de bomboane și 5 copii, fără rest."
 
-#: activities/share/resource/1/Data.qml:20
-#: activities/share/resource/2/Data.qml:20
+#: activities/share/resource/1/Data.qml:22
+#: activities/share/resource/2/Data.qml:22
 msgctxt "Data|"
 msgid ""
 "Paul wants to share 2 pieces of candy equally between 2 of his girl friends. "
@@ -25343,12 +25343,12 @@ msgstr ""
 "să-l ajuți? Mai întâi, așează copiii în centru, apoi trage bomboanele înspre "
 "fiecare din ei."
 
-#: activities/share/resource/1/Data.qml:30
+#: activities/share/resource/1/Data.qml:32
 msgctxt "Data|"
 msgid "Now he wants to share 4 pieces of candy equally among his friends."
 msgstr "Acum el vrea să împartă în mod egal 4 bomboane prietenilor lui."
 
-#: activities/share/resource/1/Data.qml:40
+#: activities/share/resource/1/Data.qml:42
 msgctxt "Data|"
 msgid ""
 "Can you now share 6 of Paul's pieces of candy equally among his friends?"
@@ -25356,7 +25356,7 @@ msgstr ""
 "Poți să împarți acum în mod egal cele 6 bomboane ale lui Paul prietenilor "
 "săi?"
 
-#: activities/share/resource/1/Data.qml:50
+#: activities/share/resource/1/Data.qml:52
 msgctxt "Data|"
 msgid ""
 "Some of his friends already have pieces of candy. He wants to give them 7 "
@@ -25365,7 +25365,7 @@ msgstr ""
 "Câțiva din prietenii lui au deja bomboane. El vrea să le dea încă 7 "
 "bomboane, astfel încât toți să aibă același număr."
 
-#: activities/share/resource/1/Data.qml:60
+#: activities/share/resource/1/Data.qml:62
 msgctxt "Data|"
 msgid ""
 "Paul has only 12 pieces of candy left. He eats 2 pieces of candy and he "
@@ -25376,7 +25376,7 @@ msgstr ""
 "prietenilor săi. Îl poți ajuta să împartă în mod egal cele 10 bomboane "
 "rămase?"
 
-#: activities/share/resource/1/Data.qml:72
+#: activities/share/resource/1/Data.qml:77
 msgctxt "Data|"
 msgid ""
 "George wants to share 3 pieces of candy equally between 3 of his girl "
@@ -25385,7 +25385,7 @@ msgstr ""
 "George vrea să împartă în mod egal 3 bomboane la 3 dintre prietenele lui. Le "
 "poate el împărți bomboanele în mod egal?"
 
-#: activities/share/resource/1/Data.qml:82
+#: activities/share/resource/1/Data.qml:87
 msgctxt "Data|"
 msgid ""
 "Maria wants to share 6 pieces of candy equally between 3 of her friends: 1 "
@@ -25394,7 +25394,7 @@ msgstr ""
 "Maria vrea să împartă în mod egal 6 bomboane la 3 prieteni de-ai ei: o fată "
 "și doi băieți. Le poate ea împărți bomboanele în mod egal?"
 
-#: activities/share/resource/1/Data.qml:92
+#: activities/share/resource/1/Data.qml:97
 msgctxt "Data|"
 msgid ""
 "John wants to share 8 pieces of candy equally between 3 of his friends: 1 "
@@ -25405,7 +25405,7 @@ msgstr ""
 "fete. Băiatul are deja o bomboană. Poate Ion să fie sigur că cei 3 vor avea "
 "același număr de bomboane?"
 
-#: activities/share/resource/1/Data.qml:102
+#: activities/share/resource/1/Data.qml:107
 msgctxt "Data|"
 msgid ""
 "Paul wants to share 12 pieces of candy equally between 3 of his friends: 2 "
@@ -25414,7 +25414,7 @@ msgstr ""
 "Paul vrea să-și împartă în mod egal cele 12 bomboane celor 3 prieteni ai "
 "lui: doi băieți și o fată. Le poate el împărți bomboanele în mod egal?"
 
-#: activities/share/resource/1/Data.qml:112
+#: activities/share/resource/1/Data.qml:117
 msgctxt "Data|"
 msgid ""
 "Maria wants to share 11 pieces of candy between 3 of her friends: 1 boy and "
@@ -25425,8 +25425,8 @@ msgstr ""
 "băiat și două fete. Fetele au deja câteva bomboane. Le poate el împărți cele "
 "11 bomboane astfel încât toți să aibă în final același număr?"
 
-#: activities/share/resource/1/Data.qml:124
-#: activities/share/resource/2/Data.qml:114
+#: activities/share/resource/1/Data.qml:132
+#: activities/share/resource/2/Data.qml:122
 msgctxt "Data|"
 msgid ""
 "Alice wants to share 4 pieces of candy equally between 4 of her girl "
@@ -25435,12 +25435,12 @@ msgstr ""
 "Alina vrea să împartă în mod egal 4 bomboane la 4 dintre prietenele ei. O "
 "poți ajuta?"
 
-#: activities/share/resource/1/Data.qml:134
+#: activities/share/resource/1/Data.qml:142
 msgctxt "Data|"
 msgid "Now, Alice wants to give 8 pieces of candy to her friends."
 msgstr "Acum, Alina vrea să dea 8 bomboane prietenilor săi."
 
-#: activities/share/resource/1/Data.qml:144
+#: activities/share/resource/1/Data.qml:152
 msgctxt "Data|"
 msgid ""
 "Alice wants to give 10 pieces of candy to her friends, 1 girl and 3 boys, so "
@@ -25451,12 +25451,12 @@ msgstr ""
 "încât fiecare să aibă același număr de bomboane. Fetele au deja câteva "
 "bomboane."
 
-#: activities/share/resource/1/Data.qml:154
+#: activities/share/resource/1/Data.qml:162
 msgctxt "Data|"
 msgid "Alice wants to give 16 pieces of candy to her friends."
 msgstr "Acum, Alina vrea să dea 16 bomboane prietenilor săi."
 
-#: activities/share/resource/1/Data.qml:164
+#: activities/share/resource/1/Data.qml:172
 msgctxt "Data|"
 msgid ""
 "Alice wants to give pieces of candy to 4 friends. Some of them already have "
@@ -25467,7 +25467,7 @@ msgstr ""
 "bomboane. O poți ajuta să împartă cele 14 bomboane, astfel încât fiecare "
 "prieten să aibă în final același număr de bomboane?"
 
-#: activities/share/resource/1/Data.qml:176
+#: activities/share/resource/1/Data.qml:187
 msgctxt "Data|"
 msgid ""
 "Michael wants to share 5 pieces of candy equally between 5 of his girl "
@@ -25476,7 +25476,7 @@ msgstr ""
 "Mihai vrea să împartă 5 bomboane în mod egal celor 5 prietene ale lui. Îl "
 "poți ajuta?"
 
-#: activities/share/resource/1/Data.qml:186
+#: activities/share/resource/1/Data.qml:197
 msgctxt "Data|"
 msgid ""
 "Helen has 5 friends: 2 boys and 3 girls. She wants to give them 10 pieces of "
@@ -25485,7 +25485,7 @@ msgstr ""
 "Elena are 5 prieteni, doi băieți și trei fete. Ea vrea să le dea 10 "
 "bomboane. Ajut-o să împartă în mod egal bomboanele prietenilor ei."
 
-#: activities/share/resource/1/Data.qml:196
+#: activities/share/resource/1/Data.qml:207
 msgctxt "Data|"
 msgid ""
 "Michelle wants to share 12 pieces of candy equally between her 4 brothers "
@@ -25496,7 +25496,7 @@ msgstr ""
 "de-a ei. Sora ei are deja câteva bomboane. Ajut-o pe Mihaela să împartă "
 "bomboanele."
 
-#: activities/share/resource/1/Data.qml:206
+#: activities/share/resource/1/Data.qml:217
 msgctxt "Data|"
 msgid ""
 "Thomas wants to share his 20 pieces of candy with his friends: 1 boy and 4 "
@@ -25505,7 +25505,7 @@ msgstr ""
 "Toma vrea să împartă cele 20 de bomboane cu prietenii săi: un băiat și patru "
 "fete. Îl poți ajuta?"
 
-#: activities/share/resource/1/Data.qml:216
+#: activities/share/resource/1/Data.qml:227
 msgctxt "Data|"
 msgid ""
 "Paul wants to share 20 pieces of candy equally between 5 of his friends. "
@@ -25514,7 +25514,7 @@ msgstr ""
 "Paul vrea să împartă în mod egal cele 20 de bomboane ale lui la 5 din "
 "prietenii săi. Ei deja au câte o bomboană. Îl poți ajuta?"
 
-#: activities/share/resource/1/Data.qml:228
+#: activities/share/resource/1/Data.qml:242
 msgctxt "Data|"
 msgid ""
 "Charles wants to share his 6 pieces of candy equally with 2 of his girl "
@@ -25523,7 +25523,7 @@ msgstr ""
 "Carol vrea să-și împartă cele 6 bomboane cu două din prietenele lui. Poate "
 "el împărți bomboanele în mod egal?"
 
-#: activities/share/resource/1/Data.qml:238
+#: activities/share/resource/1/Data.qml:252
 msgctxt "Data|"
 msgid ""
 "For her birthday, Elizabeth has 8 pieces of candy to share with 3 of her "
@@ -25534,7 +25534,7 @@ msgstr ""
 "două fete și un băiat. Fetele au deja niște bomboane. Cum ar trebui ea să "
 "împartă prietenilor bomboanele astfel încât fiecare să aibă la fel?"
 
-#: activities/share/resource/1/Data.qml:248
+#: activities/share/resource/1/Data.qml:262
 msgctxt "Data|"
 msgid ""
 "Jason's father gave him 16 pieces of candy to share equally with his "
@@ -25545,7 +25545,7 @@ msgstr ""
 "prietenii lui: doi băieți și două fete. Ajută-l să dea bomboanele "
 "prietenilor."
 
-#: activities/share/resource/1/Data.qml:258
+#: activities/share/resource/1/Data.qml:272
 msgctxt "Data|"
 msgid ""
 "George wants to share 14 pieces of candy between 4 of his friends: 2 girls "
@@ -25556,7 +25556,7 @@ msgstr ""
 "doi băieți. Băieții au deja câte o bomboană. El vrea ca fiecare din cei 4 să "
 "aibă în final același număr de bomboane. Îl poți ajuta?"
 
-#: activities/share/resource/1/Data.qml:268
+#: activities/share/resource/1/Data.qml:282
 msgctxt "Data|"
 msgid ""
 "Maria wants to share 25 pieces of candy equally between 5 of her friends: 3 "
@@ -25570,22 +25570,22 @@ msgctxt "Data|"
 msgid "Maximum 25 pieces of candy and 5 kids, possible rest."
 msgstr "Maximum 25 de bomboane și 5 copii, cu un posibil rest."
 
-#: activities/share/resource/2/Data.qml:30
+#: activities/share/resource/2/Data.qml:32
 msgctxt "Data|"
 msgid "Now he wants to share 5 pieces of candy among his friends."
 msgstr "Acum el vrea să împartă 5 bomboane prietenilor lui."
 
-#: activities/share/resource/2/Data.qml:40
+#: activities/share/resource/2/Data.qml:42
 msgctxt "Data|"
 msgid "Can you now share 7 of Paul's pieces of candy among his friends?"
 msgstr "Poți să împarți acum cele 7 bomboane ale lui Paul prietenilor săi?"
 
-#: activities/share/resource/2/Data.qml:50
+#: activities/share/resource/2/Data.qml:52
 msgctxt "Data|"
 msgid "Can you now share 8 of Paul's pieces of candy among his friends?"
 msgstr "Poți să împarți acum cele 8 bomboane ale lui Paul prietenilor săi?"
 
-#: activities/share/resource/2/Data.qml:60
+#: activities/share/resource/2/Data.qml:62
 msgctxt "Data|"
 msgid ""
 "Paul has only 11 pieces of candy left. He eats 2 pieces of candy and he "
@@ -25595,7 +25595,7 @@ msgstr ""
 "Lui Paul i-au rămas doar 11 bomboane. El mănâncă 2 bomboane și dă restul "
 "prietenilor săi. Îl poți ajuta să împartă în mod egal cele 9 bomboane rămase?"
 
-#: activities/share/resource/2/Data.qml:72
+#: activities/share/resource/2/Data.qml:77
 msgctxt "Data|"
 msgid ""
 "Bob wants to share 3 pieces of candy equally between 3 of his girl friends. "
@@ -25604,7 +25604,7 @@ msgstr ""
 "Robert vrea să împartă în mod egal 3 bomboane celor 3 prietene ale lui. Le "
 "poate el împărți bomboanele în mod egal?"
 
-#: activities/share/resource/2/Data.qml:82
+#: activities/share/resource/2/Data.qml:87
 msgctxt "Data|"
 msgid ""
 "Harry wants to share 8 pieces of candy between 3 of his friends: 1 boy and 2 "
@@ -25615,7 +25615,7 @@ msgstr ""
 "băiat și două fete. Băiatul are deja o bomboană. Le poate Paul împărți în "
 "mod egal bomboanele?"
 
-#: activities/share/resource/2/Data.qml:92
+#: activities/share/resource/2/Data.qml:97
 msgctxt "Data|"
 msgid ""
 "Maria wants to share 8 pieces of candy between 3 of her friends: 1 boy and 2 "
@@ -25626,7 +25626,7 @@ msgstr ""
 "fete. Fetele au deja câte o bomboană. Le poate Maria împărți prietenilor în "
 "mod egal bomboanele?"
 
-#: activities/share/resource/2/Data.qml:102
+#: activities/share/resource/2/Data.qml:107
 msgctxt "Data|"
 msgid ""
 "Harry wants to share 12 pieces of candy between 3 of his friends: 1 boy and "
@@ -25637,12 +25637,12 @@ msgstr ""
 "două fete. Băiatul are deja o bomboană. Poate Harry împărți bomboanele "
 "astfel încât fiecare prieten să aibă în final același număr?"
 
-#: activities/share/resource/2/Data.qml:124
+#: activities/share/resource/2/Data.qml:132
 msgctxt "Data|"
 msgid "Now, Alice wants to share 8 pieces of candy equally among her friends."
 msgstr "Acum, Alina vrea să împartă în mod egal 8 bomboane prietenilor ei."
 
-#: activities/share/resource/2/Data.qml:134
+#: activities/share/resource/2/Data.qml:142
 msgctxt "Data|"
 msgid ""
 "Can you help Alice share 10 pieces of candy equally among her friends: 1 "
@@ -25651,12 +25651,12 @@ msgstr ""
 "O poți ajuta pe Alina să împartă 10 bomboane prietenilor ei, o fată și trei "
 "băieți? Fata are deja câteva bomboane."
 
-#: activities/share/resource/2/Data.qml:144
+#: activities/share/resource/2/Data.qml:152
 msgctxt "Data|"
 msgid "Alice wants to share 16 pieces of candy equally among her friends."
 msgstr "Alina vrea să împartă în mod egal 16 bomboane prietenilor ei."
 
-#: activities/share/resource/2/Data.qml:154
+#: activities/share/resource/2/Data.qml:162
 msgctxt "Data|"
 msgid ""
 "Alice has 14 pieces of candy left. She wants to share them equally among her "
@@ -25667,7 +25667,7 @@ msgstr ""
 "ei. Băieții au deja câteva bomboane. O poți ajuta să împartă bomboanele în "
 "mod egal?"
 
-#: activities/share/resource/2/Data.qml:166
+#: activities/share/resource/2/Data.qml:177
 msgctxt "Data|"
 msgid ""
 "Help Jon share 11 pieces of candies equally between five girls. The rest "
@@ -25676,7 +25676,7 @@ msgstr ""
 "Ajută-l pe Bogdan să împartă în mod egal 11 bomboane la 5 fete. Restul "
 "bomboanelor rămase îi vor rămâne lui."
 
-#: activities/share/resource/2/Data.qml:176
+#: activities/share/resource/2/Data.qml:187
 msgctxt "Data|"
 msgid ""
 "Jon wants to share the rest of his pieces of candies with his brothers and "
@@ -25687,7 +25687,7 @@ msgstr ""
 "surorile sale. Poți să le împarți în mod egal între ei, știind că frații săi "
 "au deja două bomboane?"
 
-#: activities/share/resource/2/Data.qml:186
+#: activities/share/resource/2/Data.qml:197
 msgctxt "Data|"
 msgid ""
 "Help Tux split 19 pieces of candies between his friends: 4 boys and 1 girl."
@@ -25695,14 +25695,14 @@ msgstr ""
 "Ajută-l pe Tux să împartă în mod egal 19 bomboane prietenilor lui: patru "
 "băieți și o fată."
 
-#: activities/share/resource/2/Data.qml:196
+#: activities/share/resource/2/Data.qml:207
 msgctxt "Data|"
 msgid "Help Maria share 18 pieces of candy equally between 3 boys and 2 girls."
 msgstr ""
 "Ajut-o pe Maria să împartă în mod egal 18 bomboane la trei băieți și două "
 "fete."
 
-#: activities/share/resource/2/Data.qml:208
+#: activities/share/resource/2/Data.qml:222
 msgctxt "Data|"
 msgid ""
 "Charles wants to share his 6 pieces of candy equally between 2 of his girl "
@@ -25711,7 +25711,7 @@ msgstr ""
 "Carol vrea să împartă 6 bomboane la două din prietenele lui. Le poate el "
 "împărți bomboanele în mod egal?"
 
-#: activities/share/resource/2/Data.qml:218
+#: activities/share/resource/2/Data.qml:232
 msgctxt "Data|"
 msgid ""
 "For her birthday, Elizabeth has 8 pieces of candy to share with 3 of her "
@@ -25722,7 +25722,7 @@ msgstr ""
 "două fete și un băiat. Cum ar trebui ea să împartă prietenilor în mod egal "
 "bomboanele?"
 
-#: activities/share/resource/2/Data.qml:228
+#: activities/share/resource/2/Data.qml:242
 msgctxt "Data|"
 msgid ""
 "Jason's father gave him 17 pieces of candy to share equally between his "
@@ -25732,7 +25732,7 @@ msgstr ""
 "Tatăl lui Ianis i-a dat 17 bomboane, să le împartă în mod egal cu prietenii: "
 "doi băieți și două fete. Ajută-l să dea bomboanele prietenilor."
 
-#: activities/share/resource/2/Data.qml:238
+#: activities/share/resource/2/Data.qml:252
 msgctxt "Data|"
 msgid ""
 "George wants to share 14 pieces of candy equally between 4 of his friends: 2 "
@@ -25742,7 +25742,7 @@ msgstr ""
 "George vrea să împartă în mod egal 14 bomboane la 4 prieteni: două fete și "
 "doi băieți. Le poate el împărți în mod egal bomboanele?"
 
-#: activities/share/resource/2/Data.qml:248
+#: activities/share/resource/2/Data.qml:262
 msgctxt "Data|"
 msgid ""
 "Maria wants to share 23 pieces of candy equally between 5 of her friends: 3 "
@@ -25757,7 +25757,7 @@ msgctxt "Data|"
 msgid "Maximum 30 pieces of candy and 6 kids, possible rest."
 msgstr "Maximum 30 de bomboane și 6 copii, cu un posibil rest."
 
-#: activities/share/share.js:114
+#: activities/share/share.js:149
 #, qt-format
 msgctxt ""
 "share|First part of Place %n boy(s) and %n girl(s) in the center. Then split "
@@ -25768,7 +25768,7 @@ msgstr[0] "Plasează %n băiat"
 msgstr[1] "Plasează %n băieți "
 msgstr[2] "Așează %n băieți "
 
-#: activities/share/share.js:118
+#: activities/share/share.js:153
 #, qt-format
 msgctxt ""
 "share|Second part of Place %n boy(s) and %n girl(s) in the center. Then "
@@ -25779,7 +25779,7 @@ msgstr[0] "și %n fată în centru. "
 msgstr[1] "și %n fete în centru. "
 msgstr[2] "și %n fete în centru. "
 
-#: activities/share/share.js:122
+#: activities/share/share.js:157
 #, qt-format
 msgctxt ""
 "share|Third part of Place %n boy(s) and %n girl(s) in the center. Then split "
@@ -25790,7 +25790,7 @@ msgstr[0] "Apoi împarte în mod egal %n bomboană între ei."
 msgstr[1] "Împarte apoi în mod egal %n bomboane între ei."
 msgstr[2] "Împarte apoi în mod egal %n bomboane între ei."
 
-#: activities/share/Share.qml:366
+#: activities/share/Share.qml:422
 #, qt-format
 msgctxt "Share|"
 msgid "You can't put more than %1 pieces of candy in the same rectangle"

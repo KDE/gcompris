@@ -25560,8 +25560,8 @@ msgctxt "Data|"
 msgid "Maximum 25 pieces of candy and 5 kids, no rest."
 msgstr "Upeo wa vipande 25 vya pipi na watoto 5, hakuna kupumzika."
 
-#: activities/share/resource/1/Data.qml:20
-#: activities/share/resource/2/Data.qml:20
+#: activities/share/resource/1/Data.qml:22
+#: activities/share/resource/2/Data.qml:22
 msgctxt "Data|"
 msgid ""
 "Paul wants to share 2 pieces of candy equally between 2 of his girl friends. "
@@ -25572,13 +25572,13 @@ msgstr ""
 "marafiki zake wa kike. Je, unaweza kumsaidia? Kwanza, weka watoto katikati, "
 "kisha buruta vipande vya pipi kwa kila mmoja wao."
 
-#: activities/share/resource/1/Data.qml:30
+#: activities/share/resource/1/Data.qml:32
 msgctxt "Data|"
 msgid "Now he wants to share 4 pieces of candy equally among his friends."
 msgstr ""
 "Sasa anataka kushiriki vipande 4 vya pipi kwa usawa kati ya marafiki zake."
 
-#: activities/share/resource/1/Data.qml:40
+#: activities/share/resource/1/Data.qml:42
 msgctxt "Data|"
 msgid ""
 "Can you now share 6 of Paul's pieces of candy equally among his friends?"
@@ -25586,7 +25586,7 @@ msgstr ""
 "Je, sasa unaweza kushiriki vipande 6 vya pipi vya Paulo kwa usawa miongoni "
 "mwa marafiki zake?"
 
-#: activities/share/resource/1/Data.qml:50
+#: activities/share/resource/1/Data.qml:52
 msgctxt "Data|"
 msgid ""
 "Some of his friends already have pieces of candy. He wants to give them 7 "
@@ -25595,7 +25595,7 @@ msgstr ""
 "Baadhi ya marafiki zake tayari wana vipande vya peremende. Anataka kuwapa "
 "vipande 7 zaidi ili wote wawe na kiasi sawa."
 
-#: activities/share/resource/1/Data.qml:60
+#: activities/share/resource/1/Data.qml:62
 msgctxt "Data|"
 msgid ""
 "Paul has only 12 pieces of candy left. He eats 2 pieces of candy and he "
@@ -25606,7 +25606,7 @@ msgstr ""
 "wengine huwapa marafiki zake. Je, unaweza kumsaidia kugawanya kwa usawa "
 "vipande 10 vilivyobaki vya peremende?"
 
-#: activities/share/resource/1/Data.qml:72
+#: activities/share/resource/1/Data.qml:77
 msgctxt "Data|"
 msgid ""
 "George wants to share 3 pieces of candy equally between 3 of his girl "
@@ -25615,7 +25615,7 @@ msgstr ""
 "George anataka kushiriki vipande 3 vya pipi kwa usawa kati ya 3 ya marafiki "
 "zake wa kike. Je, anaweza kugawanya vipande vya pipi kwa usawa?"
 
-#: activities/share/resource/1/Data.qml:82
+#: activities/share/resource/1/Data.qml:87
 msgctxt "Data|"
 msgid ""
 "Maria wants to share 6 pieces of candy equally between 3 of her friends: 1 "
@@ -25625,7 +25625,7 @@ msgstr ""
 "wake: msichana 1 na wavulana 2. Je, anaweza kugawanya vipande vya pipi kwa "
 "usawa?"
 
-#: activities/share/resource/1/Data.qml:92
+#: activities/share/resource/1/Data.qml:97
 msgctxt "Data|"
 msgid ""
 "John wants to share 8 pieces of candy equally between 3 of his friends: 1 "
@@ -25636,7 +25636,7 @@ msgstr ""
 "marafiki zake: mvulana 1 na wasichana 2. Mvulana tayari ana moja. Je, "
 "anaweza kuhakikisha kwamba wote wana kiasi sawa?"
 
-#: activities/share/resource/1/Data.qml:102
+#: activities/share/resource/1/Data.qml:107
 msgctxt "Data|"
 msgid ""
 "Paul wants to share 12 pieces of candy equally between 3 of his friends: 2 "
@@ -25646,7 +25646,7 @@ msgstr ""
 "marafiki zake: wavulana 2 na msichana 1. Je, anaweza kugawanya vipande vya "
 "pipi kwa usawa?"
 
-#: activities/share/resource/1/Data.qml:112
+#: activities/share/resource/1/Data.qml:117
 msgctxt "Data|"
 msgid ""
 "Maria wants to share 11 pieces of candy between 3 of her friends: 1 boy and "
@@ -25657,8 +25657,8 @@ msgstr ""
 "mvulana 1 na wasichana 2. Wasichana tayari wana vipande vya pipi. Je, "
 "anaweza kugawanya vipande vya pipi ili vyote viwe na kiasi sawa?"
 
-#: activities/share/resource/1/Data.qml:124
-#: activities/share/resource/2/Data.qml:114
+#: activities/share/resource/1/Data.qml:132
+#: activities/share/resource/2/Data.qml:122
 msgctxt "Data|"
 msgid ""
 "Alice wants to share 4 pieces of candy equally between 4 of her girl "
@@ -25667,12 +25667,12 @@ msgstr ""
 "Alice anataka kushiriki vipande 4 vya peremende kwa usawa kati ya wasichana "
 "4 wa marafiki zake. Je, unaweza kumsaidia?"
 
-#: activities/share/resource/1/Data.qml:134
+#: activities/share/resource/1/Data.qml:142
 msgctxt "Data|"
 msgid "Now, Alice wants to give 8 pieces of candy to her friends."
 msgstr "Sasa, Alice anataka kuwapa marafiki zake vipande 8 vya peremende."
 
-#: activities/share/resource/1/Data.qml:144
+#: activities/share/resource/1/Data.qml:152
 msgctxt "Data|"
 msgid ""
 "Alice wants to give 10 pieces of candy to her friends, 1 girl and 3 boys, so "
@@ -25683,12 +25683,12 @@ msgstr ""
 "wavulana 3, ili wote wawe na kiasi sawa. Wasichana tayari wana vipande vya "
 "pipi."
 
-#: activities/share/resource/1/Data.qml:154
+#: activities/share/resource/1/Data.qml:162
 msgctxt "Data|"
 msgid "Alice wants to give 16 pieces of candy to her friends."
 msgstr "Alice anataka kuwapa marafiki zake vipande 16 vya peremende."
 
-#: activities/share/resource/1/Data.qml:164
+#: activities/share/resource/1/Data.qml:172
 msgctxt "Data|"
 msgid ""
 "Alice wants to give pieces of candy to 4 friends. Some of them already have "
@@ -25699,7 +25699,7 @@ msgstr ""
 "wana vipande vya pipi. Je, unaweza kumsaidia kugawanya vipande 14 vya "
 "peremende ili marafiki zake wote wawe na kiasi sawa?"
 
-#: activities/share/resource/1/Data.qml:176
+#: activities/share/resource/1/Data.qml:187
 msgctxt "Data|"
 msgid ""
 "Michael wants to share 5 pieces of candy equally between 5 of his girl "
@@ -25708,7 +25708,7 @@ msgstr ""
 "Michael anataka kushiriki vipande 5 vya peremende kwa usawa kati ya 5 ya "
 "marafiki zake wa kike. Je, unaweza kumsaidia?"
 
-#: activities/share/resource/1/Data.qml:186
+#: activities/share/resource/1/Data.qml:197
 msgctxt "Data|"
 msgid ""
 "Helen has 5 friends: 2 boys and 3 girls. She wants to give them 10 pieces of "
@@ -25717,7 +25717,7 @@ msgstr ""
 "Helen ana marafiki 5: wavulana 2 na wasichana 3. Anataka kuwapa vipande 10 "
 "vya pipi. Msaidie kugawanya vipande vya pipi kwa usawa kati ya marafiki zake."
 
-#: activities/share/resource/1/Data.qml:196
+#: activities/share/resource/1/Data.qml:207
 msgctxt "Data|"
 msgid ""
 "Michelle wants to share 12 pieces of candy equally between her 4 brothers "
@@ -25728,7 +25728,7 @@ msgstr ""
 "zake 4 na dada 1, ili wote wawe na kiasi sawa. Dada yake tayari ana vipande "
 "vya peremende."
 
-#: activities/share/resource/1/Data.qml:206
+#: activities/share/resource/1/Data.qml:217
 msgctxt "Data|"
 msgid ""
 "Thomas wants to share his 20 pieces of candy with his friends: 1 boy and 4 "
@@ -25737,7 +25737,7 @@ msgstr ""
 "Thomas anataka kushiriki vipande vyake 20 vya peremende na marafiki zake: "
 "mvulana 1 na wasichana 4. Je, unaweza kumsaidia?"
 
-#: activities/share/resource/1/Data.qml:216
+#: activities/share/resource/1/Data.qml:227
 msgctxt "Data|"
 msgid ""
 "Paul wants to share 20 pieces of candy equally between 5 of his friends. "
@@ -25747,7 +25747,7 @@ msgstr ""
 "zake 5. Tayari wana kipande kimoja cha pipi kila mmoja. Je, unaweza "
 "kumsaidia?"
 
-#: activities/share/resource/1/Data.qml:228
+#: activities/share/resource/1/Data.qml:242
 msgctxt "Data|"
 msgid ""
 "Charles wants to share his 6 pieces of candy equally with 2 of his girl "
@@ -25756,7 +25756,7 @@ msgstr ""
 "Charles anataka kushiriki vipande vyake 6 vya peremende kwa usawa na 2 kati "
 "ya marafiki zake wa kike. Je, anaweza kugawanya vipande vya pipi kwa usawa?"
 
-#: activities/share/resource/1/Data.qml:238
+#: activities/share/resource/1/Data.qml:252
 msgctxt "Data|"
 msgid ""
 "For her birthday, Elizabeth has 8 pieces of candy to share with 3 of her "
@@ -25768,7 +25768,7 @@ msgstr ""
 "wana vipande vya pipi. Je, angegawanya vipi vipande vya peremende ili vyote "
 "viwe na kiasi sawa?"
 
-#: activities/share/resource/1/Data.qml:248
+#: activities/share/resource/1/Data.qml:262
 msgctxt "Data|"
 msgid ""
 "Jason's father gave him 16 pieces of candy to share equally with his "
@@ -25779,7 +25779,7 @@ msgstr ""
 "marafiki zake: wavulana 2 na wasichana 2. Kumsaidia kutoa vipande vya pipi "
 "kwa marafiki zake."
 
-#: activities/share/resource/1/Data.qml:258
+#: activities/share/resource/1/Data.qml:272
 msgctxt "Data|"
 msgid ""
 "George wants to share 14 pieces of candy between 4 of his friends: 2 girls "
@@ -25790,7 +25790,7 @@ msgstr ""
 "zake: wasichana 2 na wavulana 2. Wavulana tayari wana kipande kimoja cha "
 "pipi kila mmoja. Anataka wote wawe na kiasi sawa."
 
-#: activities/share/resource/1/Data.qml:268
+#: activities/share/resource/1/Data.qml:282
 msgctxt "Data|"
 msgid ""
 "Maria wants to share 25 pieces of candy equally between 5 of her friends: 3 "
@@ -25805,26 +25805,26 @@ msgctxt "Data|"
 msgid "Maximum 25 pieces of candy and 5 kids, possible rest."
 msgstr "Upeo wa vipande 25 vya pipi na watoto 5, kupumzika iwezekanavyo."
 
-#: activities/share/resource/2/Data.qml:30
+#: activities/share/resource/2/Data.qml:32
 msgctxt "Data|"
 msgid "Now he wants to share 5 pieces of candy among his friends."
 msgstr "Sasa anataka kushiriki vipande 5 vya pipi kati ya marafiki zake."
 
-#: activities/share/resource/2/Data.qml:40
+#: activities/share/resource/2/Data.qml:42
 msgctxt "Data|"
 msgid "Can you now share 7 of Paul's pieces of candy among his friends?"
 msgstr ""
 "Je, sasa unaweza kushiriki vipande 7 vya pipi vya Paulo miongoni mwa "
 "marafiki zake?"
 
-#: activities/share/resource/2/Data.qml:50
+#: activities/share/resource/2/Data.qml:52
 msgctxt "Data|"
 msgid "Can you now share 8 of Paul's pieces of candy among his friends?"
 msgstr ""
 "Je, sasa unaweza kushiriki vipande 8 vya pipi vya Paulo miongoni mwa "
 "marafiki zake?"
 
-#: activities/share/resource/2/Data.qml:60
+#: activities/share/resource/2/Data.qml:62
 msgctxt "Data|"
 msgid ""
 "Paul has only 11 pieces of candy left. He eats 2 pieces of candy and he "
@@ -25835,7 +25835,7 @@ msgstr ""
 "wengine anawapa marafiki zake. Je, unaweza kumsaidia kugawanya kwa usawa "
 "vipande 9 vilivyobaki vya peremende?"
 
-#: activities/share/resource/2/Data.qml:72
+#: activities/share/resource/2/Data.qml:77
 msgctxt "Data|"
 msgid ""
 "Bob wants to share 3 pieces of candy equally between 3 of his girl friends. "
@@ -25844,7 +25844,7 @@ msgstr ""
 "Bob anataka kushiriki vipande 3 vya peremende kwa usawa kati ya 3 ya "
 "marafiki zake wa kike. Je, anaweza kugawanya vipande vya pipi kwa usawa?"
 
-#: activities/share/resource/2/Data.qml:82
+#: activities/share/resource/2/Data.qml:87
 msgctxt "Data|"
 msgid ""
 "Harry wants to share 8 pieces of candy between 3 of his friends: 1 boy and 2 "
@@ -25855,7 +25855,7 @@ msgstr ""
 "mvulana 1 na wasichana 2. Mvulana tayari ana kipande kimoja cha pipi. Je, "
 "anaweza kugawanya vipande vya pipi ili wote wawe na kiasi sawa?"
 
-#: activities/share/resource/2/Data.qml:92
+#: activities/share/resource/2/Data.qml:97
 msgctxt "Data|"
 msgid ""
 "Maria wants to share 8 pieces of candy between 3 of her friends: 1 boy and 2 "
@@ -25866,7 +25866,7 @@ msgstr ""
 "mvulana 1 na wasichana 2. Wasichana tayari wana vipande vya pipi. Je, "
 "anaweza kugawanya vipande vya pipi ili vyote viwe na kiasi sawa?"
 
-#: activities/share/resource/2/Data.qml:102
+#: activities/share/resource/2/Data.qml:107
 msgctxt "Data|"
 msgid ""
 "Harry wants to share 12 pieces of candy between 3 of his friends: 1 boy and "
@@ -25877,14 +25877,14 @@ msgstr ""
 "mvulana 1 na wasichana 2. Mvulana tayari ana vipande vya pipi. Je, anaweza "
 "kugawanya vipande vya pipi ili wote wawe na kiasi sawa?"
 
-#: activities/share/resource/2/Data.qml:124
+#: activities/share/resource/2/Data.qml:132
 msgctxt "Data|"
 msgid "Now, Alice wants to share 8 pieces of candy equally among her friends."
 msgstr ""
 "Sasa, Alice anataka kushiriki vipande 8 vya peremende kwa usawa miongoni mwa "
 "marafiki zake."
 
-#: activities/share/resource/2/Data.qml:134
+#: activities/share/resource/2/Data.qml:142
 msgctxt "Data|"
 msgid ""
 "Can you help Alice share 10 pieces of candy equally among her friends: 1 "
@@ -25894,14 +25894,14 @@ msgstr ""
 "miongoni mwa marafiki zake: msichana 1 na wavulana 3? Msichana tayari ana "
 "vipande vya pipi."
 
-#: activities/share/resource/2/Data.qml:144
+#: activities/share/resource/2/Data.qml:152
 msgctxt "Data|"
 msgid "Alice wants to share 16 pieces of candy equally among her friends."
 msgstr ""
 "Alice anataka kushiriki vipande 16 vya peremende kwa usawa miongoni mwa "
 "marafiki zake."
 
-#: activities/share/resource/2/Data.qml:154
+#: activities/share/resource/2/Data.qml:162
 msgctxt "Data|"
 msgid ""
 "Alice has 14 pieces of candy left. She wants to share them equally among her "
@@ -25912,7 +25912,7 @@ msgstr ""
 "kati ya marafiki zake. Wavulana tayari wana vipande vya pipi. Je, unaweza "
 "kumsaidia kugawanya vipande vya pipi kwa usawa?"
 
-#: activities/share/resource/2/Data.qml:166
+#: activities/share/resource/2/Data.qml:177
 msgctxt "Data|"
 msgid ""
 "Help Jon share 11 pieces of candies equally between five girls. The rest "
@@ -25921,7 +25921,7 @@ msgstr ""
 "Msaidie Jon kushiriki vipande 11 vya peremende kwa usawa kati ya wasichana "
 "watano. Mengine yatabaki kwa Jon."
 
-#: activities/share/resource/2/Data.qml:176
+#: activities/share/resource/2/Data.qml:187
 msgctxt "Data|"
 msgid ""
 "Jon wants to share the rest of his pieces of candies with his brothers and "
@@ -25932,7 +25932,7 @@ msgstr ""
 "dada zake. Je, unaweza kuwagawanya kwa usawa, ukijua kwamba ndugu zake "
 "tayari wana vipande 2 vya pipi?"
 
-#: activities/share/resource/2/Data.qml:186
+#: activities/share/resource/2/Data.qml:197
 msgctxt "Data|"
 msgid ""
 "Help Tux split 19 pieces of candies between his friends: 4 boys and 1 girl."
@@ -25940,14 +25940,14 @@ msgstr ""
 "Msaidie Tux kugawanya vipande 19 vya peremende kati ya marafiki zake: "
 "wavulana 4 na msichana 1."
 
-#: activities/share/resource/2/Data.qml:196
+#: activities/share/resource/2/Data.qml:207
 msgctxt "Data|"
 msgid "Help Maria share 18 pieces of candy equally between 3 boys and 2 girls."
 msgstr ""
 "Msaidie Maria kushiriki vipande 18 vya peremende kwa usawa kati ya wavulana "
 "3 na wasichana 2."
 
-#: activities/share/resource/2/Data.qml:208
+#: activities/share/resource/2/Data.qml:222
 msgctxt "Data|"
 msgid ""
 "Charles wants to share his 6 pieces of candy equally between 2 of his girl "
@@ -25957,7 +25957,7 @@ msgstr ""
 "kati ya marafiki zake wa kike. Je, anaweza kugawanya vipande vya pipi kwa "
 "usawa?"
 
-#: activities/share/resource/2/Data.qml:218
+#: activities/share/resource/2/Data.qml:232
 msgctxt "Data|"
 msgid ""
 "For her birthday, Elizabeth has 8 pieces of candy to share with 3 of her "
@@ -25968,7 +25968,7 @@ msgstr ""
 "kushiriki na marafiki zake 3 kwa usawa: wasichana 2 na mvulana 1. Je, "
 "anapaswa kugawanya vipi vipande vya peremende kati ya marafiki zake?"
 
-#: activities/share/resource/2/Data.qml:228
+#: activities/share/resource/2/Data.qml:242
 msgctxt "Data|"
 msgid ""
 "Jason's father gave him 17 pieces of candy to share equally between his "
@@ -25979,7 +25979,7 @@ msgstr ""
 "marafiki zake: wavulana 2 na wasichana 2. Kumsaidia kutoa vipande vya pipi "
 "kwa marafiki zake."
 
-#: activities/share/resource/2/Data.qml:238
+#: activities/share/resource/2/Data.qml:252
 msgctxt "Data|"
 msgid ""
 "George wants to share 14 pieces of candy equally between 4 of his friends: 2 "
@@ -25990,7 +25990,7 @@ msgstr ""
 "marafiki zake: wasichana 2 na wavulana 2. Je, anaweza kugawanya vipande vya "
 "pipi kwa usawa kati ya marafiki zake?"
 
-#: activities/share/resource/2/Data.qml:248
+#: activities/share/resource/2/Data.qml:262
 msgctxt "Data|"
 msgid ""
 "Maria wants to share 23 pieces of candy equally between 5 of her friends: 3 "
@@ -26006,7 +26006,7 @@ msgctxt "Data|"
 msgid "Maximum 30 pieces of candy and 6 kids, possible rest."
 msgstr "Upeo wa vipande 30 vya pipi na watoto 6, kupumzika iwezekanavyo."
 
-#: activities/share/share.js:114
+#: activities/share/share.js:149
 #, qt-format
 msgctxt ""
 "share|First part of Place %n boy(s) and %n girl(s) in the center. Then split "
@@ -26016,7 +26016,7 @@ msgid_plural "Place %n boy(s) "
 msgstr[0] "Place %n boy "
 msgstr[1] "Place %n boys "
 
-#: activities/share/share.js:118
+#: activities/share/share.js:153
 #, qt-format
 msgctxt ""
 "share|Second part of Place %n boy(s) and %n girl(s) in the center. Then "
@@ -26026,7 +26026,7 @@ msgid_plural "and %n girl(s) in the center. "
 msgstr[0] "and %n girl in the centre. "
 msgstr[1] "and %n girls in the centre. "
 
-#: activities/share/share.js:122
+#: activities/share/share.js:157
 #, qt-format
 msgctxt ""
 "share|Third part of Place %n boy(s) and %n girl(s) in the center. Then split "
@@ -26036,7 +26036,7 @@ msgid_plural "Then split %n pieces of candy equally between them."
 msgstr[0] "Then split %n sweet equally between them."
 msgstr[1] "Then split %n sweets equally between them."
 
-#: activities/share/Share.qml:366
+#: activities/share/Share.qml:422
 #, qt-format
 msgctxt "Share|"
 msgid "You can't put more than %1 pieces of candy in the same rectangle"

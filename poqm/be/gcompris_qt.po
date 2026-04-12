@@ -24657,8 +24657,8 @@ msgctxt "Data|"
 msgid "Maximum 25 pieces of candy and 5 kids, no rest."
 msgstr "Максімум 25 цукерак і 5 дзяцей, без рэшты."
 
-#: activities/share/resource/1/Data.qml:20
-#: activities/share/resource/2/Data.qml:20
+#: activities/share/resource/1/Data.qml:22
+#: activities/share/resource/2/Data.qml:22
 msgctxt "Data|"
 msgid ""
 "Paul wants to share 2 pieces of candy equally between 2 of his girl friends. "
@@ -24669,18 +24669,18 @@ msgstr ""
 "можаце Вы яму дапамагчы? Перасуньце спачатку дзяцей у цэнтр, а затым "
 "перацягніце цукеркі кожнаму з іх."
 
-#: activities/share/resource/1/Data.qml:30
+#: activities/share/resource/1/Data.qml:32
 msgctxt "Data|"
 msgid "Now he wants to share 4 pieces of candy equally among his friends."
 msgstr "Цяпер ён хоча пароўну падзяліць між сваімі сябрамі 4 цукеркі."
 
-#: activities/share/resource/1/Data.qml:40
+#: activities/share/resource/1/Data.qml:42
 msgctxt "Data|"
 msgid ""
 "Can you now share 6 of Paul's pieces of candy equally among his friends?"
 msgstr "Ці можаце Вы цяпер падзяліць 6 цукерак паміж сябрамі Паўліка?"
 
-#: activities/share/resource/1/Data.qml:50
+#: activities/share/resource/1/Data.qml:52
 msgctxt "Data|"
 msgid ""
 "Some of his friends already have pieces of candy. He wants to give them 7 "
@@ -24689,7 +24689,7 @@ msgstr ""
 "У некатрых ягоных сяброў ужо ёсць цукеркі. Ён хоча даць і ячшэ па 7 цукерак, "
 "каб у іх усіх была аднолькавая колькасць."
 
-#: activities/share/resource/1/Data.qml:60
+#: activities/share/resource/1/Data.qml:62
 msgctxt "Data|"
 msgid ""
 "Paul has only 12 pieces of candy left. He eats 2 pieces of candy and he "
@@ -24699,7 +24699,7 @@ msgstr ""
 "У Паўліка засталося было толькі 12 цукерак. Ён з'еў 2 і цяпер хоча аддаць "
 "астатнія сваім сябрам. Ці зможаце Вы пароўну падзяліць астатнія 10 цукерак?"
 
-#: activities/share/resource/1/Data.qml:72
+#: activities/share/resource/1/Data.qml:77
 msgctxt "Data|"
 msgid ""
 "George wants to share 3 pieces of candy equally between 3 of his girl "
@@ -24708,7 +24708,7 @@ msgstr ""
 "Жорык хоча пароўну падзяліць свае 3 цукеркі паміж 3 сваіх сябровак. Ці зможа "
 "ён пароўну падзяліць цукеркі?"
 
-#: activities/share/resource/1/Data.qml:82
+#: activities/share/resource/1/Data.qml:87
 msgctxt "Data|"
 msgid ""
 "Maria wants to share 6 pieces of candy equally between 3 of her friends: 1 "
@@ -24717,7 +24717,7 @@ msgstr ""
 "Марыля хоча пароўну падзяліць 6 цукерак паміж 3 сваімі сябрамі: 1 дзяўчынкі "
 "і 2 хлопчыкаў. Ці зможа яна пароўну падзяліць цукеркі?"
 
-#: activities/share/resource/1/Data.qml:92
+#: activities/share/resource/1/Data.qml:97
 msgctxt "Data|"
 msgid ""
 "John wants to share 8 pieces of candy equally between 3 of his friends: 1 "
@@ -24728,7 +24728,7 @@ msgstr ""
 "хлопчыкам і дзвюма дзяўчынкамі. У хлопчыка ўжо ёсць адна. Ці можа ён "
 "падзяліць так, каб ува ўсіх была аднолькавая колькасць?"
 
-#: activities/share/resource/1/Data.qml:102
+#: activities/share/resource/1/Data.qml:107
 msgctxt "Data|"
 msgid ""
 "Paul wants to share 12 pieces of candy equally between 3 of his friends: 2 "
@@ -24737,7 +24737,7 @@ msgstr ""
 "Паўлюк хоча пароўну падзяліць 12 цукерак паміж трыма сваімі сябрамі: 2 "
 "хлопчыкамі і 1 дзяўчынкай. Ці зможа ён пароўну падзяліць цукеркі?"
 
-#: activities/share/resource/1/Data.qml:112
+#: activities/share/resource/1/Data.qml:117
 msgctxt "Data|"
 msgid ""
 "Maria wants to share 11 pieces of candy between 3 of her friends: 1 boy and "
@@ -24748,8 +24748,8 @@ msgstr ""
 "хлопчыкам і дзвюма дзяўчынкамі. У дзяўчат ўжо ёсць некалькі цукерак. Ці можа "
 "яна падзяліц цукеркі так, каб ува ўсіх была аднолькавая колькасць?"
 
-#: activities/share/resource/1/Data.qml:124
-#: activities/share/resource/2/Data.qml:114
+#: activities/share/resource/1/Data.qml:132
+#: activities/share/resource/2/Data.qml:122
 msgctxt "Data|"
 msgid ""
 "Alice wants to share 4 pieces of candy equally between 4 of her girl "
@@ -24758,12 +24758,12 @@ msgstr ""
 "Алеся хоча раздзяліць 4 цукеркі пароўну паміж чатырма сваімі сяброўкамі. Ці "
 "маглі б вы ёй дапамагчы?"
 
-#: activities/share/resource/1/Data.qml:134
+#: activities/share/resource/1/Data.qml:142
 msgctxt "Data|"
 msgid "Now, Alice wants to give 8 pieces of candy to her friends."
 msgstr "Цяпер, Алеся хоча даць 8 цукерак сваім сябрам."
 
-#: activities/share/resource/1/Data.qml:144
+#: activities/share/resource/1/Data.qml:152
 msgctxt "Data|"
 msgid ""
 "Alice wants to give 10 pieces of candy to her friends, 1 girl and 3 boys, so "
@@ -24774,12 +24774,12 @@ msgstr ""
 "хлопчыкамі - так, каб ім дасталася аднолькавая колькасць. У дзяўчынак ужо "
 "ёсць некалькі цукерак."
 
-#: activities/share/resource/1/Data.qml:154
+#: activities/share/resource/1/Data.qml:162
 msgctxt "Data|"
 msgid "Alice wants to give 16 pieces of candy to her friends."
 msgstr "Алеся хоча даць 16 цукерак сваім сябрам."
 
-#: activities/share/resource/1/Data.qml:164
+#: activities/share/resource/1/Data.qml:172
 msgctxt "Data|"
 msgid ""
 "Alice wants to give pieces of candy to 4 friends. Some of them already have "
@@ -24790,7 +24790,7 @@ msgstr ""
 "ёсць некалькі. Ці зможаце вы дапамагчы ёй падзяліць цукеркі так, каб у "
 "кожнага сябра апынулася роўная колькасць?"
 
-#: activities/share/resource/1/Data.qml:176
+#: activities/share/resource/1/Data.qml:187
 msgctxt "Data|"
 msgid ""
 "Michael wants to share 5 pieces of candy equally between 5 of his girl "
@@ -24799,7 +24799,7 @@ msgstr ""
 "Міша хоча падзяліць свае 5 цукерак пароўну паміж 5 сваімі сяброўкамі. Ці "
 "зможаце Вы яму дапамагчы?"
 
-#: activities/share/resource/1/Data.qml:186
+#: activities/share/resource/1/Data.qml:197
 msgctxt "Data|"
 msgid ""
 "Helen has 5 friends: 2 boys and 3 girls. She wants to give them 10 pieces of "
@@ -24808,7 +24808,7 @@ msgstr ""
 "У Аленкі 5 сяброў: два хлопчыкі і тры дзяўчынкі. Яна хоча пачаставаць іх 10 "
 "цукеркамі. Дапамажыце ёй падзяліць цукеркі паміж яе сябрамі."
 
-#: activities/share/resource/1/Data.qml:196
+#: activities/share/resource/1/Data.qml:207
 msgctxt "Data|"
 msgid ""
 "Michelle wants to share 12 pieces of candy equally between her 4 brothers "
@@ -24819,7 +24819,7 @@ msgstr ""
 "сястрычкай так, каб ува ўсіх апынулася аднолькавая колькасць. У ейнай "
 "сястрычкі ўжо ёсць некалькі цукерак."
 
-#: activities/share/resource/1/Data.qml:206
+#: activities/share/resource/1/Data.qml:217
 msgctxt "Data|"
 msgid ""
 "Thomas wants to share his 20 pieces of candy with his friends: 1 boy and 4 "
@@ -24828,7 +24828,7 @@ msgstr ""
 "Цімка хоча пачаставаць сваімі 20 цукеркамі сваіх сяброў: аднаго хлопца і "
 "чатыры дзяўчынкі. Ці зможаце Вы яму дапамагчы?"
 
-#: activities/share/resource/1/Data.qml:216
+#: activities/share/resource/1/Data.qml:227
 msgctxt "Data|"
 msgid ""
 "Paul wants to share 20 pieces of candy equally between 5 of his friends. "
@@ -24837,7 +24837,7 @@ msgstr ""
 "Паўлюк хоча падзяліць свае 20 цукерак пароўну паміж 5 сваімі сябрамі. У "
 "кожнага з іх ужо ёсць па адной цукерцы. Ці маглі б Вы дапамагчы яму?"
 
-#: activities/share/resource/1/Data.qml:228
+#: activities/share/resource/1/Data.qml:242
 msgctxt "Data|"
 msgid ""
 "Charles wants to share his 6 pieces of candy equally with 2 of his girl "
@@ -24846,7 +24846,7 @@ msgstr ""
 "Кірук хоча пачаставаць сваімі 6 цукеркамі 2 сваіх сябровак. Ці зможа ён "
 "пароўну падзяліць цукеркі?"
 
-#: activities/share/resource/1/Data.qml:238
+#: activities/share/resource/1/Data.qml:252
 msgctxt "Data|"
 msgid ""
 "For her birthday, Elizabeth has 8 pieces of candy to share with 3 of her "
@@ -24858,7 +24858,7 @@ msgstr ""
 "цукерак. Як ёй трэба падзяліць свае цукеркі, каб ува ўсіх стала аднолькавая "
 "колькасць?"
 
-#: activities/share/resource/1/Data.qml:248
+#: activities/share/resource/1/Data.qml:262
 msgctxt "Data|"
 msgid ""
 "Jason's father gave him 16 pieces of candy to share equally with his "
@@ -24868,7 +24868,7 @@ msgstr ""
 "Якусеў тата даў яму 16 цукерак, каб пачаставаць сяброў: 2 хлопчыкаў і 2 "
 "дзяўчынак. Дапамажыце яму падзяліць цукеркі паміж сваімі сябрамі."
 
-#: activities/share/resource/1/Data.qml:258
+#: activities/share/resource/1/Data.qml:272
 msgctxt "Data|"
 msgid ""
 "George wants to share 14 pieces of candy between 4 of his friends: 2 girls "
@@ -24879,7 +24879,7 @@ msgstr ""
 "і 2 дзяўчынкамі. У хлопчыкаў у кожнага ўжо ёсць па 1 цукерцы. Ён хоча, каб "
 "ува ўсіх апынулася аднолькавая колькасць."
 
-#: activities/share/resource/1/Data.qml:268
+#: activities/share/resource/1/Data.qml:282
 msgctxt "Data|"
 msgid ""
 "Maria wants to share 25 pieces of candy equally between 5 of her friends: 3 "
@@ -24893,22 +24893,22 @@ msgctxt "Data|"
 msgid "Maximum 25 pieces of candy and 5 kids, possible rest."
 msgstr "Максімум 25 цукерак і 5 дзяцей, магчыма рэшта."
 
-#: activities/share/resource/2/Data.qml:30
+#: activities/share/resource/2/Data.qml:32
 msgctxt "Data|"
 msgid "Now he wants to share 5 pieces of candy among his friends."
 msgstr "Цяпер ён хоча пачаставаць сваіх сяброў 5 цукеркамі."
 
-#: activities/share/resource/2/Data.qml:40
+#: activities/share/resource/2/Data.qml:42
 msgctxt "Data|"
 msgid "Can you now share 7 of Paul's pieces of candy among his friends?"
 msgstr "Ці можаце Вы цяпер падзяліць 7 Паўлікавых цукерак паміж яго сябрамі?"
 
-#: activities/share/resource/2/Data.qml:50
+#: activities/share/resource/2/Data.qml:52
 msgctxt "Data|"
 msgid "Can you now share 8 of Paul's pieces of candy among his friends?"
 msgstr "Ці можаце Вы цяпер падзяліць 8 Паўлікавых цукерак паміж яго сябрамі?"
 
-#: activities/share/resource/2/Data.qml:60
+#: activities/share/resource/2/Data.qml:62
 msgctxt "Data|"
 msgid ""
 "Paul has only 11 pieces of candy left. He eats 2 pieces of candy and he "
@@ -24918,7 +24918,7 @@ msgstr ""
 "У Паўліка засталося толькі 11 цукерак. Ён з'еў 2 і цяпер хоча аддаць "
 "астатнія сваім сябрам. Ці зможаце Вы пароўну падзяліць астатнія 9 цукерак?"
 
-#: activities/share/resource/2/Data.qml:72
+#: activities/share/resource/2/Data.qml:77
 msgctxt "Data|"
 msgid ""
 "Bob wants to share 3 pieces of candy equally between 3 of his girl friends. "
@@ -24927,7 +24927,7 @@ msgstr ""
 "Кірук хоча пачаставаць сваімі 3 цукеркамі 3 сваіх сябровак. Ці зможа ён "
 "пароўну падзяліць цукеркі?"
 
-#: activities/share/resource/2/Data.qml:82
+#: activities/share/resource/2/Data.qml:87
 msgctxt "Data|"
 msgid ""
 "Harry wants to share 8 pieces of candy between 3 of his friends: 1 boy and 2 "
@@ -24939,7 +24939,7 @@ msgstr ""
 "Герка падзяліцца сваімі цукеркамі так, каб ува ўсіх была аднолькавая "
 "колькасць?"
 
-#: activities/share/resource/2/Data.qml:92
+#: activities/share/resource/2/Data.qml:97
 msgctxt "Data|"
 msgid ""
 "Maria wants to share 8 pieces of candy between 3 of her friends: 1 boy and 2 "
@@ -24950,7 +24950,7 @@ msgstr ""
 "хлопчыкам і дзвюма дзяўчынкамі. У дзяўчат ўжо ёсць некалькі цукерак. Ці можа "
 "яна падзяліць свае цукеркі так, каб ува ўсіх апынулася роўная колькасць?"
 
-#: activities/share/resource/2/Data.qml:102
+#: activities/share/resource/2/Data.qml:107
 msgctxt "Data|"
 msgid ""
 "Harry wants to share 12 pieces of candy between 3 of his friends: 1 boy and "
@@ -24962,12 +24962,12 @@ msgstr ""
 "можа Герка падзяліцца сваімі цукеркамі так, каб ува ўсіх была аднолькавая "
 "колькасць?"
 
-#: activities/share/resource/2/Data.qml:124
+#: activities/share/resource/2/Data.qml:132
 msgctxt "Data|"
 msgid "Now, Alice wants to share 8 pieces of candy equally among her friends."
 msgstr "Цяпер Аліса хоча па-роўну пачаставаць сваіх сяброў 8 цукеркамі."
 
-#: activities/share/resource/2/Data.qml:134
+#: activities/share/resource/2/Data.qml:142
 msgctxt "Data|"
 msgid ""
 "Can you help Alice share 10 pieces of candy equally among her friends: 1 "
@@ -24976,12 +24976,12 @@ msgstr ""
 "Ці можаце Вы дапамагчы Алесе пароўну падзяліць 10 цукерак паміж ейнымі "
 "сябрамі: 1 дзяўчынкай і 3 хлопчыкамі? У дзяўчынкі ўжо ёсць некалькі цукерак."
 
-#: activities/share/resource/2/Data.qml:144
+#: activities/share/resource/2/Data.qml:152
 msgctxt "Data|"
 msgid "Alice wants to share 16 pieces of candy equally among her friends."
 msgstr "Аліса хоча падзяліць па-роўну 16 цукерак паміж сваімі сябрамі."
 
-#: activities/share/resource/2/Data.qml:154
+#: activities/share/resource/2/Data.qml:162
 msgctxt "Data|"
 msgid ""
 "Alice has 14 pieces of candy left. She wants to share them equally among her "
@@ -24992,7 +24992,7 @@ msgstr ""
 "сябрамі. У хлопчыкаў ужо ёсць па некалькі цукерак. Ці зможаце Вы дапамагчы "
 "ёй падзяліць цукеркі пароўну?"
 
-#: activities/share/resource/2/Data.qml:166
+#: activities/share/resource/2/Data.qml:177
 msgctxt "Data|"
 msgid ""
 "Help Jon share 11 pieces of candies equally between five girls. The rest "
@@ -25001,7 +25001,7 @@ msgstr ""
 "Дапамажыце Жэніку падзяліць пароўну 11 цукерак з 5 дзяўчынкамі. Рэшта "
 "застанецца Жэніку."
 
-#: activities/share/resource/2/Data.qml:176
+#: activities/share/resource/2/Data.qml:187
 msgctxt "Data|"
 msgid ""
 "Jon wants to share the rest of his pieces of candies with his brothers and "
@@ -25012,7 +25012,7 @@ msgstr ""
 "сястрычак. Ці зможаце Вы падзяліць іх пароўну, ведаючы, што брат ужо мае 2 "
 "цукеркі?"
 
-#: activities/share/resource/2/Data.qml:186
+#: activities/share/resource/2/Data.qml:197
 msgctxt "Data|"
 msgid ""
 "Help Tux split 19 pieces of candies between his friends: 4 boys and 1 girl."
@@ -25020,14 +25020,14 @@ msgstr ""
 "Дапамажыце Туксу падзяліцца 19 цукеркамі са сваімі сябрамі: 4 хлопчыкамі і 1 "
 "дзяўчынкай."
 
-#: activities/share/resource/2/Data.qml:196
+#: activities/share/resource/2/Data.qml:207
 msgctxt "Data|"
 msgid "Help Maria share 18 pieces of candy equally between 3 boys and 2 girls."
 msgstr ""
 "Дапамажыце Марылі падзяліць пароўну 18 цукерак з трыма хлопчыкамі і дзвюма "
 "дзяўчынкамі."
 
-#: activities/share/resource/2/Data.qml:208
+#: activities/share/resource/2/Data.qml:222
 msgctxt "Data|"
 msgid ""
 "Charles wants to share his 6 pieces of candy equally between 2 of his girl "
@@ -25036,7 +25036,7 @@ msgstr ""
 "Кірук хоча пароўну падзяліць свае 6 цукерак паміж 2 сваімі сяброўкамі. Ці "
 "зможа ён пароўну падзяліць цукеркі?"
 
-#: activities/share/resource/2/Data.qml:218
+#: activities/share/resource/2/Data.qml:232
 msgctxt "Data|"
 msgid ""
 "For her birthday, Elizabeth has 8 pieces of candy to share with 3 of her "
@@ -25047,7 +25047,7 @@ msgstr ""
 "пачаставаць сваіх 3 сяброў: 2 дзяўчынак і 1 хлопчыка. Як ёй трэба падзяліць "
 "свае цукеркі?"
 
-#: activities/share/resource/2/Data.qml:228
+#: activities/share/resource/2/Data.qml:242
 msgctxt "Data|"
 msgid ""
 "Jason's father gave him 17 pieces of candy to share equally between his "
@@ -25058,7 +25058,7 @@ msgstr ""
 "хлопчыкаў і 2 дзяўчынак. Дапамажыце яму падзяліць цукеркі паміж сваімі "
 "сябрамі."
 
-#: activities/share/resource/2/Data.qml:238
+#: activities/share/resource/2/Data.qml:252
 msgctxt "Data|"
 msgid ""
 "George wants to share 14 pieces of candy equally between 4 of his friends: 2 "
@@ -25069,7 +25069,7 @@ msgstr ""
 "дзяўчынак і двух хлопчыкаў . Ці зможа ён пароўну падзяліць цукеркі між сваіх "
 "сяброў?"
 
-#: activities/share/resource/2/Data.qml:248
+#: activities/share/resource/2/Data.qml:262
 msgctxt "Data|"
 msgid ""
 "Maria wants to share 23 pieces of candy equally between 5 of her friends: 3 "
@@ -25084,7 +25084,7 @@ msgctxt "Data|"
 msgid "Maximum 30 pieces of candy and 6 kids, possible rest."
 msgstr "Максімум 30 цукерак і 6 дзяцей, магчыма рэшта."
 
-#: activities/share/share.js:114
+#: activities/share/share.js:149
 #, qt-format
 msgctxt ""
 "share|First part of Place %n boy(s) and %n girl(s) in the center. Then split "
@@ -25096,7 +25096,7 @@ msgstr[1] "Размясціце %n хлопчыкаў "
 msgstr[2] "Размясціце %n хлопчыкаў "
 msgstr[3] ""
 
-#: activities/share/share.js:118
+#: activities/share/share.js:153
 #, qt-format
 msgctxt ""
 "share|Second part of Place %n boy(s) and %n girl(s) in the center. Then "
@@ -25108,7 +25108,7 @@ msgstr[1] "і %n дзяўчынкі ў цэнтр. "
 msgstr[2] "і %n дзяўчынак у цэнтр. "
 msgstr[3] ""
 
-#: activities/share/share.js:122
+#: activities/share/share.js:157
 #, qt-format
 msgctxt ""
 "share|Third part of Place %n boy(s) and %n girl(s) in the center. Then split "
@@ -25120,7 +25120,7 @@ msgstr[1] "Затым пароўну падзяліце %n цукеркі пам
 msgstr[2] "Затым пароўну падзяліце %n цукерак паміж імі."
 msgstr[3] ""
 
-#: activities/share/Share.qml:366
+#: activities/share/Share.qml:422
 #, qt-format
 msgctxt "Share|"
 msgid "You can't put more than %1 pieces of candy in the same rectangle"

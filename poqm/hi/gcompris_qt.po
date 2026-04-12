@@ -27490,8 +27490,8 @@ msgctxt "Data|"
 msgid "Maximum 25 pieces of candy and 5 kids, no rest."
 msgstr ""
 
-#: activities/share/resource/1/Data.qml:20
-#: activities/share/resource/2/Data.qml:20
+#: activities/share/resource/1/Data.qml:22
+#: activities/share/resource/2/Data.qml:22
 #, fuzzy
 #| msgctxt "board0|"
 #| msgid ""
@@ -27507,7 +27507,7 @@ msgstr ""
 "पॉल दो दोस्तों के बीच 2 कैंडीज साझा करना चाहता है: एक लड़की और एक लड़का क्या आप उसकी "
 "मदद कर सकते हैं? सबसे पहले, बच्चों को बीच में रखें, फिर उनमें से प्रत्येक को कैंडीज खींचें।"
 
-#: activities/share/resource/1/Data.qml:30
+#: activities/share/resource/1/Data.qml:32
 #, fuzzy
 #| msgctxt "board0|"
 #| msgid "Now he wants to give 4 candies to his friends."
@@ -27515,7 +27515,7 @@ msgctxt "Data|"
 msgid "Now he wants to share 4 pieces of candy equally among his friends."
 msgstr "अब वह अपने दोस्तों को 4 कैंडीज देना चाहता है।"
 
-#: activities/share/resource/1/Data.qml:40
+#: activities/share/resource/1/Data.qml:42
 #, fuzzy
 #| msgctxt "board0|"
 #| msgid "Can you now give 6 of Paul's candies to his friends?"
@@ -27524,7 +27524,7 @@ msgid ""
 "Can you now share 6 of Paul's pieces of candy equally among his friends?"
 msgstr "क्या अब आप पॉल के 6 कैंडी उसके दोस्तों को दे सकते हैं?"
 
-#: activities/share/resource/1/Data.qml:50
+#: activities/share/resource/1/Data.qml:52
 #, fuzzy
 #| msgctxt "board5|"
 #| msgid ""
@@ -27540,7 +27540,7 @@ msgstr ""
 "ही एक कैंडी है। क्या आप उसे कैंडियों को समान रूप से विभाजित करने में मदद कर सकते हैं ताकि "
 "प्रत्येक दोस्त को कैंडी के समान मात्रा मिल सके?"
 
-#: activities/share/resource/1/Data.qml:60
+#: activities/share/resource/1/Data.qml:62
 #, fuzzy
 #| msgctxt "board0|"
 #| msgid ""
@@ -27555,7 +27555,7 @@ msgstr ""
 "पॉल में केवल 10 कैंडीज बचीं हैं। वह 2 कैंडी खाता करता है और वह बाकी अपने दोस्तों को देता है। "
 "क्या आप उसे 8 शेष कैंडीज़ को समान रूप से विभाजित करने में सहायता कर सकते हैं?"
 
-#: activities/share/resource/1/Data.qml:72
+#: activities/share/resource/1/Data.qml:77
 #, fuzzy
 #| msgctxt "board4|"
 #| msgid ""
@@ -27569,7 +27569,7 @@ msgstr ""
 "चार्ल्स अपने 8 दोस्तों को अपने दोस्तों के साथ साझा करना चाहते हैं: एक लड़का और दो लड़कियां। "
 "क्या वह कैंडियों को समान रूप से विभाजित कर सकता है?"
 
-#: activities/share/resource/1/Data.qml:82
+#: activities/share/resource/1/Data.qml:87
 #, fuzzy
 #| msgctxt "board4|"
 #| msgid ""
@@ -27583,7 +27583,7 @@ msgstr ""
 "चार्ल्स अपने 8 दोस्तों को अपने दोस्तों के साथ साझा करना चाहते हैं: एक लड़का और दो लड़कियां। "
 "क्या वह कैंडियों को समान रूप से विभाजित कर सकता है?"
 
-#: activities/share/resource/1/Data.qml:92
+#: activities/share/resource/1/Data.qml:97
 #, fuzzy
 #| msgctxt "board1|"
 #| msgid ""
@@ -27601,7 +27601,7 @@ msgstr ""
 "लड़कियां। क्या वह समान रूप से अपने दोस्तों के बीच कैंडीज को विभाजित कर सकता है? सबसे पहले, "
 "बच्चों को बीच में रखें, फिर उनमें से प्रत्येक को कैंडीज खींचें।"
 
-#: activities/share/resource/1/Data.qml:102
+#: activities/share/resource/1/Data.qml:107
 #, fuzzy
 #| msgctxt "board4|"
 #| msgid ""
@@ -27615,7 +27615,7 @@ msgstr ""
 "चार्ल्स अपने 8 दोस्तों को अपने दोस्तों के साथ साझा करना चाहते हैं: एक लड़का और दो लड़कियां। "
 "क्या वह कैंडियों को समान रूप से विभाजित कर सकता है?"
 
-#: activities/share/resource/1/Data.qml:112
+#: activities/share/resource/1/Data.qml:117
 #, fuzzy
 #| msgctxt "board1|"
 #| msgid ""
@@ -27633,8 +27633,8 @@ msgstr ""
 "लड़कियां। क्या वह समान रूप से अपने दोस्तों के बीच कैंडीज को विभाजित कर सकता है? सबसे पहले, "
 "बच्चों को बीच में रखें, फिर उनमें से प्रत्येक को कैंडीज खींचें।"
 
-#: activities/share/resource/1/Data.qml:124
-#: activities/share/resource/2/Data.qml:114
+#: activities/share/resource/1/Data.qml:132
+#: activities/share/resource/2/Data.qml:122
 #, fuzzy
 #| msgctxt "board2|"
 #| msgid "Now, Alice wants to give 6 candies to her friends"
@@ -27644,7 +27644,7 @@ msgid ""
 "friends. Can you help her?"
 msgstr "अब, ऐलिस अपने दोस्तों को 6 कैंडीज देना चाहती है"
 
-#: activities/share/resource/1/Data.qml:134
+#: activities/share/resource/1/Data.qml:142
 #, fuzzy
 #| msgctxt "board2|"
 #| msgid "Now, Alice wants to give 6 candies to her friends"
@@ -27652,7 +27652,7 @@ msgctxt "Data|"
 msgid "Now, Alice wants to give 8 pieces of candy to her friends."
 msgstr "अब, ऐलिस अपने दोस्तों को 6 कैंडीज देना चाहती है"
 
-#: activities/share/resource/1/Data.qml:144
+#: activities/share/resource/1/Data.qml:152
 #, fuzzy
 #| msgctxt "board3|"
 #| msgid ""
@@ -27667,7 +27667,7 @@ msgstr ""
 "मिशेल की 9 कैंडीज हैं और उन्हें दो भाइयों और दो बहनों के साथ विभाजित करना है। उसे कैंडीज "
 "साझा करने में मदद करें!"
 
-#: activities/share/resource/1/Data.qml:154
+#: activities/share/resource/1/Data.qml:162
 #, fuzzy
 #| msgctxt "board2|"
 #| msgid "Now, Alice wants to give 6 candies to her friends"
@@ -27675,7 +27675,7 @@ msgctxt "Data|"
 msgid "Alice wants to give 16 pieces of candy to her friends."
 msgstr "अब, ऐलिस अपने दोस्तों को 6 कैंडीज देना चाहती है"
 
-#: activities/share/resource/1/Data.qml:164
+#: activities/share/resource/1/Data.qml:172
 #, fuzzy
 #| msgctxt "board5|"
 #| msgid ""
@@ -27692,7 +27692,7 @@ msgstr ""
 "ही एक कैंडी है। क्या आप उसे कैंडियों को समान रूप से विभाजित करने में मदद कर सकते हैं ताकि "
 "प्रत्येक दोस्त को कैंडी के समान मात्रा मिल सके?"
 
-#: activities/share/resource/1/Data.qml:176
+#: activities/share/resource/1/Data.qml:187
 #, fuzzy
 #| msgctxt "board3|"
 #| msgid ""
@@ -27706,7 +27706,7 @@ msgstr ""
 "थॉमस अपने 11 कैंडीज अपने दोस्तों के साथ साझा करना चाहते हैं: तीन लड़के और एक लड़की। क्या "
 "आप उसकी मदद कर सकते हैं?"
 
-#: activities/share/resource/1/Data.qml:186
+#: activities/share/resource/1/Data.qml:197
 #, fuzzy
 #| msgctxt "board3|"
 #| msgid ""
@@ -27720,7 +27720,7 @@ msgstr ""
 "हेलेन के 3 दोस्त हैं: एक लड़का और दो लड़कियां। वह उन्हें 7 कैंडीज देना चाहता है।  उसे अपने "
 "दोस्तों के बीच कैंडीज़ को विभाजित करने में मदद करें!"
 
-#: activities/share/resource/1/Data.qml:196
+#: activities/share/resource/1/Data.qml:207
 #, fuzzy
 #| msgctxt "board3|"
 #| msgid ""
@@ -27735,7 +27735,7 @@ msgstr ""
 "मिशेल की 9 कैंडीज हैं और उन्हें दो भाइयों और दो बहनों के साथ विभाजित करना है। उसे कैंडीज "
 "साझा करने में मदद करें!"
 
-#: activities/share/resource/1/Data.qml:206
+#: activities/share/resource/1/Data.qml:217
 #, fuzzy
 #| msgctxt "board3|"
 #| msgid ""
@@ -27749,7 +27749,7 @@ msgstr ""
 "थॉमस अपने 11 कैंडीज अपने दोस्तों के साथ साझा करना चाहते हैं: तीन लड़के और एक लड़की। क्या "
 "आप उसकी मदद कर सकते हैं?"
 
-#: activities/share/resource/1/Data.qml:216
+#: activities/share/resource/1/Data.qml:227
 #, fuzzy
 #| msgctxt "board3|"
 #| msgid ""
@@ -27763,7 +27763,7 @@ msgstr ""
 "थॉमस अपने 11 कैंडीज अपने दोस्तों के साथ साझा करना चाहते हैं: तीन लड़के और एक लड़की। क्या "
 "आप उसकी मदद कर सकते हैं?"
 
-#: activities/share/resource/1/Data.qml:228
+#: activities/share/resource/1/Data.qml:242
 #, fuzzy
 #| msgctxt "board4|"
 #| msgid ""
@@ -27777,7 +27777,7 @@ msgstr ""
 "चार्ल्स अपने 8 दोस्तों को अपने दोस्तों के साथ साझा करना चाहते हैं: एक लड़का और दो लड़कियां। "
 "क्या वह कैंडियों को समान रूप से विभाजित कर सकता है?"
 
-#: activities/share/resource/1/Data.qml:238
+#: activities/share/resource/1/Data.qml:252
 #, fuzzy
 #| msgctxt "board4|"
 #| msgid ""
@@ -27793,7 +27793,7 @@ msgstr ""
 "अपने जन्मदिन के लिए, एलिजाबेथ को अपने दोस्तों में से 4 के साथ साझा करने के लिए 12 कैंडीज हैं: "
 "दो लड़कियां और दो लड़कों। वह अपने मित्रों को कैसे कैंडीज बांटनी चाहिए?"
 
-#: activities/share/resource/1/Data.qml:248
+#: activities/share/resource/1/Data.qml:262
 #, fuzzy
 #| msgctxt "board4|"
 #| msgid ""
@@ -27808,7 +27808,7 @@ msgstr ""
 "जेसन के पिता ने उन्हें अपने दोस्तों के साथ साझा करने के लिए 14 कैंडीज दिए: दो लड़के और तीन "
 "लड़कियां। उसे अपने मित्रों को कैंडीज़ दें!"
 
-#: activities/share/resource/1/Data.qml:258
+#: activities/share/resource/1/Data.qml:272
 #, fuzzy
 #| msgctxt "board1|"
 #| msgid ""
@@ -27826,7 +27826,7 @@ msgstr ""
 "लड़कियां। क्या वह समान रूप से अपने दोस्तों के बीच कैंडीज को विभाजित कर सकता है? सबसे पहले, "
 "बच्चों को बीच में रखें, फिर उनमें से प्रत्येक को कैंडीज खींचें।"
 
-#: activities/share/resource/1/Data.qml:268
+#: activities/share/resource/1/Data.qml:282
 #, fuzzy
 #| msgctxt "board4|"
 #| msgid ""
@@ -27845,7 +27845,7 @@ msgctxt "Data|"
 msgid "Maximum 25 pieces of candy and 5 kids, possible rest."
 msgstr ""
 
-#: activities/share/resource/2/Data.qml:30
+#: activities/share/resource/2/Data.qml:32
 #, fuzzy
 #| msgctxt "board0|"
 #| msgid "Now he wants to give 4 candies to his friends."
@@ -27853,7 +27853,7 @@ msgctxt "Data|"
 msgid "Now he wants to share 5 pieces of candy among his friends."
 msgstr "अब वह अपने दोस्तों को 4 कैंडीज देना चाहता है।"
 
-#: activities/share/resource/2/Data.qml:40
+#: activities/share/resource/2/Data.qml:42
 #, fuzzy
 #| msgctxt "board0|"
 #| msgid "Can you now give 6 of Paul's candies to his friends?"
@@ -27861,7 +27861,7 @@ msgctxt "Data|"
 msgid "Can you now share 7 of Paul's pieces of candy among his friends?"
 msgstr "क्या अब आप पॉल के 6 कैंडी उसके दोस्तों को दे सकते हैं?"
 
-#: activities/share/resource/2/Data.qml:50
+#: activities/share/resource/2/Data.qml:52
 #, fuzzy
 #| msgctxt "board0|"
 #| msgid "Can you now give 6 of Paul's candies to his friends?"
@@ -27869,7 +27869,7 @@ msgctxt "Data|"
 msgid "Can you now share 8 of Paul's pieces of candy among his friends?"
 msgstr "क्या अब आप पॉल के 6 कैंडी उसके दोस्तों को दे सकते हैं?"
 
-#: activities/share/resource/2/Data.qml:60
+#: activities/share/resource/2/Data.qml:62
 #, fuzzy
 #| msgctxt "board0|"
 #| msgid ""
@@ -27884,7 +27884,7 @@ msgstr ""
 "पॉल में केवल 10 कैंडीज बचीं हैं। वह 2 कैंडी खाता करता है और वह बाकी अपने दोस्तों को देता है। "
 "क्या आप उसे 8 शेष कैंडीज़ को समान रूप से विभाजित करने में सहायता कर सकते हैं?"
 
-#: activities/share/resource/2/Data.qml:72
+#: activities/share/resource/2/Data.qml:77
 #, fuzzy
 #| msgctxt "board4|"
 #| msgid ""
@@ -27898,7 +27898,7 @@ msgstr ""
 "चार्ल्स अपने 8 दोस्तों को अपने दोस्तों के साथ साझा करना चाहते हैं: एक लड़का और दो लड़कियां। "
 "क्या वह कैंडियों को समान रूप से विभाजित कर सकता है?"
 
-#: activities/share/resource/2/Data.qml:82
+#: activities/share/resource/2/Data.qml:87
 #, fuzzy
 #| msgctxt "board1|"
 #| msgid ""
@@ -27916,7 +27916,7 @@ msgstr ""
 "लड़कियां। क्या वह समान रूप से अपने दोस्तों के बीच कैंडीज को विभाजित कर सकता है? सबसे पहले, "
 "बच्चों को बीच में रखें, फिर उनमें से प्रत्येक को कैंडीज खींचें।"
 
-#: activities/share/resource/2/Data.qml:92
+#: activities/share/resource/2/Data.qml:97
 #, fuzzy
 #| msgctxt "board1|"
 #| msgid ""
@@ -27934,7 +27934,7 @@ msgstr ""
 "लड़कियां। क्या वह समान रूप से अपने दोस्तों के बीच कैंडीज को विभाजित कर सकता है? सबसे पहले, "
 "बच्चों को बीच में रखें, फिर उनमें से प्रत्येक को कैंडीज खींचें।"
 
-#: activities/share/resource/2/Data.qml:102
+#: activities/share/resource/2/Data.qml:107
 #, fuzzy
 #| msgctxt "board1|"
 #| msgid ""
@@ -27952,7 +27952,7 @@ msgstr ""
 "लड़कियां। क्या वह समान रूप से अपने दोस्तों के बीच कैंडीज को विभाजित कर सकता है? सबसे पहले, "
 "बच्चों को बीच में रखें, फिर उनमें से प्रत्येक को कैंडीज खींचें।"
 
-#: activities/share/resource/2/Data.qml:124
+#: activities/share/resource/2/Data.qml:132
 #, fuzzy
 #| msgctxt "board0|"
 #| msgid "Now he wants to give 4 candies to his friends."
@@ -27960,7 +27960,7 @@ msgctxt "Data|"
 msgid "Now, Alice wants to share 8 pieces of candy equally among her friends."
 msgstr "अब वह अपने दोस्तों को 4 कैंडीज देना चाहता है।"
 
-#: activities/share/resource/2/Data.qml:134
+#: activities/share/resource/2/Data.qml:142
 #, fuzzy
 #| msgctxt "board2|"
 #| msgid ""
@@ -27972,7 +27972,7 @@ msgid ""
 msgstr ""
 "क्या आप ऐलिस कीअपने दोस्तों को 9 कैंडीज देने में मदद कर सकते हैं: एक लड़की और दो लड़के?"
 
-#: activities/share/resource/2/Data.qml:144
+#: activities/share/resource/2/Data.qml:152
 #, fuzzy
 #| msgctxt "board0|"
 #| msgid "Now he wants to give 4 candies to his friends."
@@ -27980,7 +27980,7 @@ msgctxt "Data|"
 msgid "Alice wants to share 16 pieces of candy equally among her friends."
 msgstr "अब वह अपने दोस्तों को 4 कैंडीज देना चाहता है।"
 
-#: activities/share/resource/2/Data.qml:154
+#: activities/share/resource/2/Data.qml:162
 #, fuzzy
 #| msgctxt "board2|"
 #| msgid ""
@@ -27995,7 +27995,7 @@ msgstr ""
 "ऐलिस में 12 कैंडी छोड़े गए हैं। वह उन सभी को अपने दोस्तों को देना चाहता है। क्या आप उसे "
 "समान रूप से कैंडीज विभाजित करने में सहायता कर सकते हैं?"
 
-#: activities/share/resource/2/Data.qml:166
+#: activities/share/resource/2/Data.qml:177
 #, fuzzy
 #| msgctxt "board6|"
 #| msgid ""
@@ -28009,7 +28009,7 @@ msgstr ""
 "जॉन तीन लड़कों और दो लड़कियों के बीच 9 कैंडीज विभाजित करने में मदद करें। बाकी जॉन के पास "
 "रहेंगे। "
 
-#: activities/share/resource/2/Data.qml:176
+#: activities/share/resource/2/Data.qml:187
 #, fuzzy
 #| msgctxt "board6|"
 #| msgid ""
@@ -28025,7 +28025,7 @@ msgstr ""
 "जॉन अपने बाकी के कैंडीज़ को अपने भाई और उसकी बहन के साथ साझा करना चाहता है। क्या आप "
 "उन्हें समान रूप से विभाजित कर सकते हैं, जानते हुए कि उनके भाई के पास पहले से दो कैंडीज़ हैं?"
 
-#: activities/share/resource/2/Data.qml:186
+#: activities/share/resource/2/Data.qml:197
 #, fuzzy
 #| msgctxt "board6|"
 #| msgid ""
@@ -28038,7 +28038,7 @@ msgstr ""
 "जॉन तीन लड़कों और दो लड़कियों के बीच 9 कैंडीज विभाजित करने में मदद करें। बाकी जॉन के पास "
 "रहेंगे। "
 
-#: activities/share/resource/2/Data.qml:196
+#: activities/share/resource/2/Data.qml:207
 #, fuzzy
 #| msgctxt "board6|"
 #| msgid ""
@@ -28050,7 +28050,7 @@ msgstr ""
 "जॉन तीन लड़कों और दो लड़कियों के बीच 9 कैंडीज विभाजित करने में मदद करें। बाकी जॉन के पास "
 "रहेंगे। "
 
-#: activities/share/resource/2/Data.qml:208
+#: activities/share/resource/2/Data.qml:222
 #, fuzzy
 #| msgctxt "board4|"
 #| msgid ""
@@ -28064,7 +28064,7 @@ msgstr ""
 "चार्ल्स अपने 8 दोस्तों को अपने दोस्तों के साथ साझा करना चाहते हैं: एक लड़का और दो लड़कियां। "
 "क्या वह कैंडियों को समान रूप से विभाजित कर सकता है?"
 
-#: activities/share/resource/2/Data.qml:218
+#: activities/share/resource/2/Data.qml:232
 #, fuzzy
 #| msgctxt "board4|"
 #| msgid ""
@@ -28080,7 +28080,7 @@ msgstr ""
 "अपने जन्मदिन के लिए, एलिजाबेथ को अपने दोस्तों में से 4 के साथ साझा करने के लिए 12 कैंडीज हैं: "
 "दो लड़कियां और दो लड़कों। वह अपने मित्रों को कैसे कैंडीज बांटनी चाहिए?"
 
-#: activities/share/resource/2/Data.qml:228
+#: activities/share/resource/2/Data.qml:242
 #, fuzzy
 #| msgctxt "board4|"
 #| msgid ""
@@ -28095,7 +28095,7 @@ msgstr ""
 "जेसन के पिता ने उन्हें अपने दोस्तों के साथ साझा करने के लिए 14 कैंडीज दिए: दो लड़के और तीन "
 "लड़कियां। उसे अपने मित्रों को कैंडीज़ दें!"
 
-#: activities/share/resource/2/Data.qml:238
+#: activities/share/resource/2/Data.qml:252
 #, fuzzy
 #| msgctxt "board4|"
 #| msgid ""
@@ -28110,7 +28110,7 @@ msgstr ""
 "चार्ल्स अपने 8 दोस्तों को अपने दोस्तों के साथ साझा करना चाहते हैं: एक लड़का और दो लड़कियां। "
 "क्या वह कैंडियों को समान रूप से विभाजित कर सकता है?"
 
-#: activities/share/resource/2/Data.qml:248
+#: activities/share/resource/2/Data.qml:262
 #, fuzzy
 #| msgctxt "board4|"
 #| msgid ""
@@ -28130,7 +28130,7 @@ msgctxt "Data|"
 msgid "Maximum 30 pieces of candy and 6 kids, possible rest."
 msgstr ""
 
-#: activities/share/share.js:114
+#: activities/share/share.js:149
 #, fuzzy, qt-format
 #| msgctxt ""
 #| "share|First part of Place %n boy(s) and %n girl(s) in the center. Then "
@@ -28145,7 +28145,7 @@ msgid_plural "Place %n boy(s) "
 msgstr[0] "रखें %n लड़के"
 msgstr[1] "रखें %n लड़के"
 
-#: activities/share/share.js:118
+#: activities/share/share.js:153
 #, fuzzy, qt-format
 #| msgctxt ""
 #| "share|Second part of Place %n boy(s) and %n girl(s) in the center. Then "
@@ -28160,7 +28160,7 @@ msgid_plural "and %n girl(s) in the center. "
 msgstr[0] "तथा बीच में  %n लड़की."
 msgstr[1] "तथा बीच में  %n लड़कियाँ."
 
-#: activities/share/share.js:122
+#: activities/share/share.js:157
 #, fuzzy, qt-format
 #| msgctxt ""
 #| "share|Third part of Place %n boy(s) and %n girl(s) in the center. Then "
@@ -28175,7 +28175,7 @@ msgid_plural "Then split %n pieces of candy equally between them."
 msgstr[0] "फिर %n कैंडी उनके बीच बराबर में बांटें."
 msgstr[1] "फिर %n कैंडी उनके बीच बराबर में बांटें."
 
-#: activities/share/Share.qml:366
+#: activities/share/Share.qml:422
 #, fuzzy, qt-format
 #| msgctxt "Share|"
 #| msgid "You can't put more than %1 candies in the same widget"

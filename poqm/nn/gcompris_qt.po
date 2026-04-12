@@ -24804,8 +24804,8 @@ msgctxt "Data|"
 msgid "Maximum 25 pieces of candy and 5 kids, no rest."
 msgstr "Ikkje meir enn 25 bitar smågodt og 5 ungar, utan noko til overs"
 
-#: activities/share/resource/1/Data.qml:20
-#: activities/share/resource/2/Data.qml:20
+#: activities/share/resource/1/Data.qml:22
+#: activities/share/resource/2/Data.qml:22
 msgctxt "Data|"
 msgid ""
 "Paul wants to share 2 pieces of candy equally between 2 of his girl friends. "
@@ -24815,18 +24815,18 @@ msgstr ""
 "Pål har lyst til å dela to bitar smågodt med to venninner. Kan du hjelpa "
 "han? Flytt først jentene til midten, og dra så smågodtet til dei."
 
-#: activities/share/resource/1/Data.qml:30
+#: activities/share/resource/1/Data.qml:32
 msgctxt "Data|"
 msgid "Now he wants to share 4 pieces of candy equally among his friends."
 msgstr "No har han lyst til å dela fire bitar smågodt med vennane sine."
 
-#: activities/share/resource/1/Data.qml:40
+#: activities/share/resource/1/Data.qml:42
 msgctxt "Data|"
 msgid ""
 "Can you now share 6 of Paul's pieces of candy equally among his friends?"
 msgstr "Kan du dela seks bitar smågodt frå Pål med vennane hans?"
 
-#: activities/share/resource/1/Data.qml:50
+#: activities/share/resource/1/Data.qml:52
 msgctxt "Data|"
 msgid ""
 "Some of his friends already have pieces of candy. He wants to give them 7 "
@@ -24835,7 +24835,7 @@ msgstr ""
 "Nokre av vennane hans har alt smågodt frå før. Han har lyst til å dela sju "
 "bitar smågodt slik at alle endar opp med like mykje."
 
-#: activities/share/resource/1/Data.qml:60
+#: activities/share/resource/1/Data.qml:62
 msgctxt "Data|"
 msgid ""
 "Paul has only 12 pieces of candy left. He eats 2 pieces of candy and he "
@@ -24845,7 +24845,7 @@ msgstr ""
 "Pål har berre tolv bitar smågodt att. Han et to av desse og gjev resten til "
 "vennane sine. Kan du hjelpa han å dela dei ti bitane han no har?"
 
-#: activities/share/resource/1/Data.qml:72
+#: activities/share/resource/1/Data.qml:77
 msgctxt "Data|"
 msgid ""
 "George wants to share 3 pieces of candy equally between 3 of his girl "
@@ -24854,7 +24854,7 @@ msgstr ""
 "Jørgen har lyst til å dela tre bitar smågodt med tre venninner. Kan han dela "
 "likt?"
 
-#: activities/share/resource/1/Data.qml:82
+#: activities/share/resource/1/Data.qml:87
 msgctxt "Data|"
 msgid ""
 "Maria wants to share 6 pieces of candy equally between 3 of her friends: 1 "
@@ -24863,7 +24863,7 @@ msgstr ""
 "Maria har lyst til å dela seks bitar smågodt med tre vennar, éi jente og to "
 "gutar. Kan ho dela likt?"
 
-#: activities/share/resource/1/Data.qml:92
+#: activities/share/resource/1/Data.qml:97
 msgctxt "Data|"
 msgid ""
 "John wants to share 8 pieces of candy equally between 3 of his friends: 1 "
@@ -24874,7 +24874,7 @@ msgstr ""
 "jenter. Guten har ein bit smågodt frå før. Kan han gjera det slik at alle "
 "endar opp med like mykje?"
 
-#: activities/share/resource/1/Data.qml:102
+#: activities/share/resource/1/Data.qml:107
 msgctxt "Data|"
 msgid ""
 "Paul wants to share 12 pieces of candy equally between 3 of his friends: 2 "
@@ -24883,7 +24883,7 @@ msgstr ""
 "Pål har lyst til å dela tolv bitar smågodt med tre vennar, to gutar og éi "
 "jente. Kan han dela likt?"
 
-#: activities/share/resource/1/Data.qml:112
+#: activities/share/resource/1/Data.qml:117
 msgctxt "Data|"
 msgid ""
 "Maria wants to share 11 pieces of candy between 3 of her friends: 1 boy and "
@@ -24894,8 +24894,8 @@ msgstr ""
 "jenter. Jentene har smågodt frå før. Kan ho dela slik at alle endar opp med "
 "like mykje?"
 
-#: activities/share/resource/1/Data.qml:124
-#: activities/share/resource/2/Data.qml:114
+#: activities/share/resource/1/Data.qml:132
+#: activities/share/resource/2/Data.qml:122
 msgctxt "Data|"
 msgid ""
 "Alice wants to share 4 pieces of candy equally between 4 of her girl "
@@ -24904,12 +24904,12 @@ msgstr ""
 "Anne har lyst til å dela fire bitar smågodt med fire venninner. Kan du "
 "hjelpa ho?"
 
-#: activities/share/resource/1/Data.qml:134
+#: activities/share/resource/1/Data.qml:142
 msgctxt "Data|"
 msgid "Now, Alice wants to give 8 pieces of candy to her friends."
 msgstr "No har Anne lyst til å gje åtte bitar smågodt til vennane sine."
 
-#: activities/share/resource/1/Data.qml:144
+#: activities/share/resource/1/Data.qml:152
 msgctxt "Data|"
 msgid ""
 "Alice wants to give 10 pieces of candy to her friends, 1 girl and 3 boys, so "
@@ -24920,12 +24920,12 @@ msgstr ""
 "gutar, slik at alle endar opp med like mykje. Jentene har noko smågodt frå "
 "før."
 
-#: activities/share/resource/1/Data.qml:154
+#: activities/share/resource/1/Data.qml:162
 msgctxt "Data|"
 msgid "Alice wants to give 16 pieces of candy to her friends."
 msgstr "Anne har lyst til å gje seksten bitar smågodt til vennane sine."
 
-#: activities/share/resource/1/Data.qml:164
+#: activities/share/resource/1/Data.qml:172
 msgctxt "Data|"
 msgid ""
 "Alice wants to give pieces of candy to 4 friends. Some of them already have "
@@ -24936,7 +24936,7 @@ msgstr ""
 "frå før. Kan du hjelpa ho å dela fjorten bitar smågodt slik at alle endar "
 "opp med like mykje."
 
-#: activities/share/resource/1/Data.qml:176
+#: activities/share/resource/1/Data.qml:187
 msgctxt "Data|"
 msgid ""
 "Michael wants to share 5 pieces of candy equally between 5 of his girl "
@@ -24945,7 +24945,7 @@ msgstr ""
 "Mohammed har lyst til å dela fem bitar smågodt med fem venninner. Kan du "
 "hjelpa han?"
 
-#: activities/share/resource/1/Data.qml:186
+#: activities/share/resource/1/Data.qml:197
 msgctxt "Data|"
 msgid ""
 "Helen has 5 friends: 2 boys and 3 girls. She wants to give them 10 pieces of "
@@ -24955,7 +24955,7 @@ msgstr ""
 "bitar smågodt. Hjelp ho å dela smågodtet."
 
 # skip-rule: klammeform
-#: activities/share/resource/1/Data.qml:196
+#: activities/share/resource/1/Data.qml:207
 msgctxt "Data|"
 msgid ""
 "Michelle wants to share 12 pieces of candy equally between her 4 brothers "
@@ -24965,7 +24965,7 @@ msgstr ""
 "Maja har lyst til å dela tolv bitar smågodt med fire brør og éi søster, slik "
 "at alle endar opp med like mykje. Søstera har noko smågodt frå før."
 
-#: activities/share/resource/1/Data.qml:206
+#: activities/share/resource/1/Data.qml:217
 msgctxt "Data|"
 msgid ""
 "Thomas wants to share his 20 pieces of candy with his friends: 1 boy and 4 "
@@ -24974,7 +24974,7 @@ msgstr ""
 "Tomas har lyst til å dela tjue bitar smågodt med vennane sine, éin gut og "
 "fire jenter. Kan du hjelpa han?"
 
-#: activities/share/resource/1/Data.qml:216
+#: activities/share/resource/1/Data.qml:227
 msgctxt "Data|"
 msgid ""
 "Paul wants to share 20 pieces of candy equally between 5 of his friends. "
@@ -24983,7 +24983,7 @@ msgstr ""
 "Pål har lyst til å dela tjue bitar smågodt med fem vennar. Dei har alt ein "
 "bit kvar. Kan du hjelpa han?"
 
-#: activities/share/resource/1/Data.qml:228
+#: activities/share/resource/1/Data.qml:242
 msgctxt "Data|"
 msgid ""
 "Charles wants to share his 6 pieces of candy equally with 2 of his girl "
@@ -24992,7 +24992,7 @@ msgstr ""
 "Karl har lyst til å dela seks bitar smågodt med to venninner. Kan han dela "
 "likt?"
 
-#: activities/share/resource/1/Data.qml:238
+#: activities/share/resource/1/Data.qml:252
 msgctxt "Data|"
 msgid ""
 "For her birthday, Elizabeth has 8 pieces of candy to share with 3 of her "
@@ -25003,7 +25003,7 @@ msgstr ""
 "vennane hennar, to jenter og éin gut. Jentene har noko smågodt frå før. "
 "Korleis skal ho dela smågodtet slik at alle endar opp med like mykje?"
 
-#: activities/share/resource/1/Data.qml:248
+#: activities/share/resource/1/Data.qml:262
 msgctxt "Data|"
 msgid ""
 "Jason's father gave him 16 pieces of candy to share equally with his "
@@ -25013,7 +25013,7 @@ msgstr ""
 "Faren til Jakob gav han seksten bitar smågodt for å dela med vennane hans, "
 "to gutar og to jenter. Hjelp han å dela smågodtet med vennane."
 
-#: activities/share/resource/1/Data.qml:258
+#: activities/share/resource/1/Data.qml:272
 msgctxt "Data|"
 msgid ""
 "George wants to share 14 pieces of candy between 4 of his friends: 2 girls "
@@ -25024,7 +25024,7 @@ msgstr ""
 "og to gutar. Gutane har alt ein bit smågodt kvar. Han vil at alle skal enda "
 "opp med like mykje smågodt."
 
-#: activities/share/resource/1/Data.qml:268
+#: activities/share/resource/1/Data.qml:282
 msgctxt "Data|"
 msgid ""
 "Maria wants to share 25 pieces of candy equally between 5 of her friends: 3 "
@@ -25039,22 +25039,22 @@ msgid "Maximum 25 pieces of candy and 5 kids, possible rest."
 msgstr ""
 "Ikkje meir enn 25 bitar smågodt og 5 ungar, eventuelt med noko til overs"
 
-#: activities/share/resource/2/Data.qml:30
+#: activities/share/resource/2/Data.qml:32
 msgctxt "Data|"
 msgid "Now he wants to share 5 pieces of candy among his friends."
 msgstr "No har han lyst til å dela fem bitar smågodt med vennane sine."
 
-#: activities/share/resource/2/Data.qml:40
+#: activities/share/resource/2/Data.qml:42
 msgctxt "Data|"
 msgid "Can you now share 7 of Paul's pieces of candy among his friends?"
 msgstr "Kan du dela sju bitar smågodt frå Pål med vennane hans?"
 
-#: activities/share/resource/2/Data.qml:50
+#: activities/share/resource/2/Data.qml:52
 msgctxt "Data|"
 msgid "Can you now share 8 of Paul's pieces of candy among his friends?"
 msgstr "Kan du dela åtte bitar smågodt frå Pål med vennane hans?"
 
-#: activities/share/resource/2/Data.qml:60
+#: activities/share/resource/2/Data.qml:62
 msgctxt "Data|"
 msgid ""
 "Paul has only 11 pieces of candy left. He eats 2 pieces of candy and he "
@@ -25064,7 +25064,7 @@ msgstr ""
 "Pål har berre elleve bitar smågodt att. Han et to av desse og gjev resten "
 "til vennane sine. Kan du hjelpa han å dela dei ni bitane han no har?"
 
-#: activities/share/resource/2/Data.qml:72
+#: activities/share/resource/2/Data.qml:77
 msgctxt "Data|"
 msgid ""
 "Bob wants to share 3 pieces of candy equally between 3 of his girl friends. "
@@ -25073,7 +25073,7 @@ msgstr ""
 "Bjørn har lyst til å gje tre bitar smågodt til dei tre venninnene sine. Kan "
 "du hjelpa han å dela smågodtet slik at alle får like mange?"
 
-#: activities/share/resource/2/Data.qml:82
+#: activities/share/resource/2/Data.qml:87
 msgctxt "Data|"
 msgid ""
 "Harry wants to share 8 pieces of candy between 3 of his friends: 1 boy and 2 "
@@ -25084,7 +25084,7 @@ msgstr ""
 "gut og to jenter. Guten har ein bit smågodt frå før. Kan Henrik dela slik at "
 "alle endar opp med like mykje?"
 
-#: activities/share/resource/2/Data.qml:92
+#: activities/share/resource/2/Data.qml:97
 msgctxt "Data|"
 msgid ""
 "Maria wants to share 8 pieces of candy between 3 of her friends: 1 boy and 2 "
@@ -25095,7 +25095,7 @@ msgstr ""
 "gut og to jenter. Jentene har noko smågodt frå før. Kan ho dela slik at alle "
 "endar opp med like mykje?"
 
-#: activities/share/resource/2/Data.qml:102
+#: activities/share/resource/2/Data.qml:107
 msgctxt "Data|"
 msgid ""
 "Harry wants to share 12 pieces of candy between 3 of his friends: 1 boy and "
@@ -25106,12 +25106,12 @@ msgstr ""
 "gut og to jenter. Guten har litt smågodt frå før. Kan Henrik dela slik at "
 "alle endar opp med like mykje?"
 
-#: activities/share/resource/2/Data.qml:124
+#: activities/share/resource/2/Data.qml:132
 msgctxt "Data|"
 msgid "Now, Alice wants to share 8 pieces of candy equally among her friends."
 msgstr "No har Anne lyst til å dela åtte bitar smågodt med vennane sine."
 
-#: activities/share/resource/2/Data.qml:134
+#: activities/share/resource/2/Data.qml:142
 msgctxt "Data|"
 msgid ""
 "Can you help Alice share 10 pieces of candy equally among her friends: 1 "
@@ -25120,12 +25120,12 @@ msgstr ""
 "Kan du hjelpa Anne å dela ti bitar smågodt med vennane hennar, éi jente og "
 "tre gutar? Jenta har alt noko smågodt."
 
-#: activities/share/resource/2/Data.qml:144
+#: activities/share/resource/2/Data.qml:152
 msgctxt "Data|"
 msgid "Alice wants to share 16 pieces of candy equally among her friends."
 msgstr "Anne har lyst til å dela seksten bitar smågodt med vennane sine."
 
-#: activities/share/resource/2/Data.qml:154
+#: activities/share/resource/2/Data.qml:162
 msgctxt "Data|"
 msgid ""
 "Alice has 14 pieces of candy left. She wants to share them equally among her "
@@ -25136,7 +25136,7 @@ msgstr ""
 "vennane sine. Gutane har litt smågodt frå før. Kan du hjelpa ho å dela "
 "smågodtet likt?"
 
-#: activities/share/resource/2/Data.qml:166
+#: activities/share/resource/2/Data.qml:177
 msgctxt "Data|"
 msgid ""
 "Help Jon share 11 pieces of candies equally between five girls. The rest "
@@ -25144,7 +25144,7 @@ msgid ""
 msgstr ""
 "Hjelp Jon dela elleve bitar smågodt med fem venninner. Resten får Jon sjølv."
 
-#: activities/share/resource/2/Data.qml:176
+#: activities/share/resource/2/Data.qml:187
 msgctxt "Data|"
 msgid ""
 "Jon wants to share the rest of his pieces of candies with his brothers and "
@@ -25154,7 +25154,7 @@ msgstr ""
 "Jon har lyst til å dela resten av smågodtet med søskena sine. Kan du dela "
 "det likt, når du veit at brørne hans alt har to bitar smågodt?"
 
-#: activities/share/resource/2/Data.qml:186
+#: activities/share/resource/2/Data.qml:197
 msgctxt "Data|"
 msgid ""
 "Help Tux split 19 pieces of candies between his friends: 4 boys and 1 girl."
@@ -25162,14 +25162,14 @@ msgstr ""
 "Hjelp Tux å dela nitten bitar smågodt med vennane sine, fire gutar og éi "
 "jente."
 
-#: activities/share/resource/2/Data.qml:196
+#: activities/share/resource/2/Data.qml:207
 msgctxt "Data|"
 msgid "Help Maria share 18 pieces of candy equally between 3 boys and 2 girls."
 msgstr ""
 "Hjelp Maria å dela atten bitar smågodt med vennane sine, tre gutar og to "
 "jenter."
 
-#: activities/share/resource/2/Data.qml:208
+#: activities/share/resource/2/Data.qml:222
 msgctxt "Data|"
 msgid ""
 "Charles wants to share his 6 pieces of candy equally between 2 of his girl "
@@ -25178,7 +25178,7 @@ msgstr ""
 "Karl har lyst til å dela seks bitar smågodt med to venninner. Kan han dela "
 "likt?"
 
-#: activities/share/resource/2/Data.qml:218
+#: activities/share/resource/2/Data.qml:232
 msgctxt "Data|"
 msgid ""
 "For her birthday, Elizabeth has 8 pieces of candy to share with 3 of her "
@@ -25188,7 +25188,7 @@ msgstr ""
 "Til fødselsdagen sin fekk Emma åtte bitar smågodt for å dela med tre av "
 "vennane hennar, to jenter og éin gut. Korleis skal ho dela smågodtet?"
 
-#: activities/share/resource/2/Data.qml:228
+#: activities/share/resource/2/Data.qml:242
 msgctxt "Data|"
 msgid ""
 "Jason's father gave him 17 pieces of candy to share equally between his "
@@ -25198,7 +25198,7 @@ msgstr ""
 "Faren til Jakob gav han sytten bitar smågodt for å dela med vennane hans, to "
 "gutar og to jenter. Hjelp han å dela smågodtet med vennane."
 
-#: activities/share/resource/2/Data.qml:238
+#: activities/share/resource/2/Data.qml:252
 msgctxt "Data|"
 msgid ""
 "George wants to share 14 pieces of candy equally between 4 of his friends: 2 "
@@ -25208,7 +25208,7 @@ msgstr ""
 "Jørgen har lyst til å dela fjorten bitar smågodt med fire vennar, to gutar "
 "og to jenter. Kan han dela likt?"
 
-#: activities/share/resource/2/Data.qml:248
+#: activities/share/resource/2/Data.qml:262
 msgctxt "Data|"
 msgid ""
 "Maria wants to share 23 pieces of candy equally between 5 of her friends: 3 "
@@ -25224,7 +25224,7 @@ msgid "Maximum 30 pieces of candy and 6 kids, possible rest."
 msgstr ""
 "Ikkje meir enn 30 bitar smågodt og 6 ungar, eventuelt med noko til overs"
 
-#: activities/share/share.js:114
+#: activities/share/share.js:149
 #, qt-format
 msgctxt ""
 "share|First part of Place %n boy(s) and %n girl(s) in the center. Then split "
@@ -25234,7 +25234,7 @@ msgid_plural "Place %n boy(s) "
 msgstr[0] "Flytt %n gut "
 msgstr[1] "Flytt %n gutar "
 
-#: activities/share/share.js:118
+#: activities/share/share.js:153
 #, qt-format
 msgctxt ""
 "share|Second part of Place %n boy(s) and %n girl(s) in the center. Then "
@@ -25244,7 +25244,7 @@ msgid_plural "and %n girl(s) in the center. "
 msgstr[0] "og %n jente til midten. "
 msgstr[1] "og %n jenter til midten. "
 
-#: activities/share/share.js:122
+#: activities/share/share.js:157
 #, qt-format
 msgctxt ""
 "share|Third part of Place %n boy(s) and %n girl(s) in the center. Then split "
@@ -25254,7 +25254,7 @@ msgid_plural "Then split %n pieces of candy equally between them."
 msgstr[0] "Del så %n bitar smågodt med dei."
 msgstr[1] "Del så %n bitar smågodt med dei."
 
-#: activities/share/Share.qml:366
+#: activities/share/Share.qml:422
 #, qt-format
 msgctxt "Share|"
 msgid "You can't put more than %1 pieces of candy in the same rectangle"

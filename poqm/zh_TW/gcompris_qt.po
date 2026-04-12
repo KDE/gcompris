@@ -24805,8 +24805,8 @@ msgctxt "Data|"
 msgid "Maximum 25 pieces of candy and 5 kids, no rest."
 msgstr "最多 25 顆糖與 5 個小孩，沒有剩餘。"
 
-#: activities/share/resource/1/Data.qml:20
-#: activities/share/resource/2/Data.qml:20
+#: activities/share/resource/1/Data.qml:22
+#: activities/share/resource/2/Data.qml:22
 msgctxt "Data|"
 msgid ""
 "Paul wants to share 2 pieces of candy equally between 2 of his girl friends. "
@@ -24816,18 +24816,18 @@ msgstr ""
 "保羅想要把 2 顆糖果平均分給他的 2 個女朋友。您可以幫幫他嗎？先將他的朋友放在"
 "中間，然後把糖果分給他們。"
 
-#: activities/share/resource/1/Data.qml:30
+#: activities/share/resource/1/Data.qml:32
 msgctxt "Data|"
 msgid "Now he wants to share 4 pieces of candy equally among his friends."
 msgstr "現在他想把 4 顆糖果平分給朋友。"
 
-#: activities/share/resource/1/Data.qml:40
+#: activities/share/resource/1/Data.qml:42
 msgctxt "Data|"
 msgid ""
 "Can you now share 6 of Paul's pieces of candy equally among his friends?"
 msgstr "您現在知道怎麼將保羅的 6 顆糖果分給他的朋友了嗎？"
 
-#: activities/share/resource/1/Data.qml:50
+#: activities/share/resource/1/Data.qml:52
 msgctxt "Data|"
 msgid ""
 "Some of his friends already have pieces of candy. He wants to give them 7 "
@@ -24835,7 +24835,7 @@ msgid ""
 msgstr ""
 "他的朋友中有些已經有糖果了。他想再給他們 7 顆糖果，讓大家都有一樣多的糖果。"
 
-#: activities/share/resource/1/Data.qml:60
+#: activities/share/resource/1/Data.qml:62
 msgctxt "Data|"
 msgid ""
 "Paul has only 12 pieces of candy left. He eats 2 pieces of candy and he "
@@ -24845,14 +24845,14 @@ msgstr ""
 "保羅只剩 12 顆糖了。他吃了 2 顆糖，然後打算把剩下的分給朋友。您可以幫忙他把剩"
 "下的 10 顆糖分出去嗎？"
 
-#: activities/share/resource/1/Data.qml:72
+#: activities/share/resource/1/Data.qml:77
 msgctxt "Data|"
 msgid ""
 "George wants to share 3 pieces of candy equally between 3 of his girl "
 "friends. Can he split the pieces of candy equally?"
 msgstr "喬治打算把他的 3 顆糖分給他的 3 個女朋友。他可以公平地分配糖果嗎？"
 
-#: activities/share/resource/1/Data.qml:82
+#: activities/share/resource/1/Data.qml:87
 msgctxt "Data|"
 msgid ""
 "Maria wants to share 6 pieces of candy equally between 3 of her friends: 1 "
@@ -24861,7 +24861,7 @@ msgstr ""
 "瑪莉亞打算把他的 6 顆糖分給她的 3 個朋友：2 個男孩與 1 個女孩。她可以公平地分"
 "配糖果嗎？"
 
-#: activities/share/resource/1/Data.qml:92
+#: activities/share/resource/1/Data.qml:97
 msgctxt "Data|"
 msgid ""
 "John wants to share 8 pieces of candy equally between 3 of his friends: 1 "
@@ -24871,7 +24871,7 @@ msgstr ""
 "約翰想要把 8 顆糖果平均分給他的 3 個朋友：2 個女孩與 1 個男孩。男孩已經有 1 "
 "顆糖了。他能公平地把糖果分給朋友，讓每個人都有一樣多的糖果嗎？"
 
-#: activities/share/resource/1/Data.qml:102
+#: activities/share/resource/1/Data.qml:107
 msgctxt "Data|"
 msgid ""
 "Paul wants to share 12 pieces of candy equally between 3 of his friends: 2 "
@@ -24880,7 +24880,7 @@ msgstr ""
 "鮑伯打算把他的 12 顆糖分給他的 3 個朋友：2 個男孩跟 1 個女孩。他可以公平地分"
 "配糖果嗎？"
 
-#: activities/share/resource/1/Data.qml:112
+#: activities/share/resource/1/Data.qml:117
 msgctxt "Data|"
 msgid ""
 "Maria wants to share 11 pieces of candy between 3 of her friends: 1 boy and "
@@ -24890,20 +24890,20 @@ msgstr ""
 "瑪莉亞想要把 11 顆糖果平均分給她的 3 個朋友：2 個女孩與 1 個男孩。女孩們已經"
 "有一些糖果了。她能公平地把糖果分給朋友，讓他們每個人都有相同數量的糖果嗎？"
 
-#: activities/share/resource/1/Data.qml:124
-#: activities/share/resource/2/Data.qml:114
+#: activities/share/resource/1/Data.qml:132
+#: activities/share/resource/2/Data.qml:122
 msgctxt "Data|"
 msgid ""
 "Alice wants to share 4 pieces of candy equally between 4 of her girl "
 "friends. Can you help her?"
 msgstr "愛莉絲想要將 4 顆糖公平地分給她的 4 個女朋友。您可以幫幫她嗎？"
 
-#: activities/share/resource/1/Data.qml:134
+#: activities/share/resource/1/Data.qml:142
 msgctxt "Data|"
 msgid "Now, Alice wants to give 8 pieces of candy to her friends."
 msgstr "現在，愛莉絲想把 8 顆糖果分給朋友。"
 
-#: activities/share/resource/1/Data.qml:144
+#: activities/share/resource/1/Data.qml:152
 msgctxt "Data|"
 msgid ""
 "Alice wants to give 10 pieces of candy to her friends, 1 girl and 3 boys, so "
@@ -24913,12 +24913,12 @@ msgstr ""
 "愛莉絲打算把 10 顆糖果分給她的朋友：1 個女孩與 3 個男孩。女孩已經有一些糖果"
 "了，她想讓朋友們都有一樣多的糖果。"
 
-#: activities/share/resource/1/Data.qml:154
+#: activities/share/resource/1/Data.qml:162
 msgctxt "Data|"
 msgid "Alice wants to give 16 pieces of candy to her friends."
 msgstr "現在，愛莉絲想把 16 顆糖果分給朋友。"
 
-#: activities/share/resource/1/Data.qml:164
+#: activities/share/resource/1/Data.qml:172
 msgctxt "Data|"
 msgid ""
 "Alice wants to give pieces of candy to 4 friends. Some of them already have "
@@ -24928,14 +24928,14 @@ msgstr ""
 "愛莉絲要把糖果分給她的 4 個朋友。她的朋友中有些已經有糖果了。您可以幫她公平地"
 "分配 14 顆糖果，讓每個朋友的糖果數量相同嗎？"
 
-#: activities/share/resource/1/Data.qml:176
+#: activities/share/resource/1/Data.qml:187
 msgctxt "Data|"
 msgid ""
 "Michael wants to share 5 pieces of candy equally between 5 of his girl "
 "friends. Can you help him?"
 msgstr "麥可想要將 5 顆糖公平地分給他的 5 個女朋友。您可以幫幫他嗎？"
 
-#: activities/share/resource/1/Data.qml:186
+#: activities/share/resource/1/Data.qml:197
 msgctxt "Data|"
 msgid ""
 "Helen has 5 friends: 2 boys and 3 girls. She wants to give them 10 pieces of "
@@ -24943,7 +24943,7 @@ msgid ""
 msgstr ""
 "海倫有 5 個朋友：2 個男孩跟 3 個女孩。她要把 10 顆糖平均分給他們。幫幫她吧！"
 
-#: activities/share/resource/1/Data.qml:196
+#: activities/share/resource/1/Data.qml:207
 msgctxt "Data|"
 msgid ""
 "Michelle wants to share 12 pieces of candy equally between her 4 brothers "
@@ -24953,7 +24953,7 @@ msgstr ""
 "米雪兒有 12 顆糖，打算將它們分給 4 個弟弟與 1 個妹妹。她的妹妹已經有一些糖果"
 "了，她想公平地分配讓每個人都有一樣多的糖果。"
 
-#: activities/share/resource/1/Data.qml:206
+#: activities/share/resource/1/Data.qml:217
 msgctxt "Data|"
 msgid ""
 "Thomas wants to share his 20 pieces of candy with his friends: 1 boy and 4 "
@@ -24961,7 +24961,7 @@ msgid ""
 msgstr ""
 "湯瑪士有 20 顆糖，打算分給他的朋友：1 個男孩與 4 個女孩。您可以幫幫他嗎？"
 
-#: activities/share/resource/1/Data.qml:216
+#: activities/share/resource/1/Data.qml:227
 msgctxt "Data|"
 msgid ""
 "Paul wants to share 20 pieces of candy equally between 5 of his friends. "
@@ -24970,14 +24970,14 @@ msgstr ""
 "保羅想要把 20 顆糖果平均分給他的 5 個朋友。他的朋友們每個人都已經有一顆糖果"
 "了。您可以幫幫他嗎？"
 
-#: activities/share/resource/1/Data.qml:228
+#: activities/share/resource/1/Data.qml:242
 msgctxt "Data|"
 msgid ""
 "Charles wants to share his 6 pieces of candy equally with 2 of his girl "
 "friends. Can he split the pieces of candy equally?"
 msgstr "查爾斯打算把他的 6 顆糖分給他的 2 個女朋友。他可以公平地分配糖果嗎？"
 
-#: activities/share/resource/1/Data.qml:238
+#: activities/share/resource/1/Data.qml:252
 msgctxt "Data|"
 msgid ""
 "For her birthday, Elizabeth has 8 pieces of candy to share with 3 of her "
@@ -24988,7 +24988,7 @@ msgstr ""
 "女孩們已經有一些糖果了。她要怎麼樣才能公平地把糖果分配給朋友，讓每個人都有一"
 "樣多的糖果？"
 
-#: activities/share/resource/1/Data.qml:248
+#: activities/share/resource/1/Data.qml:262
 msgctxt "Data|"
 msgid ""
 "Jason's father gave him 16 pieces of candy to share equally with his "
@@ -24997,7 +24997,7 @@ msgid ""
 msgstr ""
 "傑森的爸爸給了他 16 顆糖讓他平均分給朋友：2 個男孩與 2 個女孩。幫幫他吧！"
 
-#: activities/share/resource/1/Data.qml:258
+#: activities/share/resource/1/Data.qml:272
 msgctxt "Data|"
 msgid ""
 "George wants to share 14 pieces of candy between 4 of his friends: 2 girls "
@@ -25007,7 +25007,7 @@ msgstr ""
 "喬治想要把 14 顆糖果平均分給他的 4 個朋友：2 個女孩與 2 個男孩。每個男孩都已"
 "經有一顆糖了。他想公平地把糖果分給朋友讓每個人都有一樣多的糖果。"
 
-#: activities/share/resource/1/Data.qml:268
+#: activities/share/resource/1/Data.qml:282
 msgctxt "Data|"
 msgid ""
 "Maria wants to share 25 pieces of candy equally between 5 of her friends: 3 "
@@ -25021,22 +25021,22 @@ msgctxt "Data|"
 msgid "Maximum 25 pieces of candy and 5 kids, possible rest."
 msgstr "最多 25 顆糖與 5 個小孩，可能有剩餘。"
 
-#: activities/share/resource/2/Data.qml:30
+#: activities/share/resource/2/Data.qml:32
 msgctxt "Data|"
 msgid "Now he wants to share 5 pieces of candy among his friends."
 msgstr "現在他想把 5 顆糖果分給朋友。"
 
-#: activities/share/resource/2/Data.qml:40
+#: activities/share/resource/2/Data.qml:42
 msgctxt "Data|"
 msgid "Can you now share 7 of Paul's pieces of candy among his friends?"
 msgstr "您現在知道怎麼將保羅的 7 顆糖果分給他的朋友了嗎？"
 
-#: activities/share/resource/2/Data.qml:50
+#: activities/share/resource/2/Data.qml:52
 msgctxt "Data|"
 msgid "Can you now share 8 of Paul's pieces of candy among his friends?"
 msgstr "您現在知道怎麼將保羅的 8 顆糖果分給他的朋友了嗎？"
 
-#: activities/share/resource/2/Data.qml:60
+#: activities/share/resource/2/Data.qml:62
 msgctxt "Data|"
 msgid ""
 "Paul has only 11 pieces of candy left. He eats 2 pieces of candy and he "
@@ -25046,14 +25046,14 @@ msgstr ""
 "保羅只剩 11 顆糖了。他吃了 2 顆糖，然後打算把剩下的分給朋友。您可以幫忙他把剩"
 "下的 9 顆糖分出去嗎？"
 
-#: activities/share/resource/2/Data.qml:72
+#: activities/share/resource/2/Data.qml:77
 msgctxt "Data|"
 msgid ""
 "Bob wants to share 3 pieces of candy equally between 3 of his girl friends. "
 "Can he split the pieces of candy equally?"
 msgstr "鮑伯打算把他的 3 顆糖分給他的 3 個女朋友。他可以公平地分配糖果嗎？"
 
-#: activities/share/resource/2/Data.qml:82
+#: activities/share/resource/2/Data.qml:87
 msgctxt "Data|"
 msgid ""
 "Harry wants to share 8 pieces of candy between 3 of his friends: 1 boy and 2 "
@@ -25063,7 +25063,7 @@ msgstr ""
 "哈利想要將 8 顆糖果公平地分給他的 3 個朋友：1 個男孩與 2 個女孩。男孩已經有一"
 "顆糖果了。他能將糖果公平地分配，讓他們每個人都有相同數量的糖果嗎？"
 
-#: activities/share/resource/2/Data.qml:92
+#: activities/share/resource/2/Data.qml:97
 msgctxt "Data|"
 msgid ""
 "Maria wants to share 8 pieces of candy between 3 of her friends: 1 boy and 2 "
@@ -25073,7 +25073,7 @@ msgstr ""
 "瑪莉亞想要把 8 顆糖果平均分給她的 3 個朋友：2 個女孩與 1 個男孩。女孩們已經有"
 "一些糖果了。她能公平地把糖果分給朋友，讓他們每個人都有相同數量的糖果嗎？"
 
-#: activities/share/resource/2/Data.qml:102
+#: activities/share/resource/2/Data.qml:107
 msgctxt "Data|"
 msgid ""
 "Harry wants to share 12 pieces of candy between 3 of his friends: 1 boy and "
@@ -25083,12 +25083,12 @@ msgstr ""
 "哈利想要將 12 顆糖果公平地分給他的 3 個朋友：1 個男孩與 2 個女孩。男孩已經有"
 "一些糖果了。他能將糖果公平地分配，讓他們每個人都有相同數量的糖果嗎？"
 
-#: activities/share/resource/2/Data.qml:124
+#: activities/share/resource/2/Data.qml:132
 msgctxt "Data|"
 msgid "Now, Alice wants to share 8 pieces of candy equally among her friends."
 msgstr "現在，愛莉絲想把 8 顆糖果公平地分給朋友。"
 
-#: activities/share/resource/2/Data.qml:134
+#: activities/share/resource/2/Data.qml:142
 msgctxt "Data|"
 msgid ""
 "Can you help Alice share 10 pieces of candy equally among her friends: 1 "
@@ -25097,12 +25097,12 @@ msgstr ""
 "您能幫愛莉絲將 10 顆糖果分給她的朋友，1 個女孩與 3 個男孩嗎？女孩們已經有一些"
 "糖果了。"
 
-#: activities/share/resource/2/Data.qml:144
+#: activities/share/resource/2/Data.qml:152
 msgctxt "Data|"
 msgid "Alice wants to share 16 pieces of candy equally among her friends."
 msgstr "愛莉絲想把 16 顆糖果分給朋友。"
 
-#: activities/share/resource/2/Data.qml:154
+#: activities/share/resource/2/Data.qml:162
 msgctxt "Data|"
 msgid ""
 "Alice has 14 pieces of candy left. She wants to share them equally among her "
@@ -25112,14 +25112,14 @@ msgstr ""
 "愛莉絲剩下 14 顆糖。她打算全部分給她的朋友。男孩們已經有一些糖果了。您能夠幫"
 "忙她公平地將糖果分給朋友嗎？"
 
-#: activities/share/resource/2/Data.qml:166
+#: activities/share/resource/2/Data.qml:177
 msgctxt "Data|"
 msgid ""
 "Help Jon share 11 pieces of candies equally between five girls. The rest "
 "will remain to Jon."
 msgstr "幫瓊分配 11 顆糖給 5 個女孩。剩下的歸瓊所有。"
 
-#: activities/share/resource/2/Data.qml:176
+#: activities/share/resource/2/Data.qml:187
 msgctxt "Data|"
 msgid ""
 "Jon wants to share the rest of his pieces of candies with his brothers and "
@@ -25129,25 +25129,25 @@ msgstr ""
 "瓊打算把他剩下的糖果分給他的弟弟跟妹妹。瓊斯知道他的弟弟已經有 2 顆糖了，您能"
 "夠幫他公平地分配糖果讓弟弟妹妹都有一樣多的糖果嗎？"
 
-#: activities/share/resource/2/Data.qml:186
+#: activities/share/resource/2/Data.qml:197
 msgctxt "Data|"
 msgid ""
 "Help Tux split 19 pieces of candies between his friends: 4 boys and 1 girl."
 msgstr "幫小企鵝分配 19 顆糖給他的朋友：4 個男孩與 1 個女孩。"
 
-#: activities/share/resource/2/Data.qml:196
+#: activities/share/resource/2/Data.qml:207
 msgctxt "Data|"
 msgid "Help Maria share 18 pieces of candy equally between 3 boys and 2 girls."
 msgstr "幫瑪麗亞分配 18 顆糖給她的朋友：3 個男孩與 2 個女孩。"
 
-#: activities/share/resource/2/Data.qml:208
+#: activities/share/resource/2/Data.qml:222
 msgctxt "Data|"
 msgid ""
 "Charles wants to share his 6 pieces of candy equally between 2 of his girl "
 "friends. Can he split the pieces of candy equally?"
 msgstr "查爾斯打算把他的 6 顆糖分給他的 2 個女朋友。他可以公平地分配糖果嗎？"
 
-#: activities/share/resource/2/Data.qml:218
+#: activities/share/resource/2/Data.qml:232
 msgctxt "Data|"
 msgid ""
 "For her birthday, Elizabeth has 8 pieces of candy to share with 3 of her "
@@ -25157,7 +25157,7 @@ msgstr ""
 "依莉莎白的生日到了，她打算把她的 8 顆糖果分給 3 個朋友：1 個男孩與 2 個女孩。"
 "她要怎麼樣才能公平地把糖果分配給朋友？"
 
-#: activities/share/resource/2/Data.qml:228
+#: activities/share/resource/2/Data.qml:242
 msgctxt "Data|"
 msgid ""
 "Jason's father gave him 17 pieces of candy to share equally between his "
@@ -25165,7 +25165,7 @@ msgid ""
 "friends."
 msgstr "傑森的爸爸給了他 17 顆糖讓他分給朋友：2 個男孩與 2 個女孩。"
 
-#: activities/share/resource/2/Data.qml:238
+#: activities/share/resource/2/Data.qml:252
 msgctxt "Data|"
 msgid ""
 "George wants to share 14 pieces of candy equally between 4 of his friends: 2 "
@@ -25175,7 +25175,7 @@ msgstr ""
 "喬治想要把 14 顆糖果平均分給他的 4 個朋友：2 個女孩與 2 個男孩。他能公平地把"
 "糖果分給朋友嗎？"
 
-#: activities/share/resource/2/Data.qml:248
+#: activities/share/resource/2/Data.qml:262
 msgctxt "Data|"
 msgid ""
 "Maria wants to share 23 pieces of candy equally between 5 of her friends: 3 "
@@ -25190,7 +25190,7 @@ msgctxt "Data|"
 msgid "Maximum 30 pieces of candy and 6 kids, possible rest."
 msgstr "最多 30 顆糖與 6 個小孩，可能有剩餘。"
 
-#: activities/share/share.js:114
+#: activities/share/share.js:149
 #, qt-format
 msgctxt ""
 "share|First part of Place %n boy(s) and %n girl(s) in the center. Then split "
@@ -25199,7 +25199,7 @@ msgid "Place %n boy(s) "
 msgid_plural "Place %n boy(s) "
 msgstr[0] "把 %n 個男孩 "
 
-#: activities/share/share.js:118
+#: activities/share/share.js:153
 #, qt-format
 msgctxt ""
 "share|Second part of Place %n boy(s) and %n girl(s) in the center. Then "
@@ -25208,7 +25208,7 @@ msgid "and %n girl(s) in the center. "
 msgid_plural "and %n girl(s) in the center. "
 msgstr[0] "跟 %n 個女孩放在中間。 "
 
-#: activities/share/share.js:122
+#: activities/share/share.js:157
 #, qt-format
 msgctxt ""
 "share|Third part of Place %n boy(s) and %n girl(s) in the center. Then split "
@@ -25217,7 +25217,7 @@ msgid "Then split %n pieces of candy equally between them."
 msgid_plural "Then split %n pieces of candy equally between them."
 msgstr[0] "然後公平地將 %n 顆糖果分配給他們。"
 
-#: activities/share/Share.qml:366
+#: activities/share/Share.qml:422
 #, qt-format
 msgctxt "Share|"
 msgid "You can't put more than %1 pieces of candy in the same rectangle"

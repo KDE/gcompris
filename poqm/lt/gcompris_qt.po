@@ -24971,8 +24971,8 @@ msgctxt "Data|"
 msgid "Maximum 25 pieces of candy and 5 kids, no rest."
 msgstr "Daugiausiai 25 saldainiai, 5 vaikai, dalyba be liekanos."
 
-#: activities/share/resource/1/Data.qml:20
-#: activities/share/resource/2/Data.qml:20
+#: activities/share/resource/1/Data.qml:22
+#: activities/share/resource/2/Data.qml:22
 msgctxt "Data|"
 msgid ""
 "Paul wants to share 2 pieces of candy equally between 2 of his girl friends. "
@@ -24983,18 +24983,18 @@ msgstr ""
 "jam padėti? Pradžioje, nutempk mergaites į ekrano vidurį, tada nutempk "
 "saldainius kiekvienai iš jų."
 
-#: activities/share/resource/1/Data.qml:30
+#: activities/share/resource/1/Data.qml:32
 msgctxt "Data|"
 msgid "Now he wants to share 4 pieces of candy equally among his friends."
 msgstr "Dabar jis nori padalinti po lygiai 4 saldainius savo draugams."
 
-#: activities/share/resource/1/Data.qml:40
+#: activities/share/resource/1/Data.qml:42
 msgctxt "Data|"
 msgid ""
 "Can you now share 6 of Paul's pieces of candy equally among his friends?"
 msgstr "Ar gali padalinti po lygiai 6 Pauliaus saldainius jo draugams?"
 
-#: activities/share/resource/1/Data.qml:50
+#: activities/share/resource/1/Data.qml:52
 msgctxt "Data|"
 msgid ""
 "Some of his friends already have pieces of candy. He wants to give them 7 "
@@ -25004,7 +25004,7 @@ msgstr ""
 "jie turėtų po lygiai. Nutempk vaikus į ekrano vidurį, pamatysi, kiek jie jau "
 "turi saldainių."
 
-#: activities/share/resource/1/Data.qml:60
+#: activities/share/resource/1/Data.qml:62
 msgctxt "Data|"
 msgid ""
 "Paul has only 12 pieces of candy left. He eats 2 pieces of candy and he "
@@ -25014,7 +25014,7 @@ msgstr ""
 "Pauliui liko 12 saldainių. Jis suvalgė 2. Ar gali padėti jam padalinti "
 "likusius saldainius draugams po lygiai?"
 
-#: activities/share/resource/1/Data.qml:72
+#: activities/share/resource/1/Data.qml:77
 msgctxt "Data|"
 msgid ""
 "George wants to share 3 pieces of candy equally between 3 of his girl "
@@ -25023,7 +25023,7 @@ msgstr ""
 "Jurgis nori po lygiai padalinti 3 saldainius trims savo draugėms. Ar jis "
 "gali joms padalinti saldainius po lygiai?"
 
-#: activities/share/resource/1/Data.qml:82
+#: activities/share/resource/1/Data.qml:87
 msgctxt "Data|"
 msgid ""
 "Maria wants to share 6 pieces of candy equally between 3 of her friends: 1 "
@@ -25032,7 +25032,7 @@ msgstr ""
 "Marija nori padalinti 6 saldainius trims savo draugams: vienai mergaitei ir "
 "dviem berniukams. Ar gali ji saldainius padalinti po lygiai?"
 
-#: activities/share/resource/1/Data.qml:92
+#: activities/share/resource/1/Data.qml:97
 msgctxt "Data|"
 msgid ""
 "John wants to share 8 pieces of candy equally between 3 of his friends: 1 "
@@ -25044,7 +25044,7 @@ msgstr ""
 "saldainį. Ar jis galės taip padalinti, kad galiausiai jo draugai saldainių "
 "turėtų po lygiai?"
 
-#: activities/share/resource/1/Data.qml:102
+#: activities/share/resource/1/Data.qml:107
 msgctxt "Data|"
 msgid ""
 "Paul wants to share 12 pieces of candy equally between 3 of his friends: 2 "
@@ -25053,7 +25053,7 @@ msgstr ""
 "Paulius nori po lygiai padalinti 12 saldainių trims savo draugams: dviem "
 "berniukams ir vienai mergaitei. Ar jis gali tai padaryti?"
 
-#: activities/share/resource/1/Data.qml:112
+#: activities/share/resource/1/Data.qml:117
 msgctxt "Data|"
 msgid ""
 "Maria wants to share 11 pieces of candy between 3 of her friends: 1 boy and "
@@ -25064,8 +25064,8 @@ msgstr ""
 "trims savo draugams, kad jie turėtų po lygiai. Ar ji gali tai padaryti? "
 "Nutempk vaikus į ekrano vidurį, pamatysi, kiek jie jau turi saldainių."
 
-#: activities/share/resource/1/Data.qml:124
-#: activities/share/resource/2/Data.qml:114
+#: activities/share/resource/1/Data.qml:132
+#: activities/share/resource/2/Data.qml:122
 msgctxt "Data|"
 msgid ""
 "Alice wants to share 4 pieces of candy equally between 4 of her girl "
@@ -25074,12 +25074,12 @@ msgstr ""
 "Rugilė nori po lygiai padalinti 4 saldainius keturioms savo draugėms. Ar "
 "gali jai padėti?"
 
-#: activities/share/resource/1/Data.qml:134
+#: activities/share/resource/1/Data.qml:142
 msgctxt "Data|"
 msgid "Now, Alice wants to give 8 pieces of candy to her friends."
 msgstr "Dabar Rugilė savo draugams nori padalinti 8 saldainius."
 
-#: activities/share/resource/1/Data.qml:144
+#: activities/share/resource/1/Data.qml:152
 msgctxt "Data|"
 msgid ""
 "Alice wants to give 10 pieces of candy to her friends, 1 girl and 3 boys, so "
@@ -25090,12 +25090,12 @@ msgstr ""
 "saldainių draugams, kad jie turėtų po lygiai? Nutempk vaikus į ekrano vidurį "
 "ir pamatysi, kiek jie jau turi saldainių."
 
-#: activities/share/resource/1/Data.qml:154
+#: activities/share/resource/1/Data.qml:162
 msgctxt "Data|"
 msgid "Alice wants to give 16 pieces of candy to her friends."
 msgstr "Rugilė nori po lygiai padalinti 16 saldainių savo draugams."
 
-#: activities/share/resource/1/Data.qml:164
+#: activities/share/resource/1/Data.qml:172
 msgctxt "Data|"
 msgid ""
 "Alice wants to give pieces of candy to 4 friends. Some of them already have "
@@ -25107,7 +25107,7 @@ msgstr ""
 "po lygiai? Nutempęs vaikus į ekrano vidurį pamatysi, kiek jie jau turi "
 "saldainių."
 
-#: activities/share/resource/1/Data.qml:176
+#: activities/share/resource/1/Data.qml:187
 msgctxt "Data|"
 msgid ""
 "Michael wants to share 5 pieces of candy equally between 5 of his girl "
@@ -25116,7 +25116,7 @@ msgstr ""
 "Mikas nori po lygiai padalinti 5 saldainius penkioms savo draugėms. Ar gali "
 "jam padėti?"
 
-#: activities/share/resource/1/Data.qml:186
+#: activities/share/resource/1/Data.qml:197
 msgctxt "Data|"
 msgid ""
 "Helen has 5 friends: 2 boys and 3 girls. She wants to give them 10 pieces of "
@@ -25125,7 +25125,7 @@ msgstr ""
 "Elena turi penkis draugus: du berniukus ir tris mergaites. Ji nori jiems "
 "padalinti po lygiai 10 saldainių. Padėk jai!"
 
-#: activities/share/resource/1/Data.qml:196
+#: activities/share/resource/1/Data.qml:207
 msgctxt "Data|"
 msgid ""
 "Michelle wants to share 12 pieces of candy equally between her 4 brothers "
@@ -25136,7 +25136,7 @@ msgstr ""
 "juos keturiems savo broliams ir vienai sesei kad galiausiai jie turėtų po "
 "lygiai saldinių. Padėk jai pasidalinti saldainiais!"
 
-#: activities/share/resource/1/Data.qml:206
+#: activities/share/resource/1/Data.qml:217
 msgctxt "Data|"
 msgid ""
 "Thomas wants to share his 20 pieces of candy with his friends: 1 boy and 4 "
@@ -25145,7 +25145,7 @@ msgstr ""
 "Tomas nori padalinti po lygiai 20 saldainių savo draugams: vienam berniukui "
 "ir keturioms mergaitėms. Ar gali jam padėti?"
 
-#: activities/share/resource/1/Data.qml:216
+#: activities/share/resource/1/Data.qml:227
 msgctxt "Data|"
 msgid ""
 "Paul wants to share 20 pieces of candy equally between 5 of his friends. "
@@ -25155,7 +25155,7 @@ msgstr ""
 "20 saldainių penkiems savo draugams, kad jie turėtų po lygiai. Ar gali jam "
 "padėti?"
 
-#: activities/share/resource/1/Data.qml:228
+#: activities/share/resource/1/Data.qml:242
 msgctxt "Data|"
 msgid ""
 "Charles wants to share his 6 pieces of candy equally with 2 of his girl "
@@ -25164,7 +25164,7 @@ msgstr ""
 "Bernardas nori padalinti 6 saldainius dviem draugėms. Ar jis gali padalinti "
 "saldainius po lygiai?"
 
-#: activities/share/resource/1/Data.qml:238
+#: activities/share/resource/1/Data.qml:252
 msgctxt "Data|"
 msgid ""
 "For her birthday, Elizabeth has 8 pieces of candy to share with 3 of her "
@@ -25176,7 +25176,7 @@ msgstr ""
 "berniukui, kad jie turėtų po lygiai. Kaip ji turėtų padalinti saldainius? "
 "Nutempk vaikus į ekrano vidurį, pamatysi, kiek jie jau turi saldainių."
 
-#: activities/share/resource/1/Data.qml:248
+#: activities/share/resource/1/Data.qml:262
 msgctxt "Data|"
 msgid ""
 "Jason's father gave him 16 pieces of candy to share equally with his "
@@ -25186,7 +25186,7 @@ msgstr ""
 "Tėtis davė Jonui 16 saldainių, kad jis pavaišintų savo draugus: du berniukus "
 "ir dvi mergaites. Padėk jam po lygiai išdalinti saldainius savo draugams!"
 
-#: activities/share/resource/1/Data.qml:258
+#: activities/share/resource/1/Data.qml:272
 msgctxt "Data|"
 msgid ""
 "George wants to share 14 pieces of candy between 4 of his friends: 2 girls "
@@ -25197,7 +25197,7 @@ msgstr ""
 "saldainių keturiems savo draugams: dviem berniukams ir dviem mergaitėms, kad "
 "jie turėtų po lygiai."
 
-#: activities/share/resource/1/Data.qml:268
+#: activities/share/resource/1/Data.qml:282
 msgctxt "Data|"
 msgid ""
 "Maria wants to share 25 pieces of candy equally between 5 of her friends: 3 "
@@ -25211,23 +25211,23 @@ msgctxt "Data|"
 msgid "Maximum 25 pieces of candy and 5 kids, possible rest."
 msgstr "Daugiausiai 25 saldainiai, 5 vaikai, dalyba su liekana."
 
-#: activities/share/resource/2/Data.qml:30
+#: activities/share/resource/2/Data.qml:32
 msgctxt "Data|"
 msgid "Now he wants to share 5 pieces of candy among his friends."
 msgstr "Dabar jis nori padalinti 5 saldainius savo draugams po lygiai."
 
-#: activities/share/resource/2/Data.qml:40
+#: activities/share/resource/2/Data.qml:42
 msgctxt "Data|"
 msgid "Can you now share 7 of Paul's pieces of candy among his friends?"
 msgstr ""
 "Ar tu dabar gali padalinti po lygiai 7 Pauliaus saldainius jo draugams?"
 
-#: activities/share/resource/2/Data.qml:50
+#: activities/share/resource/2/Data.qml:52
 msgctxt "Data|"
 msgid "Can you now share 8 of Paul's pieces of candy among his friends?"
 msgstr "Ar galite išdalinti 8 saldainius Pauliaus draugams?"
 
-#: activities/share/resource/2/Data.qml:60
+#: activities/share/resource/2/Data.qml:62
 msgctxt "Data|"
 msgid ""
 "Paul has only 11 pieces of candy left. He eats 2 pieces of candy and he "
@@ -25237,7 +25237,7 @@ msgstr ""
 "Pauliui liko 11 saldainių, 2 jis suvalgė, tada likusius atiduoda savo "
 "draugams. Ar gali padėti jam lygiai padalinti likusius 9 saldainius?"
 
-#: activities/share/resource/2/Data.qml:72
+#: activities/share/resource/2/Data.qml:77
 msgctxt "Data|"
 msgid ""
 "Bob wants to share 3 pieces of candy equally between 3 of his girl friends. "
@@ -25246,7 +25246,7 @@ msgstr ""
 "Bobas nori duoti 3 saldainius savo trims draugėms. Ar gali jis padalinti "
 "saldainius po lygiai?"
 
-#: activities/share/resource/2/Data.qml:82
+#: activities/share/resource/2/Data.qml:87
 msgctxt "Data|"
 msgid ""
 "Harry wants to share 8 pieces of candy between 3 of his friends: 1 boy and 2 "
@@ -25256,7 +25256,7 @@ msgstr ""
 "Hario draugas jau turi saldainį. Ar Haris gali padalinti 8 saldainius savo "
 "draugams, vienam berniukui ir dviem mergaitėms, kad jie turėtų po lygiai?"
 
-#: activities/share/resource/2/Data.qml:92
+#: activities/share/resource/2/Data.qml:97
 msgctxt "Data|"
 msgid ""
 "Maria wants to share 8 pieces of candy between 3 of her friends: 1 boy and 2 "
@@ -25268,7 +25268,7 @@ msgstr ""
 "lygiai. Ar ji gali tai padaryti? Nutempk vaikus į ekrano vidurį, pamatysi, "
 "kiek jie jau turi saldainių."
 
-#: activities/share/resource/2/Data.qml:102
+#: activities/share/resource/2/Data.qml:107
 msgctxt "Data|"
 msgid ""
 "Harry wants to share 12 pieces of candy between 3 of his friends: 1 boy and "
@@ -25278,12 +25278,12 @@ msgstr ""
 "Hario draugas turi saldainių. Ar gali Haris padalinti 12 saldainių savo "
 "draugams, vienam berniukui ir dviem mergaitėms, kad jie turėtų po lygiai?"
 
-#: activities/share/resource/2/Data.qml:124
+#: activities/share/resource/2/Data.qml:132
 msgctxt "Data|"
 msgid "Now, Alice wants to share 8 pieces of candy equally among her friends."
 msgstr "Dabar Rugilė savo draugams nori padalinti po lygiai 8 saldainius."
 
-#: activities/share/resource/2/Data.qml:134
+#: activities/share/resource/2/Data.qml:142
 msgctxt "Data|"
 msgid ""
 "Can you help Alice share 10 pieces of candy equally among her friends: 1 "
@@ -25293,12 +25293,12 @@ msgstr ""
 "saldainių jos draugams: vienai mergaitei ir trims berniukams, kad jie turėtų "
 "po lygiai?"
 
-#: activities/share/resource/2/Data.qml:144
+#: activities/share/resource/2/Data.qml:152
 msgctxt "Data|"
 msgid "Alice wants to share 16 pieces of candy equally among her friends."
 msgstr "Rugilė nori savo draugams po lygiai padalinti 16 saldainių."
 
-#: activities/share/resource/2/Data.qml:154
+#: activities/share/resource/2/Data.qml:162
 msgctxt "Data|"
 msgid ""
 "Alice has 14 pieces of candy left. She wants to share them equally among her "
@@ -25309,7 +25309,7 @@ msgstr ""
 "turi saldainių. Ar gali padėti jai padalinti saldainius, kad draugai turėtų "
 "po lygiai? Nutempęs vaikus į ekrano vidurį pamatysi, kiek jie turi saldainių."
 
-#: activities/share/resource/2/Data.qml:166
+#: activities/share/resource/2/Data.qml:177
 msgctxt "Data|"
 msgid ""
 "Help Jon share 11 pieces of candies equally between five girls. The rest "
@@ -25318,7 +25318,7 @@ msgstr ""
 "Padėk Jonui po lygiai padalinti 11 saldainių penkioms mergaitėms. Likutis "
 "tegu lieka Jonui."
 
-#: activities/share/resource/2/Data.qml:176
+#: activities/share/resource/2/Data.qml:187
 msgctxt "Data|"
 msgid ""
 "Jon wants to share the rest of his pieces of candies with his brothers and "
@@ -25329,7 +25329,7 @@ msgstr ""
 "jis padalinti saldainius, kad jo broliai ir sesės turėtų po lygiai, jei jo "
 "broliai jau turi po du saldainius?"
 
-#: activities/share/resource/2/Data.qml:186
+#: activities/share/resource/2/Data.qml:197
 msgctxt "Data|"
 msgid ""
 "Help Tux split 19 pieces of candies between his friends: 4 boys and 1 girl."
@@ -25337,14 +25337,14 @@ msgstr ""
 "Tukso draugė jau turi saldainių. Padėk Tuksui padalinti 19 saldainių jo "
 "draugams: keturiems berniukams ir vienai mergaitei, kad jie turėtų po lygiai."
 
-#: activities/share/resource/2/Data.qml:196
+#: activities/share/resource/2/Data.qml:207
 msgctxt "Data|"
 msgid "Help Maria share 18 pieces of candy equally between 3 boys and 2 girls."
 msgstr ""
 "Mergaitės jau turi po saldainį. Padėk Marijai padalinti 18 saldainių trims "
 "berniukams ir dviem mergaitėms, kad visi penki turėtų saldainių po lygiai."
 
-#: activities/share/resource/2/Data.qml:208
+#: activities/share/resource/2/Data.qml:222
 msgctxt "Data|"
 msgid ""
 "Charles wants to share his 6 pieces of candy equally between 2 of his girl "
@@ -25353,7 +25353,7 @@ msgstr ""
 "Bernardas nori padalinti 6 saldainius dviem draugėms. Ar jis gali padalinti "
 "saldainius po lygiai?"
 
-#: activities/share/resource/2/Data.qml:218
+#: activities/share/resource/2/Data.qml:232
 msgctxt "Data|"
 msgid ""
 "For her birthday, Elizabeth has 8 pieces of candy to share with 3 of her "
@@ -25365,7 +25365,7 @@ msgstr ""
 "lygiai. Mergaitės jau turi saldainių. Kaip ji turėtų padalinti saldainius "
 "savo draugams?"
 
-#: activities/share/resource/2/Data.qml:228
+#: activities/share/resource/2/Data.qml:242
 msgctxt "Data|"
 msgid ""
 "Jason's father gave him 17 pieces of candy to share equally between his "
@@ -25375,7 +25375,7 @@ msgstr ""
 "Tėtis davė Jonui 17 saldainių, kad Jonas pavaišintų jais savo draugus: du "
 "berniukus ir dvi mergaites, visus po lygiai. Padėk jam išdalinti saldainius!"
 
-#: activities/share/resource/2/Data.qml:238
+#: activities/share/resource/2/Data.qml:252
 msgctxt "Data|"
 msgid ""
 "George wants to share 14 pieces of candy equally between 4 of his friends: 2 "
@@ -25386,7 +25386,7 @@ msgstr ""
 "keturiems savo draugams. Ar jis gali padalinti saldainius taip, kad draugai "
 "turėtų po lygiai?"
 
-#: activities/share/resource/2/Data.qml:248
+#: activities/share/resource/2/Data.qml:262
 msgctxt "Data|"
 msgid ""
 "Maria wants to share 23 pieces of candy equally between 5 of her friends: 3 "
@@ -25402,7 +25402,7 @@ msgctxt "Data|"
 msgid "Maximum 30 pieces of candy and 6 kids, possible rest."
 msgstr "Daugiausiai 30 saldainių, 6 vaikai, dalyba su liekana."
 
-#: activities/share/share.js:114
+#: activities/share/share.js:149
 #, qt-format
 msgctxt ""
 "share|First part of Place %n boy(s) and %n girl(s) in the center. Then split "
@@ -25414,7 +25414,7 @@ msgstr[1] "Patalpink %n berniukus "
 msgstr[2] "Patalpink %n berniukų "
 msgstr[3] "Patalpink %n berniuką "
 
-#: activities/share/share.js:118
+#: activities/share/share.js:153
 #, qt-format
 msgctxt ""
 "share|Second part of Place %n boy(s) and %n girl(s) in the center. Then "
@@ -25426,7 +25426,7 @@ msgstr[1] "ir %n mergaites į pagrindinę sritį. "
 msgstr[2] "ir %n mergaičių į pagrindinę sritį. "
 msgstr[3] "ir %n mergaitę į pagrindinę sritį. "
 
-#: activities/share/share.js:122
+#: activities/share/share.js:157
 #, qt-format
 msgctxt ""
 "share|Third part of Place %n boy(s) and %n girl(s) in the center. Then split "
@@ -25438,7 +25438,7 @@ msgstr[1] "Tada padalink jiems %n saldainius po lygiai."
 msgstr[2] "Tada padalink jiems %n saldainių po lygiai."
 msgstr[3] "Tuomet padalink jiems %n saldainį po lygiai."
 
-#: activities/share/Share.qml:366
+#: activities/share/Share.qml:422
 #, qt-format
 msgctxt "Share|"
 msgid "You can't put more than %1 pieces of candy in the same rectangle"

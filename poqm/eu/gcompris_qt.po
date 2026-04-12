@@ -24965,8 +24965,8 @@ msgctxt "Data|"
 msgid "Maximum 25 pieces of candy and 5 kids, no rest."
 msgstr "Gehienez 25 gozoki ale eta 5 haur, hondarrik gabe."
 
-#: activities/share/resource/1/Data.qml:20
-#: activities/share/resource/2/Data.qml:20
+#: activities/share/resource/1/Data.qml:22
+#: activities/share/resource/2/Data.qml:22
 msgctxt "Data|"
 msgid ""
 "Paul wants to share 2 pieces of candy equally between 2 of his girl friends. "
@@ -24977,14 +24977,14 @@ msgstr ""
 "emanez. Lagunduko diozu? Aurrena kokatu adiskideak erdigunean, ondoren "
 "arrastatu gozoki aleak haietako bakoitzari."
 
-#: activities/share/resource/1/Data.qml:30
+#: activities/share/resource/1/Data.qml:32
 msgctxt "Data|"
 msgid "Now he wants to share 4 pieces of candy equally among his friends."
 msgstr ""
 "Orain 4 gozoki ale partekatu nahi ditu, berdin-berdin, bere adiskideen "
 "artean."
 
-#: activities/share/resource/1/Data.qml:40
+#: activities/share/resource/1/Data.qml:42
 msgctxt "Data|"
 msgid ""
 "Can you now share 6 of Paul's pieces of candy equally among his friends?"
@@ -24992,7 +24992,7 @@ msgstr ""
 "Partekatu ditzakezu orain, Paulen gozoki aleetako 6, berdin-berdin, bere "
 "adiskideen artean?"
 
-#: activities/share/resource/1/Data.qml:50
+#: activities/share/resource/1/Data.qml:52
 msgctxt "Data|"
 msgid ""
 "Some of his friends already have pieces of candy. He wants to give them 7 "
@@ -25001,7 +25001,7 @@ msgstr ""
 "Bere adiskideetako batzuk dagoeneko gozoko aleak dituzte. 7 ale gehiago eman "
 "nahi dizkie guztiek kopuru bera izan dezaten."
 
-#: activities/share/resource/1/Data.qml:60
+#: activities/share/resource/1/Data.qml:62
 msgctxt "Data|"
 msgid ""
 "Paul has only 12 pieces of candy left. He eats 2 pieces of candy and he "
@@ -25012,7 +25012,7 @@ msgstr ""
 "gainerakoak bere adiskideei ematen dizkie. Lagunduko diozu bere adiskideen "
 "artean, guztiei kopuru bera emanez, gainerako 10 gozoki aleak banatzen?"
 
-#: activities/share/resource/1/Data.qml:72
+#: activities/share/resource/1/Data.qml:77
 msgctxt "Data|"
 msgid ""
 "George wants to share 3 pieces of candy equally between 3 of his girl "
@@ -25021,7 +25021,7 @@ msgstr ""
 "Jurgik 3 gozoki ale banatu nahi ditu, berdin-berdin, bere 3 adiskiderekin. "
 "Bana al ditzake gozoki aleak berdin-berdin?"
 
-#: activities/share/resource/1/Data.qml:82
+#: activities/share/resource/1/Data.qml:87
 msgctxt "Data|"
 msgid ""
 "Maria wants to share 6 pieces of candy equally between 3 of her friends: 1 "
@@ -25030,7 +25030,7 @@ msgstr ""
 "Mariak 6 gozoki ale, berdin-berdin, banatu nahi ditu bere 3 adiskideren "
 "artean: neskato 1 eta 2 mutiko. Bana al ditzake gozoki aleak berdin-berdin?"
 
-#: activities/share/resource/1/Data.qml:92
+#: activities/share/resource/1/Data.qml:97
 msgctxt "Data|"
 msgid ""
 "John wants to share 8 pieces of candy equally between 3 of his friends: 1 "
@@ -25041,7 +25041,7 @@ msgstr ""
 "artean: mutiko 1 eta 2 neskato. Mutikoak ale bat du dagoeneko. Ziurta "
 "daiteke denek kopuru bera izango dutela?"
 
-#: activities/share/resource/1/Data.qml:102
+#: activities/share/resource/1/Data.qml:107
 msgctxt "Data|"
 msgid ""
 "Paul wants to share 12 pieces of candy equally between 3 of his friends: 2 "
@@ -25050,7 +25050,7 @@ msgstr ""
 "Paulek 12 gozoki ale, berdin-berdin, banatu nahi ditu bere 3 adiskideren "
 "artean: 2 mutiko eta neskato 1. Gozoki aleak, berdin-berdin, bana ditzake?"
 
-#: activities/share/resource/1/Data.qml:112
+#: activities/share/resource/1/Data.qml:117
 msgctxt "Data|"
 msgid ""
 "Maria wants to share 11 pieces of candy between 3 of her friends: 1 boy and "
@@ -25061,8 +25061,8 @@ msgstr ""
 "eta 2 neskato. Neskatoek dagoeneko gozoki ale batzuk dituzte. Bana al "
 "ditzake gozoki aleak guztiek kopuru bera izan dezaten?"
 
-#: activities/share/resource/1/Data.qml:124
-#: activities/share/resource/2/Data.qml:114
+#: activities/share/resource/1/Data.qml:132
+#: activities/share/resource/2/Data.qml:122
 msgctxt "Data|"
 msgid ""
 "Alice wants to share 4 pieces of candy equally between 4 of her girl "
@@ -25071,12 +25071,12 @@ msgstr ""
 "Alizek 4 gozoki ale banatu nahi ditu, berdin-berdin, bere 4 adiskideren "
 "artean. Lagundu diezaiokezu?"
 
-#: activities/share/resource/1/Data.qml:134
+#: activities/share/resource/1/Data.qml:142
 msgctxt "Data|"
 msgid "Now, Alice wants to give 8 pieces of candy to her friends."
 msgstr "Orain, Alizek 8 gozoki ale eman nahi dizkie bere adiskideei."
 
-#: activities/share/resource/1/Data.qml:144
+#: activities/share/resource/1/Data.qml:152
 msgctxt "Data|"
 msgid ""
 "Alice wants to give 10 pieces of candy to her friends, 1 girl and 3 boys, so "
@@ -25087,12 +25087,12 @@ msgstr ""
 "mutiko, guztiek kopuru bera izan dezaten. Neskek dagoeneko badituzte gozoki "
 "ale batzuk."
 
-#: activities/share/resource/1/Data.qml:154
+#: activities/share/resource/1/Data.qml:162
 msgctxt "Data|"
 msgid "Alice wants to give 16 pieces of candy to her friends."
 msgstr "Alizek 16 gozoki ale eman nahi dizkie bere adiskideei."
 
-#: activities/share/resource/1/Data.qml:164
+#: activities/share/resource/1/Data.qml:172
 msgctxt "Data|"
 msgid ""
 "Alice wants to give pieces of candy to 4 friends. Some of them already have "
@@ -25103,7 +25103,7 @@ msgstr ""
 "dagoeneko badituzte gozoki ale batzuk. Lagunduko diozu 14 gozoki ale "
 "banatzen, bere lagunek kopuru bera izan dezaten?"
 
-#: activities/share/resource/1/Data.qml:176
+#: activities/share/resource/1/Data.qml:187
 msgctxt "Data|"
 msgid ""
 "Michael wants to share 5 pieces of candy equally between 5 of his girl "
@@ -25112,7 +25112,7 @@ msgstr ""
 "Mikelek 5 gozoki ale banatu nahi ditu, berdin-berdin, bere 5 lagunen artean. "
 "Lagunduko diozu hori egiten?"
 
-#: activities/share/resource/1/Data.qml:186
+#: activities/share/resource/1/Data.qml:197
 msgctxt "Data|"
 msgid ""
 "Helen has 5 friends: 2 boys and 3 girls. She wants to give them 10 pieces of "
@@ -25121,7 +25121,7 @@ msgstr ""
 "Elenek 5 lagun ditu: 2 mutiko eta 3 neskato. 10 gozoki ale eman nahi dizkie."
 "Lagun iezaiozu adiskideei aleak berdin-berdin banatzen."
 
-#: activities/share/resource/1/Data.qml:196
+#: activities/share/resource/1/Data.qml:207
 msgctxt "Data|"
 msgid ""
 "Michelle wants to share 12 pieces of candy equally between her 4 brothers "
@@ -25132,7 +25132,7 @@ msgstr ""
 "ahizpa 1en artean, guztiek kopuru bera izan dezaten. Bere ahizpak dagoeneko "
 "gozoki ale batzuk ditu."
 
-#: activities/share/resource/1/Data.qml:206
+#: activities/share/resource/1/Data.qml:217
 msgctxt "Data|"
 msgid ""
 "Thomas wants to share his 20 pieces of candy with his friends: 1 boy and 4 "
@@ -25141,7 +25141,7 @@ msgstr ""
 "Tomasek 20 gozoki ale banatu nahi ditu bere lagunen artean: mutiko 1 eta 4 "
 "neskato. Lagunduko diozu hori egiten?"
 
-#: activities/share/resource/1/Data.qml:216
+#: activities/share/resource/1/Data.qml:227
 msgctxt "Data|"
 msgid ""
 "Paul wants to share 20 pieces of candy equally between 5 of his friends. "
@@ -25150,7 +25150,7 @@ msgstr ""
 "Paulek 20 gozoki ale banatu nahi ditu, berdin-berdin, bere 5 adiskideren "
 "artean. Bakoitzak dagoeneko gozoki ale bat du. Lagunduko diozu hori egiten?"
 
-#: activities/share/resource/1/Data.qml:228
+#: activities/share/resource/1/Data.qml:242
 msgctxt "Data|"
 msgid ""
 "Charles wants to share his 6 pieces of candy equally with 2 of his girl "
@@ -25160,7 +25160,7 @@ msgstr ""
 "partekatu nahi ditu. Bana al ditzake gozoki aleak guztiek kopuru berdin-"
 "berdina jaso dezaten?"
 
-#: activities/share/resource/1/Data.qml:238
+#: activities/share/resource/1/Data.qml:252
 msgctxt "Data|"
 msgid ""
 "For her birthday, Elizabeth has 8 pieces of candy to share with 3 of her "
@@ -25172,7 +25172,7 @@ msgstr ""
 "dituzte. Nola banatu beharko lituzke gozoki aleak guztiek kopuru bera izan "
 "dezaten?"
 
-#: activities/share/resource/1/Data.qml:248
+#: activities/share/resource/1/Data.qml:262
 msgctxt "Data|"
 msgid ""
 "Jason's father gave him 16 pieces of candy to share equally with his "
@@ -25183,7 +25183,7 @@ msgstr ""
 "neskato, berdin-berdin partekatzeko. Lagun iezaiozu gozoki aleak bere "
 "adiskideei ematen."
 
-#: activities/share/resource/1/Data.qml:258
+#: activities/share/resource/1/Data.qml:272
 msgctxt "Data|"
 msgid ""
 "George wants to share 14 pieces of candy between 4 of his friends: 2 girls "
@@ -25194,7 +25194,7 @@ msgstr ""
 "eta 2 mutiko. Mutikoek dagoeneko gozoki ale batzuk dituzte. Guztiek kopuru "
 "bera izatea nahi du."
 
-#: activities/share/resource/1/Data.qml:268
+#: activities/share/resource/1/Data.qml:282
 msgctxt "Data|"
 msgid ""
 "Maria wants to share 25 pieces of candy equally between 5 of her friends: 3 "
@@ -25208,24 +25208,24 @@ msgctxt "Data|"
 msgid "Maximum 25 pieces of candy and 5 kids, possible rest."
 msgstr "Gehienez 25 gozoki ale eta 5 haur, hondarra egon daiteke."
 
-#: activities/share/resource/2/Data.qml:30
+#: activities/share/resource/2/Data.qml:32
 msgctxt "Data|"
 msgid "Now he wants to share 5 pieces of candy among his friends."
 msgstr "Orain bere adiskideen artean 5 gozoki ale banatu nahi ditu."
 
-#: activities/share/resource/2/Data.qml:40
+#: activities/share/resource/2/Data.qml:42
 msgctxt "Data|"
 msgid "Can you now share 7 of Paul's pieces of candy among his friends?"
 msgstr ""
 "Bana al ditzakezu orain Paulen gozoki aleetako 7 bere adiskideen artean?"
 
-#: activities/share/resource/2/Data.qml:50
+#: activities/share/resource/2/Data.qml:52
 msgctxt "Data|"
 msgid "Can you now share 8 of Paul's pieces of candy among his friends?"
 msgstr ""
 "Bana al ditzakezu orain Paulen gozoki aleetako 8 bere adiskideen artean?"
 
-#: activities/share/resource/2/Data.qml:60
+#: activities/share/resource/2/Data.qml:62
 msgctxt "Data|"
 msgid ""
 "Paul has only 11 pieces of candy left. He eats 2 pieces of candy and he "
@@ -25236,7 +25236,7 @@ msgstr ""
 "gainerakoak adiskideei ematen dizkie. Lagunduko diozu bere adiskideen artean "
 "gainerako 9 gozoki aleak berdin-berdin banatzen?"
 
-#: activities/share/resource/2/Data.qml:72
+#: activities/share/resource/2/Data.qml:77
 msgctxt "Data|"
 msgid ""
 "Bob wants to share 3 pieces of candy equally between 3 of his girl friends. "
@@ -25245,7 +25245,7 @@ msgstr ""
 "Ibonek 3 gozoki ale banatu nahi ditu, berdin-berdin, bere 3 adiskideren "
 "artean. Bana al ditzake gozoki aleak berdin-berdin?"
 
-#: activities/share/resource/2/Data.qml:82
+#: activities/share/resource/2/Data.qml:87
 msgctxt "Data|"
 msgid ""
 "Harry wants to share 8 pieces of candy between 3 of his friends: 1 boy and 2 "
@@ -25256,7 +25256,7 @@ msgstr ""
 "2 neskato. Mutikoak dagoeneko gozoki ale bat du. Bana al ditzake gozoki "
 "aleak guztiek kopuru bera izan dezaten?"
 
-#: activities/share/resource/2/Data.qml:92
+#: activities/share/resource/2/Data.qml:97
 msgctxt "Data|"
 msgid ""
 "Maria wants to share 8 pieces of candy between 3 of her friends: 1 boy and 2 "
@@ -25267,7 +25267,7 @@ msgstr ""
 "2 neskato. Neskatoek dagoeneko gozoki ale batzuk dituzte. Bana al ditzake "
 "gozoki aleak guztiek kopuru bera izan dezaten?"
 
-#: activities/share/resource/2/Data.qml:102
+#: activities/share/resource/2/Data.qml:107
 msgctxt "Data|"
 msgid ""
 "Harry wants to share 12 pieces of candy between 3 of his friends: 1 boy and "
@@ -25278,13 +25278,13 @@ msgstr ""
 "eta 2 neskato. Mutikoak dagoeneko gozoki ale batzuk ditu. Bana al ditzake "
 "gozoki aleak guztiek kopuru bera izan dezaten?"
 
-#: activities/share/resource/2/Data.qml:124
+#: activities/share/resource/2/Data.qml:132
 msgctxt "Data|"
 msgid "Now, Alice wants to share 8 pieces of candy equally among her friends."
 msgstr ""
 "Orain, Alizek 8 gozoki ale banatu nahi ditu, berdin, bere adiskideen artean."
 
-#: activities/share/resource/2/Data.qml:134
+#: activities/share/resource/2/Data.qml:142
 msgctxt "Data|"
 msgid ""
 "Can you help Alice share 10 pieces of candy equally among her friends: 1 "
@@ -25294,13 +25294,13 @@ msgstr ""
 "3 mutiko, berdin-berdin, banatzen? Neskatoak dagoeneko gozoki ale batzuk "
 "ditu."
 
-#: activities/share/resource/2/Data.qml:144
+#: activities/share/resource/2/Data.qml:152
 msgctxt "Data|"
 msgid "Alice wants to share 16 pieces of candy equally among her friends."
 msgstr ""
 "Alizek 16 gozoki ale banatu nahi ditu, berdin-berdin, bere adiskideen artean."
 
-#: activities/share/resource/2/Data.qml:154
+#: activities/share/resource/2/Data.qml:162
 msgctxt "Data|"
 msgid ""
 "Alice has 14 pieces of candy left. She wants to share them equally among her "
@@ -25311,7 +25311,7 @@ msgstr ""
 "nahi ditu. Mutikoek dagoeneko badituzte gozoki ale batzuk. Lagunduko diozu "
 "gozoki aleak berdin-berdin banatzen?"
 
-#: activities/share/resource/2/Data.qml:166
+#: activities/share/resource/2/Data.qml:177
 msgctxt "Data|"
 msgid ""
 "Help Jon share 11 pieces of candies equally between five girls. The rest "
@@ -25320,7 +25320,7 @@ msgstr ""
 "Lagundu Joni 11 gozoki ale bost neskatoren artean berdin-berdin banatzen. "
 "Gainerakoak Jonentzat izango dira."
 
-#: activities/share/resource/2/Data.qml:176
+#: activities/share/resource/2/Data.qml:187
 msgctxt "Data|"
 msgid ""
 "Jon wants to share the rest of his pieces of candies with his brothers and "
@@ -25331,7 +25331,7 @@ msgstr ""
 "Bana ditzakezu guztiek kopuru berdina jaso dezaten, anaiek dagoeneko 2na "
 "gozoki ale dituztela jakinda?"
 
-#: activities/share/resource/2/Data.qml:186
+#: activities/share/resource/2/Data.qml:197
 msgctxt "Data|"
 msgid ""
 "Help Tux split 19 pieces of candies between his friends: 4 boys and 1 girl."
@@ -25339,14 +25339,14 @@ msgstr ""
 "Lagundu Tux-i 19 gozoki ale bere lagunen artean banatzen, 4 mutiko eta "
 "neskato 1."
 
-#: activities/share/resource/2/Data.qml:196
+#: activities/share/resource/2/Data.qml:207
 msgctxt "Data|"
 msgid "Help Maria share 18 pieces of candy equally between 3 boys and 2 girls."
 msgstr ""
 "Lagundu Mariari 18 gozoki ale 3 mutiko eta 2 neskatoren artean berdin-berdin "
 "banatzen."
 
-#: activities/share/resource/2/Data.qml:208
+#: activities/share/resource/2/Data.qml:222
 msgctxt "Data|"
 msgid ""
 "Charles wants to share his 6 pieces of candy equally between 2 of his girl "
@@ -25355,7 +25355,7 @@ msgstr ""
 "Karlosek bere 6 gozoki aleak 2 adiskideren artean banatu nahi ditu. Bana al "
 "ditzake gozoki aleak berdin-berdin?"
 
-#: activities/share/resource/2/Data.qml:218
+#: activities/share/resource/2/Data.qml:232
 msgctxt "Data|"
 msgid ""
 "For her birthday, Elizabeth has 8 pieces of candy to share with 3 of her "
@@ -25366,7 +25366,7 @@ msgstr ""
 "neskato eta mutiko 1, berdin-berdin banatzeko. Nola banatu beharko lituzke "
 "gozoki aleak adiskideen artean?"
 
-#: activities/share/resource/2/Data.qml:228
+#: activities/share/resource/2/Data.qml:242
 msgctxt "Data|"
 msgid ""
 "Jason's father gave him 17 pieces of candy to share equally between his "
@@ -25377,7 +25377,7 @@ msgstr ""
 "neskato, berdin-berdin banatzeko. Lagun iezaiozu gozoki aleak bere "
 "adiskideei ematen."
 
-#: activities/share/resource/2/Data.qml:238
+#: activities/share/resource/2/Data.qml:252
 msgctxt "Data|"
 msgid ""
 "George wants to share 14 pieces of candy equally between 4 of his friends: 2 "
@@ -25388,7 +25388,7 @@ msgstr ""
 "artean, 2 neskato eta 2 mutiko. Bana al ditzake gozoki aleak, berdin-berdin, "
 "bere adiskideen artean?"
 
-#: activities/share/resource/2/Data.qml:248
+#: activities/share/resource/2/Data.qml:262
 msgctxt "Data|"
 msgid ""
 "Maria wants to share 23 pieces of candy equally between 5 of her friends: 3 "
@@ -25404,7 +25404,7 @@ msgctxt "Data|"
 msgid "Maximum 30 pieces of candy and 6 kids, possible rest."
 msgstr "Gehienez 30 gozoki ale eta 6 haur, hondarra egon daiteke."
 
-#: activities/share/share.js:114
+#: activities/share/share.js:149
 #, qt-format
 msgctxt ""
 "share|First part of Place %n boy(s) and %n girl(s) in the center. Then split "
@@ -25414,7 +25414,7 @@ msgid_plural "Place %n boy(s) "
 msgstr[0] "Jarri mutiko %n "
 msgstr[1] "Jarri %n mutiko "
 
-#: activities/share/share.js:118
+#: activities/share/share.js:153
 #, qt-format
 msgctxt ""
 "share|Second part of Place %n boy(s) and %n girl(s) in the center. Then "
@@ -25424,7 +25424,7 @@ msgid_plural "and %n girl(s) in the center. "
 msgstr[0] "eta neskato %n erdian. "
 msgstr[1] "eta %n neskato erdian. "
 
-#: activities/share/share.js:122
+#: activities/share/share.js:157
 #, qt-format
 msgctxt ""
 "share|Third part of Place %n boy(s) and %n girl(s) in the center. Then split "
@@ -25434,7 +25434,7 @@ msgid_plural "Then split %n pieces of candy equally between them."
 msgstr[0] "Ondoren banatu %n gozoki aleak, berdin-berdin, haien artean."
 msgstr[1] "Ondoren banatu %n gozoki aleak, berdin-berdin, haien artean."
 
-#: activities/share/Share.qml:366
+#: activities/share/Share.qml:422
 #, qt-format
 msgctxt "Share|"
 msgid "You can't put more than %1 pieces of candy in the same rectangle"

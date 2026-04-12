@@ -25042,8 +25042,8 @@ msgid "Maximum 25 pieces of candy and 5 kids, no rest."
 msgstr "Un máximo de 25 doces e 5 amizades, sen resto."
 
 # O nome de Paul adaptouse ao galego escollendo o nome de neno máis popular en Galicia de 2015 (http://ilg.usc.es/nomes_galicia/?nomes=nenos), a falta de datos máis actuais.
-#: activities/share/resource/1/Data.qml:20
-#: activities/share/resource/2/Data.qml:20
+#: activities/share/resource/1/Data.qml:22
+#: activities/share/resource/2/Data.qml:22
 msgctxt "Data|"
 msgid ""
 "Paul wants to share 2 pieces of candy equally between 2 of his girl friends. "
@@ -25054,13 +25054,13 @@ msgstr ""
 "axudalo? Primeiro, coloca as amigas no centro, e a continuación arrastra os "
 "doces a cada unha delas."
 
-#: activities/share/resource/1/Data.qml:30
+#: activities/share/resource/1/Data.qml:32
 msgctxt "Data|"
 msgid "Now he wants to share 4 pieces of candy equally among his friends."
 msgstr ""
 "Agora quere compartir 4 doces de maneira equitativa coas súas amizades."
 
-#: activities/share/resource/1/Data.qml:40
+#: activities/share/resource/1/Data.qml:42
 msgctxt "Data|"
 msgid ""
 "Can you now share 6 of Paul's pieces of candy equally among his friends?"
@@ -25069,7 +25069,7 @@ msgstr ""
 "súas amizades?"
 
 # O nome de Bob adaptouse ao galego escollendo o oitavo nome de neno máis popular en Galicia de 2015 (http://ilg.usc.es/nomes_galicia/?nomes=nenos), a falta de datos máis actuais.
-#: activities/share/resource/1/Data.qml:50
+#: activities/share/resource/1/Data.qml:52
 msgctxt "Data|"
 msgid ""
 "Some of his friends already have pieces of candy. He wants to give them 7 "
@@ -25078,7 +25078,7 @@ msgstr ""
 "Algunhas das súas amizades xa teñen doces. Quere darlles 7 doces máis de "
 "xeito que toda a xente quede coa mesma cantidade de doces."
 
-#: activities/share/resource/1/Data.qml:60
+#: activities/share/resource/1/Data.qml:62
 msgctxt "Data|"
 msgid ""
 "Paul has only 12 pieces of candy left. He eats 2 pieces of candy and he "
@@ -25090,7 +25090,7 @@ msgstr ""
 "restantes?"
 
 # O nome de George adaptouse ao galego escollendo o noveno nome de neno máis popular en Galicia de 2015 (http://ilg.usc.es/nomes_galicia/?nomes=nenos), a falta de datos máis actuais.
-#: activities/share/resource/1/Data.qml:72
+#: activities/share/resource/1/Data.qml:77
 msgctxt "Data|"
 msgid ""
 "George wants to share 3 pieces of candy equally between 3 of his girl "
@@ -25100,7 +25100,7 @@ msgstr ""
 "maneira equitativa?"
 
 # O nome de Charles adaptouse ao galego escollendo o sexto nome de neno máis popular en Galicia de 2015 (http://ilg.usc.es/nomes_galicia/?nomes=nenos), a falta de datos máis actuais.
-#: activities/share/resource/1/Data.qml:82
+#: activities/share/resource/1/Data.qml:87
 msgctxt "Data|"
 msgid ""
 "Maria wants to share 6 pieces of candy equally between 3 of her friends: 1 "
@@ -25110,7 +25110,7 @@ msgstr ""
 "repartir os doces de maneira equitativa?"
 
 # O nome de John adaptouse ao galego escollendo o terceiro nome de neno máis popular en Galicia de 2015 (http://ilg.usc.es/nomes_galicia/?nomes=nenos), a falta de datos máis actuais.
-#: activities/share/resource/1/Data.qml:92
+#: activities/share/resource/1/Data.qml:97
 msgctxt "Data|"
 msgid ""
 "John wants to share 8 pieces of candy equally between 3 of his friends: 1 "
@@ -25121,7 +25121,7 @@ msgstr ""
 "ten un doce. Pode Xoán facer que as amizades teñan a mesma cantidade?"
 
 # O nome de Charles adaptouse ao galego escollendo o sexto nome de neno máis popular en Galicia de 2015 (http://ilg.usc.es/nomes_galicia/?nomes=nenos), a falta de datos máis actuais.
-#: activities/share/resource/1/Data.qml:102
+#: activities/share/resource/1/Data.qml:107
 msgctxt "Data|"
 msgid ""
 "Paul wants to share 12 pieces of candy equally between 3 of his friends: 2 "
@@ -25131,7 +25131,7 @@ msgstr ""
 "Martín repartir os doces de maneira equitativa?"
 
 # O nome de John adaptouse ao galego escollendo o terceiro nome de neno máis popular en Galicia de 2015 (http://ilg.usc.es/nomes_galicia/?nomes=nenos), a falta de datos máis actuais.
-#: activities/share/resource/1/Data.qml:112
+#: activities/share/resource/1/Data.qml:117
 msgctxt "Data|"
 msgid ""
 "Maria wants to share 11 pieces of candy between 3 of her friends: 1 boy and "
@@ -25142,8 +25142,8 @@ msgstr ""
 "xa teñen doces. Pode María repartir os doces para que todas as amizades "
 "teñan a mesma cantidade?"
 
-#: activities/share/resource/1/Data.qml:124
-#: activities/share/resource/2/Data.qml:114
+#: activities/share/resource/1/Data.qml:132
+#: activities/share/resource/2/Data.qml:122
 msgctxt "Data|"
 msgid ""
 "Alice wants to share 4 pieces of candy equally between 4 of her girl "
@@ -25152,13 +25152,13 @@ msgstr ""
 "Martina quere compartir 4 doces de maneira equitativa con 4 amigas. Podes "
 "axudala?"
 
-#: activities/share/resource/1/Data.qml:134
+#: activities/share/resource/1/Data.qml:142
 msgctxt "Data|"
 msgid "Now, Alice wants to give 8 pieces of candy to her friends."
 msgstr "Agora, Martina quere darlles 8 doces a amizades."
 
 # O nome de Michelle adaptouse ao galego escollendo o cuarto nome de nena máis popular en Galicia de 2015 (http://ilg.usc.es/nomes_galicia/?nomes=nenas), a falta de datos máis actuais.
-#: activities/share/resource/1/Data.qml:144
+#: activities/share/resource/1/Data.qml:152
 msgctxt "Data|"
 msgid ""
 "Alice wants to give 10 pieces of candy to her friends, 1 girl and 3 boys, so "
@@ -25168,13 +25168,13 @@ msgstr ""
 "Martina quere darlles 10 doces a amizades, 1 amiga e 3 amigos, de xeito que "
 "todas teñan a mesma cantidade. A amiga xa ten algúns doces."
 
-#: activities/share/resource/1/Data.qml:154
+#: activities/share/resource/1/Data.qml:162
 msgctxt "Data|"
 msgid "Alice wants to give 16 pieces of candy to her friends."
 msgstr "Martina quere darlles 16 doces a amizades."
 
 # O nome de Bob adaptouse ao galego escollendo o oitavo nome de neno máis popular en Galicia de 2015 (http://ilg.usc.es/nomes_galicia/?nomes=nenos), a falta de datos máis actuais.
-#: activities/share/resource/1/Data.qml:164
+#: activities/share/resource/1/Data.qml:172
 msgctxt "Data|"
 msgid ""
 "Alice wants to give pieces of candy to 4 friends. Some of them already have "
@@ -25186,7 +25186,7 @@ msgstr ""
 "cantidade?"
 
 # O nome de Thomas adaptouse ao galego escollendo o quinto nome de neno máis popular en Galicia de 2015 (http://ilg.usc.es/nomes_galicia/?nomes=nenos), a falta de datos máis actuais.
-#: activities/share/resource/1/Data.qml:176
+#: activities/share/resource/1/Data.qml:187
 msgctxt "Data|"
 msgid ""
 "Michael wants to share 5 pieces of candy equally between 5 of his girl "
@@ -25196,7 +25196,7 @@ msgstr ""
 "axudalo?"
 
 # O nome de Helen adaptouse ao galego escollendo o terceiro nome de nena máis popular en Galicia de 2015 (http://ilg.usc.es/nomes_galicia/?nomes=nenas), a falta de datos máis actuais.
-#: activities/share/resource/1/Data.qml:186
+#: activities/share/resource/1/Data.qml:197
 msgctxt "Data|"
 msgid ""
 "Helen has 5 friends: 2 boys and 3 girls. She wants to give them 10 pieces of "
@@ -25206,7 +25206,7 @@ msgstr ""
 "repartir os doces de maneira equitativa entre as amizades."
 
 # O nome de Michelle adaptouse ao galego escollendo o cuarto nome de nena máis popular en Galicia de 2015 (http://ilg.usc.es/nomes_galicia/?nomes=nenas), a falta de datos máis actuais.
-#: activities/share/resource/1/Data.qml:196
+#: activities/share/resource/1/Data.qml:207
 msgctxt "Data|"
 msgid ""
 "Michelle wants to share 12 pieces of candy equally between her 4 brothers "
@@ -25218,7 +25218,7 @@ msgstr ""
 "doces."
 
 # O nome de Thomas adaptouse ao galego escollendo o quinto nome de neno máis popular en Galicia de 2015 (http://ilg.usc.es/nomes_galicia/?nomes=nenos), a falta de datos máis actuais.
-#: activities/share/resource/1/Data.qml:206
+#: activities/share/resource/1/Data.qml:217
 msgctxt "Data|"
 msgid ""
 "Thomas wants to share his 20 pieces of candy with his friends: 1 boy and 4 "
@@ -25228,7 +25228,7 @@ msgstr ""
 "axudalo?"
 
 # O nome de Thomas adaptouse ao galego escollendo o quinto nome de neno máis popular en Galicia de 2015 (http://ilg.usc.es/nomes_galicia/?nomes=nenos), a falta de datos máis actuais.
-#: activities/share/resource/1/Data.qml:216
+#: activities/share/resource/1/Data.qml:227
 msgctxt "Data|"
 msgid ""
 "Paul wants to share 20 pieces of candy equally between 5 of his friends. "
@@ -25238,7 +25238,7 @@ msgstr ""
 "teñen 1 doce cada unha. Podes axudalo?"
 
 # O nome de Charles adaptouse ao galego escollendo o sexto nome de neno máis popular en Galicia de 2015 (http://ilg.usc.es/nomes_galicia/?nomes=nenos), a falta de datos máis actuais.
-#: activities/share/resource/1/Data.qml:228
+#: activities/share/resource/1/Data.qml:242
 msgctxt "Data|"
 msgid ""
 "Charles wants to share his 6 pieces of candy equally with 2 of his girl "
@@ -25248,7 +25248,7 @@ msgstr ""
 "equitativa?"
 
 # O nome de Elizabeth adaptouse ao galego escollendo o quinto nome de nena máis popular en Galicia de 2015 (http://ilg.usc.es/nomes_galicia/?nomes=nenas), a falta de datos máis actuais.
-#: activities/share/resource/1/Data.qml:238
+#: activities/share/resource/1/Data.qml:252
 msgctxt "Data|"
 msgid ""
 "For her birthday, Elizabeth has 8 pieces of candy to share with 3 of her "
@@ -25260,7 +25260,7 @@ msgstr ""
 "todas as amizades teñan a mesma cantidade?"
 
 # O nome de Jason adaptouse ao galego escollendo o sétimo nome de neno máis popular en Galicia de 2015 (http://ilg.usc.es/nomes_galicia/?nomes=nenos), a falta de datos máis actuais.
-#: activities/share/resource/1/Data.qml:248
+#: activities/share/resource/1/Data.qml:262
 msgctxt "Data|"
 msgid ""
 "Jason's father gave him 16 pieces of candy to share equally with his "
@@ -25271,7 +25271,7 @@ msgstr ""
 "amigas. Axúdao a darlles os doces ás súas amizades."
 
 # O nome de George adaptouse ao galego escollendo o noveno nome de neno máis popular en Galicia de 2015 (http://ilg.usc.es/nomes_galicia/?nomes=nenos), a falta de datos máis actuais.
-#: activities/share/resource/1/Data.qml:258
+#: activities/share/resource/1/Data.qml:272
 msgctxt "Data|"
 msgid ""
 "George wants to share 14 pieces of candy between 4 of his friends: 2 girls "
@@ -25283,7 +25283,7 @@ msgstr ""
 "mesma cantidade."
 
 # O nome de Charles adaptouse ao galego escollendo o sexto nome de neno máis popular en Galicia de 2015 (http://ilg.usc.es/nomes_galicia/?nomes=nenos), a falta de datos máis actuais.
-#: activities/share/resource/1/Data.qml:268
+#: activities/share/resource/1/Data.qml:282
 msgctxt "Data|"
 msgid ""
 "Maria wants to share 25 pieces of candy equally between 5 of her friends: 3 "
@@ -25297,22 +25297,22 @@ msgctxt "Data|"
 msgid "Maximum 25 pieces of candy and 5 kids, possible rest."
 msgstr "Un máximo de 25 doces e 5 persoas, pode haber resto."
 
-#: activities/share/resource/2/Data.qml:30
+#: activities/share/resource/2/Data.qml:32
 msgctxt "Data|"
 msgid "Now he wants to share 5 pieces of candy among his friends."
 msgstr "Agora quere compartir 5 doces coas súas amizades."
 
-#: activities/share/resource/2/Data.qml:40
+#: activities/share/resource/2/Data.qml:42
 msgctxt "Data|"
 msgid "Can you now share 7 of Paul's pieces of candy among his friends?"
 msgstr "E agora, podes compartir 7 dos doces de Martín coas súas amizades?"
 
-#: activities/share/resource/2/Data.qml:50
+#: activities/share/resource/2/Data.qml:52
 msgctxt "Data|"
 msgid "Can you now share 8 of Paul's pieces of candy among his friends?"
 msgstr "E agora, podes compartir 8 dos doces de Martín coas súas amizades?"
 
-#: activities/share/resource/2/Data.qml:60
+#: activities/share/resource/2/Data.qml:62
 msgctxt "Data|"
 msgid ""
 "Paul has only 11 pieces of candy left. He eats 2 pieces of candy and he "
@@ -25323,7 +25323,7 @@ msgstr ""
 "Podes axudalo a dividir de maneira equitativa os 9 doces restantes?"
 
 # O nome de Bob adaptouse ao galego escollendo o oitavo nome de neno máis popular en Galicia de 2015 (http://ilg.usc.es/nomes_galicia/?nomes=nenos), a falta de datos máis actuais.
-#: activities/share/resource/2/Data.qml:72
+#: activities/share/resource/2/Data.qml:77
 msgctxt "Data|"
 msgid ""
 "Bob wants to share 3 pieces of candy equally between 3 of his girl friends. "
@@ -25333,7 +25333,7 @@ msgstr ""
 "de maneira equitativa?"
 
 # O nome de HArry adaptouse ao galego escollendo o décimo nome de neno máis popular en Galicia de 2015 (http://ilg.usc.es/nomes_galicia/?nomes=nenos), a falta de datos máis actuais.
-#: activities/share/resource/2/Data.qml:82
+#: activities/share/resource/2/Data.qml:87
 msgctxt "Data|"
 msgid ""
 "Harry wants to share 8 pieces of candy between 3 of his friends: 1 boy and 2 "
@@ -25345,7 +25345,7 @@ msgstr ""
 "teñan a mesma cantidade?"
 
 # O nome de John adaptouse ao galego escollendo o terceiro nome de neno máis popular en Galicia de 2015 (http://ilg.usc.es/nomes_galicia/?nomes=nenos), a falta de datos máis actuais.
-#: activities/share/resource/2/Data.qml:92
+#: activities/share/resource/2/Data.qml:97
 msgctxt "Data|"
 msgid ""
 "Maria wants to share 8 pieces of candy between 3 of her friends: 1 boy and 2 "
@@ -25357,7 +25357,7 @@ msgstr ""
 "amizades teñan a mesma cantidade?"
 
 # O nome de HArry adaptouse ao galego escollendo o décimo nome de neno máis popular en Galicia de 2015 (http://ilg.usc.es/nomes_galicia/?nomes=nenos), a falta de datos máis actuais.
-#: activities/share/resource/2/Data.qml:102
+#: activities/share/resource/2/Data.qml:107
 msgctxt "Data|"
 msgid ""
 "Harry wants to share 12 pieces of candy between 3 of his friends: 1 boy and "
@@ -25368,13 +25368,13 @@ msgstr ""
 "xa ten algúns doces. Pode Diego repartir os doces de xeito que todas as "
 "amizades teñan a mesma cantidade?"
 
-#: activities/share/resource/2/Data.qml:124
+#: activities/share/resource/2/Data.qml:132
 msgctxt "Data|"
 msgid "Now, Alice wants to share 8 pieces of candy equally among her friends."
 msgstr ""
 "Agora, Martina quere compartir 8 doces de maneira equitativa con amizades."
 
-#: activities/share/resource/2/Data.qml:134
+#: activities/share/resource/2/Data.qml:142
 msgctxt "Data|"
 msgid ""
 "Can you help Alice share 10 pieces of candy equally among her friends: 1 "
@@ -25383,12 +25383,12 @@ msgstr ""
 "Podes axudar a Martina a compartir 10 doces con 4 amizades: 1 amiga e 3 "
 "amigos? A amiga xa ten algúns doces."
 
-#: activities/share/resource/2/Data.qml:144
+#: activities/share/resource/2/Data.qml:152
 msgctxt "Data|"
 msgid "Alice wants to share 16 pieces of candy equally among her friends."
 msgstr "Martina quere compartir 16 doces de maneira equitativa con amizades."
 
-#: activities/share/resource/2/Data.qml:154
+#: activities/share/resource/2/Data.qml:162
 msgctxt "Data|"
 msgid ""
 "Alice has 14 pieces of candy left. She wants to share them equally among her "
@@ -25399,7 +25399,7 @@ msgstr ""
 "amizades. Os amigos xa teñen algúns doces. Podes axudala a repartir os doces "
 "de maneira equitativa?"
 
-#: activities/share/resource/2/Data.qml:166
+#: activities/share/resource/2/Data.qml:177
 msgctxt "Data|"
 msgid ""
 "Help Jon share 11 pieces of candies equally between five girls. The rest "
@@ -25408,7 +25408,7 @@ msgstr ""
 "Axuda a Brais a repartir 11 doces con 5 amigas de maneira equitativa. Brais "
 "quedará co resto."
 
-#: activities/share/resource/2/Data.qml:176
+#: activities/share/resource/2/Data.qml:187
 msgctxt "Data|"
 msgid ""
 "Jon wants to share the rest of his pieces of candies with his brothers and "
@@ -25418,14 +25418,14 @@ msgstr ""
 "Brais quere compartir os doces restantes cos seus irmáns e irmás. Podes "
 "repartilos de maneira equitativa, sabendo que os irmáns xa teñen 2 doces?"
 
-#: activities/share/resource/2/Data.qml:186
+#: activities/share/resource/2/Data.qml:197
 msgctxt "Data|"
 msgid ""
 "Help Tux split 19 pieces of candies between his friends: 4 boys and 1 girl."
 msgstr "Axuda a Tux a repartir 19 doces con 5 amizades: 4 amigos e 1 amiga."
 
 # O nome de Jon adaptouse ao galego escollendo o décimo nome de neno máis popular en Galicia de 2015 (http://ilg.usc.es/nomes_galicia/?nomes=nenos), a falta de datos máis actuais.
-#: activities/share/resource/2/Data.qml:196
+#: activities/share/resource/2/Data.qml:207
 msgctxt "Data|"
 msgid "Help Maria share 18 pieces of candy equally between 3 boys and 2 girls."
 msgstr ""
@@ -25433,7 +25433,7 @@ msgstr ""
 "amigas."
 
 # O nome de Charles adaptouse ao galego escollendo o sexto nome de neno máis popular en Galicia de 2015 (http://ilg.usc.es/nomes_galicia/?nomes=nenos), a falta de datos máis actuais.
-#: activities/share/resource/2/Data.qml:208
+#: activities/share/resource/2/Data.qml:222
 msgctxt "Data|"
 msgid ""
 "Charles wants to share his 6 pieces of candy equally between 2 of his girl "
@@ -25443,7 +25443,7 @@ msgstr ""
 "equitativa?"
 
 # O nome de Elizabeth adaptouse ao galego escollendo o quinto nome de nena máis popular en Galicia de 2015 (http://ilg.usc.es/nomes_galicia/?nomes=nenas), a falta de datos máis actuais.
-#: activities/share/resource/2/Data.qml:218
+#: activities/share/resource/2/Data.qml:232
 msgctxt "Data|"
 msgid ""
 "For her birthday, Elizabeth has 8 pieces of candy to share with 3 of her "
@@ -25454,7 +25454,7 @@ msgstr ""
 "debería Sara repartir os doces entre as súas amizades?"
 
 # O nome de Jason adaptouse ao galego escollendo o sétimo nome de neno máis popular en Galicia de 2015 (http://ilg.usc.es/nomes_galicia/?nomes=nenos), a falta de datos máis actuais.
-#: activities/share/resource/2/Data.qml:228
+#: activities/share/resource/2/Data.qml:242
 msgctxt "Data|"
 msgid ""
 "Jason's father gave him 17 pieces of candy to share equally between his "
@@ -25465,7 +25465,7 @@ msgstr ""
 "nenas. Axúdao a darlles os doces ás súas amizades."
 
 # O nome de George adaptouse ao galego escollendo o noveno nome de neno máis popular en Galicia de 2015 (http://ilg.usc.es/nomes_galicia/?nomes=nenos), a falta de datos máis actuais.
-#: activities/share/resource/2/Data.qml:238
+#: activities/share/resource/2/Data.qml:252
 msgctxt "Data|"
 msgid ""
 "George wants to share 14 pieces of candy equally between 4 of his friends: 2 "
@@ -25476,7 +25476,7 @@ msgstr ""
 "Adrián repartir os doces de maneira equitativa?"
 
 # O nome de Charles adaptouse ao galego escollendo o sexto nome de neno máis popular en Galicia de 2015 (http://ilg.usc.es/nomes_galicia/?nomes=nenos), a falta de datos máis actuais.
-#: activities/share/resource/2/Data.qml:248
+#: activities/share/resource/2/Data.qml:262
 msgctxt "Data|"
 msgid ""
 "Maria wants to share 23 pieces of candy equally between 5 of her friends: 3 "
@@ -25491,7 +25491,7 @@ msgctxt "Data|"
 msgid "Maximum 30 pieces of candy and 6 kids, possible rest."
 msgstr "Un máximo de 30 doces e 6 persoas, pode haber resto."
 
-#: activities/share/share.js:114
+#: activities/share/share.js:149
 #, qt-format
 msgctxt ""
 "share|First part of Place %n boy(s) and %n girl(s) in the center. Then split "
@@ -25501,7 +25501,7 @@ msgid_plural "Place %n boy(s) "
 msgstr[0] "Coloca %n neno"
 msgstr[1] "Coloca %n nenos"
 
-#: activities/share/share.js:118
+#: activities/share/share.js:153
 #, qt-format
 msgctxt ""
 "share|Second part of Place %n boy(s) and %n girl(s) in the center. Then "
@@ -25511,7 +25511,7 @@ msgid_plural "and %n girl(s) in the center. "
 msgstr[0] "e %n nena no centro. "
 msgstr[1] "e %n nenas no centro. "
 
-#: activities/share/share.js:122
+#: activities/share/share.js:157
 #, qt-format
 msgctxt ""
 "share|Third part of Place %n boy(s) and %n girl(s) in the center. Then split "
@@ -25521,7 +25521,7 @@ msgid_plural "Then split %n pieces of candy equally between them."
 msgstr[0] "A continuación reparte %n doce de maneira equitativa entre elas."
 msgstr[1] "A continuación reparte %n doces de maneira equitativa entre elas."
 
-#: activities/share/Share.qml:366
+#: activities/share/Share.qml:422
 #, qt-format
 msgctxt "Share|"
 msgid "You can't put more than %1 pieces of candy in the same rectangle"
