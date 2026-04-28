@@ -93,8 +93,7 @@ ActivityBase {
                 items.arrowFlying = false
                 if(items.currentArrow == items.nbArrow) {
                     targetItem.stop()
-                    targetItem.scoreText += " = "
-                    userEntry.text = "?"
+                    userEntry.text = targetItem.questionMark
                     items.inputLocked = false
                 }
             }
@@ -148,7 +147,9 @@ ActivityBase {
             id: scoreItem
             anchors.horizontalCenter: parent.horizontalCenter
             width: parent.width
-            text: targetItem.scoreText
+            text: !targetItem.stopMe ? targetItem.scoreText :
+                (targetItem.isLeftToRightLocale ? targetItem.scoreText + " = " :
+                    " = " + targetItem.scoreText)
             fontSize: 22
             font.bold: true
             style: Text.Outline
@@ -161,7 +162,7 @@ ActivityBase {
         function backspace() {
             userEntry.text = userEntry.text.slice(0, -1)
             if(userEntry.text.length === 0) {
-                userEntry.text = "?"
+                userEntry.text = targetItem.questionMark
             }
         }
 
@@ -178,7 +179,7 @@ ActivityBase {
             if(isNaN(number))
                 return false
 
-            if(userEntry.text === "?") {
+            if(userEntry.text === targetItem.questionMark) {
                 userEntry.text = ""
             }
 
