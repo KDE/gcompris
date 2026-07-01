@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-06-21 20:31+0400\n"
+"PO-Revision-Date: 2026-06-30 22:08+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -7213,12 +7213,10 @@ msgid "Enumerate up to %1 fruits."
 msgstr "عدّ حتى %1 من الفواكه."
 
 #: activities/enumerate/Enumerate.qml:66
-#, fuzzy, qt-format
-#| msgctxt "Data|"
-#| msgid "Group 2 types of fruit and enumerate each group (5 fruit max)."
+#, qt-format
 msgctxt "Enumerate|"
 msgid "Group %1 types of fruit and enumerate each group (%2 fruits max)."
-msgstr "اجمع 2 نوعين من الفاكهة واحسب كل مجموعة (5 فواكه على الأكثر)"
+msgstr "جمّع %1 أنواعًا من الفاكهة وأحصِ كل مجموعة (بحد أقصى %2 فاكهة)."
 
 #: activities/enumerate/resource/1/Data.qml:13
 #, qt-format
@@ -7229,12 +7227,10 @@ msgstr "عدّ حتى %1 من الفواكه."
 #: activities/enumerate/resource/2/Data.qml:13
 #: activities/enumerate/resource/3/Data.qml:13
 #: activities/enumerate/resource/4/Data.qml:13
-#, fuzzy, qt-format
-#| msgctxt "Data|"
-#| msgid "Group 2 types of fruit and enumerate each group (5 fruit max)."
+#, qt-format
 msgctxt "Data|"
 msgid "Group %1 types of fruit and enumerate each group (%2 fruits max)."
-msgstr "اجمع 2 نوعين من الفاكهة واحسب كل مجموعة (5 فواكه على الأكثر)"
+msgstr "جمّع %1 أنواعًا من الفاكهة وأحصِ كل مجموعة (بحد أقصى %2 فاكهة)."
 
 #. Activity title
 #: activities/erase/ActivityInfo.qml:15
@@ -9235,6 +9231,9 @@ msgid ""
 "the colonizers massacred them for sport and to clear land, rather than to "
 "hunting by indigenous peoples."
 msgstr ""
+"تعيش البيسونات في سهول أمريكا الشمالية، وكان يصطادها الأمريكيون الأصليون "
+"للطعام. لكن اقترابها من الانقراض يعود إلى أن المستعمرين ذبحوها للرياضة "
+"ولتطهير الأرض، لا إلى صيد الشعوب الأصلية."
 
 #: activities/explore_world_animals/resource/board/board1.qml:63
 #: activities/explore_world_animals/resource/board/board1.qml:66
@@ -15729,16 +15728,6 @@ msgstr "تدرّب على مقارنة الأعداد."
 
 #. Help manual
 #: activities/guessnumber/ActivityInfo.qml:23
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid ""
-#| "Read the instructions that give you the range of the number to find. "
-#| "Enter a number in the top right entry box. You will be told if your "
-#| "number is higher or lower than the one to find. Then try again until you "
-#| "find the correct answer. The distance between Tux and the right side of "
-#| "the screen represents how far you are from the number to find. If Tux is "
-#| "over or under the vertical center of the screen, it means your number is "
-#| "over or under the number to find."
 msgctxt "ActivityInfo|"
 msgid ""
 "Read the instructions that give you the range of the number to find. Enter a "
@@ -15750,11 +15739,12 @@ msgid ""
 "of the screen, it means your number is higher or lower than the number to "
 "find."
 msgstr ""
-"اقرأ التعليمات التي تمنحك مجال العدد المطلوب العثور عليه. أدخل عددًا في مربع "
-"الإدخال الأيمن العلوي. ستُخبر إذا كان عددك أعلى أو أقل من العدد المطلوب. حاول "
-"مرارًا حتى تجد الإجابة الصحيحة. تمثل المسافة بين البطريق والجانب الأيمن من "
-"الشاشة مدى بعدك عن العدد المطلوب.  إذا كان البطريق أعلى أو أسفل منتصف "
-"الشاشة  عموديًا، فهذا يعني أن عددك أعلى أو أقل من العدد المبحوث عنه."
+"اقرأ التعليمات التي تُعطيك نطاق الرقم المطلوب إيجاده. أدخل رقمًا في مربع "
+"الإدخال العلوي الأيمن، واضغط زر موافق لتأكيده. سيُخبَرُك إن كان رقمك أعلى أو "
+"أدنى من الرقم المطلوب إيجاده. ثم حاول مجددًا حتى تجد الإجابة الصحيحة. تمثل "
+"المسافة بين المروحية والجانب الأيمن من الشاشة مدى بُعدك عن الرقم المطلوب "
+"إيجاده. إذا كانت المروحية فوق أو تحت المركز العمودي للشاشة، فهذا يعني أن "
+"رقمك أعلى أو أدنى من الرقم المطلوب إيجاده."
 
 #: activities/guessnumber/ActivityInfo.qml:25
 msgctxt "ActivityInfo|"
