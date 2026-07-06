@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gcompris_qt\n"
-"PO-Revision-Date: 2024-08-01 15:56+0200\n"
+"PO-Revision-Date: 2026-07-05 17:33+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@nuug.no>\n"
 "Language: nn\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Environment: kde, gcompris\n"
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: qtrich\n"
-"X-Generator: Lokalize 24.05.2\n"
+"X-Generator: Lokalize 26.04.3\n"
 
 #: activities/adjacent_numbers/ActivityConfig.qml:19
 #: activities/clickanddraw/ActivityConfig.qml:22
@@ -4190,6 +4190,7 @@ msgid ""
 "Place the objects matching a CYLINDER to the right and others to the left"
 msgstr "Flytt SYLINDER-formene til høgre og dei andre formene til venstre."
 
+# skip-rule: bokmålsord
 #: activities/categorization/resource/board/category_shapes.qml:187
 msgctxt "category_shapes|"
 msgid ""
@@ -4792,6 +4793,7 @@ msgstr "Plasser gjenstandane på datoane dei vart oppfunne."
 
 # skip-rule: klammeform
 # skip-rule: unormert
+# skip-rule: bokmålsord
 #: activities/chronos/resource/board/board5_0.qml:33
 msgctxt "board5_0|"
 msgid "1829 Stephenson's Rocket Steam locomotive"
@@ -4854,6 +4856,7 @@ msgstr "1783 – Montgolfier-brørne sin varmluftsballong"
 
 # skip-rule: klammeform
 # skip-rule: unormert
+# skip-rule: bokmålsord
 #: activities/chronos/resource/board/board5_3.qml:40
 msgctxt "board5_3|"
 msgid "1829 Stephenson's Rocket Steam locomotive"
@@ -4866,6 +4869,7 @@ msgstr "Samferdsel"
 
 # skip-rule: klammeform
 # skip-rule: unormert
+# skip-rule: bokmålsord
 #: activities/chronos/resource/board/board5_4.qml:39
 msgctxt "board5_4|"
 msgid "1829 Stephenson's Rocket Steam locomotive"
@@ -7858,8 +7862,8 @@ msgid ""
 "arena the Classical world had yet seen."
 msgstr ""
 "Colosseum er i dag det mest kjende av dei klassiske byggverka i Roma. Sjølv "
-"2 000 år etter at det vart bygd, og til tross for fleire hundre år der det "
-"vart utsett for plyndring av bygnings­materiale, er det lett å kjenna att som "
+"2 000 år etter at det vart bygd, og trass i fleire hundre år der det vart "
+"utsett for plyndring av bygnings­materiale, er det lett å kjenna att som "
 "inspirasjon for dagens stadium. Det var det første faste amfi­teateret som "
 "vart bygd i Roma og det mest imponerande bygg­verket i antikken."
 
@@ -9409,7 +9413,7 @@ msgid ""
 "Narwhals are whales that live in the Arctic Ocean and have long tusks. These "
 "tusks remind many people of the mythical unicorn's horn."
 msgstr ""
-"Narkvalen er ein kval som lever i Arktis og har lange støttenner. Desse "
+"Narkvalen er ein kval som lever i Arktis og har lange støyttenner. Desse "
 "tennene minner mange om fabeldyret einhyrningen."
 
 #: activities/explore_world_animals/resource/board/board1.qml:76
@@ -11456,6 +11460,7 @@ msgctxt "board12_0|"
 msgid "Rajasthan"
 msgstr "Rajasthan"
 
+# skip-rule: bokmålsord
 #. State of India: Uttar Pradesh
 #: activities/geo-country/resource/board/board12_0.qml:52
 msgctxt "board12_0|"
@@ -21646,6 +21651,7 @@ msgctxt "Data|"
 msgid "Below 10 words."
 msgstr "Færre enn 10 ord"
 
+# skip-rule: bokmålsord
 #. These sentences should not need to be translated word by word. Please add at least 10 sentences, each one being between 6 and 10 words. Use | to separate group of words. The aim of the string is to shuffle the group of words and let the child reorder them correctly. We should not be able to form a correct sentence by shuffling some words in the final sentence.
 #: activities/ordering_sentences/resource/2/Data.qml:18
 msgctxt "Data|"
@@ -21818,7 +21824,7 @@ msgstr ""
 #: activities/paintings/resource/board/board11_0.qml:14
 msgctxt "board11_0|"
 msgid "Katsushika Hokusa, Poppies - 1833-1834"
-msgstr "Katsushika Hokusai: Valmuer (1833–1834)"
+msgstr "Katsushika Hokusai: Valmuar (1833–1834)"
 
 # Fixme: Sjekk om det finst eit offisielt norsk namn.
 # Vert òg kalla «Sea Route off Kazusa Province».
@@ -28592,7 +28598,7 @@ msgstr "Gå til innstillingsvindauget for å lasta ned lydfilene du treng."
 #: core/core.js:257
 msgctxt "core|"
 msgid "Download in progress"
-msgstr "Nedlasting pågår"
+msgstr "Nedlasting igang"
 
 #: core/core.js:259
 msgctxt "core|"
