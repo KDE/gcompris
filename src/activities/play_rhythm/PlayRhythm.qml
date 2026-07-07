@@ -79,6 +79,9 @@ ActivityBase {
         property bool isRhythmPlaying: false
         property int metronomeSpeed: 60000 / multipleStaff.bpmValue
         property real weightOffset: metronome.height * multipleStaff.bpmValue * 0.004
+        readonly property int noteNumber: 72 // C4 as shown on the staff
+        // should be smaller than an eighth note length at max bpmValue(180), so smaller than (30000 / 180)
+        readonly property int noteDuration: 150
 
         Keys.onSpacePressed: if(!activityBackground.isRhythmPlaying && !items.buttonsBlocked)
                                 tempo.tempoPressed();
@@ -228,7 +231,7 @@ ActivityBase {
             onPulseMarkerAnimationFinished: activityBackground.isRhythmPlaying = false
             onPlayDrumSound: {
                 if(activityBackground.isRhythmPlaying && !metronomeOscillation.running)
-                    GSynth.generate(60, 100)
+                    GSynth.generate(activityBackground.noteNumber, activityBackground.noteDuration)
             }
         }
 
@@ -261,7 +264,7 @@ ActivityBase {
                 if(!multipleStaff.isMusicPlaying && Activity.currentNote == 0) {
                     multipleStaff.play()
                 }
-                GSynth.generate(60, 100)
+                GSynth.generate(activityBackground.noteNumber, activityBackground.noteDuration)
                 Activity.checkAnswer(multipleStaff.pulseMarkerX)
             }
         }
