@@ -401,7 +401,7 @@ Item {
         // Remove the remaining unused staffs.
         if((multipleStaff.currentEnteringStaff + 1 < multipleStaff.nbStaves) && (multipleStaff.nbStaves > 2)) {
             nbStaves = multipleStaff.currentEnteringStaff + 1
-            flickableStaves.originY = 0
+            flickableStaves.contentY = 0
         }
 
         var lastMusicElement = musicElementModel.get(musicElementModel.count - 1)
