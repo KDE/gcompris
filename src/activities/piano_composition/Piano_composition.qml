@@ -67,25 +67,27 @@ ActivityBase {
 
             if(event.key >= Qt.Key_1 && event.key <= Qt.Key_7) {
                 piano.keyRepeater.playKey(keyboardBindings[event.key], "white");
-            }
-            else if(event.key >= Qt.Key_F2 && event.key <= Qt.Key_F7) {
-                if(piano.blackKeysEnabled)
+                event.accepted = true;
+            } else if(event.key >= Qt.Key_F2 && event.key <= Qt.Key_F7) {
+                if(piano.blackKeysEnabled) {
                     piano.keyRepeater.playKey(keyboardBindings[event.key], "black");
-            }
-            if(event.key === Qt.Key_Left && shiftKeyboardLeft.visible) {
+                    event.accepted = true;
+                }
+            } else if(event.key === Qt.Key_Left && shiftKeyboardLeft.visible) {
                 piano.currentOctaveNb--
-            }
-            if(event.key === Qt.Key_Right && shiftKeyboardRight.visible) {
+                event.accepted = true;
+            } else if(event.key === Qt.Key_Right && shiftKeyboardRight.visible) {
                 piano.currentOctaveNb++
-            }
-            if(event.key === Qt.Key_Delete) {
+                event.accepted = true;
+            } else if(event.key === Qt.Key_Delete) {
                 optionsRow.clearButtonClicked()
-            }
-            if(event.key === Qt.Key_Backspace) {
+                event.accepted = true;
+            } else if(event.key === Qt.Key_Backspace) {
                 optionsRow.undoButtonClicked()
-            }
-            if(event.key === Qt.Key_Space) {
+                event.accepted = true;
+            } else if(event.key === Qt.Key_Space) {
                 optionsRow.playButtonClicked()
+                event.accepted = true;
             }
         }
 
