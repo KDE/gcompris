@@ -59,6 +59,14 @@ Generator::addWave(unsigned char note, unsigned char vel) {
     wav.env = defaultEnv;
 
     m_lock.lock();
+    // Avoid note overlapping: We don't support polyphony in GCompris,
+    // so to make it sound better we stop previous note before adding a new one.
+    int lastIndex = waveList.size() - 1;
+    if(lastIndex > -1) {
+        waveList[lastIndex].state = Wave::STATE_RELEASE;
+        waveList[lastIndex].state_age = 0;
+    }
+
     waveList.push_back(wav);
     m_lock.unlock();
 }
