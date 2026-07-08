@@ -22097,37 +22097,37 @@ msgctxt "piano_composition|"
 msgid "Melody saved to your file (%1)"
 msgstr "המנגינה נשמרה לקובץ שלך (%1)"
 
-#: activities/piano_composition/Piano_composition.qml:376
+#: activities/piano_composition/Piano_composition.qml:378
 msgctxt "Piano_composition|"
 msgid "You have not selected any note. Do you want to erase all the notes?"
 msgstr "לא נבחרו תווים. האם למחוק את כל התווים?"
 
-#: activities/piano_composition/Piano_composition.qml:377
+#: activities/piano_composition/Piano_composition.qml:379
 msgctxt "Piano_composition|"
 msgid "Yes"
 msgstr "כן"
 
-#: activities/piano_composition/Piano_composition.qml:383
+#: activities/piano_composition/Piano_composition.qml:385
 msgctxt "Piano_composition|"
 msgid "No"
 msgstr "לא"
 
-#: activities/piano_composition/Piano_composition.qml:430
+#: activities/piano_composition/Piano_composition.qml:432
 msgctxt "Piano_composition|"
 msgid "Select the type of melody to load."
 msgstr "לבחור את סוג המנגינה לטעינה."
 
-#: activities/piano_composition/Piano_composition.qml:435
+#: activities/piano_composition/Piano_composition.qml:437
 msgctxt "Piano_composition|"
 msgid "Pre-defined melodies"
 msgstr "מנגינות מוגדרות ראש"
 
-#: activities/piano_composition/Piano_composition.qml:453
+#: activities/piano_composition/Piano_composition.qml:455
 msgctxt "Piano_composition|"
 msgid "Your saved melodies"
 msgstr "המנגינות השמורות שלך"
 
-#: activities/piano_composition/Piano_composition.qml:557
+#: activities/piano_composition/Piano_composition.qml:559
 msgctxt "Piano_composition|"
 msgid ""
 "This activity requires sound, so it will play some sounds even if the audio "
@@ -22136,12 +22136,12 @@ msgstr ""
 "פעילות זו דורשת צלילים, היא תנגן צלילים אפילו אם הגדרות הקול או האפקטים "
 "מבוטלות בהגדרות המרכזיות."
 
-#: activities/piano_composition/Piano_composition.qml:558
+#: activities/piano_composition/Piano_composition.qml:560
 msgctxt "Piano_composition|"
 msgid "Quit"
 msgstr "לצאת"
 
-#: activities/piano_composition/Piano_composition.qml:559
+#: activities/piano_composition/Piano_composition.qml:561
 msgctxt "Piano_composition|"
 msgid "Continue"
 msgstr "להמשיך"
@@ -22525,14 +22525,14 @@ msgctxt "ActivityInfo|"
 msgid "Tab: Start or stop the metronome if it is visible"
 msgstr "‏Tab: להתחיל או להפסיק את המטרונות אם הוא מופיע"
 
-#: activities/play_rhythm/PlayRhythm.qml:128
+#: activities/play_rhythm/PlayRhythm.qml:131
 msgctxt "PlayRhythm|"
 msgid ""
 "Use the metronome to estimate the time intervals and play the rhythm "
 "correctly."
 msgstr "להשתמש במטרונום ( פַּעֲמָן) כדי להעריך את משכי הזמן ולנגן את הקצב נכון."
 
-#: activities/play_rhythm/PlayRhythm.qml:129
+#: activities/play_rhythm/PlayRhythm.qml:132
 msgctxt "PlayRhythm|"
 msgid ""
 "Follow the vertical line and click on the drum or press space key to play "
@@ -22541,7 +22541,7 @@ msgstr ""
 "לעקוב אחרי הקו האנכי ולהקיש על התוף או ללחוץ על מקש הרווח כדי לנגן את המקצב "
 "נכון."
 
-#: activities/play_rhythm/PlayRhythm.qml:413
+#: activities/play_rhythm/PlayRhythm.qml:416
 msgctxt "PlayRhythm|"
 msgid ""
 "This activity requires sound, so it will play some sounds even if the audio "
@@ -22550,12 +22550,12 @@ msgstr ""
 "פעילות זו דורשת צלילים, היא תנגן צלילים אפילו אם הגדרות הקול או האפקטים "
 "מבוטלות בהגדרות המרכזיות."
 
-#: activities/play_rhythm/PlayRhythm.qml:414
+#: activities/play_rhythm/PlayRhythm.qml:417
 msgctxt "PlayRhythm|"
 msgid "Quit"
 msgstr "לצאת"
 
-#: activities/play_rhythm/PlayRhythm.qml:415
+#: activities/play_rhythm/PlayRhythm.qml:418
 msgctxt "PlayRhythm|"
 msgid "Continue"
 msgstr "להמשיך"

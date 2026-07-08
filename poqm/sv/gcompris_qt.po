@@ -1,8 +1,8 @@
-# SPDX-FileCopyrightText: 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026 Stefan Asserhäll <stefan.asserhall@gmail.com>
+# SPDX-FileCopyrightText: 2014-2026 Stefan Asserhäll <stefan.asserhall@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-01-20 20:42+0100\n"
+"PO-Revision-Date: 2026-07-07 22:27+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Language: sv\n"
 "X-Qt-Contexts: true\n"
-"X-Generator: Lokalize 25.12.1\n"
+"X-Generator: Lokalize 26.04.3\n"
 
 #: activities/adjacent_numbers/ActivityConfig.qml:19
 #: activities/clickanddraw/ActivityConfig.qml:22
@@ -5661,33 +5661,27 @@ msgid "2 decimal places between 0 and 99.99."
 msgstr "2 decimaler mellan 0 och 999,999."
 
 #: activities/compass/ActivityConfig.qml:18
-#, fuzzy
-#| msgctxt "ActivityConfig|"
-#| msgid "Free Mode"
 msgctxt "ActivityConfig|"
 msgid "Template Mode"
-msgstr "Fritt sätt"
+msgstr "Malläge"
 
 #. Activity title
 #: activities/compass/ActivityInfo.qml:14
 msgctxt "ActivityInfo|"
 msgid "Compass"
-msgstr ""
+msgstr "Kompass"
 
 #. Help title
 #: activities/compass/ActivityInfo.qml:16
 msgctxt "ActivityInfo|"
 msgid "Use the compass to draw."
-msgstr ""
+msgstr "Använd kompassen för att rita."
 
 #. Help goal
 #: activities/compass/ActivityInfo.qml:19
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Learn how to draw letters in a fun way."
 msgctxt "ActivityInfo|"
 msgid "Learn how to draw circles and arcs with a compass."
-msgstr "Lär dig hur man skriver bokstäver på ett roligt sätt."
+msgstr "Lär dig hur man ritar cirklar och bågar med en kompass."
 
 #. Help manual
 #: activities/compass/ActivityInfo.qml:23
@@ -5709,17 +5703,10 @@ msgid "Move the compass by dragging the leg without the pen."
 msgstr ""
 
 #: activities/compass/ActivityInfo.qml:26
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid ""
-#| "Complete the puzzle by dragging each piece on the side to the matching "
-#| "space in the puzzle."
 msgctxt "ActivityInfo|"
 msgid ""
 "Move the pen by dragging the other leg or the circle around the pen tip."
 msgstr ""
-"Gör färdigt pusslet genom att dra varje bit från sidan till platsen där den "
-"passar i pusslet."
 
 #: activities/compass/ActivityInfo.qml:27
 msgctxt "ActivityInfo|"
@@ -5741,12 +5728,9 @@ msgid ""
 msgstr ""
 
 #: activities/compass/ActivityInfo.qml:30
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "<b>Diving planes</b>"
 msgctxt "ActivityInfo|"
 msgid "<b>Templates:</b>"
-msgstr "<b>Dykroder</b>"
+msgstr "<b>Mallar:</b>"
 
 #: activities/compass/ActivityInfo.qml:31
 msgctxt "ActivityInfo|"
@@ -5770,12 +5754,9 @@ msgid ""
 msgstr ""
 
 #: activities/compass/ActivityInfo.qml:34
-#, fuzzy
-#| msgctxt "TutorialDataset|"
-#| msgid "You can change the rheostat value by dragging its slider."
 msgctxt "ActivityInfo|"
 msgid "You can change the position of the template by clicking on its corners."
-msgstr "Du kan ändra reostatens värde genom att dra dess skjutreglage."
+msgstr ""
 
 #: activities/compass/ActivityInfo.qml:36
 #: activities/drawing_wheels/ActivityInfo.qml:29
@@ -5816,20 +5797,14 @@ msgid "P: open the pen panel"
 msgstr ""
 
 #: activities/compass/ActivityInfo.qml:42
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Down arrow: select previous item"
 msgctxt "ActivityInfo|"
 msgid "Left arrow: previous template step"
-msgstr "Neråtpil: välj föregående objekt"
+msgstr ""
 
 #: activities/compass/ActivityInfo.qml:43
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Right arrow: right hand answer"
 msgctxt "ActivityInfo|"
 msgid "Right arrow: next template step"
-msgstr "Högerpil: svaret höger hand"
+msgstr ""
 
 #: activities/compass/ActivityInfo.qml:44
 msgctxt "ActivityInfo|"
@@ -5842,46 +5817,31 @@ msgid "Space: toggle the compass and grid visibility"
 msgstr ""
 
 #: activities/compass/compass.js:103
-#, fuzzy
-#| msgctxt "ActivityConfig|"
-#| msgid "Free Mode"
 msgctxt "compass|"
 msgid "Free mode"
-msgstr "Fritt sätt"
+msgstr "Fritt läge"
 
 #: activities/compass/Compass.qml:439
-#, fuzzy
-#| msgctxt "IntroMessage|"
-#| msgid "Previous"
 msgctxt "Compass|"
 msgid "Previous step"
-msgstr "Föregående"
+msgstr "Föregående steg"
 
 #: activities/compass/Compass.qml:464
-#, fuzzy
-#| msgctxt "IntroMessage|"
-#| msgid "Next"
 msgctxt "Compass|"
 msgid "Next step"
-msgstr "Nästa"
+msgstr "Nästa steg"
 
 #: activities/compass/Compass.qml:477
-#, fuzzy
-#| msgctxt "ActivityConfig|"
-#| msgid "All the words"
 msgctxt "Compass|"
 msgid "All steps"
-msgstr "Alla orden"
+msgstr "Alla steg"
 
 #: activities/compass/Compass.qml:477
 msgctxt "Compass|"
 msgid "Current step"
-msgstr ""
+msgstr "Aktuellt steg"
 
 #: activities/compass/Compass.qml:549
-#, fuzzy
-#| msgctxt "DrawingWheels|"
-#| msgid "File menu"
 msgctxt "Compass|"
 msgid "File menu"
 msgstr "Arkivmeny"
@@ -5889,28 +5849,19 @@ msgstr "Arkivmeny"
 #: activities/compass/Compass.qml:558
 msgctxt "Compass|"
 msgid "Compass and grid settings"
-msgstr ""
+msgstr "Kompass- och rutnätsinställningar"
 
 #: activities/compass/Compass.qml:567
-#, fuzzy
-#| msgctxt "DialogChooseLevel|"
-#| msgid "%1 settings"
 msgctxt "Compass|"
 msgid "Pen settings"
-msgstr "Inställningar av %1"
+msgstr "Penninställningar"
 
 #: activities/compass/Compass.qml:588
-#, fuzzy
-#| msgctxt "DrawingWheels|"
-#| msgid "Undo"
 msgctxt "Compass|"
 msgid "Undo"
 msgstr "Ångra"
 
 #: activities/compass/Compass.qml:598
-#, fuzzy
-#| msgctxt "DrawingWheels|"
-#| msgid "Redo"
 msgctxt "Compass|"
 msgid "Redo"
 msgstr "Gör om"
@@ -5918,263 +5869,194 @@ msgstr "Gör om"
 #: activities/compass/Compass.qml:612
 msgctxt "Compass|"
 msgid "Show template"
-msgstr ""
+msgstr "Visa mall"
 
 #: activities/compass/Compass.qml:612
-#, fuzzy
-#| msgctxt "board2|"
-#| msgid "Golden Temple"
 msgctxt "Compass|"
 msgid "Hide template"
-msgstr "Gyllene templet"
+msgstr "Dölj mall"
 
 #: activities/compass/Compass.qml:624
 msgctxt "Compass|"
 msgid "Show compass and grid"
-msgstr ""
+msgstr "Visa kompass och rutnät"
 
 #: activities/compass/Compass.qml:624
 msgctxt "Compass|"
 msgid "Hide compass and grid"
-msgstr ""
+msgstr "Dölj kompass och rutnät"
 
 #: activities/compass/Compass.qml:775
-#, fuzzy
-#| msgctxt "DrawingWheels|"
-#| msgid "Save your image"
 msgctxt "Compass|"
 msgid "Save your image"
 msgstr "Spara din bild"
 
 #: activities/compass/Compass.qml:790
-#, fuzzy
-#| msgctxt "DrawingWheels|"
-#| msgid "Open an image"
 msgctxt "Compass|"
 msgid "Open an image"
 msgstr "Öppna en bild"
 
 #: activities/compass/Compass.qml:813
-#, fuzzy
-#| msgctxt "DrawingWheels|"
-#| msgid "Create a new image"
 msgctxt "Compass|"
 msgid "Create a new image"
 msgstr "Skapa en ny bild"
 
 #: activities/compass/Compass.qml:832
-#, fuzzy
-#| msgctxt "DrawingWheels|"
-#| msgid "Background color"
 msgctxt "Compass|"
 msgid "Background color"
 msgstr "Bakgrundsfärg"
 
 #: activities/compass/Compass.qml:892
-#, fuzzy
-#| msgctxt "DrawingWheels|"
-#| msgid "Pen size"
 msgctxt "Compass|"
 msgid "Canvas size"
-msgstr "Pennstorlek"
+msgstr "Dukstorlek"
 
 #: activities/compass/Compass.qml:962
 msgctxt "Compass|"
 msgid "Grid spacing"
-msgstr ""
+msgstr "Rutnätsmellanrum"
 
 #: activities/compass/Compass.qml:1013
 msgctxt "Compass|"
 msgid "Snap to grid"
-msgstr ""
+msgstr "Lås till rutnät"
 
 #: activities/compass/Compass.qml:1039
 msgctxt "Compass|"
 msgid "Show grid"
-msgstr ""
+msgstr "Visa rutnät"
 
 #: activities/compass/Compass.qml:1103
-#, fuzzy
-#| msgctxt "category_colors|"
-#| msgid "Colors"
 msgctxt "Compass|"
 msgid "Color"
-msgstr "Färger"
+msgstr "Färg"
 
 #: activities/compass/Compass.qml:1149
-#, fuzzy
-#| msgctxt "DrawingWheels|"
-#| msgid "Opacity"
 msgctxt "Compass|"
 msgid "Opacity"
 msgstr "Ogenomskinlighet"
 
 #: activities/compass/Compass.qml:1193
-#, fuzzy
-#| msgctxt "DrawingWheels|"
-#| msgid "Pen size"
 msgctxt "Compass|"
 msgid " Pen size"
-msgstr "Pennstorlek"
+msgstr " Pennstorlek"
 
 #: activities/compass/Compass.qml:1253
-#, fuzzy
-#| msgctxt "DrawingWheels|"
-#| msgid "You did not save this image. Do you want to close this activity?"
 msgctxt "Compass|"
 msgid "You did not save this image. Do you want to close this activity?"
 msgstr "Du har inte sparat bilden. Vill du stänga aktiviteten?"
 
 #: activities/compass/Compass.qml:1254
-#, fuzzy
-#| msgctxt "DrawingWheels|"
-#| msgid "Do you want to erase this image?"
 msgctxt "Compass|"
 msgid "Do you want to erase this image?"
 msgstr "Vill du radera bilden?"
 
 #: activities/compass/Compass.qml:1255
-#, fuzzy
-#| msgctxt "balanceboxeditor|"
-#| msgid "Yes"
 msgctxt "Compass|"
 msgid "Yes"
 msgstr "Ja"
 
 #: activities/compass/Compass.qml:1256
-#, fuzzy
-#| msgctxt "balanceboxeditor|"
-#| msgid "No"
 msgctxt "Compass|"
 msgid "No"
 msgstr "Nej"
 
 #: activities/compass/resource/1/Data.qml:13
-#, fuzzy
-#| msgctxt "Dataset|"
-#| msgid "Third largest"
 msgctxt "Data|"
 msgid "The target"
-msgstr "Tredje största"
+msgstr "Målet"
 
 #: activities/compass/resource/10/Data.qml:13
-#, fuzzy
-#| msgctxt "board8|"
-#| msgid "The Pantheon"
 msgctxt "Data|"
 msgid "The peony"
-msgstr "Pantheon"
+msgstr "Pionen"
 
 #: activities/compass/resource/11/Data.qml:13
-#, fuzzy
-#| msgctxt "Dataset|"
-#| msgid "The same"
 msgctxt "Data|"
 msgid "The snail"
-msgstr "Lika stor"
+msgstr "Snigeln"
 
 #: activities/compass/resource/12/Data.qml:13
-#, fuzzy
-#| msgctxt "Dataset|"
-#| msgid "The same"
 msgctxt "Data|"
 msgid "The rose"
-msgstr "Lika stor"
+msgstr "Rosen"
 
 #: activities/compass/resource/13/Data.qml:13
 msgctxt "Data|"
 msgid "The swirl"
-msgstr ""
+msgstr "Virveln"
 
 #: activities/compass/resource/14/Data.qml:13
-#, fuzzy
-#| msgctxt "Dataset|"
-#| msgid "The same"
 msgctxt "Data|"
 msgid "The spiral"
-msgstr "Lika stor"
+msgstr "Spiralen"
 
 #: activities/compass/resource/15/Data.qml:13
 msgctxt "Data|"
 msgid "The twist"
-msgstr ""
+msgstr "Flätan"
 
 #: activities/compass/resource/16/Data.qml:15
-#, fuzzy
-#| msgctxt "Dataset|"
-#| msgid "The same"
 msgctxt "Data|"
 msgid "The face"
-msgstr "Lika stor"
+msgstr "Ansiktet"
 
 #: activities/compass/resource/17/Data.qml:15
-#, fuzzy
-#| msgctxt "Dataset|"
-#| msgid "The same"
 msgctxt "Data|"
 msgid "The bear"
-msgstr "Lika stor"
+msgstr "Björnen"
 
 #: activities/compass/resource/18/Data.qml:14
 msgctxt "Data|"
 msgid "The lion"
-msgstr ""
+msgstr "Lejonet"
 
 #. The animal
 #: activities/compass/resource/19/Data.qml:16
-#, fuzzy
-#| msgctxt "board3_0|"
-#| msgid "house"
 msgctxt "Data|"
 msgid "The mouse"
-msgstr "hus"
+msgstr "Musen"
 
 #: activities/compass/resource/2/Data.qml:13
-#, fuzzy
-#| msgctxt "Dataset|"
-#| msgid "The same"
 msgctxt "Data|"
 msgid "The shell"
-msgstr "Lika stor"
+msgstr "Snäckan"
 
 #: activities/compass/resource/3/Data.qml:13
 msgctxt "Data|"
 msgid "The lotus flower"
-msgstr ""
+msgstr "Lotusblomman"
 
 #: activities/compass/resource/4/Data.qml:13
 msgctxt "Data|"
 msgid "The carpet of flowers"
-msgstr ""
+msgstr "Mattan av blommor"
 
 #: activities/compass/resource/5/Data.qml:13
 msgctxt "Data|"
 msgid "The clover"
-msgstr ""
+msgstr "Klövern"
 
 #: activities/compass/resource/6/Data.qml:13
-#, fuzzy
-#| msgctxt "board8|"
-#| msgid "The Pantheon"
 msgctxt "Data|"
 msgid "The balloon"
-msgstr "Pantheon"
+msgstr "Ballongen"
 
 #: activities/compass/resource/7/Data.qml:13
 msgctxt "Data|"
 msgid "The daisy"
-msgstr ""
+msgstr "Prästkragen"
 
 #. The flower
 #: activities/compass/resource/8/Data.qml:14
 msgctxt "Data|"
 msgid "The periwinkle"
-msgstr ""
+msgstr "Vintergrönan"
 
 #: activities/compass/resource/9/Data.qml:13
 msgctxt "Data|"
 msgid "The soccer ball"
-msgstr ""
+msgstr "Fotbollen"
 
 #. Activity title
 #: activities/crane/ActivityInfo.qml:20
@@ -7222,16 +7104,6 @@ msgstr "Upptäck hypotrokoider och använd dem som digitala målarverktyg."
 
 #. Help manual
 #: activities/drawing_wheels/ActivityInfo.qml:27
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid ""
-#| "Make beautiful drawings by rolling the gear in the cogwheel with the "
-#| "chosen pen. Select a wheel size, a gear size, pen's settings and color "
-#| "from the popup panels, and press the play button to roll the gear. You "
-#| "can use the file menu to save your image, open a previously saved image, "
-#| "or create a new image with selected background color. Saving an image "
-#| "will save it in an SVG file (vector format), along with a PNG file (pixel "
-#| "format). Only the SVG file can be opened again from the activity."
 msgctxt "ActivityInfo|"
 msgid ""
 "Make beautiful drawings by rolling the gear in the cogwheel with the chosen "
@@ -7245,13 +7117,6 @@ msgid ""
 "format), along with a PNG file (pixel format). Only the SVG file can be "
 "opened again from the activity."
 msgstr ""
-"Rita vackra teckningar genom att rulla drevet i kugghjulet med den valda "
-"pennan. Välj en hjulstorlek, en drevstorlek, pennans inställningar och färg "
-"från panelerna och tryck på uppspelningsknappen för att rulla drevet. Du kan "
-"använda arkivmenyn för att spara bilden, öppna en tidigare sparad bild eller "
-"skapa en ny bild med vald bakgrundsfärg. Om du sparar en bild sparas den i "
-"en SVG-fil (vektorformat) tillsammans med en PNG-fil (bildpunktsformat). Det "
-"går bara att öppna SVG-filen igen från aktiviteten."
 
 #: activities/drawing_wheels/DrawingWheels.qml:406
 msgctxt "DrawingWheels|"
@@ -7513,38 +7378,32 @@ msgstr ""
 "till 'Knappen Ok')"
 
 #: activities/enumerate/Enumerate.qml:65
-#, fuzzy, qt-format
-#| msgctxt "Data|"
-#| msgid "Enumerate up to 5 fruits"
+#, qt-format
 msgctxt "Enumerate|"
 msgid "Enumerate up to %1 fruits."
-msgstr "Räkna upp till 5 frukter"
+msgstr "Räkna upp till %1 frukter."
 
 #: activities/enumerate/Enumerate.qml:66
-#, fuzzy, qt-format
-#| msgctxt "Data|"
-#| msgid "Group 2 types of fruit and enumerate each group (5 fruit max)."
+#, qt-format
 msgctxt "Enumerate|"
 msgid "Group %1 types of fruit and enumerate each group (%2 fruits max)."
-msgstr "Gruppera 2 typer av frukt och räkna varje grupp (maximalt 5 frukter)."
+msgstr ""
+"Gruppera %1 typer av frukt och räkna varje grupp (maximalt %2 frukter)."
 
 #: activities/enumerate/resource/1/Data.qml:13
-#, fuzzy, qt-format
-#| msgctxt "Data|"
-#| msgid "Enumerate up to 5 fruits"
+#, qt-format
 msgctxt "Data|"
 msgid "Enumerate up to %1 fruits."
-msgstr "Räkna upp till 5 frukter"
+msgstr "Räkna upp till %1 frukter."
 
 #: activities/enumerate/resource/2/Data.qml:13
 #: activities/enumerate/resource/3/Data.qml:13
 #: activities/enumerate/resource/4/Data.qml:13
-#, fuzzy, qt-format
-#| msgctxt "Data|"
-#| msgid "Group 2 types of fruit and enumerate each group (5 fruit max)."
+#, qt-format
 msgctxt "Data|"
 msgid "Group %1 types of fruit and enumerate each group (%2 fruits max)."
-msgstr "Gruppera 2 typer av frukt och räkna varje grupp (maximalt 5 frukter)."
+msgstr ""
+"Gruppera %1 typer av frukt och räkna varje grupp (maximalt %2 frukter)."
 
 #. Activity title
 #: activities/erase/ActivityInfo.qml:15
@@ -16205,16 +16064,6 @@ msgstr "Öva på att jämföra tal."
 
 #. Help manual
 #: activities/guessnumber/ActivityInfo.qml:23
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid ""
-#| "Read the instructions that give you the range of the number to find. "
-#| "Enter a number in the top right entry box. You will be told if your "
-#| "number is higher or lower than the one to find. Then try again until you "
-#| "find the correct answer. The distance between Tux and the right side of "
-#| "the screen represents how far you are from the number to find. If Tux is "
-#| "over or under the vertical center of the screen, it means your number is "
-#| "over or under the number to find."
 msgctxt "ActivityInfo|"
 msgid ""
 "Read the instructions that give you the range of the number to find. Enter a "
@@ -16226,12 +16075,6 @@ msgid ""
 "of the screen, it means your number is higher or lower than the number to "
 "find."
 msgstr ""
-"Läs instruktionerna som ger dig talintervallet att hitta. Ange ett tal i "
-"övre högra inmatningsrutan. Du får reda på om ditt tal är större eller "
-"mindre än det rätta. Försök igen tills du hittar rätt svar. Avståndet mellan "
-"Tux och skärmens högerkant representerar hur långt ifrån det rätta talet du "
-"är. Om Tux är över eller under skärmens vertikala mitt betyder det att ditt "
-"svar är över eller under det rätta talet."
 
 #: activities/guessnumber/ActivityInfo.qml:25
 msgctxt "ActivityInfo|"
@@ -16244,20 +16087,14 @@ msgid "Backspace: erase a number"
 msgstr "Baksteg: radera ett tal"
 
 #: activities/guessnumber/guessnumber.js:61
-#, fuzzy
-#| msgctxt "guessnumber|"
-#| msgid "Your number is too high"
 msgctxt "guessnumber|"
 msgid "Your number is too high."
-msgstr "Talet är för stort"
+msgstr "Talet är för stort."
 
 #: activities/guessnumber/guessnumber.js:64
-#, fuzzy
-#| msgctxt "guessnumber|"
-#| msgid "Your number is too low"
 msgctxt "guessnumber|"
 msgid "Your number is too low."
-msgstr "Talet är för litet"
+msgstr "Talet är för litet."
 
 #: activities/guessnumber/guessnumber.js:69
 msgctxt "guessnumber|"
@@ -16265,24 +16102,20 @@ msgid "You found the number!"
 msgstr "Du hittade talet!"
 
 #: activities/guessnumber/Guessnumber.qml:116
-#, fuzzy, qt-format
-#| msgctxt "Data|"
-#| msgid "Guess a number between 1 and %1."
+#, qt-format
 msgctxt "Guessnumber|"
 msgid "Guess a number between %1 and %2."
-msgstr "Gissa ett tal mellan 1 och %1."
+msgstr "Gissa ett tal mellan %1 och %2."
 
 #: activities/guessnumber/resource/1/Data.qml:16
 #: activities/guessnumber/resource/2/Data.qml:14
 #: activities/guessnumber/resource/3/Data.qml:16
 #: activities/guessnumber/resource/4/Data.qml:16
 #: activities/guessnumber/resource/5/Data.qml:16
-#, fuzzy, qt-format
-#| msgctxt "Data|"
-#| msgid "Guess a number between 1 and %1."
+#, qt-format
 msgctxt "Data|"
 msgid "Guess a number between %1 and %2."
-msgstr "Gissa ett tal mellan 1 och %1."
+msgstr "Gissa ett tal mellan %1 och %2."
 
 #: activities/hangman/ActivityConfig.qml:42
 msgctxt "ActivityConfig|"
@@ -16936,47 +16769,32 @@ msgid "Find the tuba"
 msgstr "Hitta tuban"
 
 #: activities/keyboard_training/ActivityConfig.qml:28
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Draw letters"
 msgctxt "ActivityConfig|"
 msgid "Uppercase letters"
-msgstr "Skriv bokstäver"
+msgstr "Stora bokstäver"
 
 #: activities/keyboard_training/ActivityConfig.qml:29
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Draw letters"
 msgctxt "ActivityConfig|"
 msgid "Lowercase letters"
-msgstr "Skriv bokstäver"
+msgstr "Små bokstäver"
 
 #. Activity title
 #: activities/keyboard_training/ActivityInfo.qml:14
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Keyboard training."
 msgctxt "ActivityInfo|"
 msgid "Keyboard training"
-msgstr "Tangentbordsövning."
+msgstr "Tangentbordsövning"
 
 #. Help title
 #: activities/keyboard_training/ActivityInfo.qml:16
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Read the score, and then play it on the keyboard."
 msgctxt "ActivityInfo|"
 msgid "Find the requested character and type it on the keyboard."
-msgstr "Läs partituret, och spela det sedan på klaviaturen."
+msgstr "Hitta det begärda tecknet och skriv det på tangentbordet."
 
 #. Help goal
 #: activities/keyboard_training/ActivityInfo.qml:19
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Learn to spell words."
 msgctxt "ActivityInfo|"
 msgid "Learn to type on a keyboard."
-msgstr "Lär dig stava ord."
+msgstr "Lär dig skriva på ett tangentbord."
 
 #. Help manual
 #: activities/keyboard_training/ActivityInfo.qml:23
@@ -18435,12 +18253,11 @@ msgid "Calculate remaining stars up to 10000 with coefficients."
 msgstr "Beräkna återstående stjärnor upp till 10000 med koefficienter."
 
 #: activities/magic-hat-minus/resource/9/Data.qml:13
-#, fuzzy
-#| msgctxt "Data|"
-#| msgid "Calculate remaining stars up to 100 with coefficients."
 msgctxt "Data|"
 msgid "Calculate remaining stars up to 10, with 2 or 3 different star sets."
-msgstr "Beräkna återstående stjärnor upp till 100 med koefficienter."
+msgstr ""
+"Beräkna återstående stjärnor upp till 10, med 2 eller 3 olika "
+"stjärnuppsättningar."
 
 #. text displaying coefficient with which the set of stars is to be multiplied along with multiplication symbol.
 #: activities/magic-hat-minus/StarsBar.qml:36
@@ -18531,12 +18348,9 @@ msgid "Add stars up to 10000 with coefficients."
 msgstr "Addera stjärnor upp till 10000 med koefficienter."
 
 #: activities/magic-hat-plus/resource/9/Data.qml:13
-#, fuzzy
-#| msgctxt "Data|"
-#| msgid "Add stars up to 100 with coefficients."
 msgctxt "Data|"
 msgid "Add stars up to 10, with 2 or 3 different star sets."
-msgstr "Addera stjärnor upp till 100 med koefficienter."
+msgstr "Addera stjärnor upp till 10, med 2 eller 3 olika stjärnuppsättningar."
 
 #. Activity title
 #: activities/maze/ActivityInfo.qml:15
@@ -20383,17 +20197,14 @@ msgstr ""
 "den valda användaren är felaktigt."
 
 #: activities/menu/Menu.qml:215
-#, fuzzy, qt-format
-#| msgctxt "Menu|"
-#| msgid ""
-#| "GCompris is connected to teacher's server, and the user is authenticated."
+#, qt-format
 msgctxt "Menu|"
 msgid ""
 "GCompris is connected to teacher's server, and the user is authenticated as "
 "%1."
 msgstr ""
-"GCompris är ansluten till lärarens server och användarens behörighet har "
-"kontrollerats."
+"GCompris är ansluten till lärarens server och användaren är "
+"behörighetskontrollerad som %1."
 
 #: activities/menu/Menu.qml:216
 msgctxt "Menu|"
@@ -22212,7 +22023,7 @@ msgstr ""
 #: activities/peg_solitaire/ActivityInfo.qml:16
 msgctxt "ActivityInfo|"
 msgid "Remove all the pieces in the correct order until only one remains."
-msgstr ""
+msgstr "Ta bort alla pjäser i rätt ordning tills bara en återstår."
 
 #. Help manual
 #: activities/peg_solitaire/ActivityInfo.qml:23
@@ -22236,12 +22047,9 @@ msgstr ""
 
 #. Board for the Peg solitaire game
 #: activities/peg_solitaire/peg_solitaire.js:44
-#, fuzzy
-#| msgctxt "board14_0|"
-#| msgid "French Polynesia"
 msgctxt "peg_solitaire|"
 msgid "French board"
-msgstr "Franska Polynesien"
+msgstr ""
 
 #. Board for the Peg solitaire game
 #: activities/peg_solitaire/peg_solitaire.js:61
@@ -22251,12 +22059,9 @@ msgstr ""
 
 #. Board for the Peg solitaire game
 #: activities/peg_solitaire/peg_solitaire.js:79
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Numerical order"
 msgctxt "peg_solitaire|"
 msgid "Asymmetrical board"
-msgstr "Talföljd"
+msgstr "Asymmetriskt bräde"
 
 #. Activity title
 #: activities/penalty/ActivityInfo.qml:15
@@ -22803,37 +22608,37 @@ msgctxt "piano_composition|"
 msgid "Melody saved to your file (%1)"
 msgstr "Melodi sparad i din fil (%1)"
 
-#: activities/piano_composition/Piano_composition.qml:376
+#: activities/piano_composition/Piano_composition.qml:378
 msgctxt "Piano_composition|"
 msgid "You have not selected any note. Do you want to erase all the notes?"
 msgstr "Du har inte markerat några noter. Vill du radera alla noter?"
 
-#: activities/piano_composition/Piano_composition.qml:377
+#: activities/piano_composition/Piano_composition.qml:379
 msgctxt "Piano_composition|"
 msgid "Yes"
 msgstr "Ja"
 
-#: activities/piano_composition/Piano_composition.qml:383
+#: activities/piano_composition/Piano_composition.qml:385
 msgctxt "Piano_composition|"
 msgid "No"
 msgstr "Nej"
 
-#: activities/piano_composition/Piano_composition.qml:430
+#: activities/piano_composition/Piano_composition.qml:432
 msgctxt "Piano_composition|"
 msgid "Select the type of melody to load."
 msgstr "Välj melodityp att läsa in."
 
-#: activities/piano_composition/Piano_composition.qml:435
+#: activities/piano_composition/Piano_composition.qml:437
 msgctxt "Piano_composition|"
 msgid "Pre-defined melodies"
 msgstr "Fördefinierade melodier"
 
-#: activities/piano_composition/Piano_composition.qml:453
+#: activities/piano_composition/Piano_composition.qml:455
 msgctxt "Piano_composition|"
 msgid "Your saved melodies"
 msgstr "Dina sparade melodier"
 
-#: activities/piano_composition/Piano_composition.qml:557
+#: activities/piano_composition/Piano_composition.qml:559
 msgctxt "Piano_composition|"
 msgid ""
 "This activity requires sound, so it will play some sounds even if the audio "
@@ -22842,12 +22647,12 @@ msgstr ""
 "Aktiviteten kräver ljud, så den spelar upp en del ljud även om röster eller "
 "effekter är inaktiverade i huvudinställningen."
 
-#: activities/piano_composition/Piano_composition.qml:558
+#: activities/piano_composition/Piano_composition.qml:560
 msgctxt "Piano_composition|"
 msgid "Quit"
 msgstr "Avsluta"
 
-#: activities/piano_composition/Piano_composition.qml:559
+#: activities/piano_composition/Piano_composition.qml:561
 msgctxt "Piano_composition|"
 msgid "Continue"
 msgstr "Fortsätt"
@@ -23235,7 +23040,7 @@ msgctxt "ActivityInfo|"
 msgid "Tab: Start or stop the metronome if it is visible"
 msgstr "Tabulator: starta eller stoppa metronomen om den är synlig"
 
-#: activities/play_rhythm/PlayRhythm.qml:128
+#: activities/play_rhythm/PlayRhythm.qml:131
 msgctxt "PlayRhythm|"
 msgid ""
 "Use the metronome to estimate the time intervals and play the rhythm "
@@ -23244,7 +23049,7 @@ msgstr ""
 "Använd metronomen för att uppskatta tidsintervallet och återge rytmen "
 "korrekt."
 
-#: activities/play_rhythm/PlayRhythm.qml:129
+#: activities/play_rhythm/PlayRhythm.qml:132
 msgctxt "PlayRhythm|"
 msgid ""
 "Follow the vertical line and click on the drum or press space key to play "
@@ -23253,7 +23058,7 @@ msgstr ""
 "Följ den vertikala linjen och klicka på trumman  eller tryck på "
 "mellanslagstangenten för att återge rytmen korrekt."
 
-#: activities/play_rhythm/PlayRhythm.qml:413
+#: activities/play_rhythm/PlayRhythm.qml:416
 msgctxt "PlayRhythm|"
 msgid ""
 "This activity requires sound, so it will play some sounds even if the audio "
@@ -23262,12 +23067,12 @@ msgstr ""
 "Aktiviteten kräver ljud, så den spelar upp en del ljud även om röster eller "
 "effekter är inaktiverade i huvudinställningen."
 
-#: activities/play_rhythm/PlayRhythm.qml:414
+#: activities/play_rhythm/PlayRhythm.qml:417
 msgctxt "PlayRhythm|"
 msgid "Quit"
 msgstr "Avsluta"
 
-#: activities/play_rhythm/PlayRhythm.qml:415
+#: activities/play_rhythm/PlayRhythm.qml:418
 msgctxt "PlayRhythm|"
 msgid "Continue"
 msgstr "Fortsätt"
@@ -24087,33 +23892,21 @@ msgid "Numbers between %1 and %2."
 msgstr "Tal mellan %1 och %2."
 
 #: activities/reversecount/Reversecount.qml:81
-#, fuzzy
-#| msgctxt "ActivityConfig|"
-#| msgid "Dots"
 msgctxt "Reversecount|"
 msgid "Dots"
 msgstr "Punkter"
 
 #: activities/reversecount/Reversecount.qml:82
-#, fuzzy
-#| msgctxt "ActivityConfig|"
-#| msgid "Arabic numbers"
 msgctxt "Reversecount|"
 msgid "Arabic numbers"
 msgstr "Arabiska siffror"
 
 #: activities/reversecount/Reversecount.qml:83
-#, fuzzy
-#| msgctxt "ActivityConfig|"
-#| msgid "Roman numbers"
 msgctxt "Reversecount|"
 msgid "Roman numbers"
 msgstr "Romerska siffror"
 
 #: activities/reversecount/Reversecount.qml:84
-#, fuzzy
-#| msgctxt "ActivityConfig|"
-#| msgid "Images"
 msgctxt "Reversecount|"
 msgid "Images"
 msgstr "Bilder"
@@ -25754,33 +25547,21 @@ msgid "Type the number on the domino, from 0 to 9."
 msgstr "Skriv in antalet på dominobrickan, från 0 till 9."
 
 #: activities/smallnumbers2/Smallnumbers2.qml:23
-#, fuzzy
-#| msgctxt "ActivityConfig|"
-#| msgid "Dots"
 msgctxt "Smallnumbers2|"
 msgid "Dots"
 msgstr "Punkter"
 
 #: activities/smallnumbers2/Smallnumbers2.qml:24
-#, fuzzy
-#| msgctxt "ActivityConfig|"
-#| msgid "Arabic numbers"
 msgctxt "Smallnumbers2|"
 msgid "Arabic numbers"
 msgstr "Arabiska siffror"
 
 #: activities/smallnumbers2/Smallnumbers2.qml:25
-#, fuzzy
-#| msgctxt "ActivityConfig|"
-#| msgid "Roman numbers"
 msgctxt "Smallnumbers2|"
 msgid "Roman numbers"
 msgstr "Romerska siffror"
 
 #: activities/smallnumbers2/Smallnumbers2.qml:26
-#, fuzzy
-#| msgctxt "ActivityConfig|"
-#| msgid "Images"
 msgctxt "Smallnumbers2|"
 msgid "Images"
 msgstr "Bilder"
@@ -27405,12 +27186,9 @@ msgid "Maximum value: 500."
 msgstr "Maximalt värde: 500."
 
 #: activities/target/resource/4/Data.qml:14
-#, fuzzy
-#| msgctxt "Data|"
-#| msgid "Maximum value: 50000."
 msgctxt "Data|"
 msgid "Maximum value: 5000."
-msgstr "Maximalt värde: 50000."
+msgstr "Maximalt värde: 5000."
 
 #: activities/target/resource/5/Data.qml:14
 msgctxt "Data|"
@@ -28258,34 +28036,23 @@ msgid ""
 msgstr ""
 
 #: core/ActivityBase.qml:219
-#, fuzzy
-#| msgctxt "balanceboxeditor|"
-#| msgid "Yes"
 msgctxt "ActivityBase|"
 msgid "Yes"
 msgstr "Ja"
 
 #: core/ActivityBase.qml:224
-#, fuzzy
-#| msgctxt "balanceboxeditor|"
-#| msgid "No"
 msgctxt "ActivityBase|"
 msgid "No"
 msgstr "Nej"
 
 #: core/ChangeLog.qml:30
-#, fuzzy
-#| msgctxt "ChangeLog|"
-#| msgid ""
-#| "New command-line option to list all the activities and start on a "
-#| "specific one"
 msgctxt "ChangeLog|"
 msgid ""
 "New command-line option to run a list of activities with specific datasets "
 "in sequence (--with-sequence sequence.json)"
 msgstr ""
-"Nya kommandoradsväljare för att lista alla aktiviteter och starta med en "
-"specifik"
+"Nya kommandoradsväljare för att utföra en lista med aktiviteter och "
+"specifika datamängder i en följd (--with-sequence sequence.json)"
 
 #: core/ChangeLog.qml:31 core/ChangeLog.qml:44 core/ChangeLog.qml:50
 #: core/ChangeLog.qml:56 core/ChangeLog.qml:65 core/ChangeLog.qml:71

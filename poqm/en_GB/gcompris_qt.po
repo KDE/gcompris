@@ -22912,37 +22912,37 @@ msgctxt "piano_composition|"
 msgid "Melody saved to your file (%1)"
 msgstr "Melody saved to your file (%1)"
 
-#: activities/piano_composition/Piano_composition.qml:376
+#: activities/piano_composition/Piano_composition.qml:378
 msgctxt "Piano_composition|"
 msgid "You have not selected any note. Do you want to erase all the notes?"
 msgstr "You have not selected any note. Do you want to erase all the notes?"
 
-#: activities/piano_composition/Piano_composition.qml:377
+#: activities/piano_composition/Piano_composition.qml:379
 msgctxt "Piano_composition|"
 msgid "Yes"
 msgstr "Yes"
 
-#: activities/piano_composition/Piano_composition.qml:383
+#: activities/piano_composition/Piano_composition.qml:385
 msgctxt "Piano_composition|"
 msgid "No"
 msgstr "No"
 
-#: activities/piano_composition/Piano_composition.qml:430
+#: activities/piano_composition/Piano_composition.qml:432
 msgctxt "Piano_composition|"
 msgid "Select the type of melody to load."
 msgstr "Select the type of melody to load."
 
-#: activities/piano_composition/Piano_composition.qml:435
+#: activities/piano_composition/Piano_composition.qml:437
 msgctxt "Piano_composition|"
 msgid "Pre-defined melodies"
 msgstr "Pre-defined melodies"
 
-#: activities/piano_composition/Piano_composition.qml:453
+#: activities/piano_composition/Piano_composition.qml:455
 msgctxt "Piano_composition|"
 msgid "Your saved melodies"
 msgstr "Your saved melodies"
 
-#: activities/piano_composition/Piano_composition.qml:557
+#: activities/piano_composition/Piano_composition.qml:559
 msgctxt "Piano_composition|"
 msgid ""
 "This activity requires sound, so it will play some sounds even if the audio "
@@ -22951,12 +22951,12 @@ msgstr ""
 "This activity requires sound, so it will play some sounds even if the audio "
 "voices or effects are disabled in the main configuration."
 
-#: activities/piano_composition/Piano_composition.qml:558
+#: activities/piano_composition/Piano_composition.qml:560
 msgctxt "Piano_composition|"
 msgid "Quit"
 msgstr "Quit"
 
-#: activities/piano_composition/Piano_composition.qml:559
+#: activities/piano_composition/Piano_composition.qml:561
 msgctxt "Piano_composition|"
 msgid "Continue"
 msgstr "Continue"
@@ -23344,7 +23344,7 @@ msgctxt "ActivityInfo|"
 msgid "Tab: Start or stop the metronome if it is visible"
 msgstr "Tab: Start or stop the metronome if it is visible"
 
-#: activities/play_rhythm/PlayRhythm.qml:128
+#: activities/play_rhythm/PlayRhythm.qml:131
 msgctxt "PlayRhythm|"
 msgid ""
 "Use the metronome to estimate the time intervals and play the rhythm "
@@ -23353,7 +23353,7 @@ msgstr ""
 "Use the metronome to estimate the time intervals and play the rhythm "
 "correctly."
 
-#: activities/play_rhythm/PlayRhythm.qml:129
+#: activities/play_rhythm/PlayRhythm.qml:132
 msgctxt "PlayRhythm|"
 msgid ""
 "Follow the vertical line and click on the drum or press space key to play "
@@ -23362,7 +23362,7 @@ msgstr ""
 "Follow the vertical line and click on the drum or press space key to play "
 "the rhythm correctly."
 
-#: activities/play_rhythm/PlayRhythm.qml:413
+#: activities/play_rhythm/PlayRhythm.qml:416
 msgctxt "PlayRhythm|"
 msgid ""
 "This activity requires sound, so it will play some sounds even if the audio "
@@ -23371,12 +23371,12 @@ msgstr ""
 "This activity requires sound, so it will play some sounds even if the audio "
 "voices or effects are disabled in the main configuration."
 
-#: activities/play_rhythm/PlayRhythm.qml:414
+#: activities/play_rhythm/PlayRhythm.qml:417
 msgctxt "PlayRhythm|"
 msgid "Quit"
 msgstr "Quit"
 
-#: activities/play_rhythm/PlayRhythm.qml:415
+#: activities/play_rhythm/PlayRhythm.qml:418
 msgctxt "PlayRhythm|"
 msgid "Continue"
 msgstr "Continue"

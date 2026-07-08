@@ -23489,38 +23489,38 @@ msgctxt "piano_composition|"
 msgid "Melody saved to your file (%1)"
 msgstr "மெல்லிசை உங்கள் கோப்பில் சேமிக்கப்பட்டது (%1)"
 
-#: activities/piano_composition/Piano_composition.qml:376
+#: activities/piano_composition/Piano_composition.qml:378
 msgctxt "Piano_composition|"
 msgid "You have not selected any note. Do you want to erase all the notes?"
 msgstr ""
 "நீங்கள் எந்த ஸ்வரங்களையும் தேர்ந்தெடுக்கவில்லை. எல்லா ஸ்வரங்களையும் அழிக்க விரும்புகிறீர்களா?"
 
-#: activities/piano_composition/Piano_composition.qml:377
+#: activities/piano_composition/Piano_composition.qml:379
 msgctxt "Piano_composition|"
 msgid "Yes"
 msgstr "வேண்டும்"
 
-#: activities/piano_composition/Piano_composition.qml:383
+#: activities/piano_composition/Piano_composition.qml:385
 msgctxt "Piano_composition|"
 msgid "No"
 msgstr "வேண்டாம்"
 
-#: activities/piano_composition/Piano_composition.qml:430
+#: activities/piano_composition/Piano_composition.qml:432
 msgctxt "Piano_composition|"
 msgid "Select the type of melody to load."
 msgstr "லோடு செய்ய வேண்டிய மெல்லிசையின் தரத்தைத் தேர்ந்தெடுக்கவும்."
 
-#: activities/piano_composition/Piano_composition.qml:435
+#: activities/piano_composition/Piano_composition.qml:437
 msgctxt "Piano_composition|"
 msgid "Pre-defined melodies"
 msgstr "முன்னரே உள்ள மெல்லிசைகள்"
 
-#: activities/piano_composition/Piano_composition.qml:453
+#: activities/piano_composition/Piano_composition.qml:455
 msgctxt "Piano_composition|"
 msgid "Your saved melodies"
 msgstr "சேமிக்கப்பட்ட மெல்லிசைகள்"
 
-#: activities/piano_composition/Piano_composition.qml:557
+#: activities/piano_composition/Piano_composition.qml:559
 msgctxt "Piano_composition|"
 msgid ""
 "This activity requires sound, so it will play some sounds even if the audio "
@@ -23529,12 +23529,12 @@ msgstr ""
 "இந்தச் செயல்பாட்டிற்கு ஒலி தேவைப்படுகிறது, எனவே முக்கிய உள்ளமைவில் ஆடியோ ஒலிகள் அல்லது "
 "விளைவுகள்  தவிர்க்கப்பட்டிருந்தாலும் சில ஒலிகள் இங்கே ஒலிக்கும்."
 
-#: activities/piano_composition/Piano_composition.qml:558
+#: activities/piano_composition/Piano_composition.qml:560
 msgctxt "Piano_composition|"
 msgid "Quit"
 msgstr "நிறுத்தவும்"
 
-#: activities/piano_composition/Piano_composition.qml:559
+#: activities/piano_composition/Piano_composition.qml:561
 msgctxt "Piano_composition|"
 msgid "Continue"
 msgstr "தொடரவும்"
@@ -23940,14 +23940,14 @@ msgctxt "ActivityInfo|"
 msgid "Tab: Start or stop the metronome if it is visible"
 msgstr "Tab: மெட்ரோனோம் இருந்தால் அது தொடங்கவதற்கு அல்லது நிறுத்துவதற்கு"
 
-#: activities/play_rhythm/PlayRhythm.qml:128
+#: activities/play_rhythm/PlayRhythm.qml:131
 msgctxt "PlayRhythm|"
 msgid ""
 "Use the metronome to estimate the time intervals and play the rhythm "
 "correctly."
 msgstr "மெட்ரோனோமைப் பயன்படுத்தி நேர இடைவெளிகளை அளவிட்டு சரியாக தாளம் அடிக்கலாம்."
 
-#: activities/play_rhythm/PlayRhythm.qml:129
+#: activities/play_rhythm/PlayRhythm.qml:132
 msgctxt "PlayRhythm|"
 msgid ""
 "Follow the vertical line and click on the drum or press space key to play "
@@ -23956,7 +23956,7 @@ msgstr ""
 "செங்குத்தான கோட்டைப் கவனித்து, டிரம்மைக் கிளிக் செய்து அல்லது ஸ்பேஸ் கீயை அழுத்தி சரியாக "
 "தாளம் அடிக்கலாம்."
 
-#: activities/play_rhythm/PlayRhythm.qml:413
+#: activities/play_rhythm/PlayRhythm.qml:416
 msgctxt "PlayRhythm|"
 msgid ""
 "This activity requires sound, so it will play some sounds even if the audio "
@@ -23965,12 +23965,12 @@ msgstr ""
 "இந்தச் செயல்பாட்டிற்கு ஒலி தேவைப்படுகிறது. எனவே முக்கிய உள்ளமைவில் ஆடியோ ஒலிகள் அல்லது "
 "விளைவுகள் தவிர்க்கப்பட்டிருந்தாலும் சில ஒலிகள் இங்கே ஒலிக்கும்."
 
-#: activities/play_rhythm/PlayRhythm.qml:414
+#: activities/play_rhythm/PlayRhythm.qml:417
 msgctxt "PlayRhythm|"
 msgid "Quit"
 msgstr "நிறுத்தவும்"
 
-#: activities/play_rhythm/PlayRhythm.qml:415
+#: activities/play_rhythm/PlayRhythm.qml:418
 msgctxt "PlayRhythm|"
 msgid "Continue"
 msgstr "தொடரவும்"

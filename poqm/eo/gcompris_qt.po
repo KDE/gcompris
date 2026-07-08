@@ -22709,37 +22709,37 @@ msgctxt "piano_composition|"
 msgid "Melody saved to your file (%1)"
 msgstr "Melodio konservita en via dosiero (%1)"
 
-#: activities/piano_composition/Piano_composition.qml:376
+#: activities/piano_composition/Piano_composition.qml:378
 msgctxt "Piano_composition|"
 msgid "You have not selected any note. Do you want to erase all the notes?"
 msgstr "Vi elektis neniun noton. Ĉu vi volas forviŝi ĉiujn notojn?"
 
-#: activities/piano_composition/Piano_composition.qml:377
+#: activities/piano_composition/Piano_composition.qml:379
 msgctxt "Piano_composition|"
 msgid "Yes"
 msgstr "Jes"
 
-#: activities/piano_composition/Piano_composition.qml:383
+#: activities/piano_composition/Piano_composition.qml:385
 msgctxt "Piano_composition|"
 msgid "No"
 msgstr "Ne"
 
-#: activities/piano_composition/Piano_composition.qml:430
+#: activities/piano_composition/Piano_composition.qml:432
 msgctxt "Piano_composition|"
 msgid "Select the type of melody to load."
 msgstr "Elektu la tipon de melodio por ŝargi."
 
-#: activities/piano_composition/Piano_composition.qml:435
+#: activities/piano_composition/Piano_composition.qml:437
 msgctxt "Piano_composition|"
 msgid "Pre-defined melodies"
 msgstr "Antaŭdifinitaj melodioj"
 
-#: activities/piano_composition/Piano_composition.qml:453
+#: activities/piano_composition/Piano_composition.qml:455
 msgctxt "Piano_composition|"
 msgid "Your saved melodies"
 msgstr "Viaj konservitaj melodioj"
 
-#: activities/piano_composition/Piano_composition.qml:557
+#: activities/piano_composition/Piano_composition.qml:559
 msgctxt "Piano_composition|"
 msgid ""
 "This activity requires sound, so it will play some sounds even if the audio "
@@ -22748,12 +22748,12 @@ msgstr ""
 "Ĉi tiu agado postulas sonon, do ĝi ludos kelkajn sonojn eĉ se la sonvoĉoj aŭ "
 "efikoj estas malŝaltitaj en la ĉefa agordo."
 
-#: activities/piano_composition/Piano_composition.qml:558
+#: activities/piano_composition/Piano_composition.qml:560
 msgctxt "Piano_composition|"
 msgid "Quit"
 msgstr "Forlasi"
 
-#: activities/piano_composition/Piano_composition.qml:559
+#: activities/piano_composition/Piano_composition.qml:561
 msgctxt "Piano_composition|"
 msgid "Continue"
 msgstr "Daŭrigi"
@@ -23141,7 +23141,7 @@ msgctxt "ActivityInfo|"
 msgid "Tab: Start or stop the metronome if it is visible"
 msgstr "Tab: Komencu aŭ haltigu la metronomon se ĝi estas videbla"
 
-#: activities/play_rhythm/PlayRhythm.qml:128
+#: activities/play_rhythm/PlayRhythm.qml:131
 msgctxt "PlayRhythm|"
 msgid ""
 "Use the metronome to estimate the time intervals and play the rhythm "
@@ -23149,7 +23149,7 @@ msgid ""
 msgstr ""
 "Uzu la metronomon por taksi la tempintervalojn kaj ludi la ritmon ĝuste."
 
-#: activities/play_rhythm/PlayRhythm.qml:129
+#: activities/play_rhythm/PlayRhythm.qml:132
 msgctxt "PlayRhythm|"
 msgid ""
 "Follow the vertical line and click on the drum or press space key to play "
@@ -23158,7 +23158,7 @@ msgstr ""
 "Sekvu la vertikalan linion kaj alklaku la tamburon aŭ premu spacoklavon por "
 "ludi la ritmon ĝuste."
 
-#: activities/play_rhythm/PlayRhythm.qml:413
+#: activities/play_rhythm/PlayRhythm.qml:416
 msgctxt "PlayRhythm|"
 msgid ""
 "This activity requires sound, so it will play some sounds even if the audio "
@@ -23167,12 +23167,12 @@ msgstr ""
 "Ĉi tiu agado postulas sonon, do ĝi ludos kelkajn sonojn eĉ se la sonvoĉoj aŭ "
 "efikoj estas malŝaltitaj en la ĉefa agordo."
 
-#: activities/play_rhythm/PlayRhythm.qml:414
+#: activities/play_rhythm/PlayRhythm.qml:417
 msgctxt "PlayRhythm|"
 msgid "Quit"
 msgstr "Forlasi"
 
-#: activities/play_rhythm/PlayRhythm.qml:415
+#: activities/play_rhythm/PlayRhythm.qml:418
 msgctxt "PlayRhythm|"
 msgid "Continue"
 msgstr "Daŭrigi"

@@ -22021,37 +22021,37 @@ msgctxt "piano_composition|"
 msgid "Melody saved to your file (%1)"
 msgstr "મેલોડી તમારી ફાઇલમાં સેવ થઈ ગઈ (%1)"
 
-#: activities/piano_composition/Piano_composition.qml:376
+#: activities/piano_composition/Piano_composition.qml:378
 msgctxt "Piano_composition|"
 msgid "You have not selected any note. Do you want to erase all the notes?"
 msgstr "તમે કોઈ નોટ પસંદ કરી નથી. શું તમે બધી નોટ્સ ભૂંસી નાખવા માંગો છો?"
 
-#: activities/piano_composition/Piano_composition.qml:377
+#: activities/piano_composition/Piano_composition.qml:379
 msgctxt "Piano_composition|"
 msgid "Yes"
 msgstr "હા"
 
-#: activities/piano_composition/Piano_composition.qml:383
+#: activities/piano_composition/Piano_composition.qml:385
 msgctxt "Piano_composition|"
 msgid "No"
 msgstr "ના"
 
-#: activities/piano_composition/Piano_composition.qml:430
+#: activities/piano_composition/Piano_composition.qml:432
 msgctxt "Piano_composition|"
 msgid "Select the type of melody to load."
 msgstr "લોડ કરવા માટે મેલોડીનો પ્રકાર પસંદ કરો."
 
-#: activities/piano_composition/Piano_composition.qml:435
+#: activities/piano_composition/Piano_composition.qml:437
 msgctxt "Piano_composition|"
 msgid "Pre-defined melodies"
 msgstr "પહેલેથી નિર્ધારિત મેલોડીઝ"
 
-#: activities/piano_composition/Piano_composition.qml:453
+#: activities/piano_composition/Piano_composition.qml:455
 msgctxt "Piano_composition|"
 msgid "Your saved melodies"
 msgstr "તમારી સેવ કરેલી મેલોડીઝ"
 
-#: activities/piano_composition/Piano_composition.qml:557
+#: activities/piano_composition/Piano_composition.qml:559
 msgctxt "Piano_composition|"
 msgid ""
 "This activity requires sound, so it will play some sounds even if the audio "
@@ -22060,12 +22060,12 @@ msgstr ""
 "આ પ્રવૃત્તિ માટે અવાજ જરૂરી છે, તેથી મુખ્ય સેટિંગ્સમાં ઓડિયો અવાજ અથવા ઇફેક્ટ્સ બંધ હોવા છતાં "
 "પણ તે કેટલાક અવાજો વગાડશે."
 
-#: activities/piano_composition/Piano_composition.qml:558
+#: activities/piano_composition/Piano_composition.qml:560
 msgctxt "Piano_composition|"
 msgid "Quit"
 msgstr "બહાર નીકળો"
 
-#: activities/piano_composition/Piano_composition.qml:559
+#: activities/piano_composition/Piano_composition.qml:561
 msgctxt "Piano_composition|"
 msgid "Continue"
 msgstr "ચાલુ રાખો"
@@ -22450,7 +22450,7 @@ msgctxt "ActivityInfo|"
 msgid "Tab: Start or stop the metronome if it is visible"
 msgstr "ટેબ: જો મેટ્રોનોમ દૃશ્યમાન હોય તો તેને શરૂ અથવા બંધ કરો"
 
-#: activities/play_rhythm/PlayRhythm.qml:128
+#: activities/play_rhythm/PlayRhythm.qml:131
 msgctxt "PlayRhythm|"
 msgid ""
 "Use the metronome to estimate the time intervals and play the rhythm "
@@ -22458,7 +22458,7 @@ msgid ""
 msgstr ""
 "સમયના અંતરાલોનો અંદાજ કાઢવા અને રિધમને યોગ્ય રીતે વગાડવા માટે મેટ્રોનોમનો ઉપયોગ કરો."
 
-#: activities/play_rhythm/PlayRhythm.qml:129
+#: activities/play_rhythm/PlayRhythm.qml:132
 msgctxt "PlayRhythm|"
 msgid ""
 "Follow the vertical line and click on the drum or press space key to play "
@@ -22467,7 +22467,7 @@ msgstr ""
 "ઊભી લાઇનને અનુસરો અને રિધમને યોગ્ય રીતે વગાડવા માટે ડ્રમ પર ક્લિક કરો અથવા સ્પેસ કી "
 "દબાવો."
 
-#: activities/play_rhythm/PlayRhythm.qml:413
+#: activities/play_rhythm/PlayRhythm.qml:416
 msgctxt "PlayRhythm|"
 msgid ""
 "This activity requires sound, so it will play some sounds even if the audio "
@@ -22476,12 +22476,12 @@ msgstr ""
 "આ પ્રવૃત્તિ માટે અવાજ જરૂરી છે, તેથી મુખ્ય સેટિંગ્સમાં ઓડિયો અવાજ અથવા ઇફેક્ટ્સ બંધ હોવા છતાં "
 "પણ તે કેટલાક અવાજો વગાડશે."
 
-#: activities/play_rhythm/PlayRhythm.qml:414
+#: activities/play_rhythm/PlayRhythm.qml:417
 msgctxt "PlayRhythm|"
 msgid "Quit"
 msgstr "બહાર નીકળો"
 
-#: activities/play_rhythm/PlayRhythm.qml:415
+#: activities/play_rhythm/PlayRhythm.qml:418
 msgctxt "PlayRhythm|"
 msgid "Continue"
 msgstr "ચાલુ રાખો"

@@ -1,13 +1,13 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
-# SPDX-FileCopyrightText: 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026 Stefan Asserhäll <stefan.asserhall@gmail.com>
+# SPDX-FileCopyrightText: 2017-2026 Stefan Asserhäll <stefan.asserhall@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-04 00:40+0000\n"
-"PO-Revision-Date: 2026-01-20 20:38+0100\n"
+"PO-Revision-Date: 2026-07-07 22:12+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 25.12.1\n"
+"X-Generator: Lokalize 26.04.3\n"
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "adjacent_numbers"
 #: activities/adjacent_numbers/ActivityInfo.qml:17
@@ -334,10 +334,9 @@ msgstr "Välj rätt jämförelsetecken för varje par av tal i listan."
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "compass"
 #: activities/compass/ActivityInfo.qml:17
-#, fuzzy, kde-format
-#| msgid "Use the tools to draw images."
+#, kde-format
 msgid "Use the compass to draw."
-msgstr "Använd verktygen för att rita bilder."
+msgstr "Använd kompassen för att rita."
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "crane"
 #: activities/crane/ActivityInfo.qml:23
@@ -671,7 +670,7 @@ msgstr "Klicka på rätt musikinstrument."
 #: activities/keyboard_training/ActivityInfo.qml:17
 #, kde-format
 msgid "Find the requested character and type it on the keyboard."
-msgstr ""
+msgstr "Hitta det begärda tecknet och skriv det på tangentbordet."
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "land_safe"
 #: activities/land_safe/ActivityInfo.qml:18
@@ -1059,7 +1058,7 @@ msgstr "Använd pilarna för att flytta Tux längs vägen och nå målet."
 #: activities/peg_solitaire/ActivityInfo.qml:17
 #, kde-format
 msgid "Remove all the pieces in the correct order until only one remains."
-msgstr ""
+msgstr "Ta bort alla pjäser i rätt ordning tills bara en återstår."
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "penalty"
 #: activities/penalty/ActivityInfo.qml:18
