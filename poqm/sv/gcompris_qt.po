@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-07-07 22:27+0200\n"
+"PO-Revision-Date: 2026-07-08 08:59+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -5691,27 +5691,31 @@ msgid ""
 "inspiration from. In free mode, you can draw freely and adjust the canvas "
 "size and grid spacing as you want from the compass settings menu."
 msgstr ""
+"I malläget innehåller varje nivå en mall att kopiera eller hämta inspiration "
+"från. I fritt läge kan du rita fritt och justera arbetsytans storlek och "
+"rutnätsavstånd som du vill från kompassinställningsmenyn."
 
 #: activities/compass/ActivityInfo.qml:24
 msgctxt "ActivityInfo|"
 msgid "<br><b>Drawing with the compass:</b>"
-msgstr ""
+msgstr "<br><b>Ritar med kompassen:</b>"
 
 #: activities/compass/ActivityInfo.qml:25
 msgctxt "ActivityInfo|"
 msgid "Move the compass by dragging the leg without the pen."
-msgstr ""
+msgstr "Flytta kompassen genom att dra benet utan pennan."
 
 #: activities/compass/ActivityInfo.qml:26
 msgctxt "ActivityInfo|"
 msgid ""
 "Move the pen by dragging the other leg or the circle around the pen tip."
 msgstr ""
+"Flytta pennan genom att dra det andra benet eller cirkeln runt pennspetsen."
 
 #: activities/compass/ActivityInfo.qml:27
 msgctxt "ActivityInfo|"
 msgid "Rotate and draw by dragging the pen with the left mouse button."
-msgstr ""
+msgstr "Rotera och rita genom att dra pennan med vänster musknapp."
 
 #: activities/compass/ActivityInfo.qml:28
 msgctxt "ActivityInfo|"
@@ -5719,6 +5723,8 @@ msgid ""
 "Rotate without drawing by dragging the compass hinge, or by dragging the pen "
 "with the right mouse button."
 msgstr ""
+"Rotera utan att rita genom att dra i kompassgångjärnet, eller genom att dra "
+"pennan med höger musknapp."
 
 #: activities/compass/ActivityInfo.qml:29
 msgctxt "ActivityInfo|"
@@ -5726,6 +5732,8 @@ msgid ""
 "The snap to grid setting can be temporarily inverted by pressing the Control "
 "key."
 msgstr ""
+"Inställningen för att låsa till rutnät kan tillfälligt inverteras genom att "
+"trycka på Ctrl-tangenten."
 
 #: activities/compass/ActivityInfo.qml:30
 msgctxt "ActivityInfo|"
@@ -5738,13 +5746,15 @@ msgid ""
 "Each level in template mode presents a template to replicate or to get "
 "inspiration from."
 msgstr ""
+"Varje nivå i malläget presenterar en mall att kopiera eller hämta "
+"inspiration från."
 
 #: activities/compass/ActivityInfo.qml:32
 msgctxt "ActivityInfo|"
 msgid ""
 "Each template is divided into steps which can be scrolled through using the "
 "arrows."
-msgstr ""
+msgstr "Varje mall är indelad i steg som kan bläddras igenom med pilarna."
 
 #: activities/compass/ActivityInfo.qml:33
 msgctxt "ActivityInfo|"
@@ -5752,11 +5762,13 @@ msgid ""
 "Each step shows where to place the tip of the compass and the circle or arc "
 "to be drawn."
 msgstr ""
+"Varje steg visar var passarens spets och cirkeln eller bågen som ska ritas "
+"ska placeras."
 
 #: activities/compass/ActivityInfo.qml:34
 msgctxt "ActivityInfo|"
 msgid "You can change the position of the template by clicking on its corners."
-msgstr ""
+msgstr "Du kan ändra mallens position genom att klicka på dess hörn."
 
 #: activities/compass/ActivityInfo.qml:36
 #: activities/drawing_wheels/ActivityInfo.qml:29
@@ -5789,32 +5801,32 @@ msgstr "Ctrl + O: öppna en bild"
 #: activities/compass/ActivityInfo.qml:40
 msgctxt "ActivityInfo|"
 msgid "Ctrl: invert snap to grid while it is pressed"
-msgstr ""
+msgstr "Ctrl: invertera lås till rutnät medan den hålls nedtryckt"
 
 #: activities/compass/ActivityInfo.qml:41
 msgctxt "ActivityInfo|"
 msgid "P: open the pen panel"
-msgstr ""
+msgstr "P: visa pennpanelen"
 
 #: activities/compass/ActivityInfo.qml:42
 msgctxt "ActivityInfo|"
 msgid "Left arrow: previous template step"
-msgstr ""
+msgstr "Vänsterpil: föregående mallsteg"
 
 #: activities/compass/ActivityInfo.qml:43
 msgctxt "ActivityInfo|"
 msgid "Right arrow: next template step"
-msgstr ""
+msgstr "Högerpil: nästa mallsteg"
 
 #: activities/compass/ActivityInfo.qml:44
 msgctxt "ActivityInfo|"
 msgid "Tab: toggle the template visibility"
-msgstr ""
+msgstr "Tabulator: ändra mallens synlighet"
 
 #: activities/compass/ActivityInfo.qml:45
 msgctxt "ActivityInfo|"
 msgid "Space: toggle the compass and grid visibility"
-msgstr ""
+msgstr "Mellanslag: ändra passarens och rutnätets synlighet"
 
 #: activities/compass/compass.js:103
 msgctxt "compass|"
@@ -7117,6 +7129,16 @@ msgid ""
 "format), along with a PNG file (pixel format). Only the SVG file can be "
 "opened again from the activity."
 msgstr ""
+"Rita snygga teckningar genom att rulla drevet i kugghjulet med den valda "
+"pennan. Välj en hjulstorlek, en drevstorlek, penninställningar och färg från "
+"panelerna och tryck på uppspelningsknappen för att rulla drevet. På den "
+"första nivån är endast vissa specifika hjul- och drevstorlekskombinationer "
+"tillgängliga för att komma igång. På den andra nivån är alla "
+"storlekskombinationer tillgängliga för att ge mer kreativ frihet. Du kan "
+"använda arkivmenyn för att spara bilden, öppna en tidigare sparad bild eller "
+"skapa en ny bild med vald bakgrundsfärg. Om du sparar en bild sparas den i "
+"en SVG-fil (vektorformat) tillsammans med en PNG-fil (bildpunktsformat). Det "
+"går bara att öppnas SVG-filen igen från aktiviteten."
 
 #: activities/drawing_wheels/DrawingWheels.qml:406
 msgctxt "DrawingWheels|"
@@ -9514,6 +9536,10 @@ msgid ""
 "the colonizers massacred them for sport and to clear land, rather than to "
 "hunting by indigenous peoples."
 msgstr ""
+"Bisonoxar lever på Nordamerikas slätter, och jagades av indianerna för sitt "
+"kött. Deras nära utrotning beror dock på att kolonisatörerna massakrerade "
+"dem för sport och för att röja mark, snarare än på jakt av "
+"ursprungsbefolkningarna."
 
 #: activities/explore_world_animals/resource/board/board1.qml:63
 #: activities/explore_world_animals/resource/board/board1.qml:66
@@ -16075,6 +16101,14 @@ msgid ""
 "of the screen, it means your number is higher or lower than the number to "
 "find."
 msgstr ""
+"Läs instruktionerna som anger intervallet för talet du ska ta reda på. Ange "
+"ett tal i inmatningsrutan uppe till höger och tryck på knappen Ok för att "
+"bekräfta det. Du får veta om talet är större eller mindre än det du ska ta "
+"reda på. Försök sedan igen tills du har rätt svar. Avståndet mellan "
+"helikoptern och skärmens högra sida representerar hur långt du är från talet "
+"du ska ta reda på. Om helikoptern är ovanför eller under skärmens vertikala "
+"mittpunkt betyder det att talet är större eller mindre än det du ska ta reda "
+"på."
 
 #: activities/guessnumber/ActivityInfo.qml:25
 msgctxt "ActivityInfo|"
@@ -16800,7 +16834,7 @@ msgstr "Lär dig skriva på ett tangentbord."
 #: activities/keyboard_training/ActivityInfo.qml:23
 msgctxt "ActivityInfo|"
 msgid "A character is displayed. Find it on the keyboard and type it."
-msgstr ""
+msgstr "Ett tecken visas. Hitta det på tangentbordet och skriv in det."
 
 #. Activity title
 #: activities/land_safe/ActivityInfo.qml:15
@@ -22011,13 +22045,13 @@ msgstr "Relativ vägkodning"
 #: activities/peg_solitaire/ActivityConfig.qml:27
 msgctxt "ActivityConfig|"
 msgid "Use the default starting hole"
-msgstr ""
+msgstr "Använd det vanliga starthålet"
 
 #. Activity title
 #: activities/peg_solitaire/ActivityInfo.qml:14
 msgctxt "ActivityInfo|"
 msgid "Peg solitaire"
-msgstr ""
+msgstr "Solitär"
 
 #. Help title
 #: activities/peg_solitaire/ActivityInfo.qml:16
@@ -22038,24 +22072,33 @@ msgid ""
 "clicking on it. You can use the undo button to undo your last move, and the "
 "redo button to redo it."
 msgstr ""
+"För att flytta en pjäs, få den att hoppa över en annan i en ortogonal "
+"riktning, till ett hål två positioner bort. Den överhoppade pjäsen tas bort "
+"från brädet. Du kan klicka på en flyttbar pjäs och sedan på dess "
+"destination, eller dra och släppa den till dess destination. Spelet är över "
+"när ingen ytterligare pjäs kan flyttas, och du vinner om bara en pjäs "
+"återstår. Om alternativet att använda det vanliga starthålet inte är "
+"markerat måste du välja den första pjäsen att ta bort genom att klicka på "
+"den. Du kan använda knappen Ångra för att ångra det senaste draget och "
+"knappen Gör om för att göra om det."
 
 #. Board for the Peg solitaire game
 #: activities/peg_solitaire/peg_solitaire.js:28
 msgctxt "peg_solitaire|"
 msgid "English board"
-msgstr ""
+msgstr "Engelskt bräde"
 
 #. Board for the Peg solitaire game
 #: activities/peg_solitaire/peg_solitaire.js:44
 msgctxt "peg_solitaire|"
 msgid "French board"
-msgstr ""
+msgstr "Franskt bräde"
 
 #. Board for the Peg solitaire game
 #: activities/peg_solitaire/peg_solitaire.js:61
 msgctxt "peg_solitaire|"
 msgid "32 holes diamond board"
-msgstr ""
+msgstr "Rutformat bräde med 32 hål"
 
 #. Board for the Peg solitaire game
 #: activities/peg_solitaire/peg_solitaire.js:79
@@ -28034,6 +28077,8 @@ msgid ""
 "You are currently in a sequence, going back to the menu will cancel it, do "
 "you confirm?"
 msgstr ""
+"Du är just nu i en sekvens, om du går tillbaka till menyn avbryts den. "
+"Bekräftar du?"
 
 #: core/ActivityBase.qml:219
 msgctxt "ActivityBase|"
@@ -29027,7 +29072,7 @@ msgstr ""
 #: core/main.cpp:149
 msgctxt "QObject|"
 msgid "Start the sequence of activities passed in the json file."
-msgstr ""
+msgstr "Starta aktivitetssekvensen som skickats i json-filen."
 
 #: core/main.cpp:153
 msgctxt "QObject|"
@@ -29138,6 +29183,8 @@ msgid ""
 "The following activities do not have any active datasets! All of their "
 "datasets will be reactivated."
 msgstr ""
+"Följande aktiviteter har inga aktiva datauppsättningar. Alla deras "
+"datauppsättningar aktiveras igen."
 
 #: core/main.qml:550
 #, qt-format
