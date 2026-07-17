@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-05-22 12:02+0200\n"
+"PO-Revision-Date: 2026-07-16 16:25+0200\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -14852,24 +14852,20 @@ msgid "You found the number!"
 msgstr ""
 
 #: activities/guessnumber/Guessnumber.qml:116
-#, fuzzy, qt-format
-#| msgctxt "Data|"
-#| msgid "Decimal number to find between 0 and 4."
+#, qt-format
 msgctxt "Guessnumber|"
 msgid "Guess a number between %1 and %2."
-msgstr "Numero decimal a trovar inter 0 e 4."
+msgstr "Divina un numero inter %1 e %2."
 
 #: activities/guessnumber/resource/1/Data.qml:16
 #: activities/guessnumber/resource/2/Data.qml:14
 #: activities/guessnumber/resource/3/Data.qml:16
 #: activities/guessnumber/resource/4/Data.qml:16
 #: activities/guessnumber/resource/5/Data.qml:16
-#, fuzzy, qt-format
-#| msgctxt "Data|"
-#| msgid "Decimal number to find between 0 and 4."
+#, qt-format
 msgctxt "Data|"
 msgid "Guess a number between %1 and %2."
-msgstr "Numero decimal a trovar inter 0 e 4."
+msgstr "Divina un numero inter %1 e %2."
 
 #: activities/hangman/ActivityConfig.qml:42
 msgctxt "ActivityConfig|"

@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-05-22 12:06+0200\n"
+"PO-Revision-Date: 2026-07-16 16:28+0200\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -61,7 +61,7 @@ msgstr "Tegulas :"
 #: server/activities/adjacent_numbers/AdjacentNumbersDataDisplay.qml:60
 msgctxt "AdjacentNumbersDataDisplay|"
 msgid "Answer:"
-msgstr "Responde:"
+msgstr "Responsa:"
 
 #: server/activities/adjacent_numbers/AdjacentNumbersEditor.qml:28
 msgctxt "AdjacentNumbersEditor|"
@@ -156,7 +156,7 @@ msgstr "Responsa: %1"
 #: server/activities/algebra_by/AlgebraEditor.qml:25
 msgctxt "AlgebraEditor|"
 msgid "Rules to create a valid dataset:"
-msgstr ""
+msgstr "Regulas per crear un insimul de datos valide:"
 
 #: server/activities/algebra_by/AlgebraEditor.qml:27
 msgctxt "AlgebraEditor|"
@@ -538,41 +538,26 @@ msgid "%1 %"
 msgstr "%1 %"
 
 #: server/activities/enumerate/EnumerateDataDisplay.qml:59
-#, fuzzy
-#| msgctxt "AdjacentNumbersDataDisplay|"
-#| msgid "Answer:"
 msgctxt "EnumerateDataDisplay|"
 msgid "Answer:"
 msgstr "Responde:"
 
 #: server/activities/enumerate/EnumerateEditor.qml:27
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Sublevels"
 msgctxt "EnumerateEditor|"
 msgid "Sublevels"
 msgstr "Subnivellos"
 
 #: server/activities/enumerate/EnumerateEditor.qml:28
-#, fuzzy
-#| msgctxt "VerticalEditor|"
-#| msgid "Number of lines"
 msgctxt "EnumerateEditor|"
 msgid "Number of item types"
-msgstr "Numero de Lineas"
+msgstr "Numero de typos de elemento"
 
 #: server/activities/enumerate/EnumerateEditor.qml:29
-#, fuzzy
-#| msgctxt "ShareEditor|"
-#| msgid "Maximum number of candies"
 msgctxt "EnumerateEditor|"
 msgid "Maximum number per item type"
-msgstr "Maxime numero de bonbones"
+msgstr "Maxime numero per typo de elemento"
 
 #: server/activities/enumerate/EnumerateEditor.qml:70
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Dataset is empty."
 msgctxt "EnumerateEditor|"
 msgid "Dataset is empty."
 msgstr "Insimul de datos es vacue."
@@ -762,54 +747,36 @@ msgid "Number between %1 and %2."
 msgstr ""
 
 #: server/activities/guessnumber/GuessnumberDataDisplay.qml:50
-#, fuzzy
-#| msgctxt "ShareEditor|"
-#| msgid "Number of girls"
 msgctxt "GuessnumberDataDisplay|"
 msgid "Number to guess:"
-msgstr "Numero de pueras"
+msgstr "Numero a divinar:"
 
 #: server/activities/guessnumber/GuessnumberDataDisplay.qml:77
 msgctxt "GuessnumberDataDisplay|"
 msgid "Steps:"
-msgstr ""
+msgstr "Passos:"
 
 #: server/activities/guessnumber/GuessnumberEditor.qml:27
-#, fuzzy
-#| msgctxt "ReversecountEditor|"
-#| msgid "Maximum number"
 msgctxt "GuessnumberEditor|"
 msgid "Minimum number"
-msgstr "Maxime numero"
+msgstr "Numero minime"
 
 #: server/activities/guessnumber/GuessnumberEditor.qml:28
-#, fuzzy
-#| msgctxt "ReversecountEditor|"
-#| msgid "Maximum number"
 msgctxt "GuessnumberEditor|"
 msgid "Maximum number"
 msgstr "Maxime numero"
 
 #: server/activities/guessnumber/GuessnumberEditor.qml:90
-#, fuzzy
-#| msgctxt "AdjacentNumbersEditor|"
-#| msgid "Dataset is empty."
 msgctxt "GuessnumberEditor|"
 msgid "Dataset is empty."
 msgstr "Insimul de datos es vacue."
 
 #: server/activities/keyboard_training/KeyboardTrainingDataDisplay.qml:26
-#, fuzzy
-#| msgctxt "BinaryBulbDataDisplay|"
-#| msgid "Expected:"
 msgctxt "KeyboardTrainingDataDisplay|"
 msgid "Expected:"
 msgstr "Expectate:"
 
 #: server/activities/keyboard_training/KeyboardTrainingDataDisplay.qml:32
-#, fuzzy
-#| msgctxt "AdjacentNumbersDataDisplay|"
-#| msgid "Answer:"
 msgctxt "KeyboardTrainingDataDisplay|"
 msgid "Answer:"
 msgstr "Responde:"
@@ -1077,7 +1044,7 @@ msgstr "Duration: %1s"
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:29
 msgctxt "MagicHatEditor|"
 msgid "Rules to create a valid dataset:"
-msgstr ""
+msgstr "Regulas per crear un insimul de datos valide:"
 
 #: server/activities/magic-hat-minus/MagicHatEditor.qml:31
 msgctxt "MagicHatEditor|"
@@ -1397,7 +1364,7 @@ msgstr ""
 #: server/activities/reversecount/ReversecountEditor.qml:25
 msgctxt "ReversecountEditor|"
 msgid "Rules to create a valid dataset:"
-msgstr ""
+msgstr "Regulas per crear un insimul de datos valide:"
 
 #: server/activities/reversecount/ReversecountEditor.qml:27
 msgctxt "ReversecountEditor|"
@@ -1523,7 +1490,7 @@ msgstr ""
 #: server/activities/share/ShareEditor.qml:22
 msgctxt "ShareEditor|"
 msgid "Rules to create a valid dataset:"
-msgstr ""
+msgstr "Regulas per crear un insimul de datos valide:"
 
 #: server/activities/share/ShareEditor.qml:24
 msgctxt "ShareEditor|"
@@ -1648,7 +1615,7 @@ msgstr ""
 #: server/activities/smallnumbers/SmallnumbersEditor.qml:25
 msgctxt "SmallnumbersEditor|"
 msgid "Rules to create a valid dataset:"
-msgstr ""
+msgstr "Regulas per crear un insimul de datos valide:"
 
 #: server/activities/smallnumbers/SmallnumbersEditor.qml:27
 msgctxt "SmallnumbersEditor|"
@@ -1903,7 +1870,7 @@ msgstr ""
 #: server/activities/tens_complement_swap/TensComplementSwapEditor.qml:25
 msgctxt "TensComplementSwapEditor|"
 msgid "Rules to create a valid dataset:"
-msgstr ""
+msgstr "Regulas per crear un insimul de datos valide:"
 
 #: server/activities/tens_complement_swap/TensComplementSwapEditor.qml:27
 msgctxt "TensComplementSwapEditor|"
@@ -2460,7 +2427,7 @@ msgstr "Difficultate"
 #: server/dialogs/DatasetEditorDialog.qml:519
 msgctxt "DatasetEditorDialog|"
 msgid "Instructions"
-msgstr ""
+msgstr "Instructiones"
 
 #: server/dialogs/DatasetEditorDialog.qml:525
 msgctxt "DatasetEditorDialog|"
