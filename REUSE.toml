@@ -4511,6 +4511,12 @@ SPDX-FileCopyrightText = "2018 Aman Kumar Gupta"
 SPDX-License-Identifier = "GPL-3.0-or-later"
 
 [[annotations]]
+path = "src/activities/polygons/**.svg"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 Timothée Giet"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+[[annotations]]
 path = "src/activities/positions/**.svg"
 precedence = "aggregate"
 SPDX-FileCopyrightText = "2020 Timothée Giet"
