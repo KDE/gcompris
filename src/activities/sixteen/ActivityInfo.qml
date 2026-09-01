@@ -20,7 +20,10 @@ ActivityInfo {
   //: Help prerequisite
   prerequisite: ""
   //: Help manual
-  manual: qsTr("Click on an arrow to slide the corresponding row or column in this direction.")
+  manual: qsTr("Click on an arrow to slide the corresponding row or column in this direction.") + ("<br><br>") +
+  qsTr("<b>Keyboard controls:</b>") + ("<ul><li>") +
+  qsTr("Arrows: navigate to select arrow buttons.") + ("</li><li>") +
+  qsTr("Space or Enter: click on selected button.") + ("</li></ul>")
   credit: ""
   section: "discovery logic"
   createdInVersion: 270000
