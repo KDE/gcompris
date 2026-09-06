@@ -3,7 +3,7 @@
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
 #
-# SPDX-FileCopyrightText: 2025, 2026 Josep M. Ferrer <txemaq@gmail.com>
+# SPDX-FileCopyrightText: 2025-2026 Josep M. Ferrer <txemaq@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: gcompris\n"
@@ -1815,7 +1815,7 @@ msgid ""
 "should be in descending order."
 msgstr ""
 "«Valors de la diana» definix la puntuació de cada cercle de la diana, des "
-"del centre cap enfora. Només pot contindre nombres enters. Normalment tots "
+"del centre cap a fora. Només pot contindre nombres enters. Normalment tots "
 "els nombres han d'estar en ordre descendent."
 
 #: server/activities/target/TargetDataDisplay.qml:34
