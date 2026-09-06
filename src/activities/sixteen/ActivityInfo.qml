@@ -11,7 +11,7 @@ ActivityInfo {
   icon: "sixteen/sixteen.svg"
   author: "Johnny Jazeix &lt;jazeix@gmail.com&gt;"
   //: Activity title
-  title: qsTr("The sixteen game")
+  title: qsTr("The sixteen puzzle")
   //: Help title
   description: qsTr("Slide the rows and columns to recreate the image.")
   //intro: "Click on an arrow to slide the corresponding row or column in this direction. You must put all the pieces in the correct order. The numbers on the pieces can help you."
