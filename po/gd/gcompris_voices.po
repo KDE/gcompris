@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gcompris voices\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-04 00:40+0000\n"
+"POT-Creation-Date: 2026-09-08 00:40+0000\n"
 "PO-Revision-Date: 2017-05-27 14:21+0100\n"
 "Last-Translator: GunChleoc <fios@foramnagaidhlig.net>\n"
 "Language-Team: gd <kde-i18n-doc@kde.org>\n"
@@ -1245,6 +1245,18 @@ msgstr ""
 msgid ""
 "Select a color and paint the rectangles as you like to create a drawing."
 msgstr ""
+
+#. i18n: intro voices, see GCompris-voices/README.md - activity: "sixteen"
+#: activities/sixteen/ActivityInfo.qml:17
+#, fuzzy, kde-format
+msgid ""
+"Click on an arrow to slide the corresponding row or column in this "
+"direction. You must put all the pieces in the correct order. The numbers on "
+"the pieces can help you."
+msgstr ""
+"Briog air leacag ri taobh àite a tha bàn. Gluaisidh an leacag agus bidh a h-"
+"àite fhèin bàn an uairsin. Feumaidh tu a h-uile leacag a chur an òrdugh a-"
+"rèir nan àireamhan."
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "sketch"
 #: activities/sketch/ActivityInfo.qml:21

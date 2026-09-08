@@ -257,7 +257,7 @@ msgstr "您将看见不同颜色舞动的蝴蝶和一个问题。您必须找出
 #: activities/redraw_symmetrical/ActivityInfo.qml:25
 #: activities/roman_numerals/ActivityInfo.qml:25
 #: activities/simplepaint/ActivityInfo.qml:24
-#: activities/sketch/ActivityInfo.qml:27
+#: activities/sixteen/ActivityInfo.qml:24 activities/sketch/ActivityInfo.qml:27
 #: activities/smallnumbers/ActivityInfo.qml:25
 #: activities/smallnumbers2/ActivityInfo.qml:25
 #: activities/solar_system/ActivityInfo.qml:27
@@ -9612,8 +9612,11 @@ msgstr ""
 
 #. Activity title
 #: activities/fifteen/ActivityInfo.qml:15
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "The fifteen game"
 msgctxt "ActivityInfo|"
-msgid "The fifteen game"
+msgid "The fifteen puzzle"
 msgstr "十五格游戏"
 
 #. Help title
@@ -9625,6 +9628,7 @@ msgstr "移动每项重建图像。"
 #. Help goal
 #: activities/fifteen/ActivityInfo.qml:20
 #: activities/peg_solitaire/ActivityInfo.qml:19
+#: activities/sixteen/ActivityInfo.qml:19
 #: activities/traffic/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Develop anticipation and spatial visualization skills."
@@ -23766,6 +23770,47 @@ msgstr "选择一种颜色并为您喜欢的矩形上色，尝试着组合成一
 msgctxt "ActivityInfo|"
 msgid "Tab: switch between the color selector and the painting area"
 msgstr ""
+
+#. Activity title
+#: activities/sixteen/ActivityInfo.qml:14
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "The fifteen game"
+msgctxt "ActivityInfo|"
+msgid "The sixteen puzzle"
+msgstr "十五格游戏"
+
+#. Help title
+#: activities/sixteen/ActivityInfo.qml:16
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Move each item to recreate the image."
+msgctxt "ActivityInfo|"
+msgid "Slide the rows and columns to recreate the image."
+msgstr "移动每项重建图像。"
+
+#. Help manual
+#: activities/sixteen/ActivityInfo.qml:23
+msgctxt "ActivityInfo|"
+msgid ""
+"Click on an arrow to slide the corresponding row or column in this direction."
+msgstr ""
+
+#: activities/sixteen/ActivityInfo.qml:25
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Arrows: navigate through the answers"
+msgctxt "ActivityInfo|"
+msgid "Arrows: navigate to select arrow buttons."
+msgstr "箭头：浏览答案"
+
+#: activities/sixteen/ActivityInfo.qml:26
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Space or Enter: select"
+msgctxt "ActivityInfo|"
+msgid "Space or Enter: click on selected button."
+msgstr "空格键或回车键：选择"
 
 #. Activity title
 #: activities/sketch/ActivityInfo.qml:18

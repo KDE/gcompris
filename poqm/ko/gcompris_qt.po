@@ -277,7 +277,7 @@ msgstr ""
 #: activities/redraw_symmetrical/ActivityInfo.qml:25
 #: activities/roman_numerals/ActivityInfo.qml:25
 #: activities/simplepaint/ActivityInfo.qml:24
-#: activities/sketch/ActivityInfo.qml:27
+#: activities/sixteen/ActivityInfo.qml:24 activities/sketch/ActivityInfo.qml:27
 #: activities/smallnumbers/ActivityInfo.qml:25
 #: activities/smallnumbers2/ActivityInfo.qml:25
 #: activities/solar_system/ActivityInfo.qml:27
@@ -9349,9 +9349,12 @@ msgstr ""
 
 #. Activity title
 #: activities/fifteen/ActivityInfo.qml:15
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "A sliding-block puzzle game"
 msgctxt "ActivityInfo|"
-msgid "The fifteen game"
-msgstr ""
+msgid "The fifteen puzzle"
+msgstr "미는 블록 퍼즐 게임"
 
 #. Help title
 #: activities/fifteen/ActivityInfo.qml:17
@@ -9362,6 +9365,7 @@ msgstr ""
 #. Help goal
 #: activities/fifteen/ActivityInfo.qml:20
 #: activities/peg_solitaire/ActivityInfo.qml:19
+#: activities/sixteen/ActivityInfo.qml:19
 #: activities/traffic/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Develop anticipation and spatial visualization skills."
@@ -24315,6 +24319,38 @@ msgstr ""
 #: activities/simplepaint/ActivityInfo.qml:27
 msgctxt "ActivityInfo|"
 msgid "Tab: switch between the color selector and the painting area"
+msgstr ""
+
+#. Activity title
+#: activities/sixteen/ActivityInfo.qml:14
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "A sliding-block puzzle game"
+msgctxt "ActivityInfo|"
+msgid "The sixteen puzzle"
+msgstr "미는 블록 퍼즐 게임"
+
+#. Help title
+#: activities/sixteen/ActivityInfo.qml:16
+msgctxt "ActivityInfo|"
+msgid "Slide the rows and columns to recreate the image."
+msgstr ""
+
+#. Help manual
+#: activities/sixteen/ActivityInfo.qml:23
+msgctxt "ActivityInfo|"
+msgid ""
+"Click on an arrow to slide the corresponding row or column in this direction."
+msgstr ""
+
+#: activities/sixteen/ActivityInfo.qml:25
+msgctxt "ActivityInfo|"
+msgid "Arrows: navigate to select arrow buttons."
+msgstr ""
+
+#: activities/sixteen/ActivityInfo.qml:26
+msgctxt "ActivityInfo|"
+msgid "Space or Enter: click on selected button."
 msgstr ""
 
 #. Activity title

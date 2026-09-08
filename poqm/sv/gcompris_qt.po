@@ -262,7 +262,7 @@ msgstr ""
 #: activities/redraw_symmetrical/ActivityInfo.qml:25
 #: activities/roman_numerals/ActivityInfo.qml:25
 #: activities/simplepaint/ActivityInfo.qml:24
-#: activities/sketch/ActivityInfo.qml:27
+#: activities/sixteen/ActivityInfo.qml:24 activities/sketch/ActivityInfo.qml:27
 #: activities/smallnumbers/ActivityInfo.qml:25
 #: activities/smallnumbers2/ActivityInfo.qml:25
 #: activities/solar_system/ActivityInfo.qml:27
@@ -10223,8 +10223,11 @@ msgstr ""
 
 #. Activity title
 #: activities/fifteen/ActivityInfo.qml:15
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "The fifteen game"
 msgctxt "ActivityInfo|"
-msgid "The fifteen game"
+msgid "The fifteen puzzle"
 msgstr "Femtonspelet"
 
 #. Help title
@@ -10236,6 +10239,7 @@ msgstr "Flytta varje bricka för att återskapa bilden."
 #. Help goal
 #: activities/fifteen/ActivityInfo.qml:20
 #: activities/peg_solitaire/ActivityInfo.qml:19
+#: activities/sixteen/ActivityInfo.qml:19
 #: activities/traffic/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Develop anticipation and spatial visualization skills."
@@ -25200,6 +25204,47 @@ msgid "Tab: switch between the color selector and the painting area"
 msgstr "Tabulator: byt mellan färgväljaren och målarområdet"
 
 #. Activity title
+#: activities/sixteen/ActivityInfo.qml:14
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "The fifteen game"
+msgctxt "ActivityInfo|"
+msgid "The sixteen puzzle"
+msgstr "Femtonspelet"
+
+#. Help title
+#: activities/sixteen/ActivityInfo.qml:16
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Move each item to recreate the image."
+msgctxt "ActivityInfo|"
+msgid "Slide the rows and columns to recreate the image."
+msgstr "Flytta varje bricka för att återskapa bilden."
+
+#. Help manual
+#: activities/sixteen/ActivityInfo.qml:23
+msgctxt "ActivityInfo|"
+msgid ""
+"Click on an arrow to slide the corresponding row or column in this direction."
+msgstr ""
+
+#: activities/sixteen/ActivityInfo.qml:25
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Arrows: navigate inside selected area"
+msgctxt "ActivityInfo|"
+msgid "Arrows: navigate to select arrow buttons."
+msgstr "Pilar: Navigera inne i markerad area"
+
+#: activities/sixteen/ActivityInfo.qml:26
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Space or Enter: flip the selected card"
+msgctxt "ActivityInfo|"
+msgid "Space or Enter: click on selected button."
+msgstr "Mellanslag eller Enter: vänd det valda kortet"
+
+#. Activity title
 #: activities/sketch/ActivityInfo.qml:18
 msgctxt "ActivityInfo|"
 msgid "Sketch"
@@ -30283,10 +30328,6 @@ msgstr "Starta"
 #~ msgctxt "ActivityInfo|"
 #~ msgid "Drawing by Stephane Cabaraux."
 #~ msgstr "Teckning av Stephane Cabaraux."
-
-#~ msgctxt "ActivityInfo|"
-#~ msgid "Arrows: navigate inside selected area"
-#~ msgstr "Pilar: Navigera inne i markerad area"
 
 #~ msgctxt "ProgrammingMaze|"
 #~ msgid ""

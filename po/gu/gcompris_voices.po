@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gcompris\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-04 00:40+0000\n"
+"POT-Creation-Date: 2026-09-08 00:40+0000\n"
 "PO-Revision-Date: 2026-04-18 16:34+0530\n"
 "Last-Translator: Samyak Vidhan <crazycourt651@gmail.com>\n"
 "Language-Team: gu\n"
@@ -1158,6 +1158,22 @@ msgstr "બાળકોની નિર્દિષ્ટ સંખ્યા વ
 msgid ""
 "Select a color and paint the rectangles as you like to create a drawing."
 msgstr "એક રંગ પસંદ કરો અને ડ્રોઇંગ બનાવવા માટે તમને ગમે તેમ લંબચોરસને રંગો."
+
+#. i18n: intro voices, see GCompris-voices/README.md - activity: "sixteen"
+#: activities/sixteen/ActivityInfo.qml:17
+#, fuzzy, kde-format
+#| msgid ""
+#| "Click or drag an element next to a free space, the element will move and "
+#| "release its space. You must put all the pieces in the correct order. The "
+#| "numbers on the pieces can help you."
+msgid ""
+"Click on an arrow to slide the corresponding row or column in this "
+"direction. You must put all the pieces in the correct order. The numbers on "
+"the pieces can help you."
+msgstr ""
+"કોઈ તત્વ પર ક્લિક કરો અથવા તેને ખાલી જગ્યાની બાજુમાં ખેંચો, તે તત્વ ખસશે અને તેની જગ્યા "
+"ખાલી કરશે. તમારે બધા ટુકડાઓને યોગ્ય ક્રમમાં ગોઠવવા પડશે. ટુકડાઓ પરના નંબરો તમને મદદ કરી "
+"શકે છે."
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "sketch"
 #: activities/sketch/ActivityInfo.qml:21
