@@ -33,6 +33,10 @@ QtObject {
                 ],
                 "newDatasets": ["magic-hat-minus", "magic-hat-plus"]
             },
+            { "versionCode": 260200, "content": [
+                qsTr("Many bug fixes")
+                ]
+            },
             { "versionCode": 260100, "content": [
                 qsTr("Many bug fixes")
                 ]
