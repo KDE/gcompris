@@ -26,6 +26,10 @@ QtObject {
      *
      */
     property var changelog: [
+            { "versionCode": 260200, "content": [
+                qsTr("Many bug fixes")
+                ]
+            },
             { "versionCode": 260100, "content": [
                 qsTr("Many bug fixes")
                 ]
