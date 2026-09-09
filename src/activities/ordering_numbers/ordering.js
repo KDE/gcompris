@@ -14,7 +14,6 @@
 .import core 1.0 as GCompris
 .import "../../core/core.js" as Core
 
-
 var items
 var mode
 
@@ -96,6 +95,7 @@ function initGrids() {
     for(var i = 0;i < num.length; i++) {
         items.originListModel.append({
             "elementValue" : num[i].toString(),
+            "displayValue" : mode === "numbers" ? Core.convertNumberToLocaleString(num[i], GCompris.ApplicationInfo.localeShort, 'f', -1) : num[i].toString(),
             "borderColor" : "#808080"
         })
     }
@@ -145,9 +145,6 @@ function generateNumbers() {
         num.reverse();
 
     originalArrangement = num.slice();
-
-
-
 
     num = Core.shuffle(num)
 }
@@ -202,6 +199,7 @@ function moveFromTargetList(from_, to_, n_) {
 function dropElement(element_, fromListName_) {
     var modelObj = {
         "elementValue" : element_.elementValue,
+        "displayValue" : element_.displayValue,
         "borderColor" : "#808080"
     }
     if(fromListName_ === "target") {

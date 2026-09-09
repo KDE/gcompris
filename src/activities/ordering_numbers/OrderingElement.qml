@@ -27,6 +27,7 @@ Item {
     // set for each element in the model
     required property color borderColor
     required property string elementValue
+    required property string displayValue
 
     property bool orderingElementIsEntered
 
@@ -84,6 +85,7 @@ Item {
             property int index: orderingElement.index
             property string mode: orderingElement.mode
             property string elementValue: orderingElement.elementValue
+            property string displayValue: orderingElement.displayValue
 
             width: (mode === 'chronology') ? 100 * ApplicationInfo.ratio :
                 Math.max(elementCaption.width + 2 * GCStyle.baseMargins, 65 * ApplicationInfo.ratio)
@@ -109,7 +111,7 @@ Item {
                 color: GCStyle.darkText
                 verticalAlignment: Text.AlignVCenter
                 horizontalAlignment: Text.AlignHCenter
-                text: (mode === 'chronology') ? "" : orderingElement.elementValue
+                text: (mode === 'chronology') ? "" : orderingElement.displayValue
             }
             Image {
                 source: (mode === 'chronology') ? orderingElement.elementValue : ""
