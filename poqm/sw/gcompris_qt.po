@@ -22794,37 +22794,37 @@ msgctxt "piano_composition|"
 msgid "Melody saved to your file (%1)"
 msgstr "Melody imehifadhiwa kwenye faili yako (%1)"
 
-#: activities/piano_composition/Piano_composition.qml:369
+#: activities/piano_composition/Piano_composition.qml:371
 msgctxt "Piano_composition|"
 msgid "You have not selected any note. Do you want to erase all the notes?"
 msgstr "Hujachagua dokezo lolote. Je, ungependa kufuta madokezo yote?"
 
-#: activities/piano_composition/Piano_composition.qml:370
+#: activities/piano_composition/Piano_composition.qml:372
 msgctxt "Piano_composition|"
 msgid "Yes"
 msgstr "Ndiyo"
 
-#: activities/piano_composition/Piano_composition.qml:376
+#: activities/piano_composition/Piano_composition.qml:378
 msgctxt "Piano_composition|"
 msgid "No"
 msgstr "Hapana"
 
-#: activities/piano_composition/Piano_composition.qml:423
+#: activities/piano_composition/Piano_composition.qml:425
 msgctxt "Piano_composition|"
 msgid "Select the type of melody to load."
 msgstr "Chagua aina ya wimbo wa kupakia."
 
-#: activities/piano_composition/Piano_composition.qml:428
+#: activities/piano_composition/Piano_composition.qml:430
 msgctxt "Piano_composition|"
 msgid "Pre-defined melodies"
 msgstr "Nyimbo zilizofafanuliwa mapema"
 
-#: activities/piano_composition/Piano_composition.qml:446
+#: activities/piano_composition/Piano_composition.qml:448
 msgctxt "Piano_composition|"
 msgid "Your saved melodies"
 msgstr "Nyimbo zako ulizohifadhi"
 
-#: activities/piano_composition/Piano_composition.qml:550
+#: activities/piano_composition/Piano_composition.qml:552
 msgctxt "Piano_composition|"
 msgid ""
 "This activity requires sound, so it will play some sounds even if the audio "
@@ -22833,12 +22833,12 @@ msgstr ""
 "Shughuli hii inahitaji sauti, kwa hivyo itacheza baadhi ya sauti hata kama "
 "sauti au madoido yamezimwa katika usanidi mkuu."
 
-#: activities/piano_composition/Piano_composition.qml:551
+#: activities/piano_composition/Piano_composition.qml:553
 msgctxt "Piano_composition|"
 msgid "Quit"
 msgstr "Toka"
 
-#: activities/piano_composition/Piano_composition.qml:552
+#: activities/piano_composition/Piano_composition.qml:554
 msgctxt "Piano_composition|"
 msgid "Continue"
 msgstr "Endelea"
@@ -23245,7 +23245,7 @@ msgctxt "ActivityInfo|"
 msgid "Tab: Start or stop the metronome if it is visible"
 msgstr "Tab: Anzisha au usimamishe metronome ikiwa inaonekana"
 
-#: activities/play_rhythm/PlayRhythm.qml:121
+#: activities/play_rhythm/PlayRhythm.qml:124
 msgctxt "PlayRhythm|"
 msgid ""
 "Use the metronome to estimate the time intervals and play the rhythm "
@@ -23253,7 +23253,7 @@ msgid ""
 msgstr ""
 "Tumia metronome kukadiria vipindi vya saa na ucheze mdundo kwa usahihi."
 
-#: activities/play_rhythm/PlayRhythm.qml:122
+#: activities/play_rhythm/PlayRhythm.qml:125
 msgctxt "PlayRhythm|"
 msgid ""
 "Follow the vertical line and click on the drum or press space key to play "
@@ -23262,7 +23262,7 @@ msgstr ""
 "Fuata mstari wa wima na ubofye kwenye ngoma au ubonyeze kitufe cha nafasi "
 "ili kucheza mdundo kwa usahihi."
 
-#: activities/play_rhythm/PlayRhythm.qml:406
+#: activities/play_rhythm/PlayRhythm.qml:409
 msgctxt "PlayRhythm|"
 msgid ""
 "This activity requires sound, so it will play some sounds even if the audio "
@@ -23271,12 +23271,12 @@ msgstr ""
 "Shughuli hii inahitaji sauti, kwa hivyo itacheza baadhi ya sauti hata kama "
 "sauti au madoido yamezimwa katika usanidi mkuu."
 
-#: activities/play_rhythm/PlayRhythm.qml:407
+#: activities/play_rhythm/PlayRhythm.qml:410
 msgctxt "PlayRhythm|"
 msgid "Quit"
 msgstr "Toka"
 
-#: activities/play_rhythm/PlayRhythm.qml:408
+#: activities/play_rhythm/PlayRhythm.qml:411
 msgctxt "PlayRhythm|"
 msgid "Continue"
 msgstr "Endelea"
@@ -25522,60 +25522,6 @@ msgctxt "BrushToolPanel|"
 msgid "Drawing Tools"
 msgstr ""
 
-#: activities/sketch/ColorSelector.qml:78
-#, fuzzy
-#| msgctxt "ColorMix|"
-#| msgid "Match the color"
-msgctxt "ColorSelector|"
-msgid "Palette Colors"
-msgstr "Linganisha rangi"
-
-#: activities/sketch/ColorSelector.qml:162
-msgctxt "ColorSelector|"
-msgid "Reset palette"
-msgstr ""
-
-#: activities/sketch/ColorSelector.qml:214
-#, fuzzy
-#| msgctxt "ActivityConfig|"
-#| msgid "Selected"
-msgctxt "ColorSelector|"
-msgid "Selected Color"
-msgstr "Imechaguliwa"
-
-#. Color hue
-#: activities/sketch/ColorSelector.qml:239
-#, fuzzy
-#| msgctxt "board14_0|"
-#| msgid "Hubei"
-msgctxt "ColorSelector|color hue"
-msgid "Hue"
-msgstr "Hubei"
-
-#. Color saturation
-#: activities/sketch/ColorSelector.qml:267
-#, fuzzy
-#| msgctxt "Dataset|"
-#| msgid "Saturn"
-msgctxt "ColorSelector|color saturation"
-msgid "Saturation"
-msgstr "Zohali"
-
-#. Color lightness
-#: activities/sketch/ColorSelector.qml:293
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Lights off"
-msgctxt "ColorSelector|color lightness"
-msgid "Lightness"
-msgstr "Taa zimezimwa"
-
-#. Reload default color for selected slot
-#: activities/sketch/ColorSelector.qml:329
-msgctxt "ColorSelector|"
-msgid "Reset Color"
-msgstr ""
-
 #: activities/sketch/FilesPanel.qml:35
 #, fuzzy
 #| msgctxt "ActivityConfig|"
@@ -27675,30 +27621,33 @@ msgstr ""
 "dart. Wakati mishale yako yote inatupwa, unaulizwa kuhesabu alama zako. "
 "Ingiza alama na kibodi."
 
-#: activities/target/resource/1/Data.qml:13
+#: activities/target/resource/1/Data.qml:14
 msgctxt "Data|"
 msgid "Maximum value: 10."
 msgstr "Thamani ya juu zaidi: 10."
 
-#: activities/target/resource/2/Data.qml:13
+#: activities/target/resource/2/Data.qml:14
 msgctxt "Data|"
 msgid "Maximum value: 50."
 msgstr "Thamani ya juu zaidi: 50."
 
-#: activities/target/resource/3/Data.qml:13
+#: activities/target/resource/3/Data.qml:14
 msgctxt "Data|"
 msgid "Maximum value: 500."
 msgstr "Thamani ya juu zaidi: 500."
 
-#: activities/target/resource/4/Data.qml:13
+#: activities/target/resource/4/Data.qml:14
+#, fuzzy
+#| msgctxt "Data|"
+#| msgid "Maximum value: 50000."
+msgctxt "Data|"
+msgid "Maximum value: 5000."
+msgstr "Thamani ya juu zaidi: 5000."
+
+#: activities/target/resource/5/Data.qml:14
 msgctxt "Data|"
 msgid "Maximum value: 50000."
 msgstr "Thamani ya juu zaidi: 5000."
-
-#: activities/target/resource/5/Data.qml:13
-msgctxt "Data|"
-msgid "Maximum value: 500000."
-msgstr "Thamani ya juu zaidi: 50000."
 
 #. Activity title
 #: activities/tens_complement_calculate/ActivityInfo.qml:14
@@ -28578,16 +28527,16 @@ msgctxt "ActivityInfo|"
 msgid "Type the complete word as it falls, before it reaches the ground."
 msgstr "Andika neno kamili linapoanguka, kabla halijafika chini."
 
-#: core/ChangeLog.qml:30 core/ChangeLog.qml:38 core/ChangeLog.qml:44
-#: core/ChangeLog.qml:51 core/ChangeLog.qml:59 core/ChangeLog.qml:65
-#: core/ChangeLog.qml:70 core/ChangeLog.qml:77 core/ChangeLog.qml:86
-#: core/ChangeLog.qml:93 core/ChangeLog.qml:106 core/ChangeLog.qml:144
-#: core/ChangeLog.qml:150
+#: core/ChangeLog.qml:30 core/ChangeLog.qml:34 core/ChangeLog.qml:42
+#: core/ChangeLog.qml:48 core/ChangeLog.qml:55 core/ChangeLog.qml:63
+#: core/ChangeLog.qml:69 core/ChangeLog.qml:74 core/ChangeLog.qml:81
+#: core/ChangeLog.qml:90 core/ChangeLog.qml:97 core/ChangeLog.qml:110
+#: core/ChangeLog.qml:148 core/ChangeLog.qml:154
 msgctxt "ChangeLog|"
 msgid "Many bug fixes"
 msgstr "Marekebisho mengi ya hitilafu"
 
-#: core/ChangeLog.qml:34
+#: core/ChangeLog.qml:38
 #, fuzzy
 #| msgctxt "ChangeLog|"
 #| msgid "Translation added for Azerbaijani"
@@ -28595,7 +28544,7 @@ msgctxt "ChangeLog|"
 msgid "Translation added for Kannada and Tamil"
 msgstr "Tafsiri imeongezwa kwa Kiazabajani"
 
-#: core/ChangeLog.qml:35
+#: core/ChangeLog.qml:39
 #, fuzzy
 #| msgctxt "ChangeLog|"
 #| msgid ""
@@ -28607,22 +28556,22 @@ msgstr ""
 "Chaguo jipya la mstari wa amri kuorodhesha shughuli zote na kuanza kwenye "
 "maalum"
 
-#: core/ChangeLog.qml:36
+#: core/ChangeLog.qml:40
 msgctxt "ChangeLog|"
 msgid ""
 "New command-line option to show/hide the Home button (--hide-home-button/--"
 "show-home-button)"
 msgstr ""
 
-#: core/ChangeLog.qml:37 core/ChangeLog.qml:43 core/ChangeLog.qml:49
-#: core/ChangeLog.qml:58 core/ChangeLog.qml:64 core/ChangeLog.qml:69
-#: core/ChangeLog.qml:75 core/ChangeLog.qml:104 core/ChangeLog.qml:139
-#: core/ChangeLog.qml:142 core/ChangeLog.qml:148
+#: core/ChangeLog.qml:41 core/ChangeLog.qml:47 core/ChangeLog.qml:53
+#: core/ChangeLog.qml:62 core/ChangeLog.qml:68 core/ChangeLog.qml:73
+#: core/ChangeLog.qml:79 core/ChangeLog.qml:108 core/ChangeLog.qml:143
+#: core/ChangeLog.qml:146 core/ChangeLog.qml:152
 msgctxt "ChangeLog|"
 msgid "Many usability improvements"
 msgstr "Maboresho mengi ya utumiaji"
 
-#: core/ChangeLog.qml:48
+#: core/ChangeLog.qml:52
 #, fuzzy
 #| msgctxt "ChangeLog|"
 #| msgid "Translation added for Azerbaijani"
@@ -28630,26 +28579,26 @@ msgctxt "ChangeLog|"
 msgid "Translation added for Sanskrit"
 msgstr "Tafsiri imeongezwa kwa Kiazabajani"
 
-#: core/ChangeLog.qml:50 core/ChangeLog.qml:76 core/ChangeLog.qml:85
-#: core/ChangeLog.qml:92 core/ChangeLog.qml:105 core/ChangeLog.qml:123
-#: core/ChangeLog.qml:138 core/ChangeLog.qml:143 core/ChangeLog.qml:149
+#: core/ChangeLog.qml:54 core/ChangeLog.qml:80 core/ChangeLog.qml:89
+#: core/ChangeLog.qml:96 core/ChangeLog.qml:109 core/ChangeLog.qml:127
+#: core/ChangeLog.qml:142 core/ChangeLog.qml:147 core/ChangeLog.qml:153
 msgctxt "ChangeLog|"
 msgid "Many new images"
 msgstr "Picha nyingi mpya"
 
-#: core/ChangeLog.qml:52
+#: core/ChangeLog.qml:56
 msgctxt "ChangeLog|"
 msgid ""
 "Automatic application of new language when changing it in the menu (no need "
 "to restart GCompris)"
 msgstr ""
 
-#: core/ChangeLog.qml:53
+#: core/ChangeLog.qml:57
 msgctxt "ChangeLog|"
 msgid "Add splash screen at startup"
 msgstr ""
 
-#: core/ChangeLog.qml:54
+#: core/ChangeLog.qml:58
 #, fuzzy
 #| msgctxt "ChangeLog|"
 #| msgid ""
@@ -28661,7 +28610,7 @@ msgstr ""
 "Chaguo jipya la mstari wa amri kuorodhesha shughuli zote na kuanza kwenye "
 "maalum"
 
-#: core/ChangeLog.qml:63
+#: core/ChangeLog.qml:67
 #, fuzzy
 #| msgctxt "ChangeLog|"
 #| msgid "Translation added for Azerbaijani"
@@ -28669,12 +28618,12 @@ msgctxt "ChangeLog|"
 msgid "Translation added for Latvian"
 msgstr "Tafsiri imeongezwa kwa Kiazabajani"
 
-#: core/ChangeLog.qml:74
+#: core/ChangeLog.qml:78
 msgctxt "ChangeLog|"
 msgid "Translations added for Bulgarian, Galician and Swahili"
 msgstr "Tafsiri zimeongezwa kwa Kibulgaria, Kigalisia na Kiswahili"
 
-#: core/ChangeLog.qml:78
+#: core/ChangeLog.qml:82
 msgctxt "ChangeLog|"
 msgid ""
 "New command-line option to directly start an activity at a specific level (--"
@@ -28683,17 +28632,17 @@ msgstr ""
 "Chaguo jipya la mstari wa amri ili kuanzisha shughuli moja kwa moja katika "
 "kiwango maalum (--start-level level, itatumika na --launch shughuli)"
 
-#: core/ChangeLog.qml:83
+#: core/ChangeLog.qml:87
 msgctxt "ChangeLog|"
 msgid "Translations added for Arabic and Esperanto"
 msgstr "Tafsiri zimeongezwa kwa Kiarabu na Kiesperanto"
 
-#: core/ChangeLog.qml:84 core/ChangeLog.qml:91
+#: core/ChangeLog.qml:88 core/ChangeLog.qml:95
 msgctxt "ChangeLog|"
 msgid "Many translation updates"
 msgstr "Sasisho nyingi za tafsiri"
 
-#: core/ChangeLog.qml:90
+#: core/ChangeLog.qml:94
 msgctxt "ChangeLog|"
 msgid ""
 "New command-line option (--difficulty {value|min-max}) to start GCompris at "
@@ -28702,22 +28651,22 @@ msgstr ""
 "Chaguo jipya la mstari wa amri (--difficulty {value|min-max}) ili kuanzisha "
 "GCompris kwa ugumu mahususi"
 
-#: core/ChangeLog.qml:97
+#: core/ChangeLog.qml:101
 msgctxt "ChangeLog|"
 msgid "Fix issue in comparator activity"
 msgstr "Rekebisha suala katika shughuli ya kulinganisha"
 
-#: core/ChangeLog.qml:101
+#: core/ChangeLog.qml:105
 msgctxt "ChangeLog|"
 msgid "Map of Spain added for geography activity"
 msgstr "Ramani ya Uhispania imeongezwa kwa shughuli za jiografia"
 
-#: core/ChangeLog.qml:102
+#: core/ChangeLog.qml:106
 msgctxt "ChangeLog|"
 msgid "Voices added for Ukrainian"
 msgstr "Sauti zimeongezwa kwa Kiukreni"
 
-#: core/ChangeLog.qml:103
+#: core/ChangeLog.qml:107
 msgctxt "ChangeLog|"
 msgid ""
 "New command-line option to list all the activities and start on a specific "
@@ -28726,7 +28675,7 @@ msgstr ""
 "Chaguo jipya la mstari wa amri kuorodhesha shughuli zote na kuanza kwenye "
 "maalum"
 
-#: core/ChangeLog.qml:110
+#: core/ChangeLog.qml:114
 msgctxt "ChangeLog|"
 msgid ""
 "Reduce the size of the packages for all platforms and of the external word "
@@ -28735,31 +28684,31 @@ msgstr ""
 "Punguza saizi ya vifurushi kwa mifumo yote na ya seti za picha za maneno za "
 "nje"
 
-#: core/ChangeLog.qml:111
+#: core/ChangeLog.qml:115
 msgctxt "ChangeLog|"
 msgid "Improve images quality in several activities"
 msgstr "Boresha ubora wa picha katika shughuli kadhaa"
 
-#: core/ChangeLog.qml:112
+#: core/ChangeLog.qml:116
 msgctxt "ChangeLog|"
 msgid "Fix some transitions in renewable_energy/watercycle on some platforms"
 msgstr ""
 "Rekebisha baadhi ya mabadiliko katika nishati mbadala/mzunguko wa maji "
 "kwenye baadhi ya mifumo"
 
-#: core/ChangeLog.qml:113
+#: core/ChangeLog.qml:117
 msgctxt "ChangeLog|"
 msgid "Fix dead keys ignored on Linux for typing activities"
 msgstr "Rekebisha vitufe vilivyopuuzwa kwenye Linux kwa shughuli za kuandika"
 
-#: core/ChangeLog.qml:114
+#: core/ChangeLog.qml:118
 msgctxt "ChangeLog|"
 msgid "Fix level reset when changing level manually in Logical associations"
 msgstr ""
 "Rekebisha uwekaji upya kiwango unapobadilisha kiwango wewe mwenyewe katika "
 "Uhusiano wa Mantiki"
 
-#: core/ChangeLog.qml:118
+#: core/ChangeLog.qml:122
 msgctxt "ChangeLog|"
 msgid ""
 "Fix Alphabet sequence, Even and odd numbers and Numbers in order activities"
@@ -28767,37 +28716,37 @@ msgstr ""
 "Rekebisha mlolongo wa Alfabeti, nambari na Nambari sawa na zisizo za kawaida "
 "katika shughuli za mpangilio"
 
-#: core/ChangeLog.qml:122 core/ChangeLog.qml:130
+#: core/ChangeLog.qml:126 core/ChangeLog.qml:134
 msgctxt "ChangeLog|"
 msgid "Several bug fixes"
 msgstr "Marekebisho kadhaa ya hitilafu"
 
-#: core/ChangeLog.qml:124
+#: core/ChangeLog.qml:128
 msgctxt "ChangeLog|"
 msgid "Translation updated for Russian"
 msgstr "Tafsiri imesasishwa kwa Kirusi"
 
-#: core/ChangeLog.qml:125
+#: core/ChangeLog.qml:129
 msgctxt "ChangeLog|"
 msgid "New voices for Norwegian Nynorsk"
 msgstr "Sauti mpya za Kinorwe Kipya"
 
-#: core/ChangeLog.qml:129
+#: core/ChangeLog.qml:133
 msgctxt "ChangeLog|"
 msgid "Translations added for Breton, Czech and Macedonian"
 msgstr "Tafsiri zimeongezwa kwa Kibretoni, Kicheki na Kimasedonia"
 
-#: core/ChangeLog.qml:134
+#: core/ChangeLog.qml:138
 msgctxt "ChangeLog|"
 msgid "Translation added for Azerbaijani"
 msgstr "Tafsiri imeongezwa kwa Kiazabajani"
 
-#: core/ChangeLog.qml:135
+#: core/ChangeLog.qml:139
 msgctxt "ChangeLog|"
 msgid "New maps and update of the maps for geography activities"
 msgstr "Ramani mpya na sasisho la ramani za shughuli za jiografia"
 
-#: core/ChangeLog.qml:136
+#: core/ChangeLog.qml:140
 msgctxt "ChangeLog|"
 msgid ""
 "New dataset containing loops operations for programming maze, and make "
@@ -28806,7 +28755,7 @@ msgstr ""
 "Seti mpya ya data iliyo na shughuli za vitanzi vya upangaji programu, na "
 "kufanya picha za mafunzo kutafsiriwa"
 
-#: core/ChangeLog.qml:137
+#: core/ChangeLog.qml:141
 msgctxt "ChangeLog|"
 msgid ""
 "Addition of a level to teach voltage source loop in analog electricity "
@@ -28815,57 +28764,57 @@ msgstr ""
 "Ongezeko la kiwango cha kufundisha kitanzi cha chanzo cha voltage katika "
 "shughuli za umeme wa analogi"
 
-#: core/ChangeLog.qml:147
+#: core/ChangeLog.qml:151
 msgctxt "ChangeLog|"
 msgid "New Activity Settings menu, with dataset selection"
 msgstr "Menyu Mpya ya Mipangilio ya Shughuli, iliyo na uteuzi wa seti ya data"
 
-#: core/ChangeLog.qml:153
+#: core/ChangeLog.qml:157
 msgctxt "ChangeLog|"
 msgid "New sub-categories to organize activities"
 msgstr "Vijamii vipya vya kupanga shughuli"
 
-#: core/ChangeLog.qml:154
+#: core/ChangeLog.qml:158
 msgctxt "ChangeLog|"
 msgid "Translation added for Macedonian."
 msgstr "Tafsiri imeongezwa kwa Kimasedonia."
 
-#: core/ChangeLog.qml:155
+#: core/ChangeLog.qml:159
 msgctxt "ChangeLog|"
 msgid "New activities Programming Maze and Baby Tangram"
 msgstr "Shughuli mpya za Kupanga Maze na Tangram ya Mtoto"
 
-#: core/ChangeLog.qml:156
+#: core/ChangeLog.qml:160
 msgctxt "ChangeLog|"
 msgid "New background music and volume settings."
 msgstr "Muziki mpya wa chini  na mipangilio ya sauti."
 
-#: core/ChangeLog.qml:157
+#: core/ChangeLog.qml:161
 msgctxt "ChangeLog|"
 msgid "New speed setting in several activities."
 msgstr "Mpangilio mpya wa kasi katika shughuli kadhaa."
 
-#: core/ChangeLog.qml:158
+#: core/ChangeLog.qml:162
 msgctxt "ChangeLog|"
 msgid "New option in chess to display captured pieces."
 msgstr "Chaguo jipya katika chess ili kuonyesha vipande vilivyokamatwa."
 
-#: core/ChangeLog.qml:159
+#: core/ChangeLog.qml:163
 msgctxt "ChangeLog|"
 msgid "New images in Colors, Advanced colors and Target game."
 msgstr "Picha mpya katika Rangi, Rangi za Juu na mchezo unaolengwa."
 
-#: core/ChangeLog.qml:160
+#: core/ChangeLog.qml:164
 msgctxt "ChangeLog|"
 msgid "New voices for US English."
 msgstr "Sauti mpya za Kiingereza cha Marekani."
 
-#: core/ChangeLog.qml:161 core/ChangeLog.qml:169
+#: core/ChangeLog.qml:165 core/ChangeLog.qml:173
 msgctxt "ChangeLog|"
 msgid "Many little fixes and improvements."
 msgstr "Marekebisho mengi madogo na maboresho."
 
-#: core/ChangeLog.qml:162
+#: core/ChangeLog.qml:166
 msgctxt "ChangeLog|"
 msgid ""
 "Translation updated for multiple languages (Breton, Brazilian Portuguese, "
@@ -28874,18 +28823,18 @@ msgstr ""
 "Tafsiri imesasishwa kwa lugha nyingi (Kibretoni, Kireno cha Kibrazili, "
 "Kifini...)."
 
-#: core/ChangeLog.qml:163
+#: core/ChangeLog.qml:167
 msgctxt "ChangeLog|"
 msgid "Add Russian dataset for Click on letter activity."
 msgstr ""
 "Ongeza mkusanyiko wa data wa Kirusi kwa Bofya kwenye shughuli ya barua."
 
-#: core/ChangeLog.qml:164
+#: core/ChangeLog.qml:168
 msgctxt "ChangeLog|"
 msgid "Lang activity now available in Dutch."
 msgstr "Shughuli ya Lang sasa inapatikana kwa Kiholanzi."
 
-#: core/ChangeLog.qml:165
+#: core/ChangeLog.qml:169
 msgctxt "ChangeLog|"
 msgid ""
 "Merge Norwegian counties Nord-Trøndelag and Sør-Trøndelag into Trøndelag in "
@@ -28894,17 +28843,17 @@ msgstr ""
 "Unganisha kaunti za Norwegian Nord-Trøndelag na Sør-Trøndelag hadi Trendelag "
 "katika shughuli za kijiografia."
 
-#: core/ChangeLog.qml:166
+#: core/ChangeLog.qml:170
 msgctxt "ChangeLog|"
 msgid "Fix in braille activities where the cells start at 1, not 0."
 msgstr "Rekebisha katika shughuli za breli ambapo seli zinaanzia 1, si 0."
 
-#: core/ChangeLog.qml:167
+#: core/ChangeLog.qml:171
 msgctxt "ChangeLog|"
 msgid "Translation added for Basque, Hungarian and Malayalam."
 msgstr "Tafsiri imeongezwa kwa Basque, Hungarian na Malayalam."
 
-#: core/ChangeLog.qml:168
+#: core/ChangeLog.qml:172
 msgctxt "ChangeLog|"
 msgid ""
 "Loading/saving of creations (Baby Wordprocessor, Balance Box and Piano "
@@ -28913,48 +28862,48 @@ msgstr ""
 "Inapakia/kuhifadhi ubunifu (Baby Wordprocessor, Sanduku la Mizani na Muundo "
 "wa Piano)."
 
-#: core/ChangeLog.qml:169
+#: core/ChangeLog.qml:173
 msgctxt "ChangeLog|"
 msgid "Translations added for Scottish Gaelic."
 msgstr "Tafsiri zimeongezwa kwa Kigaeli cha Kiskoti."
 
-#: core/ChangeLog.qml:170
+#: core/ChangeLog.qml:174
 msgctxt "ChangeLog|"
 msgid "License page added in configuration."
 msgstr "Ukurasa wa leseni umeongezwa katika usanidi."
 
-#: core/ChangeLog.qml:170
+#: core/ChangeLog.qml:174
 msgctxt "ChangeLog|"
 msgid "Multiple changes on layouts to improve the ergonomy."
 msgstr "Mabadiliko mengi kwenye mipangilio ili kuboresha ergonomy."
 
-#: core/ChangeLog.qml:171
+#: core/ChangeLog.qml:175
 msgctxt "ChangeLog|"
 msgid "Lang activity now available in Polish, Swedish and Ukrainian."
 msgstr ""
 "Shughuli ya Lang sasa inapatikana katika Kipolandi, Kiswidi na Kiukreni."
 
-#: core/ChangeLog.qml:172
+#: core/ChangeLog.qml:176
 msgctxt "ChangeLog|"
 msgid "Search feature."
 msgstr "Kipengele cha utafutaji."
 
-#: core/ChangeLog.qml:173
+#: core/ChangeLog.qml:177
 msgctxt "ChangeLog|"
 msgid "A Changelog."
 msgstr "A Changelog."
 
-#: core/ChangeLog.qml:174
+#: core/ChangeLog.qml:178
 msgctxt "ChangeLog|"
 msgid "Many little fixes."
 msgstr "Marekebisho mengi madogo."
 
-#: core/ChangeLog.qml:174
+#: core/ChangeLog.qml:178
 msgctxt "ChangeLog|"
 msgid "Lang activity now available in French."
 msgstr "Shughuli ya Lang sasa inapatikana kwa Kifaransa."
 
-#: core/ChangeLog.qml:175
+#: core/ChangeLog.qml:179
 msgctxt "ChangeLog|"
 msgid ""
 "Adding a loading overlay to let the user know that some actions are taking "
@@ -28963,7 +28912,7 @@ msgstr ""
 "Kuongeza wekeleo la upakiaji ili kumjulisha mtumiaji kuwa baadhi ya vitendo "
 "vinafanyika (kupakia shughuli kwa mfano) na inaweza kuchukua sekunde kadhaa."
 
-#: core/ChangeLog.qml:175
+#: core/ChangeLog.qml:179
 msgctxt "ChangeLog|"
 msgid ""
 "Translations added for: Catalan (Valencian), Chinese Traditional, Finnish "
@@ -28973,12 +28922,12 @@ msgstr ""
 "Kifini (92% kilitafsiriwa), Kirusi (98% kilitafsiriwa), Kislovakia (92% "
 "kilitafsiriwa), Kituruki."
 
-#: core/ChangeLog.qml:176
+#: core/ChangeLog.qml:180
 msgctxt "ChangeLog|"
 msgid "Translations added for: Slovenian, German, Galician."
 msgstr "Tafsiri zilizoongezwa kwa: Kislovenia, Kijerumani, Kigalisia."
 
-#: core/ChangeLog.qml:230
+#: core/ChangeLog.qml:234
 #, qt-format
 msgctxt "ChangeLog|"
 msgid "Version %1:"
@@ -29753,6 +29702,45 @@ msgstr "Ruka"
 msgctxt "Tutorial|"
 msgid "Start"
 msgstr "Anzisha"
+
+#, fuzzy
+#~| msgctxt "ColorMix|"
+#~| msgid "Match the color"
+#~ msgctxt "ColorSelector|"
+#~ msgid "Palette Colors"
+#~ msgstr "Linganisha rangi"
+
+#, fuzzy
+#~| msgctxt "ActivityConfig|"
+#~| msgid "Selected"
+#~ msgctxt "ColorSelector|"
+#~ msgid "Selected Color"
+#~ msgstr "Imechaguliwa"
+
+#, fuzzy
+#~| msgctxt "board14_0|"
+#~| msgid "Hubei"
+#~ msgctxt "ColorSelector|color hue"
+#~ msgid "Hue"
+#~ msgstr "Hubei"
+
+#, fuzzy
+#~| msgctxt "Dataset|"
+#~| msgid "Saturn"
+#~ msgctxt "ColorSelector|color saturation"
+#~ msgid "Saturation"
+#~ msgstr "Zohali"
+
+#, fuzzy
+#~| msgctxt "ActivityInfo|"
+#~| msgid "Lights off"
+#~ msgctxt "ColorSelector|color lightness"
+#~ msgid "Lightness"
+#~ msgstr "Taa zimezimwa"
+
+#~ msgctxt "Data|"
+#~ msgid "Maximum value: 500000."
+#~ msgstr "Thamani ya juu zaidi: 50000."
 
 #, fuzzy
 #~| msgctxt "Data|"
