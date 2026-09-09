@@ -1,14 +1,14 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
-# SPDX-FileCopyrightText: 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026 Freek de Kruijf <freekdekruijf@kde.nl>
+# SPDX-FileCopyrightText: 2017-2026 Freek de Kruijf <freekdekruijf@kde.nl>
 # Jan Mussche <mijninternet2016@gmail.com>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-09-08 00:40+0000\n"
-"PO-Revision-Date: 2026-04-05 17:53+0200\n"
+"PO-Revision-Date: 2026-09-08 11:16+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 25.12.3\n"
+"X-Generator: Lokalize 26.08.0\n"
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "adjacent_numbers"
 #: activities/adjacent_numbers/ActivityInfo.qml:17
@@ -1247,19 +1247,15 @@ msgstr ""
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "sixteen"
 #: activities/sixteen/ActivityInfo.qml:17
-#, fuzzy, kde-format
-#| msgid ""
-#| "Click or drag an element next to a free space, the element will move and "
-#| "release its space. You must put all the pieces in the correct order. The "
-#| "numbers on the pieces can help you."
+#, kde-format
 msgid ""
 "Click on an arrow to slide the corresponding row or column in this "
 "direction. You must put all the pieces in the correct order. The numbers on "
 "the pieces can help you."
 msgstr ""
-"Klik of versleep een element naast een vrije ruimte, het element zal zich "
-"verplaatsen en zijn ruimte vrijgeven. Je moet alle stukken in de juiste "
-"volgorde zetten. De getallen op de stukken kunnen je helpen."
+"Klik op een pijl om de bijbehorende rij of kolom in die richting te "
+"verschuiven. Je moet alle stukken in de juiste volgorde zetten. De cijfers "
+"op de stukken kunnen je daarbij helpen."
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "sketch"
 #: activities/sketch/ActivityInfo.qml:21

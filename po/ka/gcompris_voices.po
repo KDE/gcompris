@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gcompris\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-09-08 00:40+0000\n"
-"PO-Revision-Date: 2026-04-04 05:13+0200\n"
+"PO-Revision-Date: 2026-09-08 05:16+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -1220,19 +1220,15 @@ msgstr ""
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "sixteen"
 #: activities/sixteen/ActivityInfo.qml:17
-#, fuzzy, kde-format
-#| msgid ""
-#| "Click or drag an element next to a free space, the element will move and "
-#| "release its space. You must put all the pieces in the correct order. The "
-#| "numbers on the pieces can help you."
+#, kde-format
 msgid ""
 "Click on an arrow to slide the corresponding row or column in this "
 "direction. You must put all the pieces in the correct order. The numbers on "
 "the pieces can help you."
 msgstr ""
-"დააწკაპუნეთ, ან გადაათრიეთ ელემენტი თავისუფალ ადგილთან ახლოს. ელემენტი "
-"გაიწევა და თავის ადგილს გაათავისუფლებთ. თქვენ ყველა ნაწილი სწორი მიმდევრობით "
-"უნდა დაალაგოთ. ამაში ნაწილებზე დაწერილი ნომრებიც დაგეხმარებათ."
+"დააწკაპუნეთ ისარზე შესაბამისი სვეტის, ან მწკრივის ამ მიმართულებით "
+"გასასრიალებლად. ყველა ნაწილი სწორი მიმდევრობით უნდა დაალაგოთ და ამაში "
+"ნაწილის ნომრები დაგეხმარებათ."
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "sketch"
 #: activities/sketch/ActivityInfo.qml:21

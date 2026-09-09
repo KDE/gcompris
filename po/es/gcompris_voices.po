@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the gcompris package.
 # Automatically generated, 2017.
 #
-# SPDX-FileCopyrightText: 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026 Eloy Cuadra <ecuadra@eloihr.net>
+# SPDX-FileCopyrightText: 2017-2026 Eloy Cuadra <ecuadra@eloihr.net>
 # SPDX-FileCopyrightText: 2018 Antoni Bella Pérez <antonibella5@yahoo.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: gcompris_voices\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-09-08 00:40+0000\n"
-"PO-Revision-Date: 2026-04-04 12:38+0100\n"
+"PO-Revision-Date: 2026-09-08 11:31+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 25.12.3\n"
+"X-Generator: Lokalize 26.08.0\n"
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "adjacent_numbers"
 #: activities/adjacent_numbers/ActivityInfo.qml:17
@@ -1241,18 +1241,14 @@ msgstr ""
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "sixteen"
 #: activities/sixteen/ActivityInfo.qml:17
-#, fuzzy, kde-format
-#| msgid ""
-#| "Click or drag an element next to a free space, the element will move and "
-#| "release its space. You must put all the pieces in the correct order. The "
-#| "numbers on the pieces can help you."
+#, kde-format
 msgid ""
 "Click on an arrow to slide the corresponding row or column in this "
 "direction. You must put all the pieces in the correct order. The numbers on "
 "the pieces can help you."
 msgstr ""
-"Pulsa o arrastra un elemento junto a un espacio libre para que se mueva y "
-"libere su espacio. Debes colocar todas las piezas en el orden correcto. Los "
+"Pulsa sobre una flecha para desplazar la correspondiente fila o columna en "
+"su dirección. Debes colocar todas las piezas en el orden correcto. Los "
 "números de las piezas te pueden servir de ayuda."
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "sketch"

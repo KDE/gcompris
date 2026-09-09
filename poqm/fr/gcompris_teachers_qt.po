@@ -1116,7 +1116,7 @@ msgstr "Revenir en arrière"
 #: server/activities/LineReport.qml:71
 msgctxt "LineReport|"
 msgid "Refresh"
-msgstr "Rafraîchir"
+msgstr "Rafraichir"
 
 #: server/activities/LineReport.qml:77
 #, qt-format

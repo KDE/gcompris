@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: gcompris\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-09-08 00:40+0000\n"
-"PO-Revision-Date: 2026-04-04 07:14+0200\n"
+"PO-Revision-Date: 2026-09-08 07:44+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -1197,19 +1197,15 @@ msgstr ""
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "sixteen"
 #: activities/sixteen/ActivityInfo.qml:17
-#, fuzzy, kde-format
-#| msgid ""
-#| "Click or drag an element next to a free space, the element will move and "
-#| "release its space. You must put all the pieces in the correct order. The "
-#| "numbers on the pieces can help you."
+#, kde-format
 msgid ""
 "Click on an arrow to slide the corresponding row or column in this "
 "direction. You must put all the pieces in the correct order. The numbers on "
 "the pieces can help you."
 msgstr ""
-"Kliknite ali povlecite element poleg prostega prostora, element se bo "
-"premaknil in sprostil svoj prostor. Vse kose morate postaviti v pravilnem "
-"vrstnem redu. Številke na kosih vam pomagajo pri tem."
+"Kliknite na puščico, da premaknete ustrezno vrstico ali stolpec v to smer. "
+"Vse koščke morate postaviti v pravilen vrstni red. Številke na koščkih vam "
+"lahko pomagajo."
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "sketch"
 #: activities/sketch/ActivityInfo.qml:21

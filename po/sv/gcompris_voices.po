@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-09-08 00:40+0000\n"
-"PO-Revision-Date: 2026-07-07 22:12+0200\n"
+"PO-Revision-Date: 2026-09-08 16:49+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 26.04.3\n"
+"X-Generator: Lokalize 26.08.0\n"
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "adjacent_numbers"
 #: activities/adjacent_numbers/ActivityInfo.qml:17
@@ -1197,19 +1197,14 @@ msgstr ""
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "sixteen"
 #: activities/sixteen/ActivityInfo.qml:17
-#, fuzzy, kde-format
-#| msgid ""
-#| "Click or drag an element next to a free space, the element will move and "
-#| "release its space. You must put all the pieces in the correct order. The "
-#| "numbers on the pieces can help you."
+#, kde-format
 msgid ""
 "Click on an arrow to slide the corresponding row or column in this "
 "direction. You must put all the pieces in the correct order. The numbers on "
 "the pieces can help you."
 msgstr ""
-"Klicka eller dra en bricka till ett ledigt utrymme. Brickan flyttas och "
-"frigör sitt utrymme. Du måste placera alla brickor i rätt ordning. Talen på "
-"brickorna kan hjälpa dig."
+"Klicka på en pil för att dra motsvarande rad eller kolumn i den riktningen. "
+"Du måste placera alla bitar i rätt ordning. Numren på bitarna kan hjälpa dig."
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "sketch"
 #: activities/sketch/ActivityInfo.qml:21
