@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-06-20 10:25+0200\n"
+"PO-Revision-Date: 2026-09-09 21:26+0200\n"
 "Last-Translator: Mincho Kondarev <mkondarev@yahoo.de>\n"
 "Language-Team: Bulgarian <kde-i18n-doc@kde.org>\n"
 "Language: bg\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Qt-Contexts: true\n"
-"X-Generator: Lokalize 26.04.2\n"
+"X-Generator: Lokalize 26.08.0\n"
 
 #: activities/adjacent_numbers/ActivityConfig.qml:19
 #: activities/clickanddraw/ActivityConfig.qml:22
@@ -10270,9 +10270,6 @@ msgstr ""
 
 #. Activity title
 #: activities/fifteen/ActivityInfo.qml:15
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "The fifteen game"
 msgctxt "ActivityInfo|"
 msgid "The fifteen puzzle"
 msgstr "Пъзел 15"
@@ -25326,21 +25323,15 @@ msgstr "Таb: превключване между селектора на цв�
 
 #. Activity title
 #: activities/sixteen/ActivityInfo.qml:14
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "The fifteen game"
 msgctxt "ActivityInfo|"
 msgid "The sixteen puzzle"
-msgstr "Пъзел 15"
+msgstr "Пъзел 16"
 
 #. Help title
 #: activities/sixteen/ActivityInfo.qml:16
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Move each item to recreate the image."
 msgctxt "ActivityInfo|"
 msgid "Slide the rows and columns to recreate the image."
-msgstr "Премести всеки елемент, за да пресъздадеш картинката."
+msgstr "Премести редовете и колоните, за да пресъздадеш картинката."
 
 #. Help manual
 #: activities/sixteen/ActivityInfo.qml:23
@@ -25348,22 +25339,18 @@ msgctxt "ActivityInfo|"
 msgid ""
 "Click on an arrow to slide the corresponding row or column in this direction."
 msgstr ""
+"Натиснете върху стрелка, за да преместите съответния ред или колона в тази "
+"посока."
 
 #: activities/sixteen/ActivityInfo.qml:25
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Arrows: navigate through the answers"
 msgctxt "ActivityInfo|"
 msgid "Arrows: navigate to select arrow buttons."
-msgstr "Стрелки: навигация в отговорите"
+msgstr "Стрелки: придвижване за избор на бутоните със стрелки."
 
 #: activities/sixteen/ActivityInfo.qml:26
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Space or Enter: flip the selected card"
 msgctxt "ActivityInfo|"
 msgid "Space or Enter: click on selected button."
-msgstr "Интервал или Enter: обръщане на избраната карта"
+msgstr "Интервал или Enter: задействане на избрания бутон."
 
 #. Activity title
 #: activities/sketch/ActivityInfo.qml:18

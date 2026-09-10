@@ -74,13 +74,13 @@ Don't forget to include this last date.
 Please respect the format of the date (YYYY-MM-DD),it is used by scripts.
 -->
 <date
->2026-03-11</date>
+>2026-09-23</date>
 
 <!--version information of the application and kde this documentation is valid for.
 for example 'xx.yy.zz'
 -->
 <releaseinfo
->26.1</releaseinfo>
+>26.2</releaseinfo>
 
 <!-- Abstract about this handbook -->
 
@@ -621,6 +621,12 @@ for example 'xx.yy.zz'
 >--locale=configuración-regional</entry>
 <entry
 >Ejecutar &gcompris; con la configuración regional indicada.</entry>
+</row>
+<row>
+<entry
+>--with-sequence=sequence.json</entry>
+<entry
+>Ejecutar &gcompris; con la secuencia indiciada. Una secuencia es una lista de actividades con determinados conjuntos de datos, que fuerza a GCompris a ejecutarlas en el orden especificado.</entry>
 </row>
 </tbody>
 </tgroup>
