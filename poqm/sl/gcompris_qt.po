@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-12-24 11:22+0100\n"
+"PO-Revision-Date: 2026-09-09 07:34+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -15,7 +15,7 @@ msgstr ""
 "%100<=4 ? 2 : 3);\n"
 "X-Language: sl\n"
 "X-Qt-Contexts: true\n"
-"X-Generator: Poedit 3.8\n"
+"X-Generator: Poedit 3.9\n"
 
 #: activities/adjacent_numbers/ActivityConfig.qml:19
 #: activities/clickanddraw/ActivityConfig.qml:22
@@ -26690,12 +26690,9 @@ msgid "Maximum value: 500."
 msgstr "Maksimalna vrednost: 500."
 
 #: activities/target/resource/4/Data.qml:14
-#, fuzzy
-#| msgctxt "Data|"
-#| msgid "Maximum value: 50000."
 msgctxt "Data|"
 msgid "Maximum value: 5000."
-msgstr "Maksimalna vrednost: 50000."
+msgstr "Maksimalna vrednost: 5000."
 
 #: activities/target/resource/5/Data.qml:14
 msgctxt "Data|"

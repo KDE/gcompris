@@ -25243,8 +25243,6 @@ msgstr "最大值：500。"
 
 #: activities/target/resource/4/Data.qml:14
 #, fuzzy
-#| msgctxt "Data|"
-#| msgid "Maximum value: 50000."
 msgctxt "Data|"
 msgid "Maximum value: 5000."
 msgstr "最大值：50000。"

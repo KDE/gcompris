@@ -2,7 +2,7 @@
 # Copyright (C) 2014-2026 This file is copyright:
 # This file is distributed under the same license as the gcompris package.
 #
-# SPDX-FileCopyrightText: 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026 Eloy Cuadra <ecuadra@eloihr.net>
+# SPDX-FileCopyrightText: 2014-2026 Eloy Cuadra <ecuadra@eloihr.net>
 # SPDX-FileCopyrightText: 2015 Zohra Coudoin <zohra.coudoin@gcompris.net>
 # SPDX-FileCopyrightText: 2018 Antoni Bella Pérez <antonibella5@yahoo.com>
 msgid ""
@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: gcompris_qt\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-02-19 10:28+0100\n"
-"PO-Revision-Date: 2026-02-19 10:28+0100\n"
+"PO-Revision-Date: 2026-09-09 12:33+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Language: es\n"
 "X-Qt-Contexts: true\n"
-"X-Generator: Lokalize 25.12.2\n"
+"X-Generator: Lokalize 26.08.0\n"
 "X-Qt-Contexts: true\n"
 
 #: activities/adjacent_numbers/ActivityConfig.qml:19
@@ -27067,12 +27067,9 @@ msgid "Maximum value: 500."
 msgstr "Valor máximo: 500."
 
 #: activities/target/resource/4/Data.qml:14
-#, fuzzy
-#| msgctxt "Data|"
-#| msgid "Maximum value: 50000."
 msgctxt "Data|"
 msgid "Maximum value: 5000."
-msgstr "Valor máximo: 50000."
+msgstr "Valor máximo: 5000."
 
 #: activities/target/resource/5/Data.qml:14
 msgctxt "Data|"
@@ -29075,35 +29072,3 @@ msgstr "Omitir"
 msgctxt "Tutorial|"
 msgid "Start"
 msgstr "Iniciar"
-
-#~ msgctxt "ColorSelector|"
-#~ msgid "Palette Colors"
-#~ msgstr "Colores de la paleta"
-
-#~ msgctxt "ColorSelector|"
-#~ msgid "Reset palette"
-#~ msgstr "Reiniciar la paleta"
-
-#~ msgctxt "ColorSelector|"
-#~ msgid "Selected Color"
-#~ msgstr "Color seleccionado"
-
-#~ msgctxt "ColorSelector|color hue"
-#~ msgid "Hue"
-#~ msgstr "Tono"
-
-#~ msgctxt "ColorSelector|color saturation"
-#~ msgid "Saturation"
-#~ msgstr "Saturación"
-
-#~ msgctxt "ColorSelector|color lightness"
-#~ msgid "Lightness"
-#~ msgstr "Luminosidad"
-
-#~ msgctxt "ColorSelector|"
-#~ msgid "Reset Color"
-#~ msgstr "Reiniciar el color"
-
-#~ msgctxt "Data|"
-#~ msgid "Maximum value: 500000."
-#~ msgstr "Valor máximo: 500000."
