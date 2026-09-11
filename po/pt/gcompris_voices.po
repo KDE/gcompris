@@ -1,15 +1,14 @@
-# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# SPDX-FileCopyrightText: 2026 vitordematos <support@vitordematos.net>
 msgid ""
 msgstr ""
 "Project-Id-Version: gcompris_voices\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-12-23 02:37+0000\n"
-"PO-Revision-Date: 2023-07-13 00:29+0100\n"
-"Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
+"PO-Revision-Date: 2026-09-09 23:50+0100\n"
+"Last-Translator: vitordematos <support@vitordematos.net>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
@@ -17,12 +16,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-POFile-SpellExtra: Tux dominós Reconstrua\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "adjacent_numbers"
 #: activities/adjacent_numbers/ActivityInfo.qml:17
 #, kde-format
 msgid "Find the missing numbers."
-msgstr ""
+msgstr "Encontra os números em falta."
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "advanced_colors"
 #: activities/advanced_colors/ActivityInfo.qml:18
@@ -82,15 +82,12 @@ msgstr ""
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "align4"
 #: activities/align4/ActivityInfo.qml:18
-#, fuzzy, kde-format
-#| msgid ""
-#| "Click on the column where you wish your token to fall and try to align of "
-#| "4 tokens before Tux."
+#, kde-format
 msgid ""
 "Click on the column where you wish your token to fall and try to align 4 "
 "tokens before Tux."
 msgstr ""
-"Carregue na coluna onde deseja que a sua peça caia e tente alinhar 4 peças "
+"Clica na coluna onde desejas que a tua ficha caia e tenta alinhar 4 fichas "
 "antes do Tux."
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "align4_2players"
@@ -371,7 +368,7 @@ msgstr ""
 #: activities/drawing_wheels/ActivityInfo.qml:22
 #, kde-format
 msgid "Roll the gear in the cogwheel to draw."
-msgstr ""
+msgstr "Faz girar a engrenagem na roda dentada para desenhares."
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "drawletters"
 #: activities/drawletters/ActivityInfo.qml:18
@@ -500,7 +497,7 @@ msgstr "Descubra o numerador e denominador correctos da fracção representada"
 #: activities/frieze/ActivityInfo.qml:17
 #, kde-format
 msgid "Reproduce and complete the frieze model."
-msgstr ""
+msgstr "Reproduz e completa o padrão do friso."
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "geo-country"
 #: activities/geo-country/ActivityInfo.qml:22
@@ -575,12 +572,14 @@ msgstr ""
 #, kde-format
 msgid "Find the value corresponding to the given spot on the graduated line."
 msgstr ""
+"Encontra o valor correspondente ao ponto que te é apresentado na linha "
+"graduada."
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "graduated_line_use"
 #: activities/graduated_line_use/ActivityInfo.qml:17
 #, kde-format
 msgid "Place the given value on the graduated line."
-msgstr ""
+msgstr "Coloca o valor que é mostrado na régua graduada."
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "grammar_classes"
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "grammar_analysis"
@@ -589,6 +588,7 @@ msgstr ""
 #, kde-format
 msgid "Assign the requested grammatical classes to the corresponding words."
 msgstr ""
+"Atribui as classes gramaticais solicitadas às palavras correspondentes."
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "graph-coloring"
 #: activities/graph-coloring/ActivityInfo.qml:18
@@ -611,7 +611,7 @@ msgstr ""
 #: activities/guess24/ActivityInfo.qml:17
 #, kde-format
 msgid "Use the four numbers with given operators to find 24"
-msgstr ""
+msgstr "Use os quatro números com os operadores dados para encontrares 24"
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "guesscount"
 #: activities/guesscount/ActivityInfo.qml:22
@@ -965,7 +965,7 @@ msgstr "Coloque cada item no mesmo lugar que no exemplo indicado."
 #: activities/multiple_choice_questions/ActivityInfo.qml:19
 #, kde-format
 msgid "Answer the questions."
-msgstr ""
+msgstr "Responde às questões."
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "nine_men_morris"
 #: activities/nine_men_morris/ActivityInfo.qml:18
@@ -1212,7 +1212,7 @@ msgstr ""
 #: activities/sketch/ActivityInfo.qml:21
 #, kde-format
 msgid "Use the tools to draw images."
-msgstr ""
+msgstr "Utiliza as ferramentas para desenhares imagens."
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "smallnumbers"
 #: activities/smallnumbers/ActivityInfo.qml:18
@@ -1296,17 +1296,17 @@ msgstr ""
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "tens_complement_calculate"
 #: activities/tens_complement_calculate/ActivityInfo.qml:17
-#, fuzzy, kde-format
-#| msgid ""
-#| "Create pairs of numbers equal to ten. Select a number, then select "
-#| "another number of the same operation to swap their position."
+#, kde-format
 msgid ""
 "Create pairs of numbers equal to ten. Select a number, then select another "
 "number of the same operation to swap their position. Then, select the result "
 "box to type the result."
 msgstr ""
-"Criar pares de números iguais a dez. Seleccione um número e depois "
-"seleccione outro número da mesma operação para trocar as suas posições."
+"Criar pares de números iguais a dez. Selecciona um número e depois "
+"selecciona outro número da mesma operação para trocar as suas posições. Cria "
+"pares de números iguais a dez. Seleciona um número e, em seguida, seleciona "
+"outro número da mesma operação para trocares a sua posição. Em seguida, "
+"seleciona a caixa para digitares o resultado."
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "tens_complement_find"
 #: activities/tens_complement_find/ActivityInfo.qml:17
@@ -1366,7 +1366,7 @@ msgstr ""
 #: activities/vertical_addition/ActivityInfo.qml:18
 #, kde-format
 msgid "Solve the given addition."
-msgstr ""
+msgstr "Resolve a adição que te é pedida."
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "vertical_subtraction_compensation"
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "vertical_subtraction"
@@ -1374,7 +1374,7 @@ msgstr ""
 #: activities/vertical_subtraction_compensation/ActivityInfo.qml:18
 #, kde-format
 msgid "Solve the given subtraction."
-msgstr ""
+msgstr "Resolve a subtracção que te é pedida."
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "watercycle"
 #: activities/watercycle/ActivityInfo.qml:18
