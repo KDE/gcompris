@@ -89,6 +89,7 @@
   <summary xml:lang="nl">Educatief spel voor kinderen</summary>
   <summary xml:lang="nn">Leik-og-lær-spel for barn</summary>
   <summary xml:lang="pl">Gra edukacyjna z dla dzieci</summary>
+  <summary xml:lang="pt">Jogo Educativo para crianças</summary>
   <summary xml:lang="pt-BR">Jogo educacional para crianças</summary>
   <summary xml:lang="ro">Joc educațional pentru copii</summary>
   <summary xml:lang="ru">Обучающие игры для детей</summary>
@@ -135,7 +136,7 @@
     <p xml:lang="nn">GCompris er eit leik og lær-spel med mange ulike aktivitetar for ungar frå 2 til 10 år.</p>
     <p xml:lang="pa">ਕੋਮਪਰਿਸ ਉੱਚ ਕੁਆਲਟੀ ਦਾ ਸਾਫਟਵੇਅਰ ਸਮੂਹ ਹੈ, ਜਿਸ ਵਿੱਚ 2 ਤੋਂ 10 ਸਾਲਾਂ ਦੇ ਬੱਚਿਆਂ ਲਈ ਕਈ ਸਾਰੀਆਂ ਸਰਗਰਮੀਆਂ ਸ਼ਾਮਲ ਹਨ।</p>
     <p xml:lang="pl">GCompris to wysokiej jakości pakiet oprogramowania edukacyjnego z licznymi aktywnościami dla dzieci w wieku od 2 do 10 lat.</p>
-    <p xml:lang="pt">O GCompris é um pacote aplicacional educativo de alta qualidade, composto por uma grande quantidade de actividades para crianças dos 2 aos 10 anos.</p>
+    <p xml:lang="pt">GCompris é um pacote de software educacional de alta qualidade, compreendendo um vasto número de actividades para crianças dos 2 aos 10 anos.</p>
     <p xml:lang="pt-BR">O GCompris é uma suíte de software educacional de alta qualidade que inclui um grande número de atividades para crianças com idade entre 2 e 10 anos.</p>
     <p xml:lang="ro">GCompris este un pachet de software educațional compus din numeroase activități pentru copii între 2 și 10 ani.</p>
     <p xml:lang="ru">GCompris — большая коллекция обучающих игр и упражнений для детей от 2 до 10 лет.</p>
@@ -184,7 +185,7 @@
     <p xml:lang="nn">Nokre av aktivitetane er mest som spel, men er likevel lærerike.</p>
     <p xml:lang="pa">ਕੁਝ ਸਰਗਰਮੀਆਂ ਖੇਡਾਂ ਵਰਗੀਆਂ ਹਨ, ਪਰ ਫਿਰ ਵੀ ਸਿੱਖਿਆ ਦੇਣ ਵਾਲੀਆਂ ਹਨ।</p>
     <p xml:lang="pl">Niektóre z aktywności są bardziej grą, lecz nadal bardzo pouczającą.</p>
-    <p xml:lang="pt">Algumas das actividades são apresentadas como jogos, mas são educativas à mesma.</p>
+    <p xml:lang="pt">Algumas das actividades são apresentadas como jogos, mas ainda assim não deixam de ser educativas.</p>
     <p xml:lang="pt-BR">Algumas das atividades são de orientação lúdica, mas mesmo assim ainda educacionais.</p>
     <p xml:lang="ro">Unele activități sunt orientate pe joacă, dar totuși educative.</p>
     <p xml:lang="ru">Некоторые из заданий представлены в игровой форме, но и они являются обучающими.</p>
@@ -233,7 +234,7 @@
     <p xml:lang="nn">Nedanfor finn du ei oversikt over kategoriar, saman med nokre av aktivitetane i kvar kategori.</p>
     <p xml:lang="pa">ਹੇਠਾਂ ਤੁਸੀਂ ਕੈਟਾਗਰੀਆਂ ਦੀ ਸੂਚੀ ਵੇਖ ਸਕਦੇ ਹੋ, ਜਿਸ ਵਿੱਚ ਉਸ ਕੈਟਾਗਰੀ ਵਿੱਚ ਮੌਜੂਦ ਕੁਝ ਸਰਗਰਮੀਆਂ ਹਨ।</p>
     <p xml:lang="pl">Poniżej znajdziesz wykaz kategorii z niektórymi aktywnościami dostępnymi w tej kategorii.</p>
-    <p xml:lang="pt">Em baixo, poderá encontrar uma lista de categorias, com algumas das actividades disponíveis para essa categoria.</p>
+    <p xml:lang="pt">Em baixo poderá encontrar uma lista de categorias, com algumas das actividades disponíveis para essa categoria.</p>
     <p xml:lang="pt-BR">Abaixo está relacionada uma lista de categorias com algumas das atividades disponíveis em cada uma delas.</p>
     <p xml:lang="ro">Dedesubt puteți găsi o listă de categorii cu unele din activitățile disponibile în acea categorie.</p>
     <p xml:lang="ru">Ниже представлен список категорий с доступными в этих категориях заданиями.</p>
@@ -268,6 +269,7 @@
       <li xml:lang="lv">dators: tastatūra, pele, dažādi žesti ar peli u.c.</li>
       <li xml:lang="nl">ontdekken van de computer: toetsenbord, muis, verschillende muisbewegingen, etc.</li>
       <li xml:lang="pl">odkrywanie komputera: klawiatura, mysz, różne ruchy myszą, itp.</li>
+      <li xml:lang="pt">descoberta do computador: teclado, rato, os diferentes gestos com o rato, etc.</li>
       <li xml:lang="pt-BR">conhecendo o computador: teclado, mouse, diferentes movimentações com o mouse, etc.</li>
       <li xml:lang="ru">знакомство с компьютером: клавиатура, мышь, различные жесты мышью и так далее</li>
       <li xml:lang="sk">objavovanie počítača: klávesnica, myš, rôzne gestá myši...</li>
@@ -298,6 +300,7 @@
       <li xml:lang="lv">aritmētika: atmiņas tabula, skaitīšana, spoguļattēls, svaru līdzsvarošana, atlikuma izdošana u.c.</li>
       <li xml:lang="nl">rekenen: tafels oefenen, reeksen, afbeelding spiegelen, de schaal in evenwicht brengen, wisselgeld geven, etc.</li>
       <li xml:lang="pl">arytmetyka: tablice pamięciowe, wyliczanie, obraz lustrzany, wyrównoważanie wagi, wydawanie reszty, itp.</li>
+      <li xml:lang="pt">aritmética: memória da tabuada, enumeração, imagem-espelho, equilíbrio de balanças, trocos, etc.</li>
       <li xml:lang="pt-BR">matemática: memória matemática, enumeração, imagens espelhadas, balanceamento de escalas, moedas e troco, etc.</li>
       <li xml:lang="ru">арифметика: игра «память» с подсчётом, счёт, отражение рисунка, уравновешивание весов, подсчёт сдачи и так далее</li>
       <li xml:lang="sk">aritmetické: tabuľková pamäť, výpočet, zrkalový obrázok, vyváženie mierky, zmena dávky...</li>
@@ -327,6 +330,7 @@
       <li xml:lang="lv">zinātne: kanāla slūžas, krāsu jaukšana, gravitācija u.c.</li>
       <li xml:lang="nl">natuurkunde: de sluizen bedienen, mengen van kleuren, concept van zwaartekracht, etc.</li>
       <li xml:lang="pl">nauka: śluza na kanale, mieszanie barw, poczucie grawitacji, itp.</li>
+      <li xml:lang="pt">ciência: navegação em canais, misturas de cores, conceito de gravidade, etc.</li>
       <li xml:lang="pt-BR">ciência: comporta de canal, mistura de cores, conceito de gravidade, etc.</li>
       <li xml:lang="ru">наука: работа судоходного шлюза, смешивание цветов, представление о гравитации и так далее</li>
       <li xml:lang="sk">veda: zamknutý kanál, miešanie farieb, koncept grvitácie...</li>
@@ -356,6 +360,7 @@
       <li xml:lang="lv">spēles: atmiņa, četri rindā, krustiņi un nullītes, sudoku, Hanojas tornis u.c.</li>
       <li xml:lang="nl">spellen: geheugenspel, vier op een rij, boter kaas en eieren, sudoku, torens van hanoi, etc.</li>
       <li xml:lang="pl">gry: na pamięć, łączenie czwórek, tic tac toe, sudoku, wieża hanoi, itp.</li>
+      <li xml:lang="pt">jogos: memória, 4 em linha, jogo do galo, sudoku, torres de Hanói, etc.</li>
       <li xml:lang="pt-BR">jogos: memória, ligue 4, jogo da velha, sudoku, torre de Hanói, etc.</li>
       <li xml:lang="ru">игры: память, соедини 4, крестики-нолики, судоку, Ханойская башня и так далее</li>
       <li xml:lang="sk">hry: pamäť, spojenie 4, tic tac toe, sudoku, hanojská veža...</li>
@@ -385,6 +390,7 @@
       <li xml:lang="lv">lasīšana: lasīšanas vingrinājumi u.c.</li>
       <li xml:lang="nl">lezen: lees oefening, etc.</li>
       <li xml:lang="pl">czytanie: nauka czytania, itp.</li>
+      <li xml:lang="pt">leitura: exercícios de leitura, etc.</li>
       <li xml:lang="pt-BR">leitura: prática de leitura, etc.</li>
       <li xml:lang="ru">чтение: упражнение в чтении и так далее</li>
       <li xml:lang="sk">čítanie: precvičovanie čítania...</li>
@@ -415,6 +421,7 @@
       <li xml:lang="lv">citas: pateikt laiku, Braila raksts, labirints, mūzikas instrumenti u.c.</li>
       <li xml:lang="nl">overig: leren klokkijken, het braille-systeem, doolhof, muziekinstrumenten, etc.</li>
       <li xml:lang="pl">inne: naucz się godzin na zegarze, systemu brajla, labiryntów, instrumentów muzycznych, itp.</li>
+      <li xml:lang="pt">outros: aprender a dizer as horas, o sistema Braille, labirintos, instrumentos musicais, etc.</li>
       <li xml:lang="pt-BR">outros: aprendendo a ver as horas, o sistema Braille, labirintos, instrumentos musicais, etc.</li>
       <li xml:lang="ru">другое: определение времени по часам, шрифт Брайля, лабиринт, музыкальные инструменты и так далее</li>
       <li xml:lang="sk">iné: ako povedať čas, braillov systém, bludisko, hudobná nástroje...</li>
@@ -461,7 +468,7 @@
     <p xml:lang="nl">Op dit moment biedt GCompris meer dan 100 activiteiten en meer zijn er in ontwikkeling. GCompris is vrije software, dat betekent dat u het kunt aanpassen aan uw eigen behoeften, het verbeteren en, meest belangrijk, het met kinderen overal kun delen.</p>
     <p xml:lang="nn">GCompris har over 100 aktivitetar, og fleire vert utvikla. GCompris er fri programvare. Det vil seia at du kan tilpassa spelet slik du ønskjer, forbetra det og dela det med ungar i heile verda.</p>
     <p xml:lang="pl">Obecnie GCompris zapewnia ponad 100 aktywności, a jeszcze więcej jest opracowywanych. GCompris jest darmowym oprogramowaniem, co oznacza, że możesz je dopasować do własnych potrzeb, ulepszać je i co najważniejsze udostępniać je dzieciom.</p>
-    <p xml:lang="pt">De momento, o GCompris oferece mais de 100 actividades, estando ainda mais em desenvolvimento. O GCompris é uma aplicação de 'software' livre, o que significa que o poderá adaptar às suas próprias necessidades, melhorá-lo e, o mais importante, partilhá-lo com as crianças em todo o lado.</p>
+    <p xml:lang="pt">Actualmente o GCompris oferece mais de 100 actividades e mais estão a ser desenvolvidas. O GCompris é uma aplicação de 'software' livre, o que significa que o poderás adaptar às tuas próprias necessidades, melhorá-lo e, o mais importante, partilhá-lo com as crianças em toda a parte.</p>
     <p xml:lang="pt-BR">Atualmente o GCompris oferece mais de 100 atividades e outras mais estão sendo desenvolvidas. O GCompris é um software livre, o que significa que você pode adaptá-lo para as suas próprias necessidades, melhorá-lo e, mais importante, compartilhar com as crianças de todo o mundo.</p>
     <p xml:lang="ro">Momentan GCompris oferă peste 100 de activități și multe altele sunt în lucru. GCompris este software liber, ceea ce înseamnă că poate fi adaptat nevoilor dumneavoastră, îmbunătățit, dar mai ales, partajat cu copii de pretutindeni.</p>
     <p xml:lang="ru">В настоящее время GCompris содержит более 100 упражнений, и новые находятся в  разработке. GCompris — свободное ПО, и это значит, что вы можете приспособить его для своих нужд, улучшить, а самое главное — поделиться им с детьми во всём мире.</p>
