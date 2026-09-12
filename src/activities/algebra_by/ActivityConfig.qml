@@ -33,7 +33,7 @@ Item {
             id: speedSlider
             width: 250 * ApplicationInfo.ratio
             value: speedSetting
-            to: 5
+            to: 10
             from: 1
             wheelEnabled: false
         }
