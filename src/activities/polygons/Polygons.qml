@@ -20,7 +20,7 @@ ActivityBase {
     onStop: {}
 
     pageComponent: Image {
-        id: background
+        id: activityBackground
         source: "qrc:/gcompris/src/activities/guesscount/resource/backgroundW01.svg"
         anchors.fill: parent
         sourceSize.width: width
@@ -38,11 +38,19 @@ ActivityBase {
         QtObject {
             id: items
             property Item main: activity.main
-            property alias background: background
+            property alias activityBackground: activityBackground
             property int currentLevel: activity.currentLevel
             property string mode: "tutorial"
             property bool isTutorialMode: mode === "tutorial" ? true : false
+            property alias tutorialDataset: tutorialDataset
+            property alias tutorialInstruction: tutorialInstruction
+            property alias tutorialImage: tutorialImage
+            property bool buttonsBlocked: true
             property alias bonus: bonus
+
+            // Properties to check answer
+            property list<real> polygonAngles: []
+            property list<real> polygonSides: []
 
             // Pen and color properties
             readonly property color gridColor: "#b3b3b3"
@@ -57,11 +65,56 @@ ActivityBase {
             readonly property real maxDrag: gridSize - dotOffset
             property alias points: points
             property alias sceneGrid: sceneGrid
+            property alias canvasContainer: canvasContainer
             property bool isClosed: false
         }
 
         onStart: { Activity.start(items) }
         onStop: { Activity.stop() }
+
+        // Needed to get keyboard focus on IntroMessage
+        Keys.forwardTo: [tutorialInstruction]
+
+        Keys.onPressed: (event) => {
+            if((event.key === Qt.Key_Return || event.key === Qt.Key_Enter) && okButton.enabled) {
+                Activity.checkAnswer()
+            }
+        }
+
+        TutorialDataset {
+            id: tutorialDataset
+        }
+
+        IntroMessage {
+            id: tutorialInstruction
+            intro: ListModel {}
+            customIntroArea: introArea
+            useGrayedBg: false
+            z: 100
+        }
+
+        Image {
+            id: tutorialImage
+            anchors {
+                top: introArea.bottom
+                bottom: layoutArea.bottom
+                left: layoutArea.left
+                right: layoutArea.right
+                margins: GCStyle.baseMargins
+            }
+            sourceSize.width: Math.min(width, height)
+            fillMode: Image.PreserveAspectFit
+            visible: tutorialInstruction.visible
+            z: 100
+        }
+
+        Item {
+            id: introArea
+            anchors.top: layoutArea.top
+            anchors.right: layoutArea.right
+            anchors.left: layoutArea.left
+            anchors.bottom: layoutArea.verticalCenter
+        }
 
         Item {
             id: layoutArea
@@ -79,6 +132,7 @@ ActivityBase {
             width: items.gridSize
             height: items.gridSize
             color: "#FFFFFF"
+            visible: !tutorialInstruction.visible
 
             ListModel {
                 id: points
@@ -226,6 +280,21 @@ ActivityBase {
             }
         }
 
+        BarButton {
+            id: okButton
+            visible: items.isTutorialMode && items.isClosed
+            anchors {
+                bottom: bar.top
+                right: parent.right
+                rightMargin: GCStyle.baseMargins
+                bottomMargin: height * 0.5
+            }
+            source: "qrc:/gcompris/src/core/resource/bar_ok.svg"
+            width: GCStyle.bigButtonHeight
+            enabled: visible && !items.buttonsBlocked
+            onClicked: Activity.checkAnswer();
+        }
+
         DialogChooseLevel {
             id: dialogActivityConfig
             currentActivity: activity.activityInfo
@@ -263,25 +332,8 @@ ActivityBase {
         Bonus {
             id: bonus
             Component.onCompleted: win.connect(Activity.nextLevel)
+            onLoose: items.buttonsBlocked = false
         }
     }
 
 }
-
-/*
-Draw the following form, a line will be drawn with the previous point.
-When you reach again the first point, the figure will be finished.
-
-Examples:
-- draw a triangle
-- draw a right triangle
-- draw an isoceles triangle which is not a rectangle triangle
-- draw a square
-- draw a rectangle that is not a square
-- draw a losange which is not a square
-- draw a parallelogram which is not a square
-- draw a pentagram
-- draw an hexagon
-
-
-*/
