@@ -44,12 +44,16 @@ function initLevel() {
             if(levelProperties.introImage) {
                 items.tutorialImage.source = levelProperties.introImage;
             }
-            if(levelProperties.instruction) {
-                items.instruction.text = levelProperties.instruction;
-            }
         } else {
             items.tutorialInstruction.index = -1;
             items.tutorialImage.source = "";
+        }
+        if(levelProperties.instruction) {
+            items.instruction.text = levelProperties.instruction;
+        }
+        items.disableDrawing = levelProperties.disableDrawing ?? false;
+        if(levelProperties.drawInitialShape) {
+            levelProperties.drawInitialShape(items.points);
         }
     } else {
         // free mode, hide tutorial

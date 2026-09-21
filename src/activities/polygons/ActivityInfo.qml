@@ -27,6 +27,6 @@ ActivityInfo {
   //: Help manual
   manual: qsTr("Click on the grid to place points corresponding to the ends of the polygon's lines. As long as the shape is not closed, the last point is of a different color to indicate that it will be connected to the next point added. After placing at least 3 points, you can close the shape by clicking on the first or the last point. When the shape is closed, you can not add new points. You can move a point by dragging it, or delete it with a double-click. You can restart the shape by clicking on the reload button. When the shape is correct, press the OK button to validate your answer.")
   credit: ""
-  section: "discovery arts"
+  section: "math measures"
   createdInVersion: 270000
 }

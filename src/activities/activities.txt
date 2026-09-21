@@ -11,6 +11,7 @@ align4
 align4_2players
 alphabet-sequence
 analog_electricity
+area_perimeter
 baby_keyboard
 baby_mouse
 baby_tangram

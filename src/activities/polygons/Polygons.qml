@@ -20,6 +20,10 @@ ActivityBase {
     onStart: focus = true
     onStop: {}
 
+    property string datasetSource: "qrc:/gcompris/src/activities/polygons/TutorialDataset.qml"
+
+    property bool hasConfig: true
+
     pageComponent: Image {
         id: activityBackground
         source: "qrc:/gcompris/src/activities/guesscount/resource/backgroundW01.svg"
@@ -43,10 +47,11 @@ ActivityBase {
             property int currentLevel: activity.currentLevel
             property string mode: "tutorial"
             property bool isTutorialMode: mode === "tutorial" ? true : false
-            property alias tutorialDataset: tutorialDataset
+            property alias tutorialDataset: tutorialDataset.item
             property alias tutorialInstruction: tutorialInstruction
             property alias tutorialImage: tutorialImage
             property alias instruction: instructionPanel.textItem
+            property bool disableDrawing: false
             property bool buttonsBlocked: true
             property alias bonus: bonus
 
@@ -84,8 +89,9 @@ ActivityBase {
             }
         }
 
-        TutorialDataset {
+        Loader {
             id: tutorialDataset
+            source: activity.datasetSource
         }
 
         IntroMessage {
@@ -196,7 +202,7 @@ ActivityBase {
                     width: parent.width
                     height: parent.height
                     hoverEnabled: true
-                    enabled: !items.isClosed && !items.buttonsBlocked
+                    enabled: !items.isClosed && !items.buttonsBlocked && !items.disableDrawing
 
                     onClicked: (mouse) => {
                         mouse.accepted = true;
@@ -234,7 +240,7 @@ ActivityBase {
                         drag.minimumY: items.minDrag
                         drag.maximumX: items.maxDrag
                         drag.maximumY: items.maxDrag
-                        enabled: !items.buttonsBlocked
+                        enabled: !items.buttonsBlocked && !items.disableDrawing
 
                         onClicked: (mouse)=> {
                             mouse.accepted = true;
@@ -343,7 +349,7 @@ ActivityBase {
         Bar {
             id: bar
             level: items.currentLevel + 1
-            content: BarEnumContent { value: help | home | (items.isTutorialMode ? level : 0) | reload | activityConfig }
+            content: BarEnumContent { value: help | home | (items.isTutorialMode ? level : 0) | (items.disableDrawing ? 0 : reload) | (activity.hasConfig ? activityConfig : 0) }
             onHelpClicked: {
                 displayDialog(dialogHelp)
             }
