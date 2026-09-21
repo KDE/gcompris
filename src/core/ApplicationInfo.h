@@ -337,6 +337,14 @@ public:
      */
     Q_INVOKABLE Qt::ScreenOrientation getNativeOrientation();
 
+   /**
+    * Returns the current window orientation.
+    *
+    * Wraps QScreen::orientation: The current orientation of the window.
+    *
+    */
+    Q_INVOKABLE Qt::ScreenOrientation getOrientation();
+
     /**
      * Change the desired orientation of the application.
      *

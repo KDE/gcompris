@@ -107,6 +107,11 @@ Qt::ScreenOrientation ApplicationInfo::getNativeOrientation()
     return QGuiApplication::primaryScreen()->nativeOrientation();
 }
 
+Qt::ScreenOrientation ApplicationInfo::getOrientation()
+{
+    return QGuiApplication::primaryScreen()->orientation();
+}
+
 void ApplicationInfo::setApplicationWidth(const int newWidth)
 {
     if (newWidth != m_applicationWidth) {
