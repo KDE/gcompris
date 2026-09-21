@@ -80,8 +80,8 @@ function start(items_) {
             GCompris.ApplicationInfo.setKeepScreenOn(true);
             // lock screen orientation: (as changing orientation would reset the level...)
             GCompris.ApplicationInfo.setRequestedOrientation(14);
-            if (GCompris.ApplicationInfo.getNativeOrientation() === Qt.PortraitOrientation &&
-                items.activityBackground.width > items.activityBackground.height) {
+            var currentOrientation = GCompris.ApplicationInfo.getOrientation();
+            if (GCompris.ApplicationInfo.getNativeOrientation() === Qt.PortraitOrientation && currentOrientation != Qt.PortraitOrientation) {
                 /*
                  * Adjust tilting if native orientation != landscape but orientation is landscape.
                  *
@@ -90,8 +90,27 @@ function start(items_) {
                  *   isFeatureSupported(AxesOrientation) == false.
                  * Therefore we honour rotation manually.
                  */
-                items.tilt.swapAxes = true;
-                items.tilt.invertX = true;
+                if (currentOrientation === Qt.LandscapeOrientation) {
+                    items.tilt.swapAxes = true;
+                    items.tilt.invertX = true;
+                } else if (currentOrientation === Qt.InvertedLandscapeOrientation) {
+                    items.tilt.swapAxes = true;
+                    items.tilt.invertY = true;
+                } else if (currentOrientation === Qt.InvertedPortraitOrientation) {
+                    items.tilt.invertX = true;
+                    items.tilt.invertY = true;
+                }
+            } else if (GCompris.ApplicationInfo.getNativeOrientation() === Qt.LandscapeOrientation && currentOrientation != Qt.LandscapeOrientation) {
+                if (currentOrientation === Qt.PortraitOrientation) {
+                    items.tilt.swapAxes = true;
+                    items.tilt.invertX = true;
+                } else if (currentOrientation === Qt.InvertedPortraitOrientation) {
+                    items.tilt.swapAxes = true;
+                    items.tilt.invertY = true;
+                } else if (currentOrientation === Qt.InvertedLandscapeOrientation) {
+                    items.tilt.invertX = true;
+                    items.tilt.invertY = true;
+                }
             }
         }
         var levelsFile;
