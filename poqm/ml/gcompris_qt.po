@@ -1456,6 +1456,7 @@ msgstr ""
 
 #: activities/analog_electricity/ActivityConfig.qml:23
 #: activities/digital_electricity/ActivityConfig.qml:23
+#: activities/polygons/ActivityConfig.qml:23
 msgctxt "ActivityConfig|"
 msgid "Tutorial Mode"
 msgstr "ട്യൂട്ടോറിയൽ മോഡ്"
@@ -1463,6 +1464,7 @@ msgstr "ട്യൂട്ടോറിയൽ മോഡ്"
 #: activities/analog_electricity/ActivityConfig.qml:24
 #: activities/compass/ActivityConfig.qml:19
 #: activities/digital_electricity/ActivityConfig.qml:24
+#: activities/polygons/ActivityConfig.qml:24
 msgctxt "ActivityConfig|"
 msgid "Free Mode"
 msgstr "സ്വതന്ത്ര മോഡ്"
@@ -1473,6 +1475,7 @@ msgstr "സ്വതന്ത്ര മോഡ്"
 #: activities/graph-coloring/ActivityConfig.qml:32
 #: activities/guesscount/ActivityConfig.qml:39
 #: activities/keyboard_training/ActivityConfig.qml:45
+#: activities/polygons/ActivityConfig.qml:33
 #: activities/solar_system/ActivityConfig.qml:32
 #: activities/superbrain/ActivityConfig.qml:32
 #: activities/traffic/ActivityConfig.qml:32
@@ -2637,7 +2640,7 @@ msgstr ""
 "നിർമ്മിച്ചതിനുശേഷം നിങ്ങളുടെ ഫയൽ ലോഡ് ചെയ്യുക, അല്ലെങ്കിൽ 'ബിൽറ്റ്ഇൻ' ലവൽ സെറ്റ് "
 "തിരഞ്ഞെടുക്കുക."
 
-#: activities/balancebox/balancebox.js:105
+#: activities/balancebox/balancebox.js:124
 #, qt-format
 msgctxt "balancebox|"
 msgid "The file '%1' is missing!<br>Falling back to builtin levels."
@@ -23048,6 +23051,168 @@ msgid "Continue"
 msgstr "തുടരുക"
 
 #. Activity title
+#: activities/polygons/ActivityInfo.qml:19
+msgctxt "ActivityInfo|"
+msgid "Polygons"
+msgstr ""
+
+#. Help title
+#: activities/polygons/ActivityInfo.qml:21
+msgctxt "ActivityInfo|"
+msgid "Learn about special polygons and draw them in a grid."
+msgstr ""
+
+#. Help goal
+#: activities/polygons/ActivityInfo.qml:24
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Learn about some digital painting tools."
+msgctxt "ActivityInfo|"
+msgid "Learn about special polygons."
+msgstr "ഡിജിറ്റൽ പെയിന്റിങ് ടൂളുകളെ കുറിച്ച് പഠിക്കൽ."
+
+#. Help manual
+#: activities/polygons/ActivityInfo.qml:28
+msgctxt "ActivityInfo|"
+msgid ""
+"Click on the grid to place points corresponding to the ends of the polygon's "
+"lines. As long as the shape is not closed, the last point is of a different "
+"color to indicate that it will be connected to the next point added. After "
+"placing at least 3 points, you can close the shape by clicking on the first "
+"or the last point. When the shape is closed, you can not add new points. You "
+"can move a point by dragging it, or delete it with a double-click. You can "
+"restart the shape by clicking on the reload button. When the shape is "
+"correct, press the OK button to validate your answer."
+msgstr ""
+
+#: activities/polygons/TutorialDataset.qml:20
+msgctxt "TutorialDataset|"
+msgid "A polygon is a closed shape made of at least 3 connected lines."
+msgstr ""
+
+#: activities/polygons/TutorialDataset.qml:21
+msgctxt "TutorialDataset|"
+msgid ""
+"To draw a polygon, click on the grid to place the ends of the polygon's "
+"lines."
+msgstr ""
+
+#: activities/polygons/TutorialDataset.qml:22
+msgctxt "TutorialDataset|"
+msgid ""
+"After placing at least 3 points, you can close the shape by clicking on the "
+"first or the last point."
+msgstr ""
+
+#: activities/polygons/TutorialDataset.qml:23
+#, fuzzy
+#| msgctxt "VerticalSubtraction|"
+#| msgid "The result should not be a negative number."
+msgctxt "TutorialDataset|"
+msgid "The points should not be all aligned."
+msgstr "ഉത്തരം ന്യൂനസംഖ്യ ആകാൻ പാടില്ല."
+
+#: activities/polygons/TutorialDataset.qml:26
+msgctxt "TutorialDataset|"
+msgid "Draw a polygon."
+msgstr ""
+
+#: activities/polygons/TutorialDataset.qml:39
+msgctxt "TutorialDataset|"
+msgid "A triangle is a polygon with 3 sides."
+msgstr ""
+
+#: activities/polygons/TutorialDataset.qml:42
+#, fuzzy
+#| msgctxt "instruments|"
+#| msgid "Find the triangle"
+msgctxt "TutorialDataset|"
+msgid "Draw a triangle."
+msgstr "ട്രയാങ്കിൾ കണ്ടെത്തൂ"
+
+#: activities/polygons/TutorialDataset.qml:57
+msgctxt "TutorialDataset|"
+msgid ""
+"A right triangle is a triangle in which two sides are perpendicular, forming "
+"a right angle (90 degrees)."
+msgstr ""
+
+#: activities/polygons/TutorialDataset.qml:60
+msgctxt "TutorialDataset|"
+msgid "Draw a right triangle."
+msgstr ""
+
+#: activities/polygons/TutorialDataset.qml:74
+msgctxt "TutorialDataset|"
+msgid ""
+"An isosceles triangle is a triangle with two sides of equal length and two "
+"angles of equal measure."
+msgstr ""
+
+#: activities/polygons/TutorialDataset.qml:77
+msgctxt "TutorialDataset|"
+msgid "Draw an isosceles triangle."
+msgstr ""
+
+#: activities/polygons/TutorialDataset.qml:100
+msgctxt "TutorialDataset|"
+msgid "A quadrilateral is a four-sided polygon, having 4 sides and 4 corners."
+msgstr ""
+
+#: activities/polygons/TutorialDataset.qml:103
+msgctxt "TutorialDataset|"
+msgid "Draw a quadrilateral."
+msgstr ""
+
+#: activities/polygons/TutorialDataset.qml:118
+msgctxt "TutorialDataset|"
+msgid "A rectangle is a quadrilateral with 4 right angles."
+msgstr ""
+
+#: activities/polygons/TutorialDataset.qml:121
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Decimal number system."
+msgctxt "TutorialDataset|"
+msgid "Draw a rectangle."
+msgstr "ദശാംശ സംഖ്യ വ്യവസ്ഥ."
+
+#: activities/polygons/TutorialDataset.qml:142
+msgctxt "TutorialDataset|"
+msgid "A square is a rectangle with 4 sides of equal length."
+msgstr ""
+
+#: activities/polygons/TutorialDataset.qml:145
+#, fuzzy
+#| msgctxt "Data|"
+#| msgid "Percentages with a square."
+msgctxt "TutorialDataset|"
+msgid "Draw a square."
+msgstr "സമചതുരം ഉപയോഗിച്ച് ശതമാനങ്ങൾ."
+
+#: activities/polygons/TutorialDataset.qml:168
+msgctxt "TutorialDataset|"
+msgid ""
+"A parallelogram is a quadrilateral with opposite sides of equal length and "
+"opposite angles of equal measure."
+msgstr ""
+
+#: activities/polygons/TutorialDataset.qml:171
+msgctxt "TutorialDataset|"
+msgid "Draw a parallelogram which is not a rectangle."
+msgstr ""
+
+#: activities/polygons/TutorialDataset.qml:192
+msgctxt "TutorialDataset|"
+msgid "A rhombus is a parallelogram with four sides of equal length."
+msgstr ""
+
+#: activities/polygons/TutorialDataset.qml:195
+msgctxt "TutorialDataset|"
+msgid "Draw a rhombus which is not a square."
+msgstr ""
+
+#. Activity title
 #: activities/positions/ActivityInfo.qml:15
 msgctxt "ActivityInfo|"
 msgid "Positions"
@@ -28876,22 +29041,22 @@ msgctxt "GCCreationHandler|"
 msgid "Open folder"
 msgstr "ഫോൾഡർ തുറക്കുക"
 
-#: core/IntroMessage.qml:142
+#: core/IntroMessage.qml:145
 msgctxt "IntroMessage|"
 msgid "Previous"
 msgstr "മുൻപുള്ളത്"
 
-#: core/IntroMessage.qml:157
+#: core/IntroMessage.qml:160
 msgctxt "IntroMessage|"
 msgid "Next"
 msgstr "അടുത്തത്"
 
-#: core/IntroMessage.qml:171
+#: core/IntroMessage.qml:174
 msgctxt "IntroMessage|"
 msgid "Skip"
 msgstr "നോക്കാതെ വിടുക"
 
-#: core/IntroMessage.qml:171
+#: core/IntroMessage.qml:174
 msgctxt "IntroMessage|"
 msgid "Start"
 msgstr "തുടങ്ങാം"
@@ -29863,13 +30028,6 @@ msgstr "തുടങ്ങാം"
 #~ msgctxt "Data|"
 #~ msgid "Select three-fifths of the rectangle."
 #~ msgstr "ശരിയായ നിറമുള്ള പൂമ്പാറ്റയെ തിരഞ്ഞെടുക്കുക."
-
-#, fuzzy
-#~| msgctxt "ActivityInfo|"
-#~| msgid "Decimal number system."
-#~ msgctxt "Data|"
-#~ msgid "Decimal numbers with a rectangle."
-#~ msgstr "ദശാംശ സംഖ്യ വ്യവസ്ഥ."
 
 #, fuzzy
 #~| msgctxt "ActivityConfig|"

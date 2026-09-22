@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-08 00:40+0000\n"
+"POT-Creation-Date: 2026-09-22 00:40+0000\n"
 "PO-Revision-Date: 2024-09-19 14:56+0300\n"
 "Last-Translator: Antonis Geralis <capoiosct@gmail.com>\n"
 "Language-Team: Greek <kde-i18n-el@kde.org>\n"
@@ -1151,6 +1151,12 @@ msgstr ""
 #, kde-format
 msgid "Click the drum to recreate the rhythm"
 msgstr "Κάνε κλικ στο τύμπανο για αναπαραγωγή του ρυθμού"
+
+#. i18n: intro voices, see GCompris-voices/README.md - activity: "polygons"
+#: activities/polygons/ActivityInfo.qml:22
+#, kde-format
+msgid "Draw the requested polygons by clicking on the grid."
+msgstr ""
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "positions"
 #: activities/positions/ActivityInfo.qml:18

@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gcompris_voices\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-08 00:40+0000\n"
+"POT-Creation-Date: 2026-09-22 00:40+0000\n"
 "PO-Revision-Date: 2026-09-08 11:20+0200\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
@@ -1135,6 +1135,12 @@ msgstr ""
 #, kde-format
 msgid "Click the drum to recreate the rhythm"
 msgstr "Fai clic sul tamburo per ricreare il ritmo"
+
+#. i18n: intro voices, see GCompris-voices/README.md - activity: "polygons"
+#: activities/polygons/ActivityInfo.qml:22
+#, kde-format
+msgid "Draw the requested polygons by clicking on the grid."
+msgstr ""
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "positions"
 #: activities/positions/ActivityInfo.qml:18

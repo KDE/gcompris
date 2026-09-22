@@ -1519,6 +1519,7 @@ msgstr "الف/ب/پ/ت/ث/ج/چ/ح/خ/د/ذ/ر/ز/ژ/س/ش/ص/ض/ط/ظ/ع/غ/ف
 
 #: activities/analog_electricity/ActivityConfig.qml:23
 #: activities/digital_electricity/ActivityConfig.qml:23
+#: activities/polygons/ActivityConfig.qml:23
 msgctxt "ActivityConfig|"
 msgid "Tutorial Mode"
 msgstr "حالت تمرین"
@@ -1526,6 +1527,7 @@ msgstr "حالت تمرین"
 #: activities/analog_electricity/ActivityConfig.qml:24
 #: activities/compass/ActivityConfig.qml:19
 #: activities/digital_electricity/ActivityConfig.qml:24
+#: activities/polygons/ActivityConfig.qml:24
 msgctxt "ActivityConfig|"
 msgid "Free Mode"
 msgstr "حالت آزاد"
@@ -1536,6 +1538,7 @@ msgstr "حالت آزاد"
 #: activities/graph-coloring/ActivityConfig.qml:32
 #: activities/guesscount/ActivityConfig.qml:39
 #: activities/keyboard_training/ActivityConfig.qml:45
+#: activities/polygons/ActivityConfig.qml:33
 #: activities/solar_system/ActivityConfig.qml:32
 #: activities/superbrain/ActivityConfig.qml:32
 #: activities/traffic/ActivityConfig.qml:32
@@ -2707,7 +2710,7 @@ msgid ""
 "settings menu and then load your file, or choose the 'built-in' level set."
 msgstr ""
 
-#: activities/balancebox/balancebox.js:105
+#: activities/balancebox/balancebox.js:124
 #, qt-format
 msgctxt "balancebox|"
 msgid "The file '%1' is missing!<br>Falling back to builtin levels."
@@ -22176,6 +22179,156 @@ msgid "Continue"
 msgstr "ادامه"
 
 #. Activity title
+#: activities/polygons/ActivityInfo.qml:19
+msgctxt "ActivityInfo|"
+msgid "Polygons"
+msgstr ""
+
+#. Help title
+#: activities/polygons/ActivityInfo.qml:21
+msgctxt "ActivityInfo|"
+msgid "Learn about special polygons and draw them in a grid."
+msgstr ""
+
+#. Help goal
+#: activities/polygons/ActivityInfo.qml:24
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Learn about multiples and factors."
+msgctxt "ActivityInfo|"
+msgid "Learn about special polygons."
+msgstr "یادگیری ضرب ها و فاکتور ها."
+
+#. Help manual
+#: activities/polygons/ActivityInfo.qml:28
+msgctxt "ActivityInfo|"
+msgid ""
+"Click on the grid to place points corresponding to the ends of the polygon's "
+"lines. As long as the shape is not closed, the last point is of a different "
+"color to indicate that it will be connected to the next point added. After "
+"placing at least 3 points, you can close the shape by clicking on the first "
+"or the last point. When the shape is closed, you can not add new points. You "
+"can move a point by dragging it, or delete it with a double-click. You can "
+"restart the shape by clicking on the reload button. When the shape is "
+"correct, press the OK button to validate your answer."
+msgstr ""
+
+#: activities/polygons/TutorialDataset.qml:20
+msgctxt "TutorialDataset|"
+msgid "A polygon is a closed shape made of at least 3 connected lines."
+msgstr ""
+
+#: activities/polygons/TutorialDataset.qml:21
+msgctxt "TutorialDataset|"
+msgid ""
+"To draw a polygon, click on the grid to place the ends of the polygon's "
+"lines."
+msgstr ""
+
+#: activities/polygons/TutorialDataset.qml:22
+msgctxt "TutorialDataset|"
+msgid ""
+"After placing at least 3 points, you can close the shape by clicking on the "
+"first or the last point."
+msgstr ""
+
+#: activities/polygons/TutorialDataset.qml:23
+msgctxt "TutorialDataset|"
+msgid "The points should not be all aligned."
+msgstr ""
+
+#: activities/polygons/TutorialDataset.qml:26
+msgctxt "TutorialDataset|"
+msgid "Draw a polygon."
+msgstr ""
+
+#: activities/polygons/TutorialDataset.qml:39
+msgctxt "TutorialDataset|"
+msgid "A triangle is a polygon with 3 sides."
+msgstr ""
+
+#: activities/polygons/TutorialDataset.qml:42
+msgctxt "TutorialDataset|"
+msgid "Draw a triangle."
+msgstr ""
+
+#: activities/polygons/TutorialDataset.qml:57
+msgctxt "TutorialDataset|"
+msgid ""
+"A right triangle is a triangle in which two sides are perpendicular, forming "
+"a right angle (90 degrees)."
+msgstr ""
+
+#: activities/polygons/TutorialDataset.qml:60
+msgctxt "TutorialDataset|"
+msgid "Draw a right triangle."
+msgstr ""
+
+#: activities/polygons/TutorialDataset.qml:74
+msgctxt "TutorialDataset|"
+msgid ""
+"An isosceles triangle is a triangle with two sides of equal length and two "
+"angles of equal measure."
+msgstr ""
+
+#: activities/polygons/TutorialDataset.qml:77
+msgctxt "TutorialDataset|"
+msgid "Draw an isosceles triangle."
+msgstr ""
+
+#: activities/polygons/TutorialDataset.qml:100
+msgctxt "TutorialDataset|"
+msgid "A quadrilateral is a four-sided polygon, having 4 sides and 4 corners."
+msgstr ""
+
+#: activities/polygons/TutorialDataset.qml:103
+msgctxt "TutorialDataset|"
+msgid "Draw a quadrilateral."
+msgstr ""
+
+#: activities/polygons/TutorialDataset.qml:118
+msgctxt "TutorialDataset|"
+msgid "A rectangle is a quadrilateral with 4 right angles."
+msgstr ""
+
+#: activities/polygons/TutorialDataset.qml:121
+msgctxt "TutorialDataset|"
+msgid "Draw a rectangle."
+msgstr ""
+
+#: activities/polygons/TutorialDataset.qml:142
+msgctxt "TutorialDataset|"
+msgid "A square is a rectangle with 4 sides of equal length."
+msgstr ""
+
+#: activities/polygons/TutorialDataset.qml:145
+msgctxt "TutorialDataset|"
+msgid "Draw a square."
+msgstr ""
+
+#: activities/polygons/TutorialDataset.qml:168
+msgctxt "TutorialDataset|"
+msgid ""
+"A parallelogram is a quadrilateral with opposite sides of equal length and "
+"opposite angles of equal measure."
+msgstr ""
+
+#: activities/polygons/TutorialDataset.qml:171
+msgctxt "TutorialDataset|"
+msgid "Draw a parallelogram which is not a rectangle."
+msgstr ""
+
+#: activities/polygons/TutorialDataset.qml:192
+msgctxt "TutorialDataset|"
+msgid "A rhombus is a parallelogram with four sides of equal length."
+msgstr ""
+
+#: activities/polygons/TutorialDataset.qml:195
+msgctxt "TutorialDataset|"
+msgid "Draw a rhombus which is not a square."
+msgstr ""
+
+#. Activity title
 #: activities/positions/ActivityInfo.qml:15
 msgctxt "ActivityInfo|"
 msgid "Positions"
@@ -27837,22 +27990,22 @@ msgctxt "GCCreationHandler|"
 msgid "Open folder"
 msgstr ""
 
-#: core/IntroMessage.qml:142
+#: core/IntroMessage.qml:145
 msgctxt "IntroMessage|"
 msgid "Previous"
 msgstr "قبلی"
 
-#: core/IntroMessage.qml:157
+#: core/IntroMessage.qml:160
 msgctxt "IntroMessage|"
 msgid "Next"
 msgstr "بعدی"
 
-#: core/IntroMessage.qml:171
+#: core/IntroMessage.qml:174
 msgctxt "IntroMessage|"
 msgid "Skip"
 msgstr "پرش"
 
-#: core/IntroMessage.qml:171
+#: core/IntroMessage.qml:174
 msgctxt "IntroMessage|"
 msgid "Start"
 msgstr "شروع"
