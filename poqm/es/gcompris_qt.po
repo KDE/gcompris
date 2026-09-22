@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: gcompris_qt\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-12-22 23:51+0100\n"
-"PO-Revision-Date: 2026-09-09 12:33+0100\n"
+"PO-Revision-Date: 2026-09-22 12:33+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Language: es\n"
-"X-Generator: Lokalize 26.08.0\n"
+"X-Generator: Lokalize 26.08.1\n"
 "X-Qt-Contexts: true\n"
 
 #: activities/adjacent_numbers/ActivityConfig.qml:19
@@ -23411,22 +23411,19 @@ msgstr "Continuar"
 #: activities/polygons/ActivityInfo.qml:19
 msgctxt "ActivityInfo|"
 msgid "Polygons"
-msgstr ""
+msgstr "Polígonos"
 
 #. Help title
 #: activities/polygons/ActivityInfo.qml:21
 msgctxt "ActivityInfo|"
 msgid "Learn about special polygons and draw them in a grid."
-msgstr ""
+msgstr "Aprende sobre polígonos especiales y dibújalos en una cuadrícula."
 
 #. Help goal
 #: activities/polygons/ActivityInfo.qml:24
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Learn about some digital painting tools."
 msgctxt "ActivityInfo|"
 msgid "Learn about special polygons."
-msgstr "Aprende a usar algunas herramientas de dibujo digital."
+msgstr "Aprende sobre polígonos especiales."
 
 #. Help manual
 #: activities/polygons/ActivityInfo.qml:28
@@ -23441,11 +23438,22 @@ msgid ""
 "restart the shape by clicking on the reload button. When the shape is "
 "correct, press the OK button to validate your answer."
 msgstr ""
+"Haz clic en la cuadrícula para colocar los puntos correspondientes a los "
+"extremos de las líneas del polígono. Mientras la figura no esté cerrada, el "
+"último punto aparecerá de un color diferente para indicar que se conectará "
+"con el siguiente punto que añadas. Tras colocar al menos 3 puntos, puedes "
+"cerrar la figura haciendo clic en el primer o en el último punto. Tras "
+"cerrar la figura, no podrás añadir más puntos. Puedes mover un punto "
+"arrastrándolo o eliminarlo con un doble clic. Puedes reiniciar la figura "
+"haciendo clic en el botón de «volver a cargar». Cuando la figura sea "
+"correcta, pulsa el botón «Aceptar» para validar tu respuesta."
 
 #: activities/polygons/TutorialDataset.qml:20
 msgctxt "TutorialDataset|"
 msgid "A polygon is a closed shape made of at least 3 connected lines."
 msgstr ""
+"Un polígono es una figura cerrada formada por al menos tres líneas "
+"conectadas."
 
 #: activities/polygons/TutorialDataset.qml:21
 msgctxt "TutorialDataset|"
@@ -23453,6 +23461,8 @@ msgid ""
 "To draw a polygon, click on the grid to place the ends of the polygon's "
 "lines."
 msgstr ""
+"Para dibujar un polígono, haz clic en la cuadrícula para colocar los "
+"extremos de las líneas del polígono."
 
 #: activities/polygons/TutorialDataset.qml:22
 msgctxt "TutorialDataset|"
@@ -23460,32 +23470,28 @@ msgid ""
 "After placing at least 3 points, you can close the shape by clicking on the "
 "first or the last point."
 msgstr ""
+"Tras colocar al menos 3 puntos, puedes cerrar la figura haciendo clic en el "
+"primer o en el último punto."
 
 #: activities/polygons/TutorialDataset.qml:23
-#, fuzzy
-#| msgctxt "VerticalSubtraction|"
-#| msgid "The result should not be a negative number."
 msgctxt "TutorialDataset|"
 msgid "The points should not be all aligned."
-msgstr "El resultado no puede ser un número negativo."
+msgstr "Los puntos no deben estar todos alineados."
 
 #: activities/polygons/TutorialDataset.qml:26
 msgctxt "TutorialDataset|"
 msgid "Draw a polygon."
-msgstr ""
+msgstr "Dibuja un polígono."
 
 #: activities/polygons/TutorialDataset.qml:39
 msgctxt "TutorialDataset|"
 msgid "A triangle is a polygon with 3 sides."
-msgstr ""
+msgstr "Un triángulo es un polígono con 3 lados."
 
 #: activities/polygons/TutorialDataset.qml:42
-#, fuzzy
-#| msgctxt "instruments|"
-#| msgid "Find the triangle"
 msgctxt "TutorialDataset|"
 msgid "Draw a triangle."
-msgstr "Encuentra el triángulo"
+msgstr "Dibuja un triángulo."
 
 #: activities/polygons/TutorialDataset.qml:57
 msgctxt "TutorialDataset|"
@@ -23493,11 +23499,13 @@ msgid ""
 "A right triangle is a triangle in which two sides are perpendicular, forming "
 "a right angle (90 degrees)."
 msgstr ""
+"Un triángulo rectángulo es un triángulo en el que dos de los lados son "
+"perpendiculares y forman un ángulo recto (90 grados)."
 
 #: activities/polygons/TutorialDataset.qml:60
 msgctxt "TutorialDataset|"
 msgid "Draw a right triangle."
-msgstr ""
+msgstr "Dibuja un triángulo rectángulo."
 
 #: activities/polygons/TutorialDataset.qml:74
 msgctxt "TutorialDataset|"
@@ -23505,44 +23513,45 @@ msgid ""
 "An isosceles triangle is a triangle with two sides of equal length and two "
 "angles of equal measure."
 msgstr ""
+"Un triángulo isósceles es un triángulo con dos lados de igual longitud y dos "
+"ángulos de igual medida."
 
 #: activities/polygons/TutorialDataset.qml:77
 msgctxt "TutorialDataset|"
 msgid "Draw an isosceles triangle."
-msgstr ""
+msgstr "Dibuja un triángulo isósceles."
 
 #: activities/polygons/TutorialDataset.qml:100
 msgctxt "TutorialDataset|"
 msgid "A quadrilateral is a four-sided polygon, having 4 sides and 4 corners."
 msgstr ""
+"Un cuadrilátero es un polígono de cuatro lados que tiene 4 lados y 4 "
+"vértices."
 
 #: activities/polygons/TutorialDataset.qml:103
 msgctxt "TutorialDataset|"
 msgid "Draw a quadrilateral."
-msgstr ""
+msgstr "Dibuja un cuadrilátero."
 
 #: activities/polygons/TutorialDataset.qml:118
 msgctxt "TutorialDataset|"
 msgid "A rectangle is a quadrilateral with 4 right angles."
-msgstr ""
+msgstr "Un rectángulo es un cuadrilátero con 4 ángulos rectos."
 
 #: activities/polygons/TutorialDataset.qml:121
 msgctxt "TutorialDataset|"
 msgid "Draw a rectangle."
-msgstr ""
+msgstr "Dibuja un rectángulo."
 
 #: activities/polygons/TutorialDataset.qml:142
 msgctxt "TutorialDataset|"
 msgid "A square is a rectangle with 4 sides of equal length."
-msgstr ""
+msgstr "Un cuadrado es un rectángulo con 4 lados de igual longitud."
 
 #: activities/polygons/TutorialDataset.qml:145
-#, fuzzy
-#| msgctxt "Data|"
-#| msgid "Percentages with a square."
 msgctxt "TutorialDataset|"
 msgid "Draw a square."
-msgstr "Porcentajes con un cuadrado."
+msgstr "Dibuja un cuadrado."
 
 #: activities/polygons/TutorialDataset.qml:168
 msgctxt "TutorialDataset|"
@@ -23550,21 +23559,23 @@ msgid ""
 "A parallelogram is a quadrilateral with opposite sides of equal length and "
 "opposite angles of equal measure."
 msgstr ""
+"Un paralelogramo es un cuadrilátero con los lados opuestos de igual longitud "
+"y con los ángulos opuestos de igual medida."
 
 #: activities/polygons/TutorialDataset.qml:171
 msgctxt "TutorialDataset|"
 msgid "Draw a parallelogram which is not a rectangle."
-msgstr ""
+msgstr "Dibuja un paralelogramo que no sea un rectángulo."
 
 #: activities/polygons/TutorialDataset.qml:192
 msgctxt "TutorialDataset|"
 msgid "A rhombus is a parallelogram with four sides of equal length."
-msgstr ""
+msgstr "Un rombo es un paralelogramo con los cuatro lados de igual longitud."
 
 #: activities/polygons/TutorialDataset.qml:195
 msgctxt "TutorialDataset|"
 msgid "Draw a rhombus which is not a square."
-msgstr ""
+msgstr "Dibuja un rombo que no sea un cuadrado."
 
 #. Activity title
 #: activities/positions/ActivityInfo.qml:15

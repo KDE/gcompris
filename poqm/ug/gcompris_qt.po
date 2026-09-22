@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
+"PO-Revision-Date: 2026-09-22 18:03+0900\n"
 "Last-Translator: Abduqadir Abliz <sahranbay@gmail.com>\n"
-"Language-Team: \n"
+"Language-Team: Uyghur <kde-i18n-doc@kde.org>\n"
 "Language: ug\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -81,7 +81,6 @@ msgctxt "Adjacent_numbers|"
 msgid "Find the %n previous number(s)."
 msgid_plural "Find the %n previous number(s)."
 msgstr[0] ""
-msgstr[1] ""
 
 #. One or more numbers to find, at the end of the list. Don't display the %n in the translation if possible (actual English strings are "Find the next number" and "Find the next numbers")
 #: activities/adjacent_numbers/Adjacent_numbers.qml:64
@@ -90,7 +89,6 @@ msgctxt "Adjacent_numbers|"
 msgid "Find the %n next number(s)."
 msgid_plural "Find the %n next number(s)."
 msgstr[0] ""
-msgstr[1] ""
 
 #. One or more numbers to find, not at the beginning nor at the end of the list. Don't display the %n in the translation if possible (actual English strings are "Find the in-between number" and "Find the in-between numbers")
 #: activities/adjacent_numbers/Adjacent_numbers.qml:68
@@ -99,7 +97,6 @@ msgctxt "Adjacent_numbers|"
 msgid "Find the %n in-between number(s)"
 msgid_plural "Find the %n in-between number(s)"
 msgstr[0] ""
-msgstr[1] ""
 
 #. More than one number to find, with at least one number at the beginning or at the end of the list. Don't display the %n in the translation if possible (actual English string is "Find the missing numbers")
 #: activities/adjacent_numbers/Adjacent_numbers.qml:72
@@ -108,7 +105,6 @@ msgctxt "Adjacent_numbers|"
 msgid "Find the %n missing numbers"
 msgid_plural "Find the %n missing numbers"
 msgstr[0] ""
-msgstr[1] ""
 
 #: activities/adjacent_numbers/resource/1/Data.qml:9
 msgctxt "Data|"
@@ -1984,6 +1980,13 @@ msgid ""
 "    Other keys will just play a click sound.\n"
 "    "
 msgstr ""
+"Type any key on the keyboard.\n"
+"    Letters, numbers and other character keys will display the corresponding "
+"character on the screen.\n"
+"    If there is a corresponding voice it will be played, else it will play a "
+"bleep sound.\n"
+"    Other keys will just play a click sound.\n"
+"    "
 
 #. Activity title
 #: activities/baby_mouse/ActivityInfo.qml:14
@@ -2111,6 +2114,10 @@ msgid ""
 "'subtitle' button will make the text slightly less bigger. Clicking on "
 "'paragraph' will remove the formatting."
 msgstr ""
+"Just type on the real or virtual keyboard like in a word processor.\n"
+"    Clicking on the 'Title' button will make the text bigger. Similarly, the "
+"'subtitle' button will make the text slightly less bigger. Clicking on "
+"'paragraph' will remove the formatting."
 
 #: activities/baby_wordprocessor/ActivityInfo.qml:26
 msgctxt "ActivityInfo|"
@@ -4107,6 +4114,24 @@ msgid ""
 "little bit and try to predict your opponent's future moves, so that you can "
 "catch him or secure your pieces from his attacks."
 msgstr ""
+"In this activity you discover the chess game by playing against the "
+"computer. It displays the possible target positions for any selected piece "
+"which helps the children understand how pieces moves. At first level the "
+"computer is fully random to give more chances to the children. As level "
+"increases, the computer plays better. You can use the arrow buttons to "
+"manually select the difficulty level.\n"
+"\n"
+"You can achieve a mate sooner if you follow these simple rules:\n"
+"    Trying to drive your opponent's king in the corner.\n"
+"<b>Explanation</b>: this way your opponent's king would have only 3 "
+"directions to move instead of 8 from a better position.\n"
+"    'Making a trap'. Use your pawns as baits.\n"
+"<b>Explanation</b>: this way you can lure your opponent out of his 'comfort "
+"zone'.\n"
+"    Be patient enough.\n"
+"<b>Explanation</b>: don't rush too quick, be patient. Let yourself think a "
+"little bit and try to predict your opponent's future moves, so that you can "
+"catch him or secure your pieces from his attacks."
 
 #: activities/chess/ActivityInfo.qml:31
 #: activities/chess_2players/ActivityInfo.qml:31
@@ -4207,6 +4232,21 @@ msgid ""
 "little bit and try to predict your opponent's future moves, so that you can "
 "catch him or secure your pieces from his attacks."
 msgstr ""
+"In this activity you discover the chess game by playing against a friend. It "
+"displays the possible target positions for any selected piece which helps "
+"the children understand how pieces moves.\n"
+"\n"
+"You can achieve a mate sooner if you follow these simple rules:\n"
+"    Trying to drive your opponent's king in the corner.\n"
+"<b>Explanation</b>: this way your opponent's king would have only 3 "
+"directions to move instead of 8 from a better position.\n"
+"    'Making a trap'. Use your pawns as baits.\n"
+"<b>Explanation</b>: this way you can lure your opponent out of his 'comfort "
+"zone'.\n"
+"    Be patient enough.\n"
+"<b>Explanation</b>: don't rush too quick, be patient. Let yourself think a "
+"little bit and try to predict your opponent's future moves, so that you can "
+"catch him or secure your pieces from his attacks."
 
 #. Activity title
 #: activities/chess_partyend/ActivityInfo.qml:15
@@ -4246,6 +4286,21 @@ msgid ""
 "little bit and try to predict your opponent's future moves, so that you can "
 "catch him or secure your pieces from his attacks."
 msgstr ""
+"In this activity you discover the chess game by playing only the end of a "
+"game. It displays the possible target positions for any selected piece which "
+"helps the children understand how pieces moves.\n"
+"\n"
+"You can achieve a mate sooner if you follow these simple rules:\n"
+"    Trying to drive your opponent's king in the corner.\n"
+"<b>Explanation</b>: this way your opponent's king would have only 3 "
+"directions to move instead of 8 from a better position.\n"
+"    'Making a trap'. Use your pawns as baits.\n"
+"<b>Explanation</b>: this way you can lure your opponent out of his 'comfort "
+"zone'.\n"
+"    Be patient enough.\n"
+"<b>Explanation</b>: don't rush too quick, be patient. Let yourself think a "
+"little bit and try to predict your opponent's future moves, so that you can "
+"catch him or secure your pieces from his attacks."
 
 #. Activity title
 #: activities/chronos/ActivityInfo.qml:19
@@ -4306,22 +4361,22 @@ msgstr ""
 #: activities/chronos/resource/board/board1_0.qml:46
 msgctxt "board1_0|"
 msgid "1"
-msgstr "1"
+msgstr ""
 
 #: activities/chronos/resource/board/board1_0.qml:54
 msgctxt "board1_0|"
 msgid "2"
-msgstr "2"
+msgstr ""
 
 #: activities/chronos/resource/board/board1_0.qml:62
 msgctxt "board1_0|"
 msgid "3"
-msgstr "3"
+msgstr ""
 
 #: activities/chronos/resource/board/board1_0.qml:70
 msgctxt "board1_0|"
 msgid "4"
-msgstr "4"
+msgstr ""
 
 #: activities/chronos/resource/board/board2_0.qml:15
 msgctxt "board2_0|"
@@ -4356,22 +4411,22 @@ msgstr ""
 #: activities/chronos/resource/board/board3_0.qml:46
 msgctxt "board3_0|"
 msgid "1"
-msgstr "1"
+msgstr ""
 
 #: activities/chronos/resource/board/board3_0.qml:54
 msgctxt "board3_0|"
 msgid "2"
-msgstr "2"
+msgstr ""
 
 #: activities/chronos/resource/board/board3_0.qml:62
 msgctxt "board3_0|"
 msgid "3"
-msgstr "3"
+msgstr ""
 
 #: activities/chronos/resource/board/board3_0.qml:70
 msgctxt "board3_0|"
 msgid "4"
-msgstr "4"
+msgstr ""
 
 #: activities/chronos/resource/board/board4_0.qml:15
 msgctxt "board4_0|"
@@ -4381,22 +4436,22 @@ msgstr ""
 #: activities/chronos/resource/board/board4_0.qml:46
 msgctxt "board4_0|"
 msgid "1"
-msgstr "1"
+msgstr ""
 
 #: activities/chronos/resource/board/board4_0.qml:54
 msgctxt "board4_0|"
 msgid "2"
-msgstr "2"
+msgstr ""
 
 #: activities/chronos/resource/board/board4_0.qml:62
 msgctxt "board4_0|"
 msgid "3"
-msgstr "3"
+msgstr ""
 
 #: activities/chronos/resource/board/board4_0.qml:70
 msgctxt "board4_0|"
 msgid "4"
-msgstr "4"
+msgstr ""
 
 #: activities/chronos/resource/board/board5_0.qml:16
 msgctxt "board5_0|"
@@ -4795,28 +4850,25 @@ msgid "Set the watch to:"
 msgstr ""
 
 #: activities/clockgame/Clockgame.qml:133
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "Clockgame|"
 msgid "%n hour(s)"
 msgid_plural "%n hour(s)"
 msgstr[0] "%n سائەت"
-msgstr[1] "%n سائەت"
 
 #: activities/clockgame/Clockgame.qml:136
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "Clockgame|"
 msgid "%n minute(s)"
 msgid_plural "%n minute(s)"
 msgstr[0] "%n مىنۇت"
-msgstr[1] ""
 
 #: activities/clockgame/Clockgame.qml:139
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "Clockgame|"
 msgid "%n second(s)"
 msgid_plural "%n second(s)"
 msgstr[0] "%n سېكۇنت"
-msgstr[1] ""
 
 #: activities/clockgame/resource/1/Data.qml:13
 msgctxt "Data|"
@@ -11237,7 +11289,7 @@ msgstr "بالېئارىك تاقىم ئاراللىرى"
 #: activities/geo-country/resource/board/board18_0.qml:141
 msgctxt "board18_0|"
 msgid "Ceuta"
-msgstr ""
+msgstr "سېيتا"
 
 #. Autonomous communities of Spain: Melilla
 #: activities/geo-country/resource/board/board18_0.qml:148
@@ -13026,7 +13078,7 @@ msgstr "ئانتاركتىكا"
 #: activities/geography/resource/board/board1_0.qml:52
 msgctxt "board1_0|"
 msgid "America"
-msgstr ""
+msgstr "ئامېرىكا"
 
 #: activities/geography/resource/board/board1_0.qml:59
 msgctxt "board1_0|"
@@ -16490,12 +16542,12 @@ msgstr ""
 #: activities/letter-in-word/ActivityConfig.qml:58
 msgctxt "ActivityConfig|"
 msgid "Upper Case"
-msgstr ""
+msgstr "يۇقىرىسى"
 
 #: activities/letter-in-word/ActivityConfig.qml:59
 msgctxt "ActivityConfig|"
 msgid "Lower Case"
-msgstr ""
+msgstr "تۆۋەنرەك"
 
 #. Activity title
 #: activities/letter-in-word/ActivityInfo.qml:15
@@ -18208,7 +18260,7 @@ msgstr ""
 #: activities/memory/math_util.js:20 activities/memory/math_util.js:23
 msgctxt "math_util|"
 msgid "+"
-msgstr "+"
+msgstr ""
 
 #: activities/memory/math_util.js:38
 msgctxt "math_util|"
@@ -18218,12 +18270,12 @@ msgstr ""
 #: activities/memory/math_util.js:54 activities/memory/math_util.js:57
 msgctxt "math_util|"
 msgid "×"
-msgstr "×"
+msgstr ""
 
 #: activities/memory/math_util.js:72
 msgctxt "math_util|"
 msgid "÷"
-msgstr "÷"
+msgstr ""
 
 #: activities/memory/MemoryCommon.qml:369
 msgctxt "MemoryCommon|"
@@ -19456,7 +19508,7 @@ msgstr ""
 #, qt-format
 msgctxt "NoteNames|"
 msgid "%1%"
-msgstr "%1%"
+msgstr ""
 
 #: activities/note_names/NoteNames.qml:456
 msgctxt "NoteNames|"
@@ -19595,6 +19647,10 @@ msgid ""
 " If 6 is divided by 2 the result is 3 and the remainder is 0.\n"
 " If 7 is divided by 2 the result is 3 and the remainder is 1."
 msgstr ""
+"The remainder is the amount \"left over\" after dividing a number with "
+"another number.\n"
+" If 6 is divided by 2 the result is 3 and the remainder is 0.\n"
+" If 7 is divided by 2 the result is 3 and the remainder is 1."
 
 #: activities/numbers-odd-even/resource/Tutorial2.qml:22
 msgctxt "Tutorial2|"
@@ -22245,6 +22301,13 @@ msgid ""
 " An interesting observation here is that the roman numeric system lacks the "
 "number 0."
 msgstr ""
+"The roman numbers are all built out of these 7 numbers:\n"
+"I and V (units, 1 and 5)\n"
+"X and L (tens, 10 and 50)\n"
+"C and D (hundreds, 100 and 500)\n"
+" and M (1000).\n"
+" An interesting observation here is that the roman numeric system lacks the "
+"number 0."
 
 #: activities/roman_numerals/RomanNumerals.qml:83
 #: activities/roman_numerals/RomanNumerals.qml:95
@@ -22279,6 +22342,10 @@ msgid ""
 " The 4 and the 9 units are built using differences:\n"
 "IV (5 – 1) and IX (10 – 1)."
 msgstr ""
+"All the units except 4 and 9 are built using sums of I and V:\n"
+"I, II, III, V, VI, VII, VIII.\n"
+" The 4 and the 9 units are built using differences:\n"
+"IV (5 – 1) and IX (10 – 1)."
 
 #: activities/roman_numerals/RomanNumerals.qml:106
 #: activities/roman_numerals/RomanNumerals.qml:112
@@ -22614,6 +22681,8 @@ msgid ""
 "The \"g\" symbol at the end of a number means gram. \n"
 " Drop weights on the left side to balance the scales."
 msgstr ""
+"The \"g\" symbol at the end of a number means gram. \n"
+" Drop weights on the left side to balance the scales."
 
 #: activities/scalesboard_weight/resource/2/Data.qml:45
 #: activities/scalesboard_weight/resource/2/Data.qml:52
@@ -22664,6 +22733,9 @@ msgid ""
 "perception of how \"heavy\" an object is. \n"
 " Drop weights on the left side to balance the scales."
 msgstr ""
+"The kilogram is a unit of mass, a property which corresponds to the common "
+"perception of how \"heavy\" an object is. \n"
+" Drop weights on the left side to balance the scales."
 
 #: activities/scalesboard_weight/resource/4/Data.qml:84
 #: activities/scalesboard_weight/resource/4/Data.qml:91
@@ -22694,6 +22766,10 @@ msgid ""
 "\"heavy\" an object is. \n"
 " Drop weights on the left side to balance the scales."
 msgstr ""
+"The \"kg\" symbol at the end of a number means kilogram. The kilogram is a "
+"unit of mass, a property which corresponds to the common perception of how "
+"\"heavy\" an object is. \n"
+" Drop weights on the left side to balance the scales."
 
 #: activities/scalesboard_weight/resource/6/Data.qml:44
 #: activities/scalesboard_weight/resource/6/Data.qml:50
@@ -22702,6 +22778,8 @@ msgid ""
 "Remember, one kilogram (\"kg\") equals 1000 grams (\"g\"). \n"
 " Drop weights on the left side to balance the scales."
 msgstr ""
+"Remember, one kilogram (\"kg\") equals 1000 grams (\"g\"). \n"
+" Drop weights on the left side to balance the scales."
 
 #. Activity title
 #: activities/scalesboard_weight_avoirdupois/ActivityInfo.qml:15
@@ -22742,6 +22820,9 @@ msgid ""
 "sixteen ounces. \n"
 " Drop weights on the left side to balance the scales."
 msgstr ""
+"The \"oz\" symbol at the end of a number means ounce. One pound equals "
+"sixteen ounces. \n"
+" Drop weights on the left side to balance the scales."
 
 #: activities/scalesboard_weight_avoirdupois/resource/1/Data.qml:39
 #: activities/scalesboard_weight_avoirdupois/resource/2/Data.qml:45
@@ -22822,6 +22903,8 @@ msgid ""
 "The \"oz\" symbol at the end of a number means ounce. \n"
 " Drop weights on the left side to balance the scales."
 msgstr ""
+"The \"oz\" symbol at the end of a number means ounce. \n"
+" Drop weights on the left side to balance the scales."
 
 #: activities/scalesboard_weight_avoirdupois/resource/6/Data.qml:13
 msgctxt "Data|"
@@ -22835,6 +22918,8 @@ msgid ""
 "Remember, one pound (\"lb\") equals sixteen ounces (\"oz\"). \n"
 " Drop the weights on the left side of the scales to balance it."
 msgstr ""
+"Remember, one pound (\"lb\") equals sixteen ounces (\"oz\"). \n"
+" Drop the weights on the left side of the scales to balance it."
 
 #: activities/share/ActivityConfig.qml:27
 msgctxt "ActivityConfig|"
@@ -23226,7 +23311,6 @@ msgctxt ""
 msgid "Place %n boy(s) "
 msgid_plural "Place %n boy(s) "
 msgstr[0] ""
-msgstr[1] ""
 
 #: activities/share/share.js:154
 #, qt-format
@@ -23236,7 +23320,6 @@ msgctxt ""
 msgid "and %n girl(s) in the center. "
 msgid_plural "and %n girl(s) in the center. "
 msgstr[0] ""
-msgstr[1] ""
 
 #: activities/share/share.js:158
 #, qt-format
@@ -23246,7 +23329,6 @@ msgctxt ""
 msgid "Then split %n pieces of candy equally between them."
 msgid_plural "Then split %n pieces of candy equally between them."
 msgstr[0] ""
-msgstr[1] ""
 
 #: activities/share/Share.qml:422
 #, qt-format
@@ -24742,7 +24824,7 @@ msgstr ""
 #, qt-format
 msgctxt "QuizScreen|"
 msgid "%1%"
-msgstr "%1%"
+msgstr ""
 
 #: activities/solar_system/QuizScreen.qml:274
 #, qt-format
@@ -24833,6 +24915,8 @@ msgid ""
 "1. The <b>farther</b> a planet from the Sun, the <b>lower</b> is its "
 "temperature.<br><font color=\"#3bb0de\">%1</font>"
 msgstr ""
+"1. The <b>farther</b> a planet from the Sun, the <b>lower</b> is its "
+"temperature.<br><font color=\"#3bb0de\">%1</font>"
 
 #: activities/solar_system/SolarSystem.qml:363
 #, qt-format
@@ -24841,6 +24925,8 @@ msgid ""
 "2. The duration of a year on a planet <b>increases as we go away from the "
 "Sun</b>.<br><font color=\"#3bb0de\">%1</font>"
 msgstr ""
+"2. The duration of a year on a planet <b>increases as we go away from the "
+"Sun</b>.<br><font color=\"#3bb0de\">%1</font>"
 
 #. find an equivalent rhyme in your language where the first letter of each word corresponds to the first letter of the planet in proper sequence
 #: activities/solar_system/SolarSystem.qml:366
@@ -24850,6 +24936,9 @@ msgid ""
 "first letter in each word - <b>M</b>y <b>V</b>ery <b>E</b>xcellent <b>M</"
 "b>other <b>J</b>ust <b>S</b>erved <b>U</b>s <b>N</b>oodles.<br>"
 msgstr ""
+"3. Always remember this rhyme to learn the position of planets, examine the "
+"first letter in each word - <b>M</b>y <b>V</b>ery <b>E</b>xcellent <b>M</"
+"b>other <b>J</b>ust <b>S</b>erved <b>U</b>s <b>N</b>oodles.<br>"
 
 #: activities/solar_system/SolarSystem.qml:368
 msgctxt "SolarSystem|"

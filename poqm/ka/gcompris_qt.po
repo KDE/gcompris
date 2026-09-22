@@ -21866,7 +21866,7 @@ msgstr "გაგრძელება"
 #: activities/polygons/ActivityInfo.qml:19
 msgctxt "ActivityInfo|"
 msgid "Polygons"
-msgstr ""
+msgstr "მრავალკუთხედები"
 
 #. Help title
 #: activities/polygons/ActivityInfo.qml:21
@@ -21876,12 +21876,9 @@ msgstr ""
 
 #. Help goal
 #: activities/polygons/ActivityInfo.qml:24
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Learn about some digital painting tools."
 msgctxt "ActivityInfo|"
 msgid "Learn about special polygons."
-msgstr "გაიგეთ ზოგიერთი ციფრული ხატვის ხელსაწყოს შესახებ."
+msgstr "გაიგეთ სპეციალური მრავალკუთხედების შესახებ."
 
 #. Help manual
 #: activities/polygons/ActivityInfo.qml:28
@@ -21917,12 +21914,9 @@ msgid ""
 msgstr ""
 
 #: activities/polygons/TutorialDataset.qml:23
-#, fuzzy
-#| msgctxt "VerticalSubtraction|"
-#| msgid "The result should not be a negative number."
 msgctxt "TutorialDataset|"
 msgid "The points should not be all aligned."
-msgstr "შედეგი უარყოფითი რიცხვი არ უნდა იყოს."
+msgstr "წერტილები გასწორებული არ უნდა იყოს."
 
 #: activities/polygons/TutorialDataset.qml:26
 msgctxt "TutorialDataset|"
@@ -21935,12 +21929,9 @@ msgid "A triangle is a polygon with 3 sides."
 msgstr ""
 
 #: activities/polygons/TutorialDataset.qml:42
-#, fuzzy
-#| msgctxt "instruments|"
-#| msgid "Find the triangle"
 msgctxt "TutorialDataset|"
 msgid "Draw a triangle."
-msgstr "იპოვეთ სამკუთხედი"
+msgstr "დახაზეთ სამკუთხედი."
 
 #: activities/polygons/TutorialDataset.qml:57
 msgctxt "TutorialDataset|"
@@ -21992,12 +21983,9 @@ msgid "A square is a rectangle with 4 sides of equal length."
 msgstr ""
 
 #: activities/polygons/TutorialDataset.qml:145
-#, fuzzy
-#| msgctxt "Data|"
-#| msgid "Percentages with a square."
 msgctxt "TutorialDataset|"
 msgid "Draw a square."
-msgstr "პროცენტულობა კვადრატით."
+msgstr "დახაზეთ კვადრატი."
 
 #: activities/polygons/TutorialDataset.qml:168
 msgctxt "TutorialDataset|"

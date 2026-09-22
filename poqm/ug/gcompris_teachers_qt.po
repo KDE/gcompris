@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
+"PO-Revision-Date: 2026-09-22 18:03+0900\n"
 "Last-Translator: Abduqadir Abliz <sahranbay@gmail.com>\n"
-"Language-Team: \n"
+"Language-Team: Uyghur <kde-i18n-doc@kde.org>\n"
 "Language: ug\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -303,7 +303,7 @@ msgstr "جاۋاب:"
 #, qt-format
 msgctxt "BinaryBulbDataDisplay|"
 msgid "%1 (%2)"
-msgstr "%1 (%2)"
+msgstr ""
 
 #: server/activities/binary_bulb/BinaryBulbEditor.qml:28
 msgctxt "BinaryBulbEditor|"
@@ -501,7 +501,7 @@ msgstr ""
 #, qt-format
 msgctxt "DailyReport|"
 msgid "%1 %2"
-msgstr "%1 %2"
+msgstr ""
 
 #: server/activities/DailyReport.qml:133
 msgctxt "DailyReport|"
@@ -535,12 +535,9 @@ msgstr ""
 #, qt-format
 msgctxt "DailyReport|"
 msgid "%1 %"
-msgstr "%1 %"
+msgstr ""
 
 #: server/activities/enumerate/EnumerateDataDisplay.qml:59
-#, fuzzy
-#| msgctxt "AdjacentNumbersDataDisplay|"
-#| msgid "Answer:"
 msgctxt "EnumerateDataDisplay|"
 msgid "Answer:"
 msgstr "جاۋاب:"
@@ -750,12 +747,9 @@ msgid "Number between %1 and %2."
 msgstr ""
 
 #: server/activities/guessnumber/GuessnumberDataDisplay.qml:50
-#, fuzzy
-#| msgctxt "LearnDigitsEditor|"
-#| msgid "Numbers"
 msgctxt "GuessnumberDataDisplay|"
 msgid "Number to guess:"
-msgstr "سانلار"
+msgstr ""
 
 #: server/activities/guessnumber/GuessnumberDataDisplay.qml:77
 msgctxt "GuessnumberDataDisplay|"
@@ -783,9 +777,6 @@ msgid "Expected:"
 msgstr ""
 
 #: server/activities/keyboard_training/KeyboardTrainingDataDisplay.qml:32
-#, fuzzy
-#| msgctxt "AdjacentNumbersDataDisplay|"
-#| msgid "Answer:"
 msgctxt "KeyboardTrainingDataDisplay|"
 msgid "Answer:"
 msgstr "جاۋاب:"
@@ -1454,7 +1445,7 @@ msgstr ""
 #, qt-format
 msgctxt "ShareDataDisplay|"
 msgid "%1 / %2"
-msgstr "%1 / %2"
+msgstr ""
 
 #: server/activities/share/ShareDataDisplay.qml:107
 msgctxt "ShareDataDisplay|"
@@ -3257,7 +3248,7 @@ msgstr "ئۆرنەك"
 #: server/views/SettingsView.qml:88
 msgctxt "SettingsView|"
 msgid "Dark"
-msgstr ""
+msgstr "قاراڭغۇ"
 
 #: server/views/SettingsView.qml:88
 msgctxt "SettingsView|"

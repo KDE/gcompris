@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-09-08 11:14+0200\n"
+"PO-Revision-Date: 2026-09-22 11:13+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Language: nl\n"
 "X-Qt-Contexts: true\n"
-"X-Generator: Lokalize 26.08.0\n"
+"X-Generator: Lokalize 26.08.1\n"
 
 #: activities/adjacent_numbers/ActivityConfig.qml:19
 #: activities/clickanddraw/ActivityConfig.qml:22
@@ -23339,22 +23339,19 @@ msgstr "Doorgaan"
 #: activities/polygons/ActivityInfo.qml:19
 msgctxt "ActivityInfo|"
 msgid "Polygons"
-msgstr ""
+msgstr "Veelhoeken"
 
 #. Help title
 #: activities/polygons/ActivityInfo.qml:21
 msgctxt "ActivityInfo|"
 msgid "Learn about special polygons and draw them in a grid."
-msgstr ""
+msgstr "Kom meer te weten over veelhoeken en teken ze in een raster."
 
 #. Help goal
 #: activities/polygons/ActivityInfo.qml:24
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Learn about some digital painting tools."
 msgctxt "ActivityInfo|"
 msgid "Learn about special polygons."
-msgstr "Leren over enige hulpmiddelen voor tekenen."
+msgstr "Kom meer te weten over speciale veelhoeken."
 
 #. Help manual
 #: activities/polygons/ActivityInfo.qml:28
@@ -23369,11 +23366,23 @@ msgid ""
 "restart the shape by clicking on the reload button. When the shape is "
 "correct, press the OK button to validate your answer."
 msgstr ""
+"Klik op het raster om punten te plaatsen die overeenkomen met de uiteinden "
+"van de lijnen van de veelhoek. Zolang de vorm niet gesloten is, heeft het "
+"laatste punt een andere kleur om aan te geven dat dit verbonden zal worden "
+"met het volgende punt dat wordt toegevoegd. Nadat je ten minste 3 punten "
+"hebt geplaatst, kun je de vorm sluiten door op het eerste of het laatste "
+"punt te klikken. Zodra de vorm gesloten is, kun je geen nieuwe punten meer "
+"toevoegen. Je kunt een punt verplaatsen door het te verslepen of verwijderen "
+"door erop te dubbelklikken. Je kunt opnieuw beginnen met de vorm door op de "
+"herlaadknop te klikken. Wanneer de vorm correct is, druk je op de OK-knop om "
+"je antwoord te bevestigen."
 
 #: activities/polygons/TutorialDataset.qml:20
 msgctxt "TutorialDataset|"
 msgid "A polygon is a closed shape made of at least 3 connected lines."
 msgstr ""
+"Een veelhoek is een gesloten vorm die bestaat uit ten minste drie verbonden "
+"lijnen."
 
 #: activities/polygons/TutorialDataset.qml:21
 msgctxt "TutorialDataset|"
@@ -23381,6 +23390,8 @@ msgid ""
 "To draw a polygon, click on the grid to place the ends of the polygon's "
 "lines."
 msgstr ""
+"Klik op het raster om de eindpunten van de lijnen van de polygoon te "
+"plaatsen en zo de polygoon te tekenen."
 
 #: activities/polygons/TutorialDataset.qml:22
 msgctxt "TutorialDataset|"
@@ -23388,32 +23399,28 @@ msgid ""
 "After placing at least 3 points, you can close the shape by clicking on the "
 "first or the last point."
 msgstr ""
+"Nadat je ten minste 3 punten hebt geplaatst, kun je de vorm sluiten door op "
+"het eerste of het laatste punt te klikken."
 
 #: activities/polygons/TutorialDataset.qml:23
-#, fuzzy
-#| msgctxt "VerticalSubtraction|"
-#| msgid "The result should not be a negative number."
 msgctxt "TutorialDataset|"
 msgid "The points should not be all aligned."
-msgstr "Het resultaat zou geen negatief getal moeten zijn."
+msgstr "De punten moeten niet allemaal op één lijn liggen."
 
 #: activities/polygons/TutorialDataset.qml:26
 msgctxt "TutorialDataset|"
 msgid "Draw a polygon."
-msgstr ""
+msgstr "Teken een veelhoek."
 
 #: activities/polygons/TutorialDataset.qml:39
 msgctxt "TutorialDataset|"
 msgid "A triangle is a polygon with 3 sides."
-msgstr ""
+msgstr "Een driehoek is een veelhoek met 3 zijden."
 
 #: activities/polygons/TutorialDataset.qml:42
-#, fuzzy
-#| msgctxt "instruments|"
-#| msgid "Find the triangle"
 msgctxt "TutorialDataset|"
 msgid "Draw a triangle."
-msgstr "Zoek de triangel"
+msgstr "Teken een driehoek."
 
 #: activities/polygons/TutorialDataset.qml:57
 msgctxt "TutorialDataset|"
@@ -23421,11 +23428,13 @@ msgid ""
 "A right triangle is a triangle in which two sides are perpendicular, forming "
 "a right angle (90 degrees)."
 msgstr ""
+"Een rechthoekige driehoek is een driehoek waarin twee zijden loodrecht op "
+"elkaar staan ​​en zo een rechte hoek (90 graden) vormen."
 
 #: activities/polygons/TutorialDataset.qml:60
 msgctxt "TutorialDataset|"
 msgid "Draw a right triangle."
-msgstr ""
+msgstr "Teken een rechthoekige driehoek."
 
 #: activities/polygons/TutorialDataset.qml:74
 msgctxt "TutorialDataset|"
@@ -23433,50 +23442,43 @@ msgid ""
 "An isosceles triangle is a triangle with two sides of equal length and two "
 "angles of equal measure."
 msgstr ""
+"Een gelijkbenige driehoek is een driehoek met twee zijden van gelijke lengte "
+"en twee hoeken van gelijke grootte."
 
 #: activities/polygons/TutorialDataset.qml:77
 msgctxt "TutorialDataset|"
 msgid "Draw an isosceles triangle."
-msgstr ""
+msgstr "Teken een gelijkbenige driehoek."
 
 #: activities/polygons/TutorialDataset.qml:100
 msgctxt "TutorialDataset|"
 msgid "A quadrilateral is a four-sided polygon, having 4 sides and 4 corners."
-msgstr ""
+msgstr "Een vierhoek is een veelhoek met vier zijden en vier hoeken."
 
 #: activities/polygons/TutorialDataset.qml:103
 msgctxt "TutorialDataset|"
 msgid "Draw a quadrilateral."
-msgstr ""
+msgstr "Teken een vierhoek."
 
 #: activities/polygons/TutorialDataset.qml:118
-#, fuzzy
-#| msgctxt "Data|"
-#| msgid "Select one rectangle and one-quarter of a rectangle."
 msgctxt "TutorialDataset|"
 msgid "A rectangle is a quadrilateral with 4 right angles."
-msgstr "Selecteer één rechthoek en een kwart van een rechthoek."
+msgstr "Een rechthoek en een vierhoek met vier rechte hoeken."
 
 #: activities/polygons/TutorialDataset.qml:121
-#, fuzzy
-#| msgctxt "Data|"
-#| msgid "Percentages with a rectangle."
 msgctxt "TutorialDataset|"
 msgid "Draw a rectangle."
-msgstr "Percentages met een rechthoek."
+msgstr "Teken een rechthoek."
 
 #: activities/polygons/TutorialDataset.qml:142
 msgctxt "TutorialDataset|"
 msgid "A square is a rectangle with 4 sides of equal length."
-msgstr ""
+msgstr "Een vierkant is een rechthoek met vier zijden van gelijke lengte."
 
 #: activities/polygons/TutorialDataset.qml:145
-#, fuzzy
-#| msgctxt "Data|"
-#| msgid "Percentages with a square."
 msgctxt "TutorialDataset|"
 msgid "Draw a square."
-msgstr "Percentages met een vierkant."
+msgstr "Teken een vierkant."
 
 #: activities/polygons/TutorialDataset.qml:168
 msgctxt "TutorialDataset|"
@@ -23484,21 +23486,23 @@ msgid ""
 "A parallelogram is a quadrilateral with opposite sides of equal length and "
 "opposite angles of equal measure."
 msgstr ""
+"Een parallellogram is een vierhoek waarvan de tegenoverliggende zijden even "
+"lang zijn en de tegenoverliggende hoeken even groot zijn."
 
 #: activities/polygons/TutorialDataset.qml:171
 msgctxt "TutorialDataset|"
 msgid "Draw a parallelogram which is not a rectangle."
-msgstr ""
+msgstr "Teken een parallellogram dat geen rechthoek is."
 
 #: activities/polygons/TutorialDataset.qml:192
 msgctxt "TutorialDataset|"
 msgid "A rhombus is a parallelogram with four sides of equal length."
-msgstr ""
+msgstr "Een ruit is een parallellogram met vier zijden van gelijke lengte."
 
 #: activities/polygons/TutorialDataset.qml:195
 msgctxt "TutorialDataset|"
 msgid "Draw a rhombus which is not a square."
-msgstr ""
+msgstr "Teken een ruit die geen vierkant is."
 
 #. Activity title
 #: activities/positions/ActivityInfo.qml:15

@@ -11,7 +11,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gcompris&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2014-11-09 17:30+0000\n"
-"PO-Revision-Date: 2026-09-09 18:47+0300\n"
+"PO-Revision-Date: 2026-09-22 17:55+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -23326,22 +23326,19 @@ msgstr "Продовжити"
 #: activities/polygons/ActivityInfo.qml:19
 msgctxt "ActivityInfo|"
 msgid "Polygons"
-msgstr ""
+msgstr "Багатокутники"
 
 #. Help title
 #: activities/polygons/ActivityInfo.qml:21
 msgctxt "ActivityInfo|"
 msgid "Learn about special polygons and draw them in a grid."
-msgstr ""
+msgstr "Вивчіть особливі багатокутники і намалюйте їх у ґратці."
 
 #. Help goal
 #: activities/polygons/ActivityInfo.qml:24
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Learn about some digital painting tools."
 msgctxt "ActivityInfo|"
 msgid "Learn about special polygons."
-msgstr "Навчання користуванню інструментами цифрового малювання."
+msgstr "Навчання особливим багатокутникам."
 
 #. Help manual
 #: activities/polygons/ActivityInfo.qml:28
@@ -23356,11 +23353,21 @@ msgid ""
 "restart the shape by clicking on the reload button. When the shape is "
 "correct, press the OK button to validate your answer."
 msgstr ""
+"Клацніть на ґратці, щоб розмістити точки, які відповідають вершинами "
+"багатокутника. Доки фігура не замкнена, остання точка має інший колір, що "
+"вказує на її з’єднання з наступною доданою точкою. Розмістивши принаймні 3 "
+"точки, ви можете замкнути фігуру, клацнувши на першій або останній точці. "
+"Після того як фігуру замкнено, додавати нові точки вже не можна. Ви можете "
+"перемістити точку, перетягнувши її, або вилучити, двічі клацнувши на ній. "
+"Щоб почати створення фігури спочатку, натисніть кнопку оновлення. Коли "
+"фігура буде готова, натисніть кнопку «Гаразд», щоб підтвердити відповідь."
 
 #: activities/polygons/TutorialDataset.qml:20
 msgctxt "TutorialDataset|"
 msgid "A polygon is a closed shape made of at least 3 connected lines."
 msgstr ""
+"Багатокутник — замкнена лінія, яка складається з принаймні 3 з'єднаних "
+"відрізків."
 
 #: activities/polygons/TutorialDataset.qml:21
 msgctxt "TutorialDataset|"
@@ -23368,6 +23375,7 @@ msgid ""
 "To draw a polygon, click on the grid to place the ends of the polygon's "
 "lines."
 msgstr ""
+"Щоб намалювати багатокутник, клацайте по ґратці, розміщуючи його вершини."
 
 #: activities/polygons/TutorialDataset.qml:22
 msgctxt "TutorialDataset|"
@@ -23375,32 +23383,28 @@ msgid ""
 "After placing at least 3 points, you can close the shape by clicking on the "
 "first or the last point."
 msgstr ""
+"Після розміщення щонайменше трьох точок ви можете замкнути фігуру, клацнувши "
+"на першій або останній точці."
 
 #: activities/polygons/TutorialDataset.qml:23
-#, fuzzy
-#| msgctxt "VerticalSubtraction|"
-#| msgid "The result should not be a negative number."
 msgctxt "TutorialDataset|"
 msgid "The points should not be all aligned."
-msgstr "Результатом має бути невід'ємне число."
+msgstr "Точки не повинні лежати на одній прямій."
 
 #: activities/polygons/TutorialDataset.qml:26
 msgctxt "TutorialDataset|"
 msgid "Draw a polygon."
-msgstr ""
+msgstr "Намалюйте багатокутник."
 
 #: activities/polygons/TutorialDataset.qml:39
 msgctxt "TutorialDataset|"
 msgid "A triangle is a polygon with 3 sides."
-msgstr ""
+msgstr "Трикутник — багатокутник із 3 сторонами."
 
 #: activities/polygons/TutorialDataset.qml:42
-#, fuzzy
-#| msgctxt "instruments|"
-#| msgid "Find the triangle"
 msgctxt "TutorialDataset|"
 msgid "Draw a triangle."
-msgstr "Знайдіть трикутник"
+msgstr "Намалюйте трикутник."
 
 #: activities/polygons/TutorialDataset.qml:57
 msgctxt "TutorialDataset|"
@@ -23408,11 +23412,13 @@ msgid ""
 "A right triangle is a triangle in which two sides are perpendicular, forming "
 "a right angle (90 degrees)."
 msgstr ""
+"Прямокутний трикутник — це трикутник, у якому дві сторони перпендикулярні й "
+"утворюють прямий кут (90 градусів)."
 
 #: activities/polygons/TutorialDataset.qml:60
 msgctxt "TutorialDataset|"
 msgid "Draw a right triangle."
-msgstr ""
+msgstr "Намалюйте прямокутний трикутник."
 
 #: activities/polygons/TutorialDataset.qml:74
 msgctxt "TutorialDataset|"
@@ -23420,50 +23426,43 @@ msgid ""
 "An isosceles triangle is a triangle with two sides of equal length and two "
 "angles of equal measure."
 msgstr ""
+"Рівнобедрений трикутник — це трикутник, у якого дві сторони мають однакову "
+"довжину, а два кути — однакову величину."
 
 #: activities/polygons/TutorialDataset.qml:77
 msgctxt "TutorialDataset|"
 msgid "Draw an isosceles triangle."
-msgstr ""
+msgstr "Намалюйте рівнобедрений трикутник."
 
 #: activities/polygons/TutorialDataset.qml:100
 msgctxt "TutorialDataset|"
 msgid "A quadrilateral is a four-sided polygon, having 4 sides and 4 corners."
-msgstr ""
+msgstr "Чотирикутник — це багатокутник із чотирма сторонами та чотирма кутами."
 
 #: activities/polygons/TutorialDataset.qml:103
 msgctxt "TutorialDataset|"
 msgid "Draw a quadrilateral."
-msgstr ""
+msgstr "Намалюйте чотирикутник."
 
 #: activities/polygons/TutorialDataset.qml:118
-#, fuzzy
-#| msgctxt "Data|"
-#| msgid "Select one rectangle and one-quarter of a rectangle."
 msgctxt "TutorialDataset|"
 msgid "A rectangle is a quadrilateral with 4 right angles."
-msgstr "Виберіть один прямокутник і ще одну четверту прямокутника."
+msgstr "Прямокутник є чотирикутником, усі кути якого прямі."
 
 #: activities/polygons/TutorialDataset.qml:121
-#, fuzzy
-#| msgctxt "Data|"
-#| msgid "Percentages with a rectangle."
 msgctxt "TutorialDataset|"
 msgid "Draw a rectangle."
-msgstr "Відсотки на основі прямокутника."
+msgstr "Намалюйте прямокутник."
 
 #: activities/polygons/TutorialDataset.qml:142
 msgctxt "TutorialDataset|"
 msgid "A square is a rectangle with 4 sides of equal length."
-msgstr ""
+msgstr "Квадрат — це прямокутник із чотирма сторонами однакової довжини."
 
 #: activities/polygons/TutorialDataset.qml:145
-#, fuzzy
-#| msgctxt "Data|"
-#| msgid "Percentages with a square."
 msgctxt "TutorialDataset|"
 msgid "Draw a square."
-msgstr "Відсотки на основі квадрата."
+msgstr "Намалюйте квадрат."
 
 #: activities/polygons/TutorialDataset.qml:168
 msgctxt "TutorialDataset|"
@@ -23471,21 +23470,23 @@ msgid ""
 "A parallelogram is a quadrilateral with opposite sides of equal length and "
 "opposite angles of equal measure."
 msgstr ""
+"Паралелограм — це чотирикутник, у якого протилежні сторони рівні за "
+"довжиною, а протилежні кути рівні за величиною."
 
 #: activities/polygons/TutorialDataset.qml:171
 msgctxt "TutorialDataset|"
 msgid "Draw a parallelogram which is not a rectangle."
-msgstr ""
+msgstr "Намалюйте паралелограм, який не є прямокутником."
 
 #: activities/polygons/TutorialDataset.qml:192
 msgctxt "TutorialDataset|"
 msgid "A rhombus is a parallelogram with four sides of equal length."
-msgstr ""
+msgstr "Ромб — це паралелограм, у якого всі чотири сторони рівні."
 
 #: activities/polygons/TutorialDataset.qml:195
 msgctxt "TutorialDataset|"
 msgid "Draw a rhombus which is not a square."
-msgstr ""
+msgstr "Намалюйте ромб, який не є квадратом."
 
 #. Activity title
 #: activities/positions/ActivityInfo.qml:15
