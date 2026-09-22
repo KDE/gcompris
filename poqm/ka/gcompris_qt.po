@@ -2600,7 +2600,7 @@ msgstr ""
 "ან შექმენით თქვენი დონეები დონეების რედაქტორში აქტივობების მორგების მენიუში "
 "და ჩატვირთეთ თქვენი ფაილი, ან აირჩიეთ 'ჩაშენებული' დონეების ნაკრები."
 
-#: activities/balancebox/balancebox.js:106
+#: activities/balancebox/balancebox.js:125
 #, qt-format
 msgctxt "balancebox|"
 msgid "The file '%1' is missing!<br>Falling back to builtin levels."
@@ -26871,7 +26871,7 @@ msgctxt "QObject|"
 msgid "Show the Home button in the bar (default)."
 msgstr "საწყისზე გადასვლის ღილაკის ჩვენება პანელზე (ნაგულისხმევი)."
 
-#: core/main.qml:238
+#: core/main.qml:240
 msgctxt "main|"
 msgid ""
 "Do you want to automatically download or update the following external "
@@ -26880,32 +26880,32 @@ msgstr ""
 "გნებავთ ავტომატურად გადმოვწერო, ან განვაახლო შემდეგი გარე აქტივები GCompris-"
 "ის გაშვებისას?"
 
-#: core/main.qml:240
+#: core/main.qml:242
 msgctxt "main|"
 msgid "Voices for your language"
 msgstr "ხმები თქვენი ენისთვის"
 
-#: core/main.qml:241
+#: core/main.qml:243
 msgctxt "main|"
 msgid "Full word image set"
 msgstr "სიტყვებიანი გამოსახულებების სრული ნაკრები დაყენებულია"
 
-#: core/main.qml:242
+#: core/main.qml:244
 msgctxt "main|"
 msgid "Background music"
 msgstr "ფონის მუსიკა"
 
-#: core/main.qml:248 core/main.qml:510
+#: core/main.qml:250 core/main.qml:513
 msgctxt "main|"
 msgid "Yes"
 msgstr "დიახ"
 
-#: core/main.qml:255 core/main.qml:516
+#: core/main.qml:257 core/main.qml:519
 msgctxt "main|"
 msgid "No"
 msgstr "არა"
 
-#: core/main.qml:273
+#: core/main.qml:275
 msgctxt "main|"
 msgid ""
 "Some activities have new dataset available. Do you want to reset their "
@@ -26914,27 +26914,27 @@ msgstr ""
 "ზოგიერთ აქტივობისთვის ხელმისაწვდომია ახალი მონაცემთა ნაკრები. გნებავთ მათი "
 "მონაცემთა ნაკრებების ჩამოყრა?"
 
-#: core/main.qml:274
+#: core/main.qml:276
 msgctxt "main|"
 msgid "Apply"
 msgstr "გადატარება"
 
-#: core/main.qml:275 core/main.qml:551 core/main.qml:626
+#: core/main.qml:277 core/main.qml:554 core/main.qml:629
 msgctxt "main|"
 msgid "Cancel"
 msgstr "გაუქმება"
 
-#: core/main.qml:360
+#: core/main.qml:363
 msgctxt "main|"
 msgid "Welcome to GCompris!"
 msgstr "მოგესალმებათ GCompris!"
 
-#: core/main.qml:361
+#: core/main.qml:364
 msgctxt "main|"
 msgid "You are running GCompris for the first time."
 msgstr "GCompris-ს პირველად იყენებთ."
 
-#: core/main.qml:362
+#: core/main.qml:365
 msgctxt "main|"
 msgid ""
 "You should verify that your application settings especially your language is "
@@ -26943,50 +26943,50 @@ msgstr ""
 "შეამოწმეთ, რომ თქვენი აპლიკაციის პარამეტრები, განსაკუთრებით კი ენა, სწორადაა "
 "დაყენებული. ამის გაკეთება მორგების ფანჯრიდან შეგიძლიათ."
 
-#: core/main.qml:364
+#: core/main.qml:367
 msgctxt "main|"
 msgid "Have Fun!"
 msgstr "გაერთე!"
 
-#: core/main.qml:366
+#: core/main.qml:369
 #, qt-format
 msgctxt "main|"
 msgid "Your current language is %1 (%2)."
 msgstr "თქვენი მიმდინარე ენაა %1 (%2)."
 
-#: core/main.qml:398
+#: core/main.qml:401
 msgctxt "main|"
 msgid "GCompris has been updated! Here are the new changes:<br/>"
 msgstr "GCompris განახლდა! აი, რა ცვლილებებია მასში.<br/>"
 
-#: core/main.qml:509
+#: core/main.qml:512
 #, qt-format
 msgctxt "main|"
 msgid "Do you want to connect to server %1?"
 msgstr "გნებავთ მიუერთდეთ სერვერს %1?"
 
-#: core/main.qml:530
+#: core/main.qml:533
 #, qt-format
 msgctxt "main|"
 msgid "Password rejected by server %1"
 msgstr "პაროლი უარყოფილია სერვერის %1 მიერ"
 
-#: core/main.qml:531 core/main.qml:550 core/main.qml:625
+#: core/main.qml:534 core/main.qml:553 core/main.qml:628
 msgctxt "main|"
 msgid "OK"
 msgstr "დიახ"
 
-#: core/main.qml:546
+#: core/main.qml:549
 msgctxt "main|"
 msgid "Select your username"
 msgstr "აირჩიეთ თქვენი მომმხარებლის სახელი"
 
-#: core/main.qml:556
+#: core/main.qml:559
 msgctxt "main|"
 msgid "Please select your username in the list or cancel."
 msgstr "აირჩიეთ თქვენი მომხმარებლის სახელი სიიდან, ან გააუქმეთ."
 
-#: core/main.qml:623
+#: core/main.qml:626
 msgctxt "main|"
 msgid "Enter your password"
 msgstr "შეიყვანეთ თქვენი პაროლი"

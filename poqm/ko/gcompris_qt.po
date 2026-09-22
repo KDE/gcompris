@@ -2518,7 +2518,7 @@ msgid ""
 "settings menu and then load your file, or choose the 'built-in' level set."
 msgstr ""
 
-#: activities/balancebox/balancebox.js:106
+#: activities/balancebox/balancebox.js:125
 #, qt-format
 msgctxt "balancebox|"
 msgid "The file '%1' is missing!<br>Falling back to builtin levels."
@@ -27550,7 +27550,7 @@ msgctxt "QObject|"
 msgid "Show the Home button in the bar (default)."
 msgstr ""
 
-#: core/main.qml:238
+#: core/main.qml:240
 #, fuzzy
 #| msgctxt "main|"
 #| msgid "Do you want to download the corresponding sound files now?"
@@ -27560,12 +27560,12 @@ msgid ""
 "assets when starting GCompris?"
 msgstr "해당하는 음성 파일을 다운로드하시겠습니까?"
 
-#: core/main.qml:240
+#: core/main.qml:242
 msgctxt "main|"
 msgid "Voices for your language"
 msgstr ""
 
-#: core/main.qml:241
+#: core/main.qml:243
 #, fuzzy
 #| msgctxt "core|"
 #| msgid "Download in progress"
@@ -27573,7 +27573,7 @@ msgctxt "main|"
 msgid "Full word image set"
 msgstr "다운로드 진행 중"
 
-#: core/main.qml:242
+#: core/main.qml:244
 #, fuzzy
 #| msgctxt "DownloadDialog|"
 #| msgid "Background"
@@ -27581,29 +27581,29 @@ msgctxt "main|"
 msgid "Background music"
 msgstr "백그라운드 작업"
 
-#: core/main.qml:248 core/main.qml:510
+#: core/main.qml:250 core/main.qml:513
 msgctxt "main|"
 msgid "Yes"
 msgstr "예"
 
-#: core/main.qml:255 core/main.qml:516
+#: core/main.qml:257 core/main.qml:519
 msgctxt "main|"
 msgid "No"
 msgstr "아니요"
 
-#: core/main.qml:273
+#: core/main.qml:275
 msgctxt "main|"
 msgid ""
 "Some activities have new dataset available. Do you want to reset their "
 "dataset selection?"
 msgstr ""
 
-#: core/main.qml:274
+#: core/main.qml:276
 msgctxt "main|"
 msgid "Apply"
 msgstr ""
 
-#: core/main.qml:275 core/main.qml:551 core/main.qml:626
+#: core/main.qml:277 core/main.qml:554 core/main.qml:629
 #, fuzzy
 #| msgctxt "board5_0|"
 #| msgid "France"
@@ -27611,17 +27611,17 @@ msgctxt "main|"
 msgid "Cancel"
 msgstr "프랑스"
 
-#: core/main.qml:360
+#: core/main.qml:363
 msgctxt "main|"
 msgid "Welcome to GCompris!"
 msgstr "GCompris에 오신 것을 환영합니다!"
 
-#: core/main.qml:361
+#: core/main.qml:364
 msgctxt "main|"
 msgid "You are running GCompris for the first time."
 msgstr "GCompris를 최초로 실행했습니다."
 
-#: core/main.qml:362
+#: core/main.qml:365
 #, fuzzy
 #| msgctxt "main|"
 #| msgid ""
@@ -27636,23 +27636,23 @@ msgstr ""
 "사용할 언어 등 앱 설정이 올바른지 확인하고, 언어별 음성 파일이 설치되어 있는"
 "지 확인하십시오. 설정 대화 상자에서 확인할 수 있습니다."
 
-#: core/main.qml:364
+#: core/main.qml:367
 msgctxt "main|"
 msgid "Have Fun!"
 msgstr ""
 
-#: core/main.qml:366
+#: core/main.qml:369
 #, qt-format
 msgctxt "main|"
 msgid "Your current language is %1 (%2)."
 msgstr "현재 언어는 %1(%2)입니다."
 
-#: core/main.qml:398
+#: core/main.qml:401
 msgctxt "main|"
 msgid "GCompris has been updated! Here are the new changes:<br/>"
 msgstr ""
 
-#: core/main.qml:509
+#: core/main.qml:512
 #, fuzzy, qt-format
 #| msgctxt "main|"
 #| msgid "Do you want to download the corresponding sound files now?"
@@ -27660,18 +27660,18 @@ msgctxt "main|"
 msgid "Do you want to connect to server %1?"
 msgstr "해당하는 음성 파일을 다운로드하시겠습니까?"
 
-#: core/main.qml:530
+#: core/main.qml:533
 #, qt-format
 msgctxt "main|"
 msgid "Password rejected by server %1"
 msgstr ""
 
-#: core/main.qml:531 core/main.qml:550 core/main.qml:625
+#: core/main.qml:534 core/main.qml:553 core/main.qml:628
 msgctxt "main|"
 msgid "OK"
 msgstr ""
 
-#: core/main.qml:546
+#: core/main.qml:549
 #, fuzzy
 #| msgctxt "Traffic|"
 #| msgid "Select your mode"
@@ -27679,12 +27679,12 @@ msgctxt "main|"
 msgid "Select your username"
 msgstr "모드 선택"
 
-#: core/main.qml:556
+#: core/main.qml:559
 msgctxt "main|"
 msgid "Please select your username in the list or cancel."
 msgstr ""
 
-#: core/main.qml:623
+#: core/main.qml:626
 msgctxt "main|"
 msgid "Enter your password"
 msgstr ""

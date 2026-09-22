@@ -2747,7 +2747,7 @@ msgstr ""
 "Aktivitätseinstellungen startest und dann deine Datei lädst, oder wähle den "
 "\"eingebauten\" Ebenensatz."
 
-#: activities/balancebox/balancebox.js:106
+#: activities/balancebox/balancebox.js:125
 #, qt-format
 msgctxt "balancebox|"
 msgid "The file '%1' is missing!<br>Falling back to builtin levels."
@@ -29146,7 +29146,7 @@ msgctxt "QObject|"
 msgid "Show the Home button in the bar (default)."
 msgstr "Startbildschirmknopf in der Kontrollleiste anzeigen (Standard)."
 
-#: core/main.qml:238
+#: core/main.qml:240
 msgctxt "main|"
 msgid ""
 "Do you want to automatically download or update the following external "
@@ -29155,59 +29155,59 @@ msgstr ""
 "Möchtest du, dass die folgenden externen Ressourcen beim Start von GCompris "
 "automatisch heruntergeladen oder aktualisiert werden?"
 
-#: core/main.qml:240
+#: core/main.qml:242
 msgctxt "main|"
 msgid "Voices for your language"
 msgstr "Stimmen für deine Sprache"
 
-#: core/main.qml:241
+#: core/main.qml:243
 msgctxt "main|"
 msgid "Full word image set"
 msgstr "Vollständige Bildersammlung"
 
-#: core/main.qml:242
+#: core/main.qml:244
 msgctxt "main|"
 msgid "Background music"
 msgstr "Hintergrundmusik"
 
-#: core/main.qml:248 core/main.qml:510
+#: core/main.qml:250 core/main.qml:513
 msgctxt "main|"
 msgid "Yes"
 msgstr "Ja"
 
-#: core/main.qml:255 core/main.qml:516
+#: core/main.qml:257 core/main.qml:519
 msgctxt "main|"
 msgid "No"
 msgstr "Nein"
 
-#: core/main.qml:273
+#: core/main.qml:275
 msgctxt "main|"
 msgid ""
 "Some activities have new dataset available. Do you want to reset their "
 "dataset selection?"
 msgstr ""
 
-#: core/main.qml:274
+#: core/main.qml:276
 msgctxt "main|"
 msgid "Apply"
 msgstr "Anwenden"
 
-#: core/main.qml:275 core/main.qml:551 core/main.qml:626
+#: core/main.qml:277 core/main.qml:554 core/main.qml:629
 msgctxt "main|"
 msgid "Cancel"
 msgstr "Abbrechen"
 
-#: core/main.qml:360
+#: core/main.qml:363
 msgctxt "main|"
 msgid "Welcome to GCompris!"
 msgstr "Willkommen zu GCompris"
 
-#: core/main.qml:361
+#: core/main.qml:364
 msgctxt "main|"
 msgid "You are running GCompris for the first time."
 msgstr "Du verwendest GCompris zum ersten Mal."
 
-#: core/main.qml:362
+#: core/main.qml:365
 msgctxt "main|"
 msgid ""
 "You should verify that your application settings especially your language is "
@@ -29217,50 +29217,50 @@ msgstr ""
 "deine Sprache, richtig festgelegt sind. Dies kannst du im Einstellungsdialog "
 "tun."
 
-#: core/main.qml:364
+#: core/main.qml:367
 msgctxt "main|"
 msgid "Have Fun!"
 msgstr "Viel Spaß!"
 
-#: core/main.qml:366
+#: core/main.qml:369
 #, qt-format
 msgctxt "main|"
 msgid "Your current language is %1 (%2)."
 msgstr "Die aktuelle Sprache ist %1 (%2)."
 
-#: core/main.qml:398
+#: core/main.qml:401
 msgctxt "main|"
 msgid "GCompris has been updated! Here are the new changes:<br/>"
 msgstr "GCompris wurde aktualisiert. Hier sind die letzten Änderungen:<br/>"
 
-#: core/main.qml:509
+#: core/main.qml:512
 #, qt-format
 msgctxt "main|"
 msgid "Do you want to connect to server %1?"
 msgstr "Möchtest du eine Verbindung mit dem Server %1 herstellen?"
 
-#: core/main.qml:530
+#: core/main.qml:533
 #, qt-format
 msgctxt "main|"
 msgid "Password rejected by server %1"
 msgstr "Passwort wurde vom Server %1 abgelehnt"
 
-#: core/main.qml:531 core/main.qml:550 core/main.qml:625
+#: core/main.qml:534 core/main.qml:553 core/main.qml:628
 msgctxt "main|"
 msgid "OK"
 msgstr "OK"
 
-#: core/main.qml:546
+#: core/main.qml:549
 msgctxt "main|"
 msgid "Select your username"
 msgstr "Wähle deinen Benutzernamen"
 
-#: core/main.qml:556
+#: core/main.qml:559
 msgctxt "main|"
 msgid "Please select your username in the list or cancel."
 msgstr "Bitte wähle deinen Benutzernamen aus der Liste aus oder brich ab."
 
-#: core/main.qml:623
+#: core/main.qml:626
 msgctxt "main|"
 msgid "Enter your password"
 msgstr "Gib dein Passwort ein"
