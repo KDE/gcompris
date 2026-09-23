@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-09-09 21:26+0200\n"
+"PO-Revision-Date: 2026-09-22 22:52+0200\n"
 "Last-Translator: Mincho Kondarev <mkondarev@yahoo.de>\n"
 "Language-Team: Bulgarian <kde-i18n-doc@kde.org>\n"
 "Language: bg\n"
@@ -11,8 +11,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 26.08.1\n"
 "X-Qt-Contexts: true\n"
-"X-Generator: Lokalize 26.08.0\n"
 
 #: activities/adjacent_numbers/ActivityConfig.qml:19
 #: activities/clickanddraw/ActivityConfig.qml:22
@@ -5722,7 +5722,7 @@ msgstr ""
 #: activities/compass/ActivityInfo.qml:24
 msgctxt "ActivityInfo|"
 msgid "<br><b>Drawing with the compass:</b>"
-msgstr " <br><b>Рисуване с пергел:</b>"
+msgstr " <br><b>Чертане с пергел:</b>"
 
 #: activities/compass/ActivityInfo.qml:25
 msgctxt "ActivityInfo|"
@@ -23219,22 +23219,19 @@ msgstr "Продължаване"
 #: activities/polygons/ActivityInfo.qml:19
 msgctxt "ActivityInfo|"
 msgid "Polygons"
-msgstr ""
+msgstr "Полигони"
 
 #. Help title
 #: activities/polygons/ActivityInfo.qml:21
 msgctxt "ActivityInfo|"
 msgid "Learn about special polygons and draw them in a grid."
-msgstr ""
+msgstr "Научаване за специалните многоъгълници и тяхното чертане в мрежа."
 
 #. Help goal
 #: activities/polygons/ActivityInfo.qml:24
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Learn about some digital painting tools."
 msgctxt "ActivityInfo|"
 msgid "Learn about special polygons."
-msgstr "Запознаване с някои инструменти за цифрово рисуване."
+msgstr "Информация за специалните многоъгълници."
 
 #. Help manual
 #: activities/polygons/ActivityInfo.qml:28
@@ -23249,11 +23246,20 @@ msgid ""
 "restart the shape by clicking on the reload button. When the shape is "
 "correct, press the OK button to validate your answer."
 msgstr ""
+"Кликни върху мрежата за поставяне на точки, съответстващи на краищата на "
+"линиите на многоъгълника. Докато фигурата не е затворена, последната точка е "
+"с различен цвят, за да се укаже, че ще бъде свързана със следващата добавена "
+"точка. След като поставиш поне 3 точки, можеш да затвориш фигурата чрез "
+"кликване върху първата или последната точка. Когато фигурата е затворена, "
+"добавянето на нови точки е невъзможно. Преместване на точка става с плъзгане "
+"или изтриване с двоен клик. Можеш да рестартираш фигурата чрез кликване "
+"върху бутона за презареждане. Ако  фигурата е правилна, натисни бутона OK за "
+"потвърждаване на отговора."
 
 #: activities/polygons/TutorialDataset.qml:20
 msgctxt "TutorialDataset|"
 msgid "A polygon is a closed shape made of at least 3 connected lines."
-msgstr ""
+msgstr "Полигонът е затворена фигура, съставена от поне 3 свързани линии."
 
 #: activities/polygons/TutorialDataset.qml:21
 msgctxt "TutorialDataset|"
@@ -23261,6 +23267,8 @@ msgid ""
 "To draw a polygon, click on the grid to place the ends of the polygon's "
 "lines."
 msgstr ""
+"За чертане на многоъгълник кликни върху мрежата, за поставяне на краищата на "
+"линиите на многоъгълника."
 
 #: activities/polygons/TutorialDataset.qml:22
 msgctxt "TutorialDataset|"
@@ -23268,32 +23276,28 @@ msgid ""
 "After placing at least 3 points, you can close the shape by clicking on the "
 "first or the last point."
 msgstr ""
+"След поставяне на поне 3 точки, затваряне на формата става с кликване върху "
+"първата или последната точка."
 
 #: activities/polygons/TutorialDataset.qml:23
-#, fuzzy
-#| msgctxt "VerticalSubtraction|"
-#| msgid "The result should not be a negative number."
 msgctxt "TutorialDataset|"
 msgid "The points should not be all aligned."
-msgstr "Резултатът не трябва да е отрицателно число."
+msgstr "Точките не трябва да бъдат всички подреден в една линия."
 
 #: activities/polygons/TutorialDataset.qml:26
 msgctxt "TutorialDataset|"
 msgid "Draw a polygon."
-msgstr ""
+msgstr "Чертане на полигон."
 
 #: activities/polygons/TutorialDataset.qml:39
 msgctxt "TutorialDataset|"
 msgid "A triangle is a polygon with 3 sides."
-msgstr ""
+msgstr "Триъгълникът е многоъгълник с 3 страни."
 
 #: activities/polygons/TutorialDataset.qml:42
-#, fuzzy
-#| msgctxt "instruments|"
-#| msgid "Find the triangle"
 msgctxt "TutorialDataset|"
 msgid "Draw a triangle."
-msgstr "Намери триъгълника"
+msgstr "Чертане на триъгълник."
 
 #: activities/polygons/TutorialDataset.qml:57
 msgctxt "TutorialDataset|"
@@ -23301,11 +23305,13 @@ msgid ""
 "A right triangle is a triangle in which two sides are perpendicular, forming "
 "a right angle (90 degrees)."
 msgstr ""
+"Правоъгълният триъгълник е триъгълник, в който две страни са перпендикулярни "
+"и образуват прав ъгъл (90 градуса)."
 
 #: activities/polygons/TutorialDataset.qml:60
 msgctxt "TutorialDataset|"
 msgid "Draw a right triangle."
-msgstr ""
+msgstr "Чертане на правоъгълен триъгълник."
 
 #: activities/polygons/TutorialDataset.qml:74
 msgctxt "TutorialDataset|"
@@ -23313,44 +23319,44 @@ msgid ""
 "An isosceles triangle is a triangle with two sides of equal length and two "
 "angles of equal measure."
 msgstr ""
+"Равнобедрения триъгълник е триъгълник с две страни с еднаква дължина и два "
+"ъгъла с еднаква мярка."
 
 #: activities/polygons/TutorialDataset.qml:77
 msgctxt "TutorialDataset|"
 msgid "Draw an isosceles triangle."
-msgstr ""
+msgstr "Чертане на равнобедрен триъгълник."
 
 #: activities/polygons/TutorialDataset.qml:100
 msgctxt "TutorialDataset|"
 msgid "A quadrilateral is a four-sided polygon, having 4 sides and 4 corners."
 msgstr ""
+"Четириъгълникът е многоъгълник с четири страни, имащ 4 страни и 4 ъгъла."
 
 #: activities/polygons/TutorialDataset.qml:103
 msgctxt "TutorialDataset|"
 msgid "Draw a quadrilateral."
-msgstr ""
+msgstr "Чертане на четириъгълник."
 
 #: activities/polygons/TutorialDataset.qml:118
 msgctxt "TutorialDataset|"
 msgid "A rectangle is a quadrilateral with 4 right angles."
-msgstr ""
+msgstr "Правоъгълникът е четириъгълник с 4 прави ъгъла."
 
 #: activities/polygons/TutorialDataset.qml:121
 msgctxt "TutorialDataset|"
 msgid "Draw a rectangle."
-msgstr ""
+msgstr "Чертане на правоъгълник."
 
 #: activities/polygons/TutorialDataset.qml:142
 msgctxt "TutorialDataset|"
 msgid "A square is a rectangle with 4 sides of equal length."
-msgstr ""
+msgstr "Квадратът е правоъгълник с 4 страни с еднаква дължина."
 
 #: activities/polygons/TutorialDataset.qml:145
-#, fuzzy
-#| msgctxt "Data|"
-#| msgid "Percentages with a square."
 msgctxt "TutorialDataset|"
 msgid "Draw a square."
-msgstr "Проценти с квадрат."
+msgstr "Чертане на квадрат."
 
 #: activities/polygons/TutorialDataset.qml:168
 msgctxt "TutorialDataset|"
@@ -23358,21 +23364,23 @@ msgid ""
 "A parallelogram is a quadrilateral with opposite sides of equal length and "
 "opposite angles of equal measure."
 msgstr ""
+"Паралелограмът е четириъгълник с срещуположни страни от еднаква дължина и "
+"срещуположни ъгли с еднаква мярка."
 
 #: activities/polygons/TutorialDataset.qml:171
 msgctxt "TutorialDataset|"
 msgid "Draw a parallelogram which is not a rectangle."
-msgstr ""
+msgstr "Чертане на паралелограм, който не е правоъгълник."
 
 #: activities/polygons/TutorialDataset.qml:192
 msgctxt "TutorialDataset|"
 msgid "A rhombus is a parallelogram with four sides of equal length."
-msgstr ""
+msgstr "Ромбът е паралелограм с четири страни с еднаква дължина."
 
 #: activities/polygons/TutorialDataset.qml:195
 msgctxt "TutorialDataset|"
 msgid "Draw a rhombus which is not a square."
-msgstr ""
+msgstr "Чертане на ромб, който не е квадрат."
 
 #. Activity title
 #: activities/positions/ActivityInfo.qml:15
@@ -25455,7 +25463,7 @@ msgstr "Не можеш да поставиш повече от %1 бонбон�
 #: activities/simplepaint/ActivityInfo.qml:15
 msgctxt "ActivityInfo|"
 msgid "Draw in a grid"
-msgstr "Рисуване в диаграма"
+msgstr "Чертане в диаграма"
 
 #. Help title
 #: activities/simplepaint/ActivityInfo.qml:17

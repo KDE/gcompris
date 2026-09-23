@@ -23241,8 +23241,6 @@ msgstr ""
 
 #: activities/polygons/TutorialDataset.qml:42
 #, fuzzy
-#| msgctxt "instruments|"
-#| msgid "Find the triangle"
 msgctxt "TutorialDataset|"
 msgid "Draw a triangle."
 msgstr "Finn triangelet"
@@ -23298,8 +23296,6 @@ msgstr ""
 
 #: activities/polygons/TutorialDataset.qml:145
 #, fuzzy
-#| msgctxt "Data|"
-#| msgid "Percentages with a square."
 msgctxt "TutorialDataset|"
 msgid "Draw a square."
 msgstr "Prosentar – kvadratdiagram"
