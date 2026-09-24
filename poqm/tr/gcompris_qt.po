@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-09-22 18:38+0300\n"
+"PO-Revision-Date: 2026-09-23 14:09+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 26.08.0\n"
+"X-Generator: Poedit 3.9\n"
 "X-Qt-Contexts: true\n"
 
 #: activities/adjacent_numbers/ActivityConfig.qml:19
@@ -23090,11 +23090,19 @@ msgid ""
 "restart the shape by clicking on the reload button. When the shape is "
 "correct, press the OK button to validate your answer."
 msgstr ""
+"Çokgenin kenar uçlarına karşılık gelen noktaları yerleştirmek için ızgaraya "
+"tıkla. Şekil henüz kapatılmamışken, son nokta, eklenecek bir sonraki "
+"noktayla birleştirileceğini belirtmek amacıyla farklı bir renkte görünür. En "
+"az 3 nokta yerleştirdikten sonra, ilk veya son noktaya tıklayarak şekli "
+"kapatabilirsin. Şekil kapatıldığında yeni nokta ekleyemezsin. Bir noktayı "
+"sürükleyerek taşıyabilir veya çift tıklayarak silebilirsin. Yeniden yükleme "
+"düğmesine tıklayarak şekli baştan oluşturmak olanaklıdır. Şekil doğru "
+"olduğunda, yanıtını onaylamak için OK düğmesine bas."
 
 #: activities/polygons/TutorialDataset.qml:20
 msgctxt "TutorialDataset|"
 msgid "A polygon is a closed shape made of at least 3 connected lines."
-msgstr ""
+msgstr "Çokgen, birbirine bağlı en az 3 doğrudan oluşan kapalı bir şekildir."
 
 #: activities/polygons/TutorialDataset.qml:21
 msgctxt "TutorialDataset|"
@@ -23102,6 +23110,8 @@ msgid ""
 "To draw a polygon, click on the grid to place the ends of the polygon's "
 "lines."
 msgstr ""
+"Bir çokgen çizmek için çokgenin kenarlarının uç noktalarını yerleştirmek "
+"üzere ızgara üzerine tıkla."
 
 #: activities/polygons/TutorialDataset.qml:22
 msgctxt "TutorialDataset|"
@@ -23109,32 +23119,28 @@ msgid ""
 "After placing at least 3 points, you can close the shape by clicking on the "
 "first or the last point."
 msgstr ""
+"En az 3 nokta yerleştirdikten sonra, ilk veya son noktaya tıklayarak şekli "
+"kapatabilirsin."
 
 #: activities/polygons/TutorialDataset.qml:23
-#, fuzzy
-#| msgctxt "VerticalSubtraction|"
-#| msgid "The result should not be a negative number."
 msgctxt "TutorialDataset|"
 msgid "The points should not be all aligned."
-msgstr "Sonuç negatif bir sayı olmamalı."
+msgstr "Noktaların hepsi aynı hizada olmamalıdır."
 
 #: activities/polygons/TutorialDataset.qml:26
 msgctxt "TutorialDataset|"
 msgid "Draw a polygon."
-msgstr ""
+msgstr "Bir çokgen çiz."
 
 #: activities/polygons/TutorialDataset.qml:39
 msgctxt "TutorialDataset|"
 msgid "A triangle is a polygon with 3 sides."
-msgstr ""
+msgstr "Üçgen, 3 kenarı olan bir çokgendir."
 
 #: activities/polygons/TutorialDataset.qml:42
-#, fuzzy
-#| msgctxt "instruments|"
-#| msgid "Find the triangle"
 msgctxt "TutorialDataset|"
 msgid "Draw a triangle."
-msgstr "Üçgeni bul"
+msgstr "Bir üçgen çiz."
 
 #: activities/polygons/TutorialDataset.qml:57
 msgctxt "TutorialDataset|"
@@ -23142,11 +23148,13 @@ msgid ""
 "A right triangle is a triangle in which two sides are perpendicular, forming "
 "a right angle (90 degrees)."
 msgstr ""
+"Dik üçgen, iki kenarı birbirine dik olan ve bir dik açı (90 derece) "
+"oluşturan bir üçgendir."
 
 #: activities/polygons/TutorialDataset.qml:60
 msgctxt "TutorialDataset|"
 msgid "Draw a right triangle."
-msgstr ""
+msgstr "Bir dik üçgen çiz."
 
 #: activities/polygons/TutorialDataset.qml:74
 msgctxt "TutorialDataset|"
@@ -23154,44 +23162,43 @@ msgid ""
 "An isosceles triangle is a triangle with two sides of equal length and two "
 "angles of equal measure."
 msgstr ""
+"İkizkenar üçgen, iki kenarı eşit uzunlukta ve iki açısı eşit ölçüde olan bir "
+"üçgendir."
 
 #: activities/polygons/TutorialDataset.qml:77
 msgctxt "TutorialDataset|"
 msgid "Draw an isosceles triangle."
-msgstr ""
+msgstr "Bir ikizkenar üçgen çiz."
 
 #: activities/polygons/TutorialDataset.qml:100
 msgctxt "TutorialDataset|"
 msgid "A quadrilateral is a four-sided polygon, having 4 sides and 4 corners."
-msgstr ""
+msgstr "Dörtgen, 4 kenarı ve 4 köşesi olan dört kenarlı bir çokgendir."
 
 #: activities/polygons/TutorialDataset.qml:103
 msgctxt "TutorialDataset|"
 msgid "Draw a quadrilateral."
-msgstr ""
+msgstr "Bir dörtgen çiz."
 
 #: activities/polygons/TutorialDataset.qml:118
 msgctxt "TutorialDataset|"
 msgid "A rectangle is a quadrilateral with 4 right angles."
-msgstr ""
+msgstr "Dikdörtgen, dört dik açısı olan bir dörtgendir."
 
 #: activities/polygons/TutorialDataset.qml:121
 msgctxt "TutorialDataset|"
 msgid "Draw a rectangle."
-msgstr ""
+msgstr "Bir dikdörtgen çiz."
 
 #: activities/polygons/TutorialDataset.qml:142
 msgctxt "TutorialDataset|"
 msgid "A square is a rectangle with 4 sides of equal length."
-msgstr ""
+msgstr "Kare, dört kenarı da eşit uzunlukta olan bir dikdörtgendir."
 
 #: activities/polygons/TutorialDataset.qml:145
-#, fuzzy
-#| msgctxt "Data|"
-#| msgid "Percentages with a square."
 msgctxt "TutorialDataset|"
 msgid "Draw a square."
-msgstr "Kare ile yüzdeler."
+msgstr "Bir kare çiz."
 
 #: activities/polygons/TutorialDataset.qml:168
 msgctxt "TutorialDataset|"
@@ -23199,21 +23206,24 @@ msgid ""
 "A parallelogram is a quadrilateral with opposite sides of equal length and "
 "opposite angles of equal measure."
 msgstr ""
+"Paralelkenar, karşılıklı kenarları eşit uzunlukta ve karşılıklı açıları eşit "
+"ölçüde olan bir dörtgendir."
 
 #: activities/polygons/TutorialDataset.qml:171
 msgctxt "TutorialDataset|"
 msgid "Draw a parallelogram which is not a rectangle."
-msgstr ""
+msgstr "Dikdörtgen olmayan bir paralelkenar çiz."
 
 #: activities/polygons/TutorialDataset.qml:192
 msgctxt "TutorialDataset|"
 msgid "A rhombus is a parallelogram with four sides of equal length."
 msgstr ""
+"Eşkenar dörtgen, dört kenarı da eşit uzunlukta olan bir paralelkenardır."
 
 #: activities/polygons/TutorialDataset.qml:195
 msgctxt "TutorialDataset|"
 msgid "Draw a rhombus which is not a square."
-msgstr ""
+msgstr "Kare olmayan bir eşkenar dörtgen çiz."
 
 #. Activity title
 #: activities/positions/ActivityInfo.qml:15

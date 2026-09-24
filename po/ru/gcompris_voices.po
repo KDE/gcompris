@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gcompris\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-09-22 00:40+0000\n"
-"PO-Revision-Date: 2026-04-03 22:18+0200\n"
+"PO-Revision-Date: 2026-09-23 08:43+0200\n"
 "Last-Translator: Alexander Yavorskiy <kekcuha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
@@ -329,10 +329,9 @@ msgstr "Выбери верный знак компаратора для каж�
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "compass"
 #: activities/compass/ActivityInfo.qml:17
-#, fuzzy, kde-format
-#| msgid "Use the tools to draw images."
+#, kde-format
 msgid "Use the compass to draw."
-msgstr "Используй инструменты, чтобы рисовать изображения."
+msgstr "Используй циркуль, чтобы рисовать."
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "crane"
 #: activities/crane/ActivityInfo.qml:23
@@ -1114,7 +1113,7 @@ msgstr "Щёлкай по барабану, чтобы воссоздать ри
 #: activities/polygons/ActivityInfo.qml:22
 #, kde-format
 msgid "Draw the requested polygons by clicking on the grid."
-msgstr ""
+msgstr "Нарисуй нужные многоугольники, щёлкая по сетке."
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "positions"
 #: activities/positions/ActivityInfo.qml:18
@@ -1213,19 +1212,15 @@ msgstr "Выбери цвет и закрась прямоугольники, ч
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "sixteen"
 #: activities/sixteen/ActivityInfo.qml:17
-#, fuzzy, kde-format
-#| msgid ""
-#| "Click or drag an element next to a free space, the element will move and "
-#| "release its space. You must put all the pieces in the correct order. The "
-#| "numbers on the pieces can help you."
+#, kde-format
 msgid ""
 "Click on an arrow to slide the corresponding row or column in this "
 "direction. You must put all the pieces in the correct order. The numbers on "
 "the pieces can help you."
 msgstr ""
-"Щёлкай по костяшкам рядом с пустым полем или перетаскивай их. Выбранная "
-"костяшка занимает пустое поле, освобождая своё. Необходимо расположить все "
-"костяшки в правильном порядке. Числа на них могут в этом помочь."
+"Щёлкай по стрелке, чтобы сдвинуть соответствующую строку или столбец в этом "
+"направлении. Необходимо расположить все костяшки в правильном порядке. Числа "
+"на них могут в этом помочь."
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "sketch"
 #: activities/sketch/ActivityInfo.qml:21
