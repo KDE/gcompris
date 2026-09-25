@@ -16290,6 +16290,8 @@ msgid ""
 "Learn the numbers represented by a single digit and the corresponding "
 "quantities."
 msgstr ""
+"ისწავლეთ რიცხვები, რომლებიც წარმოდგენილია ერთი ციფრით და შესაბამისი "
+"რაოდენობით."
 
 #. Help manual
 #: activities/learn_digits/ActivityInfo.qml:23
@@ -16298,6 +16300,8 @@ msgid ""
 "A digit is displayed on the screen. Fill the number of circles corresponding "
 "to the number represented by the digit and validate your answer."
 msgstr ""
+"ეკრანზე ნაჩვენებია ციფრი. შეავსეთ წრეები, რომლების რაოდენობაც ნაჩვენები "
+"ციფრის ტოლი იქნება და დაადასტურეთ თქვენი პასუხი."
 
 #: activities/learn_digits/ActivityInfo.qml:28
 msgctxt "ActivityInfo|"
@@ -16367,7 +16371,7 @@ msgctxt "ActivityInfo|"
 msgid ""
 "Learn quantities by counting how many oranges are needed to represent the "
 "requested quantity."
-msgstr ""
+msgstr "ისწავლეთ თვლა მოთხოვნილი რაოდენობის შესაბამისი ფორთოხლების მონიშვნით."
 
 #. Help manual
 #: activities/learn_quantities/ActivityInfo.qml:22
@@ -16393,6 +16397,10 @@ msgid ""
 "corresponds to the requested quantity. Then click on the OK button to "
 "validate your answer."
 msgstr ""
+"გადაათრიეთ ისარი, რომ მონიშნოთ ფორთოხლების რაოდენობა და გადაათრიეთ მონიშნული "
+"ფორთოხლები ცარიელ ადგილას. გაიმეორეთ ეს ნაბიჯები, სანამ ფორთოხლების "
+"რაოდენობა მოთხოვნილ რაოდენობას არ გაუტოლდება, შემდეგ კი თქვენი პასუხის "
+"დასადასტურებლად დააწკაპუნეთ ღილაკზე 'დიახ'."
 
 #: activities/learn_quantities/resource/1/Data.qml:13
 msgctxt "Data|"
@@ -16449,6 +16457,8 @@ msgid ""
 "A subtraction is displayed on the screen. Calculate the result, fill the "
 "corresponding number of circles and validate your answer."
 msgstr ""
+"კრანზე ნაჩვენებია გამოკლება. გამოთვალეთ შედეგი, შეავსეთ შესაბამისი წრეების "
+"რაოდენობა და დაადასტურეთ თქვენი პასუხი."
 
 #: activities/learn_subtractions/resource/1/Data.qml:14
 msgctxt "Data|"
@@ -16503,6 +16513,8 @@ msgid ""
 "A left click on a fish will move it to the pond. A right click on a monkey "
 "will move it to the tree. A message will show if you make the wrong click."
 msgstr ""
+"თევზზე მარცხენა წკაპი მას აუზში გადაიტანს. მარჯვენა წკაპი მაიმუნზე მას ხეზე "
+"გადაიტანს. თუ არასწორ ადგილას დააწკაპუნებთ, შეტყობინებას გაჩვენებთ."
 
 #. Activity title
 #: activities/leftright/ActivityInfo.qml:15
@@ -16523,6 +16535,8 @@ msgid ""
 "Distinguish right and left hands from different points of view. Spatial "
 "representation."
 msgstr ""
+"განასხვავეთ მარჯვენა და მარცხენა ხელები სხვადასხვა ხედიდან. სივრცითი "
+"წარმოდგენა."
 
 #. Help manual
 #: activities/leftright/ActivityInfo.qml:23
@@ -16531,6 +16545,8 @@ msgid ""
 "You can see a hand: is it a left hand or a right hand? Click on the left "
 "button, or the right button depending on the displayed hand."
 msgstr ""
+"თქვენ ხედავთ ხელს. ეს ხელი მარჯვენაა, თუ მარცხენა? დააწკაპუნეთ მარცხენა "
+"ღილაკზე, ან მარჯვენა ღილაკზე ნაჩვენები ხელზე დამოკიდებულებით."
 
 #: activities/leftright/ActivityInfo.qml:25
 msgctxt "ActivityInfo|"
@@ -16613,6 +16629,8 @@ msgid ""
 "A letter is displayed on the flag attached to the plane. Select all the "
 "words in the list containing this letter and then press the OK button."
 msgstr ""
+"თვითმფრინავზე მიმაგრებულ ალამზე სიმბოლოა ნაჩვენები. მონიშნეთ ყველა სიტყვა, "
+"რომელიც ამ სიმბოლოს შეიცავს და დააწკაპუნეთ ღილაკზე 'დიახ'."
 
 #: activities/letter-in-word/LetterInWord.qml:335
 msgctxt "LetterInWord|"
