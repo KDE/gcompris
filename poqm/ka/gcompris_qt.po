@@ -16659,6 +16659,8 @@ msgid ""
 "Learn the numbers represented by a single digit and the corresponding "
 "quantities."
 msgstr ""
+"ისწავლეთ რიცხვები, რომლებიც წარმოდგენილია ერთი ციფრით და შესაბამისი "
+"რაოდენობით."
 
 #. Help manual
 #: activities/learn_digits/ActivityInfo.qml:23
@@ -16667,6 +16669,8 @@ msgid ""
 "A digit is displayed on the screen. Fill the number of circles corresponding "
 "to the number represented by the digit and validate your answer."
 msgstr ""
+"ეკრანზე ნაჩვენებია ციფრი. შეავსეთ წრეები, რომლების რაოდენობაც ნაჩვენები "
+"ციფრის ტოლი იქნება და დაადასტურეთ თქვენი პასუხი."
 
 #: activities/learn_digits/ActivityInfo.qml:28
 msgctxt "ActivityInfo|"
@@ -16736,7 +16740,7 @@ msgctxt "ActivityInfo|"
 msgid ""
 "Learn quantities by counting how many oranges are needed to represent the "
 "requested quantity."
-msgstr ""
+msgstr "ისწავლეთ თვლა მოთხოვნილი რაოდენობის შესაბამისი ფორთოხლების მონიშვნით."
 
 #. Help manual
 #: activities/learn_quantities/ActivityInfo.qml:22
@@ -16762,6 +16766,10 @@ msgid ""
 "corresponds to the requested quantity. Then click on the OK button to "
 "validate your answer."
 msgstr ""
+"გადაათრიეთ ისარი, რომ მონიშნოთ ფორთოხლების რაოდენობა და გადაათრიეთ მონიშნული "
+"ფორთოხლები ცარიელ ადგილას. გაიმეორეთ ეს ნაბიჯები, სანამ ფორთოხლების "
+"რაოდენობა მოთხოვნილ რაოდენობას არ გაუტოლდება, შემდეგ კი თქვენი პასუხის "
+"დასადასტურებლად დააწკაპუნეთ ღილაკზე 'დიახ'."
 
 #: activities/learn_quantities/resource/1/Data.qml:13
 msgctxt "Data|"
@@ -16818,6 +16826,8 @@ msgid ""
 "A subtraction is displayed on the screen. Calculate the result, fill the "
 "corresponding number of circles and validate your answer."
 msgstr ""
+"კრანზე ნაჩვენებია გამოკლება. გამოთვალეთ შედეგი, შეავსეთ შესაბამისი წრეების "
+"რაოდენობა და დაადასტურეთ თქვენი პასუხი."
 
 #: activities/learn_subtractions/resource/1/Data.qml:14
 msgctxt "Data|"
@@ -16872,6 +16882,8 @@ msgid ""
 "A left click on a fish will move it to the pond. A right click on a monkey "
 "will move it to the tree. A message will show if you make the wrong click."
 msgstr ""
+"თევზზე მარცხენა წკაპი მას აუზში გადაიტანს. მარჯვენა წკაპი მაიმუნზე მას ხეზე "
+"გადაიტანს. თუ არასწორ ადგილას დააწკაპუნებთ, შეტყობინებას გაჩვენებთ."
 
 #. Activity title
 #: activities/leftright/ActivityInfo.qml:15
@@ -16892,6 +16904,8 @@ msgid ""
 "Distinguish right and left hands from different points of view. Spatial "
 "representation."
 msgstr ""
+"განასხვავეთ მარჯვენა და მარცხენა ხელები სხვადასხვა ხედიდან. სივრცითი "
+"წარმოდგენა."
 
 #. Help manual
 #: activities/leftright/ActivityInfo.qml:23
@@ -16900,6 +16914,8 @@ msgid ""
 "You can see a hand: is it a left hand or a right hand? Click on the left "
 "button, or the right button depending on the displayed hand."
 msgstr ""
+"თქვენ ხედავთ ხელს. ეს ხელი მარჯვენაა, თუ მარცხენა? დააწკაპუნეთ მარცხენა "
+"ღილაკზე, ან მარჯვენა ღილაკზე ნაჩვენები ხელზე დამოკიდებულებით."
 
 #: activities/leftright/ActivityInfo.qml:25
 msgctxt "ActivityInfo|"
@@ -16982,6 +16998,8 @@ msgid ""
 "A letter is displayed on the flag attached to the plane. Select all the "
 "words in the list containing this letter and then press the OK button."
 msgstr ""
+"თვითმფრინავზე მიმაგრებულ ალამზე სიმბოლოა ნაჩვენები. მონიშნეთ ყველა სიტყვა, "
+"რომელიც ამ სიმბოლოს შეიცავს და დააწკაპუნეთ ღილაკზე 'დიახ'."
 
 #: activities/letter-in-word/LetterInWord.qml:342
 msgctxt "LetterInWord|"
@@ -21872,7 +21890,7 @@ msgstr "მრავალკუთხედები"
 #: activities/polygons/ActivityInfo.qml:21
 msgctxt "ActivityInfo|"
 msgid "Learn about special polygons and draw them in a grid."
-msgstr ""
+msgstr "ისწავლეთ სპეციალური მრავალკუთხედების შესახებ და დახაზეთ ისინი ბადეზე."
 
 #. Help goal
 #: activities/polygons/ActivityInfo.qml:24
@@ -21898,6 +21916,8 @@ msgstr ""
 msgctxt "TutorialDataset|"
 msgid "A polygon is a closed shape made of at least 3 connected lines."
 msgstr ""
+"მრავალკუთხედი დახურული მოხაზულობა, რომელიც, სულ ცოტა, 3 დაკავშირებული "
+"ხაზისგან შედგება."
 
 #: activities/polygons/TutorialDataset.qml:21
 msgctxt "TutorialDataset|"
@@ -21905,6 +21925,8 @@ msgid ""
 "To draw a polygon, click on the grid to place the ends of the polygon's "
 "lines."
 msgstr ""
+"მრავალკუთხედის დასახატად დააწკაპუნეთ ბადეზე, რომ მოათავსოთ მისი ხაზის "
+"ბოლოები."
 
 #: activities/polygons/TutorialDataset.qml:22
 msgctxt "TutorialDataset|"
@@ -21912,6 +21934,8 @@ msgid ""
 "After placing at least 3 points, you can close the shape by clicking on the "
 "first or the last point."
 msgstr ""
+"სულ ცოტა სამი წერტილის მოთავსების შემდეგ შეგიძლიათ, დახუროთ მოხაზულობა "
+"პირველ, ან ბოლო წერტილზე დაწკაპუნებით."
 
 #: activities/polygons/TutorialDataset.qml:23
 msgctxt "TutorialDataset|"
@@ -21921,12 +21945,12 @@ msgstr "წერტილები გასწორებული არ უ
 #: activities/polygons/TutorialDataset.qml:26
 msgctxt "TutorialDataset|"
 msgid "Draw a polygon."
-msgstr ""
+msgstr "დახაზეთ მრავალკუთხედი."
 
 #: activities/polygons/TutorialDataset.qml:39
 msgctxt "TutorialDataset|"
 msgid "A triangle is a polygon with 3 sides."
-msgstr ""
+msgstr "სამკუთხედი მრავალკუთხედია სამი მხრით."
 
 #: activities/polygons/TutorialDataset.qml:42
 msgctxt "TutorialDataset|"
@@ -21939,11 +21963,13 @@ msgid ""
 "A right triangle is a triangle in which two sides are perpendicular, forming "
 "a right angle (90 degrees)."
 msgstr ""
+"მართკუთხა სამკუთხედი სამკუთხედია, რომლის ორი მხარეც პერპენდიკულარულია (90 "
+"გრადუსი)."
 
 #: activities/polygons/TutorialDataset.qml:60
 msgctxt "TutorialDataset|"
 msgid "Draw a right triangle."
-msgstr ""
+msgstr "დახაზეთ მართკუთხა სამკუთხედი."
 
 #: activities/polygons/TutorialDataset.qml:74
 msgctxt "TutorialDataset|"
@@ -21951,36 +21977,39 @@ msgid ""
 "An isosceles triangle is a triangle with two sides of equal length and two "
 "angles of equal measure."
 msgstr ""
+"ტოლფერდა სამკუთხედი სამკუთხედია, რომლის ორი გვერდი ტოლი სიგრძისაა და ორი "
+"კუთხე ტოლი მნიშვნელობის."
 
 #: activities/polygons/TutorialDataset.qml:77
 msgctxt "TutorialDataset|"
 msgid "Draw an isosceles triangle."
-msgstr ""
+msgstr "დახაზეთ ტოლფერდა სამკუთხედი."
 
 #: activities/polygons/TutorialDataset.qml:100
 msgctxt "TutorialDataset|"
 msgid "A quadrilateral is a four-sided polygon, having 4 sides and 4 corners."
 msgstr ""
+"ოთხკუთხედი ოთხმხრიანი მრავალკუთხედია, რომელსაც 4 მხარე და 4 კუთხე აქვს."
 
 #: activities/polygons/TutorialDataset.qml:103
 msgctxt "TutorialDataset|"
 msgid "Draw a quadrilateral."
-msgstr ""
+msgstr "დახაზეთ ოთხკუთხედი."
 
 #: activities/polygons/TutorialDataset.qml:118
 msgctxt "TutorialDataset|"
 msgid "A rectangle is a quadrilateral with 4 right angles."
-msgstr ""
+msgstr "მართკუთხედი ოთხკუთხედია 4 მართი კუთხით."
 
 #: activities/polygons/TutorialDataset.qml:121
 msgctxt "TutorialDataset|"
 msgid "Draw a rectangle."
-msgstr ""
+msgstr "დახაზეთ მართკუთხედი."
 
 #: activities/polygons/TutorialDataset.qml:142
 msgctxt "TutorialDataset|"
 msgid "A square is a rectangle with 4 sides of equal length."
-msgstr ""
+msgstr "კვადრატი მართკუთხედია 4 ტოლი სიგრძის მქონე გვერდით."
 
 #: activities/polygons/TutorialDataset.qml:145
 msgctxt "TutorialDataset|"
@@ -21993,21 +22022,23 @@ msgid ""
 "A parallelogram is a quadrilateral with opposite sides of equal length and "
 "opposite angles of equal measure."
 msgstr ""
+"პარალელოგრამი ოთხკუთხედია, რომელშიც საპირისპირო გვერდები და კუთხეები ტოლი "
+"მნიშვნელობისაა."
 
 #: activities/polygons/TutorialDataset.qml:171
 msgctxt "TutorialDataset|"
 msgid "Draw a parallelogram which is not a rectangle."
-msgstr ""
+msgstr "დახატეთ პარალელოგრამი, რომელიც მართკუთხედი არაა."
 
 #: activities/polygons/TutorialDataset.qml:192
 msgctxt "TutorialDataset|"
 msgid "A rhombus is a parallelogram with four sides of equal length."
-msgstr ""
+msgstr "რომბი პარალელოგრამია, რომლის ოთხივე გვერდი ტოლი სიგრძისაა."
 
 #: activities/polygons/TutorialDataset.qml:195
 msgctxt "TutorialDataset|"
 msgid "Draw a rhombus which is not a square."
-msgstr ""
+msgstr "დახაზეთ რომბი, რომელიც კვადრატი არაა."
 
 #. Activity title
 #: activities/positions/ActivityInfo.qml:15
