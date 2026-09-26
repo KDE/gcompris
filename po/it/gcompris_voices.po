@@ -5,14 +5,14 @@ msgstr ""
 "Project-Id-Version: gcompris_voices\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-09-22 00:40+0000\n"
-"PO-Revision-Date: 2026-09-08 11:20+0200\n"
+"PO-Revision-Date: 2026-09-22 11:20+0200\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 26.08.0\n"
+"X-Generator: Lokalize 26.08.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "adjacent_numbers"
@@ -1140,7 +1140,7 @@ msgstr "Fai clic sul tamburo per ricreare il ritmo"
 #: activities/polygons/ActivityInfo.qml:22
 #, kde-format
 msgid "Draw the requested polygons by clicking on the grid."
-msgstr ""
+msgstr "Disegna i poligoni richiesti facendo clic sulla griglia."
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "positions"
 #: activities/positions/ActivityInfo.qml:18
