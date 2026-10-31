@@ -4022,7 +4022,7 @@ msgctxt "category_colors|"
 msgid ""
 "Place the objects matching RED color to the right and others to the left"
 msgstr ""
-"Col·loca els objectes que coincidixen amb el color VERMELL a la dreta i els "
+"Col·loca els objectes que coincidixen amb el color ROIG a la dreta i els "
 "altres a l'esquerra"
 
 #: activities/categorization/resource/board/category_colors.qml:60
