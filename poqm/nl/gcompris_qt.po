@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-10-19 14:43+0200\n"
-"Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
+"PO-Revision-Date: 2026-11-12 18:19+0100\n"
+"Last-Translator: freek <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Language: nl\n"
 "X-Qt-Contexts: true\n"
-"X-Generator: Lokalize 26.08.2\n"
+"X-Generator: Lokalize 26.04.1\n"
 
 #: activities/adjacent_numbers/ActivityConfig.qml:19
 #: activities/clickanddraw/ActivityConfig.qml:22
@@ -3368,40 +3368,29 @@ msgstr ""
 
 #: activities/calcudoku/ActivityInfo.qml:25
 #: activities/sudoku/ActivityInfo.qml:26
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Arrows: move the helicopter"
 msgctxt "ActivityInfo|"
 msgid "Arrows: move the cursor"
-msgstr "Pijlen: verplaats de helicopter"
+msgstr "Pijlen: verplaats de cursor"
 
 #: activities/calcudoku/ActivityInfo.qml:26
 #: activities/sudoku/ActivityInfo.qml:27
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Tab: navigate between the item list and the mosaic"
 msgctxt "ActivityInfo|"
 msgid "Tab: toggle navigation between the grid and the list"
-msgstr "Tab: navigeren tussen de lijst met items en het mozaïek "
+msgstr "Tab: navigeren tussen het rooster en de lijst omschakelen"
 
 #: activities/calcudoku/ActivityInfo.qml:27
 #: activities/sudoku/ActivityInfo.qml:28
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Space or Enter: select an item from the list"
 msgctxt "ActivityInfo|"
 msgid "Space: add or remove an item in the grid, or select an item in the list"
-msgstr "Spatie of Enter: een item uit de lijst selecteren"
+msgstr ""
+"Spatie: een item in het raster toevoegen of verwijderen of selecteer een "
+"item uit de lijst"
 
 #: activities/calcudoku/ActivityInfo.qml:28
 #: activities/sudoku/ActivityInfo.qml:29
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Digits: 1 to 6 select/deselect the corresponding dots"
 msgctxt "ActivityInfo|"
 msgid "Numbers from 1 to 9: directly select the corresponding item in the list"
-msgstr ""
-"Cijfers: 1 tot 6 de overeenkomstige punten selecteren/selectie ongedaan maken"
+msgstr "Cijfers van 1 tot 9: selecteren het overeenkomstige item in de lijst"
 
 #. + is the unicode character for addition mathematical operator (+)
 #: activities/calcudoku/resource/1/Data.qml:66
@@ -22375,7 +22364,7 @@ msgctxt "ActivityInfo|"
 msgid "Arrows: directions"
 msgstr "Pijlen: richtingen"
 
-#: activities/path_encoding/GridPath.qml:137
+#: activities/path_encoding/GridPath.qml:153
 #, qt-format
 msgctxt "GridPath|"
 msgid "Errors: %1"

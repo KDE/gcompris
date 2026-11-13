@@ -21031,7 +21031,7 @@ msgctxt "ActivityInfo|"
 msgid "Arrows: directions"
 msgstr "方向键：控制方向"
 
-#: activities/path_encoding/GridPath.qml:137
+#: activities/path_encoding/GridPath.qml:153
 #, qt-format
 msgctxt "GridPath|"
 msgid "Errors: %1"
