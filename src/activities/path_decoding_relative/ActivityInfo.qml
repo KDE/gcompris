@@ -21,7 +21,10 @@ ActivityInfo {
   //: Help manual
   manual: qsTr("Click on the grid squares to move Tux to the target following the arrow directions.") + "<br><br>" +
           qsTr("The directions are relative to the current orientation of Tux.") + "<br><br>" +
-          qsTr("This means that UP moves forward, DOWN moves backward, LEFT moves to the left side of Tux and RIGHT moves to the right side of Tux.")
+          qsTr("This means that UP moves forward, DOWN moves backward, LEFT moves to the left side of Tux and RIGHT moves to the right side of Tux.") + ("<br><br>") +
+          qsTr("<b>Keyboard controls:</b>") + ("<ul><li>") +
+          qsTr("Arrows: move the cursor") + ("</li><li>") +
+          qsTr("Space or Enter: move Tux to the selected square") + ("</li></ul>")
   credit: ""
   section: "discovery logic"
   createdInVersion: 20000

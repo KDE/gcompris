@@ -20,7 +20,10 @@ ActivityInfo {
   prerequisite: ""
   //: Help manual
   manual: qsTr("Click on the grid squares to move Tux to the target following the arrow directions.") + "<br><br>" +
-          qsTr("The directions are absolute, they do not depend on the current orientation of Tux.")
+          qsTr("The directions are absolute, they do not depend on the current orientation of Tux.") + ("<br><br>") +
+          qsTr("<b>Keyboard controls:</b>") + ("<ul><li>") +
+          qsTr("Arrows: move the cursor") + ("</li><li>") +
+          qsTr("Space or Enter: move Tux to the selected square") + ("</li></ul>")
   credit: ""
   section: "discovery logic"
   createdInVersion: 20000
