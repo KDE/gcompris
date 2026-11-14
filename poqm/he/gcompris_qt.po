@@ -5,16 +5,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GCompris\n"
 "POT-Creation-Date: 2019-09-04 13:03+0000\n"
-"PO-Revision-Date: 2026-11-03 20:33+0200\n"
+"PO-Revision-Date: 2026-11-13 11:43+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
-"Language-Team: צוות התרגום של KDE ישראל\n"
+"Language-Team: Hebrew <kde-l10n-he@kde.org>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
 "n % 10 == 0) ? 2 : 3));\n"
-"X-Generator: Lokalize 26.08.1\n"
+"X-Generator: Lokalize 26.08.3\n"
 "X-Qt-Contexts: true\n"
 "X-Poedit-Bookmarks: -1,2919,-1,-1,-1,-1,-1,-1,-1,-1\n"
 
@@ -275,6 +275,8 @@ msgstr ""
 #: activities/multiple_choice_questions/ActivityInfo.qml:25
 #: activities/numbers-odd-even/ActivityInfo.qml:24
 #: activities/paintings/ActivityInfo.qml:30
+#: activities/path_decoding/ActivityInfo.qml:24
+#: activities/path_decoding_relative/ActivityInfo.qml:25
 #: activities/piano_composition/ActivityInfo.qml:33
 #: activities/planegame/ActivityInfo.qml:24
 #: activities/play_piano/ActivityInfo.qml:30
@@ -3257,40 +3259,30 @@ msgstr ""
 "שמורכבים מתא אחד מספקים את המספר שצריך למלא באופן ישיר."
 
 #: activities/calcudoku/ActivityInfo.qml:25
+#: activities/path_decoding/ActivityInfo.qml:25
+#: activities/path_decoding_relative/ActivityInfo.qml:26
 #: activities/sudoku/ActivityInfo.qml:26
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Arrows: move the helicopter"
 msgctxt "ActivityInfo|"
 msgid "Arrows: move the cursor"
-msgstr "חיצים: להזיז את המסוק"
+msgstr "חיצים: להזיז את הסמן"
 
 #: activities/calcudoku/ActivityInfo.qml:26
 #: activities/sudoku/ActivityInfo.qml:27
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Tab: navigate between the item list and the mosaic"
 msgctxt "ActivityInfo|"
 msgid "Tab: toggle navigation between the grid and the list"
-msgstr "‏Tab: לנווט בין רשימת הפריטים וההרכבה"
+msgstr "‏Tab: להחליף ניווט בין הרשת והרשימה"
 
 #: activities/calcudoku/ActivityInfo.qml:27
 #: activities/sudoku/ActivityInfo.qml:28
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Space or Enter: select an item from the list"
 msgctxt "ActivityInfo|"
 msgid "Space: add or remove an item in the grid, or select an item in the list"
-msgstr "רווח או Enter: לבחור פריט מהרשימה"
+msgstr "רווח: הוספה או הסרה של פרטים מהרשת או ממנה או בחירת פריט ברשימה"
 
 #: activities/calcudoku/ActivityInfo.qml:28
 #: activities/sudoku/ActivityInfo.qml:29
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Digits: 1 to 6 select/deselect the corresponding dots"
 msgctxt "ActivityInfo|"
 msgid "Numbers from 1 to 9: directly select the corresponding item in the list"
-msgstr "ספרות: 1 עד 6 לבחור/לבטל בחירה של הנקודות המשויכות"
+msgstr "מספרים מ־1 עד 9: בחירה ישירה של הפריט התואם ברשימה"
 
 #. + is the unicode character for addition mathematical operator (+)
 #: activities/calcudoku/resource/1/Data.qml:66
@@ -21560,6 +21552,15 @@ msgid ""
 "The directions are absolute, they do not depend on the current orientation "
 "of Tux."
 msgstr "הכיוונים הם מוחלטים, הם אינם תלויים בכיוון הנוכחי של טאקס."
+
+#: activities/path_decoding/ActivityInfo.qml:26
+#: activities/path_decoding_relative/ActivityInfo.qml:27
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Space or Enter: flip the selected card"
+msgctxt "ActivityInfo|"
+msgid "Space or Enter: move Tux to the selected square"
+msgstr "רווח או Enter: להפוך את הקלף הנבחר"
 
 #: activities/path_decoding/resource/1/Data.qml:13
 #: activities/path_decoding/resource/2/Data.qml:13

@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: gcompris_qt\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-12-22 23:51+0100\n"
-"PO-Revision-Date: 2026-10-19 12:06+0100\n"
+"PO-Revision-Date: 2026-11-11 11:49+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Language: es\n"
-"X-Generator: Lokalize 26.08.2\n"
+"X-Generator: Lokalize 26.08.3\n"
 "X-Qt-Contexts: true\n"
 
 #: activities/adjacent_numbers/ActivityConfig.qml:19
@@ -272,6 +272,8 @@ msgstr ""
 #: activities/multiple_choice_questions/ActivityInfo.qml:25
 #: activities/numbers-odd-even/ActivityInfo.qml:24
 #: activities/paintings/ActivityInfo.qml:30
+#: activities/path_decoding/ActivityInfo.qml:24
+#: activities/path_decoding_relative/ActivityInfo.qml:25
 #: activities/piano_composition/ActivityInfo.qml:33
 #: activities/planegame/ActivityInfo.qml:24
 #: activities/play_piano/ActivityInfo.qml:30
@@ -3392,42 +3394,34 @@ msgstr ""
 "tienen una celda proporcionan directamente el número que se debe introducir."
 
 #: activities/calcudoku/ActivityInfo.qml:25
+#: activities/path_decoding/ActivityInfo.qml:25
+#: activities/path_decoding_relative/ActivityInfo.qml:26
 #: activities/sudoku/ActivityInfo.qml:26
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Arrows: move the helicopter"
 msgctxt "ActivityInfo|"
 msgid "Arrows: move the cursor"
-msgstr "Flechas: mover el helicóptero"
+msgstr "Flechas: mover el cursor"
 
 #: activities/calcudoku/ActivityInfo.qml:26
 #: activities/sudoku/ActivityInfo.qml:27
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Tab: navigate between the item list and the mosaic"
 msgctxt "ActivityInfo|"
 msgid "Tab: toggle navigation between the grid and the list"
-msgstr "Tabulador: navegar entre la lista de elementos y el mosaico"
+msgstr "Tabulador: cambiar navegación entre la cuadrícula y la lista"
 
 #: activities/calcudoku/ActivityInfo.qml:27
 #: activities/sudoku/ActivityInfo.qml:28
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Space or Enter: select an item from the list"
 msgctxt "ActivityInfo|"
 msgid "Space: add or remove an item in the grid, or select an item in the list"
-msgstr "Espacio o Intro: seleccionar un elemento de la lista"
+msgstr ""
+"Espacio: añadir o eliminar un elemento de la cuadrícula o seleccionar un "
+"elemento de la lista"
 
 #: activities/calcudoku/ActivityInfo.qml:28
 #: activities/sudoku/ActivityInfo.qml:29
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Digits: 1 to 6 select/deselect the corresponding dots"
 msgctxt "ActivityInfo|"
 msgid "Numbers from 1 to 9: directly select the corresponding item in the list"
 msgstr ""
-"Dígitos: de 1 a 6 seleccionan o quitan la selección de los puntos "
-"correspondientes"
+"Números del 1 al 9: seleccionar directamente el elemento correspondiente de "
+"la lista"
 
 #. + is the unicode character for addition mathematical operator (+)
 #: activities/calcudoku/resource/1/Data.qml:66
@@ -22363,6 +22357,15 @@ msgid ""
 msgstr ""
 "Las direcciones son absolutas y no dependen de la orientación actual de Tux."
 
+#: activities/path_decoding/ActivityInfo.qml:26
+#: activities/path_decoding_relative/ActivityInfo.qml:27
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Space or Enter: flip the selected card"
+msgctxt "ActivityInfo|"
+msgid "Space or Enter: move Tux to the selected square"
+msgstr "Espacio o Intro: dar la vuelta a la carta seleccionada"
+
 #: activities/path_decoding/resource/1/Data.qml:13
 #: activities/path_decoding/resource/2/Data.qml:13
 #: activities/path_decoding/resource/3/Data.qml:13
@@ -22442,7 +22445,7 @@ msgctxt "ActivityInfo|"
 msgid "Arrows: directions"
 msgstr "Flechas: direcciones"
 
-#: activities/path_encoding/GridPath.qml:137
+#: activities/path_encoding/GridPath.qml:153
 #, qt-format
 msgctxt "GridPath|"
 msgid "Errors: %1"

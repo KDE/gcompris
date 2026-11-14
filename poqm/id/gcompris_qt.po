@@ -296,6 +296,8 @@ msgstr ""
 #: activities/multiple_choice_questions/ActivityInfo.qml:25
 #: activities/numbers-odd-even/ActivityInfo.qml:24
 #: activities/paintings/ActivityInfo.qml:30
+#: activities/path_decoding/ActivityInfo.qml:24
+#: activities/path_decoding_relative/ActivityInfo.qml:25
 #: activities/piano_composition/ActivityInfo.qml:33
 #: activities/planegame/ActivityInfo.qml:24
 #: activities/play_piano/ActivityInfo.qml:30
@@ -3387,6 +3389,8 @@ msgstr ""
 "langsung memberikan angka yang akan diisi."
 
 #: activities/calcudoku/ActivityInfo.qml:25
+#: activities/path_decoding/ActivityInfo.qml:25
+#: activities/path_decoding_relative/ActivityInfo.qml:26
 #: activities/sudoku/ActivityInfo.qml:26
 #, fuzzy
 #| msgctxt "ActivityInfo|"
@@ -22536,6 +22540,15 @@ msgid ""
 msgstr ""
 "Arahnya sudah ditentukan, mereka tidak bergantung pada orientasi Tux saat "
 "ini."
+
+#: activities/path_decoding/ActivityInfo.qml:26
+#: activities/path_decoding_relative/ActivityInfo.qml:27
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Space or Enter: flip the selected card"
+msgctxt "ActivityInfo|"
+msgid "Space or Enter: move Tux to the selected square"
+msgstr "Spasi atau Enter: balikkan kartu yang dipilih"
 
 #: activities/path_decoding/resource/1/Data.qml:13
 #: activities/path_decoding/resource/2/Data.qml:13

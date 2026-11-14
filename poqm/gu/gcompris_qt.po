@@ -266,6 +266,8 @@ msgstr ""
 #: activities/multiple_choice_questions/ActivityInfo.qml:25
 #: activities/numbers-odd-even/ActivityInfo.qml:24
 #: activities/paintings/ActivityInfo.qml:30
+#: activities/path_decoding/ActivityInfo.qml:24
+#: activities/path_decoding_relative/ActivityInfo.qml:25
 #: activities/piano_composition/ActivityInfo.qml:33
 #: activities/planegame/ActivityInfo.qml:24
 #: activities/play_piano/ActivityInfo.qml:30
@@ -3271,6 +3273,8 @@ msgstr ""
 "પાંજરામાં સીધો ભરવાનો નંબર આપેલો હોય છે."
 
 #: activities/calcudoku/ActivityInfo.qml:25
+#: activities/path_decoding/ActivityInfo.qml:25
+#: activities/path_decoding_relative/ActivityInfo.qml:26
 #: activities/sudoku/ActivityInfo.qml:26
 #, fuzzy
 #| msgctxt "ActivityInfo|"
@@ -21486,6 +21490,15 @@ msgid ""
 "The directions are absolute, they do not depend on the current orientation "
 "of Tux."
 msgstr "દિશાઓ નિશ્ચિત છે, તે ટક્સની વર્તમાન સ્થિતિ પર આધાર રાખતી નથી."
+
+#: activities/path_decoding/ActivityInfo.qml:26
+#: activities/path_decoding_relative/ActivityInfo.qml:27
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Space or Enter: flip the selected card"
+msgctxt "ActivityInfo|"
+msgid "Space or Enter: move Tux to the selected square"
+msgstr "સ્પેસ અથવા એન્ટર: પસંદ કરેલ કાર્ડ ફ્લિપ કરો"
 
 #: activities/path_decoding/resource/1/Data.qml:13
 #: activities/path_decoding/resource/2/Data.qml:13

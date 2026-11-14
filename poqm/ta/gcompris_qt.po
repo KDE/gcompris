@@ -305,6 +305,8 @@ msgstr ""
 #: activities/multiple_choice_questions/ActivityInfo.qml:25
 #: activities/numbers-odd-even/ActivityInfo.qml:24
 #: activities/paintings/ActivityInfo.qml:30
+#: activities/path_decoding/ActivityInfo.qml:24
+#: activities/path_decoding_relative/ActivityInfo.qml:25
 #: activities/piano_composition/ActivityInfo.qml:33
 #: activities/planegame/ActivityInfo.qml:24
 #: activities/play_piano/ActivityInfo.qml:30
@@ -3472,6 +3474,8 @@ msgstr ""
 "எண்ணை வழங்குகின்றன."
 
 #: activities/calcudoku/ActivityInfo.qml:25
+#: activities/path_decoding/ActivityInfo.qml:25
+#: activities/path_decoding_relative/ActivityInfo.qml:26
 #: activities/sudoku/ActivityInfo.qml:26
 #, fuzzy
 #| msgctxt "ActivityInfo|"
@@ -22938,6 +22942,15 @@ msgid ""
 "The directions are absolute, they do not depend on the current orientation "
 "of Tux."
 msgstr "திசைகள் டக்ஸின்  தற்போதைய நோக்குநிலையைச் சார்ந்து இல்லை"
+
+#: activities/path_decoding/ActivityInfo.qml:26
+#: activities/path_decoding_relative/ActivityInfo.qml:27
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Space or Enter: flip the selected card"
+msgctxt "ActivityInfo|"
+msgid "Space or Enter: move Tux to the selected square"
+msgstr "ஸ்பேஸ் அல்லது என்டர்: தேர்ந்தெடுக்கப்பட்ட அட்டையைத் திருப்பி போடுவதற்கு"
 
 #: activities/path_decoding/resource/1/Data.qml:13
 #: activities/path_decoding/resource/2/Data.qml:13
